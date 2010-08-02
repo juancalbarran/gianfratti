@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\WebForms\", "WebForms", "{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}|JomaBE.dll;{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}|JomaDAL.dll;{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}|Util.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebForms"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projetos\Joma\WebForms\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebForms\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebForms"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projetos\Joma\WebForms\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebForms\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1064"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomaBE", "Componentes\JomaBE\JomaBE.csproj", "{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomaDAL", "Componentes\JomaDAL\JomaDAL.csproj", "{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Componentes\Util\Util.csproj", "{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Debug|.NET.Build.0 = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Release|.NET.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Release|.NET.Build.0 = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{F725CE26-09F1-4A8F-BCAD-57B114AA25BE}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CBA280F6-5CDD-498D-ABB4-F60D485CA12C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AEC80385-D6F3-4BCC-B193-F2D8B07578F2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1D3269B8-94F0-42A9-AFD9-EC66D2EC469E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
