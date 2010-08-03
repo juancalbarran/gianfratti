@@ -1,0 +1,5 @@
+C:\Gianfratti\VS2005\Joma\Componentes\Util\bin\Debug\Util.dll
+C:\Gianfratti\VS2005\Joma\Componentes\Util\bin\Debug\Util.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2005\Joma\Componentes\Util\obj\Debug\Util.dll
+C:\Gianfratti\VS2005\Joma\Componentes\Util\obj\Debug\Util.pdb
