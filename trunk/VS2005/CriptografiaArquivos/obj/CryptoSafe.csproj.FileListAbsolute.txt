@@ -1,0 +1,45 @@
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\bin\Debug\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\bin\Debug\CryptoSafe.pdb
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.Form1.resources
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.Form_Password.resources
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.Properties.Resources.resources
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.csproj.GenerateResource.Cache
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\CryptoSafe\CryptoSafe\obj\Debug\CryptoSafe.pdb
+C:\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.exe
+C:\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.pdb
+C:\Projetos\CriptografiaArquivos\bin\Debug\CryptoSafe.exe
+C:\Projetos\CriptografiaArquivos\bin\Debug\CryptoSafe.pdb
+C:\Projetos\CriptografiaArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.Form1.resources
+C:\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.Properties.Resources.resources
+C:\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.csproj.GenerateResource.Cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\bin\Debug\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\bin\Debug\CryptoSafe.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.Form1.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.Properties.Resources.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Debug\CryptoSafe.csproj.GenerateResource.Cache
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\CryptoSafe.exe
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\CryptoSafe.pdb
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\bin\Debug\CryptoSafe.exe
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\bin\Debug\CryptoSafe.pdb
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\CryptoSafe.Form1.resources
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\CryptoSafe.Properties.Resources.resources
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Debug\CryptoSafe.csproj.GenerateResource.Cache
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\bin\Release\CryptoSafe.exe
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Release\ResolveAssemblyReference.cache
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Release\CryptoSafe.Form1.resources
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Release\CryptoSafe.Properties.Resources.resources
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Release\CryptoSafe.csproj.GenerateResource.Cache
+C:\Projetos\SmartDoc v2005\Prototipos\CriptografiaArquivos\obj\Release\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Release\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\bin\Release\CryptoSafe.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Release\CryptoSafe.Form1.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Release\CryptoSafe.Properties.Resources.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\CriptografiaArquivos\obj\Release\CryptoSafe.csproj.GenerateResource.Cache
