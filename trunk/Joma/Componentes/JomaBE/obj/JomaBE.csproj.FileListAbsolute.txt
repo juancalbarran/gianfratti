@@ -1,5 +1,0 @@
-C:\Projetos\Joma\Componentes\JomaBE\bin\Debug\JomaBE.dll
-C:\Projetos\Joma\Componentes\JomaBE\bin\Debug\JomaBE.pdb
-C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\ResolveAssemblyReference.cache
-C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\JomaBE.dll
-C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\JomaBE.pdb
