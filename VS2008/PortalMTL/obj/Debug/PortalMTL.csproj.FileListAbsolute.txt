@@ -1,0 +1,10 @@
+C:\Projetos\PortalMTL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\PortalMTL\bin\PortalMTL.dll
+C:\Projetos\PortalMTL\bin\PortalMTL.pdb
+C:\Projetos\PortalMTL\obj\Debug\PortalMTL.dll
+C:\Projetos\PortalMTL\obj\Debug\PortalMTL.pdb
+C:\Norman\Mobile 2S\Mobile For Lawyers\Current Source Code\PortalMTL\bin\PortalMTL.dll
+C:\Norman\Mobile 2S\Mobile For Lawyers\Current Source Code\PortalMTL\bin\PortalMTL.pdb
+C:\Norman\Mobile 2S\Mobile For Lawyers\Current Source Code\PortalMTL\obj\Debug\ResolveAssemblyReference.cache
+C:\Norman\Mobile 2S\Mobile For Lawyers\Current Source Code\PortalMTL\obj\Debug\PortalMTL.dll
+C:\Norman\Mobile 2S\Mobile For Lawyers\Current Source Code\PortalMTL\obj\Debug\PortalMTL.pdb

@@ -1,0 +1,10 @@
+C:\Projetos\Gianfratti.com\Componentes\Gianfratti\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.dll
+C:\Projetos\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.pdb
+C:\Projetos\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.dll
+C:\Projetos\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.pdb
+C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.dll
+C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.pdb
+C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.dll
+C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.pdb
