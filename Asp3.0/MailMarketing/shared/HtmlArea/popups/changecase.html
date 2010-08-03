@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD W3 HTML 3.2//EN">
+<HTML id=dlgChangeCase STYLE="width: 200px; height: 103px;">
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<TITLE>Change Case</TITLE>
+<style>
+html, body, button, div, input, select, fieldset,td { font-family: MS Shell Dlg; font-size: 8pt;};
+</style>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+function ReturnSelected() {
+var text = escape( document.myform.display.value );
+window.returnValue = text;window.close();
+}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!-- 
+function _CloseOnEsc() {
+  if (event.keyCode == 27) { window.close(); return; }
+}
+
+function Init() {                                                       // run on page load
+document.body.onkeypress = _CloseOnEsc;
+HighlightedText = window.dialogArguments;
+document.all.userinput.value = HighlightedText;
+
+}
+
+	function changeCase(html_str, desired_case) {
+	var isTag = 0;		// is the current character part of a tag?
+	var newString = ''; // the new case-changed string
+	
+	for (i=0; i<html_str.length; i++) { 
+	var currentChar = html_str.charAt(i); // current character being examined
+	
+		if (currentChar == '<') { isTag = 1; }
+		if (currentChar == '>') { isTag = 0; }
+		if (isTag == 0) {
+			if (desired_case == 'upper') 		{ newString += currentChar.toUpperCase(); }
+			else if (desired_case == 'lower')	{ newString += currentChar.toLowerCase(); }
+			else 								{ alert("You've called changeCase incorrectly!"); }
+		}
+			else { newString += html_str.charAt(i); }
+	}
+	return newString;
+	}	
+
+	function dolowercase()
+	{
+	var txt=document.myform.userinput.value;
+	document.myform.display.value=txt
+	document.myform.display.value = changeCase(txt, 'lower');
+	}
+	
+	function douppercase()
+	{
+	var txt=document.myform.userinput.value;
+	txt=txt.replace(/\&nbsp\;/ig, '');
+	document.myform.display.value=txt
+	document.myform.display.value = changeCase(txt, 'upper');
+	}
+-->
+</SCRIPT>
+</HEAD>
+<BODY style="background: threedface; color: windowtext;" scroll=no onload="Init()">
+<FORM  NAME="myform"><FIELDSET>
+<TABLE ALIGN="center" WIDTH="180"><TR><TD>
+<BR>
+<input type="radio" onClick="dolowercase();ReturnSelected();">lowercase<BR>
+<input type="radio" onClick="douppercase();ReturnSelected();">UPPERCASE<BR>
+<!-- <input type="radio" onClick="DoTitle();ReturnSelected();">Title Case<BR>
+<input type="radio" onClick="doSentence();ReturnSelected();">Sentence Case<BR> -->
+</TD><TD VALIGN="middle" ALIGN="center">
+<input type="button" VALUE="Cancel" onClick="window.close();">
+<INPUT TYPE="hidden" NAME="userinput" onFocus="document.myform.display.value=''">
+<INPUT TYPE="hidden" NAME="display" VALUE="">
+</TD></TR></TABLE><BR>
+</FIELDSET>
+</FORM>
+
+</CENTER>
+</BODY>
+</HTML>
+
+
