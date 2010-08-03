@@ -1,0 +1,69 @@
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\BE.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\BE.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\DigitalArchive\Componentes\DAL\bin\Debug\DAL.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\DAL.pdb
+E:\DigitalArchive\Componentes\DAL\bin\Debug\BE.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\DigitalArchive\Componentes\DAL\bin\Debug\BE.pdb
+E:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+E:\DigitalArchive\Componentes\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\DigitalArchive\Componentes\DAL\obj\Debug\DAL.dll
+E:\DigitalArchive\Componentes\DAL\obj\Debug\DAL.pdb
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\DAL.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\DAL.pdb
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\BE.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\BE.pdb
+Y:\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+Y:\DigitalArchive\Componentes\DAL\obj\Debug\ResolveAssemblyReference.cache
+Y:\DigitalArchive\Componentes\DAL\obj\Debug\DAL.dll
+Y:\DigitalArchive\Componentes\DAL\obj\Debug\DAL.pdb
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\DAL.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\DAL.pdb
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\BE.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\BE.pdb
+C:\Projetos\DigitalArchive\Componentes\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\DAL.dll
+C:\Projetos\DigitalArchive\Componentes\DAL\obj\Debug\DAL.pdb

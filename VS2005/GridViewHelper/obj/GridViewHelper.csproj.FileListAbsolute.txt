@@ -1,0 +1,15 @@
+E:\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.dll
+E:\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.pdb
+E:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.dll
+E:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.pdb
+Y:\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.dll
+Y:\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.pdb
+Y:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\ResolveAssemblyReference.cache
+Y:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.dll
+Y:\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.pdb
+C:\Projetos\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.dll
+C:\Projetos\DigitalArchive\Componentes\GridViewHelper\bin\Debug\GridViewHelper.pdb
+C:\Projetos\DigitalArchive\Componentes\GridViewHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.dll
+C:\Projetos\DigitalArchive\Componentes\GridViewHelper\obj\Debug\GridViewHelper.pdb
