@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="How-To Service Manager">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\How-To Service Manager.sln">
+</Property><Property Name="Date" Value="quarta-feira, 24 de setembro de 2008">
+</Property><Property Name="Time" Value="14:56">
+</Property></Properties><Event ErrorLevel="0" Project="How-To Service Manager" Source="How-To Service Manager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="How-To Service Manager" Source="How-To Service Manager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="How-To Service Manager.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="How-To Service Manager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="How-To Service Manager" Source="How-To Service Manager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

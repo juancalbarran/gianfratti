@@ -1,0 +1,18 @@
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\bin\Debug\How-To Service Manager.exe
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\bin\Debug\How-To Service Manager.pdb
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\frmAbout.resources
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\frmMain.resources
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\How-To Service Manager.csproj.GenerateResource.Cache
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\How-To Service Manager.exe
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\How-To Service Manager.pdb
+C:\Documents and Settings\fmanes\Meus documentos\MSDN\101 C# Samples\Framework - How-To Service Manager\obj\Debug\HowTo.ServiceMgr.frmPC.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\How-To Service Manager.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\How-To Service Manager.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\bin\Debug\How-To Service Manager.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\bin\Debug\How-To Service Manager.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\frmAbout.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\frmMain.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\HowTo.ServiceMgr.frmPC.resources
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\ServicosWindows\obj\Debug\How-To Service Manager.csproj.GenerateResource.Cache
