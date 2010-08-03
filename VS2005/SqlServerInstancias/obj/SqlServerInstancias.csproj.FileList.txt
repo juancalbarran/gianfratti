@@ -1,0 +1,12 @@
+bin\Debug\SqlServerInstancias.exe
+bin\Debug\SqlServerInstancias.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SqlServerInstancias.Form1.resources
+obj\Debug\SqlServerInstancias.Properties.Resources.resources
+obj\Debug\SqlServerInstancias.csproj.GenerateResource.Cache
+obj\Debug\SqlServerInstancias.exe
+obj\Debug\SqlServerInstancias.pdb
+bin\Debug\SqlServerInstancias.exe.manifest
+bin\Debug\SqlServerInstancias.application
+obj\Debug\SqlServerInstancias.exe.manifest
+obj\Debug\SqlServerInstancias.application
