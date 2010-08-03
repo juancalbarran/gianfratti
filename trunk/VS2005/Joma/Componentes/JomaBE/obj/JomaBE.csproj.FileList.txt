@@ -1,0 +1,5 @@
+bin\Debug\JomaBE.dll
+bin\Debug\JomaBE.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\JomaBE.dll
+obj\Debug\JomaBE.pdb
