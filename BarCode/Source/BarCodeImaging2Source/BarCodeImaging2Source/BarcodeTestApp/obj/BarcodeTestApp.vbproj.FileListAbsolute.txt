@@ -1,0 +1,14 @@
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\bin\BarcodeTestApp.exe
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\bin\BarcodeTestApp.pdb
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\bin\BarcodeTestApp.xml
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\bin\BarcodeImaging.dll
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\bin\BarcodeImaging.pdb
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.Form1.resources
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.vbproj.GenerateResource.Cache
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.exe
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.xml
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\BarCode\Source\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.exe
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\BarCode\Source\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.xml
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\BarCode\Source\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeTestApp\obj\Debug\BarcodeTestApp.pdb

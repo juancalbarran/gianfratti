@@ -1,0 +1,11 @@
+Fabrizio Gianfratti Manes
+
+24/04/2009
+
+Navegando na internet achei esse algoritimo de reconhecimento de BarCode sem Engines.
+
+Funciona muito bem no que promete, reconhecer BarCode que contenham as estremidades *, tipo *123456789*
+
+Quando scaneado uma imagem bitonal o reconhecimento é preciso.
+
+Link: http://www.codeproject.com/KB/graphics/barcodeimaging2.aspx

@@ -1,0 +1,5 @@
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging\bin\Debug\BarcodeImaging.dll
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging\bin\Debug\BarcodeImaging.pdb
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging\obj\Debug\BarcodeImaging.dll
+C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging\obj\Debug\BarcodeImaging.pdb
