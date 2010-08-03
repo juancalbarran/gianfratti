@@ -1,0 +1,8 @@
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\PortScanner.exe
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\PortScanner.pdb
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\bin\Debug\PortScanner.exe
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\bin\Debug\PortScanner.pdb
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\PortScanner.frmMain.resources
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\PortScanner.Properties.Resources.resources
+C:\Documents and Settings\fmanes.RCBAB\Desktop\PortScanner.NET\PortScanner.NET\PortScanner\obj\Debug\PortScanner.NET.csproj.GenerateResource.Cache

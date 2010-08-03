@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortScanner.NET", "PortScanner\PortScanner.NET.csproj", "{AA11E5E8-1B47-4748-8644-AE75B0D6E9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA11E5E8-1B47-4748-8644-AE75B0D6E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA11E5E8-1B47-4748-8644-AE75B0D6E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA11E5E8-1B47-4748-8644-AE75B0D6E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA11E5E8-1B47-4748-8644-AE75B0D6E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
