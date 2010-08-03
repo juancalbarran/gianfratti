@@ -1,0 +1,11 @@
+bin\Debug\Zip.exe
+bin\Debug\Zip.pdb
+bin\Debug\ICSharpCode.SharpZipLib.dll
+bin\Debug\ICSharpCode.SharpZipLib.pdb
+bin\Debug\ICSharpCode.SharpZipLib.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Zip.Properties.Resources.resources
+obj\Debug\Zip.csproj.GenerateResource.Cache
+obj\Debug\Zip.exe
+obj\Debug\Zip.pdb
+obj\Debug\Zip.Form1.resources

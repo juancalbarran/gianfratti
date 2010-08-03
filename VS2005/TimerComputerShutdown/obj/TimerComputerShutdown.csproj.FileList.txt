@@ -1,0 +1,14 @@
+bin\Debug\TimerComputerShutdown.exe
+bin\Debug\TimerComputerShutdown.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TimerComputerShutdown.About.resources
+obj\Debug\TimerComputerShutdown.Error.resources
+obj\Debug\TimerComputerShutdown.TimerComputerShutdown.resources
+obj\Debug\TimerComputerShutdown.Warning.resources
+obj\Debug\TimerComputerShutdown.csproj.GenerateResource.Cache
+obj\Debug\TimerComputerShutdown.exe
+obj\Debug\TimerComputerShutdown.pdb
+bin\Debug\TimerComputerShutdown.exe.manifest
+bin\Debug\TimerComputerShutdown.application
+obj\Debug\TimerComputerShutdown.exe.manifest
+obj\Debug\TimerComputerShutdown.application

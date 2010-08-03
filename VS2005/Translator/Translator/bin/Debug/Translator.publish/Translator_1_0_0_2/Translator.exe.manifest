@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Translator.exe" version="1.0.0.2" publicKeyToken="97056cf5225e75c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Translator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Translator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Translator.exe" size="53248">
+      <assemblyIdentity name="Translator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>moWScDcDIAWFvSALlt0EnHvzTXc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Translator.exe.config" size="74">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XshrqJbLMwJ7FM1jR7BQZyNqypc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GIANFRATTI\Fabrizio" issuerKeyHash="ec06c02504011ec3585c66ea0cbcabef93c4b9db" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LkkPJBShGmofdPQKGBp7iIAw3aU=</DigestValue></Reference></SignedInfo><SignatureValue>RQvSQAdhOSEzYL4uJA6IRMsE1GHxRjsy4sSEqfiQS0aPGXVP87dQbet6K8K6Rb3BlWwEKsprEB0DOvF9Wlg/FUt2qeKOtDtEk7HeVpOo9sPohd6VMmVdl5wMvy4IH1kmwoet2gi8CjcYaN5LKOA7Kll9dql0hPXaOO6Xc3NiKCI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oSihw7+v8CSmCUqsxgfSk0p1iGPtgrBIQvjaZ9ZA7Yrzw2eyk0MxjBCkCoAi5miD6vGSRTZuraIA3sCyoBlRTb6QpI8eyOc+16ySB/YRjYIYVUtmFEaym3PL1Iiz1HdrJ+BFajcRo+ueA9qjOeO5dhS7X3TDD8tleOXIE7cH3XM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5dd3080887b1a180af4741f6a1aa114240f492e" Description="" Url=""><as:assemblyIdentity name="Translator.exe" version="1.0.0.2" publicKeyToken="97056cf5225e75c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GIANFRATTI\Fabrizio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1zAGXXifFdlAYApCsttlaXKf+3c=</DigestValue></Reference></SignedInfo><SignatureValue>YQd6j59zqrZpe/ctQ2YHj07eaMOrqjHMypvWeyaK6nDFMa7BSd+3TkIBNwHGuqa09Yw4HP5YG2eVhR1RTvgkvnN8va4aZn9uzkiYw8oRfpvV3kQQQNGB/iXvms4yIs9ZM6ug2LMTBFaEXYW2RwR6tly1ax6eN29AngEl3AEuwMQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oSihw7+v8CSmCUqsxgfSk0p1iGPtgrBIQvjaZ9ZA7Yrzw2eyk0MxjBCkCoAi5miD6vGSRTZuraIA3sCyoBlRTb6QpI8eyOc+16ySB/YRjYIYVUtmFEaym3PL1Iiz1HdrJ+BFajcRo+ueA9qjOeO5dhS7X3TDD8tleOXIE7cH3XM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQel856la6AI1A0SYE/MpzwzAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBHAEkAQQBOAEYAUgBBAFQAVABJAFwARgBhAGIAcgBpAHoAaQBvMB4XDTA3MTExMDE3MjAyMloXDTA4MTEwOTIzMjAyMlowMTEvMC0GA1UEAx4mAEcASQBBAE4ARgBSAEEAVABUAEkAXABGAGEAYgByAGkAegBpAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKEoocO/r/AkpglKrMYH0pNKdYhj7YKwSEL42mfWQO2K88NnspNDMYwQpAqAIuZog+rxkkU2bq2iAN7AsqAZUU2+kKSPHsjnPteskgf2EY2CGFVLZhRGsptzy9SIs9R3ayfgRWo3EaPrngPaoznjuXYUu190ww/LZXjlyBO3B91zAgMBAAEwCQYFKw4DAh0FAAOBgQBKGq8SUU9QC2l3cNzrvtwoVtYhkD2vDRbEExGKMTOezsp+VkZ0IeRmKQLNqzDMmgS1gf+TD3JClgTpHSc3J5uxmVbZcNvkI8Kv69PRypCcfCFSnM6IVwgl7+PIbCGb3/OvxSzRSp/x8S+fLCIMq3WBtV8ypFd7Z3lng18rspmhJg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
