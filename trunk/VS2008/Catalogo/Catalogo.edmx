@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Catalogo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="CatalogoStoreContainer">
+          <EntitySet Name="Autores" EntityType="Catalogo.Store.Autores" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CatalogoLivros" EntityType="Catalogo.Store.CatalogoLivros" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Categorias" EntityType="Catalogo.Store.Categorias" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Editoras" EntityType="Catalogo.Store.Editoras" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Usuario" EntityType="Catalogo.Store.Usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UsuarioPerfil" EntityType="Catalogo.Store.UsuarioPerfil" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_CatalogoLivros_Autores" Association="Catalogo.Store.FK_CatalogoLivros_Autores">
+            <End Role="Autores" EntitySet="Autores" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Categorias" Association="Catalogo.Store.FK_CatalogoLivros_Categorias">
+            <End Role="Categorias" EntitySet="Categorias" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Editoras" Association="Catalogo.Store.FK_CatalogoLivros_Editoras">
+            <End Role="Editoras" EntitySet="Editoras" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Usuario" Association="Catalogo.Store.FK_CatalogoLivros_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_UsuarioPerfil" Association="Catalogo.Store.FK_Usuario_UsuarioPerfil">
+            <End Role="UsuarioPerfil" EntitySet="UsuarioPerfil" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Autores">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="CatalogoLivros">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="IdCategoria" Type="int" Nullable="false" />
+          <Property Name="IdEditora" Type="int" Nullable="false" />
+          <Property Name="IdAutor" Type="int" Nullable="false" />
+          <Property Name="idUsuario" Type="int" Nullable="false" />
+          <Property Name="Titulo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Sinopse" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ISBN" Type="nvarchar" MaxLength="50" />
+          <Property Name="Edicao" Type="nvarchar" MaxLength="50" />
+          <Property Name="Autor" Type="nvarchar" MaxLength="100" />
+          <Property Name="Paginas" Type="nvarchar" MaxLength="50" />
+          <Property Name="Img" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tags" Type="nvarchar" MaxLength="200" />
+          <Property Name="Observacao" Type="nvarchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="Categorias">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="IdCatalogoLivros" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Editoras">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="idPerfil" Type="int" Nullable="false" />
+          <Property Name="nome" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Senha" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Deletado" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UsuarioPerfil">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Perfil" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_CatalogoLivros_Autores">
+          <End Role="Autores" Type="Catalogo.Store.Autores" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.Store.CatalogoLivros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Autores">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CatalogoLivros">
+              <PropertyRef Name="IdAutor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CatalogoLivros_Categorias">
+          <End Role="Categorias" Type="Catalogo.Store.Categorias" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.Store.CatalogoLivros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categorias">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CatalogoLivros">
+              <PropertyRef Name="IdCategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CatalogoLivros_Editoras">
+          <End Role="Editoras" Type="Catalogo.Store.Editoras" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.Store.CatalogoLivros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Editoras">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CatalogoLivros">
+              <PropertyRef Name="IdEditora" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CatalogoLivros_Usuario">
+          <End Role="Usuario" Type="Catalogo.Store.Usuario" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.Store.CatalogoLivros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CatalogoLivros">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usuario_UsuarioPerfil">
+          <End Role="UsuarioPerfil" Type="Catalogo.Store.UsuarioPerfil" Multiplicity="1" />
+          <End Role="Usuario" Type="Catalogo.Store.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UsuarioPerfil">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="idPerfil" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Catalogo" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="CatalogoEntities">
+          <EntitySet Name="Autores" EntityType="Catalogo.Autores" />
+          <EntitySet Name="CatalogoLivros" EntityType="Catalogo.CatalogoLivros" />
+          <EntitySet Name="Categorias" EntityType="Catalogo.Categorias" />
+          <EntitySet Name="Editoras" EntityType="Catalogo.Editoras" />
+          <EntitySet Name="Usuario" EntityType="Catalogo.Usuario" />
+          <EntitySet Name="UsuarioPerfil" EntityType="Catalogo.UsuarioPerfil" />
+          <AssociationSet Name="FK_CatalogoLivros_Autores" Association="Catalogo.FK_CatalogoLivros_Autores">
+            <End Role="Autores" EntitySet="Autores" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Categorias" Association="Catalogo.FK_CatalogoLivros_Categorias">
+            <End Role="Categorias" EntitySet="Categorias" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Editoras" Association="Catalogo.FK_CatalogoLivros_Editoras">
+            <End Role="Editoras" EntitySet="Editoras" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CatalogoLivros_Usuario" Association="Catalogo.FK_CatalogoLivros_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="CatalogoLivros" EntitySet="CatalogoLivros" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_UsuarioPerfil" Association="Catalogo.FK_Usuario_UsuarioPerfil">
+            <End Role="UsuarioPerfil" EntitySet="UsuarioPerfil" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Autores">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CatalogoLivros" Relationship="Catalogo.FK_CatalogoLivros_Autores" FromRole="Autores" ToRole="CatalogoLivros" />
+        </EntityType>
+        <EntityType Name="CatalogoLivros">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Titulo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Sinopse" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <Property Name="ISBN" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Edicao" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Autor" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Paginas" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Img" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Tags" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Observacao" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Autores" Relationship="Catalogo.FK_CatalogoLivros_Autores" FromRole="CatalogoLivros" ToRole="Autores" />
+          <NavigationProperty Name="Categorias" Relationship="Catalogo.FK_CatalogoLivros_Categorias" FromRole="CatalogoLivros" ToRole="Categorias" />
+          <NavigationProperty Name="Editoras" Relationship="Catalogo.FK_CatalogoLivros_Editoras" FromRole="CatalogoLivros" ToRole="Editoras" />
+          <NavigationProperty Name="Usuario" Relationship="Catalogo.FK_CatalogoLivros_Usuario" FromRole="CatalogoLivros" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Categorias">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="IdCatalogoLivros" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CatalogoLivros" Relationship="Catalogo.FK_CatalogoLivros_Categorias" FromRole="Categorias" ToRole="CatalogoLivros" />
+        </EntityType>
+        <EntityType Name="Editoras">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CatalogoLivros" Relationship="Catalogo.FK_CatalogoLivros_Editoras" FromRole="Editoras" ToRole="CatalogoLivros" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Senha" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Deletado" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="CatalogoLivros" Relationship="Catalogo.FK_CatalogoLivros_Usuario" FromRole="Usuario" ToRole="CatalogoLivros" />
+          <NavigationProperty Name="UsuarioPerfil" Relationship="Catalogo.FK_Usuario_UsuarioPerfil" FromRole="Usuario" ToRole="UsuarioPerfil" />
+        </EntityType>
+        <EntityType Name="UsuarioPerfil">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Usuario" Relationship="Catalogo.FK_Usuario_UsuarioPerfil" FromRole="UsuarioPerfil" ToRole="Usuario" />
+          <Property Name="Perfil" Type="String" Nullable="false" /></EntityType>
+        <Association Name="FK_CatalogoLivros_Autores">
+          <End Role="Autores" Type="Catalogo.Autores" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.CatalogoLivros" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_CatalogoLivros_Categorias">
+          <End Role="Categorias" Type="Catalogo.Categorias" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.CatalogoLivros" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_CatalogoLivros_Editoras">
+          <End Role="Editoras" Type="Catalogo.Editoras" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.CatalogoLivros" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_CatalogoLivros_Usuario">
+          <End Role="Usuario" Type="Catalogo.Usuario" Multiplicity="1" />
+          <End Role="CatalogoLivros" Type="Catalogo.CatalogoLivros" Multiplicity="*" />
+        </Association>
+        <Association Name="FK_Usuario_UsuarioPerfil">
+          <End Role="UsuarioPerfil" Type="Catalogo.UsuarioPerfil" Multiplicity="1" />
+          <End Role="Usuario" Type="Catalogo.Usuario" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="CatalogoStoreContainer" CdmEntityContainer="CatalogoEntities">
+          <EntitySetMapping Name="Autores">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.Autores)">
+              <MappingFragment StoreEntitySet="Autores">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CatalogoLivros">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.CatalogoLivros)">
+              <MappingFragment StoreEntitySet="CatalogoLivros">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Sinopse" ColumnName="Sinopse" />
+                <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+                <ScalarProperty Name="Edicao" ColumnName="Edicao" />
+                <ScalarProperty Name="Autor" ColumnName="Autor" />
+                <ScalarProperty Name="Paginas" ColumnName="Paginas" />
+                <ScalarProperty Name="Img" ColumnName="Img" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categorias">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.Categorias)">
+              <MappingFragment StoreEntitySet="Categorias">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IdCatalogoLivros" ColumnName="IdCatalogoLivros" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Editoras">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.Editoras)">
+              <MappingFragment StoreEntitySet="Editoras">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuario">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.Usuario)">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Senha" ColumnName="Senha" />
+                <ScalarProperty Name="Deletado" ColumnName="Deletado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UsuarioPerfil">
+            <EntityTypeMapping TypeName="IsTypeOf(Catalogo.UsuarioPerfil)">
+              <MappingFragment StoreEntitySet="UsuarioPerfil">
+                <ScalarProperty Name="Perfil" ColumnName="Perfil" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_CatalogoLivros_Autores" TypeName="Catalogo.FK_CatalogoLivros_Autores" StoreEntitySet="CatalogoLivros">
+            <EndProperty Name="Autores">
+              <ScalarProperty Name="ID" ColumnName="IdAutor" />
+            </EndProperty>
+            <EndProperty Name="CatalogoLivros">
+              <ScalarProperty Name="ID" ColumnName="ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_CatalogoLivros_Categorias" TypeName="Catalogo.FK_CatalogoLivros_Categorias" StoreEntitySet="CatalogoLivros">
+            <EndProperty Name="Categorias">
+              <ScalarProperty Name="ID" ColumnName="IdCategoria" />
+            </EndProperty>
+            <EndProperty Name="CatalogoLivros">
+              <ScalarProperty Name="ID" ColumnName="ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_CatalogoLivros_Editoras" TypeName="Catalogo.FK_CatalogoLivros_Editoras" StoreEntitySet="CatalogoLivros">
+            <EndProperty Name="Editoras">
+              <ScalarProperty Name="ID" ColumnName="IdEditora" />
+            </EndProperty>
+            <EndProperty Name="CatalogoLivros">
+              <ScalarProperty Name="ID" ColumnName="ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_CatalogoLivros_Usuario" TypeName="Catalogo.FK_CatalogoLivros_Usuario" StoreEntitySet="CatalogoLivros">
+            <EndProperty Name="Usuario">
+              <ScalarProperty Name="ID" ColumnName="idUsuario" />
+            </EndProperty>
+            <EndProperty Name="CatalogoLivros">
+              <ScalarProperty Name="ID" ColumnName="ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_Usuario_UsuarioPerfil" TypeName="Catalogo.FK_Usuario_UsuarioPerfil" StoreEntitySet="Usuario">
+            <EndProperty Name="UsuarioPerfil">
+              <ScalarProperty Name="ID" ColumnName="idPerfil" />
+            </EndProperty>
+            <EndProperty Name="Usuario">
+              <ScalarProperty Name="ID" ColumnName="ID" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="Catalogo">
+        <EntityTypeShape EntityType="Catalogo.Autores" Width="1.5" PointX="3" PointY="4.75" Height="1.4279589843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="Catalogo.CatalogoLivros" Width="1.5" PointX="5.25" PointY="1" Height="3.2357796223958339" IsExpanded="true" />
+        <EntityTypeShape EntityType="Catalogo.Categorias" Width="1.5" PointX="3" PointY="9.125" Height="1.5923063151041674" IsExpanded="true" />
+        <EntityTypeShape EntityType="Catalogo.Editoras" Width="1.5" PointX="3" PointY="7" Height="1.4279589843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="Catalogo.Usuario" Width="1.5" PointX="3" PointY="1.5" Height="2.0853483072916665" IsExpanded="true" />
+        <EntityTypeShape EntityType="Catalogo.UsuarioPerfil" Width="1.5" PointX="0.75" PointY="1.875" Height="1.427958984375" IsExpanded="true" />
+        <AssociationConnector Association="Catalogo.FK_CatalogoLivros_Autores" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="5.4639794921875" />
+          <ConnectorPoint PointX="5.5104141666666671" PointY="5.4639794921874989" />
+          <ConnectorPoint PointX="5.6770808333333331" PointY="5.4639794921875" />
+          <ConnectorPoint PointX="6" PointY="5.4639794921875" />
+          <ConnectorPoint PointX="6" PointY="4.2357796223958335" /></AssociationConnector>
+        <AssociationConnector Association="Catalogo.FK_CatalogoLivros_Categorias" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="9.9211531575520837" />
+          <ConnectorPoint PointX="5.5937475" PointY="9.9211531575520837" />
+          <ConnectorPoint PointX="5.5937475" PointY="4.2357796223958335" /></AssociationConnector>
+        <AssociationConnector Association="Catalogo.FK_CatalogoLivros_Editoras" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="7.7139794921875" />
+          <ConnectorPoint PointX="5.5104141666666671" PointY="7.7139794921874989" />
+          <ConnectorPoint PointX="5.6770808333333331" PointY="7.7139794921875" />
+          <ConnectorPoint PointX="6.4062525" PointY="7.7139794921875" />
+          <ConnectorPoint PointX="6.4062525" PointY="4.2357796223958335" /></AssociationConnector>
+        <AssociationConnector Association="Catalogo.FK_CatalogoLivros_Usuario" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="2.5426741536458333" />
+          <ConnectorPoint PointX="5.25" PointY="2.5426741536458333" /></AssociationConnector>
+        <AssociationConnector Association="Catalogo.FK_Usuario_UsuarioPerfil" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.5889794921875" />
+          <ConnectorPoint PointX="3" PointY="2.5889794921875" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

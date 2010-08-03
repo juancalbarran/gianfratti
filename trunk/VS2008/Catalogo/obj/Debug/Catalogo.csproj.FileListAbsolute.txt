@@ -1,0 +1,10 @@
+C:\Projetos\Catalogo\bin\Catalogo.dll
+C:\Projetos\Catalogo\bin\Catalogo.pdb
+C:\Projetos\Catalogo\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Catalogo\obj\Debug\Catalogo.dll
+C:\Projetos\Catalogo\obj\Debug\Catalogo.pdb
+C:\Projetos\VS2008\Catalogo\bin\Catalogo.dll
+C:\Projetos\VS2008\Catalogo\bin\Catalogo.pdb
+C:\Projetos\VS2008\Catalogo\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\VS2008\Catalogo\obj\Debug\Catalogo.dll
+C:\Projetos\VS2008\Catalogo\obj\Debug\Catalogo.pdb

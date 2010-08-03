@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PortalMTLModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="PortalMTLModelStoreContainer">
+          <EntitySet Name="agenda_usuario" EntityType="PortalMTLModel.Store.agenda_usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="cliente_processo" EntityType="PortalMTLModel.Store.cliente_processo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="documento" EntityType="PortalMTLModel.Store.documento" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="empresa" EntityType="PortalMTLModel.Store.empresa" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="obs_vista_padrao" EntityType="PortalMTLModel.Store.obs_vista_padrao" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="perfil_usuario" EntityType="PortalMTLModel.Store.perfil_usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="processo" EntityType="PortalMTLModel.Store.processo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tipo_doc" EntityType="PortalMTLModel.Store.tipo_doc" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="usuario" EntityType="PortalMTLModel.Store.usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="vista_processo" EntityType="PortalMTLModel.Store.vista_processo" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_agenda_empresa" Association="PortalMTLModel.Store.FK_agenda_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="agenda_usuario" EntitySet="agenda_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_cliente_processo_empresa" Association="PortalMTLModel.Store.FK_cliente_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="cliente_processo" EntitySet="cliente_processo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_documento_empresa" Association="PortalMTLModel.Store.FK_documento_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="documento" EntitySet="documento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_obs_vista_padrao_empresa" Association="PortalMTLModel.Store.FK_obs_vista_padrao_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="obs_vista_padrao" EntitySet="obs_vista_padrao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_perfil_usuario_empresa" Association="PortalMTLModel.Store.FK_perfil_usuario_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="perfil_usuario" EntitySet="perfil_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_processo_empresa" Association="PortalMTLModel.Store.FK_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="processo" EntitySet="processo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tipo_doc_empresa" Association="PortalMTLModel.Store.FK_tipo_doc_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="tipo_doc" EntitySet="tipo_doc" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usuario_empresa" Association="PortalMTLModel.Store.FK_usuario_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vista_processo_empresa" Association="PortalMTLModel.Store.FK_vista_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="vista_processo" EntitySet="vista_processo" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="agenda_usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idUsuario" />
+            <PropertyRef Name="dtAgenda" />
+            <PropertyRef Name="idProcesso" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idUsuario" Type="numeric" Nullable="false" Precision="5" />
+          <Property Name="dtAgenda" Type="datetime" Nullable="false" />
+          <Property Name="idProcesso" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="atividades" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="del" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="cliente_processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idCliente" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idCliente" Type="numeric" Nullable="false" Precision="3" StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="cnpj" Type="nvarchar" Nullable="false" MaxLength="14" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="razoSocial" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="documento">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idDoc" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idDoc" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="idVista" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="idTipoDoc" Type="numeric" Nullable="false" Precision="3" />
+          <Property Name="dtCriacao" Type="datetime" Nullable="false" />
+          <Property Name="pathImgF" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="pathImgV" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="chave" Type="nvarchar" MaxLength="100" />
+          <Property Name="observacao" Type="nvarchar" MaxLength="255" />
+          <Property Name="status" Type="tinyint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="empresa">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="cnpj" Type="nvarchar" Nullable="false" MaxLength="14" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="razaosocial" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="obs_vista_padrao">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idObs" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idObs" Type="numeric" Nullable="false" Precision="3" StoreGeneratedPattern="Identity" />
+          <Property Name="descricao" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="del" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="perfil_usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idPerfil" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idPerfil" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="alias" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="del" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idProcesso" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="numProcesso" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="dtAgenda" Type="datetime" Nullable="false" />
+          <Property Name="dtProcesso" Type="datetime" />
+          <Property Name="status" Type="tinyint" Nullable="false" />
+          <Property Name="idUsuario" Type="numeric" Nullable="false" Precision="5" />
+          <Property Name="idCliente" Type="numeric" Nullable="false" Precision="3" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="nomeVara" Type="nvarchar" MaxLength="100" />
+          <Property Name="nomeReu" Type="nvarchar" MaxLength="100" />
+          <Property Name="nomeAutor" Type="nvarchar" MaxLength="100" />
+          <Property Name="dtUltSinc" Type="datetime" />
+        </EntityType>
+        <EntityType Name="tipo_doc">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idTipoDoc" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idTipoDoc" Type="numeric" Nullable="false" Precision="3" StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="descricao" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idUsuario" Type="numeric" Nullable="false" Precision="5" StoreGeneratedPattern="Identity" />
+          <Property Name="idPerfil" Type="smallint" Nullable="false" />
+          <Property Name="login" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="senha" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="nome" Type="nvarchar" MaxLength="20" />
+          <Property Name="oab" Type="nvarchar" MaxLength="20" />
+          <Property Name="numSerieDevice" Type="nvarchar" MaxLength="30" />
+          <Property Name="dtUltConexao" Type="datetime" />
+          <Property Name="IPUltConexao" Type="nvarchar" MaxLength="43" />
+          <Property Name="numDDD" Type="nvarchar" MaxLength="4" />
+          <Property Name="numCel" Type="nvarchar" MaxLength="10" />
+          <Property Name="email" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="vista_processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idVista" />
+          </Key>
+          <Property Name="idEmpresa" Type="smallint" Nullable="false" />
+          <Property Name="idVista" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="idProcesso" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="dtVista" Type="datetime" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="del" Type="bit" Nullable="false" />
+          <Property Name="observacao" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <Association Name="FK_agenda_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="agenda_usuario" Type="PortalMTLModel.Store.agenda_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="agenda_usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_cliente_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="cliente_processo" Type="PortalMTLModel.Store.cliente_processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="cliente_processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_documento_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="documento" Type="PortalMTLModel.Store.documento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="documento">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_obs_vista_padrao_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="obs_vista_padrao" Type="PortalMTLModel.Store.obs_vista_padrao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="obs_vista_padrao">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_perfil_usuario_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="perfil_usuario" Type="PortalMTLModel.Store.perfil_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="perfil_usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="processo" Type="PortalMTLModel.Store.processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tipo_doc_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="tipo_doc" Type="PortalMTLModel.Store.tipo_doc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="tipo_doc">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usuario_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="usuario" Type="PortalMTLModel.Store.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vista_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.Store.empresa" Multiplicity="1" />
+          <End Role="vista_processo" Type="PortalMTLModel.Store.vista_processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="vista_processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <!--Errors Found During Generation:
+      warning 6037: Foreign Key constraint 'FK_agenda_usuario_processo' has been omitted from the storage model. Column 'idEmpresa' of table 'PortalMTLModel.Store.agenda_usuario' is a Foreign Key participating in multiple relationships. A one-to-one Entity Model will not validate since data inconsistency is possible.
+      
+      <Association Name="FK_agenda_usuario_processo">
+        <End Role="processo" Type="PortalMTLModel.Store.processo" Multiplicity="1" />
+        <End Role="agenda_usuario" Type="PortalMTLModel.Store.agenda_usuario" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="processo">
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Principal>
+          <Dependent Role="agenda_usuario">
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      Errors Found During Generation:
+      warning 6037: Foreign Key constraint 'FK_agenda_usuario_usuario' has been omitted from the storage model. Column 'idEmpresa' of table 'PortalMTLModel.Store.agenda_usuario' is a Foreign Key participating in multiple relationships. A one-to-one Entity Model will not validate since data inconsistency is possible.
+      
+      <Association Name="FK_agenda_usuario_usuario">
+        <End Role="usuario" Type="PortalMTLModel.Store.usuario" Multiplicity="1" />
+        <End Role="agenda_usuario" Type="PortalMTLModel.Store.agenda_usuario" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="usuario">
+            <PropertyRef Name="idUsuario" />
+            <PropertyRef Name="idEmpresa" />
+          </Principal>
+          <Dependent Role="agenda_usuario">
+            <PropertyRef Name="idUsuario" />
+            <PropertyRef Name="idEmpresa" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      Errors Found During Generation:
+      warning 6030: The relationship 'FK_documento_tipo_doc' uses the set of foreign keys '{idTipoDoc, idEmpresa}' that are partially contained in the set of primary keys '{idEmpresa, idDoc}' of the table 'documento'.  The set of foreign keys must be fully contained in the set of primary keys, or fully not contained in the set of primary keys to be mapped to a model.
+      
+      <Association Name="FK_documento_tipo_doc">
+        <End Role="tipo_doc" Type="PortalMTLModel.Store.tipo_doc" Multiplicity="1" />
+        <End Role="documento" Type="PortalMTLModel.Store.documento" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="tipo_doc">
+            <PropertyRef Name="idTipoDoc" />
+            <PropertyRef Name="idEmpresa" />
+          </Principal>
+          <Dependent Role="documento">
+            <PropertyRef Name="idTipoDoc" />
+            <PropertyRef Name="idEmpresa" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      Errors Found During Generation:
+      warning 6030: The relationship 'FK_usuario_perfil' uses the set of foreign keys '{idPerfil, idEmpresa}' that are partially contained in the set of primary keys '{idEmpresa, idUsuario}' of the table 'usuario'.  The set of foreign keys must be fully contained in the set of primary keys, or fully not contained in the set of primary keys to be mapped to a model.
+      
+      <Association Name="FK_usuario_perfil">
+        <End Role="perfil_usuario" Type="PortalMTLModel.Store.perfil_usuario" Multiplicity="1" />
+        <End Role="usuario" Type="PortalMTLModel.Store.usuario" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="perfil_usuario">
+            <PropertyRef Name="idPerfil" />
+            <PropertyRef Name="idEmpresa" />
+          </Principal>
+          <Dependent Role="usuario">
+            <PropertyRef Name="idPerfil" />
+            <PropertyRef Name="idEmpresa" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      Errors Found During Generation:
+      warning 6030: The relationship 'FK_vista_processo_processo' uses the set of foreign keys '{idEmpresa, idProcesso}' that are partially contained in the set of primary keys '{idEmpresa, idVista}' of the table 'vista_processo'.  The set of foreign keys must be fully contained in the set of primary keys, or fully not contained in the set of primary keys to be mapped to a model.
+      
+      <Association Name="FK_vista_processo_processo">
+        <End Role="processo" Type="PortalMTLModel.Store.processo" Multiplicity="1" />
+        <End Role="vista_processo" Type="PortalMTLModel.Store.vista_processo" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="processo">
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Principal>
+          <Dependent Role="vista_processo">
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>-->
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PortalMTLModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="PortalMTLEntities">
+          <EntitySet Name="agenda_usuario" EntityType="PortalMTLModel.agenda_usuario" />
+          <EntitySet Name="cliente_processo" EntityType="PortalMTLModel.cliente_processo" />
+          <EntitySet Name="documento" EntityType="PortalMTLModel.documento" />
+          <EntitySet Name="empresa" EntityType="PortalMTLModel.empresa" />
+          <EntitySet Name="obs_vista_padrao" EntityType="PortalMTLModel.obs_vista_padrao" />
+          <EntitySet Name="perfil_usuario" EntityType="PortalMTLModel.perfil_usuario" />
+          <EntitySet Name="processo" EntityType="PortalMTLModel.processo" />
+          <EntitySet Name="tipo_doc" EntityType="PortalMTLModel.tipo_doc" />
+          <EntitySet Name="usuario" EntityType="PortalMTLModel.usuario" />
+          <EntitySet Name="vista_processo" EntityType="PortalMTLModel.vista_processo" />
+          <AssociationSet Name="FK_agenda_empresa" Association="PortalMTLModel.FK_agenda_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="agenda_usuario" EntitySet="agenda_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_cliente_processo_empresa" Association="PortalMTLModel.FK_cliente_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="cliente_processo" EntitySet="cliente_processo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_documento_empresa" Association="PortalMTLModel.FK_documento_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="documento" EntitySet="documento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_obs_vista_padrao_empresa" Association="PortalMTLModel.FK_obs_vista_padrao_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="obs_vista_padrao" EntitySet="obs_vista_padrao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_perfil_usuario_empresa" Association="PortalMTLModel.FK_perfil_usuario_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="perfil_usuario" EntitySet="perfil_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_processo_empresa" Association="PortalMTLModel.FK_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="processo" EntitySet="processo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tipo_doc_empresa" Association="PortalMTLModel.FK_tipo_doc_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="tipo_doc" EntitySet="tipo_doc" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usuario_empresa" Association="PortalMTLModel.FK_usuario_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vista_processo_empresa" Association="PortalMTLModel.FK_vista_processo_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="vista_processo" EntitySet="vista_processo" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="agenda_usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idUsuario" />
+            <PropertyRef Name="dtAgenda" />
+            <PropertyRef Name="idProcesso" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idUsuario" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+          <Property Name="dtAgenda" Type="DateTime" Nullable="false" />
+          <Property Name="idProcesso" Type="Guid" Nullable="false" />
+          <Property Name="atividades" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_agenda_empresa" FromRole="agenda_usuario" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="cliente_processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idCliente" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idCliente" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="cnpj" Type="String" Nullable="false" MaxLength="14" Unicode="true" FixedLength="false" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="razoSocial" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_cliente_processo_empresa" FromRole="cliente_processo" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="documento">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idDoc" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idDoc" Type="Guid" Nullable="false" />
+          <Property Name="idVista" Type="Guid" Nullable="false" />
+          <Property Name="idTipoDoc" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+          <Property Name="dtCriacao" Type="DateTime" Nullable="false" />
+          <Property Name="pathImgF" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="pathImgV" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="chave" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="observacao" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="Byte" Nullable="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_documento_empresa" FromRole="documento" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="empresa">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="cnpj" Type="String" Nullable="false" MaxLength="14" Unicode="true" FixedLength="false" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="razaosocial" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="agenda_usuario" Relationship="PortalMTLModel.FK_agenda_empresa" FromRole="empresa" ToRole="agenda_usuario" />
+          <NavigationProperty Name="cliente_processo" Relationship="PortalMTLModel.FK_cliente_processo_empresa" FromRole="empresa" ToRole="cliente_processo" />
+          <NavigationProperty Name="documento" Relationship="PortalMTLModel.FK_documento_empresa" FromRole="empresa" ToRole="documento" />
+          <NavigationProperty Name="obs_vista_padrao" Relationship="PortalMTLModel.FK_obs_vista_padrao_empresa" FromRole="empresa" ToRole="obs_vista_padrao" />
+          <NavigationProperty Name="perfil_usuario" Relationship="PortalMTLModel.FK_perfil_usuario_empresa" FromRole="empresa" ToRole="perfil_usuario" />
+          <NavigationProperty Name="processo" Relationship="PortalMTLModel.FK_processo_empresa" FromRole="empresa" ToRole="processo" />
+          <NavigationProperty Name="tipo_doc" Relationship="PortalMTLModel.FK_tipo_doc_empresa" FromRole="empresa" ToRole="tipo_doc" />
+          <NavigationProperty Name="usuario" Relationship="PortalMTLModel.FK_usuario_empresa" FromRole="empresa" ToRole="usuario" />
+          <NavigationProperty Name="vista_processo" Relationship="PortalMTLModel.FK_vista_processo_empresa" FromRole="empresa" ToRole="vista_processo" />
+        </EntityType>
+        <EntityType Name="obs_vista_padrao">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idObs" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idObs" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+          <Property Name="descricao" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_obs_vista_padrao_empresa" FromRole="obs_vista_padrao" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="perfil_usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idPerfil" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idPerfil" Type="Int16" Nullable="false" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="alias" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_perfil_usuario_empresa" FromRole="perfil_usuario" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idProcesso" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idProcesso" Type="Guid" Nullable="false" />
+          <Property Name="numProcesso" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="dtAgenda" Type="DateTime" Nullable="false" />
+          <Property Name="dtProcesso" Type="DateTime" />
+          <Property Name="status" Type="Byte" Nullable="false" />
+          <Property Name="idUsuario" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+          <Property Name="idCliente" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="nomeVara" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="nomeReu" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="nomeAutor" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="dtUltSinc" Type="DateTime" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_processo_empresa" FromRole="processo" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="tipo_doc">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idTipoDoc" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idTipoDoc" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+          <Property Name="nome" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="descricao" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_tipo_doc_empresa" FromRole="tipo_doc" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idUsuario" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+          <Property Name="idPerfil" Type="Int16" Nullable="false" />
+          <Property Name="login" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="senha" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="nome" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="oab" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="numSerieDevice" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="dtUltConexao" Type="DateTime" />
+          <Property Name="IPUltConexao" Type="String" MaxLength="43" Unicode="true" FixedLength="false" />
+          <Property Name="numDDD" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+          <Property Name="numCel" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_usuario_empresa" FromRole="usuario" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="vista_processo">
+          <Key>
+            <PropertyRef Name="idEmpresa" />
+            <PropertyRef Name="idVista" />
+          </Key>
+          <Property Name="idEmpresa" Type="Int16" Nullable="false" />
+          <Property Name="idVista" Type="Guid" Nullable="false" />
+          <Property Name="idProcesso" Type="Guid" Nullable="false" />
+          <Property Name="dtVista" Type="DateTime" Nullable="false" />
+          <Property Name="dtUltAlteracao" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" />
+          <Property Name="del" Type="Boolean" Nullable="false" />
+          <Property Name="observacao" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="empresa" Relationship="PortalMTLModel.FK_vista_processo_empresa" FromRole="vista_processo" ToRole="empresa" />
+        </EntityType>
+        <Association Name="FK_agenda_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="agenda_usuario" Type="PortalMTLModel.agenda_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="agenda_usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_cliente_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="cliente_processo" Type="PortalMTLModel.cliente_processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="cliente_processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_documento_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="documento" Type="PortalMTLModel.documento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="documento">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_obs_vista_padrao_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="obs_vista_padrao" Type="PortalMTLModel.obs_vista_padrao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="obs_vista_padrao">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_perfil_usuario_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="perfil_usuario" Type="PortalMTLModel.perfil_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="perfil_usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="processo" Type="PortalMTLModel.processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tipo_doc_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="tipo_doc" Type="PortalMTLModel.tipo_doc" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="tipo_doc">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usuario_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="usuario" Type="PortalMTLModel.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vista_processo_empresa">
+          <End Role="empresa" Type="PortalMTLModel.empresa" Multiplicity="1" />
+          <End Role="vista_processo" Type="PortalMTLModel.vista_processo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="idEmpresa" />
+            </Principal>
+            <Dependent Role="vista_processo">
+              <PropertyRef Name="idEmpresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="PortalMTLModelStoreContainer" CdmEntityContainer="PortalMTLEntities">
+          <EntitySetMapping Name="agenda_usuario">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.agenda_usuario)">
+              <MappingFragment StoreEntitySet="agenda_usuario">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="dtAgenda" ColumnName="dtAgenda" />
+                <ScalarProperty Name="idProcesso" ColumnName="idProcesso" />
+                <ScalarProperty Name="atividades" ColumnName="atividades" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="del" ColumnName="del" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cliente_processo">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.cliente_processo)">
+              <MappingFragment StoreEntitySet="cliente_processo">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cnpj" ColumnName="cnpj" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="razoSocial" ColumnName="razoSocial" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="documento">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.documento)">
+              <MappingFragment StoreEntitySet="documento">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idDoc" ColumnName="idDoc" />
+                <ScalarProperty Name="idVista" ColumnName="idVista" />
+                <ScalarProperty Name="idTipoDoc" ColumnName="idTipoDoc" />
+                <ScalarProperty Name="dtCriacao" ColumnName="dtCriacao" />
+                <ScalarProperty Name="pathImgF" ColumnName="pathImgF" />
+                <ScalarProperty Name="pathImgV" ColumnName="pathImgV" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="chave" ColumnName="chave" />
+                <ScalarProperty Name="observacao" ColumnName="observacao" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="empresa">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.empresa)">
+              <MappingFragment StoreEntitySet="empresa">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cnpj" ColumnName="cnpj" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="razaosocial" ColumnName="razaosocial" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="obs_vista_padrao">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.obs_vista_padrao)">
+              <MappingFragment StoreEntitySet="obs_vista_padrao">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idObs" ColumnName="idObs" />
+                <ScalarProperty Name="descricao" ColumnName="descricao" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="del" ColumnName="del" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="perfil_usuario">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.perfil_usuario)">
+              <MappingFragment StoreEntitySet="perfil_usuario">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="alias" ColumnName="alias" />
+                <ScalarProperty Name="del" ColumnName="del" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="processo">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.processo)">
+              <MappingFragment StoreEntitySet="processo">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idProcesso" ColumnName="idProcesso" />
+                <ScalarProperty Name="numProcesso" ColumnName="numProcesso" />
+                <ScalarProperty Name="dtAgenda" ColumnName="dtAgenda" />
+                <ScalarProperty Name="dtProcesso" ColumnName="dtProcesso" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="nomeVara" ColumnName="nomeVara" />
+                <ScalarProperty Name="nomeReu" ColumnName="nomeReu" />
+                <ScalarProperty Name="nomeAutor" ColumnName="nomeAutor" />
+                <ScalarProperty Name="dtUltSinc" ColumnName="dtUltSinc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tipo_doc">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.tipo_doc)">
+              <MappingFragment StoreEntitySet="tipo_doc">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idTipoDoc" ColumnName="idTipoDoc" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="descricao" ColumnName="descricao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuario">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.usuario)">
+              <MappingFragment StoreEntitySet="usuario">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="oab" ColumnName="oab" />
+                <ScalarProperty Name="numSerieDevice" ColumnName="numSerieDevice" />
+                <ScalarProperty Name="dtUltConexao" ColumnName="dtUltConexao" />
+                <ScalarProperty Name="IPUltConexao" ColumnName="IPUltConexao" />
+                <ScalarProperty Name="numDDD" ColumnName="numDDD" />
+                <ScalarProperty Name="numCel" ColumnName="numCel" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vista_processo">
+            <EntityTypeMapping TypeName="IsTypeOf(PortalMTLModel.vista_processo)">
+              <MappingFragment StoreEntitySet="vista_processo">
+                <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+                <ScalarProperty Name="idVista" ColumnName="idVista" />
+                <ScalarProperty Name="idProcesso" ColumnName="idProcesso" />
+                <ScalarProperty Name="dtVista" ColumnName="dtVista" />
+                <ScalarProperty Name="dtUltAlteracao" ColumnName="dtUltAlteracao" />
+                <ScalarProperty Name="del" ColumnName="del" />
+                <ScalarProperty Name="observacao" ColumnName="observacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_agenda_empresa" TypeName="PortalMTLModel.FK_agenda_empresa" StoreEntitySet="agenda_usuario">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="agenda_usuario">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+              <ScalarProperty Name="dtAgenda" ColumnName="dtAgenda" />
+              <ScalarProperty Name="idProcesso" ColumnName="idProcesso" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_cliente_processo_empresa" TypeName="PortalMTLModel.FK_cliente_processo_empresa" StoreEntitySet="cliente_processo">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="cliente_processo">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_documento_empresa" TypeName="PortalMTLModel.FK_documento_empresa" StoreEntitySet="documento">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="documento">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idDoc" ColumnName="idDoc" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_obs_vista_padrao_empresa" TypeName="PortalMTLModel.FK_obs_vista_padrao_empresa" StoreEntitySet="obs_vista_padrao">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="obs_vista_padrao">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idObs" ColumnName="idObs" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_perfil_usuario_empresa" TypeName="PortalMTLModel.FK_perfil_usuario_empresa" StoreEntitySet="perfil_usuario">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="perfil_usuario">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idPerfil" ColumnName="idPerfil" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_processo_empresa" TypeName="PortalMTLModel.FK_processo_empresa" StoreEntitySet="processo">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="processo">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idProcesso" ColumnName="idProcesso" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_tipo_doc_empresa" TypeName="PortalMTLModel.FK_tipo_doc_empresa" StoreEntitySet="tipo_doc">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="tipo_doc">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idTipoDoc" ColumnName="idTipoDoc" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_usuario_empresa" TypeName="PortalMTLModel.FK_usuario_empresa" StoreEntitySet="usuario">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="usuario">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="FK_vista_processo_empresa" TypeName="PortalMTLModel.FK_vista_processo_empresa" StoreEntitySet="vista_processo">
+            <EndProperty Name="empresa">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+            </EndProperty>
+            <EndProperty Name="vista_processo">
+              <ScalarProperty Name="idEmpresa" ColumnName="idEmpresa" />
+              <ScalarProperty Name="idVista" ColumnName="idVista" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="PortalMTL">
+        <EntityTypeShape EntityType="PortalMTLModel.agenda_usuario" Width="1.5" PointX="3" PointY="10.5" Height="2.2496956380208353" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.cliente_processo" Width="1.5" PointX="3" PointY="13.5" Height="2.2496956380208353" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.documento" Width="1.5" PointX="3" PointY="19.375" Height="3.0714322916666674" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.empresa" Width="1.5" PointX="0.75" PointY="15" Height="3.2357796223958317" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.obs_vista_padrao" Width="1.5" PointX="3" PointY="2.25" Height="1.9210009765624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.perfil_usuario" Width="1.5" PointX="3" PointY="4.875" Height="1.9210009765624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.processo" Width="1.5" PointX="3" PointY="23.25" Height="3.400126953124996" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.tipo_doc" Width="1.5" PointX="3" PointY="7.625" Height="2.0853483072916674" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.usuario" Width="1.5" PointX="3" PointY="27.375" Height="3.5644742838541674" IsExpanded="true" />
+        <EntityTypeShape EntityType="PortalMTLModel.vista_processo" Width="1.5" PointX="3" PointY="16.375" Height="2.2496956380208317" IsExpanded="true" />
+        <AssociationConnector Association="PortalMTLModel.FK_agenda_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="15" />
+          <ConnectorPoint PointX="1.5" PointY="11.624847819010418" />
+          <ConnectorPoint PointX="1.8229191666666667" PointY="11.624847819010418" />
+          <ConnectorPoint PointX="1.9895858333333332" PointY="11.624847819010418" />
+          <ConnectorPoint PointX="2.0260454166666664" PointY="11.624847819010418" />
+          <ConnectorPoint PointX="2.1927120833333333" PointY="11.624847819010418" />
+          <ConnectorPoint PointX="3" PointY="11.624847819010418" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_cliente_processo_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="15.374847819010418" />
+          <ConnectorPoint PointX="3" PointY="15.374847819010418" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_documento_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="18.235779622395832" />
+          <ConnectorPoint PointX="1.5" PointY="20.910716145833334" />
+          <ConnectorPoint PointX="1.8229191666666667" PointY="20.910716145833334" />
+          <ConnectorPoint PointX="1.9895858333333332" PointY="20.910716145833334" />
+          <ConnectorPoint PointX="3" PointY="20.910716145833334" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_obs_vista_padrao_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.9062525" PointY="15" />
+          <ConnectorPoint PointX="1.9062525" PointY="3.21050048828125" />
+          <ConnectorPoint PointX="3" PointY="3.21050048828125" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_perfil_usuario_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.0937475" PointY="15" />
+          <ConnectorPoint PointX="1.0937475" PointY="5.83550048828125" />
+          <ConnectorPoint PointX="1.8229191666666667" PointY="5.8355004882812489" />
+          <ConnectorPoint PointX="1.9895858333333332" PointY="5.83550048828125" />
+          <ConnectorPoint PointX="3" PointY="5.83550048828125" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_processo_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.9062525" PointY="18.235779622395832" />
+          <ConnectorPoint PointX="1.9062525" PointY="24.950063476562498" />
+          <ConnectorPoint PointX="3" PointY="24.950063476562498" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_tipo_doc_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.10937875" PointY="15" />
+          <ConnectorPoint PointX="2.10937875" PointY="8.6676741536458337" />
+          <ConnectorPoint PointX="3" PointY="8.6676741536458337" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_usuario_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.0937475" PointY="18.235779622395832" />
+          <ConnectorPoint PointX="1.0937475" PointY="29.157237141927084" />
+          <ConnectorPoint PointX="3" PointY="29.157237141927084" /></AssociationConnector>
+        <AssociationConnector Association="PortalMTLModel.FK_vista_processo_empresa" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="17.305389811197916" />
+          <ConnectorPoint PointX="3" PointY="17.305389811197916" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
