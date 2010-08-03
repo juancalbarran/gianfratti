@@ -18,6 +18,7 @@ public partial class Forms_Agenda : System.Web.UI.Page
     {
         if (!Page.IsPostBack)
         {
+            //Chama o metodo
             MontaComboProfissionais(); 
         }
     }
