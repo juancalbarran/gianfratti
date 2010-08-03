@@ -1,0 +1,16 @@
+C:\Projetos\Translator\Translator\bin\Release\Gianfratti.com.exe.config
+C:\Projetos\Translator\Translator\obj\Release\Gianfratti.com.exe
+C:\Projetos\Translator\Translator\obj\Release\Gianfratti.com.pdb
+C:\Projetos\Translator\Translator\bin\Release\Gianfratti.com.exe.manifest
+C:\Projetos\Translator\Translator\bin\Release\Gianfratti.com.application
+C:\Projetos\Translator\Translator\bin\Release\Gianfratti.com.exe
+C:\Projetos\Translator\Translator\bin\Release\Gianfratti.com.pdb
+C:\Projetos\Translator\Translator\obj\Release\ResolveAssemblyReference.cache
+C:\Projetos\Translator\Translator\obj\Release\Translator.frmAbout.resources
+C:\Projetos\Translator\Translator\obj\Release\Translator.frmTranslator.resources
+C:\Projetos\Translator\Translator\obj\Release\Translator.FrmProxy.resources
+C:\Projetos\Translator\Translator\obj\Release\Translator.Properties.Resources.resources
+C:\Projetos\Translator\Translator\obj\Release\Translator.csproj.GenerateResource.Cache
+C:\Projetos\Translator\Translator\obj\Release\Gianfratti.com.TrustInfo.xml
+C:\Projetos\Translator\Translator\obj\Release\Gianfratti.com.exe.manifest
+C:\Projetos\Translator\Translator\obj\Release\Gianfratti.com.application

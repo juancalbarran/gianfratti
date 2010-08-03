@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TimerComputerShutdown">
+</Property><Property Name="Solution File" Value="C:\Projetos\TimerComputerShutdown\TimerComputerShutdown.sln">
+</Property><Property Name="Date" Value="segunda-feira, 10 de setembro de 2007">
+</Property><Property Name="Time" Value="21:49">
+</Property></Properties><Event ErrorLevel="0" Project="TimerComputerShutdown" Source="TimerComputerShutdown.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TimerComputerShutdown" Source="TimerComputerShutdown.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TimerComputerShutdown.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TimerComputerShutdown.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TimerComputerShutdown" Source="TimerComputerShutdown.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

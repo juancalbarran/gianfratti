@@ -1,0 +1,5 @@
+C:\Projetos\ZIP\SharpZLib\bin\ICSharpCode.SharpZipLib.dll
+C:\Projetos\ZIP\SharpZLib\bin\ICSharpCode.SharpZipLib.pdb
+C:\Projetos\ZIP\SharpZLib\src\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\ZIP\SharpZLib\src\obj\Debug\ICSharpCode.SharpZipLib.dll
+C:\Projetos\ZIP\SharpZLib\src\obj\Debug\ICSharpCode.SharpZipLib.pdb

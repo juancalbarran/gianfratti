@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://ftp.gianfratti.com/wwwroot/Tradutor/|ftp.gianfratti.com/Tradutor/|ftp.gianfratti.com/Translator/|http://xp-74fe150941b8/Tradutor/|http://localhost/Tradutor/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.Gianfratti.com/tradutor/|http://Gianfratti.com/tradutor/|http://Gianfratti.com/Translator/|http://xp-74fe150941b8/Tradutor/|http://LocalHost/Translator/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>8</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>
