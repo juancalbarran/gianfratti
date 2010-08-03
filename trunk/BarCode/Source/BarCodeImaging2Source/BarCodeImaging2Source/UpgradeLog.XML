@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BarcodeImaging">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\fmanes\Desktop\BarCodeImaging2Source\BarCodeImaging2Source\BarcodeImaging.sln">
+</Property><Property Name="Date" Value="sexta-feira, 24 de abril de 2009">
+</Property><Property Name="Time" Value="13:34">
+</Property></Properties><Event ErrorLevel="0" Project="BarcodeImaging" Source="BarcodeImaging\BarcodeImaging.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BarcodeImaging" Source="BarcodeImaging\BarcodeImaging.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BarcodeTestApp" Source="BarcodeTestApp\BarcodeTestApp.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BarcodeTestApp" Source="BarcodeTestApp\BarcodeTestApp.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BarcodeImaging.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BarcodeImaging.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BarcodeImaging" Source="BarcodeImaging\BarcodeImaging.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BarcodeTestApp" Source="BarcodeTestApp\BarcodeTestApp.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

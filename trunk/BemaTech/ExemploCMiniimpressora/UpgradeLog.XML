@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TesteMiniPrinter">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\TesteMiniPrinter.sln">
+</Property><Property Name="Date" Value="quarta-feira, 27 de maio de 2009">
+</Property><Property Name="Time" Value="13:00">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TesteMiniPrinter.sln" Description="File successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\TesteMiniPrinter.sln">
+</Event><Event ErrorLevel="1" Project="C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\TesteMiniPrinter.csproj" Source="TesteMiniPrinter.csproj" Description="MSB2014: The project-to-project reference with GUID {7204D40C-0BC8-4342-9041-9357FBD4DDE5} cannot be converted because it is not listed in the file 'C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\TesteMiniPrinter.sln'.">
+</Event><Event ErrorLevel="1" Project="C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\TesteMiniPrinter.csproj" Source="TesteMiniPrinter.csproj" Description="MSB2014: The project-to-project reference with GUID {63C90E16-EBFF-40E7-8152-127FF493E589} cannot be converted because it is not listed in the file 'C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\TesteMiniPrinter.sln'.">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="TesteMiniPrinter.csproj" Description="Project file successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\TesteMiniPrinter.csproj">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="TesteMiniPrinter.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\TesteMiniPrinter.csproj.user">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="frmMain.cs" Description="File successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="frmMain.resx" Description="File successfully backed up as C:\Documents and Settings\fmanes\Desktop\BemaTech\ExemploCMiniimpressora\Backup\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="TesteMiniPrinter.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TesteMiniPrinter" Source="TesteMiniPrinter.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TesteMiniPrinter.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TesteMiniPrinter.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TesteMiniPrinter" Source="TesteMiniPrinter.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
