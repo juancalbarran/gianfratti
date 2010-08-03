@@ -1,0 +1,29 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Newsletter</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=EnviarEmail" onSubmit= "return valida_campo_enviar()">
+    <tr class="zebra1"> 
+      <td class="texto" width="9%">De:</td>
+      <td class="texto" width="91%"><input class="campos" name="De" type="text" id="De" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Assunto:</td>
+      <td class="texto"><input name="Assunto" type="text" class="campos" id="Assunto" size="50" maxlength="200"></td>
+    </tr>
+    <tr class="zebra1">
+      <td valign="top" class="texto">Corpo Email:</td>
+      <td class="texto"><textarea name="Texto" cols="50" rows="25" class="campos" id="Texto"></textarea>
+        <script language="javascript1.2">editor_generate('Texto');</script></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> <input class="botoes" type="submit" name="submit" value="Enviar Email"></td>
+    </tr>
+  </form>
+</table>

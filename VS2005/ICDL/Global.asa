@@ -1,0 +1,26 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+Sub Application_OnStart
+	
+	'[CONEXÃO COM O BANCO DE DADOS]
+	application("connstring")="PROVIDER=MICROSOFT.JET.OLEDB.4.0;DATA SOURCE=C:\Projetos\ICDL\Dados\dados.mdb"
+	
+End Sub
+
+Sub Application_OnEnd
+
+End Sub
+
+Sub Session_OnStart
+
+	session.lcid=1046 'Codificacao para Brasileiro
+    session.timeout=60 'Tempo que uma Session vai ficar ativa no sistema. É usada tanto para as Sessions que foram criadas quando o usuario faz o login quando para o sistema de usuarios online
+	Server.ScriptTimeout = 5400 'Tempo de Execucao da pagina asp
+	
+End Sub
+
+Sub Session_OnEnd
+
+End Sub
+
+</script>

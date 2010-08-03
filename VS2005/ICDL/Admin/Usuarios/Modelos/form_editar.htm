@@ -1,0 +1,29 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Usuarios do Sistema</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarUsuarios" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Nome: 
+        <input name="id_Usuario" type="hidden" id="id_Usuario" value="<%=id_Usuario%>"></td>
+      <td class="texto" width="89%"><input name="Usuario_Nome" type="text" class="campos" id="Usuario_Nome" value="<%=Usuario_Nome%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Login:</td>
+      <td class="texto"><input name="Usuario_Login" type="text" class="campos" id="Usuario_Login" value="<%=usuario_login%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Senha:</td>
+      <td class="texto"><input name="Usuario_Senha" type="password" class="campos" id="Usuario_Senha" value="<%=usuario_senha%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> &nbsp; <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>

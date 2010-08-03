@@ -1,0 +1,38 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Newsletter</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=IncluirNewsletter" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Nome:</td>
+      <td class="texto" width="89%"><input class="campos" name="Nome" type="text" id="Nome" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Email:</td>
+      <td class="texto"><input class="campos" name="Email" type="text" id="Email"></td>
+    </tr>
+    <tr class="zebra1">
+      <td class="texto">Ativo:</td>
+      <td class="texto">
+        <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Sim","Não") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "FlgAtivo" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = "1" 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+      </td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> <input class="botoes" type="submit" name="submit" value="Gravar "></td>
+    </tr>
+  </form>
+</table>

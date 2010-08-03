@@ -1,0 +1,58 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue">
+    <td>Gerenciador de Conteudos</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <tr class="zebra1"> 
+    <td class="texto"><input class="botoes" type="submit" name="" value="Voltar" onClick="history.back()"></td>
+    <td class="texto">&nbsp;</td>
+  </tr>
+  <form name="form" method="post" action="default.asp?action=AlterarConteudos" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto">P&aacute;gina: 
+        <input name="id_conteudo" type="hidden" id="id_conteudo" value="<%=id_conteudo%>"></td>
+      <td class="texto"><%=gerar_listbox("paginas","id_pagina","pagina_titulo",id_pagina)%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Ordem:</td>
+      <td class="texto"> 
+        <%
+ArrayValores = Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30) 'Array dos valores
+ArrayTitulos = Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30) 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Ordem" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Ordem 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+        Selecione a ordem que deseja que este conteudo apare&ccedil;a dentro da 
+        p&aacute;gina</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto" width="13%">Conteudo Titulo:</td>
+      <td class="texto" width="87%"><input name="Conteudo_Titulo" type="text" class="campos" id="Conteudo_Titulo" value="<%=Conteudo_Titulo%>" size="90" maxlength="255"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Conteudo Corpo:</td>
+      <td valign="top" class="texto"><textarea name="Conteudo" cols="90" rows="30" class="campos" id="Conteudo"><%=Conteudo%></textarea>
+        <script language="javascript1.2">
+editor_generate('Conteudo');
+  </script></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Publicação:</td>
+      <td> 
+        <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Sim","Não") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Conteudo_Flag_Publicado" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Cint(Conteudo_Flag_Publicado) 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+        &nbsp; <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>

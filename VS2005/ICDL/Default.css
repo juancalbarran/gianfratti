@@ -1,0 +1,23 @@
+td {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px}
+.textoPeq {  font-size: 9px}
+.textoBco {  font-weight: bold; color: #FFFFFF}
+.fundoBarra {  background-image: url(img/fundo_barra.jpg); background-repeat: repeat-x}
+.box {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; height: 19px; border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.bordaMenu {  background-color: #CEE5FA; border: #3E9EFF; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.bordaTop { background-color: #CEE5FA; border: #3E9EFF solid; border-width: 1px 0px 0px}
+a {  color: #004890; text-decoration: none}
+a:hover {  color: #666666; text-decoration: underline}
+.menu {  }
+a.menu {  font-weight: bold; color: #000000; text-decoration: none}
+a.menu:hover {  font-weight: bold; color: #004890; text-decoration: none}
+.fundoMenu {  background-image: url(img/fundo_lateral.gif); background-repeat: repeat}
+.bordaLaterais { background-color: #CEE5FA; border: #3E9EFF solid; border-width: 0px 1px 1px}
+.bordaBottom { background-color: #CEE5FA; border: #3E9EFF solid; border-width: 0px 0px 1px}
+.copyright {  background-color: #ECECEC; border: #CECECE; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; font-size: 10px}.textoAzul {  font-weight: bold; color: #004890}
+.textoCinza {  font-weight: bold; color: #666666}
+.bordaLaterais2 { background-color: #CEE5FA; border: #3E9EFF solid; border-width: 0px 1px}
+.data { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #18187C ; padding-left: 25px; padding-bottom: 2px}
+.zebra1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #18187C;text-decoration: none;background-color: #9EC9F6;	padding-top: 2px;	padding-right: 2px;	padding-bottom: 2px;	padding-left: 2px;	border-right-width: 1pt;	border-right-style: solid;	border-bottom-style: none;	border-right-color: black;	border-top-style: solid;	border-left-style: none;	border-top-width: 1pt;	border-top-color: black;}
+.zebra2 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #18187C;text-decoration: none;background-color: #C3DEF9;	padding-top:2px;padding-right: 2px;padding-bottom: 2px;padding-left: 2px;border-top-width: 1pt;border-top-style: solid;border-top-color: BLACK;border-right-width: 1pt;	border-right-style: solid;border-right-color: BLACK;}
+.borda { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border: 1px #000066 double; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+

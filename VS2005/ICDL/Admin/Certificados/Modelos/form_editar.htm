@@ -1,0 +1,34 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Certifica&ccedil;&otilde;es</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarCertificados" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="13%">Nome: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td class="texto" width="87%"><input name="Nome" type="text" class="campos" id="Nome" value="<%=Nome%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">N&ordm; Certificado:</td>
+      <td class="texto"> <input name="Numero_Certificado" type="text" class="campos" id="Numero_Certificado" value="<%=Numero_Certificado%>" size="20" maxlength="10" onKeyPress="return MascaraCampo(document.form, 'Numero_Certificado', 'AA-999999', event);"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Centro Certificador:</td>
+      <td class="texto"><input name="Centro_Certificador" type="text" class="campos" id="Centro_Certificador" value="<%=Centro_Certificador%>" size="20" maxlength="10" onKeyPress="return MascaraCampo(document.form, 'Centro_Certificador', '999999999', event);"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Data Emiss&atilde;o:</td>
+      <td class="texto"><input name="Data_Emissao" type="text" class="campos" id="Data_Emissao" onKeyPress="return MascaraCampo(document.form, 'Data_Emissao', '99/99/9999', event);" value="<%=Data_Emissao%>" size="10" maxlength="10" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> 
+        <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
