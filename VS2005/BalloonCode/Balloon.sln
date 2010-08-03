@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalloonCS", "BalloonCS\BalloonCS.csproj", "{601BE1CD-EB0A-45B7-8653-0DAD5B6BD0A1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BalloonVB", "BalloonVB\BalloonVB.vbproj", "{784460F8-E5F2-45BB-96F9-BD56F58E1B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{601BE1CD-EB0A-45B7-8653-0DAD5B6BD0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601BE1CD-EB0A-45B7-8653-0DAD5B6BD0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601BE1CD-EB0A-45B7-8653-0DAD5B6BD0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601BE1CD-EB0A-45B7-8653-0DAD5B6BD0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784460F8-E5F2-45BB-96F9-BD56F58E1B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784460F8-E5F2-45BB-96F9-BD56F58E1B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784460F8-E5F2-45BB-96F9-BD56F58E1B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784460F8-E5F2-45BB-96F9-BD56F58E1B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

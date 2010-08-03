@@ -1,0 +1,10 @@
+bin\Debug\BalloonCS.exe
+bin\Debug\BalloonCS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BalloonCS.Form1.resources
+obj\Debug\BalloonCS.Form2.resources
+obj\Debug\BalloonCS.Form3.resources
+obj\Debug\BalloonCS.Startup.resources
+obj\Debug\BalloonCS.csproj.GenerateResource.Cache
+obj\Debug\BalloonCS.exe
+obj\Debug\BalloonCS.pdb
