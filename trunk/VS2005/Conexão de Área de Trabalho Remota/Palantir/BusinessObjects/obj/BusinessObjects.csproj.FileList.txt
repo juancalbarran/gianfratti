@@ -1,0 +1,7 @@
+bin\Debug\BusinessObjects.dll
+bin\Debug\BusinessObjects.pdb
+bin\Debug\Helper.dll
+bin\Debug\Helper.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BusinessObjects.dll
+obj\Debug\BusinessObjects.pdb

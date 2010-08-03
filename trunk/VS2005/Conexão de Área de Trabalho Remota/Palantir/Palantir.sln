@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palantir", "Palantir\Palantir.csproj", "{073CD098-26A8-4344-BD26-2D663B1157F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{D1D7A3DE-7F5E-4F57-BD3C-027ACCA19DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{EF86671A-8A1A-44AA-BA1A-E3628E325803}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PalantirSetup", "PalantirSetup\PalantirSetup.vdproj", "{E323D8CC-B019-4889-B528-83CE16FC59EA}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessObjects\\BusinessObjects.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = BusinessObjects\\
+		SccProjectUniqueName2 = Helper\\Helper.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Helper\\
+		SccProjectUniqueName3 = Palantir\\Palantir.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = Palantir\\
+		SccProjectUniqueName4 = PalantirSetup\\PalantirSetup.vdproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = PalantirSetup\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073CD098-26A8-4344-BD26-2D663B1157F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073CD098-26A8-4344-BD26-2D663B1157F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073CD098-26A8-4344-BD26-2D663B1157F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073CD098-26A8-4344-BD26-2D663B1157F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D7A3DE-7F5E-4F57-BD3C-027ACCA19DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D7A3DE-7F5E-4F57-BD3C-027ACCA19DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D7A3DE-7F5E-4F57-BD3C-027ACCA19DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D7A3DE-7F5E-4F57-BD3C-027ACCA19DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF86671A-8A1A-44AA-BA1A-E3628E325803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF86671A-8A1A-44AA-BA1A-E3628E325803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF86671A-8A1A-44AA-BA1A-E3628E325803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF86671A-8A1A-44AA-BA1A-E3628E325803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E323D8CC-B019-4889-B528-83CE16FC59EA}.Debug|Any CPU.ActiveCfg = Debug
+		{E323D8CC-B019-4889-B528-83CE16FC59EA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
