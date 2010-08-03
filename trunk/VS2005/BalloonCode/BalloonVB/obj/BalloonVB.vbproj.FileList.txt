@@ -1,0 +1,12 @@
+bin\BalloonVB.exe
+bin\BalloonVB.pdb
+bin\BalloonVB.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BalloonVB.Form1.resources
+obj\Debug\BalloonVB.Form2.resources
+obj\Debug\BalloonVB.Form3.resources
+obj\Debug\BalloonVB.Startup.resources
+obj\Debug\BalloonVB.vbproj.GenerateResource.Cache
+obj\Debug\BalloonVB.exe
+obj\Debug\BalloonVB.xml
+obj\Debug\BalloonVB.pdb

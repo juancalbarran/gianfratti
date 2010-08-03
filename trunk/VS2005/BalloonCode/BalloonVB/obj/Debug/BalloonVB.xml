@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BalloonVB
+</name>
+</assembly>
+<members>
+<member name="P:BalloonVB.FMSMessageTip.MessageBalloon.Text">
+	<summary>
+ Sets or gets the display text.
+ </summary>
+</member><member name="P:BalloonVB.FMSMessageTip.MessageBalloon.Parent">
+	<summary>
+ Sets or gets the parent.
+ </summary>
+</member><member name="M:BalloonVB.EditBalloon.Show">
+	<summary>
+ Show a balloon tooltip for edit control.
+ </summary>
+</member><member name="P:BalloonVB.EditBalloon.Title">
+	<summary>
+ Sets or gets the Title.
+ </summary>
+</member><member name="P:BalloonVB.EditBalloon.TitleIcon">
+	<summary>
+ Sets or gets the display icon.
+ </summary>
+</member><member name="P:BalloonVB.EditBalloon.Text">
+	<summary>
+ Sets or gets the display text.
+ </summary>
+</member><member name="P:BalloonVB.EditBalloon.Parent">
+	<summary>
+ Sets or gets the parent.
+ </summary>
+</member><member name="T:BalloonVB.EditBalloon">
+	<summary>
+ A sample class to manipulate ballon tooltips.
+ Windows XP balloon-tips if used properly can 
+ be very helpful.
+ This class creates a balloon tooltip in the form of a message.
+ This becomes useful for showing important information 
+ quickly to the user.
+ Ever so often we need to avoid certain invalid characters in 
+ input textboxes. Though we do a good job of filtering the characters,
+ we dont necessarily do a good job of informing the user.
+ This class helps immensely under such scenarios.
+ This also helps in a shorter learning cycle of the 
+ application.
+ NOTE: The difference between this and other balloon classes is 
+ that this is made specifically for the edit control and 
+ displays the balloon at the caret position within the textbox.
+ </summary>
+</member>
+</members>
+</doc>
