@@ -1,0 +1,5 @@
+bin\Debug\Helper.dll
+bin\Debug\Helper.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Helper.dll
+obj\Debug\Helper.pdb
