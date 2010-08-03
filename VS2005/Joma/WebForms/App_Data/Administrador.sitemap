@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+
+  <siteMapNode url="" title="Menu" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/Forms/Paciente.aspx" title="Pacientes" />
+	  <siteMapNode url="~/Forms/AgendamentoSessoes.aspx" title="Agendamentos" />
+    <siteMapNode url="~/Forms/AgendaFrame.aspx" title="Agenda Multiprofissionais" />
+    <siteMapNode url="~/Forms/Profissionais.aspx" title="Profissionais" />
+	<siteMapNode url="~/Forms/Convenio.aspx" title="Convenios" />
+    <siteMapNode url="~/Forms/Recibos.aspx" title="Recibo" />
+	  <siteMapNode url="~/Forms/RecibosEmitidos.aspx" title="Recibos Emitidos" />
+    <siteMapNode url="~/Forms/Parametros.aspx" title="Parâmetros" />
+  </siteMapNode>
+
+</siteMap>
