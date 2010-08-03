@@ -1,0 +1,45 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Categorias</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarCategorias" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Categoria: 
+        <input name="id_Categoria" type="hidden" id="id_Categoria" value="<%=id_Categoria%>"></td>
+      <td class="texto" width="89%"><input name="Categoria_Nome" type="text" class="campos" id="Categoria_Nome" value="<%=Categoria_Nome%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1">
+      <td class="texto">Ordem:</td>
+      <td class="texto">
+        <%
+ArrayValores = Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30) 'Array dos valores
+ArrayTitulos = Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30) 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Ordem" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Ordem 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+      </td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Publicação:</td>
+      <td> 
+        <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Sim","Não") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Categoria_Flag_Publicado" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Cint(Categoria_Flag_Publicado) 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+        &nbsp; <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>

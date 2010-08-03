@@ -1,0 +1,28 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Usuarios do Sistema</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=IncluirUsuarios" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Nome:</td>
+      <td class="texto" width="89%"><input class="campos" name="Usuario_Nome" type="text" id="Usuario_Nome" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1">
+      <td class="texto">Login:</td>
+      <td class="texto"><input class="campos" name="Usuario_Login" type="text" id="Usuario_Login"></td>
+    </tr>
+    <tr class="zebra1">
+      <td class="texto">Senha:</td>
+      <td class="texto"><input class="campos" name="Usuario_Senha" type="password" id="Usuario_Senha"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> &nbsp; <input class="botoes" type="submit" name="submit" value="Gravar "></td>
+    </tr>
+  </form>
+</table>

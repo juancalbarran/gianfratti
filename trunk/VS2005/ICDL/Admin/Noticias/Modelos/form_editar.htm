@@ -1,0 +1,43 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td>Gerenciador de Noticias</td>
+  </tr>
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarNoticias" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Titulo:
+        <input name="id_noticia" type="hidden" id="id_noticia" value="<%=id_noticia%>"></td>
+      <td class="texto" width="89%"><input name="Noticia_Titulo" type="text" class="campos" id="Noticia_Titulo" value="<%=noticia_titulo%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Sinopse:</td>
+      <td class="texto"><textarea name="Noticia_Sinopse" cols="90" rows="10" id="Noticia_Sinopse"><%=Noticia_Sinopse%></textarea>
+      </td>
+    </tr>
+    <tr class="zebra1">
+      <td valign="top" class="texto">Texto:</td>
+      <td class="texto"><textarea name="Noticia_Texto" cols="90" rows="30" id="Noticia_Texto"><%=noticia_texto%></textarea>
+        <script language="javascript1.2">
+editor_generate('Noticia_Texto');
+  </script></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Publicação:</td>
+      <td> 
+        <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Sim","Não") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Noticia_Flag_Publicado" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Cint(Noticia_Flag_Publicado) 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+        &nbsp; <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
