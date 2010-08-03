@@ -1,0 +1,11 @@
+<SyntaxModes version="1.0">
+	<Mode file       = "CSharp.xshd"
+	      name       = "CSharp"
+	      extensions = ".cs"/>
+	<Mode file       = "ASPX.xshd"
+	      name       = "ASP.Net"
+	      extensions = ".aspx"/>
+	<Mode file       = "TSQL.xshd"
+	      name       = "TSQL"
+	      extensions = ".sql"/>
+</SyntaxModes>

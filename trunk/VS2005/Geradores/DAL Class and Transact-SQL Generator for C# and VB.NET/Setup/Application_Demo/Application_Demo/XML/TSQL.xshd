@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for Oracle -->
+
+<SyntaxDefinition name = "TSQL" extensions = ".SQL">
+	
+	<Properties>
+		<Property name="LineComment" value="--"/>
+	</Properties>
+	
+	<Digits name = "Digits" bold = "false" italic = "false" color = "Black"/>
+
+	<RuleSets>
+		<RuleSet ignorecase="true">
+			<Delimiters>&amp;&lt;&gt;~!%^*()-+=|\#/{}[]:;"' ,	.?</Delimiters>
+			
+		  	<Span name = "LineComment" rule = "CommentMarkerSet" bold = "false" italic = "false" color = "Green" stopateol = "true">
+			   	<Begin>--@!/@</Begin>
+		  	</Span>
+		  
+			<Span name = "BlockComment" rule = "CommentMarkerSet" bold = "false" italic = "false" color = "Green" stopateol = "false">
+				<Begin>/*</Begin>
+				<End>*/</End>
+			</Span>
+		  	
+			<Span name = "String" bold = "false" italic = "false" color = "Red" stopateol = "true">
+				<Begin>'</Begin>
+				<End>'</End>
+			</Span>
+			
+			<Span name = "MultiLineString" bold = "false" italic = "false" color = "Red" stopateol = "false" noescapesequences="true">
+				<Begin>@@'</Begin>
+				<End>'</End>
+			</Span>
+			<Span name = "QuoteName" bold = "false" italic = "false" color = "Black" stopateol = "false" noescapesequences="true">
+				<Begin>[</Begin>
+				<End>]</End>
+			</Span>
+			
+			<Span name = "Char" bold = "false" italic = "false" color = "Red" stopateol = "true">
+				<Begin>&apos;</Begin>
+				<End>&apos;</End>
+			</Span>
+			
+			<!--<MarkPrevious bold = "true" italic = "false" color = "MidnightBlue">(</MarkPrevious>-->
+			
+			<KeyWords name = "Punctuation" bold = "false" italic = "false" color = "DarkGreen">
+				<Key word = "?" />
+				<Key word = "," />
+				<Key word = "." />
+				<Key word = ";" />
+				<Key word = "(" />
+				<Key word = ")" />
+				<Key word = "[" />
+				<Key word = "]" />
+				<Key word = "{" />
+				<Key word = "}" />
+				<Key word = "+" />
+				<Key word = "-" />
+				<Key word = "/" />
+				<Key word = "%" />
+				<Key word = "*" />
+				<Key word = "&lt;" />
+				<Key word = "&gt;" />
+				<Key word = "^" />
+				<Key word = "=" />
+				<Key word = "~" />
+				<Key word = "!" />
+				<Key word = "|" />
+			    <Key word = "&amp;" />
+		  	</KeyWords>
+
+			<KeyWords name = "StringFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="SUBSTRING" />
+				<Key word="LTRIM" />
+				<Key word="RTRIM" />
+				<Key word="ASCII" />
+				<Key word="CHAR" />
+				<Key word="CHARINEX" />
+				<Key word="DIFFERENCE" />
+				<Key word="LEFT" />
+				<Key word="LEN" />
+				<Key word="LOWER" />
+				<Key word="NCHAR" />
+				<Key word="PATINDEX" />
+				<Key word="QUTENAME" />
+				<Key word="REPLACE" />
+				<Key word="REPLICATE" />
+				<Key word="REVERSE" />
+				<Key word="RIGHT" />
+				<Key word="SOUNDEX" />
+				<Key word="SPACE" />
+				<Key word="STR" />
+				<Key word="STUFF" />
+				<Key word="UNICODE" />
+				<Key word="UPPER" />
+			</KeyWords>
+
+			<KeyWords name = "AggregateFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="AVG" />
+				<Key word="CHECKSUM" />
+				<Key word="CHECK_AGG" />
+				<Key word="COUNT" />
+				<Key word="COUNT_BIG" />
+				<Key word="GROUPING" />
+				<Key word="MAX" />
+				<Key word="MIN" />
+				<Key word="SUM" />
+				<Key word="STDEV" />
+				<Key word="STDEVP" />
+				<Key word="VAR" />
+				<Key word="VARP" />
+			</KeyWords>
+
+			<KeyWords name = "DateTimeFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="DATEADD" />
+				<Key word="DATEDIFF" />
+				<Key word="DATENAME" />
+				<Key word="DATEPART" />
+				<Key word="DAY" />
+				<Key word="GETDATE" />
+				<Key word="GETUTCDATE" />
+				<Key word="MONTH" />
+				<Key word="YEAR" />
+			</KeyWords>
+
+			<KeyWords name = "SystemFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="CASE"/>
+				<Key word="CAST"/>
+				<Key word="CONVERT"/>
+				<Key word="COALESCE"/>
+				<Key word="COLLATIONPROPERTY"/>
+				<Key word="COLUMNS_UPDATED"/>
+				<Key word="CURRENT_TIMESTAMP"/>
+				<Key word="CURRENT_USER"/>
+				<Key word="DATALENGTH"/>
+				<Key word="@@ERROR"/>
+				<Key word="ERROR_LINE"/>
+				<Key word="ERROR_MESSAGE"/>
+				<Key word="ERROR_NUMBER"/>
+				<Key word="ERROR_PROCEDURE"/>
+				<Key word="ERROR_SEVERITY"/>
+				<Key word="ERROR_STATE"/>
+				<Key word="fn_helpcollations"/>
+				<Key word="fn_servershareddrives"/>
+				<Key word="fn_virtualfilestats"/>
+				<Key word="FORMATMESSAGE"/>
+				<Key word="GETANSINULL"/>
+				<Key word="HOST_ID"/>
+				<Key word="HOST_NAME"/>
+				<Key word="IDENT_CURRENT"/>
+				<Key word="IDENT_INCR"/>
+				<Key word="IDENT_SEED"/>
+				<Key word="@@IDENTITY"/>
+				<Key word="ISDATE"/>
+				<Key word="ISNULL"/>
+				<Key word="ISNUMERIC"/>
+				<Key word="NEWID"/>
+				<Key word="NULLIF"/>
+				<Key word="PARSENAME"/>
+				<Key word="@@ROWCOUNT"/>
+				<Key word="ROWCOUNT_BIG"/>
+				<Key word="SCOPE_IDENTITY"/>
+				<Key word="SERVERPROPERTY"/>
+				<Key word="SESSIONPROPERTY"/>
+				<Key word="SESSION_USER"/>
+				<Key word="STATS_DATE"/>
+				<Key word="SYSTEM_USER"/>
+				<Key word="@@TRANCOUNT"/>
+				<Key word="UPDATE"/>
+				<Key word="USER_NAME"/>
+				<Key word="XACT_STATE"/>
+			</KeyWords>
+			
+			<KeyWords name = "MathematicalFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="ABS" />
+				<Key word="ACOS" />
+				<Key word="ASIN" />
+				<Key word="ATAN" />
+				<Key word="ATN2" />
+				<Key word="CEILING" />
+				<Key word="COS" />
+				<Key word="COT" />
+				<Key word="DEGRESS" />
+				<Key word="EXP" />
+				<Key word="FLOOR" />
+				<Key word="LOG" />
+				<Key word="LOG10" />
+				<Key word="PI" />
+				<Key word="POWER" />
+				<Key word="RADIANS" />
+				<Key word="RAND" />
+				<Key word="ROUND" />
+				<Key word="SIGN" />
+				<Key word="SIN" />
+				<Key word="SQRT" />
+				<Key word="SQUARE" />
+				<Key word="TAN" />
+			</KeyWords>
+
+			<KeyWords name = "CursorFunctions" bold="false" italic="false" color="Magenta">
+				<Key word="@@CURSOR_ROWS" />
+				<Key word="@@FETCH_STATUS" />
+				<Key word="CURSOR_STATUS" />
+			</KeyWords>
+			
+			<KeyWords name = "XPStoredProcedures" bold="false" italic="false" color="Brown">
+				<Key word="SP_XML_PREPAREDOCUMENT" />
+				<Key word="SP_XML_REMOVEDOCUMENT" />
+			</KeyWords>
+			
+			<KeyWords name = "AccessKeywords" bold="false" italic="false" color="Gray">
+				<Key word="OUTER" />
+				<Key word="INNER" />
+				<Key word="AND" />
+				<Key word="ANY" />
+				<Key word="BETWEEN" />
+				<Key word="EXISTS" />
+				<Key word="IN" />
+				<Key word="JOIN" />
+				<Key word="LIKE" />
+				<Key word="NOT" />
+				<Key word="NULL" />
+				<Key word="OR" />
+				<Key word="ALL"/>
+				<Key word="IS"/>
+				<Key word="FULL"/>
+				<Key word="Cross"/>
+				<Key word="RIGHT"/>
+				<Key word="LEFT"/>
+			</KeyWords>
+
+			<KeyWords name = "DataTypes" bold="false" italic="false" color="Blue">
+				<Key word="INT" />
+				<Key word="BIGINT" />
+				<Key word="SMALLINT" />
+				<Key word="TINYINT" />
+				<Key word="VARCHAR" />
+				<Key word="CHAR" />
+				<Key word="NCHAR" />
+				<Key word="NVARCHAR" />
+				<Key word="DATETIME" />
+				<Key word="FLOAT" />
+				<Key word="DOUBLE" />
+				<Key word="BIT" />
+				<Key word="DECIMAL"/>
+				<Key word="NUMERIC"/>
+				<Key word="MONEY"/>
+				<Key word="SMALLMONEY"/>
+				<Key word="REAL"/>
+				<Key word="SMALLDATETIME"/>
+				<Key word="TEXT"/>
+				<Key word="NTEXT"/>
+				<Key word="BINARY"/>
+				<Key word="VARBINARY"/>
+				<Key word="IMAGE"/>
+				<Key word="CURSOR"/>
+				<Key word="TIMESTAMP"/>
+				<Key word="SQL_VARIANT"/>
+				<Key word="SYSNAME"/>
+				<Key word="UNIQUEIDENTIFIER"/>
+				<Key word="TABLE"/>
+				<Key word="XML"/>
+			</KeyWords>
+		  
+			<!--KeyWords name = "SelectionStatements" bold="false" italic="false" color="Blue"-->
+			<KeyWords name = "ReservredWords" bold="false" italic="false" color="Blue">
+				<Key word="ADD"/>
+				<Key word="EXCEPT"/>
+				<Key word="PERCENT"/>
+				<Key word="EXEC"/>
+				<Key word="PLAN"/>
+				<Key word="ALTER"/>
+				<Key word="EXECUTE"/>
+				<Key word="PRECISION"/>
+				<Key word="PRIMARY"/>
+				<Key word="EXIT"/>
+				<Key word="PRINT"/>
+				<Key word="AS"/>
+				<Key word="FETCH"/>
+				<Key word="PROC"/>
+				<Key word="ASC"/>
+				<Key word="FILE"/>
+				<Key word="PROCEDURE"/>
+				<Key word="AUTHORIZATION"/>
+				<Key word="FILLFACTOR"/>
+				<Key word="PUBLIC"/>
+				<Key word="BACKUP"/>
+				<Key word="FOR"/>
+				<Key word="RAISERROR"/>
+				<Key word="BEGIN"/>
+				<Key word="FOREIGN"/>
+				<Key word="READ"/>
+				<Key word="FREETEXT"/>
+				<Key word="READTEXT"/>
+				<Key word="BREAK"/>
+				<Key word="FREETEXTTABLE"/>
+				<Key word="RECONFIGURE"/>
+				<Key word="BROWSE"/>
+				<Key word="FROM"/>
+				<Key word="REFERENCES"/>
+				<Key word="BULK"/>
+				<Key word="REPLICATION"/>
+				<Key word="BY"/>
+				<Key word="FUNCTION"/>
+				<Key word="RESTORE"/>
+				<Key word="CASCADE"/>
+				<Key word="GOTO"/>
+				<Key word="RESTRICT"/>
+				<Key word="CASE"/>
+				<Key word="GRANT"/>
+				<Key word="RETURN"/>
+				<Key word="CHECK"/>
+				<Key word="GROUP"/>
+				<Key word="REVOKE"/>
+				<Key word="CHECKPOINT"/>
+				<Key word="HAVING"/>
+				<Key word="CLOSE"/>
+				<Key word="HOLDLOCK"/>
+				<Key word="ROLLBACK"/>
+				<Key word="CLUSTERED"/>
+				<Key word="IDENTITY"/>
+				<Key word="ROWCOUNT"/>
+				<Key word="COALESCE"/>
+				<Key word="IDENTITY_INSERT"/>
+				<Key word="ROWGUIDCOL"/>
+				<Key word="COLLATE"/>
+				<Key word="IDENTITYCOL"/>
+				<Key word="RULE"/>
+				<Key word="COLUMN"/>
+				<Key word="IF"/>
+				<Key word="SAVE"/>
+				<Key word="COMMIT"/>
+				<Key word="SCHEMA"/>
+				<Key word="COMPUTE"/>
+				<Key word="INDEX"/>
+				<Key word="SELECT"/>
+				<Key word="CONSTRAINT"/>
+				<Key word="SESSION_USER"/>
+				<Key word="CONTAINS"/>
+				<Key word="INSERT"/>
+				<Key word="SET"/>
+				<Key word="CONTAINSTABLE"/>
+				<Key word="INTERSECT"/>
+				<Key word="SETUSER"/>
+				<Key word="CONTINUE"/>
+				<Key word="INTO"/>
+				<Key word="SHUTDOWN"/>
+				<Key word="CREATE"/>
+				<Key word="STATISTICS"/>
+				<Key word="KEY"/>
+				<Key word="SYSTEM_USER"/>
+				<Key word="CURRENT"/>
+				<Key word="KILL"/>
+				<Key word="TABLE"/>
+				<Key word="CURRENT_DATE"/>
+				<Key word="TEXTSIZE"/>
+				<Key word="CURRENT_TIME"/>
+				<Key word="THEN"/>
+				<Key word="CURRENT_TIMESTAMP"/>
+				<Key word="LINENO"/>
+				<Key word="TO"/>
+				<Key word="CURRENT_USER"/>
+				<Key word="LOAD"/>
+				<Key word="TOP"/>
+				<Key word="CURSOR"/>
+				<Key word="NATIONAL"/>
+				<Key word="TRAN"/>
+				<Key word="DATABASE"/>
+				<Key word="NOCHECK"/>
+				<Key word="OUTPUT"/>
+				<Key word="TRANSACTION"/>
+				<Key word="DBCC"/>
+				<Key word="NONCLUSTERED"/>
+				<Key word="TRIGGER"/>
+				<Key word="DEALLOCATE"/>
+				<Key word="TRUNCATE"/>
+				<Key word="DECLARE"/>
+				<Key word="TSEQUAL"/>
+				<Key word="DEFAULT"/>
+				<Key word="NULLIF"/>
+				<Key word="UNION"/>
+				<Key word="DELETE"/>
+				<Key word="OF"/>
+				<Key word="UNIQUE"/>
+				<Key word="DENY"/>
+				<Key word="OFF"/>
+				<Key word="UPDATE"/>
+				<Key word="DESC"/>
+				<Key word="OFFSETS"/>
+				<Key word="UPDATETEXT"/>
+				<Key word="DISK"/>
+				<Key word="ON"/>
+				<Key word="USE"/>
+				<Key word="DISTINCT"/>
+				<Key word="OPEN"/>
+				<Key word="USER"/>
+				<Key word="DISTRIBUTED"/>
+				<Key word="OPENDATASOURCE"/>
+				<Key word="VALUES"/>
+				<Key word="DOUBLE"/>
+				<Key word="OPENQUERY"/>
+				<Key word="VARYING"/>
+				<Key word="DROP"/>
+				<Key word="OPENROWSET"/>
+				<Key word="VIEW"/>
+				<Key word="DUMMY"/>
+				<Key word="OPENXML"/>
+				<Key word="WAITFOR"/>
+				<Key word="DUMP"/>
+				<Key word="OPTION"/>
+				<Key word="WHEN"/>
+				<Key word="ELSE"/>
+				<Key word="WHERE"/>
+				<Key word="END"/>
+				<Key word="ORDER"/>
+				<Key word="WHILE"/>
+				<Key word="ERRLVL"/>
+				<Key word="WITH"/>
+				<Key word="ESCAPE"/>
+				<Key word="OVER"/>
+				<Key word="WRITETEXT"/>
+				<Key word="XML"/>
+				<Key word="PATH"/>
+				<Key word="ROOT"/>
+				<Key word="ELEMENTS"/>
+				<Key word="XSINIL"/>
+				<Key word="TYPE"/>
+			</KeyWords>
+		</RuleSet>
+		
+		<RuleSet name = "CommentMarkerSet" ignorecase = "true"></RuleSet>
+		
+		<RuleSet name = "DocCommentSet" ignorecase = "false"></RuleSet>
+		
+		<RuleSet name = "XmlDocSet" ignorecase = "false"></RuleSet>
+	</RuleSets>
+</SyntaxDefinition>
