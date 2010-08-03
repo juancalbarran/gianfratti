@@ -1,0 +1,72 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TemplateAdmin.master.cs" Inherits="Admin_Template_TemplateAdmin" %>
+
+<%@ Register Src="~/Admin/UserControl/Menu/Menu.ascx" TagName="Menu" TagPrefix="uc1" %>
+<link href="<%=Caminho%>/Admin/Template/Css/default.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="<%=Caminho%>/ADMIN/JS/Funcoes.js"></script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<body style="overflow:hidden; margin:0px; padding:0px">
+
+<head id="Head1" runat="server">
+
+</head>
+
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <table border="0" cellpadding="0" cellspacing="0"  style="width:100%;height:100%">
+            <tr>
+                <td colspan="2" style="height: 1px" valign="top">
+                   
+ <table border="0" cellpadding="0" cellspacing="0" style="border-style:None;width:100%;border-collapse:collapse;">
+  <tr> 
+    <td width="3%" rowspan="2" valign="top"><a href="<%=Caminho%>"><img src="<%=Caminho%>/Admin/Template/Img/LogoBanner.jpg " alt="P&aacute;gina principal" border="0" id="ctl00_ctl00_Image1" style="border-width:0px;" /></a></td>
+    <td width="97%" valign="top"><img src="<%=Caminho%>/Admin/Template/Img/banner_curve.gif" id="ctl00_ctl00_Image2" style="border-width:0px;" /></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#2E5CB8"><img id="ctl00_ctl00_BannerFade" src="<%=Caminho%>/Admin/Template/Img/banner_fade.gif" style="border-width:0px;" /></td>
+  </tr>
+  <tr> 
+    <td colspan="2"  valign="middle"   >
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-style:None;width:100%;border-collapse:collapse;">
+        <tr> 
+          <td  class="toolbar" style="height:25px;white-space:nowrap; width: 491px;" >&nbsp;Bem 
+            Vindo:</td>
+          <td align="right" valign="middle"  class="toolbar" style="height:25px;white-space:nowrap;" >
+              <asp:ImageButton ID="btnLogout" runat="server" AlternateText="Sair do sistema" CausesValidation="False"
+                  EnableTheming="True" ImageUrl="~/Admin/Template/Img/sair.gif" /></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>                      
+                 </td>
+            </tr>
+            <tr>
+                <td class="gradiente" style="width: 16%;" valign="top">
+                    <uc1:Menu ID="Menu1" runat="server" />
+                </td>
+                <td style="width: 84%; height:100%" valign="top">
+       <!--
+       Div que simula um Frame. No body existe um style="overflow:hidden" que oculta o Scroll do Body
+       -->
+        <div style="overflow:auto; height:100%; width:100%">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        
+        
+                
+        </asp:contentplaceholder>
+        </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="toolbar" style="height:20px;white-space:nowrap;" align="center">
+                    <div align="center">
+                        © Copyright Recognition</div>
+                </td>
+            </tr>
+        </table>
+    
+
+    
+    </form>
+</body>
+</html>

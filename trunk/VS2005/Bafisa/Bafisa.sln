@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\Projetos\Bafisa\", "..\..\..\..\..\..\Projetos\Bafisa\", "{01D8957F-FF73-4295-9418-A9E401C074A3}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Bafisa"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projetos\Bafisa\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bafisa\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bafisa"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projetos\Bafisa\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bafisa\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1218"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D8957F-FF73-4295-9418-A9E401C074A3}.Debug|.NET.ActiveCfg = Debug|.NET
+		{01D8957F-FF73-4295-9418-A9E401C074A3}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
