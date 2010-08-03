@@ -1,0 +1,15 @@
+bin\Debug\VideoCapture.exe.config
+bin\Debug\VideoCapture.exe
+bin\Debug\VideoCapture.pdb
+bin\Debug\VideoCapture.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VideoCapture.Form1.resources
+obj\Debug\VideoCapture.Resources.resources
+obj\Debug\VideoCapture.vbproj.GenerateResource.Cache
+obj\Debug\VideoCapture.exe
+obj\Debug\VideoCapture.xml
+obj\Debug\VideoCapture.pdb
+bin\Debug\VideoCapture.exe.manifest
+bin\Debug\VideoCapture.application
+obj\Debug\VideoCapture.exe.manifest
+obj\Debug\VideoCapture.application
