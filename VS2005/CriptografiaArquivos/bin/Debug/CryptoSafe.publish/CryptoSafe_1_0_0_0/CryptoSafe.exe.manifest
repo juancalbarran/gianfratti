@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="CryptoSafe.exe" version="1.0.0.0" publicKeyToken="220e0bbc2acc7135" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CryptoSafe" version="1.0.3191.32222" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CryptoSafe.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CryptoSafe.exe" size="49152">
+      <assemblyIdentity name="CryptoSafe" version="1.0.3191.32222" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>73AC23A+/2pl9SG399IVJga1Q58=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+LyBs/sw5JipQk0D6AmVUsLkrd8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RCBAB\fmanes" issuerKeyHash="32a941c307bd1f1446f5661f0025077e007ab7ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xm4pNmtIRlyd0fIWlxq8GseT1jM=</DigestValue></Reference></SignedInfo><SignatureValue>eyLuWLbjbPGd5Uwy85TMKvHgiY36JWEFE/fodR9xzqfiiK1s7U6mER5HTxBcQd46oyy4EwpiwOBL9DKxTG1/DQWOkIoQHu565wlTBxv2TEmy0RDYlJFrB6oqzgSACcKPO1lKcculgKLp94RT37JlhfoynbfIEcOiliEVoH/lFj4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3DhxWINnR78RbfZblrgzooqSPFFKNt4FKYP+D0pecIFcd6yFPHh4G3kPzJ1y+6CZDTusPSfJNwDk5YQmNFDhQKoYnEwQCgbHrZ2R+TAfo5cmgtA+fAgFkksmZuPG1F80F2HDptLBZeMpQN7iNwEy5vlJHFZgrapAIooKMhEtwP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="33d693c71abc1a9716f2d19d5c46486b36296ec6" Description="" Url=""><as:assemblyIdentity name="CryptoSafe.exe" version="1.0.0.0" publicKeyToken="220e0bbc2acc7135" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RCBAB\fmanes</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>U7mP2rb65PywKBZsrbQnhvRECRU=</DigestValue></Reference></SignedInfo><SignatureValue>zajITAm6rPFZ9/LgMcAbcc6zMyQWQZ6HuqLvSiqMzH7KEMiW0CoJs7JzSHt/qhXF+FBzMQYHtv0qkpf55rOLnS1Qh2LuVPH5HHkZR9hqFCl7rLPk90LSWX4IjxBYh0h0H7yu9aeLELINKWl2tQxeYp/Ch8ZrywBBLiji4W3bOks=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3DhxWINnR78RbfZblrgzooqSPFFKNt4FKYP+D0pecIFcd6yFPHh4G3kPzJ1y+6CZDTusPSfJNwDk5YQmNFDhQKoYnEwQCgbHrZ2R+TAfo5cmgtA+fAgFkksmZuPG1F80F2HDptLBZeMpQN7iNwEy5vlJHFZgrapAIooKMhEtwP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCAS6gAwIBAgIQV0QBYSpKZZVKmWMtwRIn1TAJBgUrDgMCHQUAMCMxITAfBgNVBAMeGABSAEMAQgBBAEIAXABmAG0AYQBuAGUAczAeFw0wODA5MjYxOTUzNTBaFw0wOTA5MjcwMTUzNTBaMCMxITAfBgNVBAMeGABSAEMAQgBBAEIAXABmAG0AYQBuAGUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3DhxWINnR78RbfZblrgzooqSPFFKNt4FKYP+D0pecIFcd6yFPHh4G3kPzJ1y+6CZDTusPSfJNwDk5YQmNFDhQKoYnEwQCgbHrZ2R+TAfo5cmgtA+fAgFkksmZuPG1F80F2HDptLBZeMpQN7iNwEy5vlJHFZgrapAIooKMhEtwP8CAwEAATAJBgUrDgMCHQUAA4GBAEFoVc8ncxvl4JyxlkJrp35YpLkpvcJ5nTxXTuCLs7VtqadMPTKki9OBcJmiyNfG/dEnPcKahZPCfFeRRi8GvXt9vIK7jm8Ayju2HXnxWiHv3fVT0E1k91mTHLR/8MwwKoJ8EPerQTFaEgkv7duTnGkRt5yzasUuHdMIIdkt+t5y</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
