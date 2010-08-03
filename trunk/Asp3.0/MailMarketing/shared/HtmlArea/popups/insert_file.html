@@ -1,0 +1,343 @@
+<!--
+/***********************************************************************
+** Title.........: 	Link/File Manger for ASP for HTMLArea
+** What..........:	Removed all PHP and added some target=_blank functionality
+** Adaptor.......:	Eivind Savio http://www.savio.no
+
+** Based on......:
+** Title.........: 	Link/File Mangager in PHP for HTMLArea
+** What..........:	Creator of making this file into a Link-function
+** Adaptor.......:	Barry Hunter
+
+** Title.........:  File Manager for HTMLArea
+** What..........:  Creator of the Link to File version
+** Adaptor.......:  Tim van Pelt <taurentius@hotmail.com>
+
+** Title.........:	Image Manager for HTMLArea 3.0 Alpha, PHP Version
+** Version.......:	1.01
+** Author........:	Xiang Wei ZHUO <wei@zhuo.org>
+
+                    - Only compatible with IE 5.5+
+
+***********************************************************************/
+-->
+<html style="width: 580; height: 490;">
+<head>
+<title>Link to File/Page</title>
+<script type="text/javascript">
+
+function _CloseOnEsc() {
+  if (event.keyCode == 27) { window.close(); return; }
+}
+
+window.onerror = HandleError
+
+function HandleError(message, url, line) {
+  var str = "An error has occurred in this dialog." + "\n\n"
+  + "Error: " + line + "\n" + message;
+  alert(str);
+  window.close();
+  return true;
+}
+
+// Now, if a person changes the protocol AFTER having entered the
+// link, the inputted link info isn't erased.
+function myChange(that) {
+	var selectedItem      	= that.selectedIndex;
+	var selectedItemValue 	= that.options[selectedItem].value;
+	var selectedItemText  	= that.options[selectedItem].text;
+
+	var protocol = that.form.txtFileName.value.split(":");
+	if (protocol[1]) {
+		var datum = protocol[1].replace(/^\/\//, "");
+	} else {
+		var datum = protocol[0];
+	}
+	that.form.txtFileName.value = selectedItemValue + datum;
+}
+
+function updateTarget(that) {
+  	tar_attribute = that.options[that.selectedIndex].value;
+}
+
+var desc_attribute = '';
+
+var myValues = window.dialogArguments;
+
+var href_attribute = myValues.href_attribute;
+var highlightedText = myValues.highlightedText;
+var tar_attribute = myValues.tar_attribute;
+var linkText = myValues.linkText;
+
+	if (linkText == '') { desc_attribute = highlightedText; }
+	else { desc_attribute =  linkText; }
+
+function setup_form(yes) {
+	if (yes) {
+		href_attribute = document.form1.txtFileName.value;
+	}
+	if (href_attribute != '') {
+		// 1. set protocol
+		var compare = href_attribute.substring(0,5);
+		for (i=0; i<document.form1.type.length; i++) {
+			if (document.form1.type.options[i].value.indexOf(compare) == 0) {
+				document.form1.type.options[i].selected = true;
+				i = i + 20;
+			} else {
+				document.form1.type.options[i].selected = false;
+			}
+		}
+		if (i < 20) {
+			if (href_attribute.indexOf("@") > 0) {
+				document.form1.type.options[2].selected = true;
+				myChange(document.form1.type);
+			} else if (href_attribute.indexOf("www.") == 0) {
+				document.form1.type.options[0].selected = true;
+				myChange(document.form1.type);
+			}
+		}
+		// 2. set link URL
+		href_attribute = href_attribute.replace(/\/\/\//, "//");
+		href_attribute = href_attribute.replace(/\/\//, "/");
+	}
+}
+
+function Init() {
+
+  // event handlers  
+  document.body.onkeypress = _CloseOnEsc;
+  document.form1.btnOK.onclick = new Function("btnOKClick()"); 
+  
+  document.form1.txtFileName.value = href_attribute;
+  
+  
+  	if (tar_attribute != '')
+  		for (i=0; i<document.form1.target.length; i++)
+  			if (document.form1.target.options[i].value.search(tar_attribute) != -1)
+  			document.form1.target.options[i].selected = true;
+
+  
+  
+  document.form1.txtFileName.focus();
+}
+
+function _isValidNumber(txtBox) {
+  var val = parseInt(txtBox);
+  if (isNaN(val) || val < 0 || val > 999) { return false; }
+  return true;
+}
+
+function btnOKClick() {
+
+  var txtFileName = MM_findObj("f_url");
+  var txtDescription = MM_findObj("f_description");
+  
+// This value is added by Eivind Savio so the target will be _blank if we use the Link to File function
+  var txtTarget = MM_findObj("target");
+  
+  href_attribute = document.form1.txtFileName.value;
+  
+// This value is added by Eivind Savio so the target will be _blank if we use the Link to File function  
+  tar_attribute = document.form1.txtTarget.value;
+  
+  // error checking
+  if (!href_attribute || href_attribute == "http://") { 
+    alert("File name must be specified.");
+    txtFileName.focus();
+    return;
+  }
+  
+ 
+  var text = "";
+  if (href_attribute == '') {
+	text = escape( desc_attribute );
+  } else {
+  
+	text = escape( "<a href='" + href_attribute);
+	
+	if (tar_attribute != "") {
+		text = text + escape( "' target='" + tar_attribute );
+	}
+	
+	text = text + escape( "'>" );
+	
+	if (desc_attribute != '') {
+	  text = text + escape( desc_attribute );
+	} else if (txtDescription.value != '') {
+	  text = text + escape( txtDescription.value );
+	} else {
+	  text = text + escape( href_attribute );
+	}
+	
+	text = text + escape( "</a>" );
+  }
+  window.returnValue = text;	// set return value
+  window.close();
+}
+</script>
+<style type="text/css">
+html, body {
+  background: ButtonFace;
+  color: ButtonText;
+  font: 11px Tahoma,Verdana,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body { padding: 5px; }
+table {
+  font: 11px Tahoma,Verdana,sans-serif;
+}
+a         { color: #0000FF; text-decoration: none; }
+a:hover   { color: #666666; text-decoration: none; }
+form p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fl { width: 9em; float: left; padding: 2px 5px; text-align: right; }
+.fr { width: 6em; float: left; padding: 2px 5px; text-align: right; }
+fieldset { padding: 0px 10px 5px 5px; }
+select, input, button { font: 11px Tahoma,Verdana,sans-serif; }
+button { width: 70px; }
+.space { padding: 2px; }
+
+.title { background: #ddf; color: #000; font-weight: bold; font-size: 120%; padding: 3px 10px; margin-bottom: 10px;
+border-bottom: 1px solid black; letter-spacing: 2px;
+}
+form { padding: 0px; margin: 0px; }
+</style>
+<style type="text/css">
+<!--
+.buttonHover {
+	border: 1px solid;
+	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+	cursor: hand;
+}
+.buttonOut
+{
+	border: 1px solid ButtonFace;
+}
+
+.separator {
+  position: relative;
+  margin: 3px;
+  border-left: 1px solid ButtonShadow;
+  border-right: 1px solid ButtonHighlight;
+  width: 0px;
+  height: 16px;
+  padding: 0px;
+}
+.manager
+{
+}
+.statusLayer
+{
+	background:#FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.statusText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6699CC;
+	text-decoration: none;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+
+//-->
+</script>
+</head>
+<body onload="Init();">
+
+<form action="" name="form1" method="post" target="FileManager">
+<table width="100%" border="0" align="center" cellspacing="2" cellpadding="2">
+    <tr>
+      <td align="center" colspan=2><fieldset>
+	  <legend>File Manager</legend>
+        <table width="99%" align="center" border="0" cellspacing="2" cellpadding="2">
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><a href="filelist.asp" target="FileManager">Link to File</a>
+				<!-- Eivind Savio: This link here is just to show how to link to the iframe in case you wan't to implement ex. link-archive etc. -->
+				</td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="center" bgcolor="white"><div name="manager" class="manager">
+        <iframe src="filelist.asp" name="FileManager" id="FileManager" width="520" height="275" marginwidth="0" marginheight="0" align="top" scrolling="auto" frameborder="0" hspace="0" vspace="0" background="white"></iframe>
+		</div>
+			</td>
+          </tr>
+        </table>
+        </fieldset></td>
+    </tr>
+    <tr>
+      <td><fieldset>
+      <legend align="left">File/Page linked to</legend>
+      <table border="0" align="center" cellpadding="2" cellspacing="2">
+          <tr> 
+            <td nowrap><div align="right">File/Webpage</div></td>
+            <td><input name="txtFileName" type="text" id="f_url" style="width:275px" onkeyup="setup_form(true)"></td>
+            <td rowspan="2">&nbsp;</td>
+          </tr>
+	  <tr style="display:none"> 
+            <td nowrap><div align="right">Description </div></td>
+            <td><input type="text" style="width:20em" name="txtDescription" id="f_description"></td>
+          </tr>
+        </table>
+        </fieldset>
+      </td>
+      <td>
+      	<fieldset>
+      <legend align="left">Hyperlink Information</legend>
+      
+      <table border="0" cellspacing="4" align="center">
+         <tr>
+         <td align="right" nowrap="nowrap" width="40">Type: </td>
+       <td nowrap="nowrap">
+		    <select name="type" style="width: 100px;" onchange="myChange(this)">
+			<option value="http://">Webpage
+			<option value="https://">Secure
+			<option value="mailto:">Email
+			<option value="ftp://">FTP
+		    </select>
+      </td>
+      </tr>
+	  <tr>
+      	    <td align="right">Target: </td>
+            <td><select name="txtTarget" id="target" style="width: 100px;" onChange="updateTarget(this);">
+      		  	  <option value="">{Default}
+      		  	  <option value="_self">Same Page
+      		  	  <option value="_blank">New Window
+      		  	  <option value="_parent">Parent Frame
+      		  	  <option value="_top">Top Frame
+      			  </select>
+   			</td>
+          </tr>
+        </table>
+	</fieldset>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2><div style="text-align: right;"> 
+          <hr />
+          <button type="button" name="cancel" onClick="window.close();">Cancel</button>
+          <button type="button" ID="btnOK" name="btnOK">OK</button>
+        </div></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,185 @@
+	/*[ BODY ]*/
+	body {scrollbar-face-color: #F9F9FD; scrollbar-highlight-color: #F9F9FD; scrollbar-shadow-color: #999999; scrollbar-arrow-color: #999999; scrollbar-track-color: #F9F9FD; scrollbar-darkshadow-color: #F9F9FD; scrollbar-3dlight-color: #999999; scrollbar-base-color: #999999;}
+
+	td{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000; 
+		text-decoration: none;
+	}
+
+
+	/*[ FONTES ]*/
+	.Font10Preto{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000;
+	}
+	.Font10Branco{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #FFFFFF;
+	}
+	.Font10Vermelho{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #FF0000;
+	}
+	.Font10Vinho{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #2A7BA7;
+	}
+	
+	.Font11Preto{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 11px; 
+		color: #000000;
+	}
+	.Font12Preto{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 12px; 
+		color: #000000;
+	}
+	
+	/*[ FORM ]*/
+	.buttom{
+		border: 1px solid #999999; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 11px; 
+		color: #000000; 
+		text-align:center;
+		cursor:Pointer;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff);
+	}
+	select{
+		font-family: Tahoma, Verdana, Arial; 
+		color: #000000;
+		font-size: 10px;
+		border: 0px;
+	}
+	.input{
+		border: 1px solid #999999; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000; 
+		background:transparent;
+	}
+
+	/*[ LINKS ]*/
+	a.MenuTop{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 11px; 
+		color: #000000;
+		text-decoration:none;
+		Cursor:Hand;
+	}
+	
+	a:hover.MenuTop{
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 11px; 
+		color: #000000;
+		text-decoration:none;
+		Cursor:Hand;
+	}
+
+
+	/*[ BORDAS ]*/
+	.BordaPretoSolid{
+		border: 1px solid #000000;
+	}
+	.BordaPretoTopSolid{
+		border-top: 1px solid #000000;
+	}
+	.BordaPretoBottomSolid{
+		border-bottom: 1px solid #000000;
+	}
+	.BordaPretoRightSolid{
+		border-right: 1px solid #000000;
+	}
+	.BordaPretaTabela{
+		border-left: 1px solid #000000; 
+		border-bottom: 1px solid #000000;
+		border-right: 1px solid #000000;
+	}
+	
+	.BordaCinza1{
+		border-top: 1px solid #CCCCCC; 
+		border-left: 1px solid #CCCCCC; 
+		font-family: Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000;
+	}
+	.BordaCinza{
+		border: 1px solid #CCCCCC; 
+		font-family: Verdana, Arial; 
+		font-size: 10px;
+	}
+
+	
+	.BordaPretaMenu1{
+		border-left: 1px solid #000000; 
+		border-top: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000; 
+		text-decoration: none;
+		background:#FFFFFF;
+		Cursor:Pointer;
+	}
+	.BordaPretaMenu2{
+		border-left: 1px solid #000000; 
+		border-top: 1px solid #000000; 
+		border-bottom: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000; 
+		text-decoration: none;
+		Cursor:Pointer;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#FFFFFF);
+	}
+	.BordaPretaMenu2Over{
+		border-left: 1px solid #000000; 
+		border-top: 1px solid #000000; 
+		border-bottom: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #666666; 
+		text-decoration: none;
+		Cursor:Pointer;
+		background:#FFFFFF;
+	}
+	.BordaPretaMenu3{
+		border-left: 1px solid #000000; 
+		border-right: 1px solid #000000; 
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #000000; 
+		text-decoration: none;
+		Cursor:Pointer;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#FFFFFF);
+	}
+	.BordaPretaMenu3Over{
+		border-left: 1px solid #000000; 
+		border-right: 1px solid #000000; 
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; 
+		color: #666666; 
+		text-decoration: none;
+		Cursor:Pointer;
+		background:#FFFFFF;
+	}
+	.BordaPretaMenu4{
+		border-left: 1px solid #000000; 
+		border-right: 1px solid #000000; 
+		border-top: 1px solid #000000; 
+		font-family: Tahoma, Verdana, Arial; 
+		font-size: 10px; color: #000000; 
+		text-decoration: none;
+		background:#FFFFFF;
+		Cursor:Pointer;
+	}
