@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="BE.ArquivoBE">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ArquivoBE.cs</FileName>
+      <HashCode>BUAhGAUAQYEBgACCYEAQBJQAgAIAOEIA4KAZQABIARU=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RefUsuario" />
+      <Property Name="RefTipoMidiaBE" />
+      <Property Name="RefTipoArquivoBE" />
+      <Property Name="RefTipoQualidadeBE" />
+      <Property Name="RefStatusBE" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BE.StatusBE">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StatusBE.cs</FileName>
+      <HashCode>AAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BE.TipoArquivoBE">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TipoArquivoBE.cs</FileName>
+      <HashCode>AAABEEAAAAAEgAAAAAAAAIAEAAAAEAIAAAgAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RefUsuario" />
+      <Property Name="RefTipoQualidade" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BE.TipoMidiaBE">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TipoMidiaBE.cs</FileName>
+      <HashCode>AAAAEAAAAAAEgAAAAAAAAIAAAAAAEAIAAAgAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RefUsuario" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BE.TipoQualidadeBE">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TipoQualidadeBE.cs</FileName>
+      <HashCode>AAAAEAAAAAAEgAAAAAAAAIAAAAAAEAIAAAgAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RefUsuario" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BE.UsuarioBE">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UsuarioBE.cs</FileName>
+      <HashCode>AAAAEAAAACAAhAAAAAEAAAAAACAAAAAIEAgAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,20 @@
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\BE\bin\Debug\BE.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\BE\bin\Debug\BE.pdb
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\BE\obj\Debug\BE.dll
+C:\Documents and Settings\fmanes\Desktop\Fabrizio\Projetos\DigitalArchive\Componentes\BE\obj\Debug\BE.pdb
+E:\DigitalArchive\Componentes\BE\bin\Debug\BE.dll
+E:\DigitalArchive\Componentes\BE\bin\Debug\BE.pdb
+E:\DigitalArchive\Componentes\BE\obj\Debug\ResolveAssemblyReference.cache
+E:\DigitalArchive\Componentes\BE\obj\Debug\BE.dll
+E:\DigitalArchive\Componentes\BE\obj\Debug\BE.pdb
+Y:\DigitalArchive\Componentes\BE\bin\Debug\BE.dll
+Y:\DigitalArchive\Componentes\BE\bin\Debug\BE.pdb
+Y:\DigitalArchive\Componentes\BE\obj\Debug\ResolveAssemblyReference.cache
+Y:\DigitalArchive\Componentes\BE\obj\Debug\BE.dll
+Y:\DigitalArchive\Componentes\BE\obj\Debug\BE.pdb
+C:\Projetos\DigitalArchive\Componentes\BE\bin\Debug\BE.dll
+C:\Projetos\DigitalArchive\Componentes\BE\bin\Debug\BE.pdb
+C:\Projetos\DigitalArchive\Componentes\BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\DigitalArchive\Componentes\BE\obj\Debug\BE.dll
+C:\Projetos\DigitalArchive\Componentes\BE\obj\Debug\BE.pdb
