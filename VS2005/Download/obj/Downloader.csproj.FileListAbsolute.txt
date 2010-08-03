@@ -1,0 +1,5 @@
+C:\Projetos\Componentes\Download\bin\Debug\Downloader.exe
+C:\Projetos\Componentes\Download\bin\Debug\Downloader.pdb
+C:\Projetos\Componentes\Download\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Componentes\Download\obj\Debug\Downloader.exe
+C:\Projetos\Componentes\Download\obj\Debug\Downloader.pdb
