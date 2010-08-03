@@ -11,3 +11,12 @@ C:\Projetos\Joma\Componentes\JomaDAL\bin\Debug\Microsoft.Practices.EnterpriseLib
 C:\Projetos\Joma\Componentes\JomaDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Projetos\Joma\Componentes\JomaDAL\bin\Debug\JomaBE.dll
 C:\Projetos\Joma\Componentes\JomaDAL\bin\Debug\JomaBE.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\JomaDAL.dll
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\JomaDAL.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\JomaBE.dll
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\bin\Debug\JomaBE.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\obj\Debug\JomaDAL.dll
+C:\Gianfratti\VS2005\Joma\Componentes\JomaDAL\obj\Debug\JomaDAL.pdb

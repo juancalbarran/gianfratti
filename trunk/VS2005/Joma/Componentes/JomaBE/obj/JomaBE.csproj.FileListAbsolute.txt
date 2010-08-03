@@ -3,3 +3,8 @@ C:\Projetos\Joma\Componentes\JomaBE\bin\Debug\JomaBE.pdb
 C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\ResolveAssemblyReference.cache
 C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\JomaBE.dll
 C:\Projetos\Joma\Componentes\JomaBE\obj\Debug\JomaBE.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\JomaBE\bin\Debug\JomaBE.dll
+C:\Gianfratti\VS2005\Joma\Componentes\JomaBE\bin\Debug\JomaBE.pdb
+C:\Gianfratti\VS2005\Joma\Componentes\JomaBE\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2005\Joma\Componentes\JomaBE\obj\Debug\JomaBE.dll
+C:\Gianfratti\VS2005\Joma\Componentes\JomaBE\obj\Debug\JomaBE.pdb
