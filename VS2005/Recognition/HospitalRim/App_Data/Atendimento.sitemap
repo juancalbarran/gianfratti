@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+
+	<siteMapNode url="" title="Atendimento" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/CadastrodePacientes/CadastroPrincipal.aspx" title="Pacientes" />
+
+	</siteMapNode>
+
+</siteMap>
+

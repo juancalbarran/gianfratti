@@ -1,0 +1,255 @@
+----------------------------------------
+Timestamp: 23/1/2008 17:50:07
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_EncaminhamentoXExamesComplementares_ExamesComplementares". The conflict occurred in database "SaudeOcupacional", table "dbo.EncaminhamentoXExamesComplementares", column 'idExamesComplementares'.
+The statement has been terminated.
+SOURCE: .Net SqlClient Data Provider
+QUERYSTRING: 
+TARGETSITE: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+STACKTRACE:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   em Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   em ExamesComplementaresDAL.Delete(Int32 id) na c:\Inetpub\wwwroot\SaudeOcupacional\App_Code\ExamesComplementaresDAL.cs:linha 121
+   em Tabelas_ExamesComplementares_Default.Deletar(Int32 id) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 44
+   em Tabelas_ExamesComplementares_Default.GridView1_RowCommand(Object sender, GridViewCommandEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 37
+   em System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   em System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   em System.Web.UI.WebControls.GridView.OnBubbleEvent(Object source, EventArgs e)
+   em System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   em System.Web.UI.WebControls.GridViewRow.OnBubbleEvent(Object source, EventArgs e)
+   em System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   em System.Web.UI.WebControls.ImageButton.OnCommand(CommandEventArgs e)
+   em System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   em System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   em System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   em System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:54:44
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.btnBuscar_Click(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 57
+   em System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   em System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   em System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   em System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   em System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:54:58
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 18
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:55:00
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 18
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:55:19
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 18
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:55:21
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 18
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 23/1/2008 17:55:22
+Message: DataBinding: 'System.Data.DataRowView' não contém uma propriedade com o nome 'RazaoSocial'.
+SOURCE: System.Web
+QUERYSTRING: 
+TARGETSITE: System.Object GetPropertyValue(System.Object, System.String)
+STACKTRACE:    em System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   em System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   em System.Web.UI.DataBinder.Eval(Object container, String expression)
+   em Tabelas_ExamesComplementares_Default.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 65
+   em System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   em System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   em System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   em System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   em System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   em System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   em System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   em System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   em System.Web.UI.WebControls.GridView.DataBind()
+   em Tabelas_ExamesComplementares_Default.GridView() na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 26
+   em Tabelas_ExamesComplementares_Default.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Tabelas\ExamesComplementares\Default.aspx.cs:linha 18
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 28/1/2008 12:57:47
+Message: Seqüência de entrada não estava em um formato incorreto.
+SOURCE: mscorlib
+QUERYSTRING: idEmpresa=undefined
+TARGETSITE: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+STACKTRACE:    em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Empresa_EmpresaCadastro.CarregaDadosEmpresa() na c:\Inetpub\wwwroot\SaudeOcupacional\Empresa\EmpresaCadastro.aspx.cs:linha 30
+   em Empresa_EmpresaCadastro.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Empresa\EmpresaCadastro.aspx.cs:linha 20
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------
+----------------------------------------
+Timestamp: 28/1/2008 12:57:51
+Message: Seqüência de entrada não estava em um formato incorreto.
+SOURCE: mscorlib
+QUERYSTRING: idEmpresa=undefined
+TARGETSITE: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+STACKTRACE:    em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Empresa_EmpresaCadastro.CarregaDadosEmpresa() na c:\Inetpub\wwwroot\SaudeOcupacional\Empresa\EmpresaCadastro.aspx.cs:linha 30
+   em Empresa_EmpresaCadastro.Page_Load(Object sender, EventArgs e) na c:\Inetpub\wwwroot\SaudeOcupacional\Empresa\EmpresaCadastro.aspx.cs:linha 20
+   em System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   em System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   em System.Web.UI.Control.OnLoad(EventArgs e)
+   em System.Web.UI.Control.LoadRecursive()
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Category:  
+Priority: -1
+----------------------------------------

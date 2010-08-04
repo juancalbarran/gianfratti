@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\HospitalRim\", "..\HospitalRim", "{C75AF7D0-09BC-4971-8A0A-4D0909C0C49E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/Fonte/Aplicativos/HOSPITALRIM", UJCAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/HospitalRim"
+		Debug.AspNetCompiler.PhysicalPath = "..\HospitalRim\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HospitalRim\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HospitalRim"
+		Release.AspNetCompiler.PhysicalPath = "..\HospitalRim\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HospitalRim\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49496"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccWebProject0 = true
+		SccProjectUniqueName0 = .
+		SccProjectName0 = \u0022$/Fonte/Aplicativos/HOSPITALRIM\u0022,\u0020UJCAAAAA
+		SccLocalPath0 = C:\\inetpub\\wwwroot\\HospitalRim
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectEnlistmentChoice0 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C75AF7D0-09BC-4971-8A0A-4D0909C0C49E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C75AF7D0-09BC-4971-8A0A-4D0909C0C49E}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
