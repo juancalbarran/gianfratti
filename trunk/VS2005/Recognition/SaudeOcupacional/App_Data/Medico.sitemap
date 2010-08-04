@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+
+  <siteMapNode url="" title="Operacional" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/ProntuarioClinico/ProntuarioClinicoPrincipal.aspx" title="Prontuário Clínico" />
+    <siteMapNode url="~/AtestadoSaude/AtestadoSaudePrincipal.aspx" title="Atestado Saúde(ASO)" />
+    <siteMapNode url="~/AtestadoSaude/AtestadoSaudePrincipal.aspx" title="Perfil Profissiográfico(PPP)" />
+  </siteMapNode>
+
+</siteMap>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+
+	<siteMapNode url="" title="Ficha Internação" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/EvolucaoMultidisciplinar/EvolucaoMultidisciplinarPrincipal.aspx" title="Evolução Multidisciplinar" />
+	</siteMapNode>
+	<siteMapNode url="" title="Relatorios" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/Relatorios/EvolucoesPrincipal.aspx" title="Evoluções" />
+	</siteMapNode>
+</siteMap>

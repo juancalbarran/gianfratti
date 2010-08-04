@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  
+  <siteMapNode url="" title="Administrativo" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/Empresa/default.aspx" title="Empresa" />
+    <siteMapNode url="~/Cliente/ClientePrincipal.aspx" title="Clientes" />
+    <siteMapNode url="~/Cliente/ClientePrincipal.aspx" title="PPRA" />
+    <siteMapNode url="~/PCMSO/PCMSOPrincipal.aspx" title="PCMSO" />
+    <siteMapNode url="~/ProcessoSeletivo/ProcessosSeletivoPrincipal.aspx" title="Processo Seletivo" />
+    <siteMapNode url="~/Encaminhamento/EncaminhamentoPrincipal.aspx" title="Encaminhamento" />
+    <siteMapNode url="~/ClienteFuncionario/FuncionarioPrincipal.aspx" title="Funcionários" />
+    <siteMapNode url="~/Profissionais/ProfissionalPrincipal.aspx" title="Profissionais Saúde" />
+  </siteMapNode>
+  
+  <siteMapNode url="" title="Ficha Médica" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/ProntuarioClinico/ProntuarioClinicoPrincipal.aspx" title="Prontuário Clínico" />
+    <siteMapNode url="~/AtestadoSaude/AtestadoSaudePrincipal.aspx" title="Atestado Saúde(ASO)" />
+    <siteMapNode url="~/PerfilProfissiografico/PerfilProfissiograficoPrevidenciario.aspx" title="Perfil Profissiográfico(PPP)" />
+  </siteMapNode>
+
+  <siteMapNode url="" title="Gerenciamento" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/Tabelas/ExamesComplementares/Default.aspx" title="Exames Complementares" />
+    <siteMapNode url="~/Usuarios/default.aspx" title="Usuários" />
+  </siteMapNode>
+  
+</siteMap>

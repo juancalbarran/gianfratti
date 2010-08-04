@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+
+
+	<siteMapNode url="" title="Ficha Internação" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/AnamneseExameFisico/AnamnesePrincipal.aspx" title="Anamnese" />
+		<siteMapNode url="~/DadosDemograficosdoTransplante/DadosDemograficosPrincipal.aspx" title="Dados Demográficos" />
+		<siteMapNode url="~/DescricaoCirurgica/DescricaoCirurgicaPrincipal.aspx" title="Descrição Cirurgica" />
+		<siteMapNode url="~/FormPosOperatorio/PosOperatorioPrincipal.aspx" title="Pós Operatório TX" />
+		<siteMapNode url="~/EvolucaoMedica/EvolucaoMedicaPrincipal.aspx" title="Evolução Médica" />
+		<siteMapNode url="~/PrescricaoMedica/PrescricaoMedicaPrincipal.aspx" title="Prescrição Médica" />
+		<siteMapNode url="~/Interconsultas/InterConsultas.aspx" title="Inter-Consultas" />
+		<siteMapNode url="~/SolicitarExames/SolicitarExamesPrincipal.aspx" title="Exames Solicitados" />
+		<siteMapNode url="~/AtestadoAlta/AtestadodeAltaPrincipal.aspx" title="Alta" />
+	</siteMapNode>
+
+	<siteMapNode url="" title="Relatorios" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/Relatorios/EvolucoesPrincipal.aspx" title="Evoluções" />
+	</siteMapNode>
+	
+</siteMap>

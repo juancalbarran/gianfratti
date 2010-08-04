@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  
+    <siteMapNode url="" title="Atendimento" Expanded="True" SelectAction="Expand">
+	<siteMapNode url="~/CadastrodePacientes/CadastroPrincipal.aspx" title="Pacientes" />
+
+	</siteMapNode>
+
+	<siteMapNode url="" title="Ficha Internação" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/AnamneseExameFisico/AnamnesePrincipal.aspx" title="Anamnese" />
+		<siteMapNode url="~/DadosDemograficosdoTransplante/DadosDemograficosPrincipal.aspx" title="Dados Demográficos" />
+		<siteMapNode url="~/DescricaoCirurgica/DescricaoCirurgicaPrincipal.aspx" title="Descrição Cirurgica" />
+		<siteMapNode url="~/FormPosOperatorio/PosOperatorioPrincipal.aspx" title="Pós Operatório TX" />
+		<siteMapNode url="~/EvolucaoMedica/EvolucaoMedicaPrincipal.aspx" title="Evolução Médica" />
+		<siteMapNode url="~/EvolucaoMultidisciplinar/EvolucaoMultidisciplinarPrincipal.aspx" title="Evolução Multidisciplinar" />
+		<siteMapNode url="~/PrescricaoMedica/PrescricaoMedicaPrincipal.aspx" title="Prescrição Médica" />
+		<siteMapNode url="~/SolicitarExames/SolicitarExamesPrincipal.aspx" title="Exames Solicitados" />
+		<siteMapNode url="~/AtestadoAlta/AtestadodeAltaPrincipal.aspx" title="Alta" />
+	</siteMapNode>
+	
+	<siteMapNode url="" title="Ambulatório" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/AnamneseAmbulatorio/AnamnesePrincipalAmbulatorio.aspx" title="Anamnese" />
+		<siteMapNode url="~/EvolucaoMultidisciplinarAmbulatorio/EvolucaoMultidisciplinarPrincipalAmbulatorio.aspx" title="Evolução Multidisciplinar" />
+		<siteMapNode url="~/ReceituarioAmbulatorio/ReceituarioPrincipalAmbulatorio.aspx" title="Receituário" />
+	</siteMapNode>
+	
+	<siteMapNode url="" title="Relatórios" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/Default.aspx" title="Etc" />
+	</siteMapNode>
+	
+	<siteMapNode url="" title="Administrativo" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/Profissionais/ProfissionaisPrincipal.aspx" title="Profissionais" />
+		<siteMapNode url="~/Usuários/UsuáriosPrincipal.aspx" title="Usuários" />
+	</siteMapNode>
+</siteMap>

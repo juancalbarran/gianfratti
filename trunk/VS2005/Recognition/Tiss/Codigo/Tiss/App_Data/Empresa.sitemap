@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  
+  <siteMapNode url="" title="Guias" Expanded="True" SelectAction="Expand">
+    <siteMapNode url="~/Guias/Consulta/Default.aspx" title="Consulta" />
+    <siteMapNode url="~/Guias/SolicitacaoInternacao/Default.aspx" title="Solicitação Internação" />
+  </siteMapNode>
+ 
+</siteMap>

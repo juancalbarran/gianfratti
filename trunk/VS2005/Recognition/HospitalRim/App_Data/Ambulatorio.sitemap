@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+	<siteMapNode url="" title="Ambulatório" Expanded="True" SelectAction="Expand">
+		<siteMapNode url="~/AnamneseAmbulatorio/AnamnesePrincipalAmbulatorio.aspx" title="Anamnese" />
+		<siteMapNode url="~/EvolucaoMedicaAmbulatorio/EvolucaoMedicaAmbulatorioPrincipal.aspx" title="Evolução Médica" />
+		<siteMapNode url="~/EvolucaoMultidisciplinarAmbulatorio/EvolucaoMultidisciplinarPrincipalAmbulatorio.aspx" title="Evolução Multidisciplinar" />
+		<siteMapNode url="~/ReceituarioAmbulatorio/ReceituarioPrincipalAmbulatorio.aspx" title="Receituário" />
+	</siteMapNode>
+</siteMap>
