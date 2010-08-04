@@ -1,0 +1,478 @@
+<html>
+<body>
+<fieldset>
+<legend align="center">&nbsp;Formulário Para Alteração de Solicitação de Atendimento&nbsp;</legend>
+<table width="100%" height="3000" border="0" cellpadding="0" cellspacing="0">
+  <form name="formCadastro" method="post" action="default.asp?action=Alterar_Solicitacao" onSubmit= "return valida_campo_editar()" >
+  <tr>
+        
+      <td valign="top"> 
+	<fieldset>
+	<legend>&nbsp;Solicitação&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="87%"><table width='100%' border='0' cellpadding='0' cellspacing='0' >
+                <tr class='zebra_orange1' > 
+                  <td width="15%"><b>Solicita&ccedil;&atilde;o N&ordm;:</b></td>
+                  <td width="85%" ><b><font size="2"><%=ID%></font></b> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr class='zebra_orange1' > 
+                  <td><b>Status:</b></td>
+                  <td ><font color="#FF0000"><b><%=Ucase(Solicitacao_Status)%></b></font></td>
+                </tr>
+                <%If Trim(id_Solicitacao_Status) = "3" Then%>
+                <tr class='zebra_orange1' > 
+                  <td>&nbsp;</td>
+                  <td ><font color="#FF0000"><b><%=Ucase(Motivo_Solicitacao_Negada)%></b></font></td>
+                </tr>
+                <%End If%>
+                <tr class='zebra_orange1' > 
+                  <td><b>Data Inicio:</b></td>
+                  <td ><%=Data_Cadastro_Solicitacao%><b>&nbsp;&nbsp; 
+                    <%If Data_Fechamento <> "" Then%>
+                    Data Termino:</b>&nbsp;<%=Data_Fechamento%> 
+                    <%End If%>
+                  </td>
+                </tr>
+                <tr class='zebra_orange1' > 
+                  <td><b>Tempo Decorrido:</b></td>
+                  <td ><%=TempoDecorrido(Data_Cadastro_Solicitacao,Data_Fechamento)%></td>
+                </tr>
+              </table></td>
+            <td width="13%" align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/ImprimirSolicitacao.asp?id_Solicitacao_Atendimento=<%=Id%>','850','680',this,event)"> 
+              </a>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="44%" align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/ImprimirSolicitacao.asp?id_Solicitacao_Atendimento=<%=Id%>','850','680',this,event)"><img src="/SmartCare/images/impressora.gif" alt="Imprimir Solicita&ccedil;&atilde;o"  border="0" ></a></td>
+                </tr>
+                <tr> 
+                  <td align="center" class="texto">Imprimir</td>
+                </tr>
+              </table> </td>
+          </tr>
+        </table>
+        </fieldset>
+<BR style="font-size:5px;">
+	<fieldset>
+	<legend>&nbsp;Cadastro Paciente&nbsp;</legend>
+        <table width='100%' border='0' cellspacing='1' cellpadding='0'>
+          <tr class='zebra_orange1'> 
+            <td width='8%'><b>Identificação:</b></td>
+            <td width='25%'><%=Nome_Paciente%><b> 
+              <input name="id" type="hidden" id="id" value="<%=id%>">
+              <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+              <input type="hidden" name="pagina_retorno" value="<%=Request.ServerVariables("HTTP_REFERER")%>">
+              </strong></font> </b></td>
+            <td width='13%'><b>Data Nasc.:</b></td>
+            <td width='22%'><%=ArrumaData(Data_NAscimento)%></td>
+            <td width='8%'><b>Idade: </b></td>
+            <td colspan='3'><%=Idade%> </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><b>RG:</b></td>
+            <td><%=RG%></td>
+            <td><b>CPF:</b></td>
+            <td colspan='5'><%=CPF%></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><b>Convênio:</b></td>
+            <td><%=Convenio%></td>
+            <td><b>Tipo Plano:</b></td>
+            <td colspan='5'><%=Particular%></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><b>Endereço:</b></td>
+            <td><%=Endereco%></td>
+            <td><b>Cidade:</b></td>
+            <td><%=Cidade%></td>
+            <td><b>Bairro:</b></td>
+            <td width='17%'><%=Bairro%></td>
+            <td width='3%'><b>UF:</b></td>
+            <td width='4%'><%=UF%></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><b>Telefones:</b></td>
+            <td><%=Telefones%></td>
+            <td><b>Responsavel:</b></td>
+            <td><%=Responsavel%></td>
+            <td><b>Cuidador:</b></td>
+            <td colspan='3'><%=Cuidador%></td>
+          </tr>
+        </table>
+	</fieldset>
+<BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Tipo de Solicitação&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="100%"><%=gerar_listbox("HomeCare_Solicitacao_Tipo","id","id_Solicitacao_Tipo","Descricao",id_Solicitacao_Tipo)%></td>
+          </tr>
+        </table>
+        </fieldset> <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Tipo de Remoção&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="100%"><%=gerar_listbox("HomeCare_Solicitacao_Remocao_Tipo","id","id_Solicitacao_Remocao_Tipo","Descricao",id_Solicitacao_Remocao_Tipo)%></td>
+          </tr>
+        </table>
+        </fieldset> <BR style="font-size:5px;"> 
+        <fieldset>
+	<legend>&nbsp;Tipo Requisição&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="100%"><%=RadioButtonAutomatico("id","Descricao","HomeCare_Solicitacao_Requisicao_Tipo","","id_Solicitacao_Requisicao_Tipo",id_Solicitacao_Requisicao_Tipo,"onclick='javascript:Tipo_Requisicao_Opcao()'")%></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><%=Hospital_Nome%><%=Tipo_Requisicao_Outros%></td>
+          </tr>
+        </table>
+		  
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr class='zebra_orange1'> 
+      <td><span id="Mostra_Tipo_Hospital" name="Mostra_Tipo_Hospital" style="display:none;">
+              <input name="id_Hospital" type="text" class="campos" id="id_Hospital" value="<%=Id_Hospital%>" size="5">
+                
+              <input name="Hospital_Nome" type="text" class="campos" id="Hospital_Nome" value="<%=Hospital_Nome%>" size="50" maxlength="50"  >
+              <a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Hospital/default.asp','700','500',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de hospitais" border="0"></a> 
+              </span></td>
+    </tr>
+    <tr class='zebra_orange1'> 
+      <td><span id="botao3" name="botao31" style="display:none;">
+                
+              <textarea name="Tipo_Requisicao_Outros" cols="85" class="campos" id="Tipo_Requisicao_Outros"><%=Tipo_Requisicao_Outros%></textarea>
+                </span></td>
+    </tr>
+  </table>
+	</fieldset>
+<BR style="font-size:5px;">
+  	<fieldset>
+	<legend>&nbsp;Médico Solicitante&nbsp;</legend>
+          
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="6%">CRM: </td>
+            <td width="7%"><input name="Medico_Solicitante_CRM" type="text" class="campos" id="Medico_Solicitante_CRM" onfocus="this.select()" onBlur="SaltaBlur()" onchange="CarregaMedico(this)" onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Medico_Solicitante_CRM', '999999', event);" onkeyup="SaltaKeyUp(formCadastro.Medico_Solicitante_CRM, formCadastro.Medico_Solicitante_Contato, 6)" value="<%=Medico_Solicitante_CRM%>" size="6" maxlength="6"  ></td>
+            <td width="9%">M&eacute;dico:</td>
+            <td width="37%"><input readonly name="Medico_Solicitante" type="text" class="campos" id="Medico_Solicitante" value="<%=Medico_Solicitante%>" size="48" maxlength="50" ></td>
+            <td width="7%">Contato:</td>
+            <td width="25%"><input name="Medico_Solicitante_Contato" type="text" class="campos" id="Medico_Solicitante_Contato" value="<%=Medico_Solicitante_Contato%>" size="28" maxlength="50"></td>
+            <td width="9%"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Medico/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp" border="0"></a></td>
+          </tr>
+        </table>
+        </fieldset>  
+		<BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Diagnosticos de Entrada&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td colspan="5"> </tr>
+          <tr align="right" class='zebra_orange1'> 
+            <td colspan="5"><a name='' onClick='CriaOpcoesCid10()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td>Cid 10: </td>
+            <td><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'0')" size="6" maxlength="6"  ></td>
+            <td>Diagnostico:</td>
+            <td><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="90"> 
+            </td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="6%">Cid 10: </td>
+            <td width="7%"><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'1')" size="6" maxlength="6"  ></td>
+            <td width="10%">Diagnostico:</td>
+            <td width="69%"><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="90"></td>
+            <td width="8%"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10" border="0"></a></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Cid10'></Span> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><span id='Carrega_Itens_Cid10'><%=Carrega_CID10_Itens(Request("id"))%></span></td>
+          </tr>
+        </table>
+        </fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Recursos Humanos&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="6" class="texto"><a name='' onClick='CriaOpcoesProfissional()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Profissional: </td>
+            <td width="19%"> 
+              <select class="texto" name="Profissional" id="Profissional">
+                <option value="">&lt;&lt;--Selecione--&gt;&gt;</option>
+                <option value="M&eacute;dico">M&eacute;dico</option>
+                <option value="Enfermeira">Enfermeira</option>
+                <option value="Aux. Enfermegem">Aux. Enfermegem</option>
+                <option value="Fisioterapeuta">Fisioterapeuta</option>
+                <option value="Psic&oacute;logo">Psic&oacute;logo</option>
+                <option value="Terapeuta Ocupacional">Terapeuta Ocupacional</option>
+                <option value="Psiquiatra">Psiquiatra</option>
+                <option value="Fonoaudi&oacute;loga">Fonoaudi&oacute;loga</option>
+                <option value="Nutricionista">Nutricionista</option>
+              </select>
+            </td>
+            <td width="9%">Periodicidade:</td>
+            <td width="44%"> 
+              <input name="Profissional_Periodicidade" type="text" class="campos" id="Profissional_Periodicidade" size="63">
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorProfissional" class="campos" type="text" id="ValorProfissional" size="9"></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Profissional: </td>
+            <td width="19%">
+<select class="texto" name="Profissional" id="Profissional">
+                <option value="">&lt;&lt;--Selecione--&gt;&gt;</option>
+                <option value="M&eacute;dico">M&eacute;dico</option>
+                <option value="Enfermeira">Enfermeira</option>
+                <option value="Aux. Enfermegem">Aux. Enfermegem</option>
+                <option value="Fisioterapeuta">Fisioterapeuta</option>
+                <option value="Psic&oacute;logo">Psic&oacute;logo</option>
+                <option value="Terapeuta Ocupacional">Terapeuta Ocupacional</option>
+                <option value="Psiquiatra">Psiquiatra</option>
+                <option value="Fonoaudi&oacute;loga">Fonoaudi&oacute;loga</option>
+                <option value="Nutricionista">Nutricionista</option>
+              </select>
+            </td>
+            <td width="9%">Periodicidade:</td>
+            <td width="44%">
+<input name="Profissional_Periodicidade" type="text" class="campos" id="Profissional_Periodicidade" size="63">
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorProfissional" class="campos" type="text" id="ValorProfissional" size="9"></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Profissional'></Span>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><span id='Carrega_Profissionais'><%=Carrega_Profissionais(Request("id"))%></span></td>
+          </tr>
+        </table>
+		</fieldset> <BR style="font-size:5px;">
+        <fieldset>
+	<legend>&nbsp;Prescri&ccedil;&atilde;o M&eacute;dica&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td align="right"><a href="javascript:cria_opcoes(1)"><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a> 
+            </td>
+          <tr> 
+            <td><div id=Solicitacao_Medica></div></td>
+          </tr>
+          <tr > 
+            <td><span id='Carrega_Solicitacao_Medica_Itens'><%=Carrega_Solicitacao_Medica_Itens(Request("id"))%></span></td>
+          </tr>
+        </table>
+   </fieldset>       
+<BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Equipamentos&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="6" class="texto"><a name='' onClick='CriaOpcoesEquipamento()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Equipamento: </td>
+            <td width="49%"><input name="Equipamento" type="text" class="campos" id="Equipamento" size="71"> 
+            </td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdEquipamento" class="campos" type="text" id="QtdEquipamento" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorEquipamento" class="campos" type="text" id="ValorEquipamento" size="9"></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Equipamento:</td>
+            <td width="49%"><input name="Equipamento" type="text" class="campos" id="Equipamento" size="71"></td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdEquipamento" class="campos" type="text" id="QtdEquipamento" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorEquipamento" class="campos" type="text" id="ValorEquipamento" size="9"></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Equipamento'></Span> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><span id='Carrega_Equipamentos'><%=Carrega_Equipamentos_Itens(Request("id"))%></span></td>
+          </tr>
+        </table>
+		</fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Materiais&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="6" class="texto"><a name='' onClick='CriaOpcoesMaterial()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Material: </td>
+            <td width="49%"><input name="Material" type="text" class="campos" id="Material" size="71"> 
+            </td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdMaterial" class="campos" type="text" id="QtdMaterial" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorMaterial" class="campos" type="text" id="ValorMaterial" size="9"></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Material: </td>
+            <td width="49%"><input name="Material" type="text" class="campos" id="Material" size="71"></td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdMaterial" class="campos" type="text" id="QtdMaterial" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorMaterial" class="campos" type="text" id="ValorMaterial" size="9"></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Material'></Span> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><span id='Carrega_Materiais'><%=Carrega_Materiais_Itens(Request("id"))%></span></td>
+          </tr>
+        </table>
+		</fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Dietas&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="6" class="texto"><a name='' onClick='CriaOpcoesDieta()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Dieta: </td>
+            <td width="49%"><input name="Dieta" type="text" class="campos" id="Dieta" size="71"> 
+            </td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdDieta" class="campos" type="text" id="QtdDieta" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorDieta" class="campos" type="text" id="ValorDieta" size="9"></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="9%">Dieta: </td>
+            <td width="49%"><input name="Dieta" type="text" class="campos" id="Dieta" size="71"></td>
+            <td width="6%">Qtd:</td>
+            <td width="17%"><input name="QtdDieta" class="campos" type="text" id="QtdDieta" size="17"> 
+            </td>
+            <td width="11%">Valor: (9999.99)</td>
+            <td width="8%"><input name="ValorDieta" class="campos" type="text" id="ValorDieta" size="9"></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Dieta'></Span> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><span id='Carrega_Dietas'><%=Carrega_Dietas_Itens(Request("id"))%></span></td>
+          </tr>
+        </table>
+		</fieldset>
+        <BR style="font-size:5px;"> 
+        <%If Session("Tipo_Login") = "1" Then 'As opoes abaixo so aparecem para o funcionario e nao para um contato%>
+        <fieldset>
+	<legend>&nbsp;Avaliadores&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="13%">Médico:</td>
+            <td width="40%"><%=gerar_listbox_Automatico("Funcionarios"," Where id_Departamento = 5 AND id_Cargo = 3 ","id","id_Funcionario_Medico_Avaliador","Nome","<<---------------Selecione-------------->>",id_Funcionario_Medico_Avaliador)%></td>
+            <td width="7%">Data:</td>
+            <td width="13%"><input name="Medico_Avaliador_Data" type="text" class="campos" id="Medico_Avaliador_Data" onBlur="SaltaBlur()" onchange="ValidarDataExpReg(document.formCadastro.Medico_Avaliador_Data.value, '1'); " onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Medico_Avaliador_Data', '99/99/9999', event);"   onkeyup="SaltaKeyUp(formCadastro.Medico_Avaliador_Data, formCadastro.Medico_Avaliador_Hora, 10)" value="<%=ArrumaData(Medico_Avaliador_Data)%>" size="11" maxlength="10"  ></td>
+            <td width="7%">Hora:</td>
+            <td width="8%"><input name="Medico_Avaliador_Hora" type="text" class="campos" id="Medico_Avaliador_Hora" onChange="ValidarHoraExpReg(document.formCadastro.Medico_Avaliador_Hora.value, '2'); "   onKeyPress="return MascaraCampo(document.formCadastro, 'Medico_Avaliador_Hora', '99:99', event);" value="<%=Hour(Medico_Avaliador_Data)&":"&Minute(Medico_Avaliador_Data)%>" size="5" maxlength="5"  ></td>
+            <td width="6%">Avalia&ccedil;&atilde;o:</td>
+            <td width="6%" align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/LaudoAvaliacao.asp?id_Solicitacao=<%=Cint(Request("id"))%>&Tipo_Laudo=1 ','800','600',this,event)"><img src="/SmartCare/images/ico_Laudo.gif" alt="Visualizar avalia&ccedil;&atilde;o do m&eacute;dico"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td class="texto">Enfermeiro(a):</td>
+            <td><%=gerar_listbox_Automatico("Funcionarios"," Where id_Departamento = 5 AND id_Cargo = 12 ","id","id_Funcionario_Enfermeiro_Avaliador","Nome","<<--------------Selecione-------------->>",id_Funcionario_Enfermeiro_Avaliador)%></td>
+            <td class="texto">Data:</td>
+            <td><input name="Enfermeiro_Avaliador_Data" type="text" class="campos" id="Enfermeiro_Avaliador_Data" onBlur="SaltaBlur()" onchange="ValidarDataExpReg(document.formCadastro.Enfermeiro_Avaliador_Data.value, '1'); " onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Enfermeiro_Avaliador_Data', '99/99/9999', event);"   onkeyup="SaltaKeyUp(formCadastro.Enfermeiro_Avaliador_Data, formCadastro.Enfermeiro_Avaliador_Hora, 10)" value="<%=ArrumaData(Enfermeiro_Avaliador_Data)%>" size="11" maxlength="10"  ></td>
+            <td>Hora:</td>
+            <td><input name="Enfermeiro_Avaliador_Hora" type="text" class="campos" id="Enfermeiro_Avaliador_Hora2" onChange="ValidarHoraExpReg(document.formCadastro.Enfermeiro_Avaliador_Hora.value, '2'); "  onKeyPress="return MascaraCampo(document.formCadastro, 'Enfermeiro_Avaliador_Hora', '99:99', event);" value="<%=Hour(Enfermeiro_Avaliador_Data)&":"&Minute(Enfermeiro_Avaliador_Data)%>" size="5" maxlength="5" ></td>
+            <td>Avalia&ccedil;&atilde;o:</td>
+            <td align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/LaudoAvaliacao.asp?id_Solicitacao=<%=Cint(Request("id"))%>&Tipo_Laudo=2 ','800','600',this,event)"><img src="/SmartCare/images/ico_Laudo.gif" alt="Visualizar avalia&ccedil;&atilde;o do enfermeiro"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td class="texto">Assistente Social:</td>
+            <td><%=gerar_listbox_Automatico("Funcionarios"," Where id_Departamento = 8 AND id_Cargo = 15 ","id","id_Funcionario_Assistente_Social_Avaliador","Nome","<<--------------Selecione-------------->>",id_Funcionario_Assistente_Social_Avaliador)%></td>
+            <td class="texto">Data:</td>
+            <td><input name="Assistente_Social_Avaliador_Data" type="text" class="campos" id="Assistente_Social_Avaliador_Data" onBlur="SaltaBlur()" onchange="ValidarDataExpReg(document.formCadastro.Assistente_Social_Avaliador_Data.value, '1'); " onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Assistente_Social_Avaliador_Data', '99/99/9999', event); "   onkeyup="SaltaKeyUp(formCadastro.Assistente_Social_Avaliador_Data, formCadastro.Assistente_Social_Avaliador_Hora, 10)" value="<%=ArrumaData(Assistente_Social_Avaliador_Data)%>" size="11" maxlength="10"  ></td>
+            <td>Hora:</td>
+            <td><input name="Assistente_Social_Avaliador_Hora" type="text" class="campos" id="Assistente_Social_Avaliador_Hora2" onChange="ValidarHoraExpReg(document.formCadastro.Assistente_Social_Avaliador_Hora.value, '2'); "  onKeyPress="return MascaraCampo(document.formCadastro, 'Assistente_Social_Avaliador_Hora', '99:99', event);" value="<%=Hour(Assistente_Social_Avaliador_Data)&":"&Minute(Assistente_Social_Avaliador_Data)%>" size="5" maxlength="5"  ></td>
+            <td>Avalia&ccedil;&atilde;o:</td>
+            <td align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/LaudoAvaliacao.asp?id_Solicitacao=<%=Cint(Request("id"))%>&Tipo_Laudo=3 ','800','600',this,event)"><img src="/SmartCare/images/ico_Laudo.gif" alt="Visualizar avalia&ccedil;&atilde;o do Assistente Social"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td class="texto">Fisioterapeuta:</td>
+            <td><%=gerar_listbox_Automatico("Funcionarios"," Where id_Departamento = 5 AND id_Cargo = 16 ","id","id_Funcionario_Fisioterapeuta_Avaliador","Nome","<<--------------Selecione-------------->>",id_Funcionario_Fisioterapeuta_Avaliador)%></td>
+            <td class="texto">Data:</td>
+            <td><input name="Fisioterapeuta_Avaliador_Data" type="text" class="campos" id="Fisioterapeuta_Avaliador_Data" onBlur="SaltaBlur()" onchange="ValidarDataExpReg(document.formCadastro.Fisioterapeuta_Avaliador_Data.value, '1'); " onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Fisioterapeuta_Avaliador_Data', '99/99/9999', event);"  onkeyup="SaltaKeyUp(formCadastro.Fisioterapeuta_Avaliador_Data, formCadastro.Fisioterapeuta_Avaliador_Hora, 10)" value="<%=ArrumaData(Assistente_Fisioterapeuta_Data)%>" size="11" maxlength="10" ></td>
+            <td>Hora:</td>
+            <td><input name="Fisioterapeuta_Avaliador_Hora" type="text" class="campos" id="Fisioterapeuta_Avaliador_Hora2" onChange="ValidarHoraExpReg(document.formCadastro.Fisioterapeuta_Avaliador_Hora.value, '2'); "  onKeyPress="return MascaraCampo(document.formCadastro, 'Fisioterapeuta_Avaliador_Hora', '99:99', event);" value="<%=hour(Assistente_Fisioterapeuta_Data)&":"&Minute(Assistente_Fisioterapeuta_Data)%>" size="5" maxlength="5" ></td>
+            <td>Avalia&ccedil;&atilde;o:</td>
+            <td align="center"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/LaudoAvaliacao.asp?id_Solicitacao=<%=Cint(Request("id"))%>&Tipo_Laudo=4 ','800','600',this,event)"><img src="/SmartCare/images/ico_Laudo.gif" alt="Visualizar avalia&ccedil;&atilde;o do Fisioterapeuta"  border="0"></a></td>
+          </tr>
+        </table>
+	</fieldset>
+	<BR style="font-size:5px;">
+	<fieldset>
+        <legend>&nbsp;Observaçoes&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'>
+            <td width="87%"><textarea name="obs" cols="100" rows="4" id="obs"><%=obs%></textarea></td>
+          </tr>
+        </table>
+        </fieldset>
+	<BR style="font-size:5px;">
+  	<fieldset>
+        <legend>Status pós Avaliação&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td>Status:</td>
+            <td><%=gerar_listbox("HomeCare_Solicitacao_Status","id","id_Solicitacao_Status","Descricao",id_Solicitacao_Status)%>
+              <input name="id_Solicitacao_Status_Verifica" type="hidden" id="id_Solicitacao_Status_Verifica" value="<%=id_Solicitacao_Status%>"></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motivo Nega&ccedil;&atilde;o:</td>
+            <td width="85%"><input name="Motivo_Solicitacao_Negada" type="text" class="campos" id="Motivo_Solicitacao_Negada" value="<%=Motivo_Solicitacao_Negada%>" size="65" maxlength="200"></td>
+          </tr>
+        </table>
+		</fieldset>
+        <%End if%>
+        <fieldset>
+        <legend></legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="47%" align="right"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/ImprimirSolicitacao.asp?id_Solicitacao_Atendimento=<%=Id%>','850','680',this,event)"> 
+              <input src="/SmartCare/images/disquete.gif" alt="Salvar Solicita&ccedil;&atilde;o" onClick="return VerificaStatus('<%=id_Solicitacao_Status%>')" type="image" name="submit">
+              </a></td>
+            <td width="3%">&nbsp;</td>
+            <td width="7%"><a href="#"><img src="/SmartCare/images/ico_voltar.gif" alt="Voltar"  border="0"  onClick="history.back()" ></a></td>
+            <td width="43%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="javascript:Cancelar_Solicitacao(<%=id%>)" ></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Voltar</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table>
+        </fieldset> </td>
+  </tr>
+  </Form>
+</table>
+
+<script>
+	//Inicia a função javascript para que dentro dela ja inicia com uma quantidade que esta setada la dentro
+	cria_opcoes(2)
+</script>
+
+</body>
+</html>

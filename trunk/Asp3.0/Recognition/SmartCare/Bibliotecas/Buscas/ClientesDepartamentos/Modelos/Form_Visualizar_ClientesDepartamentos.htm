@@ -1,0 +1,23 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="texto_grd_blue"> 
+    <td align="center">Gerenciador de Departamentos dos Clientes</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra1"> 
+      <td width="4%">Cliente:</td>
+      <td width="2%"><%=gerar_listbox("Clientes","id","id_cliente","Nome","")%></td>
+      <td width="4%">Local:</td>
+      <td width="2%"><%=gerar_listbox("Locais","id","id_local","Descricao","")%></td>
+      <td>&nbsp; </td>
+    </tr>
+    <tr class="zebra1"> 
+      <td colspan="5">Cobertua:&nbsp;<%=gerar_listbox("Cobertura","id","id_cobertura","Nome","")%>&nbsp;Busca: 
+        <input class="campos" name="Busca" type="text" id="Busca">
+        Ex: Departamento,Cliente, Local 
+        <input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+  </form>
+</table>
+<%=VisualizarClientesDepartamentos%>

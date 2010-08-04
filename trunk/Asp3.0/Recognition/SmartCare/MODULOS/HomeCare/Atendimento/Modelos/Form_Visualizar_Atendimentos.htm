@@ -1,0 +1,118 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Atendimentos&nbsp;</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class='zebra_orange1'> 
+    <td width="3%">
+      <!-- #include virtual="/SmartCare/Modulos/HomeCare/Atendimento/calendario.asp" -->
+    </td>
+    <td width="97%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><form name="form" method="post" action="">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td class="texto">Data Inicial:<b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                    </strong></font></b></td>
+                  <td class="texto">Data Final:</td>
+                  <td class="texto">N&ordm; Atendimento</td>
+                  <td class="texto">N&ordm; Solicita&ccedil;&atilde;o</td>
+                  <td class="texto">Paciente:</td>
+                </tr>
+                <tr> 
+                  <td width="23%"><input class="campos" name="data_inicial" value="" size="12" onFocus="this.blur()" readonly> 
+                    <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fStartPop(document.form.data_inicial,document.form.data_final);return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a></td>
+                  <td width="23%"><input class="campos" name="data_final" value="" size="12" onfocus="this.blur()" readonly> 
+                    <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fEndPop(document.form.data_inicial,document.form.data_final);return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a> 
+                    <iframe width=132 height=142 name="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" id="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" src="/SmartCare/bibliotecas/calendario/ipopeng.htm" scrolling="no" frameborder="0" style="visibility:visible; z-index:999; position:absolute; left:-500px; top:0px;"> 
+                    </iframe> </td>
+                  <td width="15%"><input name="id_Atendimento" type="text" class="campos" id="id_Atendimento" size="5"> 
+                  </td>
+                  <td width="14%"> 
+                    <input name="id_Solicitacao" type="text" class="campos" id="id_Solicitacao" size="5"> 
+                  </td>
+                  <td width="25%"><input class="campos" size="20" name="Busca" type="text" id="Busca"></td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="29%" class="texto">Status:</td>
+                  <td class="texto">Status de Alta:</td>
+                </tr>
+                <tr> 
+                  <td><%=gerar_listbox("HomeCare_Atendimento_Status","id","id_Atendimento_Status","Descricao","")%></td>
+                  <td><%=gerar_listbox("HomeCare_Atendimento_Status_Condicoes_Alta","id","id_Atendimento_Status_Condicoes_Alta","Descricao","")%> 
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td width="29%" class="texto">Conv&ecirc;nio:</td>
+                  <td class="texto">Tipo Conv&ecirc;nio:</td>
+                </tr>
+                <tr> 
+                  <td><strong> 
+                    <%
+				  'IF QUE VERIFICA SE A PESSOA LOGADA É UM CONTATO OU SEJA TEM UM ID_CONVENIO, CASO TENHA ENTAO ELA NAO PODE SELECIONAR UM CONVENIO POIS EXISTE UMA SESSION ID_CONVENIO QUE SEMPRE FARA O FILTRO PARA VER APENAS OS ATENDIMENTOS DO CONVENIO DELA
+				  If Session("id_Convenio") = "0" Then
+				  Response.Write gerar_listbox("Convenios","id","id_Convenio","Convenio","")
+				  Else 'CASO SEJA UM CONTATO ENTAO APARECERA NA TELA ESCRITO O NOME DO CONVENIO
+				  Response.Write Session("Convenio_Nome")
+				  End if
+				  %>
+                    </strong></td>
+                  <td> 
+                    <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Pessos Fisica","Pessoa Juridica") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Particular" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = "" 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+                  </td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="texto"><table width="100%">
+                      <tr class="texto"> 
+                        <td width="27%">Funcionario:</td>
+                        <td colspan="2">Contrato de Servi&ccedil;o:</td>
+                      </tr>
+                      <tr> 
+                        <td><%=gerar_listbox_Automatico("Funcionarios","  ","id","id_Funcionario","Nome","<<----Todos---->>","")%></td>
+                        <td width="34%"><%=gerar_listbox_Automatico("Contrato_Servico","  ","id","id_Contrato_Servico","Nome","<<----Todos---->>","")%></td>
+                        <td width="39%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <input name="Date" type="hidden" id="Date">
+            </form></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</fieldset>
+<BR style="font-size:3px;">
+<table width="100%">
+  <tr class="texto"> 
+    <td width="23%"><a href="default.asp?action=Form_Incluir_Atendimento"><img src="/SmartCare/images/botao_cadastro.gif" width="94" height="18" border="0"></a></td>
+    <td width="3%"><img src="/SmartCare/images/Flg_verde.gif" width="15" height="15"></td>
+    <td width="10%"><font color="#00CC00">Atendimento</font></td>
+    <td width="3%"><img src="/SmartCare/images/Flg_azul.gif" width="15" height="15"></td>
+    <td width="10%"><font color="#0000F6">Alta Cl&iacute;nica</font></td>
+    <td width="3%"><img src="/SmartCare/images/Flg_amerelo_escuro.gif" width="15" height="15"></td>
+    <td width="19%"><font color="#FFD700">Alta Reinterna&ccedil;&atilde;o Hosp.</font></td>
+    <td width="3%"><img src="/SmartCare/images/Flg_vermelho.gif" width="15" height="15"></td>
+    <td width="17%"><font color="#FF0000">Exclus&atilde;o Contratual</font></td>
+    <td width="3%"><img src="/SmartCare/images/Flg_preto.gif" width="15" height="15"></td>
+    <td width="6%"><font color="#000000">&Oacute;bito</font></td>
+  </tr>
+</table>
+<%=VisualizarAtendimentos%> 
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Profissionais&nbsp;</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%">
+<form name="form" method="post" action="default.asp">
+  <tr class="zebra1">
+      <td valign="top"> <table width="100%" >
+          <tr class="zebra1"> 
+            <td width="19%">Nome:
+              <input name="Tipo_Funcionario" type="hidden" id="Tipo_Funcionario" value="<%=Request("Tipo_Funcionario")%>">
+              <input name="Posicao_Vetor" type="hidden" id="Posicao_Vetor" value="<%=Request("Posicao_Vetor")%>"></td>
+            <td width="23%">Cobertura:</td>
+            <td width="32%">Departamento:</td>
+            <td width="26%">Cargo:</td>
+          </tr>
+          <tr class="zebra1"> 
+            <td><input name="Nome" type="text" class="campos" id="Nome" value="<%=Request("Nome")%>" size="20" maxlength="50"></td>
+            <td><%=gerar_listbox("Cobertura","id","id_Cobertura","Nome",Request("id_Cobertura"))%></td>
+            <td><%=gerar_listbox("Departamentos","id","id_Departamento","Descricao",Request("id_Departamento"))%></td>
+            <td><%=gerar_listbox("Cargos","id","id_Cargo","Cargo",Request("id_Cargo"))%> 
+            </td>
+          </tr>
+        </table>
+        <table width="100%" >
+          <tr class="zebra1"> 
+            <td width="23%">Disponibilidade:</td>
+            <td width="30%">Especializa&ccedil;&atilde;o: </td>
+            <td width="24%">Cor Pele:</td>
+            <td colspan="2">Sexo:</td>
+          </tr>
+          <tr class="zebra1"> 
+            <td><%=gerar_listbox("Disponibilidades","id","id_Disponibilidade","Descricao",Request("id_Disponibilidade"))%></td>
+            <td><%=gerar_listbox("Especializacoes","id","id_Especializacao","Descricao",Request("id_Especializacao"))%> 
+            </td>
+            <td><%=gerar_listbox("Cor_Pele","id","id_Cor_Pele","Descricao",Request("id_Cor_Pele"))%></td>
+            <td width="18%"> 
+              <%
+ArrayValores = Array("M","F") 'Array dos valores
+ArrayTitulos = Array("Masculino","Feminino") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Sexo" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Request("Sexo") 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+            </td>
+            <td width="5%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+          </tr>
+        </table>
+      </td>
+  </tr>
+  </Form>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%=VisualizarFuncionarios%>
+</fieldset>
+</body>
+</html>

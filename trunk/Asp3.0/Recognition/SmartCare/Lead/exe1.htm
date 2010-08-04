@@ -1,0 +1,71 @@
+<HTML>
+   <HEAD>
+      <SCRIPT LANGUAGE="VBScript">
+      <!--
+       Sub Window_OnLoad()
+   
+         Dim RASTERVIEW_APPEARANCE_THREED
+         Dim PAINTDITHER_DIFFUSION
+         Dim PAINTPALETTE_AUTO
+         Dim PAINTSIZEMODE_FIT
+
+         RASTERVIEW_APPEARANCE_THREED = 1
+         PAINTPALETTE_AUTO = 0
+         PAINTSIZEMODE_FIT = 3
+  
+         'Set defaults for displaying the image. 
+         'These are all persistent properties that can be set in the properties box. 
+         LEADRasterView1.Appearance = APPEARANCE_THREED
+         LEADRasterView1.BorderStyle = 1
+         LEADRasterView1.BackColor = RGB(255, 255, 0) 
+         LEADRasterView1.PaintDither = PAINTDITHER_DIFFUSION
+         LEADRasterView1.PaintPalette = PAINTPALETTE_AUTO
+         LEADRasterView1.AutoRepaint = True
+         LEADRasterView1.AutoSize = False
+         LEADRasterView1.AutoSetRects = True
+         LEADRasterView1.PaintSizeMode = PAINTSIZEMODE_FIT
+      End Sub
+
+      Sub LoadImage()
+         RasterIO1.Load LeadRasterView1.Raster, "c:\save.jpg", 0, 0, 1
+      End Sub
+      //-->
+      </SCRIPT>
+
+      <TITLE>LEADTOOLS VBScript COM Example</TITLE>
+
+   </HEAD>
+   
+   <BODY OnLoad = "Window_OnLoad">
+      <OBJECT CLASSID="clsid:5220cb21-c88d-11cf-b347-00aa00a28331"
+         ALIGN="baseline" 
+         BORDER="0" 
+         WIDTH="1" 
+         HEIGHT="1">
+         <PARAM NAME="LPKPath" VALUE="path to LPK file/LTOCX14n.Lpk">
+      </OBJECT><BR>
+      
+      <OBJECT ID="RasterIO1" NAME="RasterIO1" 
+         CLASSID="CLSID:0014070E-B1BA-11CE-ABC6-F5B2E79D9E3F"
+         CODEBASE="path to CAB file/Ltrio14n.cab">
+         <P>This is not supported in the web browser.</P>
+      </OBJECT><BR>
+
+      <OBJECT ID="LEADRasterView1" NAME="LEADRasterView1" 
+         CLASSID="CLSID:00140708-B1BA-11CE-ABC6-F5B2E79D9E3F"
+         CODEBASE="path to CAB file/Ltrvw14n.cab" 
+         ALIGN="baseline" 
+         BORDER="0"
+         WIDTH="100%" 
+         HEIGHT="90%">
+         <P>This is not supported in thAe web browser.</P>
+      </OBJECT><BR>
+
+      <FORM NAME="LEADForm">
+      <INPUT TYPE="button" NAME="btnLoad" VALUE="Load Image" LANGUAGE="VBScript"
+         OnClick="LoadImage">
+      </FORM>
+   </BODY>
+</HTML>
+
+ 

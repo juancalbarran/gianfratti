@@ -1,0 +1,122 @@
+<!--
+     INBOT BY INSITE
+     COPYRIGHT(c) INSITE - SOLUCOES INTERNET
+     www.inbot.com.br - www.insite.com.br
+     Rodrigo Siqueira - Grupo de Linguistica da Insite
+-->
+
+<STYLE TYPE="text/css">
+
+body,td {
+ font-size: 13px;
+ font-family: Verdana,trebuchet ms,Arial,Helvetica;
+ color:black;
+}
+
+.bbut {
+ BORDER-RIGHT: #000000 1px solid;
+ BORDER-TOP:  #000000 2px solid;
+ FONT-SIZE: 11px; font-weight: bold;
+ BORDER-LEFT: #000000 2px solid; COLOR: #000000;
+ BORDER-BOTTOM:  #000000 1px solid;
+ FONT-FAMILY: Arial, Helvetica, sans-serif;
+ HEIGHT: 19px; background-color: #fcfcfc;
+}
+
+</STYLE>
+
+<SCRIPT src="http://clientes.insite.com.br/insite/css/sendrequest.js" type=text/javascript></SCRIPT>
+
+<body background="back-riscos.gif" onload="document.form1.msg.focus()"
+link=#0000a0
+vlink=#0000a0>
+
+<form onSubmit="DoTalk();return(false)" name=form1>
+<input type=hidden name="fulltext" value="">
+
+<div id=chatarea></div>
+
+<br>
+
+<b>Você:</b> <input type=text name=msg size=30>
+<input type=button onClick="DoTalk()" value='ok' class=bbut>
+<div id=jsarea></div>
+</form>
+
+<script>
+
+function click() {
+  if (event.button==2) {
+    document.form1.msg.value='BOTAO DA DIREITA';
+    DoTalk();
+  }
+}
+document.onmousedown=click;
+
+
+var bot_id = 5;
+//server = 'r.bot.insite.com.br:8085';
+server = 'bot.insite.com.br:8085';
+
+var msg = 'FRASE DE ABERTURA';
+
+var url = '/cgi-bin/bot_gateway.cgi?server='+server+'&charset=html&pure=1&js=0&admi=&msg='+msg;
+var answer = SendRequest(url);
+
+document.getElementById("chatarea").innerHTML += "<table border=0 cellpadding=2 cellspacing=0><tr><td width=45 valign=top><b><font color=#0000a0>Ed:</font></b></td><td><font color=#0000a0> " + answer + "</font> </td></tr></table>";
+
+document.form1.fulltext.value = "";
+document.form1.fulltext.value += "Ed: "+answer+"\n";
+
+function DoTalk(usermsg) {
+ if (usermsg == undefined) {
+   usermsg = document.form1.msg.value;
+ }
+ document.getElementById("chatarea").innerHTML += "<table border=0 cellpadding=2 cellsp ????????c??è??????aŸ¨?????F??acing=0><tr><td width=45><b>Você:</b></td><td>" + usermsg + "</td></tr></table>";
+
+ var e_usermsg = escape(usermsg);
+     e_usermsg = e_usermsg.replace(/\+/g, "%2B");
+
+ var url = 'http://www.inbot.com.br/cgi-bin/bot_gateway.cgi?server='+server+'&charset=html&pure=1&js=0&admi=&msg='+e_usermsg;
+
+ // Salva tudo em campo hidden para que outro frame possa ler os dados da conversa
+ document.form1.fulltext.value += "Você: "+usermsg+"\n";
+
+ answer = SendRequest(url);
+
+// answer = answer.replace(/script language/gi, "script defer language");
+
+ // Pega somente o JS da resposta
+ var answerJS = answer.replace(/.*javascript>/i, "");
+
+ if (answerJS.length!=answer.length) { // Se tem JS coloca no div para executar.
+   answerJS = answerJS.replace(/<\/script>.*/i, "");
+   document.getElementById("jsarea").innerHTML = "&nbsp;<script defer>"+answerJS+"</scr"+"ipt>";
+   // Limpa js da resposta
+   answer = answer.replace(/<script.*script>/i, "");
+ }
+
+ // Faz funcionar links do tipo: <a href="#O que é x?">x</a>
+ answer = answer.replace(/href="?#(.+?)"?>/ig, "href=# onClick=\"DoTalk('$1');return(false);\" title='$1'>");
+
+ var e_answer  = '"' + escape(answer) + '"';
+     e_usermsg = '"' + e_usermsg + '"';
+
+ document.getElementById("chatarea").innerHTML += "<table border=0 cellpadding=2 cellspacing=0><tr><td valign=top width=45><b><font color=#0000a0>Ed:</font></b></td><td><font color=#0000a0> " + answer + "</font><font size=1><a href='#' onClick='OpenHelpMe("+e_usermsg+","+e_answer+");return(false);'><font color=#bbbbbb>*</font></a></font></td></tr></table>";
+
+ // Para que outro frame possa ler os dados da conversa
+ document.form1.fulltext.value += "Ed: "+answer+"\n";
+
+ document.form1.msg.value='';
+ document.form1.msg.focus();
+ window.scrollBy(0,1000000);
+ return false;
+}
+
+function OpenHelpMe(e_usermsg,e_answer) {
+  window.open('helpme.htm?bot_id='+bot_id+'&msg='+e_usermsg+'&answer='+e_answer,'helpme','scrollbars=yes,toolbar=no,status=0,resizable=yes,width=500,height=300');
+}
+
+</script>
+
+

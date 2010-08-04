@@ -1,0 +1,46 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Funcionarios&nbsp;</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca &nbsp;</legend>
+<table width="100%">
+ <form name="form" method="post" action="">
+  <tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="33%"><strong>Departamento:</strong></td>
+            <td width="28%"><strong>Cargo:</strong></td>
+            <td width="39%"><strong>Cobertura:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td><%=gerar_listbox("Departamentos","id","id_Departamento","Descricao","")%></td>
+            <td><%=gerar_listbox("Cargos","id","id_Cargo","Cargo","")%></td>
+            <td><%=gerar_listbox("Cobertura","id","id_Cobertura","Nome","")%></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="30%"><strong>Especializa&ccedil;&atilde;o:</strong></td>
+            <td width="23%"><strong>Disponibilidade:</strong></td>
+            <td colspan="2"><strong>Nome:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td><%=gerar_listbox("Especializacoes","id","id_Especializacao","Descricao","")%></td>
+            <td><%=gerar_listbox("Disponibilidades","id","id_Disponibilidade","Descricao","")%></td>
+            <td width="42%"><input name="Nome" type="text" class="campos" id="Nome" size="48"></td>
+            <td width="5%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+          </tr>
+        </table>
+        
+      </td>
+  </tr>
+  </Form>
+</table>
+</fieldset>
+<a href="default.asp?action=Form_Incluir_Funcionarios"><BR style="font-size:5px;">
+<img src="/SmartCare/images/botao_cadastro.gif" width="94" height="18" border="0"></a>
+<%=VisualizarFuncionarios%> 
+</fieldset>
+</body>
+</html>

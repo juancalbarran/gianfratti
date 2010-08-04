@@ -1,0 +1,165 @@
+<html>
+
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Cadastro de Pacientes&nbsp;</legend>
+
+<%IF Request("action") <> "EditarPacientes" AND Request("Liberado") <> "1" Then%>
+<table width="100%">
+  <form name="form1" method="post" action="default.asp?action=Confere_CPF" onSubmit= "return verifica_cpf()">
+    <tr> 
+      <td class="texto"><strong>Digite o CPF do Paciente: 
+        <input name="PaginaSolicitacao" type="hidden" id="PaginaSolicitacao" value="<%=Request("PaginaSolicitacao")%>">
+        </strong></td>
+    </tr>
+    <tr> 
+      <td width="96%"><input name="Confere_CPF" type="text" id="Confere_CPF"  onKeyPress="return MascaraCampo(document.form1, 'Confere_CPF', '999.999.999-99', event);" value="" size="16" maxlength="14"  > 
+        <input type="submit" name="Submit" value="Ok"></td>
+    </tr>
+  </Form>
+</table>
+<%Else%>
+<table width="100%">
+ <form name="form" method="post" action="<%=action%>" onSubmit= "return valida_campo()">
+    <tr>
+      <td>
+<fieldset>
+<legend>&nbsp;Dados Cadastrais&nbsp;</legend>
+	  <table width="100%">
+          <tr> 
+            <td><table width="100%" border="0" cellpadding="0" cellspacing="1">
+                <tr class="zebra_orange1"> 
+                  <td width="42%"><strong>Nome: 
+                    <input name="id" type="hidden" id="id" value="<%=id%>">
+                    <input name="PaginaSolicitacao" type="hidden" id="PaginaSolicitacao" value="<%=Request("PaginaSolicitacao")%>">
+                    </strong></td>
+                  <td width="20%"><strong>Sexo:</strong></td>
+                  <td width="19%"><strong>Data Nascimento:</strong></td>
+                  <td width="19%"><strong>Religi&atilde;o:</strong></td>
+                </tr>
+                <tr class="zebra_orange1"> 
+                  <td><input name="Nome" type="text" class="campos" id="Nome3" value="<%=Nome%>" size="50" maxlength="50"></td>
+                  <td>
+                    <%
+ArrayValores = Array("M","F") 'Array dos valores
+ArrayTitulos = Array("Masculino","Feminino") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Sexo" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Sexo 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+                  </td>
+                  <td><input name="Data_Nascimento" type="text" class="campos" id="Data_Nascimento" onKeyPress="return MascaraCampo(document.form, 'Data_Nascimento', '99/99/9999', event);" value="<%=Data_Nascimento%>" size="11" maxlength="10" ></td>
+                  <td> 
+                    <%
+				ArrayValores = Array("Agnóstico","Ateu","Budista","Cao Dai","Cientologia","Cristão/Anglicano","Cristão/católico","Cristão/Ortodoxo","Cristão/outro","Cristão/protestante","Cristão/SUD","Hindu","Humanismo religioso","Jaina","Judeu","Muçulmano","Neo-Paganismo","Rastafari","Sikh","Taoísta","Tenrikio","Universalista Unitário","Xinto","Zoroastra","Outro") 'Array dos valores
+				ArrayTitulos = Array("Agnóstico","Ateu","Budista","Cao Dai","Cientologia","Cristão/Anglicano","Cristão/católico","Cristão/Ortodoxo","Cristão/outro","Cristão/protestante","Cristão/SUD","Hindu","Humanismo religioso","Jaina","Judeu","Muçulmano","Neo-Paganismo","Rastafari","Sikh","Taoísta","Tenrikio","Universalista Unitário","Xinto","Zoroastra","Outro") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo				
+				NomeCampo = "Religiao" 'Nome que o campo vai ter. Ex: Teste
+				ValorSelecionado = Religiao 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+				Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+				NomeEstiloCss = "" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+				Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+				%>
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellpadding="0" cellspacing="1">
+                <tr class="zebra_orange1"> 
+                  <td width="42%"><strong>Endere&ccedil;o:</strong></td>
+                  <td width="20%"><strong>Bairro:</strong></td>
+                  <td width="38%"><strong>Cidade:</strong></td>
+                </tr>
+                <tr class="zebra_orange1"> 
+                  <td><input name="Endereco" type="text" class="campos" id="Endereco" value="<%=Endereco%>" size="50" maxlength="100"></td>
+                  <td><input name="Bairro" type="text" class="campos" id="Bairro" value="<%=Bairro%>" size="20"> 
+                  </td>
+                  <td><input name="Cidade" type="text" class="campos" id="Cidade3" value="<%=Cidade%>" size="35" maxlength="50"></td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellpadding="0" cellspacing="1">
+                <tr class="zebra_orange1"> 
+                  <td width="18%"><strong>CEP:</strong></td>
+                  <td width="21%"><strong>UF:</strong></td>
+                  <td width="23%"><strong>Zona:</strong></td>
+                  <td width="13%"><strong>RG:</strong></td>
+                  <td width="25%"><strong>CPF:</strong></td>
+                </tr>
+                <tr class="zebra_orange1"> 
+                  <td><input name="Cep" type="text" class="campos" id="Cep" onKeyPress="return MascaraCampo(document.form, 'Cep', '99999-999', event);" value="<%=Cep%>" size="20" maxlength="9" ></td>
+                  <td><%=LisBox_estados(UF)%> </td>
+                  <td><%=gerar_listbox("Cobertura","id","id_cobertura","Nome",id_cobertura)%></td>
+                  <td><input name="RG" type="text" class="campos" id="RG" onKeyPress="return MascaraCampo(document.form, 'RG', '99.999.999-X', event);" value="<%=RG%>" size="12" maxlength="12" ></td>
+                  <td><input readonly name="CPF" type="text" class="campos" id="CPF"  onKeyPress="return MascaraCampo(document.form, 'CPF', '999999999-99', event);" value="<%IF CPF <> "" Then Response.Write CPF Else Response.Write Request("CPF") End if %>" size="15" maxlength="12"  ></td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellpadding="0" cellspacing="1">
+                <tr class="zebra_orange1"> 
+                  <td width="29%" height="19"><strong>Responsavel:</strong></td>
+                  <td width="33%"><strong>Cuidador:</strong></td>
+                  <td width="38%"><strong>Telefones de Contato:</strong></td>
+                </tr>
+                <tr class="zebra_orange1"> 
+                  <td><input name="Responsavel" type="text" class="campos" id="Responsavel3" value="<%=Responsavel%>"  size="35" maxlength="50"></td>
+                  <td><input name="Cuidador" type="text" class="campos" id="Cuidador" value="<%=Cuidador%>" size="40" maxlength="100"></td>
+                  <td><input name="Telefones" type="text" class="campos" id="Telefones" value="<%=Telefones%>" size="35"  maxlength="50"  > 
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellpadding="0" cellspacing="1">
+                <tr class="zebra_orange1"> 
+                  <td height="19"><strong>Observa&ccedil;&otilde;es:</strong></td>
+                </tr>
+                <tr class="zebra_orange1"> 
+                  <td><textarea name="Obs" cols="97" id="Obs"><%=Obs%></textarea> </td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+		</fieldset>
+		<fieldset>
+        <legend>&nbsp;Convênio&nbsp;</legend>
+        <table width="100%">
+          <tr class="zebra_orange1"> 
+            <td width="35%"><strong>Conv&ecirc;nio:</strong></td>
+            <td width="31%"><strong>Tipo de Conv&ecirc;nio:</strong></td>
+            <td width="34%"><strong>N&uacute;mero Conv&ecirc;nio:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td><%=gerar_listbox("Convenios","id","id_Convenio","Convenio",id_Convenio)%></td>
+            <td> 
+              <%
+ArrayValores = Array(1,0,2) 'Array dos valores
+ArrayTitulos = Array("Pessoa Fisica","Pessoa Juridica","Indefinido") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Particular" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Replace(Particular,"-","") 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+            </td>
+            <td><input name="NumeroConvenio" type="text" id="NumeroConvenio" value="<%=NumeroConvenio%>" size="40" maxlength="100"></td>
+          </tr>
+        </table>
+		</fieldset>
+        <BR style="font-size:5px;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="48%" align="right"> <input src="/SmartCare/images/disquete.gif" alt="Salvar Atendimento" type="image" name="submit" ></td>
+            <td width="4%">&nbsp;</td>
+            <td width="48%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="location='default.asp'" ></a> 
+            </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table>
+</td>
+    </tr>
+</Form>
+
+</table>
+<%End IF%>
+</fieldset>

@@ -1,0 +1,39 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_Blue"> 
+    <td align="center">Gerenciador de Pacientes</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form1" method="post" action="">
+    <tr class="zebra1"> 
+      <td>Busca:</td>
+      <td>Convenio:</td>
+      <td>UF:</td>
+      <td>Particular:</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td> <input name="Busca" type="text" id="Busca2"></td>
+      <td width="6%"><%=gerar_listbox("Convenios","id","id_Convenio","Convenio","")%></td>
+      <td width="2%"><%=LisBox_estados("")%></td>
+      <td width="3%"> 
+        <%
+ArrayValores = Array(1,0) 'Array dos valores
+ArrayTitulos = Array("Sim","Não") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Particular" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = "" 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+      </td>
+      <td width="69%"> <input type="submit" name="Submit" value="Enviar"></td>
+    </tr>
+  </form>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><input class="botoes" type="submit" name="Input" value="Cadastrar Novo Paciente" onclick="window.location='default.asp?action=Form_Incluir_Pacientes'"></td>
+  </tr>
+</table>
+<%=VisualizarPacientes%>

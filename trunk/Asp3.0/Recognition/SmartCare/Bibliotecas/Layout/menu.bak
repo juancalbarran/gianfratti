@@ -1,0 +1,108 @@
+<style>
+#main_panel
+{
+ border:1px solid darkblue;
+ position:relative;
+ overflow:hidden;
+}
+.head_item
+{
+ background-color:gold;
+ font-size:11px;
+ font-family:verdana;
+ font:bold;
+ border-top:1px solid darkblue;
+ border-bottom:1px solid darkblue;
+ position:absolute;
+ left:0px;
+ cursor:hand;
+ text-align:left;
+}
+.item
+{
+ background-color:lightyellow;
+ font-family:verdana;
+ font-size:10px;
+ left:0px;
+ position:relative;
+ text-align:left;
+}
+.item_panel
+{
+ position:absolute;
+ background-color:lightyellow;
+ left:0px;
+}
+  .item_panel a
+  {
+   text-decoration:none;
+   color:black;
+   cursor:hand;
+  }
+</style>
+<%
+IF Trim(Session("NivelMenu")) = "" Then 'Caso tenho acabado de entrar no sistema o menu que ficara aberto sera o de nivel 1
+	Session("NivelMenu") = "1" 
+End If 
+
+If Trim(Request("NivelMenu")) <> "" Then 'Caso tenha clicado em algum item no menu entao guarda na session
+	Session("NivelMenu") = Trim(Request("NivelMenu"))
+End if
+
+If Trim(Session("NivelMenu")) <> "" Then 
+	Session("NivelMenu") = Session("NivelMenu")
+End if
+
+%>
+<script language="JavaScript" src="/HomeCareCadi/Bibliotecas/Layout/outlook.js"></script>
+<script language="JavaScript">
+  
+  var Link = new Array();
+  Link[0] = "0|Atendimento";
+  Link[1] = "1|Solicitação|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Solicitacao_Atendimento/Default.asp?NivelMenu=1|";
+  Link[2] = "1|Atendimento|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Atendimentos/Default.asp?NivelMenu=1|";
+  Link[3] = "1|Status|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Atendimento_Status/Default.asp?NivelMenu=1|";
+  Link[4] = "1|Prioridades|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Atendimento_Prioridades/Default.asp?NivelMenu=1|";
+  Link[5] = "1|Procedimentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Procedimentos/Default.asp?NivelMenu=1|";
+  Link[6] = "1|Diagnosticos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Diagnostico/Default.asp?NivelMenu=1|";
+
+  Link[7] = "0|Pacientes";
+  Link[8] = "1|Paciente|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Pacientes/Default.asp?NivelMenu=2|";
+  Link[9] = "1|Convênios|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Convenios/Default.asp?NivelMenu=2|";
+
+  Link[10] = "0|Clientes";
+  Link[11] = "1|Clientes|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Clientes/Default.asp?NivelMenu=3|";
+  Link[12] = "1|Locais|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Clientes_Locais/Default.asp?NivelMenu=3|";
+  Link[13] = "1|Departamentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/ClientesDepartamentos/Default.asp?NivelMenu=3|";
+  Link[14] = "1|Contatos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Clientes_Contatos/Default.asp?NivelMenu=3|";
+  
+  Link[15] = "0|Funcionarios";
+  Link[16] = "1|Funcionarios|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Funcionarios/Default.asp?NivelMenu=4|";
+  Link[17] = "1|Departamentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Departamentos/Default.asp?NivelMenu=4|";
+  Link[18] = "1|Cargos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Cargos/Default.asp?NivelMenu=4|";
+  Link[19] = "1|Coberturas|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Cobertura/Default.asp?NivelMenu=4|";
+  Link[20] = "1|Especializações|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Especializacoes/Default.asp?NivelMenu=4|";
+  Link[21] = "1|Disponibilidades|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Disponibilidades/Default.asp?NivelMenu=4|";
+
+  Link[22] = "0|Produtos";
+  Link[23] = "1|Produtos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Produtos/Default.asp?NivelMenu=5|";
+  Link[24] = "1|Fornecedores|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Fornecedores/Default.asp?NivelMenu=5|";
+  Link[25] = "1|Tipos de Produto|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/ProdutosTipo/Default.asp?NivelMenu=5|";
+
+  Link[26] = "0|Moedas";
+  Link[27] = "1|Moedas|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Moedas/Default.asp?NivelMenu=6|";
+  Link[28] = "1|Cotações|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/MoedasCotacoes/Default.asp?NivelMenu=6|";
+  Link[29] = "1|Cadeia Custos|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/CadeiaCustos/Default.asp?NivelMenu=6|";
+
+  Link[30] = "0|Estoque";
+  Link[31] = "1|Cadastro de Estoque|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/EstoqueCadastro/Default.asp?NivelMenu=7|";
+  Link[32] = "1|Tipo de Estoque|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/EstoqueTipo/Default.asp?NivelMenu=7|";
+  Link[33] = "1|Tipo de Aquisições|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/AquisicaoTipo/Default.asp?NivelMenu=7|";
+
+  Link[34] = "0|Controle de Estoque";
+  Link[35] = "1|Entradas(Aquisições)|http://<%=Request.ServerVariables("HTTP_HOST")%>/HomeCareCadi/Aquisicao/Default.asp?NivelMenu=8|";
+ 
+start(<%=Session("NivelMenu")%>); //Define qual o menu que ao entrar na página aparecera aberto
+
+</script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">

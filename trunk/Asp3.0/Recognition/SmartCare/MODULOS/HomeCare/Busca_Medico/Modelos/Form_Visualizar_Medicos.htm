@@ -1,0 +1,73 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >M&eacute;dicos do Cremesp</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class='zebra_orange1'> 
+    <td width="97%" valign="top">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <form name="form" method="post" action="default.asp?action=1">
+                <tr> 
+                  <td height="19" class="texto">CRM:<b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></b></td>
+                  <td class="texto">Nome:</td>
+                  <td class="texto">Especialidades:</td>
+                  <td class="texto">Cidade:</td>
+                  <td class="texto">Status:</td>
+                </tr>
+                <tr> 
+                  <td width="12%"><input name="CRM" type="text" class="campos" id="CRM" size="10" maxlength="6"></td>
+                  <td width="20%"><input name="Nome" type="text" class="campos" id="Nome" size="20"></td>
+                  <td width="24%"><input class="campos" size="25" name="Especialidade" type="text" id="Especialidade"> 
+                  </td>
+                  <td width="24%"><input class="campos" size="25" name="Cidade" type="text" id="Cidade"></td>
+                  <td width="20%"> 
+                    <%
+ArrayValores = Array("A","I") 'Array dos valores
+ArrayTitulos = Array("Ativo","Inativo") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Status" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = "" 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+                  </td>
+                </tr>
+                <tr> 
+                  <td colspan="5" align="center"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+                </tr>
+              </form>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  
+                <td align="center" valign="top"> <b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                  </strong></font></b> </td>
+                </tr>
+              </table>
+             </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%
+If Request("action") <> "" Then
+	call VisualizarMedicos
+Else
+%>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" class="texto">Utilize o formul&aacute;rio acima para realizar 
+      uma busca.</td>
+  </tr>
+</table>
+<%End if%>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+Sub Application_OnStart
+	
+	'[CONEXÃO COM O BANCO DE DADOS]
+	
+	'Autenticação com login e senha do proprio SQL SERVER 2000
+	application("connstring")="Provider=SQLOLEDB.1;Password=#$&13012005&$#;Persist Security Info=True;User ID=HospitalarUsuario;Initial Catalog=Hospitalar;Data Source=Desenvolvimento" 
+
+	'Autenticação com login e senha do proprio SQL SERVER 2005
+	'application("connstring")="Provider=SQLOLEDB.1;Password=#$&13012005&$#;Persist Security Info=True;User ID=SmartCare;Initial Catalog=Hospitalar;Data Source=FMANES\SMARTCARE" 
+	
+	'Autenticação Integrada com o Windows - Usuario cadastrado no Servidor
+	'Application("connstring") = "Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=HomeCareCadi;Data Source=Fmanes"
+
+	'Application com o nome do Dominio - Usado nos Action dos formularios, então é importante ser inserido corretamente
+	'Se o sistema estiver rodando em um dominio da internet colocar o www para não perder as Session pensando que mudou de dominio, e nunca colocar uma "/" barra no final do endereço
+	'Sempre colocar o nome correto senao o Action dos Formularios e Imagens não funcionaram corretamente
+
+	'Caso for subir o Global.asa alterar de localhost para o ip da maquina ou o nome se for rodar local
+	'Application("dominio") = "http://200.190.99.122/SmartCare"
+	Application("dominio") = "http://Desenvolvimento/SmartCare"
+	
+	'Email que todos os emails enviados pelo sistema vai ser mandado
+	application("email_adm") = "suporte@homecarecadi.com.br"
+
+	'Email do programador do sistema, o qual podera receber por email tb os erros que a função DEDU_DURO achar
+	application("email_programador") = "fmanes@recognition.com.br"
+
+	'Email do suporte
+	application("email_suporte") = "suporte@homecarecadi.com.br"
+	
+	'Nesta application voce pode colocar diversos emails separados por (;)
+	'Se o email constar na linha abaixo ele estara recebendo uma copia de todos os emails enviados pelo sistema
+	application("email_adm_copia_oculta") = "fmanes@recognition.com.br;1193171464@clarotorpedo.com.br"
+
+	'Application refernte aos dados da empresa
+	application("nome_empresa") = "CADI - Centro de Atendimento Domiciliar Intensivo"
+	application("endereco_enpresa") = "Rua do Estilo Barroco, 400, São Paulo - SP 04709-011"
+	application("CNPJ_empresa") = ""
+	application("telefone_empresa") = "(011)5182-2285"
+	application("fax_empresa") = ""
+	application("0800") = "0800-0148440"
+	application("site_empresa") = "http://www.homecarecadi.com.br"
+
+End Sub
+
+Sub Application_OnEnd
+
+End Sub
+
+Sub Session_OnStart
+
+	'Session("login") = lcase(trim(Request.ServerVariables ("LOGON_USER")))  'Pega o login da pessoa que entra no sistema para ser usado em todo o sistema
+	session.lcid=1046 'Codificacao para Brasileiro
+    session.timeout=60 'Tempo que uma Session vai ficar ativa no sistema. Tempo em Minutos
+	Server.ScriptTimeout = 5400 'Tempo de Execucao da pagina asp
+	Session("counter") = "1"
+
+
+End Sub
+
+Sub Session_OnEnd
+
+	
+
+End Sub
+
+</script>

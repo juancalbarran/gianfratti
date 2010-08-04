@@ -1,0 +1,440 @@
+<html>
+<body>
+<fieldset>
+<legend align="center">Formul&aacute;rio de Atendimento</legend>		  
+
+<fieldset>
+<legend>&nbsp;Buscar Paciente&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="default.asp?action=Form_Incluir_Atendimento" >
+    <tr> 
+      <td align="center" class="texto">Informe o n&ordm; da Solicita&ccedil;&atilde;o 
+        de Atendimento: 
+        <input name="busca" type="text" class="campos" value="<%=Request("busca")%>"  size="20" maxlength="15">
+        <input type="submit" name="submit" value="Ok"> &nbsp;&nbsp;<a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Solicitacao/default.asp','700','500',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de pacientes" border="0"></a> 
+      </td>
+      <td align="center" class="texto">&nbsp;</td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%
+If VerificaSolicitacaoStatus(Trim(REQUEST("Busca"))) = True Then
+%>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+ <form name="formCadastro" method="post" action="default.asp?action=IncluirAtendimento" onSubmit= "return valida_campo()">
+  <tr>
+    <td valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+              
+            <td valign="top"><%=Carrega_Dados_Cadastro_Pacientes(Request("Busca"))%></td>
+              </tr>
+            </table>
+        <BR style="font-size:5px;">
+<fieldset>
+<legend>&nbsp;Diagnostico de Entrada&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr> 
+            <td><%=Carrega_CID10_Entrada(Request("Busca"))%></td>
+          </tr>
+        </table>
+ </fieldset>
+ <BR style="font-size:5px;">
+ <fieldset>
+<legend>&nbsp;Check List - Prescrição Médica&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr > 
+            <td><%=Carrega_Solicitacao_Medica_Entrada(Request("busca"))%>&nbsp;</td>
+          </tr>
+        </table>
+ </fieldset>  
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Status&nbsp;</legend>
+        <table width="100%">
+          <tr class='zebra_orange1'> 
+            <td width="18%">Status do Atendimento:</td>
+            <td width="82%"><%=gerar_listbox("HomeCare_Atendimento_Status","id","id_Atendimento_Status","Descricao","")%></td>
+          </tr>
+        </table>
+        </fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Diagnostico(Cid10)&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="3" class="texto"><a name='' onClick='CriaOpcoesCid10()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="10%">Cid 10:</td>
+            <td width="86%">Diagnostico:</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'0')" size="6" maxlength="6"  ></td>
+            <td><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="110"></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10"   border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'1')" size="6" maxlength="6"  ></td>
+            <td><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="110"></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td colspan="3"><Span id='Mostra_Campos_Cid10'></Span></td>
+          </tr>
+        </table>
+        </fieldset> 
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Prescrição Médica&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right" > 
+            <td colspan="8" class="texto"><a href="javascript:cria_opcoes(1)"><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="13%" class="texto">Prescri&ccedil;&atilde;o:</td>
+            <td width="7%" class="texto">Dose:</td>
+            <td width="15%" class="texto">Via Administra&ccedil;&atilde;o:</td>
+            <td width="15%" class="texto">Periodicidade:</td>
+            <td width="15%" class="texto">Intervalo:</td>
+            <td width="10%" class="texto">Qdt Dias:</td>
+            <td width="15%" class="texto">Tipo:</td>
+            <td width="10%" class="texto">Prioridade:</td>
+          </tr>
+          <tr> 
+            <td colspan="8" align="right" class="texto"><div id=Solicitacao_Medica></div></td>
+          </tr>
+        </table>
+        </fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Montagem das Equipes de Atendimento</legend>
+        <table width="100%">
+          <tr>
+            <td> <fieldset>
+              <legend>&nbsp;Médico&nbsp;</legend>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr class='zebra_orange1'> 
+                  <td width="10%">CRM:</td>
+                  <td width="36%">M&eacute;dico:</td>
+                  <td width="18%">Periodicidade:</td>
+                  <td width="9%">Qtd dias:</td>
+                  <td width="25%">Contrato:</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td> <input name="Medico_CRM" type="text" class="campos" id="Medico_CRM" onchange="CarregaMedico(this)" size="6" maxlength="6" onfocus="this.select()" onkeyup="SaltaKeyUp(formCadastro.Medico_CRM, formCadastro.id_Periodicidade_Medico, 6)" onKeyPress="SaltaKeyPress() ; return MascaraCampo(document.formCadastro, 'Medico_CRM', '999999', event);" onBlur="SaltaBlur()"  >
+                  </td>
+                  <td> <input  readonly name="Medico_Nome" type="text" class="campos" id="Medico_Nome" size="40" maxlength="50" ></td>
+                  <td> <%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 1 ","id","id_Periodicidade_Medico","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Medico" type="text" class="campos" id="Qtd_Periodicidade_Medico" size="5" maxlength="4" ></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Medico","Nome","--Selecione--","")%></td>
+                  <td width="2%"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=1&id_Departamento=5&id_Cargo=3&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+              </table>
+              </fieldset>
+              <BR style="font-size:5px;">
+              <fieldset>
+              <legend>&nbsp;Enfermeiro(a) Chefe&nbsp;</legend>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr class='zebra_orange1'> 
+                  <td width="10%">COREN:</td>
+                  <td width="36%">Enfermeiro(a):</td>
+                  <td width="18%">Periodicidade:</td>
+                  <td width="9%">Qtd dias:</td>
+                  <td width="25%">Contrato:</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td> <input name="Enfermeiro_COREN" type="text" class="campos" id="Enfermeiro_COREN" onchange="CarregaEnfermeiro(this)" size="7" maxlength="10"   ></td>
+                  <td> <input  readonly name="Enfermeiro_Nome" type="text" class="campos" id="Enfermeiro_Nome" size="40" maxlength="50" ></td>
+                  <td> <%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 2 ","id","id_Periodicidade_Enfermeiro","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Enfermeiro" type="text" class="campos" id="Qtd_Periodicidade_Enfermeiro" size="5" maxlength="4" ></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Enfermeiro","Nome","--Selecione--","")%></td>
+                  <td width="1%"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=2&id_Departamento=5&id_Cargo=12&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+              </table>
+              </fieldset>
+              <BR style="font-size:5px;">
+              <fieldset>
+              <legend>&nbsp;Aux. Enfermagem&nbsp;</legend>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr align="right" class='zebra_orange1'> 
+                  <td colspan="6"><a name='' onClick='CriaOpcoesEnfermagem()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td width="10%">COREN:</td>
+                  <td width="36%">Nome:</td>
+                  <td width="18%">Periodicidade:</td>
+                  <td width="9%">Qtd dias:</td>
+                  <td width="25%">Contrato:</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Enfermagem_COREN" type="text" class="campos" id="Enfermagem_COREN" onchange="CarregaEnfermagem(formCadastro.Enfermagem_COREN,'0')" size="6" maxlength="10"   ></td>
+                  <td><input  readonly name="Enfermagem_Nome" type="text" class="campos" id="Enfermagem_Nome" size="40" maxlength="50" ></td>
+                  <td> <%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 3 ","id","id_Periodicidade_Enfermagem","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Enfermagem" type="text" class="campos" id="Qtd_Periodicidade_Enfermagem" size="5" maxlength="4" ></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Enfermagem","Nome","--Selecione--","")%></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=3&Posicao_Vetor=0&id_Departamento=5&id_Cargo=13&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Enfermagem_COREN" type="text" class="campos" id="Enfermagem_COREN" onchange="CarregaEnfermagem(formCadastro.Enfermagem_COREN,'1')" size="6" maxlength="10" ></td>
+                  <td><input  readonly name="Enfermagem_Nome" type="text" class="campos" id="Enfermagem_Nome" size="40" maxlength="50" ></td>
+                  <td><%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 3 ","id","id_Periodicidade_Enfermagem","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Enfermagem" type="text" class="campos" id="Qtd_Periodicidade_Enfermagem" size="5" maxlength="4" ></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Enfermagem","Nome","--Selecione--","")%></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=3&Posicao_Vetor=1&id_Departamento=5&id_Cargo=13&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr> 
+                  <td colspan="6"><Span id='Mostra_Campos_Enfermagem'></Span></td>
+                </tr>
+              </table>
+              </fieldset>
+              <BR style="font-size:5px;"> 
+              <fieldset>
+              <legend>&nbsp;Fisioterapia&nbsp;</legend>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr class='zebra_orange1'> 
+                  <td colspan="6" align="right"><a name='' onClick='CriaOpcoesFisioterapeuta()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td width="10%">CREFITO:</td>
+                  <td width="36%">Fisiterapeuta:</td>
+                  <td width="18%">Periodicidade:</td>
+                  <td width="9%">Qtd dias:</td>
+                  <td width="25%">Contrato:</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Fisioterapeuta_CREFITO" type="text" class="campos" id="Fisioterapeuta_CREFITO" onchange="CarregaFisiterapeuta(formCadastro.Fisioterapeuta_CREFITO,'0')" size="10" maxlength="10"></td>
+                  <td><input  readonly name="Fisioterapeuta_Nome" type="text" class="campos" id="Fisioterapeuta_Nome" size="40" maxlength="50" ></td>
+                  <td> <%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 4 ","id","id_Periodicidade_Fisioterapeuta","Descricao","--Selecione--","")%></td>
+                  <td> <input name="Qtd_Sessoes" type="text" class="campos" id="Qtd_Sessoes" size="5" maxlength="4" ></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Fisioterapeuta","Nome","--Selecione--","")%></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=4&Posicao_Vetor=0&id_Departamento=5&id_Cargo=16&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Fisioterapeuta_CREFITO" type="text" class="campos" id="Fisioterapeuta_CREFITO" onchange="CarregaFisiterapeuta(formCadastro.Fisioterapeuta_CREFITO,'1')" size="10" maxlength="10"></td>
+                  <td><input  readonly name="Fisioterapeuta_Nome" type="text" class="campos" id="Fisioterapeuta_Nome" size="40" maxlength="50" ></td>
+                  <td><%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 4 ","id","id_Periodicidade_Fisioterapeuta","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Sessoes" type="text" class="campos" id="Qtd_Sessoes" size="5" maxlength="4"></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Fisioterapeuta","Nome","--Selecione--","")%></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=4&Posicao_Vetor=1&id_Departamento=5&id_Cargo=16&id_cobertura=<%=id_cobertura%>','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr > 
+                  <td colspan="6"><Span id='Mostra_Campos_Fisioterapeuta'></Span></td>
+                </tr>
+              </table>
+              </fieldset>
+			  <br style="font-size:5px;">
+              <fieldset>
+              <legend>&nbsp;Outros Serviços&nbsp;</legend>
+              <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                <tr class='zebra_orange1'> 
+                  <td colspan="7" align="right"><a name='' onClick='CriaOpcoesOutrosServicos()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td width="10%">C&Oacute;DIGO:</td>
+                  <td width="30%">Funcionario:</td>
+                  <td width="18%">Periodicidade:</td>
+                  <td width="10%">Qtd dias:</td>
+                  <td width="16%">Contrato:</td>
+                  <td width="13%">Motivo:</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Outros_Servicos_Codigo" type="text" class="campos" id="Outros_Servicos_Codigo" onchange="CarregaOutrosServicos(formCadastro.Outros_Servicos_Codigo,'0')" size="10" maxlength="10"></td>
+                  <td><input  readonly name="Outros_Servicos_Funcionario" type="text" class="campos" id="Outros_Servicos_Funcionario" size="30" maxlength="50" ></td>
+                  <td><%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 5 ","id","id_Periodicidade_Outros_Servicos","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Outros_Servicos" type="text" class="campos" id="Qtd_Periodicidade_Outros_Servicos" size="5" maxlength="4"></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Outros_Servicos","Nome","--Selecione--","")%></td>
+                  <td><input name="Outros_Servicos_Obs" type="text" class="campos" id="Outros_Servicos_Obs" size="10" maxlength="190"></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=5&Posicao_Vetor=0&id_Departamento=5','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr class='zebra_orange1'> 
+                  <td><input name="Outros_Servicos_Codigo" type="text" class="campos" id="Outros_Servicos_Codigo" onchange="CarregaOutrosServicos(formCadastro.Outros_Servicos_Codigo,'1')" size="10" maxlength="10"></td>
+                  <td>
+<input  readonly name="Outros_Servicos_Funcionario" type="text" class="campos" id="Outros_Servicos_Funcionario" size="30" maxlength="50" ></td>
+                  <td><%=gerar_listbox_Automatico("HomeCare_Periodicidade","Where id_Periodicidade_Tipo = 5 ","id","id_Periodicidade_Outros_Servicos","Descricao","--Selecione--","")%></td>
+                  <td><input name="Qtd_Periodicidade_Outros_Servicos" type="text" class="campos" id="Qtd_Periodicidade_Outros_Servicos" size="5" maxlength="4"></td>
+                  <td><%=gerar_listbox_Automatico("Contrato_Servico","","id","id_Contrato_Servico_Outros_Servicos","Nome","--Selecione--","")%></td>
+                  <td><input name="Outros_Servicos_Obs" type="text" class="campos" id="Outros_Servicos_Obs" size="10" maxlength="190"></td>
+                  <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Funcionario/default.asp?Tipo_Funcionario=5&Posicao_Vetor=1&id_Departamento=5','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+                </tr>
+                <tr> 
+				  <td colspan="7"><Span id='Mostra_Campos_Outros_Servicos'></Span></td>
+                </tr>
+              </table>
+              </fieldset> </td>
+          </tr>
+        </table> 
+		</fieldset>
+        <br style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Equipamentos</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="5" class="texto"><a name='' onClick='CriaOpcoesSimproEquipamentos()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="10%">Cod. Simpro:</td>
+            <td width="50%">Equipamento:</td>
+            <td width="13%">Quantidade:</td>
+            <td width="22%">Fornecedor:</td>
+            <td width="4%">&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Equipamentos" type="text" class="campos" id="Cod_Simpro_Equipamentos" onchange="CarregaSimproEquipamentos(formCadastro.Cod_Simpro_Equipamentos,'0')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Equipamentos" type="text" class="campos" id="Descricao_Equipamentos" size="60"></td>
+            <td><input name="qtd_Equipamentos" type="text" class="campos" id="qtd_Equipamentos" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 1  ","id","id_Fornecedor_Equipamento","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=200&Tipo_Produto_Simpro=20&Posicao_Vetor=0','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Equipamentos" type="text" class="campos" id="Cod_Simpro_Equipamentos" onchange="CarregaSimproEquipamentos(formCadastro.Cod_Simpro_Equipamentos,'1')"  size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Equipamentos" type="text" class="campos" id="Descricao_Equipamentos" size="60"></td>
+            <td><input name="qtd_Equipamentos" type="text" class="campos" id="qtd_Equipamentos" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 1  ","id","id_Fornecedor_Equipamento","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=200&Tipo_Produto_Simpro=20&Posicao_Vetor=1','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr> 
+            <td colspan="5"><Span id='Mostra_Campos_Simpro_Equipamentos'></Span></td>
+          </tr>
+        </table>
+        </fieldset>
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Materiais</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="5" class="texto"><a name='' onClick='CriaOpcoesSimproMateriais()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="10%">Cod. Simpro:</td>
+            <td width="50%">Material:</td>
+            <td width="13%">Quantidade:</td>
+            <td width="22%">Fornecedor:</td>
+            <td width="4%">&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Materiais" type="text" class="campos" id="Cod_Simpro_Materiais" onchange="CarregaSimproMateriais(formCadastro.Cod_Simpro_Materiais,'0')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Material" type="text" class="campos" id="Descricao_Material" size="60"></td>
+            <td><input name="qtd_Material" type="text" class="campos" id="qtd_Material" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 2  ","id","id_Fornecedor_Material","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=20&Tipo_Produto_Simpro=20&Posicao_Vetor=0','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Materiais" type="text" class="campos" id="Cod_Simpro_Materiais" onchange="CarregaSimproMateriais(formCadastro.Cod_Simpro_Materiais,'1')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Material" type="text" class="campos" id="Descricao_Material" size="60"></td>
+            <td><input name="qtd_Material" type="text" class="campos" id="qtd_Material" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 2  ","id","id_Fornecedor_Material","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=20&Tipo_Produto_Simpro=20&Posicao_Vetor=1','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+        </table>
+		<Span id='Mostra_Campos_Simpro_Materiais'></Span>
+        </fieldset>
+        <BR style="font-size:5px;">
+		<!-- Comentario
+        <fieldset>
+        <legend>&nbsp;Medicamentos</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="5" class="texto"><a name='' onClick='CriaOpcoesSimproMedicamentos()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="10%">Cod. Simpro:</td>
+            <td width="50%">Medicamento:</td>
+            <td width="13%">Quantidade:</td>
+            <td width="22%">Fornecedor:</td>
+            <td width="4%">&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Medicamento" type="text" class="campos" id="Cod_Simpro_Medicamento" onchange="CarregaSimproMedicamento(formCadastro.Cod_Simpro_Medicamento,'0')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Medicamento" type="text" class="campos" id="Descricao_Medicamento" size="60"></td>
+            <td><input name="qtd_Medicamentos" type="text" class="campos" id="qtd_Medicamentos" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 3  ","id","id_Fornecedor_Medicamento","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=0','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Simpro_Medicamento" type="text" class="campos" id="Cod_Simpro_Medicamento" onchange="CarregaSimproMedicamento(formCadastro.Cod_Simpro_Medicamento,'1')" size="7" maxlength="7" ></td>
+            <td><input readonly name="Descricao_Medicamento" type="text" class="campos" id="Descricao_Medicamento" size="60"></td>
+            <td><input name="qtd_Medicamentos" type="text" class="campos" id="qtd_Medicamentos" size="10" maxlength="10"> 
+            </td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 3  ","id","id_Fornecedor_Medicamento","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Simpro/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=1','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+        </table>
+        <Span id='Mostra_Campos_Simpro_Medicamentos'></Span> </fieldset> 
+		-->
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Exames</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="5" class="texto"><a name='' onClick='CriaOpcoesExames()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="11%">Código:</td>
+            <td width="50%">Exame:</td>
+            <td width="13%">Data Realiza&ccedil;&atilde;o:</td>
+            <td width="22%">Laborat&oacute;rio:</td>
+            <td width="4%">&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Exame" type="text" class="campos" id="Cod_Exame" onchange="CarregaExames(formCadastro.Cod_Exame,'0')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Exame" type="text" class="campos" id="Descricao_Exame" size="60"></td>
+            <td><input name="Data_Realizacao_Exame" type="text" class="campos" id="Data_Realizacao_Exame" size="10" maxlength="10"></td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 4  ","id","id_Fornecedor_Exame","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Exames/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=0','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Exame" type="text" class="campos" id="Cod_Exame" onchange="CarregaExames(formCadastro.Cod_Exame,'1')" size="7" maxlength="7" ></td>
+            <td><input readonly name="Descricao_Exame" type="text" class="campos" id="Descricao_Exame" size="60"></td>
+            <td><input name="Data_Realizacao_Exame" type="text" class="campos" id="Data_Realizacao_Exame" size="10" maxlength="10"> 
+            </td>
+            <td><%=gerar_listbox_Automatico("Fornecedores"," Where id_Fornecedores_Categoria = 4  ","id","id_Fornecedor_Exame","Fornecedor","--Selecione--","")%></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Exames/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=1','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td colspan="5"><Span id='Mostra_Campos_Exames'></Span></td>
+          </tr>
+        </table>
+        </fieldset>
+        <BR style="font-size:5px;"> 
+        <fieldset>
+        <legend></legend>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="48%" align="right"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/ImprimirSolicitacao.asp?id_Solicitacao_Atendimento=<%=Id%>','850','680',this,event)"> 
+              <input src="/SmartCare/images/disquete.gif" alt="Salvar Atendimento" type="image" name="submit" >
+              </a></td>
+            <td width="4%">&nbsp;</td>
+            <td width="48%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="location='default.asp'" ></a> 
+            </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table>
+        </fieldset></td>
+  </tr>
+  </Form>
+</table>
+<script>
+	//Quando a página é carregada o campo de busca ja vem com o foco para ser digitado
+	document.form.busca.focus()
+</script>
+<script>
+	//Inicia a função javascript para que dentro dela ja inicia com uma quantidade que esta setada la dentro
+	cria_opcoes(1)
+</script>
+
+<%End If%>
+</body>
+</html>

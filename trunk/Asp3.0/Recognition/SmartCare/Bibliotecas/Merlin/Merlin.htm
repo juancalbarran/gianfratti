@@ -1,0 +1,22 @@
+<Object ID=wolfi ClassID=CLSID:D45FD31B-5C6E-11D1-9EC1-00C04FD7081F width="32" height="32"></Object> 
+
+<Script LANGUAGE="JavaScript" TYPE="text/javascript"> 
+//SITE OFICIAL COM VARIOS EXEMPLOS E SITES COM MUITO MAIS AGENTS http://www.microsoft.com/msagent/default.asp
+//no site gianfratti.com tem o exemplo bem mais completo porem não muito util para ser usado no sistema
+//PARA CHAMAR BASTA USAR
+//C:\WINDOWS\MSAGENT
+//<a href='javascript:void(0);' onclick=' Merlin.MoveTo (10,450); Merlin.Show();   Merlin.speak("Hey! Você clicou no link!"); Merlin.Hide(); '>HELP</a>
+function LoadLocalAgent(CharID, CharACS) 
+ { 
+  LoadReq = wolfi.Characters.Load(CharID, CharACS); 
+  return(true); 
+ } 
+  var MerlinID; 
+  var MerlinACS; 
+  wolfi.Connected = true; 
+
+  MerlinLoaded = LoadLocalAgent(MerlinID, MerlinACS); 
+  Merlin = wolfi.Characters.Character(MerlinID); 
+
+</script> 
+

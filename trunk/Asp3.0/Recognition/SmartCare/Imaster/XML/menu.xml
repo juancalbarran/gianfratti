@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<menu>
+	<nextid>4</nextid>
+	<link id="link1" title="Link 1" url="http://myserver/someplace/file1.asp"/>
+	<link id="link2" title="Link 2" url="http://myserver/someplace/file2.asp"/>
+	<link id="link3" title="Link 3" url="http://myserver/someplace/file3.asp"/>
+</menu>

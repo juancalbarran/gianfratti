@@ -1,0 +1,481 @@
+.LinhasPares {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #18187C;text-decoration: none;background-color: #F7F7FB;	padding-top: 2px;	padding-right: 2px;	padding-bottom: 2px;	padding-left: 2px;	border-right-width: 1pt;	border-right-style: solid;	border-bottom-style: none;	border-right-color: black;	border-top-style: solid;	border-left-style: none;	border-top-width: 1pt;	border-top-color: black;}
+.LinhasImpares {font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;color: #18187C;text-decoration: none;background-color: #FFFFFF;	padding-top: 2px;	padding-right: 2px;	padding-bottom: 2px;	padding-left: 2px;	border-top-width: 1pt;	border-top-style: solid;	border-top-color: BLACK;	border-right-width: 1pt;	border-right-style: solid;	border-right-color: BLACK;}
+.Cabecalho{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; text-decoration: none; height: 22px; background-color: #6699CC; clip:   rect(   )}
+.Anterior{color: #000000;	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 10px;	text-decoration: none;}
+.Proximo{color: #000000;font-family: Verdana, Arial, Helvetica, sans-serif;text-decoration: none;font-size: 10px;}
+.Ordem_Asc_Desc{ color: black; font-family: system; }
+.BotaoPesquisa, .SelectsPesquisa{ background-color: #CCCCCC; color: black; }
+.TextoPesquisa{ background-color: #CCCCCC; color: black; }
+
+.Maiusculo { TEXT-TRANSFORM: capitalize }
+
+/*Estes estilos são referente do fieldset*/
+legend{font-size:13px;font-family:tahoma;}
+fieldset{}
+/*Fim*/
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000033;
+	background-color: #FFFFFF;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 5px;
+	cursor: hand;
+}
+
+.menu-sel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000033;
+	background-color: #CCCCCC;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	padding: 5px;
+	cursor: hand;
+}
+
+.tb-conteudo {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.caixa{ border: 1pt solid black}
+
+.caixa1 { border-top: 1pt solid black; border-left: 1pt solid black }
+
+.caixa2 {
+	border-bottom: 1pt solid black;
+	border-right: 1pt solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.campos {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000066; text-decoration: none; border: 1px #000066 double}
+.ok {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #000066; height: 20px; border: #FFFFFF; border-style: double; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.data {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; color: #18187C}
+.bulletWeb {  font-family: Webdings}
+.bulletWeb2 {  font-family: Wingdings}
+.tit_box_blue {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; background-color: #000099; color: #FFFFFF; font-weight: bold; height: 22px}
+.canais {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: underline}
+a.canais:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none}
+a.canais:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none }
+a.canais:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: underline}
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #3B297B; text-decoration: none}
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+.invert { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+a.invert:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+a.invert:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+a.invert:hover  {  font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #18187C; text-decoration: none} 
+.texto2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal; padding-right: 1px}
+.textopq {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ffffff; font-weight: normal}
+.textopqn {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; font-weight: normal}
+.texto {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal}
+a.texto:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal}
+a.texto:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal}
+a.texto:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;  color: #18187C; font-weight: normal}
+
+.canais2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none}
+a.canais2:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none }
+a.canais2:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none }
+a.canais2:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #18187C; text-decoration: none }
+.tit_box_orange { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; text-decoration: none; height: 22px; background-color: #A6A66C; clip:   rect(   )}
+.Titulo_Tabela { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none; height: auto; background-color: #3872B2}
+.Titulo_Tabela2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; text-decoration: none; height: auto; background-color: #D7D7D7}
+
+.testexx{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff);padding:2px;Color:#000000; Font-Weight:Bold; text-align:left; border: 1px solid #000000; BackGround-Color:#F9F9FD; font-family:verdana; font-size:12px}
+
+.zebra_orange1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; background-color: #F1F1E7}
+.zebra_orange2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; background-color: #FCFCF8}
+.textoOrange { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #A6A66C}
+.textoJust { Border:1px solid #CCCCCC; padding:2px; backGround-color:#F9F9FD; font-family: tahoma; font-size: 12px ; text-align: justify}
+.texto_grd_blue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #18187C}
+.textoBlue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #18187C}
+.textoGray { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #999999}
+.textoBluePeq { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #18187C ; padding-right: 9px; padding-bottom: 5px; padding-left: 9px}
+.box_riscoOrange {  border: #A6A66C; border-style: double; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px}
+.titHome {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #999933; font-weight: bold; border-color: black black #999999; border-style: dashed; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.miolo1 {  text-decoration: none; border-color: black black #CCCCCC; border-style: dashed; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.titHome2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFFF; font-weight: bold; border-color: black black #999999; border-style: dashed; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px ; background-color: #A6A66C}
+.borda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top: 1px none #000066;
+	border-right: 1px none #000066;
+	border-bottom: 1px double #000066;
+	border-left: 1px double #000066;
+}
+.titGrd { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #999933; font-weight: bold; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.botoes { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #000066; height: 20px; border: 2px #999933 double}
+.zebra1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #F7F7FB;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-right-color: black;
+	border-top-style: solid;
+	border-left-style: none;
+	border-top-width: 1pt;
+	border-top-color: black;
+	font-weight: normal;
+
+}
+.zebra2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	border-top-width: 1pt;
+	border-top-style: solid;
+	border-top-color: BLACK;
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-right-color: BLACK;
+
+
+}
+.zebra3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #F8F0BE;
+	padding: 2px;
+	border-top-width: 1pt;
+	border-top-style: solid;
+	border-top-color: BLACK;
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-right-color: BLACK;
+
+
+}
+.zebra4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #F8F0BE;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-right-color: black;
+	border-top-style: solid;
+	border-left-style: none;
+	border-top-width: 1pt;
+	border-top-color: black;
+	font-weight: normal;
+
+}
+.zebra5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FCF3D6;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	border-top-width: 1pt;
+	border-top-style: solid;
+	border-top-color: BLACK;
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-right-color: BLACK;
+
+
+}
+
+.data2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #18187C ; padding-left: 25px; padding-bottom: 2px}
+a.shopping:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+a.shopping:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+a.shopping:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #18187C; text-decoration: none }
+.shopping { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; text-decoration: none }
+.noticia { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+a.noticia:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+a.noticia:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+a.noticia:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px ; color: #18187C; text-decoration: underline}
+.legenda { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px}
+h3 {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #18187C}
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; color: #18187C }
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; color: #18187C }
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; color: #18187C }
+h5 { font-family: Verdana, Arial, Helvetica, sans-serif; color: #18187C }
+.topo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; color: #FFFFFF}
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none; background-color: #FFFFFF; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; scrollbar-face-color: #F9F9FD; scrollbar-highlight-color: #F9F9FD; scrollbar-shadow-color: #6285CA; scrollbar-arrow-color: #6285CA; scrollbar-track-color: #F9F9FD; scrollbar-darkshadow-color: #F9F9FD; scrollbar-3dlight-color: #6285CA; scrollbar-base-color: #6285CA;}
+
+.data3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; color: #FFFFFF}
+.texto_branco {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration: none}
+a.texto_branco:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration: none}
+a.texto_branco:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration: none}
+a.texto_branco :hover{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration: underline}
+.paginacao {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FF0000; text-decoration: none}
+.titHome3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #18187C; font-weight: bold; border-color: black black #999933; border-style: dashed; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+
+.link2 {	font-family: Verdana, Arial;	font-weight: bold;	color: #FCFCF8;	text-decoration: none;}
+a.link2:link {	font-family: Verdana, Arial;	font-weight: bold;	color: #FCFCF8;	text-decoration: none;}
+a.link2:visited {	font-family: Verdana, Arial;	font-weight: bold;	color:#FCFCF8 ;	text-decoration: none;}
+a.link2:hover{	font-family: Verdana, Arial;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;}
+
+
+.link1 {	font-family: Verdana, Arial;	font-weight: bold;	color: #F7F7FB;	text-decoration: none;}
+a.link1:link {	font-family: Verdana, Arial;	font-weight: bold;	color: #F7F7FB;	text-decoration: none;}
+a.link1:visited {	font-family: Verdana, Arial;	font-weight: bold;	color:#F7F7FB ;	text-decoration: none;}
+a.link1:hover{	font-family: Verdana, Arial;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;}
+.desconto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.preco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #18187C;
+	text-decoration: none;
+}
+.caixa2Fundo {
+	border-bottom: 1pt solid black;
+	border-right: 1pt solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #F0F8FF;
+
+}
+.caixa2FundoTitulo {
+
+	border-bottom: 1pt solid black;
+	border-right: 1pt solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #F0F8FF;
+}
+.erro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+}
+
+th {
+	color : #000000;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+}
+input, select {
+	color : #000000;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.px {
+	padding-top : 0px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	margin-top : 2px;
+	margin-bottom : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+}
+.px5 {
+	padding-top : 0px;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	margin-top : 5px;
+	margin-bottom : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+}
+.title01 {
+	color : #FFFFFF;
+	margin-top : 10px;
+	padding-bottom : 10px;
+	margin-bottom : 0px;
+	margin-left : 15px;
+	margin-right : 15px;
+	font-size : 13px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+	font-style: italic;
+}
+.title {
+	color : #000000;
+	margin-top : 28px;
+	padding-bottom : 10px;
+	margin-bottom : 0px;
+	margin-left : 45px;
+	margin-right : 10px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.title a {
+	color : #EF6D00;
+}
+.title a:hover {
+	color : #C25A02;
+}
+.list {
+	color : #FFFFFF;
+	margin-top : 3px;
+	padding-bottom : 3px;
+	margin-bottom : 0px;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.right {
+	color : #000000;
+	margin-top : 5px;
+	padding-bottom : 10px;
+	margin-bottom : 0px;
+	margin-left : 15px;
+	margin-right : 15px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.right a, .list a {
+	color : #FF7500;
+}
+.right a:hover {
+	color : #AAAAAA;
+}
+.left {
+	color : #000000;
+	margin-top : 0px;
+	padding-bottom : 5px;
+	margin-bottom : 0px;
+	margin-left : 15px;
+	margin-right : 25px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.left a {
+	color : #FF6600;
+}
+.left a:hover {
+	color : #FF0000;
+}
+p {
+	color : #000000;
+	margin-top : 5px;
+	padding-bottom : 10px;
+	margin-bottom : 0px;
+	margin-left : 20px;
+	margin-right : 20px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+}
+p a {
+	color : #000000;
+	font-weight: bold;
+}
+p a:hover {
+	color : #294A7B;
+}
+.menu01 {
+	color : #FFFFFF;
+	margin-top : 0px;
+	padding-bottom : 9px;
+	margin-bottom : 0px;
+	margin-left : 10px;
+	margin-right : 10px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.menu01 a {
+	color : #FFFFFF;
+	text-decoration: none;
+}
+.menu01 a:hover {
+	color : #EEEEEE;
+}
+.menu02 {
+	color : #FFFFFF;
+	margin-top : 37px;
+	padding-bottom : 0px;
+	margin-bottom : 0px;
+	margin-left : 20px;
+	margin-right : 0px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+}
+.menu02 a {
+	color : #FFFFFF;
+	text-decoration: none;
+}
+.menu02 a:hover {
+	color : #DDDDDD;
+}
+.data {
+	color : #9A9A9A;
+	margin-top : 15px;
+	padding-bottom : 0px;
+	margin-bottom : 0px;
+	margin-left : 20px;
+	margin-right : 0px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.t01 {
+	color : #F3400F;
+	margin-top : 1px;
+	padding-bottom : 0px;
+	margin-bottom : 0px;
+	margin-left : 20px;
+	margin-right : 0px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+td.toolbar{
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	background: #999999;
+	font: 11px Tahoma, Verdana, Helvetica-Narrow, Helvetica, sans-serif;
+}
+.gradiente
+{
+border-right: 0px solid #FFFFFF;
+background-color: #e5eef9;
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr= '#C0C0C0' ,endColorStr= '#ffffff' ,gradientType= '1' );
+}

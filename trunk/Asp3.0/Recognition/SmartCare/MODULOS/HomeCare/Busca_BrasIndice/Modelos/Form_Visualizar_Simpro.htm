@@ -1,0 +1,64 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >Tabela BrasIndice</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class='zebra_orange1'> 
+    <td width="97%" valign="top">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <form name="form" method="post" action="default.asp?action=1">
+                <tr> 
+                  <td height="19" class="texto">Laorat&oacute;rio:<b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                    <input name="Posicao_Vetor" type="hidden" id="Posicao_Vetor" value="<%=Request("Posicao_Vetor")%>">
+                    <input name="Tipo_Busca_Simpro" type="hidden" id="Tipo_Busca_Simpro" value="<%=Request("Tipo_Busca_Simpro")%>">
+                    </strong></font></b></td>
+                  <td class="texto">Cod. Medicamento</td>
+                  <td class="texto">Nome Medicamento:</td>
+                  <td class="texto">Descri&ccedil;&atilde;o Medicamento</td>
+                  <td colspan="2" class="texto">Edi&ccedil;&atilde;o:</td>
+                </tr>
+                <tr> 
+                  <td width="29%"><%=GeraFornecedores%></td>
+                  <td width="15%"><input name="CodMedicamento" type="text" class="campos" id="CodMedicamento" value="<%=Request("CodMedicamento")%>" size="20"></td>
+                  <td width="15%"><input name="DescMedicamento" type="text" class="campos" id="DescMedicamento" value="<%=Request("DescMedicamento")%>" size="20"></td>
+                  <td width="15%"><input name="DescApresentacao" type="text" class="campos" id="DescApresentacao" value="<%=Request("DescApresentacao")%>" size="20"> 
+                  </td>
+                  <td width="22%"><%=Edicao%></td>
+                  <td width="4%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+                </tr>
+              </form>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  
+                <td align="center" valign="top"> <b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                  </strong></font></b> </td>
+                </tr>
+              </table>
+             </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%
+If Request("action") <> "" Then
+	call VisualizarSimpro
+Else
+%>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" class="texto">Utilize o formul&aacute;rio acima para realizar 
+      uma busca na tabela simpro.</td>
+  </tr>
+</table>
+<%End if%>
+</fieldset>
+</body>
+</html>

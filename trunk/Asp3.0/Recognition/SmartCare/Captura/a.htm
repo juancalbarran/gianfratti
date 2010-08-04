@@ -1,0 +1,122 @@
+<HTML>
+   <HEAD>
+      <SCRIPT LANGUAGE="VBScript">
+      <!--
+      Sub Window_OnUnload()
+         LEADRasterDoc.ShutDown
+      End Sub
+
+      Sub SetActiveLangs()
+         Dim nRet
+         Dim LANGID_ENGLISH
+
+         LANGID_ENGLISH = 0
+         LEADRasterDoc.ActiveLanguagesCount = 1
+         LEADRasterDoc.ActiveLanguage(0) = LANGID_ENGLISH
+         nRet = LEADRasterDoc.SelectLanguages()
+         If (nRet <> 0) Then
+            MsgBox "Error " + CStr(nRet) + "Setting English as default language"
+         Else
+            MsgBox "English is Set as the active language"
+         End If
+      End Sub
+
+      Sub AddPage()
+         Dim L_SUPPORT_OCR
+         L_SUPPORT_OCR = 3
+
+         LEADRaster.UnlockSupport L_SUPPORT_OCR, "OCR Key Goes Here"
+         LEADRasterDoc.StartUp
+
+         Dim nPageNumber
+         Dim nRet
+
+         nRet = LEADRasterIO.Load(LEADRaster, "D:\Ocr\LETTER.TIF", 0, 0, 1)
+         If (nRet <> 0) Then
+            MsgBox "Error loading file"
+         End If
+
+         nRet = LEADRasterDoc.AddPage(LEADRaster, nPageNumber)
+         If (nRet = 0) Then
+            MsgBox "Page Width = " + CStr(LEADRasterDoc.PageWidth(nPageNumber)) + Chr(13) + "Page Height = " + CStr(LEADRasterDoc.PageHeight(nPageNumber)) + Chr(13) + "Page Bits Per Pixel = " + CStr(CStr(LEADRasterDoc.PageBitsPerPixel(nPageNumber)))
+         Else
+            MsgBox "The engine could not add a new page to the Document"
+         End If                  
+
+         SetActiveLangs
+      End Sub      
+
+      Sub RemovePage()
+         Dim nRet
+         Dim nPageCount
+         Dim i
+
+         nPageCount = LEADRasterDoc.PageCount
+         For i = 0 To  nPageCount - 1
+            nRet = LEADRasterDoc.RemovePage(i)
+            If (nRet = 0) Then
+               MsgBox "The page # " + CStr(i) + "is removed successfully"
+            End If
+         Next
+      End Sub
+
+      Sub FlipPage()
+         Dim nRet
+
+         nRet = LEADRasterDoc.ExportPage(LEADRaster, 0)
+         LEADRasterProc.Flip LEADRaster
+         nRet = LEADRasterDoc.UpdatePage(LEADRaster, 0)
+         If (nRet = 0) Then
+            MsgBox "The specified page is updated successfuly"
+         Else
+            MsgBox "Error " + CStr(nRet) + " in updating page bitmap for page # 0"
+            LEADRasterDoc.ActivePageIndex = 0
+         End If
+      End Sub
+      //-->
+      </SCRIPT>
+
+      <TITLE>LEADTOOLS VBScript COM OCR Example</TITLE>
+
+   </HEAD>
+
+   <BODY OnUnload="Window_OnUnload">
+      <OBJECT CLASSID="clsid:5220cb21-c88d-11cf-b347-00aa00a28331"
+         ALIGN="baseline" 
+         BORDER="0" 
+         WIDTH="1" 
+         HEIGHT="1" ID="Object1" >
+         <PARAM NAME="LPKPath" VALUE="path to LPK file/LTOCX14n.Lpk">
+      </OBJECT><BR>
+
+      <object classid="clsid:00140700-B1BA-11CE-ABC6-F5B2E79D9E3F" ID="LeadRaster" >
+      </object>
+
+      <OBJECT ID="RasterIO" NAME="LEADRasterIO" 
+         CLASSID="CLSID:0014070E-B1BA-11CE-ABC6-F5B2E79D9E3F"
+         CODEBASE="path to CAB file/Ltrio14n.cab" >
+         <P>This is not supported in the web browser.</P>
+      </OBJECT><BR>
+
+      <object classid="clsid:00140B30-B1BA-11CE-ABC6-F5B2E79D9E3F"
+         ID="LEADRasterDoc" >
+      </object>
+
+      <OBJECT ID="LEADRasterProc" NAME="LEADRasterProc" 
+         CLASSID="CLSID:00140712-B1BA-11CE-ABC6-F5B2E79D9E3F"
+         CODEBASE="path to CAB file/Ltrpr14n.cab" >
+         <P>This is not supported in the web browser.</P>
+      </OBJECT><BR>
+
+      <FORM NAME="LEADForm" ID="Form1">
+      <INPUT TYPE="button" VALUE="Add Page" LANGUAGE="VBScript"
+         OnClick="AddPage" ID="Button1">
+
+      <INPUT TYPE="button" VALUE="Remove Page" LANGUAGE="VBScript"
+         OnClick="RemovePage" ID="Button2">
+
+      <INPUT TYPE="button" VALUE="Flip Page" LANGUAGE="VBScript"
+         OnClick="FlipPage" ID="Button3">
+      </FORM>
+   </BODY>
+</HTML>

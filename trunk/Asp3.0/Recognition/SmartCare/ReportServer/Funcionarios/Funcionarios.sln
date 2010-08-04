@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Funcionarios", "Funcionarios.rptproj", "{2B555DDC-1687-45F9-AC27-24519C1391E2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugLocal = DebugLocal
+		Production = Production
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Debug.ActiveCfg = Debug
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Debug.Build.0 = Debug
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Debug.Deploy.0 = Debug
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.DebugLocal.ActiveCfg = DebugLocal
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.DebugLocal.Build.0 = DebugLocal
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Production.ActiveCfg = Production
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Production.Build.0 = Production
+		{2B555DDC-1687-45F9-AC27-24519C1391E2}.Production.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

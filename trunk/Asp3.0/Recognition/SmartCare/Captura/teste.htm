@@ -1,0 +1,89 @@
+<HTML>
+   <HEAD>
+      <SCRIPT LANGUAGE="JavaScript">
+         <!--
+            function Window_OnLoad()
+            {
+
+               var RASTERVIEW_APPEARANCE_THREED = 1; 
+               var PAINTDITHER_DIFFUSION = 1; 
+               var PAINTPALETTE_AUTO = 0; 
+               var PAINTSIZEMODE_FIT = 3; 
+
+               //Set defaults for displaying the image. 
+               //These are all persistent properties that can be set in the properties box. 
+               LEADRasterView1.Appearance = RASTERVIEW_APPEARANCE_THREED;
+               LEADRasterView1.BorderStyle = 1;
+               LEADRasterView1.BackColor = 16711980;  //Blue color
+               LEADRasterView1.PaintDither = PAINTDITHER_DIFFUSION; 
+               LEADRasterView1.PaintPalette = PAINTPALETTE_AUTO; 
+               LEADRasterView1.AutoRepaint = true; 
+               LEADRasterView1.AutoSize = false;
+               LEADRasterView1.AutoSetRects = true; 
+               LEADRasterView1.PaintSizeMode = PAINTSIZEMODE_FIT; 
+
+               LEADRasterView2.Appearance = RASTERVIEW_APPEARANCE_THREED; 
+               LEADRasterView2.BorderStyle = 1;
+               LEADRasterView2.BackColor = 16711980;  //Blue color
+               LEADRasterView2.PaintDither = PAINTDITHER_DIFFUSION;
+               LEADRasterView2.PaintPalette = PAINTPALETTE_AUTO; 
+               LEADRasterView2.AutoRepaint = true; 
+               LEADRasterView2.AutoSize = false; 
+               LEADRasterView2.AutoSetRects = true; 
+               LEADRasterView2.PaintSizeMode = PAINTSIZEMODE_FIT;
+            }
+
+            function LoadImage()
+            {
+               var CB_OP_ADD = 768;
+               CB_DST_0 = 32;
+
+               RasterIO1.Load(LEADRasterView1.Raster, "c:\\save.jpg", 0, 0, 1);
+               RasterIO1.Load(LEADRasterView2.Raster, "c:\\sample2.cmp", 0, 0, 1);
+
+               LEADRasterView1.RasterUnk.SetRgnRect(100, 100, 300, 300, 0);
+               LEADRasterProc.Combine(LEADRasterView1.RasterUnk, 100, 100, 300, 300, LEADRasterView2.RasterUnk, 0, 0, CB_OP_ADD + CB_DST_0);
+               LEADRasterView1.RasterUnk.FreeRgn();
+            }
+         //-->
+      </SCRIPT>
+
+      <TITLE>LEADTOOLS JavaScript COM Example</TITLE>
+   </HEAD>
+      <BODY OnLoad = "Window_OnLoad()">
+         <OBJECT CLASSID="clsid:5220cb21-c88d-11cf-b347-00aa00a28331"
+            ALIGN="baseline" 
+            BORDER="0"             WIDTH="1"             HEIGHT="1">            <PARAM NAME="LPKPath" VALUE="path to LPK file/LTOCX14n.Lpk">         </OBJECT><BR>
+         <OBJECT ID="RasterIO1" NAME="RasterIO1"             CLASSID="CLSID:0014070E-B1BA-11CE-ABC6-F5B2E79D9E3F"            CODEBASE="path to CAB file/Ltrio14n.cab">            <P>This is not supported in web browser.</P>         </OBJECT><BR>
+         <OBJECT ID="LEADRasterView1" NAME="LEADRasterView1" 
+            CLASSID="CLSID:00140708-B1BA-11CE-ABC6-F5B2E79D9E3F"
+            CODEBASE="path to CAB file/Ltrvw14n.cab" 
+            ALIGN="baseline" 
+            BORDER="0"
+            WIDTH="100%" 
+            HEIGHT="90%">
+            <P>This is not supported in web browser.</P>
+         </OBJECT><BR>
+
+         <OBJECT ID="LEADRasterView2" NAME="LEADRasterView2" 
+            CLASSID="CLSID:00140708-B1BA-11CE-ABC6-F5B2E79D9E3F"
+            CODEBASE="path to CAB file/Ltrvw14n.cab" 
+            ALIGN="baseline" 
+            BORDER="0"
+            WIDTH="100%" 
+            HEIGHT="90%">
+            <P>This is not supported in web browser.</P>
+         </OBJECT><BR>
+
+         <OBJECT ID="RasterProc" NAME="RasterProc" 
+            CLASSID="CLSID:00140712-B1BA-11CE-ABC6-F5B2E79D9E3F"
+            CODEBASE="path to CAB file/Ltrpr14n.cab">
+            <P>This is not supported in web browser.</P>
+         </OBJECT><BR>
+
+         <FORM NAME="LEADForm">
+            <INPUT TYPE="button" NAME="btnLoad" VALUE="Load Image" LANGUAGE="JavaScript"
+               OnClick="LoadImage()">
+         </FORM>
+      </BODY>
+</HTML>

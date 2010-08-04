@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Hospitalar</Name>
+  <DataSourceID>52b77b24-c629-457d-803c-4d394527ab02</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=FMANES;initial catalog=Hospitalar</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<root>
+<Titles>
+     <Title>Rebel Code: Linux and the OSS Revolution</Title>
+     <Author>G. Moody</Author>
+     <Year>2002</Year>
+     <Price>12.90</Price>
+     <Summary><![CDATA[
+Everyone in computing has heard of Linux--hundreds of millions use it every day. 
+Every Net user accesses Linux systems dozens of times during any Net session. 
+Yet, because people associate products with companies, Linux--with its thousands 
+of largely anonymous volunteer developers and free availability--is a difficult 
+fit with our world view.]]>
+	</Summary>
+</Titles>
+<Titles>
+<Title>The Cathedral and the Bazaar</Title>
+<Author>E. S. Raymond</Author>
+     <Year>2001</Year>
+     <Price>11.50</Price>
+     <Summary><![CDATA[
+Open source provides the competitive advantage in the Internet Age. According to the August Forrester Report, 56 percent of IT managers interviewed at Global 2,500 companies are already using some type of open source software in their infrastructure and another 6 percent will install it in the next two years. This revolutionary model for collaborative software development is being embraced and studied by many of the biggest players in the high-tech industry, from Sun Microsystems to IBM to Intel. The Cathedral & the Bazaar is a must for anyone who cares about the future of the computer industry or the dynamics of the information economy. Already, billions of dollars have been made and lost based on the ideas in this book. Its conclusions will be studied, debated, and implemented for years to come. According to Bob Young, "This is Eric Raymond's great contribution to the success of the open source revolution, to the adoption of Linux-based operating systems, and to the success of open source users and the companies that supply them." The interest in open source software development has grown enormously in the past year. This revised and expanded paperback edition includes new material on open source developments in 1999 and 2000. Raymond's clear and effective writing style accurately describing the benefits of open source software has been key to its success. With major vendors creating acceptance for open source within companies, independent vendors will become the open source story in 2001.]]>
+	 </Summary>
+</Titles>
+<Titles>
+	<Title>The Art of Deception</Title>
+	<Author>K. Mitnick</Author>
+	<Year>2002</Year>
+	<Price>10.46</Price>
+	<Summary><![CDATA[ 
+	If you have any interest in IT Security, you need to study Social Engineering, 
+and this book is a great resource. It's truly amazing how effective Social 
+Engineering can be against security systems of any kind.
+<P>I was a former victim of Kevin's exploits. He gained access to our network 
+through an elaborate pretext; gaining access to systems that were secured by 
+firewalls, dial back modems, extensive security policies and (unfortunately) 
+many humans like myself. Everything but the humans worked flawlessly.
+<P>The art of the con is as old as anything. Con artists know that any system, 
+yes ANY system, can be compromised as long as humans are involved. All the 
+technology in the world (alone) isn't going to stop a creative and motivated 
+social engineer.
+<P>Sadly, the focus of IT security today is on technology and technology alone. 
+Very little attention is paid to the topic of social engineering and how to 
+mitigate this threat. `Human nature' is, once again the culprit here, as people 
+view controls that reduce social engineering threats (strict process controls, 
+seemingly redundant and repetitive procedures) as unnecessary or overly 
+paranoid.</P>
+	]]></Summary>
+</Titles>
+<Titles>
+	<Title>Programming Visual Basic .NET 2003</Title>
+	<Author>F. Balena</Author>
+    <Year>2004</Year>
+    <Price>39.90</Price>
+    <Summary><![CDATA[
+Accelerate your productivity with Microsoft Visual Basic .NET 2003 with guidance 
+from a leading author and expert in the developer community. This definitive 
+reference offers coverage that’s both broad and deep, fully up to date with 
+Microsoft Visual Studio® .NET 2003 and Microsoft .NET Framework 1.1, and packed 
+with expert insights, practical code samples, and best practices. Get the 
+information you need to quickly create powerful Win32®–based applications and 
+scalable solutions for the Web, including working with the common language 
+runtime, multithreading, Windows® Forms applications, GDI+, Microsoft ADO.NET, 
+Microsoft ASP.NET Web Forms, and XML Web services. <p>Examine best practices for 
+porting and reusing existing Visual Basic code in the .NET Framework, as well as 
+exploiting the language’s advanced object-oriented capabilities. And extend your 
+expertise with all-new coverage on Remoting, enterprise services and COM+, code 
+access security, Web services extensions, and more—along with a wealth of 
+optimization tips.]]>
+	</Summary>
+</Titles>
+</root> 
