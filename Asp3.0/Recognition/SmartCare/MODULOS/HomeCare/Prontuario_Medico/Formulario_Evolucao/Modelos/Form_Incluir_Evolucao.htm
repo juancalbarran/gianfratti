@@ -1,0 +1,194 @@
+<html>
+<HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+</HEAD>
+<body>
+<form name="formCadastro" method="post" action="default.asp?action=IncluirEvolucao" onSubmit= "return valida_campo()">
+<fieldset>
+<legend  align='center' >&nbsp;Evolução Multidiciplinar do Paciente&nbsp;</legend>
+  <table width="100%">
+    <tr> 
+      <td><fieldset>
+        <legend>&nbsp;Médico Responsavel&nbsp;</legend>
+       <%=Carrega_Medico%>
+        </fieldset></td>
+    </tr>
+    <tr> 
+      <td><%=Carrega_Dados_Cadastro_Pacientes(Request("id_Atendimento"))%></td>
+    </tr>
+    <tr>
+      <td><fieldset>
+        <legend>&nbsp;Atendimento&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="14%"><strong>N&ordm; Atendimento:</strong></td>
+            <td width="7%"><%=Request("id_Atendimento")%></td>
+            <td width="13%"><strong>Data admiss&atilde;o:</strong></td>
+            <td width="19%"><%=ArrumaDataHora(Data_Cadastro_Atendimento)%></td>
+            <td width="20%"><strong>Tempo em atendimento:</strong></td>
+            <td width="27%"><%=TempoDecorrido(ArrumaDataHora(Data_Cadastro_Atendimento),ArrumaDataHora(Data_Fechamento_Atendimento))%></td>
+          </tr>
+        </table>
+        </fieldset></td>
+    </tr>
+    <tr> 
+      <td> 
+        <fieldset>
+        <legend>&nbsp;Evolução do Paciente&nbsp;</legend>
+        <table width="100%">
+          <tr class='zebra_orange1' > 
+            <td width="48%" class="legenda" > <input class="campos" name="Data_Evolucao" value="" size="12" onFocus="this.blur()" readonly> 
+              <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fStartPop(document.formCadastro.Data_Evolucao,'');return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a> 
+              <iframe width=132 height=142 name="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" id="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" src="/SmartCare/bibliotecas/calendario/ipopeng.htm" scrolling="no" frameborder="0" style="visibility:visible; z-index:999; position:absolute; left:-500px; top:0px;"> 
+              </iframe>
+              (Data de Evolu&ccedil;&atilde;o do paciente)</td>
+            <td class="legenda" > 
+              <div align="right">Resumo do prontu&aacute;rio -&gt;&gt;&nbsp;</div></td>
+            <td width="4%" class="legenda" ><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Prontuario_Medico/Formulario_Evolucao/Historico.asp?id_Atendimento=<%=Request("id_Atendimento")%>','1024','678',this,event)"><img src="/SmartCare/images/ico_Historico.jpg" alt="Visualizar historico de evolução do paciente"  border="0" ></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td colspan="3" align="center"> <textarea name="Texto" cols="130" rows="10" class="campos" id="Texto"></textarea> 
+            </td>
+          </tr>
+        </table>
+        </fieldset>
+		 <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Sinais Vitais&nbsp;</legend>
+        <table  width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1'>
+            <td class="texto">P.A</td>
+            <td class="texto"><input class="campos" name="PressaoArterial" type="text" id="PressaoArterial" size="10" maxlength="20"></td>
+            <td class="texto">F.C</td>
+            <td class="texto"><input class="campos" name="FreqCardiaca" type="text" id="FreqCardiaca" size="10" maxlength="20"></td>
+            <td class="texto">T.</td>
+            <td class="texto"><input class="campos" name="Temperatura" type="text" id="Temperatura" size="10" maxlength="20"></td>
+            <td class="texto">F.R</td>
+            <td class="texto"><input class="campos" name="FreqRespiratoria" type="text" id="FreqRespiratoria" size="10" maxlength="20"></td>
+            <td class="texto">Diurese</td>
+            <td class="texto"><input class="campos" name="Urina" type="text" id="Urina" size="10" maxlength="20"></td>
+            <td class="texto">Evac.</td>
+            <td class="texto"><input class="campos" name="Evacuacao" type="text" id="Evacuacao" size="10" maxlength="20"></td>
+            <td class="texto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="13" class="texto"><%=Carrega_SinaisVitais(Cint(Request("id_Atendimento")))%></td>
+          </tr>
+        </table>
+		</fieldset>
+		 <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Diagnostico(Cid10)&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="3" class="texto"><a name='' onClick='CriaOpcoesCid10()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="10%">Cid 10:</td>
+            <td width="86%">Diagnostico:</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'0')" size="6" maxlength="6"  ></td>
+            <td><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="110"></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10"   border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="CID10" type="text" class="campos" id="CID10" onchange="CarregaCid10(formCadastro.CID10,'1')" size="6" maxlength="6"  ></td>
+            <td><input readonly name="Diagnostico" type="text" class="campos" id="Diagnostico" size="110"></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Cid10/default.asp','800','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de Cid10"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td colspan="3"><Span id='Mostra_Campos_Cid10'></Span></td>
+          </tr>
+          <tr>
+            <td colspan="3"><%=Carrega_CID10_Itens(Cint(Request("id_Atendimento")))%></td>
+          </tr>
+        </table>
+        </fieldset> 
+        <BR style="font-size:5px;">
+        <fieldset>
+        <legend>&nbsp;Prescrição Médica&nbsp;</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right" > 
+            <td colspan="8" class="texto"><a href="javascript:cria_opcoes(1)"><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="13%" class="texto">Prescri&ccedil;&atilde;o:</td>
+            <td width="7%" class="texto">Dose:</td>
+            <td width="15%" class="texto">Via Administra&ccedil;&atilde;o:</td>
+            <td width="15%" class="texto">Periodicidade:</td>
+            <td width="15%" class="texto">Intervalo:</td>
+            <td width="10%" class="texto">Qdt Dias:</td>
+            <td width="15%" class="texto">Tipo:</td>
+            <td width="10%" class="texto">Prioridade:</td>
+          </tr>
+          <tr> 
+            <td colspan="8" align="right" class="texto"><div id=Solicitacao_Medica></div></td>
+          </tr>
+          <tr> 
+            <td colspan="8"  class="texto"><%=Carrega_Prescricao_Medica_Itens(Cint(Request("id_Atendimento")))%></td>
+          </tr>
+        </table>
+        </fieldset>
+        <fieldset>
+        <legend>&nbsp;Exames</legend>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr class='zebra_orange1' align="right"> 
+            <td colspan="3" class="texto"><a name='' onClick='CriaOpcoesExames()' style='cursor:pointer'><img src="/SmartCare/images/mais.gif" alt="Inserir mais campos" border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td width="11%">Código:</td>
+            <td width="76%">Exame:</td>
+            <td width="4%">&nbsp;</td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Exame" type="text" class="campos" id="Cod_Exame" onchange="CarregaExames(formCadastro.Cod_Exame,'0')" size="7" maxlength="7"  ></td>
+            <td><input readonly name="Descricao_Exame" type="text" class="campos" id="Descricao_Exame" size="108"></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Exames/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=0','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td><input name="Cod_Exame" type="text" class="campos" id="Cod_Exame" onchange="CarregaExames(formCadastro.Cod_Exame,'1')" size="7" maxlength="7" ></td>
+            <td><input name="Descricao_Exame" type="text" class="campos" id="Descricao_Exame" size="108" readonly></td>
+            <td><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Busca_Exames/default.asp?Tipo_Busca_Simpro=50&Tipo_Produto_Simpro=50&Posicao_Vetor=1','900','600',this,event)"><img src="/SmartCare/images/busca3.gif" alt="Consultar lista de m&eacute;dicos do cremesp"  border="0"></a></td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td colspan="3"><Span id='Mostra_Campos_Exames'></Span></td>
+          </tr>
+          <tr > 
+            <td colspan="3"><span id='Carrega_Lista_Exames'><%=Carrega_Lista_Exames(Request("id_Atendimento"))%></span></td>
+          </tr>
+        </table>
+        </fieldset>
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="48%" align="right"><a href="javascript:AbrePopUp('/SmartCare/Modulos/HomeCare/Solicitacao/ImprimirSolicitacao.asp?id_Solicitacao_Atendimento=<%=Id%>','850','680',this,event)"> 
+              <input src="/SmartCare/images/disquete.gif" alt="Salvar" type="image" name="submit" >
+              </a></td>
+            <td width="4%">&nbsp;</td>
+            <td width="48%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="location='default.asp'" ></a> 
+            </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</fieldset>
+</Form>
+<script>
+	//Inicia a função javascript para que dentro dela ja inicia com uma quantidade que esta setada la dentro
+	cria_opcoes(2)
+</script>
+</body>
+</html>

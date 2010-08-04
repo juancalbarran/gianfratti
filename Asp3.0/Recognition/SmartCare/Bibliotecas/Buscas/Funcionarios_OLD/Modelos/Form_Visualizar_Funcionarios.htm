@@ -1,0 +1,24 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_blue"> 
+    <td align="center">Gerenciador de Funcionarios</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<form name="form" method="post" action="">
+  <tr class="zebra1"> 
+    <td>Especializa&ccedil;&atilde;o</td>
+    <td><%=gerar_listbox("Especializacoes","id","id_Especializacao","Descricao","")%>&nbsp;Disponibilidade:<%=gerar_listbox("Disponibilidades","id","id_Disponibilidade","Descricao","")%></td>
+  </tr>
+  <tr class="zebra1"> 
+    <td>Cobertura:</td>
+    <td><%=gerar_listbox("Cobertura","id","id_Cobertura","Nome","")%> Departamento: 
+      <%=gerar_listbox("Departamentos","id","id_Departamento","Descricao","")%>&nbsp;Cargo:<%=gerar_listbox("Cargos","id","id_Cargo","Cargo","")%></td>
+  </tr>
+    <tr class="zebra1"> 
+      <td width="4%">Nome:</td>
+      <td> <input name="Nome" type="text" class="campos" id="Nome" size="50">
+        <input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+  </form>
+</table>
+<%=VisualizarFuncionarios%>

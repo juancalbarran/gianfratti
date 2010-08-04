@@ -1,0 +1,16 @@
+<script language="JavaScript">
+//FUNÇÃO QUE FAZ AS VALIDAÇÕES DO FORMULARIO
+function valida_campo()
+{
+<!--
+var Nome = document.form.Nome.value
+if (Nome==""){
+	alert("Entre com o nome da área de cobertura");
+	document.form.Nome.focus()
+	return false
+	}
+	document.form.submit.value="Aguarde..!!" //Se todos os campos obrigatorios foram preenchidos o botão sera desabilitado para não haver duplicação de registros caso ele clique mais um uma vez
+ 	document.form.submit.disabled=true;
+}
+//-->
+</script>

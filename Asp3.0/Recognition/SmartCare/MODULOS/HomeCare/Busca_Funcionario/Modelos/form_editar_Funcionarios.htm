@@ -1,0 +1,134 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="Tit_Box_Blue" align="center">Edi&ccedil;&atilde;o de Cadastro de Funcionario</td>
+  </tr>
+  <tr class="texto_grd_blue">
+    <td><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="formUpload" ENCTYPE="multipart/form-data" method="post" action="default.asp?action=Upload" onSubmit= "return valida_campo()">
+    <tr valign="top" class="zebra1"> 
+      <td colspan="2"><%=Funcionario_Imagem(Request("id"),"120","160")%> </td>
+    </tr>
+    <tr class="zebra1" > 
+      <td class="texto" width="14%">Imgem:
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td width="86%"><input type=FILE id="img" size=18 name="img" class="campos" >
+        <input class="botoes" type="submit" name="submit2" value="Enviar Imagem"></td>
+    </tr>
+  </Form>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarFuncionarios" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto">Login:</td>
+      <td class="texto"><input name="Login" type="text" class="campos" id="Login" value="<%=Login%>"></td>
+      <td class="texto">Senha:</td>
+      <td colspan="3" class="texto"><input name="Senha" type="password" class="campos" id="Senha" value="<%=Senha%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td width="14%" class="texto">Departamento: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td width="86" class="texto"><%=gerar_listbox("Departamentos","id","id_Departamento","Descricao",id_Departamento)%></td>
+      <td class="texto">Cargo:</td>
+      <td colspan="3" class="texto"><%=gerar_listbox("Cargos","id","id_Cargo","Cargo",id_Cargo)%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="24" class="texto">Data Contrata&ccedil;&atilde;o:</td>
+      <td class="texto"><input name="DataContratacao" type="text" class="campos" id="DataContratacao" onKeyPress="return MascaraCampo(document.form, 'DataContratacao', '99/99/9999', event);" value="<%=DataContratacao%>" maxlength="10" ></td>
+      <td class="texto">Data Demiss&atilde;o:</td>
+      <td class="texto"><input name="DataDemissao" type="text" class="campos" id="DataDemissao" onKeyPress="return MascaraCampo(document.form, 'DataDemissao', '99/99/9999', event);" value="<%=DataDemissao%>" maxlength="10" ></td>
+      <td class="texto">Ramal:</td>
+      <td class="texto"><input name="Ramal" type="text" class="campos" id="Ramal" onKeyPress="return MascaraCampo(document.form, 'Ramal', '9999', event);" value="<%=Ramal%>" maxlength="4" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Nome:</td>
+      <td colspan="3" class="texto"><input name="Nome" type="text" class="campos" id="Nome" value="<%=Nome%>" size="70" maxlength="50"></td>
+      <td class="texto">Email:</td>
+      <td class="texto"><input name="Email" type="text" class="campos" id="Email" value="<%=Email%>" maxlength="100" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Endere&ccedil;o:</td>
+      <td class="texto"><input name="Endereco" type="text" class="campos" id="Endereco" value="<%=Endereco%>" maxlength="50"></td>
+      <td class="texto">CEP:</td>
+      <td colspan="3" class="texto"><input name="CEP" type="text" class="campos" id="CEP" onKeyPress="return MascaraCampo(document.form, 'Cep', '99999-999', event);" value="<%=Cep%>" maxlength="9" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="24" class="texto">Bairro:</td>
+      <td class="texto"><input name="Bairro" type="text" class="campos" id="Bairro" value="<%=Bairro%>"></td>
+      <td class="texto">Cidade:</td>
+      <td class="texto"><input name="Cidade" type="text" class="campos" id="Cidade" value="<%=Cidade%>"></td>
+      <td class="texto">UF:</td>
+      <td class="texto"><%=LisBox_estados(UF)%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Telefone Residencial:</td>
+      <td class="texto"><input name="TelefoneResidencial"  type="text" class="campos" id="TelefoneResidencial" value="<%=TelefoneResidencial%>"></td>
+      <td class="texto">Telefone Celular:</td>
+      <td class="texto"><input name="TelefoneCelular"  type="text" class="campos" id="TelefoneCelular" value="<%=TelefoneCelular%>"></td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Contato1:</td>
+      <td class="texto"><input name="Contato1" type="text" class="campos" id="Contato1" value="<%=Contato1%>" maxlength="30"></td>
+      <td class="texto">Contato2:&nbsp;</td>
+      <td class="texto"><input name="Contato2" type="text" class="campos" id="Contato2" value="<%=Contato2%>" maxlength="30"></td>
+      <td class="texto">Contato3:</td>
+      <td class="texto"><input name="Contato3" type="text" class="campos" id="Contato3" value="<%=Contato3%>" maxlength="30"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="24" class="texto">N&ordm; Operadora:</td>
+      <td class="texto"><input name="id_OperadoraPager" type="text" class="campos" id="id_OperadoraPager" onKeyPress="return MascaraCampo(document.form, 'id_OperadoraPager', '9999999', event);" value="<%=id_OperadoraPager%>" maxlength="7" ></td>
+      <td class="texto">N&ordm; Pager:</td>
+      <td colspan="3" class="texto"><input name="Pager" type="text" class="campos" id="Pager" onKeyPress="return MascaraCampo(document.form, 'Pager', '99999999999999', event);" value="<%=Pager%>" maxlength="15" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">RG:</td>
+      <td class="texto"><input name="RG" type="text" class="campos" id="RG" onKeyPress="return MascaraCampo(document.form, 'RG', '99.999.999-9', event);" value="<%=RG%>" maxlength="12" ></td>
+      <td class="texto">CPF:</td>
+      <td class="texto"><input name="CPF" type="text" class="campos" id="CPF" onKeyPress="return MascaraCampo(document.form, 'CPF', '999999999-99', event);" value="<%=CPF%>" maxlength="12"></td>
+      <td class="texto">Crm/Coren/Crefito:</td>
+      <td class="texto"><input name="CODIGO_MEDICO" type="text" class="campos" id="CODIGO_MEDICO" value="<%=CODIGO_MEDICO%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Banco:</td>
+      <td class="texto"><input name="Banco1" type="text" class="campos" id="Banco1" onKeyPress="return MascaraCampo(document.form, 'Banco1', '999', event);" value="<%=Banco1%>" maxlength="3" ></td>
+      <td class="texto">Agencia:</td>
+      <td class="texto"><strong> 
+        <input name="Agencia1" type="text" class="campos" id="Agencia1" onKeyPress="return MascaraCampo(document.form, 'Agencia1', '9999-9', event);" value="<%=Agencia1%>" maxlength="7" >
+        </strong></td>
+      <td class="texto">Conta Corrente:</td>
+      <td class="texto"><input name="CC1" type="text" class="campos" id="CC1" onKeyPress="return MascaraCampo(document.form, 'CC1', '9999999-9', event);" value="<%=CC1%>" maxlength="9" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Banco:</td>
+      <td class="texto"><input name="Banco2" type="text" class="campos" id="Banco2" onKeyPress="return MascaraCampo(document.form, 'Banco2', '999', event);" value="<%=Banco2%>" maxlength="3" ></td>
+      <td class="texto">Agencia:</td>
+      <td class="texto"><input name="Agencia2" type="text" class="campos" id="Agencia2" onKeyPress="return MascaraCampo(document.form, 'Agencia2', '9999-9', event);" value="<%=Agencia2%>" maxlength="7" ></td>
+      <td class="texto">Conta Corrente:</td>
+      <td class="texto"><input name="CC2" type="text" class="campos" id="CC2" onKeyPress="return MascaraCampo(document.form, 'CC2', '9999999-9', event);" value="<%=CC2%>" maxlength="9" ></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Cobertura:</td>
+      <td colspan="5" valign="top" class="texto"><%=Cobertura%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Especializa&ccedil;&otilde;es:</td>
+      <td colspan="5" valign="top" class="texto"><%=Especializacao%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Disponibilidades:</td>
+      <td colspan="5" valign="top" class="texto"><%=Disponibilidade%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td valign="top" class="texto">Permiss&otilde;es de Acesso:</td>
+      <td colspan="5" valign="top" class="texto"><%=Permissoes%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td colspan="5"> &nbsp; <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>

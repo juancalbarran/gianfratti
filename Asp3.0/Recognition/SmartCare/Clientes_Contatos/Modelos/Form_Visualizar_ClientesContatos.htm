@@ -1,0 +1,31 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Contatos dos Clientes&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra1"> 
+      <td width="4%">Cliente:</td>
+      <td colspan="3"><%=gerar_listbox("Clientes","id","id_cliente","Nome","")%> 
+      </td>
+    </tr>
+    <tr class="zebra1"> 
+      <td>Local:</td>
+      <td width="2%"><%=gerar_listbox("Locais","id","id_local","Descricao","")%></td>
+      <td>Departamento:</td>
+      <td width="82%"><%=gerar_listbox("ClientesDepartamentos","id","id_ClienteDepartamento","Descricao","")%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td colspan="4">Cobertura:&nbsp;<%=gerar_listbox("Cobertura","id","id_cobertura","Nome","")%>&nbsp;UF:&nbsp;<%=LisBox_estados("")%>&nbsp;Busca: 
+        <input class="campos" name="Busca" type="text" id="Busca">
+        Ex: Nome Contato, Email 
+        <input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:2px;">
+<a href="default.asp?action=Form_Incluir_Clientes_Contatos"><img src="/SmartCare/images/botao_cadastro.gif" width="94" height="18" border="0"></a>
+</body>
+</html>
+<%=VisualizarClientes_Contatos%>

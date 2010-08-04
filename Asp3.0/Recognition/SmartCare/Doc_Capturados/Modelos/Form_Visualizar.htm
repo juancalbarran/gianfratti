@@ -1,0 +1,21 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Documentos Capturados&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra_orange1"> 
+      <td width="12%"><strong>N&ordm; Atendimento:</strong></td>
+      <td width="10%"><input name="id_Atendimento" type="text" class="campos" id="id_Atendimento" value="<%=Request("id_Atendimento")%>" size="10" maxlength="50"> 
+      </td>
+      <td width="9%"><strong>Documento: </strong></td>
+      <td width="20%"><strong><%=gerar_listbox("Documento_Tipo","id","id_Tipo","Tipo",Request("id_Tipo"))%></strong></td>
+      <td width="49%"><input type="submit" name="Submit" value="OK"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:2px;">
+<%=VisualizarDocumentos%>
+</body>
+</html>

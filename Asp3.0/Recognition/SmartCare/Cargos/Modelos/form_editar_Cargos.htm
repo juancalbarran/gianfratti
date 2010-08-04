@@ -1,0 +1,27 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Cargos&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarCargos" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Cargo: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td class="texto" width="89%"><input name="Cargo" type="text" class="campos" id="Cargo" value="<%=Cargo%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> &nbsp; 
+        <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+</body>
+</html>
+<%=VisualizarCargos%>

@@ -1,0 +1,39 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >Pacientes</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class='zebra_orange1'> 
+    <td width="97%" valign="top">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <form name="form" method="post" action="default.asp">
+                <tr> 
+                  <td height="19" class="texto">Nome:</td>
+                  <td class="texto">RG:</td>
+                  <td class="texto">CPF:</td>
+                  <td class="texto">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td width="20%"><input name="Nome" type="text" class="campos" id="Nome" size="20"></td>
+                  <td width="24%"><input class="campos" size="25" name="RG" type="text" id="RG"> 
+                  </td>
+                  <td width="24%"><input class="campos" size="25" name="CPF" type="text" id="CPF"></td>
+                  <td width="20%"> <input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"> 
+                  </td>
+                </tr>
+              </form>
+            </table> </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%VisualizarPacientes%>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="mystyles.css">
+<script language="javascript">
+<!--
+
+var x1 = 10, y1 = 20, x2 = 140, y2 = 180;
+function DragStart() {
+	x1 = x2 = event.offsetX;
+	y1 = y2 = event.offsetY;
+	document.fgi.style.visibility = "visible";
+}
+function DragDrag() {
+	x2 = event.offsetX;
+	y2 = event.offsetY;
+	DragUpdate();
+}
+function DragUpdate() {
+	// get top, left, width, height
+	if (x1 > x2) {
+		x = x2;
+		w = x1 - x2;
+	}
+	else {
+		x = x1;
+		w = x2 - x1;
+	}
+	if (y1 > y2) {
+		y = y2;
+		h = y1 - y2;
+	}
+	else {
+		y = y1;
+		h = y2 - y1;
+	}
+	// update form values
+	form1.x.value = x * 4;
+	form1.y.value = 792 - ((y + h) * 4);
+	form1.w.value = w * 4;
+	form1.h.value = h * 4;
+	// update visual indicator
+	document.fgi.style.pixelLeft = x + parseInt(document.bgi.offsetLeft);
+	document.fgi.style.pixelTop = y + parseInt(document.bgi.offsetTop);
+	document.fgi.width = w;
+	document.fgi.height = h;
+}
+
+//-->
+</script>
+<link rel="stylesheet" href="mystyles.css" type="text/css">
+</HEAD>
+<BODY onload="DragUpdate()">
+<h1>Add URL</h1>
+<form name="form1" method="post" action="GerarPdf.asp">
+  <table border="0" cellspacing="3" cellpadding="3">
+    <tr> 
+      <td valign="top" align="right"> 
+        <p>URL</p>
+      </td>
+      <td> 
+        <p>
+          <input type="text" name="url" size="60" value="http://www.google.com/">
+        </p>
+        <p>For security reasons some pages may not appear as expected. For example 
+          Flash, JavaScript, Java and ActiveX are - by default - disabled. If 
+          your URL is not suitable please do try another one. </p>
+      </td>
+    </tr>
+    <tr> 
+      <td valign="top" align="right"> 
+        <p>Position</p>
+      </td>
+      <td> 
+        <table border="0" cellspacing="3" cellpadding="3">
+          <tr> 
+            <td align="left" valign="top"> 
+              <div> <img src="images/bgi.gif" name="bgi" width="153" height="198" ondragstart="DragStart()" ondrag="DragDrag()" style="position:relative;top:0; left:0; z-index:0"> 
+                <img src="images/fgi.gif" name="fgi" style="position:absolute;top:0; left:0; z-index:1"> 
+              </div>
+            </td>
+            <td valign="top"> 
+              <p><font size="2">Click and drag to create a rectangle. The coordinates 
+                below will be updated to reflect the position and dimensions of 
+                your text.</font></p>
+              <p><font size="2">Note that this feature is not available on all 
+                browsers. However you can always enter text positions and dimensions 
+                in the text boxes below.</font></p>
+              <table border="0" cellspacing="3" cellpadding="3" width="100%">
+                <tr> 
+                  <td>Left</td>
+                  <td> 
+                    <input type="text" name="x" value="280" size="5" maxlength="5">
+                  </td>
+                  <td>Bottom</td>
+                  <td> 
+                    <input type="text" name="y" value="272" size="5" maxlength="5">
+                  </td>
+                </tr>
+                <tr> 
+                  <td>Width</td>
+                  <td> 
+                    <input type="text" name="w" value="200" size="5" maxlength="5">
+                  </td>
+                  <td>Height</td>
+                  <td> 
+                    <input type="text" name="h" value="160" size="5" maxlength="5">
+                  </td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td align="right"> 
+        <p> 
+          <input type="submit" name="Submit" value="Add  URL">
+        </p>
+      </td>
+    </tr>
+  </table>
+  </form>
+
+
+</body>
+</html>
+
+            

@@ -1,0 +1,53 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Clientes&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td ><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarClientes" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Nome: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td colspan="5" class="texto"><input name="Nome" type="text" class="campos" id="Nome" value="<%=Nome%>" size="50" maxlength="50"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Raz&atilde;o Social:</td>
+      <td colspan="5" class="texto"><input name="RazaoSocial" type="text" class="campos" id="RazaoSocial" value="<%=RazaoSocial%>" size="50" maxlength="50"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Endere&ccedil;o Matriz:</td>
+      <td colspan="5" class="texto"><input name="EnderecoMatriz" type="text" class="campos" id="EnderecoMatriz" value="<%=EnderecoMatriz%>" size="50" maxlength="50"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Cidade:</td>
+      <td width="16%" class="texto"><input name="Cidade" type="text" class="campos" id="Cidade" value="<%=Cidade%>"></td>
+      <td width="5%" class="texto">Estado:</td>
+      <td width="17%" class="texto"><%=LisBox_estados(UF)%></td>
+      <td width="3%" class="texto">Cep:</td>
+      <td width="48%" class="texto"><input name="Cep" type="text" class="campos" id="Cep" value="<%=Cep%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Fone:</td>
+      <td class="texto"><input name="Fone" type="text" class="campos" id="Fone" value="<%=Fone%>"></td>
+      <td class="texto">CGC:</td>
+      <td class="texto"><input name="CGC"  type="text" class="campos" id="CGC" value="<%=CGC%>"></td>
+      <td class="texto">IE:</td>
+      <td class="texto"><input name="IE" type="text" class="campos" id="IE" value="<%=IE%>"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Conv&ecirc;nio:</td>
+      <td colspan="5" class="texto"><%=gerar_listbox("Convenios","id","id_Convenio","Convenio",id_Convenio)%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td colspan="5"> <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+</body>
+</html>

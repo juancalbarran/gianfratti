@@ -1,0 +1,26 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="Tit_Box_blue"> 
+    <td align="center">Gerenciador de Funcionarios</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra1"> 
+      <td width="4%">Especializa&ccedil;&atilde;o</td>
+      <td><%=gerar_listbox("Especializacoes","id","id_Especializacao","Descricao","")%> 
+        <input name="Flg_Mostra_Funcionarios_Medicos" type="hidden" id="Flg_Mostra_Funcionarios_Medicos" value="request(&quot;Flg_Mostra_Funcionarios_Medicos&quot;)">
+        <input name="Flg_Mostra_Funcionarios_Enfermeiros" type="hidden" id="Flg_Mostra_Funcionarios_Enfermeiros" value="<%Request("Flg_Mostra_Funcionarios_Enfermeiros")%>"></td>
+      <td>Disponibilidade:</td>
+      <td><%=gerar_listbox("Disponibilidades","id","id_Disponibilidade","Descricao","")%></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td>Cobertura:</td>
+      <td><%=gerar_listbox("Cobertura","id","id_Cobertura","Nome","")%></td>
+      <td>Nome:</td>
+      <td><input name="Nome" type="text" class="campos" id="Nome" size="50"></td>
+      <td><input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+  </form>
+</table>
+<%=VisualizarFuncionarios%>

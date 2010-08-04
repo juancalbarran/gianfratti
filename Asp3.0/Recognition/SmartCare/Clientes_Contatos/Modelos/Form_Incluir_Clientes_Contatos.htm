@@ -1,0 +1,80 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Contatos dos Clientes&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" >
+  <form name="form" method="post" action="default.asp?action=IncluirClientes_Contatos" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td height="22" class="texto">Departamento:</td>
+      <td colspan="7" class="texto"> <input class="campos" name="id_Departamento" id="id_Departamento"  size="4" maxlength="20" readonly > 
+        <input class="campos" name="DepartamentoNome" id="DepartamentoNome"  size="45" maxlength="40" readonly> 
+        <a href="javascript:AbrePopUp('/SmartCare/Bibliotecas/Buscas/ClientesDepartamentos/default.asp','570','500',this,event)"><img src="\SmartCare\images\pesquisa.gif" border="0" WIDTH="15" HEIGHT="13"></a></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="22" class="texto">Nome:</td>
+      <td class="texto"><input class="campos"  name="Nome" type="text" id="Nome"></td>
+      <td class="texto">Telefone:</td>
+      <td colspan="5" class="texto"><input name="Telefone" type="text" class="campos" id="Telefone"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="22" class="texto">Endere&ccedil;o:</td>
+      <td width="18%" class="texto"><input name="Endereco" type="text" class="campos" id="Endereco"></td>
+      <td width="11%" class="texto">CEP:</td>
+      <td width="23%" class="texto"><input name="CEP" type="text" class="campos" id="CEP"></td>
+      <td width="8%" class="texto">Cidade:</td>
+      <td width="23%" class="texto"><input name="Cidade" type="text" class="campos" id="Cidade"></td>
+      <td width="3%" class="texto">UF</td>
+      <td width="3%" class="texto"><%=LisBox_estados("")%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="22" class="texto">Email:</td>
+      <td class="texto"><input name="Email" type="text" class="campos" id="Email"></td>
+      <td class="texto">Cargo:</td>
+      <td class="texto"><input name="Cargo" type="text" class="campos" id="Cargo"></td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="22" class="texto">Login:</td>
+      <td class="texto"><input name="Login" type="text" class="campos" id="Login" value="<%=Login%>" size="20" maxlength="20"></td>
+      <td class="texto">Senha:</td>
+      <td class="texto"><input name="Senha" type="password" class="campos" id="Senha" value="<%=Senha%>" size="20" maxlength="22"></td>
+      <td class="texto">Confirma senha:</td>
+      <td class="texto"><input name="Senha_Confere" type="password" class="campos" id="Senha_Confere" value="<%=Senha%>" size="20" maxlength="22"></td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="19" valign="top" class="texto">Acompanhamento por Email:</td>
+      <td colspan="2" valign="top"> <input name="Solicitacao" type="checkbox" id="Solicitacao" value="1">
+        Solicita&ccedil;&otilde;es</td>
+      <td colspan="2" valign="top"> <input name="Atendimento" type="checkbox" id="Atendimento" value="1">
+        Atendimentos</td>
+      <td colspan="3" valign="top"> <input name="Evolucao" type="checkbox" id="Evolucao" value="1">
+        Evolu&ccedil;&otilde;es</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td height="19" valign="top" class="texto">Permiss&otilde;es:</td>
+      <td colspan="7" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr> 
+            <td > <%=Categorias%></td>
+          </tr>
+        </table></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td colspan="7" valign="top"> <input class="botoes" type="submit" name="submit" value="Gravar "> 
+      </td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+</body>
+</html>

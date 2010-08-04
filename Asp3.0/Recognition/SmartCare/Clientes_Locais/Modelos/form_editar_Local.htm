@@ -1,0 +1,56 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Locais dos Clientes&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td ><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarLocais" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto">Cliente:</td>
+      <td class="texto"><%=gerar_listbox("Clientes","id","id_cliente","Nome",id_cliente)%></td>
+      <td class="texto">Cobertura:</td>
+      <td colspan="5" class="texto"><%=gerar_listbox("Cobertura","id","id_cobertura","Nome",id_cobertura)%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Local: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td width="89%" colspan="7" class="texto"><input name="Descricao" type="text" class="campos" id="Descricao" value="<%=Descricao%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Endere&ccedil;o:</td>
+      <td colspan="7" class="texto"><input name="Endereco" type="text" class="campos" id="Endereco" value="<%=Endereco%>" size="50"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">Cidade:</td>
+      <td class="texto"><input name="Cidade" type="text" class="campos" id="Cidade" value="<%=Cidade%>" size="30"></td>
+      <td class="texto">Bairro:</td>
+      <td class="texto"><input name="Bairro" type="text" class="campos" id="Bairro" value="<%=Bairro%>"></td>
+      <td class="texto">UF:</td>
+      <td class="texto"><%=LisBox_estados(UF)%></td>
+      <td class="texto">CEP:</td>
+      <td class="texto"><input name="CEP" type="text" class="campos" id="CEP" value="<%=CEP%>" size="7"></td>
+    </tr>
+    <tr class="zebra1">
+      <td class="texto">Telefone:</td>
+      <td class="texto"><input name="Telefone" type="text" class="campos" id="Telefone" value="<%=Telefone%>" size="30"></td>
+      <td class="texto">Contatos:</td>
+      <td class="texto"><input name="Contato" type="text" class="campos" id="Contatos" value="<%=Contato%>"></td>
+      <td class="texto">Emails:</td>
+      <td class="texto"><input name="Email" type="text" class="campos" id="Email" value="<%=Email%>"></td>
+      <td class="texto">&nbsp;</td>
+      <td class="texto">&nbsp;</td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td colspan="7"> 
+        <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+</body>
+</html>

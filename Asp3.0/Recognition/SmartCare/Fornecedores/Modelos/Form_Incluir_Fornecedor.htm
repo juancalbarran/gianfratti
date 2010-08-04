@@ -1,0 +1,94 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Fornecedores&nbsp;</legend>
+<fieldset>
+<legend>&nbsp;Cadastro de Fornecedor&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+ <form name="form" method="post" action="<%=action%>"  onSubmit= "return valida_campo()">
+    <tr>       
+    <td valign="top" class="texto">
+<table width="100%" border="0" cellpadding="0" cellspacing="1">
+        <tr class="zebra_orange1"> 
+          <td><strong>Categoria:</strong></td>
+        </tr>
+        <tr class="zebra_orange1">
+          <td><%=gerar_listbox("Fornecedores_Categoria","id","id_Fornecedores_Categoria","Descricao",id_Fornecedores_Categoria)%>
+              <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="1">
+        <tr class="zebra_orange1"> 
+            <td width="25%" height="21"><strong>Fornecedor:</strong></td>
+          <td width="25%"><strong>Raz&atilde;o Social:</strong></td>
+          <td width="18%"><strong>CNPJ:</strong></td>
+          <td width="19%"><strong>IE:</strong></td>
+          <td width="13%"><strong>Fatura Minima:</strong></td>
+        </tr>
+        <tr class="zebra_orange1"> 
+          <td><input name="Fornecedor" type="text" class="campos" id="Fornecedor" value="<%=Fornecedor%>" size="28" maxlength="50"></td>
+          <td><input name="Razao_Social" type="text" class="campos" id="Razao_Social" value="<%=Razao_Social%>" size="28" maxlength="50"></td>
+          <td><input name="CNPJ" type="text" class="campos" id="CNPJ" onKeyPress="return MascaraCampo(document.form, 'CNPJ', '99.999.999/9999-99 ', event);" value="<%=CNPJ%>" size="20" maxlength="18"></td>
+          <td><input name="IE" type="text" class="campos" id="IE" value="<%=IE%>" size="22" maxlength="50"></td>
+          <td><input name="Faturamento_Minimo" type="text" class="campos" id="Faturamento_Minimo" value="<%=Faturamento_Minimo%>" size="10" maxlength="50"></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="1">
+        <tr class="zebra_orange1"> 
+          <td width="31%"><strong>Endere&ccedil;o:</strong></td>
+          <td width="18%"><strong>Bairro:</strong></td>
+          <td width="19%"><strong>Cidade:</strong></td>
+          <td width="11%"><strong>CEP:</strong></td>
+          <td width="21%"><strong>UF:</strong></td>
+        </tr>
+        <tr class="zebra_orange1"> 
+          <td><input name="Endereco" type="text" class="campos" id="Endereco" value="<%=Endereco%>" size="38" maxlength="50"></td>
+          <td><input name="Bairro" type="text" class="campos" id="Bairro" value="<%=Bairro%>" size="20" maxlength="50"></td>
+          <td><input name="Cidade" type="text" class="campos" id="Cidade" value="<%=Cidade%>" size="20" maxlength="50"></td>
+          <td><input name="CEP" type="text" class="campos" id="CEP" onKeyPress="return MascaraCampo(document.form, 'CEP', '99999-999', event);" value="<%=CEP%>" size="10" maxlength="9" ></td>
+          <td><%=LisBox_estados(UF)%></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="1">
+        <tr class="zebra_orange1"> 
+          <td width="31%"><strong>Telefone:</strong></td>
+          <td width="31%"><strong>Fax:</strong></td>
+          <td width="19%"><strong>Contato:</strong></td>
+          <td width="19%"><strong>E-Mail:</strong></td>
+        </tr>
+        <tr class="zebra_orange1"> 
+          <td><input name="Telefone"  type="text" class="campos" id="Telefone" onKeyPress="return MascaraCampo(document.form, 'Telefone', '(99)9999-99-99', event);" value="<%=Telefone%>" size="38" maxlength="14" ></td>
+          <td><input name="Fax"  type="text" class="campos" id="Fax" onKeyPress="return MascaraCampo(document.form, 'Fax', '(99)9999-99-99', event);" value="<%=Fax%>" size="38" maxlength="14" ></td>
+          <td><input name="Contato" type="text" class="campos" id="Contato" value="<%=Contato%>" size="22" maxlength="50"></td>
+          <td><input name="Email" type="text" class="campos" id="Email" value="<%=Email%>" size="20" maxlength="50"></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="1">
+        <tr class="zebra_orange1"> 
+          <td><strong>Observa&ccedil;&otilde;es</strong></td>
+        </tr>
+        <tr class="zebra_orange1"> 
+          <td> <textarea name="Obs" cols="133" rows="6" class="campos" id="Obs"><%=Obs%></textarea></td>
+        </tr>
+      </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="48%" align="right"> <input src="/SmartCare/images/disquete.gif" alt="Salvar" type="image" name="submit" ></td>
+            <td width="4%">&nbsp;</td>
+            <td width="48%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="location='default.asp?PintaTR=<%=id%>'" ></a> 
+            </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+</Form>
+</table>
+</fieldset>
+</fieldset>
+</body>
+</html>

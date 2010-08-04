@@ -1,0 +1,22 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr > 
+    <td  class="Tit_Box_blue"align="center">Gerenciador de Locais dos Clientes</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra1"> 
+      <td width="6%">Cliente:</td>
+      <td width="3%"><%=gerar_listbox("Clientes","id","id_cliente","Nome","")%></td>
+      <td width="8%">Cobertura:</td>
+      <td width="3%"><%=gerar_listbox("Cobertura","id","id_cobertura","Nome","")%></td>
+      <td> <input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td>Local:</td>
+      <td colspan="4"> <input name="Busca" type="text" class="campos" id="Busca" size="40" maxlength="50"> 
+        &nbsp;UF: <%=LisBox_estados("")%></td>
+    </tr>
+  </form>
+</table>
+<%=VisualizarLocais%>

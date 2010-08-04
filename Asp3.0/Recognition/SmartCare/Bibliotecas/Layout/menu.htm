@@ -1,0 +1,90 @@
+<style>
+#main_panel
+{
+ border:1px solid darkblue;
+ position:relative;
+ overflow:hidden;
+}
+.head_item
+{
+ background-color:gold;
+ font-size:11px;
+ font-family:verdana;
+ font:bold;
+ border-top:1px solid darkblue;
+ border-bottom:1px solid darkblue;
+ position:absolute;
+ left:0px;
+ cursor:hand;
+ text-align:left;
+}
+.item
+{
+ background-color:lightyellow;
+ font-family:verdana;
+ font-size:10px;
+ left:0px;
+ position:relative;
+ text-align:left;
+}
+.item_panel
+{
+ position:absolute;
+ background-color:lightyellow;
+ left:0px;
+}
+  .item_panel a
+  {
+   text-decoration:none;
+   color:black;
+   cursor:hand;
+  }
+</style>
+<%
+IF Trim(Session("NivelMenu")) = "" Then 'Caso tenho acabado de entrar no sistema o menu que ficara aberto sera o de nivel 1
+	Session("NivelMenu") = "1" 
+End If 
+
+If Trim(Request("NivelMenu")) <> "" Then 'Caso tenha clicado em algum item no menu entao guarda na session
+	Session("NivelMenu") = Trim(Request("NivelMenu"))
+End if
+
+If Trim(Session("NivelMenu")) <> "" Then 
+	Session("NivelMenu") = Session("NivelMenu")
+End if
+
+%>
+<script language="JavaScript" src="/SmartCare/Bibliotecas/Layout/outlook.js"></script>
+<script language="JavaScript">
+  
+  var Link = new Array();
+
+	  Link[0] = "0|Atendimento";
+	  Link[1] = "1|Atendimento|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Atendimentos/Default.asp?NivelMenu=1|";
+	  Link[2] = "1|Status|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Atendimento_Status/Default.asp?NivelMenu=1|";
+	  Link[3] = "1|Prioridades|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Atendimento_Prioridades/Default.asp?NivelMenu=1|";
+	  Link[4] = "1|Procedimentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Procedimentos/Default.asp?NivelMenu=1|";
+	  Link[5] = "1|Diagnosticos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Diagnostico/Default.asp?NivelMenu=1|";
+	
+	  Link[6] = "0|Pacientes";
+	  Link[7] = "1|Paciente|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Pacientes/Default.asp?NivelMenu=2|";
+	
+	  Link[8] = "0|Clientes";
+	  Link[9] = "1|Clientes|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Clientes/Default.asp?NivelMenu=3|";
+	  Link[10] = "1|Locais|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Clientes_Locais/Default.asp?NivelMenu=3|";
+	  Link[11] = "1|Departamentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/ClientesDepartamentos/Default.asp?NivelMenu=3|";
+	  Link[12] = "1|Contatos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Clientes_Contatos/Default.asp?NivelMenu=3|";
+	  Link[13] = "1|Convênios|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Convenios/Default.asp?NivelMenu=3|";
+	  
+	  Link[14] = "0|Funcionarios";
+	  Link[15] = "1|Funcionarios|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Funcionarios/Default.asp?NivelMenu=4|";
+	  Link[16] = "1|Departamentos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Departamentos/Default.asp?NivelMenu=4|";
+	  Link[17] = "1|Cargos|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Cargos/Default.asp?NivelMenu=4|";
+	  Link[18] = "1|Coberturas|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Cobertura/Default.asp?NivelMenu=4|";
+	  Link[19] = "1|Especializações|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Especializacoes/Default.asp?NivelMenu=4|";
+	  Link[20] = "1|Disponibilidades|http://<%=Request.ServerVariables("HTTP_HOST")%>/SmartCare/Disponibilidades/Default.asp?NivelMenu=4|";
+
+start(<%=Session("NivelMenu")%>); //Define qual o menu que ao entrar na página aparecera aberto
+
+</script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">

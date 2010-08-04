@@ -1,0 +1,29 @@
+<html>
+
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Tabelas de Procedimentos&nbsp;</legend>
+<fieldset>
+<legend>&nbsp;Filtros&nbsp;</legend>
+<table width="100%">
+<form name="form" method="post" action="default.asp">
+  <tr class='zebra_orange1'> 
+    <td width="16%">Tabela:</td>
+    <td width="19%">C&oacute;digo:</td>
+    <td colspan="2">Descri&ccedil;&atilde;o:</td>
+  </tr>
+  <tr class='zebra_orange1'> 
+    <td><%=GeraListBoxOpcoesManual_V2(Array(90,92),Array("AMB 90","AMB 92"),"Tabela",Request("Tabela"),"","")%></td>
+    <td><input name="Codigo" type="text" id="Codigo" value="<%=request("Codigo")%>"></td>
+    <td width="19%"><input name="Descricao" type="text" id="Descricao" value="<%=Request("Descricao")%>">
+    </td>
+    <td width="46%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+  </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%=Visualizar%>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Convenios&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=IncluirConvenios" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="7%">Conv&ecirc;nio:</td>
+      <td class="texto" width="23%"><input class="campos" name="Convenio" type="text" id="Convenio" size="30" maxlength="30">
+        &nbsp; </td>
+      <td class="texto" width="14%">Tbl Procedimentos:</td>
+      <td class="texto" width="10%"><select name="Tbl_Procedimentos" id="Tbl_Procedimentos">
+          <option value="">&lt;&lt;-Selecione-&gt;&gt;</option>
+          <option value="AMB90">AMB90</option>
+          <option value="AMB92">AMB92</option>
+        </select></td>
+      <td class="texto" width="21%">Coeficiente de Honor&aacute;rio(CH):</td>
+      <td class="texto" width="16%"><input class="campos" name="CH" type="text" id="CH" size="10" maxlength="30"></td>
+      <td class="texto" width="9%"><input class="botoes" type="submit" name="submit" value="Gravar "></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:2px;">
+</body>
+</html>
+<%=VisualizarConvenios%>

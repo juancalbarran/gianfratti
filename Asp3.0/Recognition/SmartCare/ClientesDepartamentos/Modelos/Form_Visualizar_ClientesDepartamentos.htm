@@ -1,0 +1,28 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Departamentos dos Clientes&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <form name="form" method="post" action="">
+    <tr class="zebra1"> 
+      <td width="4%">Cliente:</td>
+      <td width="2%"><%=gerar_listbox("Clientes","id","id_cliente","Nome","")%></td>
+      <td width="4%">Local:</td>
+      <td width="2%"><%=gerar_listbox("Locais","id","id_local","Descricao","")%></td>
+      <td width="10%" colspan="2"> Cobertua:</td>
+      <td width="78%"><%=gerar_listbox("Cobertura","id","id_cobertura","Nome","")%></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td>Busca:</td>
+      <td colspan="6"><input class="campos" name="Busca" type="text" id="Busca">
+        Ex: Departamento,Cliente, Local 
+        <input type="submit" name="Submit" value="Buscar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+<BR style="font-size:2px;">
+<a href="default.asp?action=Form_Incluir_ClientesDepartamentos"><img src="/SmartCare/images/botao_cadastro.gif" width="94" height="18" border="0"></a>
+</body>
+</html>
+<%=VisualizarClientesDepartamentos%>

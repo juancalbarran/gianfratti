@@ -1,0 +1,90 @@
+ <SCRIPT LANGUAGE="VBScript"> 
+Sub PrintImage()
+'Declare the variables for pixel measurements
+   Dim UsableWidth
+   Dim UsableHeight
+   Dim MaxImageHeight
+ 
+   'Declare the variables for sizing and positioning the image 
+   Dim PrintLeft
+   Dim PrintTop
+   Dim PrintHeight
+   Dim PrintWidth
+   Dim CurrentY
+
+   CurrentY = 1
+    
+   'Declare variables used for preserving aspect ratios
+   Dim WidthFactor
+   Dim HeightFactor
+
+   LEADRasterView1.EnableMethodErrors = False
+   LEADRasterView1.ScaleMode = 3
+
+   'Set the variables used for preserving the aspect ratio
+   HeightFactor = LEADRasterView1.Raster.BitmapHeight
+   WidthFactor = LEADRasterView1.Raster.BitmapWidth
+
+   'Get the page width and height in pixels (dots) 
+   UsableWidth = LEADRasterView1.PrinterScaleWidth
+   UsableHeight = LEADRasterView1.PrinterScaleHeight
+
+   'Get the maximum height of one image
+   MaxImageHeight = UsableHeight / 2
+
+   'Size and position the first image, preserving the aspect ratio. 
+   'Check to see if using the maximum width will make the image too tall. 
+   'Set the dimensions based on the result. 
+   If ((UsableWidth * HeightFactor / WidthFactor) < MaxImageHeight) Then 
+      PrintLeft = 1 
+      PrintTop = CurrentY
+      PrintWidth = UsableWidth
+      PrintHeight = PrintWidth * HeightFactor / WidthFactor
+   Else
+      PrintLeft = 1
+      PrintTop = CurrentY
+      PrintHeight = MaxImageHeight
+      PrintWidth = PrintHeight * WidthFactor / HeightFactor
+   End If
+
+   'Print the first image
+   Dim hDC
+   hDC = LEADRasterView1.PrintStart
+   LEADRasterView1.Render hDC, PrintLeft, PrintTop, PrintWidth, PrintHeight
+
+   'Update the current printing position    
+   CurrentY = CurrentY + PrintHeight
+
+   'Invert the bitmap for the second printing       
+   'to show the difference between the second picture and the first
+   RasterProc.Invert LeadRasterView1.Raster
+   
+   'Size and position the second image, preserving the aspect ratio. 
+   'The coding is the same as for the first image. 
+   If ((UsableWidth * HeightFactor / WidthFactor) < MaxImageHeight) Then
+      PrintLeft = 1
+      PrintTop = CurrentY
+      PrintWidth = UsableWidth
+      PrintHeight = PrintWidth * HeightFactor / WidthFactor
+   Else
+      PrintLeft = 1
+      PrintTop = CurrentY
+      PrintHeight = MaxImageHeight
+      PrintWidth = PrintHeight * WidthFactor / HeightFactor
+   End If
+
+   'Print the second image
+   LEADRasterView1.Render hDC, PrintLeft, PrintTop, PrintWidth, PrintHeight
+
+   'Finish the page and finish the print job
+   LEADRasterView1.PrintEnd hDC
+End Sub
+</SCRIPT>
+
+ <INPUT TYPE="button" NAME="btnPrint" VALUE="Print" LANGUAGE="VBScript" OnClick="PrintImage">
+
+<OBJECT ID="RasterProc" NAME="RasterProc" 
+   CLASSID="CLSID:00140712-B1BA-11CE-ABC6-F5B2E79D9E3F"
+   CODEBASE="path to CAB file/Ltrpr14n.cab">
+   <P>This is not supported in the web browser.</P>
+</OBJECT><BR>

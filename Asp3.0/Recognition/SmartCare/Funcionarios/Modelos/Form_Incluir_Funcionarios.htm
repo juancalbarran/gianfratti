@@ -1,0 +1,234 @@
+<html>
+<head>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+
+</script>
+</head>
+<body>
+<div id="Layer1" style="position:absolute; left:830px; top:424px; width:162px; height:130px; z-index:1000"> 
+  <%If id <> "" then%>
+  <fieldset>
+  <legend>&nbsp;Foto do Funcionário&nbsp;</legend>
+  <table width="100%" border="0" cellpadding="0" cellspacing="1">
+    <form name="formUpload" ENCTYPE="multipart/form-data" method="post" action="default.asp?action=Upload" onSubmit= "return valida_campo()">
+      <tr> 
+        <td ><%=Funcionario_Imagem(Request("id"),"100","140")%> <input name="id" type="hidden" id="id" value="<%=id%>"> 
+        </td>
+      </tr>
+      <tr> 
+        <td ><input type=FILE id="img" size=3 name="img" > <input type="submit" name="submit2" value="Ok"></td>
+      </tr>
+    </form>
+  </table>
+  </fieldset>
+  <%End if%>
+</div>
+<fieldset>
+<legend  align='center' >&nbsp;Cadastro de Funcionários&nbsp;</legend>
+<table width="100%">
+<form name="form" method="post" action="<%=action%>" onSubmit= "return valida_campo()">
+  <tr>
+    <td> 
+	<fieldset>
+	<legend>&nbsp;Login e senha para acesso ao sistema&nbsp;</legend>
+	    <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td ><strong>Login: 
+              <input name="id" type="hidden" id="id" value="<%=id%>">
+              <input name="id_Usuario" type="hidden" id="id_Usuario" value="<%=id_Usuario%>">
+              </strong></td>
+            <td colspan="2" ><strong>Senha:</strong></td>
+            <td width="58%" ><strong>Confirme a senha:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td width="21%" class="texto"><input name="Login" type="text" class="campos" id="Login" value="<%=Login%>" size="20" maxlength="20"></td>
+            <td colspan="2" class="texto"><input name="Senha" type="password" class="campos" id="Senha" value="<%=Senha%>" size="20" maxlength="22"></td>
+            <td class="texto"><input name="Senha_Confere" type="password" class="campos" id="Senha_Confere" value="<%=Senha%>" size="20" maxlength="22"></td>
+          </tr>
+        </table>
+	</fieldset>
+	<fieldset>
+	<legend>&nbsp;Dados Cadastrais&nbsp;</legend>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="20%" class="zebra_orange1"><strong>Data Contrata&ccedil;&atilde;o:</strong></td>
+            <td width="80%" class="zebra_orange1"><strong>Data Demiss&atilde;o:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td> 
+              <input class="campos" name="DataContratacao" value="<%=DataContratacao%>" size="12" onFocus="this.blur()" readonly> 
+              <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fStartPop(document.form.DataContratacao,document.form.DataDemissao);return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a></td>
+            <td> 
+              <input class="campos" name="DataDemissao" value="<%=DataDemissao%>" size="12" onfocus="this.blur()" readonly> 
+              <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fEndPop(document.form.DataContratacao,document.form.DataDemissao);return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a> 
+              <iframe width=132 height=142 name="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" id="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" src="/SmartCare/bibliotecas/calendario/ipopeng.htm" scrolling="no" frameborder="0" style="visibility:visible; z-index:999; position:absolute; left:-500px; top:0px;"> 
+              </iframe> </td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="57%" class="zebra_orange1"><strong>Nome:</strong></td>
+            <td width="43%" class="zebra_orange1"><strong>E-Mail:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td> 
+              <input name="Nome" type="text" class="campos" id="Nome" value="<%=Nome%>" size="70" maxlength="50"></td>
+            <td> 
+              <input name="Email" type="text" class="campos" id="Email" value="<%=Email%>" size="50" maxlength="60" ></td>
+          </tr>
+        </table>
+	    <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="33%" height="21" class="zebra_orange1"><strong>Codigo(Crm/Coren/Crefito):</strong></td>
+            <td width="27%" class="zebra_orange1"><strong>CPF:</strong></td>
+            <td width="40%" class="zebra_orange1"><strong>RG:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td> <input name="CODIGO_MEDICO" type="text" class="campos" id="CODIGO_MEDICO" value="<%=CODIGO_MEDICO%>" size="39" maxlength="30"></td>
+            <td> <input name="CPF" type="text" class="campos" id="CPF" onKeyPress="return MascaraCampo(document.form, 'CPF', '999999999-99', event);" value="<%=CPF%>" size="31" maxlength="12"></td>
+            <td><input name="RG" type="text" class="campos" id="RG" onKeyPress="return MascaraCampo(document.form, 'RG', '99.999.999-X', event);" value="<%=RG%>" size="31" maxlength="12" ></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td width="33%" align="left"><strong>Depto:</strong></td>
+            <td width="27%" ><strong>Cargo:</strong></td>
+            <td width="18%" ><strong>Sexo:</strong></td>
+            <td width="22%" ><strong>Cor de Pele:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td><%=gerar_listbox("Departamentos","id","id_Departamento","Descricao",id_Departamento)%></td>
+            <td><%=gerar_listbox("Cargos","id","id_Cargo","Cargo",id_Cargo)%></td>
+            <td> 
+              <%
+ArrayValores = Array("M","F") 'Array dos valores
+ArrayTitulos = Array("Masculino","Feminino") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Sexo" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Sexo 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+            </td>
+            <td><%=gerar_listbox("Cor_Pele","id","id_Cor_Pele","Descricao",id_Cor_Pele)%></td>
+          </tr>
+        </table>
+
+	    <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td ><strong>Endere&ccedil;o:</strong></td>
+            <td ><strong>Cep:</strong></td>
+            <td width="40%" ><strong>UF:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td width="33%" ><input name="Endereco" type="text" class="campos" id="Endereco" value="<%=Endereco%>" size="39" maxlength="50"></td>
+            <td width="27%" ><input name="CEP" type="text" class="campos" id="CEP" onKeyPress="return MascaraCampo(document.form, 'CEP', '99999-999', event);" value="<%=Cep%>" size="31" maxlength="9" ></td>
+            <td ><%=LisBox_estados(UF)%></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td ><strong>Bairro:</strong></td>
+            <td ><strong>Cidade:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td width="33%" ><input name="Bairro" type="text" class="campos" id="Bairro" value="<%=Bairro%>" size="39" maxlength="50"></td>
+            <td width="67%" ><input name="Cidade" type="text" class="campos" id="Cidade" value="<%=Cidade%>" size="31" maxlength="50"></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr class="zebra_orange1"> 
+            <td ><strong>Telefone Residencial:</strong></td>
+            <td ><strong>Telefone Celular:</strong></td>
+          </tr>
+          <tr class="zebra_orange1"> 
+            <td width="33%" ><input name="TelefoneResidencial"  type="text" class="campos" id="TelefoneResidencial" onKeyPress="return MascaraCampo(document.form, 'TelefoneResidencial', '(99)9999-99-99', event);" value="<%=TelefoneResidencial%>" size="39" maxlength="14" ></td>
+            <td width="67%" ><input name="TelefoneCelular"  type="text" class="campos" id="TelefoneCelular" onKeyPress="return MascaraCampo(document.form, 'TelefoneCelular', '(99)9999-99-99', event);" value="<%=TelefoneCelular%>" size="31" maxlength="14"></td>
+          </tr>
+        </table>
+        </fieldset>
+<fieldset>
+	<legend>&nbsp;Quantidade Máxima de Atendimentos&nbsp;</legend>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr> 
+            <td > 
+              <%
+ArrayValores = Array("0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","30","40","50") 'Array dos valores
+ArrayTitulos = Array("0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","30","40","50") 'Titulos para selecionar, tem que ser na mesma ordem do ArrayValores, para que cada titulo tenha o seu valor certo
+NomeCampo = "Qtd_Maxima_Atendimento" 'Nome que o campo vai ter. Ex: Teste
+ValorSelecionado = Qtd_Maxima_Atendimento 'Caso queira que algum Titulo Ja venha selecionado entao coloque algum valor que vc atribuiu no ArrayValores
+Evento = "" 'Caso queira algum evento entao coloque todo o codigo. Ex: onChange='document.form.submit()'
+NomeEstiloCss = "campos" 'Se quiser colocar algum Estilo Css entao coloque o nome do Estilo. Ex: campos
+Call GeraListBoxOpcoesManual(ArrayValores,ArrayTitulos,NomeCampo,ValorSelecionado,Evento,NomeEstiloCss)
+%>
+            </td>
+          </tr>
+        </table>
+	    </fieldset>
+        <table width="100%">
+          <tr> 
+            <td width="28%"> <fieldset>
+              <legend>&nbsp;Zonas de Cobertura&nbsp;</legend>
+              <table width="100%">
+                <tr> 
+                  <td><%=Cobertura%></td>
+                </tr>
+              </table>
+              </fieldset></td>
+            <td width="28%"> <fieldset>
+              <legend>&nbsp;Especializa&ccedil;&otilde;es:&nbsp;</legend>
+              <table width="100%">
+                <tr> 
+                  <td><%=Especializacao%></td>
+                </tr>
+              </table>
+              </fieldset></td>
+            <td width="24%"> <fieldset>
+              <legend>&nbsp;Disponibilidades:&nbsp;</legend>
+              <table width="100%">
+                <tr> 
+                  <td><%=Disponibilidade%></td>
+                </tr>
+              </table>
+              </fieldset></td>
+            <td width="20%">&nbsp;</td>
+          </tr>
+        </table>
+	<fieldset>
+	<legend>&nbsp;Permissões de acesso&nbsp;</legend>
+        <table width="100%" border="0" cellpadding="0" cellspacing="1">
+          <tr> 
+            <td > <%=Categorias%></td>
+          </tr>
+        </table>
+	    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr class='zebra_orange1'> 
+            <td width="48%" align="right"> <input src="/SmartCare/images/disquete.gif" alt="Salvar Atendimento" type="image" name="submit" ></td>
+            <td width="4%">&nbsp;</td>
+            <td width="48%"><a href="#"><img src="/SmartCare/images/calncelar.png" alt="Cancelar"  border="0"  onClick="location='default.asp'" ></a> 
+            </td>
+          </tr>
+          <tr class='zebra_orange1'> 
+            <td align="right" class="texto">Salvar</td>
+            <td class="texto">&nbsp;</td>
+            <td class="texto">Cancelar</td>
+          </tr>
+        </table>
+        </fieldset>
+
+
+        </td>
+  </tr>
+  </Form>
+</table>
+</fieldset>
+</body>
+</html>

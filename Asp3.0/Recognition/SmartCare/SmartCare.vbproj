@@ -1,0 +1,1562 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{C89A1EEB-3018-4BFE-B0CC-DA46D0E76917}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "SmartCare"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "SmartCare"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Funcoes"
+                    AssemblyName = "Funcoes"
+                    HintPath = "Bibliotecas\Classes\Funcoes\bin\Funcoes.dll"
+                />
+                <Reference
+                    Name = "ADODB"
+                    Guid = "{2A75196C-D9EB-4129-B803-931327F72D5C}"
+                    VersionMajor = "2"
+                    VersionMinor = "8"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default2.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "principal.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "robots.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "verificar.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VerificaUsuarioLogado.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agenda\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agenda\Js\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agenda\Modelos\Form_Agenda.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agenda\Modelos\Form_Agenda_Editar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agenda\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agendas\AgendaDia.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agendas\AgendaDia.aspx.vb"
+                    DependentUpon = "AgendaDia.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Agendas\AgendaDia.aspx.resx"
+                    DependentUpon = "AgendaDia.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Agendas\Calendario.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Agendas\Calendario.aspx.vb"
+                    DependentUpon = "Calendario.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Agendas\Calendario.aspx.resx"
+                    DependentUpon = "Calendario.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Bibliotecas\BarraProgresso\xp_progress.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Clientes_Locais\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Clientes_Locais\Modelos\Form_Visualizar_Local.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\ClientesDepartamentos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\ClientesDepartamentos\Modelos\Form_Visualizar_ClientesDepartamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Diagnostico\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Diagnostico\Modelos\Form_Visualizar_Diagnostico.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Funcionarios\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Funcionarios\Modelos\Form_Visualizar_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Funcionarios_OLD\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Funcionarios_OLD\Modelos\Form_Visualizar_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Pacientes\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Pacientes\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Pacientes\Modelos\Form_Visualizar_Pacientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Procedimentos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Buscas\Procedimentos\Modelos\Form_Visualizar_Procedimentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\agenda.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\arrowl.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\arrowr.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\bigCross.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\calbtn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\contrast.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\contrast.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\DateRangeDemo.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\ipopeng.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\plugins.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Calendario\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Bibliotecas\criptografia\criptografia.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Css\default.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Erros_Amigaveis\400.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Erros_Amigaveis\500.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Erros_Amigaveis\500-100.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Funcoes\funcoes.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Funcoes\funcoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Funcoes\funcoesNet.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Grid\grid.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Grid\PamellaGridClass.zip"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Bibliotecas\Grid\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\LayoutBaixo.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\LayoutCima.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\menu.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\menu.bak"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\menu.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\MenuOutlook.zip"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Bibliotecas\Layout\outlook.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Merlin\Merlin.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bibliotecas\Upload\default.asp"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "bin\" />
+                <File
+                    RelPath = "Captura\a.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\FileSystem.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ltocx14.lic"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Captura\LTRVW14n.lpk"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload.doc"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload.INF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\teste.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\teste.cab"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\teste.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\Upload.asp"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Captura\Imagens\" />
+                <File
+                    RelPath = "Captura\ScanUpload_n\CABARC.EXE"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LFCMP14s.DLL"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTCLR14s.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\ltocx14.lic"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTR14N.DLL"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTRHT14N.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTRIO14N.DLL"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTRPR14N.DLL"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\LTRVW14N.OCX"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\NovoArquivo.cab"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\ScanUpload.INF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\ScanUpload_n\teste.cab"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\GeraThumbnail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\GeraThumbnail.aspx.vb"
+                    DependentUpon = "GeraThumbnail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\GeraThumbnail.aspx.resx"
+                    DependentUpon = "GeraThumbnail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\thumbnail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\thumbnail.aspx.vb"
+                    DependentUpon = "thumbnail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Captura\Thumbnail\thumbnail.aspx.resx"
+                    DependentUpon = "thumbnail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Cargos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cargos\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cargos\Modelos\form_editar_Cargos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cargos\Modelos\Form_Incluir_Cargos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CID10\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CID10\Modelos\Form_Visualizar_Categorias.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CID10\Modelos\Form_Visualizar_Cid10.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CID10\Modelos\Form_Visualizar_SubCategorias.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes\Modelos\form_editar_Clientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes\Modelos\Form_Incluir_Clientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes\Modelos\Form_Visualizar_Clientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Contatos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Contatos\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Contatos\Modelos\form_editar_Clientes_Contatos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Contatos\Modelos\Form_Incluir_Clientes_Contatos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Contatos\Modelos\Form_Visualizar_ClientesContatos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Locais\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Locais\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Locais\Modelos\form_editar_Local.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Locais\Modelos\Form_Incluir_Local.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Clientes_Locais\Modelos\Form_Visualizar_Local.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ClientesDepartamentos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ClientesDepartamentos\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ClientesDepartamentos\Modelos\form_editar_ClientesDepartamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ClientesDepartamentos\Modelos\Form_Incluir_ClientesDepartamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ClientesDepartamentos\Modelos\Form_Visualizar_ClientesDepartamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cobertura\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cobertura\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cobertura\Modelos\form_editar_Cobertura.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cobertura\Modelos\Form_Incluir_Cobertura.htm"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Componentes\" />
+                <File
+                    RelPath = "Convenios\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Convenios\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Convenios\Modelos\form_editar_Convenios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Convenios\Modelos\Form_Incluir_Convenios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Cremesp_Medicos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Departamentos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Departamentos\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Departamentos\Modelos\form_editar_Departamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Departamentos\Modelos\Form_Incluir_Departamentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Disponibilidades\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Disponibilidades\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Disponibilidades\Modelos\form_editar_Disponibilidades.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Disponibilidades\Modelos\Form_Incluir_Disponibilidades.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Doc_Capturados\Default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Doc_Capturados\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Especializacoes\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Especializacoes\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Especializacoes\Modelos\form_editar_Especializacoes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Especializacoes\Modelos\Form_Incluir_Especializacoes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Fornecedores\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Fornecedores\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Fornecedores\Modelos\Form_Incluir_Fornecedor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Fornecedores\Modelos\Form_Visualizar_Fornecedores.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\0.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\226.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\251.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\303.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Img_Funcionarios\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Funcionarios\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Modelos\Form_Incluir_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Funcionarios\Modelos\Form_Visualizar_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Hospital\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\CriaSessions.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\CriaSessions.aspx.vb"
+                    DependentUpon = "CriaSessions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Login\CriaSessions.aspx.resx"
+                    DependentUpon = "CriaSessions.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Login\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\borda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\kb.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\kbCaps.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\kbShift.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\kbShiftCaps.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\shim.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login\imagens\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Login\Modelos\Form_Login.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Categorias\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Categorias\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Categorias\Modelos\form_editar_Categorias.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Categorias\Modelos\Form_Incluir_Categorias.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Categorias\Modelos\Form_Visualizar_Categorias.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Paginas\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Paginas\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Paginas\Modelos\form_editar_Paginas.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Paginas\Modelos\Form_Incluir_Paginas.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu_Paginas\Modelos\Form_Visualizar_Paginas.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\calendario.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\carrega.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Funcionario_Status.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\ImprimirAtendimento.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Busca_Simpro\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Busca_Simpro\Modelos\Form_Visualizar_Simpro.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Modelos\Form_Editar_Atendimento.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Modelos\Form_Incluir_Atendimento.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atendimento\Modelos\Form_Visualizar_Atendimentos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atestados\Atestados.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atestados\Atestados.aspx.vb"
+                    DependentUpon = "Atestados.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Atestados\Atestados.aspx.resx"
+                    DependentUpon = "Atestados.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_CID10\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_CID10\Modelos\Form_Visualizar_Categorias.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_CID10\Modelos\Form_Visualizar_Cid10.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_CID10\Modelos\Form_Visualizar_SubCategorias.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Exames\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Exames\Modelos\Form_Visualizar_Exames.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\Modelos\form_editar_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\Modelos\Form_Incluir_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\Modelos\Form_Visualizar_Funcionarios.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\Modelos\Form_Visualizar_Medicos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Funcionario\Modelos\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Hospital\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Medico\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Medico\Modelos\Form_Visualizar_Medicos.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Paciente\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Paciente\Modelos\Form_Visualizar_Pacientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Prescricoes\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Prescricoes\Modelos\Form_Visualizar_Prescricoes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Simpro\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Simpro\Modelos\Form_Visualizar_Simpro.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Solicitacao\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Busca_Solicitacao\Modelos\Form_Visualizar_Solicitacoes_Aceitas.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\Enviar_Medicamento.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\Modelos\form_editar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\Modelos\form_enviar_Medicamento.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Envio_Medicamentos\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Resultados\Resultados_Exames.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Resultados\Resultados_Exames.aspx.vb"
+                    DependentUpon = "Resultados_Exames.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Resultados\Resultados_Exames.aspx.resx"
+                    DependentUpon = "Resultados_Exames.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Solicitados\Exames_Solicitados.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Solicitados\Exames_Solicitados.aspx.vb"
+                    DependentUpon = "Exames_Solicitados.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Exames_Solicitados\Exames_Solicitados.aspx.resx"
+                    DependentUpon = "Exames_Solicitados.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Atestados\Atestados.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Atestados\Atestados.aspx.vb"
+                    DependentUpon = "Atestados.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Atestados\Atestados.aspx.resx"
+                    DependentUpon = "Atestados.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Pedido_Exames\Pedido_Exame.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Pedido_Exames\Pedido_Exame.aspx.vb"
+                    DependentUpon = "Pedido_Exame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Pedido_Exames\Pedido_Exame.aspx.resx"
+                    DependentUpon = "Pedido_Exame.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Receituario\Receituario.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Receituario\Receituario.aspx.vb"
+                    DependentUpon = "Receituario.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Formularios\Receituario\Receituario.aspx.resx"
+                    DependentUpon = "Receituario.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario\Gravar.asp"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "MODULOS\HomeCare\Prontuario\Modelos\" />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\BarraContraste.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\Form.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\form_xml.zip"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\grava.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\login.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\login2.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\TecladoAlfanumerico.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\tecladoalfanumericop3.jar"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\TecladoNumerico.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\form_xml\surveyPackage.jar"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\form_xml\com\jsos\survey\SurveyXMLServlet.class"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Bak\form_xml\META-INF\MANIFEST.MF"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Admissao\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Admissao\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\calendario.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\Cópia de historico.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\historico.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\Modelos\Form_Incluir_Evolucao.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Prontuario_Medico\Formulario_Evolucao\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Receituarios\Receituarios.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Receituarios\Receituarios.aspx.vb"
+                    DependentUpon = "Receituarios.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Receituarios\Receituarios.aspx.resx"
+                    DependentUpon = "Receituarios.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\index.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Atendimento_Status\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Atendimento_Status\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Atendimento_Tipo\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Atendimento_Tipo\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Remocao_Tipo\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Remocao_Tipo\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Solicitacao_Status\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios\Solicitacao_Status\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Atendimento_Status_Mensal\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Atendimento_Status_Mensal\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Atendimento_Tipo_Mensal\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Atendimento_Tipo_Mensal\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\CID10\RelatorioCid10.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\CID10\RelatorioCid10.aspx.vb"
+                    DependentUpon = "RelatorioCid10.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\CID10\RelatorioCid10.aspx.resx"
+                    DependentUpon = "RelatorioCid10.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Mensal\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Mensal\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Status\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Status\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Status\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Tipo\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Atendimento_Tipo\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Solicitacao_Mensal\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Solicitacao_Mensal\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Solicitacao_Status\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Solicitacao_Status\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Convenios_Solicitacao_Status\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Paciente_Gasto_Atendimento\Paciente_Gasto_Atendimento.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Paciente_Gasto_Atendimento\Paciente_Gasto_Atendimento.aspx.vb"
+                    DependentUpon = "Paciente_Gasto_Atendimento.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Paciente_Gasto_Atendimento\Paciente_Gasto_Atendimento.aspx.resx"
+                    DependentUpon = "Paciente_Gasto_Atendimento.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Solicitacao_Status_Mensal\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Relatorios_Internos\Solicitacao_Status_Mensal\Modelos\Form_Visualizar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\calendario.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\carrega.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\ImprimirSolicitacao.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\Modelos\Form_Editar_Solicitacao.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\Modelos\Form_Incluir_Solicitacao.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MODULOS\HomeCare\Solicitacao\Modelos\Form_Visualizar_Solicitacao.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pacientes\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pacientes\JS\validacoes.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pacientes\Modelos\Form_Incluir_Pacientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pacientes\Modelos\Form_Visualizar_Pacientes.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Relatorios\Funcionarios\Cobertura\default.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Relatorios\Funcionarios\Cobertura\Modelos\Form_Visualizar_cobertura.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Funcionarios.rdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Funcionarios.rptproj"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Funcionarios.rptproj.user"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Funcionarios.sln"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Funcionarios.suo"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ReportServer\Funcionarios\Hospitalar.rds"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\1051343461.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\1066473794.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\1066473795.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\345936177.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\345936179.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\345936182.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\345936184.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\345936185.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\41421000027.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\4142100005.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\697245026.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\73126300224.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\73126300235.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\75871720939.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\864501505.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\977313077.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "TEMP\977313127.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Teste\data.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Teste\minus.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Teste\plus.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Teste\WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Teste\WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Teste\WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

@@ -1,0 +1,27 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >&nbsp;Gerenciador de Áreas de Cobertura&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><input class="botoes" type="submit" name="Input" value="<--Voltar" onClick="history.back()"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <form name="form" method="post" action="default.asp?action=AlterarCobertura" onSubmit= "return valida_campo()">
+    <tr class="zebra1"> 
+      <td class="texto" width="11%">Cobertura: 
+        <input name="id" type="hidden" id="id" value="<%=id%>"></td>
+      <td class="texto" width="89%"><input name="Nome" type="text" class="campos" id="Nome" value="<%=Nome%>" size="50" maxlength="100"></td>
+    </tr>
+    <tr class="zebra1"> 
+      <td class="texto">&nbsp;</td>
+      <td> &nbsp; 
+        <input class="botoes" type="submit" name="submit" value="Alterar"></td>
+    </tr>
+  </form>
+</table>
+</fieldset>
+</body>
+</html>
+<%=VisualizarCobertura%>

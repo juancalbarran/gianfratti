@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<link rel="stylesheet" type="text/css" href="/SmartCare/bibliotecas/css/default.css">
+
+<body>
+
+    <form id="formCadastro" runat="server">
+    <div>
+    
+    <fieldset>
+        <legend align="center">Formulario de Auditoria</legend>
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border:solid 1px #999999;">
+            <tr class='zebra_orange1'>
+                <td width="15%">Tipo de Plano do Paciente</td>
+                <td align="center" width="1%"> | </td>
+                <td width="30%"><input type="checkbox" name="checkPASS" /> PASS - Associação de Assitência à Saúde</td>
+                <td align="center" width="1%"> | </td>
+                <td>Outros <input type="text" size="30" name="txtOutros" class="campos"/></td>
+            </tr>
+        </table><br />
+        <!-- -->
+        
+        <!-- -->
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border-left:solid 1px #999999;border-right:solid 1px #999999;border-top:solid 1px #999999;">
+            <tr class='zebra_orange1'>
+                <td width="40%" style="border-right: solid 1px #999999;"><b>Solicitado Por:</b> </td>
+                <td width="40%" style="border-right: solid 1px #999999;"><b>AO (A) DR.(A): </b></td>
+                <td width="30%"><b>Data: </b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td style="border-right: solid 1px #999999;"><input type="text" name="txtSolicitado" size="60" class="campos" /></td>
+                <td style="border-right: solid 1px #999999;"><input type="text" name="txtDR" size="60" class="campos" /></td>
+                <td>
+                    <input class="campos" name="Data_Data" value="" size="12"> 
+                   <!-- <a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fStartPop(document.formCadastro.Data_Data,'');return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a> 
+                    <iframe width=132 height=142 name="gToday:contrast1:/SmartCare/bibliotecas/calendario/agenda.js" id="Iframe1" src="/SmartCare/bibliotecas/calendario/ipopeng.htm" scrolling="no" frameborder="0" style="visibility:visible; z-index:999; position:absolute; left:-500px; top:0px;"></iframe> -->
+                </td>
+            </tr>
+        </table>
+        <!-- -->
+        
+        <!-- -->
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border-left:solid 1px #999999;border-right:solid 1px #999999;border-top:solid 1px #999999;">
+            <tr class='zebra_orange1'>
+                <td width="40%" style="border-right: solid 1px #999999;"><b>Hospital: </b></td>
+                <td width="40%" style="border-right: solid 1px #999999;"><b>Senha de Atentimento: </b></td>
+                <td width="30%"><b>Data Internação: </b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td style="border-right: solid 1px #999999;">
+                    <select name="selHospitais" style="width:200px;">
+                        <option value="0">Selecione o Hospital</option>
+                        <option value="1">Albert Ainsten</option>
+                        <option value="2">Samaritano</option>
+                        <option value="3">Santa Casa</option>
+                        <option value="4">Nove de Julho</option>
+                        <option value="5">Cruz Azul</option>
+                    </select>
+                </td>
+                <td style="border-right: solid 1px #999999;"><input type="text" name="txtSenhaAtt" size="30" class="campos" /></td>
+                <td>
+                    <input class="campos" name="Data_Procedimento" value="" size="12" > 
+                    <!--<a href="javascript:void(0)" onclick="if(self.gfPop)gfPop.fStartPop(document.formCadastro.Data_Procedimento,'');return false;" HIDEFOCUS><img name="popcal" align="absmiddle" src="/SmartCare/bibliotecas/calendario/calbtn.gif" width="34" height="22" border="0" alt=""></a> 
+                    <iframe width=132 height=142 name="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" id="gToday:contrast:/SmartCare/bibliotecas/calendario/agenda.js" src="/SmartCare/bibliotecas/calendario/ipopeng.htm" scrolling="no" frameborder="0" style="visibility:visible; z-index:999; position:absolute; left:-500px; top:0px;"></iframe> -->
+                </td>
+            </tr>
+        </table>
+        <!-- -->
+        
+        <!-- -->
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border-left:solid 1px #999999;border-right:solid 1px #999999;border-top:solid 1px #999999;">
+            <tr class='zebra_orange1'>
+                <td width="80%" style="border-right: solid 1px #999999;"><b>Nome do Paciente: </b></td>
+                <td width="40%"><b>Idade: </b></td>
+
+            </tr>
+            <tr class='zebra_orange1'>
+                <td style="border-right: solid 1px #999999;"><input type="text" name="txtSenhaAtt" size="100" class="campos" /></td>
+                <td><input type="text" name="txtSenhaAtt" size="10" class="campos" /></td>
+
+            </tr>
+        </table>
+        <!-- -->
+        
+        <!-- -->
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border:solid 1px #999999;">
+            <tr class='zebra_orange1'>
+                <td><b>Diagnóstico Atual: </b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td><textarea name="txtDiagnostico" cols="80" rows="5"></textarea></td>
+            </tr>
+        </table><br /><br />
+        <!-- -->
+        
+        <!-- -->
+        <table border="0" cellpadding="3" cellspacing="0" width="98%" align="center" style="border:solid 1px #999999;">
+            
+            <tr class='zebra_orange1'>
+                <td style="border:solid 1px #999999;" align="center" colspan="3">PARAMETROS CLÍNICOS ATUAIS</td>
+            </tr>
+            
+            <!-- #Caso 1.1 ################################################################################################ -->
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>1. Em Relação ao Sistema Nervoso Central</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_1" /></td>
+                <td width="50%">Uso de monitor de pressão intra-craniana(PIC)</td>
+                <td><input type="text" name="txt_1_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_2" /></td>
+                <td width="50%">Alteração do nível de consciência, especificar: </td>
+                <td><input type="text" name="txt_1_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_3" /></td>
+                <td width="50%">Distúrbio de comportamento, especificar: </td>
+                <td><input type="text" name="txt_1_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_4" /></td>
+                <td width="50%">Coma, especificar: </td>
+                <td><input type="text" name="txt_1_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_5" /></td>
+                <td width="50%">Drenos cranianos, especificar: </td>
+                <td><input type="text" name="txt_1_5" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_1_6" /></td>
+                <td width="50%">Outros: </td>
+                <td><input type="text" name="txt_1_6" size="60"  class="campos"/></td>
+            </tr> 
+            <!-- #Fim do Caso 1.1 ############################################################################################## -->            
+
+            <!-- #do Caso 2 #################################################################################################### -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>2. Em relação ao sistema respiratório</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_1" /></td>
+                <td width="50%">Respiração Espontânea sem auxílios</td>
+                <td><input type="text" name="txt_2_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_2" /></td>
+                <td width="50%">Tranqueostomia </td>
+                <td><input type="text" name="txt_2_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_3" /></td>
+                <td width="50%">Cateter de O2 contínuo, especificar quantidade de O2 </td>
+                <td><input type="text" name="txt_2_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_4" /></td>
+                <td width="50%">Nebulização contínua com O2, especificar quantidade de O2 </td>
+                <td><input type="text" name="txt_2_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_5" /></td>
+                <td width="50%">No respirador, especificar o tipo(volume, pressão, microprocessado) </td>
+                <td><input type="text" name="txt_2_5" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_6" /></td>
+                <td width="50%">Tenda de O2, especificar volume de O2 </td>
+                <td><input type="text" name="txt_2_6" size="60"  class="campos"/></td>
+            </tr>                     
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_2_7" /></td>
+                <td width="50%">Inalação </td>
+                <td><input type="text" name="txt_2_7" size="60"  class="campos"/></td>
+            </tr>
+            <!-- #Fim do Caso 2 ############################################################################################## -->
+            
+            <!-- #Caso 3 ##################################################################################################### -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>3. Em relação ao sistema Cardiovascular</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_1" /></td>
+                <td width="50%">PVC</td>
+                <td><input type="text" name="txt_3_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_2" /></td>
+                <td width="50%">Cateter venoso central(intra Cath) </td>
+                <td><input type="text" name="txt_3_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_3" /></td>
+                <td width="50%">Uso monitor cardíaco </td>
+                <td><input type="text" name="txt_3_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_4" /></td>
+                <td width="50%">Bombas de infusão, especificar nº de bombas ligadas </td>
+                <td><input type="text" name="txt_3_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_5" /></td>
+                <td width="50%">Tipo de droga ultilizada na(s) bomba(s) </td>
+                <td><input type="text" name="txt_3_5" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_6" /></td>
+                <td width="50%">Cateter Swang Ganz </td>
+                <td><input type="text" name="txt_3_6" size="60"  class="campos"/></td>
+            </tr>                     
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_7" /></td>
+                <td width="50%">Monitor de hemodinâmica </td>
+                <td><input type="text" name="txt_3_7" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_8" /></td>
+                <td width="50%">Monitor de Temperatura </td>
+                <td><input type="text" name="txt_3_8" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_9" /></td>
+                <td width="50%">Oximetro </td>
+                <td><input type="text" name="txt_3_9" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_10" /></td>
+                <td width="50%">Capnográfo </td>
+                <td><input type="text" name="txt_3_10" size="60"  class="campos"/></td>
+            </tr>                     
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_3_11" /></td>
+                <td width="50%">Dissecção de Veia(Flebotomia) </td>
+                <td><input type="text" name="txt_3_11" size="60"  class="campos"/></td>
+            </tr>            
+            <!-- #Fim do Caso 3 ######################################################################################### -->            
+      
+            <!-- #Caso 4 ################################################################################################ -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>4. Em relação ao sistema digestivo</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_1" /></td>
+                <td width="50%">Alimentação por via oral sem auxilio</td>
+                <td><input type="text" name="txt_4_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_2" /></td>
+                <td width="50%">Alimentação por via oral com auxilio </td>
+                <td><input type="text" name="txt_4_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_3" /></td>
+                <td width="50%">Alimentação por NPP </td>
+                <td><input type="text" name="txt_4_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_4" /></td>
+                <td width="50%">Sonda nasogástica/nasoenteral </td>
+                <td><input type="text" name="txt_4_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_5" /></td>
+                <td width="50%">Ileostomia/colostomia </td>
+                <td><input type="text" name="txt_4_5" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_4_6" /></td>
+                <td width="50%">Dieta especial, Especificar: </td>
+                <td><input type="text" name="txt_4_6" size="60"  class="campos"/></td>
+            </tr>                                
+            <!-- #Fim do Caso 4 ########################################################################################### -->
+            
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>5. Em relação ao sistema urinário</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_5_1" /></td>
+                <td width="50%">Sonda vesical intermitente</td>
+                <td><input type="text" name="txt_5_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_5_2" /></td>
+                <td width="50%">Uropen </td>
+                <td><input type="text" name="txt_5_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_5_3" /></td>
+                <td width="50%">Sonda urinário de demora </td>
+                <td><input type="text" name="txt_5_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_5_4" /></td>
+                <td width="50%">Nefrostomia/cistostomia </td>
+                <td><input type="text" name="txt_5_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_5_5" /></td>
+                <td width="50%">Hemodiálise/Diálise Peritoneal Contínua ou Intermitente </td>
+                <td><input type="text" name="txt_5_5" size="60"  class="campos"/></td>
+            </tr>               
+            <!-- --> 
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>6. Em relação ao aparelho locomotor</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_1" /></td>
+                <td width="50%">Deambula no corredor</td>
+                <td><input type="text" name="txt_6_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_2" /></td>
+                <td width="50%">Deambula sem auxilio </td>
+                <td><input type="text" name="txt_6_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_3" /></td>
+                <td width="50%">Deambula com auxilio </td>
+                <td><input type="text" name="txt_6_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_4" /></td>
+                <td width="50%">Uso cadeira de rodas </td>
+                <td><input type="text" name="txt_6_4" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_5" /></td>
+                <td width="50%">Sanitário sem auxílio </td>
+                <td><input type="text" name="txt_6_5" size="60"  class="campos"/></td>
+            </tr>               
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_6" /></td>
+                <td width="50%">Usa fraldas </td>
+                <td><input type="text" name="txt_6_6" size="60"  class="campos"/></td>
+            </tr>                     
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_7" /></td>
+                <td width="50%">Banho no leito </td>
+                <td><input type="text" name="txt_6_7" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_8" /></td>
+                <td width="50%">Tem escaras de decúbito, especificar o grau </td>
+                <td><input type="text" name="txt_6_8" size="60"  class="campos"/></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_6_9" /></td>
+                <td width="50%">acamado, restrito ao leito </td>
+                <td><input type="text" name="txt_6_9" size="60"  class="campos"/></td>
+            </tr>
+            <!-- -->
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>7. Drenos</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_7_1" /></td>
+                <td width="50%">Hemovac, Portovac ou outro sistema de drenagem a vácuo, especificar quantidade</td>
+                <td><input type="text" name="txt_7_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_7_2" /></td>
+                <td width="50%">Dreno de tórax </td>
+                <td><input type="text" name="txt_7_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_7_3" /></td>
+                <td width="50%">Dreno de penrose </td>
+                <td><input type="text" name="txt_7_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_7_4" /></td>
+                <td width="50%">Outros, especificar </td>
+                <td><input type="text" name="txt_7_4" size="60"  class="campos"/></td>
+            </tr>            
+            <!-- -->         
+      
+            <tr>
+                <td height="20px"></td>
+            </tr>
+
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>8. Uso de outros equipamentos hospitalares</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_8_1" /></td>
+                <td width="50%">Quadro balcâmico</td>
+                <td><input type="text" name="txt_8_1" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1' >
+                <td width="1%"><input type="checkbox" name="Check_8_2" /></td>
+                <td width="50%">tração esquelética </td>
+                <td><input type="text" name="txt_8_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_8_3" /></td>
+                <td width="50%">Fixador externo ou Izarov </td>
+                <td><input type="text" name="txt_8_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_8_4" /></td>
+                <td width="50%">Coletes </td>
+                <td><input type="text" name="txt_8_4" size="60"  class="campos"/></td>
+            </tr>       
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="Check_8_5" /></td>
+                <td width="50%">outros, Especificar </td>
+                <td><input type="text" name="txt_8_5" size="60"  class="campos"/></td>
+            </tr>
+            <!-- -->
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>9. Medições em uso: especificar nome da droga, via de administração e dosagem.</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt9" cols="80" rows="4"></textarea></td>
+            </tr>
+            <!-- -->
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>            
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>9.1 Em caso de prescição de uso de albumina, tranfusão de sangue ou outra terapia de custo elevado, informe a data do inicio e o volume/dosagem por dia</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt9_1" cols="80" rows="2"></textarea></td>
+            </tr>
+            <!-- -->
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>              
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>10. Informe os resultados com respectiva data do último exame:</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3">De Sangue(descrimine os efetuados e datas)</td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt10" cols="80" rows="2"></textarea></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3">Radiolõgia TC e RM</td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt10_1" cols="80" rows="2"></textarea></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3">Ultrassom</td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt10_2" cols="80" rows="2"></textarea></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3">Outros Exames que permitam analisar o estado atual</td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt10_3" cols="80" rows="2"></textarea></td>
+            </tr>
+            <!-- -->
+            
+            <!-- -->
+            <tr>
+                <td height="20px"></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>11. Quais os procedimentos médicos (programados) que ainda serão efetuados e respectivas datas</b></td>
+            </tr> 
+            <tr class='zebra_orange1'>
+                <td colspan="3"><textarea name="txt11" cols="80" rows="2"></textarea></td>
+            </tr>
+            <!-- -->
+              
+            <tr>
+                <td height="20px"></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3"><b>12. No estágio atual o paciente deve:</b></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td colspan="3">12.1 <input type="checkbox" name="check_12_1" /> Permanecer em Regime de internação Hospitalar em: </td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="check_12_2" /></td>
+                <td width="50%">Enfermaria</td>
+                <td><input type="text" name="txt_12_2" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="check_12_3" /></td>
+                <td width="50%">Apartamento</td>
+                <td><input type="text" name="txt_12_3" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="check_12_4" /></td>
+                <td width="50%">Semi - Intensiva</td>
+                <td><input type="text" name="txt_12_4" size="60"  class="campos"/></td>
+            </tr>
+            <tr class='zebra_orange1'>
+                <td width="1%"><input type="checkbox" name="check_12_5" /></td>
+                <td width="50%">UTI</td>
+                <td><input type="text" name="txt_12_5" size="60"  class="campos"/></td>
+            </tr>
+        </table><br /><br />
+        <div align="center"><input type="reset" value="Reset" class="campos" />&nbsp;&nbsp;&nbsp;<input type="button" value="Submit" class="campos" onclick="alert('Cadastrado Com sucesso!');window.location.href='default.htm'" /></div>
+        
+        <!-- -->
+        
+    </fieldset>
+    
+    
+    </div>
+    </form>
+</body>
+</html>

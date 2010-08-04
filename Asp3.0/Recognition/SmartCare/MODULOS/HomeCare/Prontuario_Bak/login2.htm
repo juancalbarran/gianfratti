@@ -1,0 +1,491 @@
+<style> 
+<!--
+.font1 { text-decoration: none}
+a.font1:hover {  text-decoration: underline}
+a {  text-decoration: underline}
+a:hover {  text-decoration: underline}
+.font0 { text-decoration: none}
+a.font0:hover {  text-decoration: underline}
+a.fonte1 {  text-decoration: none}
+a.fonte1:hover {  text-decoration: underline}
+.fonte1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+		}
+.fonteIB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+		}
+.fonteSite:hover {  
+	text-decoration: none;
+	}
+.fonteSite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	text-decoration: none
+		}
+.fonteServ:hover {  
+	text-decoration: none;
+	color: #5B5B5C;
+	}
+.fonteServ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	text-decoration: none;
+	color: #E90B0B;
+	}
+
+//-->
+</style>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+function dummy() {return false;}
+PageInic = dummy;
+function Inic()
+{
+Carregado();
+PageInic();
+}
+window.onload = Inic;
+//-->
+</SCRIPT>
+
+</HEAD>
+<BODY aLink="#000000" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" 
+background="/img2k4/fundo.gif"  bgColor="#FFFFFF" link="#000000" text="#000000" 
+vLink="#000000" onUnload="OnLeave()">
+<a name="top">
+
+<!--BrwGeral -->
+<script language="JavaScript">
+<!--
+var appletId=0;
+var lStarted = 0;
+function Started()
+{
+	lStarted = 555;	
+}
+function VrfApplet(order)
+{
+  appletId = order;
+    if(lStarted != 555)
+      return false;
+  return true
+  
+}
+//-->
+</script>
+
+<div id="layerCriptApplet" style="position:absolute; width:0px; height:0px; z-index:1; left:-2px; top:-2px;">
+	<!--applet code="scopuscriptapplet.class" width="2" height="2" name="scopuscriptapplet" codebase="/scripts/ib2k1.dll/APPLET" MAYSCRIPT-->
+  <applet code="F0fETD5ccUrr87Z55.class" name="F0fETD5ccUrr87Z55" archive="F0fETD5ccUrr87Z55.jar" codebase="/scripts/ib2k1.dll/APPLET" width="2" height="2" MAYSCRIPT>
+	<PARAM name="R" value="255"><PARAM name="G" value="255"><PARAM name="B" value="255">
+	</applet>
+</div>
+
+<script language="JavaScript">
+<!--
+function MMM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MMM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+var appletLayer = MMM_findObj('layerCriptApplet');
+var appletArr;
+if(document.layers)
+{
+//	if(appletLayer != null)
+//		appletLayer.visibility = "hide";
+	appletArr = document.layers['layerCriptApplet'].document.applets;
+}
+else
+{
+//	if(appletLayer != null)
+//		appletLayer.style.visibility = "hidden";
+	appletArr = document.applets;
+}
+
+
+function addNewParam(cript, paramName, paramValue)
+{
+	if(cript)
+	{
+		this.submitForm.elements[paramName].value = appletArr[appletId].cript(paramValue);
+	}
+	else
+	{
+		this.submitForm.elements[paramName].value = paramValue;		
+	}
+	return;
+}
+function addDestURL(fullurl, url, target)
+{
+	if(fullurl == false)
+		url = window.location.protocol + "//" + window.location.host + url;		
+	this.submitForm.action = url;
+	if(target != null)
+		this.submitForm.target = target;
+	return;
+}
+
+function addSubmitForm(form)
+{
+	this.submitForm = form;
+	return;
+}
+
+function sendData()
+{
+	this.submitForm.submit();
+}
+
+function CriptContext()
+{
+	this.submitForm = null;
+	this.addSubmitForm = addSubmitForm;
+	this.addDestURL = addDestURL;
+	this.addNewParam = addNewParam;
+	this.sendData = sendData;
+}
+
+//-->
+</script>
+
+<!--%JS_VRFAPPLET%-->
+<script language="JavaScript">
+<!--
+var LeaveControl = 1;
+
+function OnLeave()
+{
+  var urlfechasessao;
+  var urlredir;
+
+  if(LeaveControl > 0)
+  {
+    urlfechasessao = document.location.protocol + "//" +
+            document.location.hostname +
+            "/scripts/ib2k1.dll/FECHASESSAO?CTL=5349872533970306711003";
+    window.open(urlfechasessao, "fechasessao", "toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=0,resizable=1,screenX=0,screenY=0,left=0,top=0,width=760,height=450");
+  }
+ 
+  if(LeaveControl == 1)
+  {
+    urlredir = "http://www.shopfacil.com.br/shopfacil/sf/index.asp?origem=2";
+    if (typeof(top.opener)==typeof(window) &&
+      typeof(top.opener.top)==typeof(window) &&
+      !top.opener.top.closed &&
+      typeof(top.opener.length)==typeof(self.length))
+    {
+      if(urlredir.length > 0)
+        top.opener.top.location = urlredir;
+    }
+    else
+    {
+      if(urlredir.length > 0)
+        window.open(urlredir, "shopfacil", "toolbar=1,location=1,directories=1,status=1,menubar=1,scrollbars=1,resizable=1,width=760,height=440");
+    }
+    if(navigator.appName.indexOf("Microsoft") != -1)
+      top.close();
+  }
+}
+
+var bNetscape;
+var bMicrosoft;
+var bSupport128;
+var action40;
+var action128;
+
+//action40 = "/scripts/ib2k1.dll/LOGINCHK#top";
+//action128 = "https://wwwss.bradesco.com.br/scripts/ib2k1.dll/LOGINCHK#top";
+
+if(navigator.appName.indexOf("Netscape") != -1)
+  bNetscape=true;
+else
+  bNetscape=false;
+
+function keypaddown (keyvalue){
+  if (keyvalue == "") {
+    document.FLogin.SENHA.value = ""
+    return;
+  }
+  var pass = document.FLogin.SENHA.value;
+  if (pass.length >= 4)
+  {
+    return;
+  }
+  document.FLogin.SENHA.value = document.FLogin.SENHA.value + keyvalue;
+}
+
+function teclaclick(tecla)
+{
+  if(bNetscape)
+  {
+    keypaddown(tecla);
+  }
+  return false
+}
+function teclaup(tecla)
+{
+  if(bNetscape == false)
+  {
+    keypaddown(tecla);
+  }
+}
+
+function MudaStatus()
+{
+  if(VrfApplet(0) == true)
+    document.forms.FLogin.Submit.src = "/img2k4/bt_entrar.gif";
+  else
+    setTimeout("MudaStatus()", 500);
+}
+
+var Bloq=false;
+
+function VrfFrm()
+{
+  var iConta;
+
+  if(Bloq)
+    return false;
+
+  Bloq = true
+
+  if( VrfApplet( 0 ) == false )
+  {
+    alert("Applet de segurança não carregado!");
+    Bloq = false;
+    return false;
+  }
+
+	// Projeto Apple
+	var Cripto;
+	//instanciar um contexto de criptografia
+	Cripto = new CriptContext();
+	//colocar o formulário que será usado para enviar dados ao servidor
+	Cripto.addSubmitForm(document.forms['criptform']);
+	//colocar a URL da página destino, o primeiro parametro
+	//indica se a URL é absoluta ou relativa (true se for absoluta).
+	Cripto.addDestURL(false, "/scripts/ib2k1.dll/LOGINCHK");
+	//atribuição de dados abertos, com nome do variável no formulário
+	Cripto.addNewParam(false, "CTL", "5349872533970306711003"); 
+	Cripto.addNewParam(false, "ORIGEMALTFS", "0"); 
+
+  if(document.FLogin.IRDIRETO )
+  {
+    for(iConta=0; iConta < document.forms[0].IRDIRETO.length; iConta++)
+    {
+      if(document.forms[0].IRDIRETO[iConta].selected)
+      {
+        //document.forms.criptform.IRDIRETO.value = document.forms[0].IRDIRETO[iConta].value;
+		Cripto.addNewParam(false, "IRDIRETO", document.forms[0].IRDIRETO[iConta].value); 
+        break;
+      }
+    }
+  }
+
+//  document.forms.criptform.SENHA.value = document.applets[0].cript(window.document.forms[0].SENHA.value);
+//  document.forms.criptform.IDPRESP.value = document.applets[0].cript(window.document.forms[0].IDPRESP.value);
+	Cripto.addNewParam(true, "SENHA", window.document.forms[0].SENHA.value); 
+	Cripto.addNewParam(true, "IDPRESP", window.document.forms[0].IDPRESP.value); 
+
+  window.document.forms[0].SENHA.value = "";
+  window.document.forms[0].IDPRESP.value = "";
+  
+  //document.criptform.TPCONTA.value = document.forms[0].tpconta.value;
+  Cripto.addNewParam(false, "TPCONTA", document.forms[0].tpconta.value); 
+  
+  VrfInstalado();
+
+  Cripto.addNewParam(false, "FLAGPLUGSEG", window.document.criptform.FLAGPLUGSEG.value);
+  Cripto.addNewParam(false, "VERSIONPLUGSEG", document.criptform.VERSIONPLUGSEG.value);
+  
+  if(bSupport128)
+    document.forms.criptform.action = action128;
+  else
+    document.criptform.action = action40;
+
+//  if(typeof(parent.LeaveControl) == "number")
+//    parent.LeaveControl = 0;
+  LeaveControl = 0;
+//  document.criptform.submit();
+  document.forms.FLogin.SENHA.focus( );
+  Cripto.sendData();	
+  return false;
+}
+
+if(navigator.appName.indexOf("Microsoft") != -1)
+  bMicrosoft=true;
+else
+  bMicrosoft=false;
+
+bSupport128 = false;
+if(bNetscape && (parseFloat(navigator.appVersion)>=4))
+  bSupport128 = true;
+if(bMicrosoft && (parseFloat(navigator.appVersion)>=4))
+  bSupport128 = true;
+
+function VrfComp(nome)
+{
+	if(document.applets == null)
+	{
+		return false;
+	}
+
+	if(document.applets.length == 0)
+	{
+		return false;
+	}
+
+	if(document.applets[nome] == null)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+function tiraVirgula(str) {
+  var novastr = "";
+  for (var i=0; i<str.length; i++) {
+    if (str.charAt(i)!=",") {
+      novastr += str.charAt(i);
+    }
+  }
+  return novastr;
+}
+
+function VrfInstalado()
+{
+	var ultimaVersao = "7000";
+	var flagPlugin = "0";
+
+	if(VrfComp("Conexao")) {
+		var versaoPlugin = document.applets["Conexao"].Version;
+		if (typeof(versaoPlugin) != "undefined" && ultimaVersao!="") 
+		{
+			versaoPlugin = tiraVirgula(versaoPlugin);
+			versaoPlugin = parseInt(versaoPlugin);
+			ultimaVersao = parseInt(ultimaVersao);
+			if ((versaoPlugin!=NaN && ultimaVersao!=NaN)
+				&& versaoPlugin>=ultimaVersao) 
+			{
+				flagPlugin = "1";
+			}
+		}
+		if (typeof(versaoPlugin) == "undefined")
+		{
+			versaoPlugin = 0;
+		}
+	}
+	document.criptform.FLAGPLUGSEG.value = flagPlugin;
+	document.criptform.VERSIONPLUGSEG.value = versaoPlugin;
+}
+
+//-->
+</script>
+<script language="Javascript1.2">
+<!--
+var TabArr = new Array();
+var prevlength = 0;
+var prevname = "";
+var bchange = false;
+if(	document.layers &&
+	parseFloat(navigator.appVersion) < 6 &&
+	(navigator.appVersion.indexOf("Linux") != -1 ||
+	 navigator.appVersion.indexOf("Mac") != -1)){
+		bchange = true;
+}
+function changefocus(e, evento){
+	var campo;
+	if(document.all)
+		campo = window.event.srcElement;
+	else
+		campo = e.target;		
+	if(campo.name && TabArr[campo.name]){
+		if(bchange && evento == 1) {
+			window.focus(); campo.focus();
+		}
+		else{			
+			if(	(campo.value.length >= TabArr[campo.name][0]) && 
+				(campo.value.length > prevlength) &&
+				(campo.name == prevname) &&
+				campo.form.elements[TabArr[campo.name][1]]){
+				campo.form.elements[TabArr[campo.name][1]].focus();
+				prevname = campo.form.elements[TabArr[campo.name][1]].name;
+			}
+		}
+	}
+	if(document.layers)
+		routeEvent(e);
+}
+function handKeydown(e){
+	var campo;
+	if(document.all)
+		campo = window.event.srcElement;
+	else
+		campo = e.target;
+	if(campo.name){
+		prevlength = campo.value.length;
+		prevname = campo.name;
+	}
+}
+function handKeyup(e){
+	changefocus(e, 1);
+}
+function handChange(e){
+	changefocus(e, 2);
+}
+window.document.onkeyup = handKeyup;
+window.document.onkeydown = handKeydown;
+if(document.layers){
+	window.document.captureEvents(Event.KEYUP | Event.KEYDOWN);
+	if(bchange)	{
+		window.document.onChange = handChange;
+		window.document.captureEvents(Event.CHANGE);
+	}
+}
+function cont(src, target, id, evt){
+	if(bchange && id == 1) {
+		window.focus(); src.focus();
+	}
+	else
+		target.value = src.value.length;
+}
+//-->
+</SCRIPT>
+
+<script language="Javascript1.2">
+<!--
+TabArr["SENHA"] = [4, "IDPRESP"];
+//-->
+</script>
+<script language="JavaScript1.2">
+<!--
+function AbrePopUp(TpAjuda,TpClie)
+{
+		//Caso cliente seja Prime, variável "seg" irá vazia. Caso contrário será preenchida com varejo
+		var seg = ''
+		if (TpClie==0)
+			seg = 'varejo'
+
+		if (TpAjuda==0)
+			problema_ib = window.open("https://wwws.bradescocartoes.com.br/CartoesNovoLayout/Ajuda/frameprincipal.asp?strNomeSegmento="+seg, "problema_ib", "toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,screenX=30,screenY=30,left=30,top=30,width=591,height=465")
+		else
+			cadeado = window.open("https://wwws.bradescocartoes.com.br/CartoesNovoLayout/Ajuda/frameSeguranca.asp?strNomeSegmento="+seg, "cadeado", "toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,screenX=30,screenY=30,left=30,top=30,width=575,height=495")
+}
+function PopupTipoConta()
+{
+	window.open('/ib2k4/popup_tipo_conta.htm', 'tipoconta', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,screenX=70,screenY=70,left=70,top=70,width=500,height=341');
+}
+
+//-->
+</script>

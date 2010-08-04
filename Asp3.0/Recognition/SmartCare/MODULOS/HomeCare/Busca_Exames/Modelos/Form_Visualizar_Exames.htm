@@ -1,0 +1,57 @@
+<html>
+<body>
+<fieldset>
+<legend  align="center" >Exames</legend>
+<fieldset>
+<legend>&nbsp;Filtros de Busca&nbsp;</legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class='zebra_orange1'> 
+    <td width="97%" valign="top">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <form name="form" method="post" action="default.asp?action=1">
+                <tr> 
+                  <td height="19" class="texto">C&oacute;digo:<b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                    <input name="Posicao_Vetor" type="hidden" id="Posicao_Vetor" value="<%=Request("Posicao_Vetor")%>">
+                    </strong></font></b></td>
+                  <td class="texto">Titulo:</td>
+                  <td class="texto">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td width="11%"><input name="id" type="text" class="campos" id="id" value="<%=Request("CD_Simpro")%>" size="10" maxlength="10"></td>
+                  <td width="17%"><input name="Tit_Exame" type="text" class="campos" id="Tit_Exame" value="<%=Request("Descricao")%>" size="20"></td>
+                  <td width="72%"><input name="Submit"  type="image" value="Enviar" src="/SmartCare/images/busca.gif" alt="Buscar"></td>
+                </tr>
+              </form>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  
+                <td align="center" valign="top"> <b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+                  </strong></font></b> </td>
+                </tr>
+              </table>
+             </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</fieldset>
+<BR style="font-size:5px;">
+<%
+If Request("action") <> "" Then
+	call VisualizarExames
+Else
+%>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" class="texto">Utilize o formul&aacute;rio acima para realizar 
+      uma busca na tabela de exames.</td>
+  </tr>
+</table>
+<%End if%>
+</fieldset>
+</body>
+</html>
