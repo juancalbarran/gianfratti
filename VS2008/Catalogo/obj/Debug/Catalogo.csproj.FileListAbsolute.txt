@@ -8,3 +8,8 @@ C:\Projetos\VS2008\Catalogo\bin\Catalogo.pdb
 C:\Projetos\VS2008\Catalogo\obj\Debug\ResolveAssemblyReference.cache
 C:\Projetos\VS2008\Catalogo\obj\Debug\Catalogo.dll
 C:\Projetos\VS2008\Catalogo\obj\Debug\Catalogo.pdb
+C:\Gianfratti\VS2008\Catalogo\bin\Catalogo.dll
+C:\Gianfratti\VS2008\Catalogo\bin\Catalogo.pdb
+C:\Gianfratti\VS2008\Catalogo\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2008\Catalogo\obj\Debug\Catalogo.dll
+C:\Gianfratti\VS2008\Catalogo\obj\Debug\Catalogo.pdb
