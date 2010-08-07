@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="big5"?>
+<language>
+	<name>Chinese-Traditional</name>
+	<translator>
+		<name>Joseph Hsieh</name>
+		<email>joseph@langem.com</email>
+	</translator>
+	<encoding>big5</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>網站管理員</string>
+		<string>瀏覽網站</string>
+		<string>設定</string>
+		<string>頁面</string>
+		<string>內容</string>
+		<string>調查</string>
+		<string>引文</string>
+		<string>圖片</string>
+		<string>會員</string>
+		<string>訪客留言</string>
+		<string>統計資料Statistics</string>
+		<string>回應</string>
+		<string>討論園地</string>
+		<string>上傳</string>
+		<string>建立...</string>
+		<string>刪除</string>
+		<string>修改...</string>
+		<string>   完成   </string>
+		<string>取消</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>網站設定</string>
+		<string>網站名稱</string>
+		<string>管理員登入</string>
+		<string>密碼</string>
+		<string>META Title</string>
+		<string>管理員信箱</string>
+		<string>網站網址</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>面板</string>
+		<string>語言</string>
+		<string>歡迎頁</string>
+		<string>Logo 路徑</string>
+		<string>顯示工具列</string>
+		<string>版權</string>
+		<string>管制狀態</string>
+		<string>顯示選單</string>
+		<string>顯示文章工具列</string>
+		<string>顯示搜尋表格</string>
+		<string>附加功能列表</string>
+		<string>調查</string>
+		<string>引文</string>
+		<string>圖片藝廊</string>
+		<string>訪客留言</string>
+		<string>討論區</string>
+		<string>顯示文章作者與日期</string>
+		<string>註冊預設狀態</string>
+		<string>討論園地訊息預設狀態</string>
+		<string>訪客留言訊息預設狀態</string>
+		<string>標語</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>網頁管理員</string>
+		<string>網頁標題</string>
+		<string>父頁</string>
+		<string>權限型態</string>
+		<string>編輯器</string>
+		<string>廣告標籤</string>
+		<string>顯示與否</string>
+		<string>此頁無法刪除!</string>
+		<string>確認修改此頁? </string>
+		<string>公佈</string>
+		<!-- 60 -->
+		<string>是</string>
+		<string>否</string>
+		<!--  end-->
+		<string>排程</string>
+		<string>公佈日期</string>
+		<string>終止日期</string>
+		<string>外部鏈結</string>
+		<string>類別</string>
+		<string>首頁</string>
+		<string>計數</string>
+		<string>文章數目</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>內容管理</string>
+		<string>內容標題</string>
+		<string>位置</string>
+		<string>網頁</string>
+		<string>作者</string>
+		<string>日期</string>
+		<string>XML 原始碼</string>
+		<string>XSL 型版</string>
+		<string>標題</string>
+		<string>內文</string>
+		<string>於設計模式編輯資料</string>
+		<string>顯示與否</string>
+		<string>此文章為唯讀.</string>
+		<string>您確定要刪除此內容? </string>
+		<string>列印</string>
+		<string>寄給朋友</string>
+		<string>發表意見</string>
+		<string>資料庫</string>
+		<string>所有頁面</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>調查管理</string>
+		<string>調查名稱</string>
+		<string>問題</string>
+		<string>答案 n°1</string>
+		<string>答案 n°2</string>
+		<string>答案 n°3</string>
+		<string>答案 n°4</string>
+		<string>答案 n°5</string>
+		<string>票數</string>
+		<string>相關網頁</string>
+		<string>無</string>
+		<string>您確定要刪除此調查? </string>
+		<string>投票!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>引文管理</string>
+		<string>引文內容</string>
+		<string>您確定要刪除此引文?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>圖片藝廊管理</string>
+		<string>圖片名稱</string>
+		<string>圖片路徑</string>
+		<string>註釋</string>
+		<string>您確定要將此圖片自藝廊移除??</string>
+		<string>選取</string>
+		<string>縮圖路徑</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>會員管理</string>
+		<string>名稱</string>
+		<string>密碼</string>
+		<string>電子信箱</string>
+		<string>城市</string>
+		<string>日期</string>
+		<string>將此行複製/貼上於您的郵件軟體寄發給會員: </string>
+		<string>您確定要移除此會員?</string>
+		<string>型態</string>
+		<string>狀態</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>訪客留言管理</string>
+		<string>作者</string>
+		<string>標題</string>
+		<string>訊息</string>
+		<string>日期</string>
+		<string>電子郵件</string>
+		<string>顯示與否</string>
+		<string>您確定要將此訊息自訪客留言移除?</string>
+		<string>寫下留言</string>
+		<string><![CDATA[<b>感謝您的參與,使本網站不斷成長!</b><br/>您的留言將在網站管理員核准後於線上公佈.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>回應管理</string>
+		<string>作者</string>
+		<string>標題</string>
+		<string>文章</string>
+		<string>訊息</string>
+		<string>日期</string>
+		<string>顯示與否</string>
+		<string>您確定要刪除此回應?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>資源</string>
+		<string>資源管理</string>
+		<string>標題</string>
+		<string>型態</string>
+		<string>路徑</string>
+		<string>註釋</string>
+		<string>寬</string>
+		<string>高</string>
+		<string>Picture</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>其他</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>檔案上傳</string>
+		<string>送出</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>討論園地管理</string>
+		<string>標題</string>
+		<string>描述</string>
+		<string>顯示與否</string>
+		<string>可見</string>
+		<string>隱藏</string>
+		<string>您確定要刪除此討論區? </string>
+		<string>公佈</string>
+		<string>回應</string>
+		<string>進入</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>流量分析</string>
+		<string>觀看的網頁</string>
+		<string>訪客</string>
+		<string>日曆</string>
+		<string>細節屬於 </string>
+		<string> 觀看的網頁</string>
+		<string> 獨特訪客</string>
+		<string>時間</string>
+		<string>網址</string>
+		<string>歸類</string>
+		<string>IP 位址</string>
+		<string>日期</string>
+		<string>參觀</string>
+		<string>表格圖</string>
+		<string>長條圖</string>
+		<string>Ctry</string>
+		<string>瀏覽器</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>主選單</string>
+		<string>附加功能</string>
+		<string>管制</string>
+		<string>狀態</string>
+		<string>求助</string>
+		<string>快速啟動</string>
+		<string>名訪客</string>
+		<string>名訪客</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>站內搜尋</string>
+		<string>加入會員</string>
+		<string>訪客留言</string>
+		<string>圖片藝廊</string>
+		<string>討論園地</string>
+		<string>後台管理</string>
+		<string>登出</string>
+		<string>選單</string>
+		<string>登入</string>
+		<string>調查</string>
+		<string>引文</string>
+		<string>上一個</string>
+		<string>下一個</string>
+		<string>詳細內容</string>
+		<string>新增頁面...</string>
+		<string>新增文章...</string>
+		<string>新增調查...</string>
+		<string>進入</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>討論園地訊息管理</string>
+		<string>標題</string>
+		<string>名稱</string>
+		<string>顯示與否</string>
+		<string>可見</string>
+		<string>隱藏</string>
+		<string>您確定要刪除此訊息?</string>
+		<string>公佈</string>
+		<string>回答給 </string>
+		<string>公佈文章</string>
+		<string>填寫文章</string>
+		<string>此區為會員專屬功能. 請登入或 &lt;a href="default.asp?id=0&amp;ACT=9"&gt;create&lt;/a&gt; 申請免費帳號.</string>
+		<string>討論園地訊息</string>
+		<string>內文</string>
+		<string>回應於: </string>
+		<string>下一個: </string>
+		<string>回到 </string>
+		<string>條列瀏覽</string>
+		<string>樹狀瀏覽</string>
+		<string>回到訊息列表</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>桌面</string>
+		<string>會員數目 </string>
+		<string>有效訪客留言數目 </string>
+		<string>有效回應數目 </string>
+		<string>討論訊息數目 </string>
+		<string>閱覽次數</string>
+		<string>歡迎</string>
+		<string>您目前使用版本為: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>工作列表</string>
+		<string>點此新增工作</string>
+		<string>建立</string>
+		<string>結束</string>
+		<string>描述</string>
+		<string>重要性</string>
+		<string>新增</string>
+		<string>日期</string>
+		<string>完成</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>加入會員</string>
+		<string>加入會員不收取費用且允許您使用本網站所有資源.</string>
+		<string>帳號</string>
+		<string>密碼</string>
+		<string>電子郵件</string>
+		<string>城市/國家</string>
+		<string>確認</string>
+		<string>(*) 為必須填寫的欄位 </string>
+		<string>感謝您, 您已完成註冊! 現在您可輸入左手邊的表格登入.</string>
+		<string>感謝您的註冊, 您的註冊須由網站管理員啟動後生效.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>回應給 </string>
+		<string>姓名</string>
+		<string>標題</string>
+		<string>訊息</string>
+		<string>確認</string>
+		<string>回應 </string>
+		<string>由 </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>對齊</string>
+		<string>只向左對齊</string>
+		<string>只向右對齊</string>
+		<string>左右對齊</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>類別</string>
+		<string>類別管理</string>
+		<string>名稱</string>
+		<string>授權型態</string>
+		<string>顯示與否</string>
+		<string>此類別不可刪除</string>
+		<string>您確定要刪除此類別?</string>
+		<string>觀看此類別頁面列表</string>
+		<string>所有類別</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>廣告</string>
+		<string>名稱</string>
+		<string>點擊計數</string>
+		<string>目標網址</string>
+		<string>Gif 來源</string>
+		<string>管告管理</string>
+		<string>您確定要刪除此廣告?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>下載</string>
+		<string>名稱</string>
+		<string>路徑</string>
+		<string>作者網站</string>
+		<string>描述</string>
+		<string>版權</string>
+		<string>價格</string>
+		<string>作業系統</string>
+		<string>下載管理</string>
+		<string>您確定要刪除此下載?</string>
+		<string>已下載 </string>
+		<string>下載中 </string>
+		<string>熱門下載</string>
+		<string>檔案大小</string>
+		<string>檔案版本</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>網站地圖</string>
+		<string>搜尋結果</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>郵件功能</string>
+		<string>Smtp 伺服器</string>
+		<string>訪客留言通知</string>
+		<string>討論區通知</string>
+		<string>回應通知</string>
+		<string>註冊通知</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>密碼錯誤或註冊. 請重新輸入或稍待重試.</string>
+		<string>每一項調查您只能投一次票!</string>
+		<string>歡迎, 您的註冊已核准.</string>
+		<string>漏了某些指定的欄位. 請寫表格再試一次.</string>
+		<string>此帳號已被使用, 請選擇另外一個.</string>
+		<string>您目前使用預設管理員帳號!當您使用預設帳號請記得任何人都可以管理員登入並變更您的內容.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>文章排序欄位</string>
+		<string>頁面排序順序</string>
+		<string>標題</string>
+		<string>公佈日期</string>
+		<string>ID</string>
+		<string>遞增</string>
+		<string>遞減</string>
+		<string>顯示標題</string>
+		<string>觀看本頁內容列表</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>新增</string>
+		<string>新訊息</string>
+		<string>經電子郵件核准</string>
+		<string>註冊核准</string>
+		<string>您請求下列網站的會員註冊: </string>
+		<string>為完成此註冊, 請瀏覽下列鏈結: </string>
+		<string>此為您將被保存的帳號資訊: </string>
+		<string>感謝您的註冊. 過幾分鐘您將會收到核准登錄的電子郵件. </string>
+		<string>管理員</string>
+		<string>編輯</string>
+		<!-- Misc , start @ position 430 -->
+		<string>會員</string>
+		<string>訂閱新聞郵件 (低流量)</string>
+		<string>新聞郵件</string>
+		<string>位置</string>
+		<string>上</string>
+		<string>下</string>
+		<string>左</string>
+		<string>右</string>
+		<string>竅門: 裝擊或按 CTRL-T 進入 WYSIWYG 形式</string>
+		<string>顯示進階欄位</string>
+		<!-- Misc , start @ position 440 -->
+		<string>隱藏進階欄位</string>
+		<string>群組</string>
+		<!-- Browsers stats -->
+		<string>瀏覽群組</string>
+		<string>版本細節</string>
+		<string>瀏覽器</string>
+		<string>版本</string>
+		<string>百分比</string>
+		<string>其他</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>編碼</string>
+		<string>標題</string>
+		<string>邊框</string>
+		<string>內文</string>
+		<!-- Guestbook's buttons -->
+		<string>確認</string>
+		<string>清除</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>感謝您的參與,使本網站不斷成長!</b><br/>您的發表將在網站管理員核准後於線上公佈.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>新文章預設公佈狀態</string>
+		<string>啟動電子郵件功能 ? (jMail required)</string>
+		<string>指定已安裝的郵件 COM 元件</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>忘記密碼?</string>
+		<string>喔, 您忘了密碼?</string>
+		<string>在下頭輸入您的帳號及電子郵件位址, 按送出, 您將收到包含您的密碼的電子郵件.</string>
+		<string>帳號</string>
+		<string>電子郵件</string>
+		<string>送出</string>
+		<string>使用者資訊</string>
+		<string>您要求寄發下列資訊的電子郵件給您:</string>
+		<string>密碼</string>
+		<string>請快來喲!</string>
+		<!-- 470 -->
+		<string>帳號或電子郵件位址錯誤.</string>
+		<string>您的郵件已送出.</string>
+		<string>重新輸入資訊</string>
+		<string>馬上註冊!</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>我的帳戶</string>
+		<string>表格未填寫完成, 所有欄位都需輸入.</string>
+		<string>您的帳戶已成功完成更新!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>無</string>
+		<string>自動偵測</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>選單</string>
+		<string>首頁</string>
+		<string>回到首頁</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>目錄</string>
+		<string>目錄管理</string>
+		<string>新目錄</string>
+		<string>名稱</string>
+		<string>已公佈</string>
+		<string>新目錄</string>
+		<string>新類別</string>
+		<string>類別</string>
+		<!-- 490 -->
+		<string>新項目</string>
+		<string>新目錄</string>
+		<string>修改目錄</string>
+		<string>新類別</string>
+		<string>修改類別</string>
+		<string>新次類別</string>
+		<string>修改次類別</string>
+		<string>新項目</string>
+		<string>修改項目</string>
+		<string>總覽</string>
+		<!-- 500 -->
+		<string>描述</string>
+		<string>網站</string>
+		<string>下載網址</string>
+		<string>圖片路徑</string>
+		<string>允許公開</string>
+		<string>儲存的項目</string>
+		<string>使用者</string>
+		<string>下載</string>
+		<string>網站</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>書籍</string>
+		<string>MP3</string>
+		<string>員工</string>
+		<string>產品</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>使用者</string>
+		<string>下載</string>
+		<string>網頁</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>書籍</string>
+		<string>MP3</string>
+		<string>員工</string>
+		<string>產品</string>
+		<string/>
+		<!-- 530 -->
+		<string>目錄</string>
+		<string>首頁</string>
+		<string>目錄網站數量: </string>
+		<string>發佈網站</string>
+		<string>點擊總數</string>
+		<string>已紀錄您所提交的網站, 現正由網站管理員核准中. 感謝您的貢獻.</string>
+		<string>最受歡迎</string>
+		<string>點擊</string>
+		<string>正在...</string>
+		<string>新提交</string>
+		<!-- 540 -->
+		<string>新目錄提交</string>
+		<string>簡述</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>離線維護中</string>
+		<string>檔案數量: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>頁</string>
+		<string>上一個</string>
+		<string>下一個</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>在線會員</string>
+		<!-- 548 = 23/05/2001 -->
+		<string>回饋</string>
+		<string>您的姓名</string>
+		<string>您的電子信箱</string>
+		<string>主旨</string>
+		<string>訊息</string>
+		<string>傳送給網站管理員</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>傳送訊息給</string>
+		<string>您的電子信箱:</string>
+		<string>您的姓名:</string>
+		<string>主旨:</string>
+		<string>訊息:</string>
+		<string>傳送訊息e</string>
+		<string>如果您已登入即可傳送訊息.</string>
+		<string>您的訊息已傳送.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>符合的文章</string>
+		<string>符合的討論區</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>將列表匯出 CSV 檔</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>順序</string>
+		<string>關閉</string>
+		<string>上</string>
+		<string>下</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>討論區</string>
+		<string>話題</string>
+		<string>公佈</string>
+		<string>最近公佈時間</string>
+		<string>作者</string>
+		<string>發起於</string>
+		<string>回應</string>
+		<string>主題</string>
+		<string>公佈</string>
+		<string>回應公佈</string>
+		<!-- 580 -->
+		<string>討論區</string>
+		<string>討論區</string>
+		<string>搜尋討論園地</string>
+		<string>回應既存訊息</string>
+		<string>此訊息回應給</string>
+		<string>公佈者</string>
+		<string>於</string>
+		<string>主旨</string>
+		<string>訊息</string>
+		<string>新話題</string>
+		<!-- 590 -->
+		<string>這是自動提示.
+		您在我們討論區所發表的問題有人回應. 您可到此查閱:</string>
+	</strings>
+</language>

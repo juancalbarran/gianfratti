@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<name>Romanian</name>
+	<translator>
+		<name>Catalin Gales</name>
+		<email>cgales@gmx.net</email>
+	</translator>
+	<encoding>utf-8</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Administrator site</string>
+		<string>Vizualizare site</string>
+		<string>Setari</string>
+		<string>Pagini</string>
+		<string>Continut</string>
+		<string>Anchete</string>
+		<string>Citate</string>
+		<string>Album</string>
+		<string>Membri</string>
+		<string>Carte de oaspeti</string>
+		<string>Statistici</string>
+		<string>Reactii</string>
+		<string>Forumuri</string>
+		<string>Upload</string>
+		<string>Creeaza...</string>
+		<string>Sterge</string>
+		<string>Modifica...</string>
+		<string>   OK   </string>
+		<string>Anuleaza</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Setari Website</string>
+		<string>Nume site</string>
+		<string>Autentificare administrator</string>
+		<string>Parola</string>
+		<string>META Titlu</string>
+		<string>E-mail administrator</string>
+		<string>URL site web</string>
+		<string>META Cuvinte cheie</string>
+		<string>META Descriere</string>
+		<string>Skin</string>
+		<string>Limbaj</string>
+		<string>Pagina introductiva</string>
+		<string>Cale logo</string>
+		<string>Afiseaza uneltele</string>
+		<string>Copyright</string>
+		<string>Stare moderator</string>
+		<string>Arata menu</string>
+		<string>Arata unelte ptr. articole</string>
+		<string>Arata formular de cautare</string>
+		<string>Lista de optionale</string>
+		<string>Anchete</string>
+		<string>Citate</string>
+		<string>Album de imagini</string>
+		<string>Carte de oaspeti</string>
+		<string>Forumuri</string>
+		<string>Arata data articolului si autorul</string>
+		<string>Salveaza starea implicita</string>
+		<string>Stare mesaj implicit forumuri</string>
+		<string>Stare mesaj implicit carte de oaspeti</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Administrator pagina web</string>
+		<string>Titlul paginii</string>
+		<string>Pagina parinte</string>
+		<string>Acces sfaturi</string>
+		<string>Editorial</string>
+		<string>Eticheta informativa</string>
+		<string>Vizibilitate</string>
+		<string>Aceasta pagina nu poate fi stearsa!</string>
+		<string>Confirmati eliminarea acestei pagini? </string>
+		<string>Publicare</string>
+		<!-- 60 -->
+		<string>Da</string>
+		<string>Nu</string>
+		<!--  end-->
+		<string>Programat</string>
+		<string>Data publicarii</string>
+		<string>Data expirarii</string>
+		<string>Link extern</string>
+		<string>Categoria</string>
+		<string>Cele mai citite pagini</string>
+		<string>Numara</string>
+		<string>Numar de articole</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Manager de continut</string>
+		<string>Titlu continut</string>
+		<string>Pozitia</string>
+		<string>Pagina web</string>
+		<string>Autor</string>
+		<string>Data</string>
+		<string>Sursa XML</string>
+		<string>Sablon XSL</string>
+		<string>Linii de titlu</string>
+		<string>Corp</string>
+		<string>Editati datele in modul de proiectare</string>
+		<string>Vizibilitate</string>
+		<string>Acest articol nu poate fi editat.</string>
+		<string>Vreti intradevar sa stergeti acest element de continut? </string>
+		<string>Tipareste</string>
+		<string>Trimite unui prieten</string>
+		<string>Exprimati-va o parere</string>
+		<string>Arhiva</string>
+		<string>Toate paginile</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Manager de anchete</string>
+		<string>Numele anchetei</string>
+		<string>Intrebare</string>
+		<string>Raspuns 1</string>
+		<string>Raspuns 2</string>
+		<string>Raspuns 3</string>
+		<string>Raspuns 4</string>
+		<string>Raspuns 5</string>
+		<string>Numar de voturi</string>
+		<string>Pagina web asociata</string>
+		<string>Nici unul</string>
+		<string>Vreti cu adevarat sa stergeti aceasta ancheta? </string>
+		<string>VOTATI!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Manager de citate</string>
+		<string>Continutul citatului</string>
+		<string>Vreti intradevar sa stergeti acest citat?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Manager album de imagini</string>
+		<string>Numele imaginii</string>
+		<string>Cale imagine principala </string>
+		<string>Comentariu</string>
+		<string>Vreti intradevar sa eliminati imaginea din album??</string>
+		<string>Selecteaza</string>
+		<string>Cale imagine thumbnail </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Manager de membri</string>
+		<string>Pseudonim</string>
+		<string>Parola</string>
+		<string>E-mail</string>
+		<string>Localitate</string>
+		<string>Data</string>
+		<string>Copiati aceasta linie in aplicatia dvs. de posta electronica pentru a trimite un e-mail unui membru: </string>
+		<string>Vreti intradevar sa eliminati acest membru?</string>
+		<string>Sfat</string>
+		<string>Stare</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Manager carte de oaspeti</string>
+		<string>Autor</string>
+		<string>Titlu</string>
+		<string>Mesaj</string>
+		<string>Data</string>
+		<string>E-mail</string>
+		<string>Vizibilitate</string>
+		<string>Vreti intradevar sa strgeti mesajul din cartea de oaspeti?</string>
+		<string>Semnati in cartea de oaspeti</string>
+		<string><![CDATA[<b>Va multumim pentru intarirea comunitatii acestui site!</b><br/>Participarea dumneavoastra va fi notata si publicata on-line dupa validare de catre webmaster.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Manager de raspunsuri</string>
+		<string>Autor</string>
+		<string>Titlu</string>
+		<string>Articol</string>
+		<string>Mesaj</string>
+		<string>Data</string>
+		<string>Vizibilitate</string>
+		<string>Vreti intradevar sa stergeti acest raspuns?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Resurse</string>
+		<string>Manager de resurse</string>
+		<string>Titlu</string>
+		<string>Tip</string>
+		<string>Cale</string>
+		<string>Comentariu</string>
+		<string>Latime</string>
+		<string>Inaltime</string>
+		<string>Imagine</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Altele</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Incarca fisier</string>
+		<string>Trimite</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Manager de forumuri</string>
+		<string>Titlu</string>
+		<string>Descriere</string>
+		<string>Vizibilitate</string>
+		<string>Vizibil</string>
+		<string>Ascuns</string>
+		<string>Vreti intradevar sa stergeti acest forum? </string>
+		<string>Transmite</string>
+		<string>Raspuns</string>
+		<string>Enter</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analiza traficului</string>
+		<string>Pagini web afisate</string>
+		<string>Vizitatori</string>
+		<string>Calendar</string>
+		<string>Detalii pentru </string>
+		<string> Pagini afisate</string>
+		<string> Vizitatori unici</string>
+		<string>Timp</string>
+		<string>URL</string>
+		<string>Referinta</string>
+		<string>Adresa IP</string>
+		<string>Data</string>
+		<string>Vizite</string>
+		<string>Tabelara</string>
+		<string>Grafica</string>
+		<string>Ctry</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Pagina principala</string>
+		<string>Optionale</string>
+		<string>Moderator</string>
+		<string>Statistici</string>
+		<string>Ajutor</string>
+		<string>Start rapid</string>
+		<string>vizitator activ</string>
+		<string>vizitatori activi</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Cauta pe site</string>
+		<string>Inregistreaza</string>
+		<string>Carte de oaspeti</string>
+		<string>Prezentare</string>
+		<string>Forumuri</string>
+		<string>Administrare</string>
+		<string>Iesire</string>
+		<string>Menu</string>
+		<string>Login</string>
+		<string>Ancheta</string>
+		<string>Citat</string>
+		<string>Inapoi</string>
+		<string>Inainte</string>
+		<string>Citeste mai multe</string>
+		<string>Adauga o pagina...</string>
+		<string>Adauga un articol...</string>
+		<string>Adauga un sondaj uilizator...</string>
+		<string>Enter</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Manager forumuri de mesaje</string>
+		<string>Titlu</string>
+		<string>Pseudonim</string>
+		<string>Vizibilitate</string>
+		<string>Vizibil</string>
+		<string>Ascuns</string>
+		<string>Vreti intradevar sa stergeti acest mesaj?</string>
+		<string>Transmite</string>
+		<string>Raspunde la </string>
+		<string>Transmite un articol</string>
+		<string>Scrie un articol</string>
+		<string>Aceasta zona este rezervata membrilor acestui site. Autentificati-va sau &lt;a href="default.asp?id=0&amp;ACT=9"&gt;creati&lt;/a&gt; un cont gratuit pentru a continua.</string>
+		<string>Forumuri de mesaje</string>
+		<string>Corp</string>
+		<string>Ca raspuns la: </string>
+		<string>Urmatorul: </string>
+		<string>Inapoi la </string>
+		<string>Afisare lineara</string>
+		<string>Afisare ramificata</string>
+		<string>inapoi la lista de mesaje</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Desktop</string>
+		<string>Numar de membrii </string>
+		<string>Numar de mesaje in cartea de oaspeti de validat </string>
+		<string>Numar de raspunsuri de validat </string>
+		<string>Numar de mesaje pe forumuri </string>
+		<string>Numar de accesari</string>
+		<string>Bine ati venit</string>
+		<string>Acum rulati versiunea: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Lista de sarcini</string>
+		<string>Click aici pentru a adauga o noua sarcina</string>
+		<string>Creeaza</string>
+		<string>Sfarsit</string>
+		<string>Descriere</string>
+		<string>Importanta</string>
+		<string>Adauga</string>
+		<string>Data</string>
+		<string>Terminat</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Inregistreaza</string>
+		<string>Inregistarea este gratuita si va da acces la toate resursele acestui site.</string>
+		<string>Login</string>
+		<string>Parola</string>
+		<string>E-mail</string>
+		<string>Localitate/Tara</string>
+		<string>Trimite</string>
+		<string>(*) indica campurile obligatorii </string>
+		<string>Va multumim, acum sunteti inregistrat! Acum va puteti autentifica folosind formularul din partea stanga.</string>
+		<string>Va multumim ca v-ati inregistrat, inregistrarea dvs. trebuie validata de webmaster pentru a deveni activa.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Raspuns la </string>
+		<string>Nume</string>
+		<string>Titlu</string>
+		<string>Mesaj</string>
+		<string>Trimite</string>
+		<string>Raspunsuri </string>
+		<string>De catre </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margini</string>
+		<string>Numai marginea din stanga</string>
+		<string>Numai marginea din dreapta</string>
+		<string>Ambele margini</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Categoria</string>
+		<string>Manager de categorii</string>
+		<string>Nume</string>
+		<string>Tip de acces</string>
+		<string>Vizibilitate</string>
+		<string>Aceasta categorie nu poate fi stearsa</string>
+		<string>Vreti intradevar sa stergeti aceasta categorie?</string>
+		<string>Vizualizare pagina corespunzatoare categoriei</string>
+		<string>Toate categoriile</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Reclame</string>
+		<string>Nume</string>
+		<string>Contor de click-uri</string>
+		<string>URL destinatie</string>
+		<string>Sursa fisier Gif</string>
+		<string>Manager de reclame</string>
+		<string>Vreti intradevar sa stergeti aceasta reclama?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Descarcari fisiere</string>
+		<string>Nume</string>
+		<string>Cale</string>
+		<string>Site-ul web al editorului</string>
+		<string>Descriere</string>
+		<string>Licenta</string>
+		<string>Pret</string>
+		<string>Sistem de operare</string>
+		<string>Manager descarcari de fisiere</string>
+		<string>Vreti intradevar sa stergeti acest fisier?</string>
+		<string>Descarcate </string>
+		<string>Descarcati acum </string>
+		<string>Cele mai accesate fisiere</string>
+		<string>Marime</string>
+		<string>Versiune</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Harta site</string>
+		<string>Rezultatul cautarii</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Functionalitati pentru e-mail</string>
+		<string>Server SMTP</string>
+		<string>Alerta pentru Cartea de oaspeti</string>
+		<string>Alerta pentru Forumuri</string>
+		<string>Alerta pentru Raspunsuri</string>
+		<string>Alerta la Inregistare</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Parola incorecta sau inscrierea nu a fost inca validata. \nCorectati sau incercati mai tarziu.</string>
+		<string>Puteti vota o singura data la o ancheta!</string>
+		<string>Bine ati venit! Inregistrarea dvs. a fost validata.</string>
+		<string>Cateva campuri obligatorii nu sunt completate. Va rugam completati formularul si incercati din nou.</string>
+		<string>Numele de utilizator ales este deja in folosinta. Va rugam alegeti altul.</string>
+		<string>Folositi acum contul implicit de administrator!\nNu uitati ca oricine se poate autentifica ca administrator si schimba continutul cat timp se foloseste acest cont implicit.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Camp de sortare a articolelor</string>
+		<string>Ordine de sortare pe pagina</string>
+		<string>Titlu</string>
+		<string>Data publicarii</string>
+		<string>ID</string>
+		<string>Crescator</string>
+		<string>Descrescator</string>
+		<string>Arata titlul</string>
+		<string>Afiseaza continutul pentru pagina</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>nou</string>
+		<string>mesaje noi</string>
+		<string>Confirmare prin e-mail</string>
+		<string>Confirmare de inregistrare</string>
+		<string>Dumneavoastra ati completat cererea de inregistrare pe acest site: </string>
+		<string>Pentru completarea inregistrarii dvs., urmati adresa urmatoare : </string>
+		<string>Iata informatiile pe care trebuie sa le pastrati despre contul dvs.: </string>
+		<string>Va multumim pentru inregistrare. Veti primi un email in cateva minute pentru validarea inregistrarii. </string>
+		<string>administrator</string>
+		<string>editor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>membru</string>
+		<string>Subscrie la lista noastra de noutati (trafic scazut)</string>
+		<string>Lista de noutati</string>
+		<string>Pozitia</string>
+		<string>Sus</string>
+		<string>Jos</string>
+		<string>Stanga</string>
+		<string>Dreapta</string>
+		<string>Sfat: Doublu clic sau CTRL-T pentru a intra in mod WYSIWYG</string>
+		<string>Afiseaza campuri avansate</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Ascunde campuri de optiuni avansate</string>
+		<string>Grup</string>
+		<!-- Browsers stats -->
+		<string>Grup de browsere</string>
+		<string>Detalii despre versiuni</string>
+		<string>Browser</string>
+		<string>Versiune</string>
+		<string>Procentual</string>
+		<string>Altele</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Codificare</string>
+		<string>Linie de titlu</string>
+		<string>Margini</string>
+		<string>Corp</string>
+		<!-- Guestbook's buttons -->
+		<string>Trimite</string>
+		<string>Reset</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Va multumim pentru participare!</b><br/>Participarea dvs. va fi notata si publicata on-line dupa validare de catre webmaster.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Stare implicita de publicare pentru articol nou</string>
+		<string>Activeaza functiile de e-mail ? (jMail necesar)</string>
+		<string>Indica componenta COM de e-mail instalata</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Ati uitat parola?</string>
+		<string>Deci v-ati uitat parola?</string>
+		<string>Introduceti numele de utilizator si adresa de e-mail, faceti clic pe Trimite, si vi se va trimite un e-mail continand parola dumneavoastra.</string>
+		<string>Numele de utilizator</string>
+		<string>Adresa de e-mail</string>
+		<string>Trimite</string>
+		<string>Informatii utilizator</string>
+		<string>Ati cerut sa vi se trimita prin e-mail urmatoarele informatii:</string>
+		<string>Parola</string>
+		<string>Va rugam sa ne vizitati cat mai des!</string>
+		<!-- 470 -->
+		<string>Nume de utilizator sau adresa de e-mail incorecte.</string>
+		<string>E-mailul cu informatiile cerute a fost trimis .</string>
+		<string>Reintroduceti informatiile</string>
+		<string>Inscrieti-va acum !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Contul meu</string>
+		<string>Formular incomplet, toate campurile trebuie completate.</string>
+		<string>Contul dumneavoastra a fost actualizat cu succes!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detectie</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Bara de menu</string>
+		<string>Prima pagina</string>
+		<string>Inapoi la prima pagina</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directoare</string>
+		<string>Manager de directoare</string>
+		<string>Director nou</string>
+		<string>Nume</string>
+		<string>Publicat</string>
+		<string>Director nou</string>
+		<string>Categorie noua</string>
+		<string>Categorii</string>
+		<!-- 490 -->
+		<string>Pozitie noua</string>
+		<string>Director nou</string>
+		<string>Modifica directorul</string>
+		<string>Categorie noua</string>
+		<string>Modifica categoria</string>
+		<string>Sub-categorie noua</string>
+		<string>Modifica sub-categoria</string>
+		<string>Intrare noua</string>
+		<string>Modifica item</string>
+		<string>Sumar</string>
+		<!-- 500 -->
+		<string>Descriere</string>
+		<string>Site web</string>
+		<string>Descarca URL</string>
+		<string>Cale imagine</string>
+		<string>Transmitere publica</string>
+		<string>Pozitii stocate</string>
+		<string>Utilizator</string>
+		<string>Descarca</string>
+		<string>Site web</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Carte</string>
+		<string>MP3</string>
+		<string>Angajat</string>
+		<string>Produs</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Utilizatori</string>
+		<string>Descarcari</string>
+		<string>Pagini web</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Carte</string>
+		<string>MP3</string>
+		<string>Angajat</string>
+		<string>Produs</string>
+		<string/>
+		<!-- 530 -->
+		<string>Director</string>
+		<string>Acasa</string>
+		<string>Numar de site-uri web in Director: </string>
+		<string>anunta un site nou</string>
+		<string>Numar total de accesari</string>
+		<string>Anuntul dvs a fost inregistrat si va fi verificat de Webmaster. Va multumim pentru contributie.</string>
+		<string>Cel mai popular</string>
+		<string>Accesari</string>
+		<string>Recent adaugat...</string>
+		<string>Anunt nou</string>
+		<!-- 540 -->
+		<string>Anunturi noi in Director</string>
+		<string>Scurta descriere</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Inchis pentru intretinere</string>
+		<string>Numar de fisiere: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Pagina</string>
+		<string>INAPOI</string>
+		<string>INAINTE</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Membrii online</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Numele dvs.</string>
+		<string>Adresa dvs. de e-mail</string>
+		<string>Subiect</string>
+		<string>Mesaj</string>
+		<string>Trimite la webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Sursa media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Trimite un mesaj lui</string>
+		<string>Adresa dvs. de e-mail:</string>
+		<string>Numele dvs.:</string>
+		<string>Subiect:</string>
+		<string>Mesaj:</string>
+		<string>Trimite mesaj</string>
+		<string>Nu puteti trimite un mesaj daca nu v-ati autentificat.</string>
+		<string>Mesajul dumenavoastra a fost trimis.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Gasite in articole</string>
+		<string>Gasite pe forumuri</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Exporta acesta lista in fisier CSV</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Pozitia</string>
+		<string>INCHIDE</string>
+		<string>SUS</string>
+		<string>JOS</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forumuri</string>
+		<string>Teme de discutii</string>
+		<string>Postari</string>
+		<string>Ultimile postari</string>
+		<string>Autor</string>
+		<string>Inceputa de</string>
+		<string>Raspunsuri</string>
+		<string>Topica</string>
+		<string>Trimis</string>
+		<string>Posteaza rapuns</string>
+		<!-- 580 -->
+		<string>Discutii</string>
+		<string>Discutie</string>
+		<string>Cauta pe forumuri</string>
+		<string>Raspunde unui mesaj existent</string>
+		<string>Mesajul caruia raspundeti</string>
+		<string>Trimis de catre</string>
+		<string>pe</string>
+		<string>Subiect</string>
+		<string>Mesaj</string>
+		<string>Tema noua de discutii</string>
+		<!-- 590 -->
+		<string>Acesta este un mesaj de atentionare automat.
+		Cineva a dat un raspuns la mesajul dvs. pe unul din forumurile noastre. Il poti vedea la:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderator</string>
+		<string>Moderat de </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Stare implicita raspunsuri</string>
+		<string>Stare implicita articole</string>
+		<string>Paginatie articol</string>
+		<string>Din</string>
+		<string>De la</string>
+		<!-- 601 -->
+		<string>Adapteaza Skin</string>
+		<string>Adaptabil</string>
+		<string>Nume</string>
+		<string>Skin</string>
+		<string>Autor</string>
+	</strings>
+</language>

@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<language>
+	<name>Czech</name>
+	<translator>
+		<name>Tomas Kliegr</name>
+		<email>kliegr@email.cz</email>
+	</translator>
+	<encoding>windows-1250</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Administrátor webu</string>
+		<string>Prohlíret web</string>
+		<string>Nastavení</string>
+		<string>Stránky</string>
+		<string>Obsah</string>
+		<string>Ankety</string>
+		<string>Citáty</string>
+		<string>Obrázky</string>
+		<string>Clenové</string>
+		<string>Kniha návštev</string>
+		<string>Statistiky</string>
+		<string>Reakce</string>
+		<string>Fóra</string>
+		<string>Upload</string>
+		<string>Vytvorit...</string>
+		<string>Smazat</string>
+		<string>Zmenit...</string>
+		<string>   OK   </string>
+		<string>Zrušit</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Nastavení webu</string>
+		<string>Jméno webu</string>
+		<string>Login Administrátora</string>
+		<string>Heslo</string>
+		<string>META Title</string>
+		<string>Email Administrátora</string>
+		<string>Website URL</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Skin</string>
+		<string>Jazyk</string>
+		<string>Úvodní stránka</string>
+		<string>Cesta k logu</string>
+		<string>Ukázat panel nástroju</string>
+		<string>Copyright</string>
+		<string>Stav moderování(?)</string>
+		<string>Zobrazit menu</string>
+		<string>Zobrazit panel nástroju u clánka</string>
+		<string>Zobrazit okno vyhledávání</string>
+		<string>Seznam doplnku </string>
+		<string>Ankety</string>
+		<string>Citáty</string>
+		<string>Galerie obrázku</string>
+		<string>Kniha návštev</string>
+		<string>Diskusní fóra</string>
+		<string>Zobrazit datum a autora clánku</string>
+		<string>Zaznamenat výchozí stav</string>
+		<string>Výchozí stav zprávy v diskuzi</string>
+		<string>Výchozí stav zprávy v knize návštev</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Administrátor stránky</string>
+		<string>Titul stránky</string>
+		<string>Nadrazená stránka</string>
+		<string>Typ prístupu</string>
+		<string>Redaktor</string>
+		<string>Popisek reklamy</string>
+		<string>Viditelnost</string>
+		<string>Tato stránka nemuže být vymazána</string>
+		<string>Potvrdit výmaz této stránky?</string>
+		<string>Zverejnení</string>
+		<!-- 60 -->
+		<string>Ano</string>
+		<string>Ne</string>
+		<!--  end-->
+		<string>Naplánováno</string>
+		<string>Datum zverejnení</string>
+		<string>Datum ukoncení platnosti</string>
+		<string>Vnejší odkaz</string>
+		<string>Kategorie</string>
+		<string>Nej stránky</string>
+		<string>Pocet</string>
+		<string>Císlo clánku</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Správce obsahu</string>
+		<string>Titulek obsahu</string>
+		<string>Umístení</string>
+		<string>Stránka</string>
+		<string>Autor</string>
+		<string>Datum</string>
+		<string>XML Zdroj</string>
+		<string>XSL Šablona</string>
+		<string>Titulky</string>
+		<string>Body</string>
+		<string>Editujte tyto data v design módu</string>
+		<string>Viditelnost</string>
+		<string>Tento clánek je pouze pro ctení.</string>
+		<string>Chcete opravdu vymazat tento obsah?</string>
+		<string>Vytisknout</string>
+		<string>Poslat príteli</string>
+		<string>Reagovat</string>
+		<string>Archivovat</string>
+		<string>Všechny stránky</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Správce anket</string>
+		<string>Název ankety </string>
+		<string>Otázla</string>
+		<string>Odpoved 1</string>
+		<string>Odpoved 2</string>
+		<string>Odpoved 3</string>
+		<string>Odpoveder 4</string>
+		<string>Odpoved 5</string>
+		<string>Pocet hlasování</string>
+		<string>Pridružená stránka</string>
+		<string>Žádná</string>
+		<string>Chcete opravdu vymazat tuto anketu? </string>
+		<string>Hlasuj!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Manažer citátu</string>
+		<string>Obsah citátu</string>
+		<string>Chcete tento citát opravdu vymazat?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Správce galerií obrázku</string>
+		<string>Jméno obrázku</string>
+		<string>Cesta k obrázkum</string>
+		<string>Komentár</string>
+		<string>Chcete opravdu odstranit tuto galerii obrázku?</string>
+		<string>Vybrat</string>
+		<string>Cesta ke zmenšenine</string>
+		<string>Id</string>
+		<string>Kategorie</string>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Správce clenu</string>
+		<string>Prezdívka</string>
+		<string>Heslo</string>
+		<string>Email</string>
+		<string>Mesto</string>
+		<string>Datum</string>
+		<string>Zkopírujte/vložte tento rádek do vašeho emailového klienta pro zaslání emailu každému clenovi: </string>
+		<string>Opravdu chcete tohoto clena vymazat?</string>
+		<string>Typ</string>
+		<string>Stát</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Správce knihy návštev</string>
+		<string>Autor</string>
+		<string>Titulek</string>
+		<string>Zpráva</string>
+		<string>Datum</string>
+		<string>Email</string>
+		<string>Povoleno k publikaci</string>
+		<string>Chcete opravdu odstranit tuto zprávu z knihy návštev?</string>
+		<string>Podepsat knihu návštev</string>
+		<string><![CDATA[<b>Díky za Vaši úcast na rustu našich stránek!</b><br/>Váš príspevek bude publikován po kontrole webmasterem.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Správce reakcí</string>
+		<string>Autor</string>
+		<string>Titulek</string>
+		<string>Clánek</string>
+		<string>Zpráva</string>
+		<string>Datum</string>
+		<string>Povoleno k publikaci</string>
+		<string>Chcete opravdu vymazat tento príspevek?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Zdroje</string>
+		<string>Správce zdroju</string>
+		<string>Titulek</string>
+		<string>Typ</string>
+		<string>Cesta</string>
+		<string>Komentár</string>
+		<string>Šírka</string>
+		<string>Výška</string>
+		<string>Obrázek</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Jiné</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Nahrání souboru</string>
+		<string>Poslat</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Správce diskuzí</string>
+		<string>Titulek</string>
+		<string>Popis</string>
+		<string>Povoleno k publikaci</string>
+		<string>Viditelné</string>
+		<string>Skryté</string>
+		<string>Chcete opravdu vymazat tuto diskuzi? </string>
+		<string>Zaslat</string>
+		<string>Odpovedet</string>
+		<string>Vložit</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analýza návštevnosti</string>
+		<string>Pocet shlédnutých stránek</string>
+		<string>Návštevníku</string>
+		<string>Kalendár</string>
+		<string>Detail - </string>
+		<string>Pocet shlédnutých stránek</string>
+		<string> Unikátní návštevníci</string>
+		<string>Cas</string>
+		<string>URL</string>
+		<string>Odkazovac</string>
+		<string>IP adresa</string>
+		<string>Datum</string>
+		<string>Návštevy</string>
+		<string>Zobrazení v tabulce</string>
+		<string>Zobrazení v grafu</string>
+		<string>Zeme</string>
+		<string>Prohlížec</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Hlavní</string>
+		<string>Doplnky</string>
+		<string>Správa clenu</string>
+		<string>Statistiky</string>
+		<string>Help</string>
+		<string>Rychlý start</string>
+		<string>aktivn&#237; n&#225;vstevn&#237;ci</string>
+		<string>aktivn&#237; n&#225;v&#353;t&#283;vn&#237;ci</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Vyhledávání</string>
+		<string>Registrovat</string>
+		<string>Kniha návštev</string>
+		<string>Fotogalerie</string>
+		<string>Diskuze</string>
+		<string>Administrace</string>
+		<string>Odhlásit se</string>
+		<string>Menu</string>
+		<string>Prihlásit se</string>
+		<string>Anketa</string>
+		<string>Citát</string>
+		<string>Zpet</string>
+		<string>Další</string>
+		<string>více</string>
+		<string>P&#345;idat str&#225;nku...</string>
+		<string>P&#345;idat &#269;l&#225;nek...</string>
+		<string>Pridat anketu...</string>
+		<string>Vstoupit</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Správa príspevku v diskuzích</string>
+		<string>Titulek</string>
+		<string>Prezdívka</string>
+		<string>Povoleno k publikaci</string>
+		<string>Viditelné</string>
+		<string>Skryté</string>
+		<string>Chcete opravdu vymazat tuto zprávu</string>
+		<string>Zaslat</string>
+		<string>Reagovat na </string>
+		<string>Vložit clánek</string>
+		<string>napsat clánek</string>
+		<string>Tato oblast je pouze pro registrovaní cleny. Prihlašte se &lt;a href="default.asp?id=0&amp;ACT=9"&gt;create&lt;/a&gt; úcet zdarma pro pokracování.</string>
+		<string>Príspevky do diskuze</string>
+		<string>Telo</string>
+		<string>V reakci na: </string>
+		<string>Další: </string>
+		<string>Zpet k </string>
+		<string>Prímé zobrazení</string>
+		<string>Stromové zobrazení</string>
+		<string>zpet na seznam zpráv</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Pracnovní plocha</string>
+		<string>Pocet clenu </string>
+		<string>Pocet zpráv v knize návštev ke schválení </string>
+		<string>Pocet reakcí ke schválení </string>
+		<string>Pocet zpráv v diskuzích schválení  </string>
+		<string>Pocet hitu </string>
+		<string>Vítejte</string>
+		<string>Máte verzi: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Seznam úkolu</string>
+		<string>Klikem sem se pridá nový úkol</string>
+		<string>Vytvorit</string>
+		<string>Konec</string>
+		<string>Popis</string>
+		<string>Duležitost</string>
+		<string>Pridat</string>
+		<string>Datum</string>
+		<string>Dokonceno</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Registrovat</string>
+		<string>Registrace je zdarma, umožní vám prístup ke všem cástem techto stránek.</string>
+		<string>Login</string>
+		<string>Heslo</string>
+		<string>Email</string>
+		<string>Mesto</string>
+		<string>Vložit</string>
+		<string>(*) znázornuje povinná pole </string>
+		<string>Dekujeme vám, jste nyní registrováni! Nyní se prihlaste pres formulár na leví strane. Po prihlášení si mužete zkontrolovat, poprípade zmenit osobní info a nastavení.</string>
+		<string>Dekujeme za registraci, vaše registrace musí být nejdríve schválena webmasterem.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Reagovat na </string>
+		<string>Jméno</string>
+		<string>Titulek</string>
+		<string>Zpráva</string>
+		<string>Vložit</string>
+		<string>Reakce </string>
+		<string>Od </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margins</string>
+		<string>Pouze levý pruh</string>
+		<string>Pouze pravý pruh</string>
+		<string>Obra pruhy</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategorie</string>
+		<string>Správce kategorií</string>
+		<string>Jméno</string>
+		<string>Typ prístupu</string>
+		<string>Povoleno k publikaci</string>
+		<string>Tato kategorie nemuže být vymazána</string>
+		<string>Chcete opravdu vymazat tuto kategorii?</string>
+		<string>Prohlédnete si seznam stránek v této kategorii</string>
+		<string>Všechny kategorie</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banery</string>
+		<string>Jméno</string>
+		<string>Pocet kliku</string>
+		<string>Cílová URL</string>
+		<string>Zdroj gifu</string>
+		<string>Správce baneru</string>
+		<string>Chcete opravdu vymazat tento baner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+		<string>Jméno</string>
+		<string>Cesta</string>
+		<string>Web redaktora</string>
+		<string>Popis</string>
+		<string>Licence</string>
+		<string>Cena</string>
+		<string>Operacní systém</string>
+		<string>Správce downloadu</string>
+		<string>Chcete opravdu tento download smazat?</string>
+		<string>Stáhnuto </string>
+		<string>Download now </string>
+		<string>Nej downloady</string>
+		<string>Velikost</string>
+		<string>Verze</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Mapa webu</string>
+		<string>Výsledky hledání</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Funkce emailu</string>
+		<string>Smtp server</string>
+		<string>Upozornit na Knihu návštev</string>
+		<string>Upozornit na diskuze</string>
+		<string>Upozornit na reakce</string>
+		<string>Upozornit na registrace</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Špatné heslo nebo ješte neschválené uživatelské jméno. \nOpravte, nebo to zkuste pozdeji.</string>
+		<string>Mužete hlasovat jen jednou v každé ankete!</string>
+		<string>Vítejte, vaše registrace byla schválena.</string>
+		<string>Nekterá povinná pole chybí.Prosíme vyplnte formulár a zkuste to znovu.</string>
+		<string>Uživatelské jméno existuje, prosíme zvolte jiné.</string>
+		<string>Práve používate úcet výchozího administrátora!\nPamatujte, že pokud tento úcet existuje, muže se kdokoliv prihlásit jako administrátor a zmenit obsah stránek!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Pole na strízení clánku</string>
+		<string>Poradí trídení stránek</string>
+		<string>Titulek</string>
+		<string>Datum zverejení</string>
+		<string>ID</string>
+		<string>Vzestupne</string>
+		<string>Sestupne</string>
+		<string>Zobraz titulek</string>
+		<string>Zobraz obsah této stránky</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>nové</string>
+		<string>nové zprávy</string>
+		<string>Potvrzení emailem</string>
+		<string>Zaznamenat potvrzení</string>
+		<string>Žádáte o registraci na webu: </string>
+		<string>Pro potvrzení vaší registrace, kliknete na odkat: </string>
+		<string>Zde jsou informace, které o vašem úctu uchovejte: </string>
+		<string>Dekujeme za registrace. Behem nekolika minut obdžíte email, který vaši registraci potvrdí. </string>
+		<string>administrator</string>
+		<string>redaktor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>clen</string>
+		<string>Prihlašte si informacní bulletin (rídce zasílaný)</string>
+		<string>Bulletin</string>
+		<string>Pozice</string>
+		<string>Nahore</string>
+		<string>Dole</string>
+		<string>Nalevo</string>
+		<string>Napravo</string>
+		<string>Tip: Dvojkliknete nebo stiskete CTRL-T pro vstup do WYSIWYG módu</string>
+		<string>Zobrazit pokrocilá pole</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Skrýt pokrocílá pole</string>
+		<string>Skupina</string>
+		<!-- Browsers stats -->
+		<string>Skupina prohlížecu</string>
+		<string>Detail verzí</string>
+		<string>Prohlížec</string>
+		<string>Verze</string>
+		<string>Procenta</string>
+		<string>Jiné</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Kódování</string>
+		<string>Titulek</string>
+		<string>Okrajové pruhy</string>
+		<string>Telo</string>
+		<!-- Guestbook's buttons -->
+		<string>Vložit</string>
+		<string>Vymazat</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Díky za Vaši úcast na rustu našich stránek!</b><br/>Váš príspevek bude publikován po kontrole webmasterem.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Výchozí stav publikace nového clánku</string>
+		<string>Aktivovat funkce emailu? (jMail vyžadován)</string>
+		<string>Ukáže instalované email COM komponenty</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Zapomenuté heslo?</string>
+		<string>Zapomenuté heslo?</string>
+		<string>Vložte vaše clenské uživatelské jméno a email, kliknete na poslat, bude vám zaslán email s heslem.</string>
+		<string>Jméno clena</string>
+		<string>Emailová adresa</string>
+		<string>Vložit</string>
+		<string>Info o uživatelovi</string>
+		<string>Byl vydán požadavek na zaslání techto informací:</string>
+		<string>Heslo</string>
+		<string>Opet nás navštivte!</string>
+		<!-- 470 -->
+		<string>Špatné uživatelské kméno nebo emailová adresa.</string>
+		<string>Váš pripomínací email byl zaslán.</string>
+		<string>Znovu vložte info</string>
+		<string>Prihlaste se ted !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Muj úcet</string>
+		<string>Neúplný formulár, všechny pole s (*) jsou vyžadovány.</string>
+		<string>Váš úcet byl úspešne aktualizován!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>žádný</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Pruh menu</string>
+		<string>&#218;vod</string>
+		<string>Zpet na úvodní stránku</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Adresáre</string>
+		<string>Správce adresáru</string>
+		<string>Nový adresár</string>
+		<string>Jméno</string>
+		<string>Publikováno</string>
+		<string>Nový adresár</string>
+		<string>Nová kategorie</string>
+		<string>Kategorie</string>
+		<!-- 490 -->
+		<string>Nová položka</string>
+		<string>Nový adresár</string>
+		<string>Upravit adresár</string>
+		<string>Nový kategorie</string>
+		<string>Upravit kategorii</string>
+		<string>Nová podkategorie</string>
+		<string>upravit podkategorii</string>
+		<string>Nová položka</string>
+		<string>Upravit položku</string>
+		<string>Shrnutí</string>
+		<!-- 500 -->
+		<string>Popis</string>
+		<string>Web</string>
+		<string>Download URL</string>
+		<string>Cesta k obrázku</string>
+		<string>Verejné vkládání</string>
+		<string>Uložených položek</string>
+		<string>Uživatel</string>
+		<string>Download</string>
+		<string>Web</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Uživatelé</string>
+		<string>Downloads</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string/>
+		<!-- 530 -->
+		<string>Adresár</string>
+		<string>Domu</string>
+		<string>Pocet webu v adresári: </string>
+		<string>Vložte web</string>
+		<string>Celkový pocet hitu</string>
+		<string>Váš vklad byl registrován a bude posouzen webmasterem. Dekujeme za váš príspevek.</string>
+		<string>Nejpopulárnejší</string>
+		<string>Hity</string>
+		<string>Jen v...</string>
+		<string>Nové vklady</string>
+		<!-- 540 -->
+		<string>Nove vložené adresáre</string>
+		<string>Krátký popis</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Mimoprovoz z duvodu údržby</string>
+		<string>Pocet souboru: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Online clenové</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Napište webmasterovi!</string>
+		<string>Vaše jméno</string>
+		<string>Váš email</string>
+		<string>Predmet</string>
+		<string>Zpráva</string>
+		<string>Poslat webmasterovi</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Zaslat zprávu</string>
+		<string>Váš email:</string>
+		<string>Vaše jméno:</string>
+		<string>Predmet:</string>
+		<string>Zpráva:</string>
+		<string>Poslast zprávu</string>
+		<string>Pokud byste byl prihlášen, mohl byste zprávu odeslat.</string>
+		<string>Vaše zpráva byla odeslána.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Clánky odpovídající kritériím</string>
+		<string>Diskuze odpovídá kritériím</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Exportovat seznam do csv.</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Pozice</string>
+		<string>ZAVRÍT</string>
+		<string>NAHORU</string>
+		<string>DOLU</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Diskuze</string>
+		<string>Vlákna</string>
+		<string>Príspevky</string>
+		<string>Poslední príspevky</string>
+		<string>Autor</string>
+		<string>Zapocato </string>
+		<string>Odpovedí</string>
+		<string>Téma</string>
+		<string>Vloženo</string>
+		<string>Reagovat</string>
+		<!-- 580 -->
+		<string>Diskuze</string>
+		<string>Diskuze</string>
+		<string>Porhledat diskuze</string>
+		<string>Reagovat na existující zprávu</string>
+		<string>Zpráva na kterou reagujete</string>
+		<string>Zaslána</string>
+		<string>dne</string>
+		<string>Predmet</string>
+		<string>Zpráva</string>
+		<string>Nové vlákno</string>
+		<!-- 590 -->
+		<string>Toto je automatické upozornení.
+		Nekdo zaslal reakci na váš príspevek na našem fóru.Mužete si ho prohlédnout na:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderátor</string>
+		<string>Moderováno </string>
+		<string>Formát</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Výchozí stav reakcí</string>
+		<string>Výchozí stav clánku</string>
+		<string>Stránkování clánku</string>
+		<string>Od</string>
+		<string>Z</string>
+		<!-- 601 -->
+		<string>Prispusobit vzhled</string>
+		<string>Prispusobitelný</string>
+		<string>Jméno</string>
+		<string>Vzhled</string>
+		<string>Autor</string>
+		<!-- 606 -->
+		<string>Pamatovat</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>Vedomostní báze</string>
+		<string>Prímé</string>
+		<string>Strukturované</string>
+		<string>Oblast:</string>
+		<string>[Top]</string>
+		<string>Pribouzné clánky</string>
+		<string>Vyhledávat</string>
+		<string>Pridat príspevek</string>
+		<string>Všechno</string>
+		<string>v oblasti:</string>
+		<!-- 630 is the one up-->
+		<string>Domu</string>
+		<string>Jít do oblasti:</string>
+		<string>Pridat nové vztahy</string>
+		<string>Vedomostní báze</string>
+		<string>Oblast</string>
+		<string>Vložit</string>
+		<string>Titulek</string>
+		<string>Verze</string>
+		<string>Intro</string>
+		<string>Zobrazit</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>Jméno</string>
+		<string>Poznámka</string>
+		<string>Viditelné</string>
+		<string>Oblast</string>
+		<string>Telo</string>
+		<string>pridat..</string>
+		<string>Príbuzný clánek</string>
+		<string>Príbuzné</string>
+		<string>Známé príbuznosti</string>
+		<!-- 650 is the one up -->
+		<string>VB-Editor</string>
+		<string>Vypnuto</string>
+		<string>Anonym</string>
+		<string>Clen</string>
+		<string>V této sekci nejsou žádné príspevky.</string>
+		<string>Odstranit další vztah</string>
+		<string>Jdi</string>
+		<string>Prosím vyberte si nekterou z dostupných znalostních bází.</string>
+		<string>Znalostní báze na úrovni administrátora:</string>
+		<string>Znalostní báze na úrovni redaktora:</string>
+		<!-- 660 is the one up -->
+		<string>Znalostní báze na úrovni clena:</string>
+		<string>Znalostní báze na úrovni anonymního uživatele:</string>
+		<string>Chyba</string>
+		<string>Znalostní báze,kterou se pokoušíte otevrít, vám není prístupná nebo neexistuje. Pokud se domníváte, že to je chyba, uvedomte webmastera.</string>
+		<string>Nejsou zde žádné dostupné znalsotní báze!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Editor seznamu</string>
+		<string>Seznamy</string>
+		<string>Seznam</string>
+		<string>Položky</string>
+		<string>Položka</string>
+		<string>Urcite chcete vymazat seznam? Ujistete se, že všechny funkce využívající tento seznam jsou zakázány.</string>
+		<string>Tento seznam je systémový, nemuže být vymazán nebo prejmenován!</string>
+		<string>Popiska</string>
+		<string>Hodnota</string>
+		<string>Urcite chcete vymazat tuto položku?</string>
+		<!-- 680 is the one up -->
+		<string>Položka patrí k systémovému seznamu, nemuže být zmenena nebo vymazána!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>Ne</string>
+		<string>Po</string>
+		<string>Ut</string>
+		<string>St</string>
+		<string>Ct</string>
+		<string>Pa</string>
+		<string>So</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Leden</string>
+		<string>Únor</string>
+		<string>Brezen</string>
+		<string>Duben</string>
+		<string>Kveten</string>
+		<string>Cerven</string>
+		<string>Cervenec</string>
+		<string>Srpen</string>
+		<string>Zárí</string>
+		<string>Ríjen</string>
+		<!-- 720 is the one up -->
+		<string>Listopad</string>
+		<string>Prosinec</string>
+		<string>Události</string>
+		<string>Více info pod:</string>
+		<string>id</string>
+		<string>datum</string>
+		<string>popis</string>
+		<string>Krátký popis</string>
+		<string>Popis</string>
+		<string>Odkaz</string>
+		<!-- 730 is the one up -->
+		<string>Viditelný</string>
+		<string>Datum</string>
+		<string>Kalendár událostí</string>
+		<string>Kalendár</string>
+		<string>Kalendár událostí</string>
+		<string>zpet</string>
+		<string>další</string>
+		<string>náhled zacít u</string>
+		<string>náhled</string>
+		<string>nová událost</string>
+		<!-- 740 is the one up -->
+		<string>Výchozí stav kalendáre</string>
+		<string>vložit události</string>
+		<string>Vybrat kalendár</string>
+		<string>Kalendár</string>
+		<string>Jdi</string>
+		<string>viditelný pro </string>
+		<string>Nemáte oprávnení používat tento kalendár</string>
+		<string>náhled</string>
+		<string>událostí na stránku</string>
+		<string>náhledu na stránku</string>
+		<!-- 750 is the one up -->
+		<string>Odpovídajících událostí</string>
+		<string>Hledat událost</string>
+		<string>Jdi</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>Kanál</string>
+		<string>Vytvorit nový kanál</string>
+		<string>Váš prohlížec nepodporuje rámce.</string>
+		<string>host</string>
+		<string>Zpráva</string>
+		<string>Jméno</string>
+		<string>Popis</string>
+		<string>Kanál</string>
+		<string>Popis</string>
+		<!-- 770 is the one up -->
+		<string>Op</string>
+		<string>Uživatel</string>
+		<string>Noví uživatelé</string>
+		<string>Aktuální uživatelé</string>
+		<string>leave channel</string>
+		<string>Chat</string>
+		<string>Vlastník</string>
+		<string>Vymazat všechny staré zprávy</string>
+		<string>Chat-Editor</string>
+		<string>id</string>
+		<!-- 780 is the one up -->
+		<string>Soukromá zpráva </string>
+		<string>zpet</string>
+		<string>odstranit</string>
+		<string>Byl jste odstranen operátorem. Prosíme opustte kanál.</string>
+		<string>Akce, provést na</string>
+		<string>operator</string>
+		<string>clen</string>
+		<string>Pripojit se</string>
+		<string>Mužete zavrít toto okno.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Správce clenu</string>
+		<string>Vyhledávací formulár</string>
+		<string>Uživatel</string>
+		<string>Pohlaví</string>
+		<string>Vek</string>
+		<string>Povolání</string>
+		<string>Mesto</string>
+		<string>Stát</string>
+		<string>Zeme</string>
+		<string>Od</string>
+		<!-- 810 is the one up -->
+		<string>Zobrazit všechny cleny</string>
+		<string>Muj profil</string>
+		<string>id</string>
+		<string>Krestní jméno</string>
+		<string>Príjmení</string>
+		<string>Web</string>
+		<string>Foto (cesta k)</string>
+		<string>Vybrat</string>
+		<string>Adresa</string>
+		<string>PSC</string>
+		<!-- 820 is the one up -->
+		<string>Telefon</string>
+		<string>Verejné</string>
+		<string>Uvítací zpráva</string>
+		<string>Poznámky admina</string>
+		<string>Profil clena</string>
+		<string>V&#237;tej</string>
+		<string>V komunite nejsou žádní clenové s touto prezdívkou.</string>
+		<string>Profil tohoto clena si mužete prohlédnout až po prihlášení.</string>
+		<string>Profil, který se snažíte zobrazit, neexistuje nebo není zverejnen.</string>
+		<string>Jméno</string>
+		<!-- 830 is the one up -->
+		<string>Pridat do seznamu prátel</string>
+		<string>byl úspešne pridán do seznamu vašich prátel.</string>
+		<string>byl úspešne odebrán ze seznamu vašich prátel.</string>
+		<string>Clenové</string>
+		<string>Správce prátel</string>
+		<string>Prátelé</string>
+		<string>Akc</string>
+		<string>Odebrat</string>
+		<string>Zaslat zprávu</string>
+		<string>Uživatel emailu</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Interní zprávy</string>
+		<string>Zprávy na uživatele</string>
+		<string>Vaše zpráva byla úspešne odeslána.</string>
+		<string>Nemáte žádné nové zprávy</string>
+		<string>Máte nové zprávy</string>
+		<string>Níže naleznete seznam vám zaslaných zpráv.</string>
+		<string>Datum</string>
+		<string>Od</string>
+		<string>Predmet</string>
+		<string>Zaslat interní zprávu </string>
+		<!-- 860 is the one up -->
+		<string>Zpráva</string>
+		<string>Prominte, tento uživatel má plnou poštovní chránku. Zkuste to prosím pozdeji. </string>
+		<string>Tato funkce je prístupná pouze clenum!</string>
+		<string>Mužete pristupovat pouze ke zprávám urceným pro vás!!!</string>
+		<string>maximální pocet zpráv, které muže uživatel uchovávat je:</string>
+		<string>Pocet zpráv,které mužete ješte dostat:</string>
+		<string>napsal(a):</string>
+		<string>Present message answer this previous message of yours.</string>
+		<string>Odpovedet</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Predmet</string>
+		<string>Zpráva</string>
+		<string>zaslána v HTML</string>
+		<string>Príloha</string>
+		<string>Bulletin</string>
+		<string>id</string>
+		<string>predmet</string>
+		<string>akce</string>
+		<string>poslat</string>
+		<string>polat znovu</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>login ve velkých písmenech</string>
+		<string>Autentifikace</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Info o modulech</string>
+		<string>popis</string>
+		<string>verze</string>
+		<string>naposledy zmeneno</string>
+		<string>kým</string>
+		<string>domovská stránka</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>vyberte cílový adresár</string>
+		<string>pridat soubor</string>
+		<string>Upload</string>
+		<string>jméno</string>
+		<string>velikost</string>
+		<string>typ</string>
+		<string>naposledy zmeneno</string>
+		<string>akce</string>
+		<string>Vymazat</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Správce redaktoru</string>
+		<string>id</string>
+		<string>jméno</string>
+		<string>konfiguracní retezec</string>
+		<string>aktivní</string>
+		<string>skupina</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

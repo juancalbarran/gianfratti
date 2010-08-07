@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="windows-1257"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
+<language>
+	<name>Lithuanian</name>
+	<translator>
+		<name>Mindaugas Benediktavicius</name>
+		<email>mindesb@hotmail.com</email>
+	</translator>
+	<encoding>windows-1257</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Tinklapio administravimas</string>
+		<string>Į tinklapį</string>
+		<string>Opcijos</string>
+		<string>Puslapiai</string>
+		<string>Turinys</string>
+		<string>Užklausos</string>
+		<string>Citatos</string>
+		<string>Paveikslėliai</string>
+		<string>Vartotojai</string>
+		<string>Svečių knyga</string>
+		<string>Statistika</string>
+		<string>Nuomonės</string>
+		<string>Forumas</string>
+		<string>Pakrauti failus</string>
+		<string>Sukurti</string>
+		<string>Ištrinti</string>
+		<string>Pakeisti</string>
+		<string>Ok</string>
+		<string>Atšaukimas</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Tinklapio derinimas</string>
+		<string>Tinklapio pavadinimas </string>
+		<string>Login Administratoriaus</string>
+		<string>Slaptažodis</string>
+		<string>Meta vardas</string>
+		<string>Administratoriaus slaptažodis</string>
+		<string>Administratoriaus URL adresas </string>
+		<string>Meta žodis</string>
+		<string>Meta aprašymas</string>
+		<string>Tinklapio išvaizda</string>
+		<string>Kalba</string>
+		<string>Pagrindinias puslapis</string>
+		<string>Logotipo adresas</string>
+		<string>Rodyti panelę</string>
+		<string>Kopijavimo teisės</string>
+		<string>Moderavimo statusas</string>
+		<string>Rodyti meniu</string>
+		<string>Rodyti straipsnių panelę</string>
+		<string>Rodyti paieškos formą</string>
+		<string>Papildomų dalių sąrašas</string>
+		<string>Užklausos</string>
+		<string>Įkainiai</string>
+		<string>Paveiksliukų Galerija</string>
+		<string>Svečių knyga</string>
+		<string>Forumai</string>
+		<string>Rodyti sukūrimo datą  ir straipsnio autorių</string>
+		<string>Užregistruoti stovį pagal nutylėjimą</string>
+		<string>Stovis pagal nutylėjimą forume</string>
+		<string> Stovis pagal nutylėjimą svečių knygoje </string>
+		<string>Sloganas</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Tinklapio administratorius</string>
+		<string>Puslapio pavadinimas</string>
+		<string>Galvinis puslapis</string>
+		<string>Priėjimo tipas</string>
+		<string>Puslapio pagrindas</string>
+		<string>Reklaminis tegas</string>
+		<string>Matomumas</string>
+		<string>Šio puslapio trinti negalima!</string>
+		<string>Tikrai norite paslėpti puslapį</string>
+		<string>Publikacija</string>
+		<!-- 60 -->
+		<string>Taip</string>
+		<string>Ne</string>
+		<!--  end-->
+		<string>Suplanuota</string>
+		<string>Publikavimo data</string>
+		<string>Pabaigos data</string>
+		<string>Išorinė nuoroda</string>
+		<string>Kategorijos</string>
+		<string>Lankomiausi puslapiai</string>
+		<string>Kiekis</string>
+		<string>Straipsnių kiekis</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Valdymas turiniu</string>
+		<string>Turinio pavadinimas</string>
+		<string>Pozicija</string>
+		<string>Puslapis</string>
+		<string>Autorius</string>
+		<string>Data</string>
+		<string>XML šaltinis</string>
+		<string>XSL šablonas</string>
+		<string>Antraštės</string>
+		<string>Tekstas</string>
+		<string>Keisti šią informaciją redagavimo metu</string>
+		<string>Matomumas</string>
+		<string>Šis straipsnis tik skaitymui.</string>
+		<string>Informaciją tikrai ištrinti?</string>
+		<string>Spausdinti</string>
+		<string>Persiųsti el.paštu</string>
+		<string>Parašykite savo nuomonę</string>
+		<string>Archyvas</string>
+		<string>Visi puslapiai</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Užklausų valdymas</string>
+		<string>Tyrimo pavadinimas</string>
+		<string>Klausimas</string>
+		<string>Atsakymas Nr1</string>
+		<string>Atsakymas Nr2</string>
+		<string>Atsakymas Nr3</string>
+		<string>Atsakymas Nr4</string>
+		<string>Atsakymas Nr5</string>
+		<string>Balsavusio Nr.</string>
+		<string>Susijęs puslapis</string>
+		<string>Nėra</string>
+		<string>Norite panaikinti šią apklausą?</string>
+		<string>Balsuok!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Citatų valdymas</string>
+		<string>Citatų turinys</string>
+		<string>Pašalinti citatas?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Paveikslėlių galerijos valdymas</string>
+		<string>Paveikslėlio pavadinimas</string>
+		<string>Paveikslėlio adresas</string>
+		<string>Komentaras</string>
+		<string>Šalinti paveikslėlių geleriją?</string>
+		<string>Išrinkti</string>
+		<string>Sumažinto paveikslėlio adresas</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Narių valdymas</string>
+		<string>Pseudonimas</string>
+		<string>Slaptažodis</string>
+		<string>El.paštas</string>
+		<string>Miestas</string>
+		<string>Data</string>
+		<string>Nukopijuokite ir įstatykite šią liniją į el.pašto programą kad persiųsti nariams</string>
+		<string>Pašalinti narį?</string>
+		<string>Tipas</string>
+		<string>Indeksas / Matomumas</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Svečių knygos valdymas</string>
+		<string>Autorius</string>
+		<string>Pavadinimas</string>
+		<string>Pranešimas</string>
+		<string>Data</string>
+		<string>El.paštas</string>
+		<string>Matomumas</string>
+		<string>Šalinti pranešimą iš svečių knygos?</string>
+		<string>Rašyti žinutę</string>
+		<string><![CDATA[<b>Ačiu už dalyvavimą mūsų tinklapio plėtroje!</b><br/>Jūs būsite užregistruotas ir patalpintas tinklapyje po moderatoriaus patikrinimo.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Regavimo valdymas</string>
+		<string>Autorius</string>
+		<string>Pavadinimas</string>
+		<string>Straipsnis</string>
+		<string>Žinutė</string>
+		<string>Data</string>
+		<string>Matomumas</string>
+		<string>Tikrai norite panaikinti regavimą?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Resursai</string>
+		<string>Resursų valdymas</string>
+		<string>Pavadinimas</string>
+		<string>Tipas</string>
+		<string>Adresas</string>
+		<string>Kometaras</string>
+		<string>Plotis</string>
+		<string>Aukštis</string>
+		<string>Paveikslėlis</string>
+		<string>Video</string>
+		<string>Fliašas</string>
+		<string>Wav-failas</string>
+		<string>Midi-failas</string>
+		<string>Font-failas</string>
+		<string>Zip-failas</string>
+		<string>Exe-failas</string>
+		<string>Kiti failai</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Pakrauti failus</string>
+		<string>Siųsti</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Forumo valdymas</string>
+		<string>Pavadinimas</string>
+		<string>Aprašymas</string>
+		<string>Matomumas</string>
+		<string>Matomas</string>
+		<string>Paslėpti</string>
+		<string>Panaikinti forumą? </string>
+		<string>Rašyti</string>
+		<string>Atsakyti</string>
+		<string>Dadėti</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Lankomumo analizė</string>
+		<string>Puslapio peržiūra</string>
+		<string>Lankytojai</string>
+		<string>Kalendorius</string>
+		<string>Detalės apie..</string>
+		<string>Peržiurėtas puslapis</string>
+		<string>Unikalių lankytojų</string>
+		<string>Laikas</string>
+		<string>URL-adresas</string>
+		<string>Iš kokio tinklapio ateina</string>
+		<string>IP adresas</string>
+		<string>Data</string>
+		<string>Lankytojų</string>
+		<string>Lentelė</string>
+		<string>Grafikas</string>
+		<string>Šalis</string>
+		<string>Interneto Naršyklė</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Pagrindinis</string>
+		<string>Moduliai</string>
+		<string>Moderacija</string>
+		<string>Statistika</string>
+		<string>Pagalba</string>
+		<string>Pirmieji žingsniai</string>
+		<string>lankytojas</string>
+		<string>lankytojų (-ai)</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Paieška tinklapyje</string>
+		<string>Registracija</string>
+		<string>Svečių knyga</string>
+		<string>Galerija</string>
+		<string>Foruma</string>
+		<string>Moderacija</string>
+		<string>Išeiti</string>
+		<string>Meniu</string>
+		<string>Nariams</string>
+		<string>Balsavimas</string>
+		<string>Citata</string>
+		<string>Atgal</string>
+		<string>Pirmyn</string>
+		<string>Toliau</string>
+		<string>Pridėti puslapį</string>
+		<string>Pridėti straipsnį</string>
+		<string>Pridėti apklausą</string>
+		<string>OK</string>
+		<string/>
+		<string/>
+		<!-- Forum Žinutė template strings, start @ position 260 -->
+		<string>Forumo moderatorius</string>
+		<string>Pavadinimas</string>
+		<string>Pseudonimas</string>
+		<string>Matomumas</string>
+		<string>Matomas</string>
+		<string>Paslėptas</string>
+		<string>Trinti šį pranešimą?</string>
+		<string>Parašyti</string>
+		<string>Atsakyti lankytojui</string>
+		<string>Pridėti žinutę</string>
+		<string>Rašyti straipsnį</string>
+		<string>Tik registruotiems vartotojams. Įeikite naudodami vartotojo vardą (login)&lt;a href="default.asp?id=0&amp;ACT=9"&gt;užsiregistruoti&lt;/a&gt; nemokamai</string>
+		<string>Žinutės forume</string>
+		<string>Tekstas</string>
+		<string>Atsakant į: </string>
+		<string>Sekanti: </string>
+		<string>Atgal į </string>
+		<string>Rodyti paprastai</string>
+		<string>Rodyti struktūrą</string>
+		<string>Atgal į pranešimų sąrašą</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Darbastalis</string>
+		<string>Lankytojų kiekis</string>
+		<string>Pranešimų kiekis svečių knygoje tikrinimui</string>
+		<string>Nuomonių kiekis tikrinimui</string>
+		<string>Pranešimų kiekis forume </string>
+		<string>Kiekis hitų (hits)</string>
+		<string>Sveiki atvykę</string>
+		<string>Jūsų versija: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Užduočių sąrašas</string>
+		<string>Paspauskite kad pridėti užduotį</string>
+		<string>Sukurti</string>
+		<string>Pabaiga</string>
+		<string>Aprašymas</string>
+		<string>Svarbumas</string>
+		<string>Pridėti</string>
+		<string>Data</string>
+		<string>Baigtas</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Registruoti</string>
+		<string>Registracija nemokama ir įgalina naudotis visais tinklapio resursais.</string>
+		<string>Vardas (login)</string>
+		<string>Slaptažodis</string>
+		<string>El.paštas</string>
+		<string>Miestas/Šalis</string>
+		<string>Patvirtinti</string>
+		<string>(*) Būtini laukai</string>
+		<string>Dėkojame, Jūs užregistruotas! Dabar Jūs galite įeti.</string>
+		<string>Dėkojame už registraciją, moderatorius netrukus patvirtins Jūsų registraciją ir Jūs galėsite įeiti savo Vardu (login) -u.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Atsakyti į </string>
+		<string>Vardas</string>
+		<string>Pavadinimas</string>
+		<string>Pranešimas</string>
+		<string>Patvirtinti</string>
+		<string>Nuomonės </string>
+		<string>Nuo </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Tarpai</string>
+		<string>Tik kairys tarpas</string>
+		<string>Tik dešinys tarpas</string>
+		<string>Abu tarpai</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategorijos</string>
+		<string>Valdymas kategorijų</string>
+		<string>Vardas</string>
+		<string>Tipas priėjimo</string>
+		<string>Matomumas</string>
+		<string>Ši kategorija negali būti šalinama</string>
+		<string>Trinti šią kategoriją?</string>
+		<string>Peržiūrėti puslapių sarašą įeinančių į kategoriją</string>
+		<string>Visos Kategorijos</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Baneriai</string>
+		<string>Vardas</string>
+		<string>Atsisiuntimų kiekis</string>
+		<string>Nuoroda</string>
+		<string>*.Gif tipo failas</string>
+		<string>Banerių valdymas</string>
+		<string>Šalinti banerį?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Atsisiųsti</string>
+		<string>Vardas</string>
+		<string>Kelias (adresas)</string>
+		<string>Redaktoriaus skiltis</string>
+		<string>Aprašymas</string>
+		<string>Lizenzija</string>
+		<string>Kaina</string>
+		<string>Operacinė sistema</string>
+		<string>Valdymas atsisiuntimais </string>
+		<string>Trinti šį atsiuntimą?</string>
+		<string>Atsiųsta</string>
+		<string>Atsisiųsti dabar</string>
+		<string>Populiariausia informacija</string>
+		<string>Dydis</string>
+		<string>Versija</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Tinklapio žemėlapis</string>
+		<string>Paieškos rezultatai</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>El.pašto konfiguracija</string>
+		<string>Smtp serveris</string>
+		<string>Pranešinėti apie pasikeitimus svečių knygoje </string>
+		<string>Pranešinėti apie pasikeitimus forume</string>
+		<string>Pranešinėti apie pasikeitimus nuomonėse</string>
+		<string>Pranešinėti apie pasikeitimus registracijoje</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Neteisingas slaptažodis, arba registracija dara nepatvirtinta. Ištaisykite klaidą arba pabandykite vėliau.</string>
+		<string>Balsuoti galima tik kartą!</string>
+		<string>Sveiki atvykę, Jūsų registracija patikrinta ir patvirtinta!</string>
+		<string>Kai kurie Būtini laukai neužpildyti. Užpildykite ir bandykite vėl.</string>
+		<string>Šis vardas jau naudojamas. Išsirinkite kitą.</string>
+		<string>Jūs naudojate, Administratoriaus vardą pagal nutylėjima! Būtinai pakeiskite Vardą (login) ir Slaptažodį, kad niekas nepasinaudotu jūsų Administratoriaus teisėmis.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Straipsnių sortiravimo laukas</string>
+		<string>Puslapių sortiravimio laukas</string>
+		<string>Pavadinimas</string>
+		<string>Publikacijos data</string>
+		<string>Į</string>
+		<string>Didėjanti</string>
+		<string>Mažėjanti</string>
+		<string>Rodyti pavadinimą</string>
+		<string>Peržiūrėti puslapių turinį</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>nauja</string>
+		<string>nauji pranešimai</string>
+		<string>Patvirtinti El.paštu</string>
+		<string>Registracijos patvirtinimas</string>
+		<string>Jūs norėjote užsiregistruoti pas mus: </string>
+		<string>Kad patvirtinti registraciją apsilankykite pas mus: </string>
+		<string>Informacija apie Jūsų registraciją: </string>
+		<string>Dėkojame už registraciją. Artimiausiu metu gausite El.laišką kad patvirtinti registraciją</string>
+		<string>administratorius</string>
+		<string>redaktorius</string>
+		<!-- Misc , start @ position 430 -->
+		<string>vartotojas</string>
+		<string>Užsiprenumeruokite mūsų naujienas. (nedidelė apimtis)</string>
+		<string>Laiškas</string>
+		<string>Išdėstymas</string>
+		<string>Viršuje</string>
+		<string>Apačioje</string>
+		<string>Kairėje</string>
+		<string>Dešinėje</string>
+		<string>Patarimas:spustelkite su pele du kartus tam kad pereiti į WYSIWYG režimą</string>
+		<string>Rodyti papildomus laukus</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Paslėpti papildomus laukus</string>
+		<string>Grupė</string>
+		<!-- Browsers stats -->
+		<string>Peržūrėti grupę</string>
+		<string>Informacija pie versijas</string>
+		<string>Naršyklė</string>
+		<string>Verija</string>
+		<string>Procentas (%)</string>
+		<string>Kitkas</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Kodiruotė</string>
+		<string>Antraštė</string>
+		<string>Paraštės</string>
+		<string>Tekstas</string>
+		<!-- Guestbook's buttons -->
+		<string>Patvirtinti</string>
+		<string>Išvalyti</string>
+		<!-- Žinutė after reaction posting -->
+		<string><![CDATA[<b>Ačiu už dalyvavimą mūsų tinklapio plėtroje!</b<br/>Jūs būsite užregistruotas ir patalpintas tinklapyje po moderatoriaus patikrinimo.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Naujų straipsnių stovis pagal nutylėjimą</string>
+		<string>Išjungti El.paštą ? (reikalingas jMail)</string>
+		<string>Rodyti COM komponentą reikalingą El.paštui</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Pamiršote slaptažodį?</string>
+		<string>Ar jūs tikrai pamiršote slaptažodį?</string>
+		<string>Įveskite vartotojo vardą ir savo El.pašto adresą, kurį naudojote registruojantis, spauskite "Patvirtinti". Jūsų slaptažodis jums bus tuojau persiųstas į jūsų el-paštą.</string>
+		<string>Vartotojo vardas</string>
+		<string>El.pašto adresas</string>
+		<string>Patvirtinti</string>
+		<string>Informacija apie lankytoją</string>
+		<string>Gautas užklausimas :</string>
+		<string>Slaptažodis</string>
+		<string>Laukiame jūsų!</string>
+		<!-- 470 -->
+		<string>Neteisingas vartotojo vardas (login) arba El.pašto adresas.</string>
+		<string>Informacija išsiųsta.</string>
+		<string>Įveskite informaciją dar kartą</string>
+		<string>Užsiprenumeruoti !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Mano duomenys</string>
+		<string>Ne visi laukai užpidyti!</string>
+		<string>Informacija atnaujinta!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>ne</string>
+		<string>Automatinis atpažinimas</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Meniu panelė</string>
+		<string>Pagrindinis puslapis</string>
+		<string>Į pagrindinį puslapį</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Katalogas</string>
+		<string>Katalogo valdymas</string>
+		<string>Naujas katalogas</string>
+		<string>Vardas</string>
+		<string>Publikuota</string>
+		<string>Naujas katalogas</string>
+		<string>Nauja kategorija</string>
+		<string>Kategorijos</string>
+		<!-- 490 -->
+		<string>Naujas įrašas</string>
+		<string>Naujas katalogas</string>
+		<string>Keisti katalogą</string>
+		<string>Nauja kategorija</string>
+		<string>Keisti kategoriją</string>
+		<string>Nauja pakategorė</string>
+		<string>Keisti pakategorę</string>
+		<string>Naujas įrašas</string>
+		<string>Keisti įrašą</string>
+		<string>Trumpa versija</string>
+		<!-- 500 -->
+		<string>Aprašymas</string>
+		<string>Tinklapis</string>
+		<string>Nuoroda siuntimui</string>
+		<string>Paveikslėlio kelias (adresas)</string>
+		<string>Atsisiuntimai vartotojams</string>
+		<string>Kur pridėti</string>
+		<string>Vartotojas</string>
+		<string>Atsisiųsti</string>
+		<string>Tinklapis</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>Video</string>
+		<string>Knyga</string>
+		<string>Muzika</string>
+		<string>Samdomas darbininkas</string>
+		<string>Produktas</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Lankytojai</string>
+		<string>Failų atsisiuntimas</string>
+		<string>Puslapiai</string>
+		<string>CD</string>
+		<string>Video</string>
+		<string>Knyga</string>
+		<string>Muzika (.mp3)</string>
+		<string>Samdomas darbininkas</string>
+		<string>Produtas</string>
+		<string/>
+		<!-- 530 -->
+		<string>Katalogas</string>
+		<string>Pagrindinis puslapis</string>
+		<string>Tinklapių kiekis kataloge</string>
+		<string>Pridėti tinklapį</string>
+		<string>Viso hitų (hits)</string>
+		<string>Jūsų pasiulymas gautas ir bus peržiūrėtas</string>
+		<string>Popiuliariausi</string>
+		<string>Hitai (Hits)</string>
+		<string>Nauja</string>
+		<string>Naujas papildymas</string>
+		<!-- 540 -->
+		<string>Dadėtas naujas katalogas</string>
+		<string>Trumpas aprašymas</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Redaguoti off line režime</string>
+		<string>Failų kiekis</string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Puslapis</string>
+		<string>Atgal</string>
+		<string>Pirmyn</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>lankytojų (-ai) šiuo metu</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Atsiliepimai</string>
+		<string>Jūsų vardas</string>
+		<string>El.paštas</string>
+		<string>Tema</string>
+		<string>Žinutė</string>
+		<string>Siųsti tinklapio administratoriui</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Siųsti žinutę:</string>
+		<string>Jūsų el.-pašto adresas:</string>
+		<string>Vardas:</string>
+		<string>Tema:</string>
+		<string>Žinutė:</string>
+		<string>Siųsti žinutę</string>
+		<string>Galėsite išsiųsti žinutę kai įeisite.</string>
+		<string>Žinutė išsiūsta</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Atitikimai straipsniuose</string>
+		<string>Atitikimai forumuose</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Eksportuoti sąrašą (.CSV formatu)</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Užsakyti</string>
+		<string>UŽDARYTI</string>
+		<string>AUKŠTYN</string>
+		<string>ŽEMYN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forumai</string>
+		<string>Atsakymai</string>
+		<string>Žinutės</string>
+		<string>Paskutinės žinutės</string>
+		<string>Autorius</string>
+		<string>Pradėtas</string>
+		<string>Atsakymai</string>
+		<string>Topikas</string>
+		<string>Siųstas</string>
+		<string>Atsakyta į žinutę</string>
+		<!-- 580 -->
+		<string>Diskusijos</string>
+		<string>Diskusija</string>
+		<string>Ieškoti forumuose</string>
+		<string>Atsakyti į žinutę</string>
+		<string>Atsakote į</string>
+		<string>Nuo</string>
+		<string>Įjungti</string>
+		<string>Tema</string>
+		<string>Žinutė</string>
+		<string>Nauja diskusija</string>
+		<!-- 590 -->
+		<string>Pranešimas/priminimas.
+		Gautas atsakymas į jūsų pranešimą forume. Peržiūrėti galite adresu:</string>
+	</strings>
+</language>
+

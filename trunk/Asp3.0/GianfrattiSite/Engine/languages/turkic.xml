@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Turkic</name>
+	<translator>
+		<name>Murat KASABOGLU</name>
+		<email>cnguru@olympos.org</email>
+		<!-- v1.2, BUyUk "$" harfi problemi hariC tamamdIr. 21/04/2002 -->
+	</translator>
+	<encoding>utf-8</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Site YÃ¶neticisi</string>
+		<string>Siteye bak</string>
+		<string>Ayarlar</string>
+		<string>Sayfalar</string>
+		<string>Ä°Ã§erikler</string>
+		<string>Anketler</string>
+		<string>AlÄ±ntÄ±lar</string>
+		<string>Resimler</string>
+		<string>Ãœyeler</string>
+		<string>ZiyaretÃ§i Defteri</string> 
+		<string>Ä°statistik</string>
+		<string>Tepkiler</string>
+		<string>Pano</string>
+		<string>GÃ¶nder (UL)</string>
+		<string>Yarat...</string>
+		<string>Sil...</string>
+		<string>DeÄŸiÅŸtir</string>
+		<string>Tamam</string>
+		<string>Ä°ptal</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Site ayarlarÄ±</string>
+		<string>Site adÄ±</string>
+		<string>YÃ¶netici giriÅŸi</string>
+		<string>Å�ifre</string>
+		<string>META BaÅŸlÄ±k (Title)</string>
+		<string>YÃ¶netici EPosta</string>
+		<string>Site URL</string>
+		<string>META Anahtar Kelimeler (Keywords)</string>
+		<string>META AÃ§Ä±klama (Description)</string>
+		<string>ArayÃ¼z</string>
+		<string>Dil</string>
+		<string>Ã–n Sayfa</string>
+		<string>Logo yolu</string>
+		<string>AraÃ§larÄ± gÃ¶ster</string>
+		<string>Telif HakkÄ±</string>
+		<string>Tercih Listesi</string>
+		<string>MenÃ¼yÃ¼, gÃ¶ster</string>
+		<string>Makalelerin tanÄ±mÄ±nÄ± gÃ¶ster</string>
+		<string>AramayÄ±, gÃ¶ster</string>
+		<string>Eklentiler listesi</string>
+		<string>Anketler</string>
+		<string>AlÄ±ntÄ±lar</string>
+		<string>Resim galerisi</string>
+		<string>ZiyaretÃ§i Defteri</string>
+		<string>Panolar</string>
+		<string>Makale tarihi ve yazarÄ±nÄ± gÃ¶ster</string>
+		<string>KayÄ±t, varsayÄ±lan ayarÄ±</string>
+		<string>Pano mesajlarÄ±nÄ±n, varsayÄ±lan deÄŸeri</string>
+		<string>ZiyaretÃ§i defteri mesajlarÄ±nÄ±n, varsayÄ±lan deÄŸeri</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Sayfa YÃ¶neticisi</string>
+		<string>Sayfa baÅŸlÄ±ÄŸÄ±</string>
+		<string>Ãœst BaÄŸlantÄ± SayfasÄ±</string>
+		<string>UlaÅŸÄ±m tipi</string>
+		<string>EditÃ¶r</string>
+		<string>Reklam iÅŸareti</string>
+		<string>GÃ¶rÃ¼nÃ¼rlÃ¼k</string>
+		<string>Bu sayfa silinemez!</string>
+		<string>Confirm the supression of this page? </string>
+		<string>YayÄ±m</string>
+		<string>Evet</string>
+		<string>HayÄ±r</string>
+		<string>Saptanan gÃ¼n</string>
+		<string>YayÄ±m tarihi</string>
+		<string>YayÄ±m iptal tarihi</string>
+		<string>Harici baÄŸlantÄ±</string>
+		<string>Kategori</string>
+		<string>En Ã§ok bakÄ±lan sayfalar</string>
+		<string>GÃ¶rÃ¼ntÃ¼leme sayÄ±sÄ±</string>
+		<string>Makale sayÄ±sÄ±</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Ä°Ã§erik YÃ¶neticisi</string>
+		<string>Ä°Ã§erik baÅŸlÄ±ÄŸÄ±</string>
+		<string>Pozisyon</string>
+		<string>Sayfa</string>
+		<string>Sahibi</string>
+		<string>Tarih</string>
+		<string>XML kaynaÄŸÄ±</string>
+		<string>XSL ÅŸablonu</string>
+		<string>ManÅŸetler</string>
+		<string>Ä°Ã§erik</string>
+		<string>DeÄŸiÅŸiklik iÃ§in dizayn modunu kullan</string>
+		<string>GÃ¶rÃ¼nÃ¼rlÃ¼k</string>
+		<string>Bu makale sadece okunabilir.</string>
+		<string>Bu iÃ§eriÄŸi silmek istediÄŸinize eminmisiniz? </string>
+		<string>YazÄ±cÄ± Ã§Ä±kÄ±ÅŸÄ±</string>
+		<string>ArkadaÅŸÄ±na gÃ¶nder</string>
+		<string>Sizin dÃ¼ÅŸÃ¼nceleriniz</string>
+		<string>ArÅŸiv</string>
+		<string>TÃ¼m sayfalarda</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Anket YÃ¶neticisi</string>
+		<string>Anket AdÄ±</string>
+		<string>Soru</string>
+		<string>Cevap nÂ°1</string>
+		<string>Cevap nÂ°2</string>
+		<string>Cevap nÂ°3</string>
+		<string>Cevap nÂ°4</string>
+		<string>Cevap nÂ°5</string>
+		<string>Oy sayÄ±sÄ±</string>
+		<string>Ortak sayfa</string>
+		<string>HiÃ§biri</string>
+		<string>Bu anketi silmek istediÄŸinize eminmisiniz? </string>
+		<string>Oyla!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>AlÄ±ntÄ± YÃ¶neticisi</string>
+		<string>AlÄ±ntÄ± Ä°Ã§eriÄŸi</string>
+		<string>AlÄ±ntÄ±yÄ± silmek istediÄŸinize eminmisiniz? </string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Resim Galerisi YÃ¶neticisi</string>
+		<string>ParÃ§alarÄ±n adlarÄ±</string>
+		<string>ParÃ§alarÄ±n yollarÄ±</string>
+		<string>Yorumlar</string>
+		<string>Bu parÃ§ayÄ± galeriden silmek istediÄŸinize eminmisiniz? </string>
+		<string>SeÃ§im</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Ãœye YÃ¶neticisi</string>
+		<string>Rumuz</string>
+		<string>Å�ifre</string>
+		<string>EPosta</string>
+		<string>Å�ehir</string>
+		<string>Tarih</string>
+		<string>Bu bÃ¶lÃ¼mÃ¼ kes/yapÄ±ÅŸtÄ±r ile EPosta programÄ±nÄ±za alarak tÃ¼m Ã¼yelere EPosta gÃ¶nderebilirsiniz: </string>
+		<string>Bu Ã¼yeyi silmek istediÄŸinize eminmisiniz? </string>
+		<string>Tipi</string>
+		<string>Durumu</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>ZiyaretÃ§i Defteri YÃ¶neticisi</string>
+		<string>Yazar</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>Mesaj</string>
+		<string>Tarih</string>
+		<string>EPosta</string>
+		<string>GÃ¶rÃ¼ntÃ¼</string>
+		<string>Bu mesajÄ± ZiyaretÃ§i Defterinden silmek istediÄŸinize eminmisiniz? </string>
+		<string>ZiyaretÃ§i Defterine yaz</string>
+		<string><![CDATA[<b>KatÄ±lÄ±mÄ±nÄ±z iÃ§in teÅŸekkÃ¼rler!</b><br/>DÃ¼ÅŸÃ¼nceleriniz, sistem yÃ¶neticisi onay verdikten soonra yayÄ±nlanacaktÄ±r.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Tepkiler YÃ¶neticisi</string>
+		<string>Yazar</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>Makale</string>
+		<string>Mesaj</string>
+		<string>Tarih</string>
+		<string>GÃ¶rÃ¼ntÃ¼</string>
+		<string>Bu tepkiyi silmek istediÄŸinize eminmisiniz?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Kaynaklar</string>
+		<string>Kaynaklar yÃ¶neticisi</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>Tipi</string>
+		<string>Yol</string>
+		<string>Yorum</string>
+		<string>GeniÅŸlik</string>
+		<string>YÃ¼kseklik</string>
+		<string>Resim</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>YazÄ± tipi</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>DiÄŸerleri</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Dosya gÃ¶nder</string>
+		<string>GÃ¶nder</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Pano YÃ¶neticisi</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>AÃ§Ä±klama</string>
+		<string>GÃ¶rÃ¼nÃ¼rlÃ¼k</string>
+		<string>GÃ¶rÃ¼nÃ¼r</string>
+		<string>GÃ¶rÃ¼nmez</string>
+		<string>Bu panoyu silmek istediÄŸinize eminmisiniz? </string>
+		<string>GÃ¶nderi</string>
+		<string>Cevap ver</string>
+		<string>GiriÅŸ</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Trafik analizi</string>
+		<string>BakÄ±lan sayfalar</string>
+		<string>ZiyaretÃ§iler</string>
+		<string>Takvim</string>
+		<string>Detaylar </string>
+		<string> BakÄ±lan sayfalar</string>
+		<string> Ä°lk kez gelen ziyaretÃ§iler</string>
+		<string>Zaman</string>
+		<string>URL</string>
+		<string>GÃ¶nderilen yer</string>
+		<string>IP adresi</string>
+		<string>Tarih</string>
+		<string>ZiyaretÃ§i</string>
+		<string>Izgara gÃ¶rÃ¼ntÃ¼</string>
+		<string>Grafik gÃ¶rÃ¼ntÃ¼</string>
+		<string>Ãœlke</string>
+		<string>Gezgin</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Ana</string>
+		<string>Eklentiler</string>
+		<string>Denetleyici</string>
+		<string>Ä°statistik</string>
+		<string>YardÄ±m</string>
+		<string>HÄ±zlÄ± BaÅŸlangÄ±Ã§</string>
+		<string>sadece siz varsÄ±nÄ±z</string>
+		<string>aktif ziyaretÃ§i</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Arama</string>
+		<string>KAYIT</string>
+		<string>ZÄ°YARETÃ‡Ä° DEFTERÄ°</string>
+		<string>SLAYT GÃ–STERÄ°SÄ°</string>
+		<string>PANO</string>
+		<string>YÃ¶netici</string>
+		<string>Ã‡IKIÅ�</string>
+		<string>MenÃ¼</string>
+		<string>GiriÅŸ</string>
+		<string>Anket</string>
+		<string>AlÄ±ntÄ±</string>
+		<string>Geri</string>
+		<string>Ä°leri</string>
+		<string>DevamÄ±nÄ± oku</string>
+		<string>Sayfa ekle</string>
+		<string>Makale ekle...</string>
+		<string>Oy ekle...</string>
+		<string>GiriÅŸ</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Pano mesajlarÄ± YÃ¶neticisi</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>Rumuz</string>
+		<string>GÃ¶rÃ¼nÃ¼rlÃ¼k</string>
+		<string>GÃ¶rÃ¼nÃ¼r</string>
+		<string>GÃ¶rÃ¼nmez</string>
+		<string>Bu mesajÄ± silmek istediÄŸinize eminmisiniz? </string>
+		<string>GÃ¶nder</string>
+		<string>Cevapla </string>
+		<string>Makaleyi gÃ¶nder</string>
+		<string>Makale yaz</string>
+		<string><![CDATA[Bu bÃ¶lÃ¼me sadece Ã¼yeler girebilir. Sisteme giriÅŸ yapÄ±n veya <a href="default.asp?id=0&ACT=9">kayÄ±t</a> iÃ§in baÅŸvurun.]]></string>
+		<string>Pano mesajlarÄ±</string>
+		<string>Ä°Ã§erik</string>
+		<string>CevabÄ±nda: </string>
+		<string>Sonraki: </string>
+		<string>Ã–nceki </string>
+		<string>Ã‡izgisel gÃ¶rÃ¼ntÃ¼</string>
+		<string>AÄŸaÃ§ gÃ¶rÃ¼ntÃ¼sÃ¼</string>
+		<string>Mesaj listesine geri dÃ¶n</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>MasaÃ¼stÃ¼</string>
+		<string>KayÄ±tlÄ± Ã¼ye </string>
+		<string>Adet ZiyaretÃ§i Defteri mesajÄ± onaylandÄ± </string>
+		<string>Adet tepki onaylandÄ± </string>
+		<string>Adet pano mesajÄ± </string>
+		<string>Hit sayÄ±sÄ±</string>
+		<string>Merhaba</string>
+		<string>SÃ¼rÃ¼m: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>GÃ¶rev Listesi</string>
+		<string>Yeni gÃ¶rev ekle</string>
+		<string>Yarat</string>
+		<string>Son</string>
+		<string>AÃ§Ä±klama</string>
+		<string>Ã–nemi</string>
+		<string>Ekle</string>
+		<string>Tarih</string>
+		<string>Bitti</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>KayÄ±t</string>
+		<string><![CDATA[KayÄ±t Ã¼cretsizdir ve girilen bilgiler ÅŸahÄ±slarla/ÅŸirketlerle <b>paylaÅŸÄ±lmaz</b>.]]></string>
+		<string>Rumuz</string>
+		<string>Å�ifre</string>
+		<string>EPosta</string>
+		<string>Å�ehir/Ãœlke</string>
+		<string>GÃ¶nder</string>
+		<string>(*) doldurulmasÄ± zorunlu alanlar</string>
+		<string>TeÅŸekkÃ¼rler, artÄ±k kayÄ±tlÄ±sÄ±nÄ±z! Soldaki formu kullanarak sisteme giriÅŸ yapabilirsiniz.</string>
+		<string>TeÅŸekkÃ¼rler, kayÄ±t iÅŸleminiz alÄ±ndÄ±, site yÃ¶ntecisi kabul ettiÄŸi takdirde onaylanacak.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Tepki gÃ¶steren </string>
+		<string>AdÄ±</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>Mesaj</string>
+		<string>GÃ¶nder</string>
+		<string>Tepkiler </string>
+		<string>Yazan </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Kenar ayarlarÄ±</string>
+		<string>Sadece sol kenar</string>
+		<string>Sadece saÄŸ kenar</string>
+		<string>Ortada</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategori</string>
+		<string>Kategori YÃ¶neticisi</string>
+		<string>AdÄ±</string>
+		<string>Yetkileri</string>
+		<string>GÃ¶rÃ¼nÃ¼rlÃ¼k</string>
+		<string>Bu kategori silinemez</string>
+		<string>Bu kategoriyi silmek istediÄŸinize eminmisiniz? </string>
+		<string>Bu kategorideki sayfalarÄ±n listesi</string>
+		<string>TÃ¼m kategoriler</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Reklamlar</string>
+		<string>AdÄ±</string>
+		<string>TÄ±klama sayÄ±sÄ±</string>
+		<string>Hedef URL</string>
+		<string>Gif kaynaÄŸÄ±</string>
+		<string>Reklam YÃ¶neticisi</string>
+		<string>Bu reklamÄ± silmek istediÄŸinize eminmisiniz? </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Dosyalar</string>
+		<string>AdÄ±</string>
+		<string>Yolu</string>
+		<string>EditÃ¶rÃ¼n web sitesi</string>
+		<string>AÃ§Ä±klama</string>
+		<string>Lisans</string>
+		<string>Ãœcret</string>
+		<string>Ä°ÅŸletim Sistemi</string>
+		<string>Dosya YÃ¶neticisi</string>
+		<string>Bu dosyayÄ± silmek istediÄŸinize eminmisiniz? </string>
+		<string>Ã‡ekildi </string>
+		<string>Ã‡ek </string>
+		<string>En Ã§ok Ã§ekilenler</string>
+		<string>BÃ¼yÃ¼klÃ¼k</string>
+		<string>SÃ¼rÃ¼m</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>SÄ°TE HARÄ°TASI</string>
+		<string>Arama sonuÃ§larÄ±</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>GÃ¶zetimler / UyarÄ±lar</string>
+		<string>Smtp sunucusu</string>
+		<string>UyarÄ±, ZiyaretÃ§i Defteri</string>
+		<string>UyarÄ±, Pano</string>
+		<string>UyarÄ±, Tepkiler</string>
+		<string>UyarÄ±, KayÄ±t</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>HatalÄ± ÅŸifre veya kabul edilmeyi bekleyen kayÄ±t iÅŸlemi. \nÅ�ifreyi doÄŸru giriniz yada daha sonra tekrar deneyiniz.</string>
+		<string>Her anket iÃ§in "bir" oy verebilirsiniz!</string>
+		<string>Merhaba, kayÄ±t iÅŸleminiz onaylandÄ±.</string>
+		<string>DoldurulmasÄ± zorunlu alanlardan bazÄ±larÄ± doldurulmadÄ±. AlanlarÄ± doldurun ve tekrar deneyiniz.</string>
+		<string>Bu rumuz baÅŸkasÄ± tarafÄ±ndan kullanÄ±lÄ±yor, baÅŸka bir rumuz seÃ§iniz.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Page options, start @ position 410 -->
+		<string>Makale sÄ±ralama deÄŸeri</string>
+		<string>Sayfa sÄ±ralama deÄŸeri</string>
+		<string>BaÅŸlÄ±k</string>
+		<string>YayÄ±m tarihi</string>
+		<string>NO</string>
+		<string>SÄ±ralÄ±</string>
+		<string>SÄ±ralÄ± (tersten)</string>
+		<string>BaÅŸlÄ±klarÄ± gÃ¶ster</string>
+		<string>Bu sayfadaki iÃ§erik listesi</string>
+		<string></string>
+		<!-- Misc , start @ position 420 -->
+		<string>yeni</string>
+		<string>yeni mesajlar</string>
+		<string>EPosta onayÄ±</string>
+		<string>KayÄ±t onayÄ±</string>
+		<string>KayÄ±t iÅŸleminiz onaylandÄ±: </string>
+		<string>KayÄ±t iÅŸleminin tamamlanmasÄ± iÃ§in, baÄŸlantÄ±yÄ± tÄ±klayÄ±n: </string>
+		<string>KayÄ±t iÅŸlemi bilgileriniz: </string>
+		<string>KayÄ±tlÄ± olduÄŸunuz iÃ§in teÅŸekkÃ¼rler. BirkaÃ§ dakika sonra kayÄ±tlÄ± olduÄŸunuzu onaylayan bir EPosta alacaksÄ±nÄ±z.</string>
+		<string>yÃ¶netici</string>
+		<string>editÃ¶r</string>
+		<!-- Misc , start @ position 430 -->
+		<string>Ã¼ye</string>
+		<string>Haberlerin EPosta ile gelmesini istermisiniz (Haftada bir)</string>
+		<string>Haberler</string>
+		<string>Pozisyon</string>
+		<string>Tepe</string>
+		<string>Dip</string>
+		<string>Sol</string>
+		<string>SaÄŸ</string>
+		<string>Ä°pucu: Ã‡ift tÄ±klamayla veya CTRL+T ile WYSIWYG moduna geÃ§ebilirsin.</string>
+		<string>GeliÅŸmiÅŸ ayarlarÄ± gÃ¶ster</string>
+		<!-- Misc , start @ position 440 -->
+		<string>GeliÅŸmiÅŸ ayarlarÄ± gÃ¶sterme</string>
+		<string>Grup</string>
+		<!-- Browsers stats -->
+		<string>Gezgin gurubu</string>
+		<string>SÃ¼rÃ¼m detaylarÄ±</string>
+		<string>Gezgin</string>
+		<string>SÃ¼rÃ¼m</string>
+		<string>% OranÄ±</string>
+		<string>DiÄŸerleri</string>
+		<string></string>
+		<string></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Karakter seti</string>
+		<string>ManÅŸet</string>
+		<string>Marjin</string>
+		<string>GÃ¶vde</string>
+		<!-- Guestbook's buttons -->
+		<string>GÃ¶nder</string>
+		<string>Sil</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>KatÄ±lÄ±mÄ±nÄ±z iÃ§in teÅŸekkÃ¼rler!</b><br/>DÃ¼ÅŸÃ¼nceleriniz, sistem yÃ¶neticisi onay verdikten soonra yayÄ±nlanacaktÄ±r.]]></string>
+				
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Yeni yazÄ± iÃ§in varsayÄ±lan gÃ¶rÃ¼ntÃ¼leme durumu</string>
+		<string>Aktif EPosta fonksiyonu ? (jMail gerekli)</string>
+		<string></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>ÅŸifremi unuttum?</string>
+		<string>ÅŸifrenizimi unuttunuz?</string>
+		<string>Ãœye adÄ±nÄ±zÄ± ve EPosta adresinizi girin, ve "GÃ¶nder"i tÄ±klayÄ±nÄ±z. ÅŸifreniz EPosta adresinize gÃ¶nderilecektir.</string>
+		<string>Ãœye adÄ±nÄ±z</string>
+		<string>EPosta adresiniz</string>
+		<string>GÃ¶nder</string>
+		<string>Ãœye bilgileri</string>
+		<string>ÅŸifreniz ve gerekli diÄŸer bilgiler EPosta adresinize gÃ¶nderildi:</string>
+		<string>ÅŸifre</string>
+		<string>Daha sonra tekrar deneyiniz!</string>
+		<!-- 470 -->
+		<string>HatalÄ± Ãœye adÄ± veya EPosta adresi</string>
+		<string>ÅŸifreniz EPosta adresinize gÃ¶nderilmiÅ�tir.</string>
+		<string>Bilgileri tekrar girin</string>
+		<string>Ãœye olun !</string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Bilgilerim</string>
+		<string>Forum tamamlanmadÄ±, tÃ¼m alanlarÄ±n doldurulmasÄ± zorunludur.</string>
+		<string>Bilgileriniz gÃ¼ncellendi!</string>
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detect</string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Home</string>
+		<string>Back to the home page</string>
+		
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Link</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Download</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>		
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

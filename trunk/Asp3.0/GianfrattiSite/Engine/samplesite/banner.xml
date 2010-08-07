@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banners>
+    <banner>
+        <id><![CDATA[1]]></id>
+        <name><![CDATA[Fullxml]]></name>
+        <count><![CDATA[0]]></count>
+        <onclickurl><![CDATA[http://www.fullxml.com]]></onclickurl>
+        <gifsrc><![CDATA[http://www.fullxml.com/ad/ad.asp]]></gifsrc>
+        <visible><![CDATA[on]]></visible>
+        <date><![CDATA[20020305]]></date>
+        <position><![CDATA[top]]></position>
+    </banner>
+</banners>

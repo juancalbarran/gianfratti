@@ -1,0 +1,31 @@
+<PUBLIC:COMPONENT>
+<PUBLIC:PROPERTY NAME="classOver" />
+<PUBLIC:PROPERTY NAME="classDown" />
+<PUBLIC:ATTACH event="onmouseout" handler="swapEffect" />
+<PUBLIC:ATTACH event="onmouseup" handler="swapEffect" />
+<PUBLIC:ATTACH event="onmousedown" handler="swapEffect" />
+<PUBLIC:ATTACH event="onmouseover" handler="swapEffect" />
+<PUBLIC:ATTACH event="onmouseup" handler="swapEffect" />
+
+<SCRIPT>
+// Copyright 1999 InsideDHTML.com, LLC. All rights reserved
+// This code can be reused as long as the above copyright
+// notice is not removed.
+var classDefault = element.className
+function swapEffect() {
+	switch (event.type) {
+		case "mousedown":
+			if (classDown)
+				element.className = classDown + " " + classDefault
+		break;
+		case "mouseup":
+		case "mouseover":
+			if (classOver)
+				element.className = classOver + " " + classDefault
+			break;
+		default:
+			element.className = classDefault
+	}
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>

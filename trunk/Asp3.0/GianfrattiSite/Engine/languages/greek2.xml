@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Greek</name>
+	<translator>
+		<name>George Kanel</name>
+		<email>gkanell@yahoo.com</email>
+	</translator>
+	<encoding>utf-8</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Διαχείριση του Karati.GR</string>
+		<string>Eξερεύνηση</string>
+		<string>Ιδιότητες</string>
+		<string>Σελίδες</string>
+		<string>Περιεχόμενα</string>
+		<string>Δημοσκοπήσεις</string>
+		<string>Παραπομπές</string>
+		<string>Εκθεση</string>
+		<string>Μέλη</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Στατιστικά</string>
+		<string>Reactions</string>
+		<string>Συζητήσεις</string>
+		<string>Upload</string>
+		<string>Δημιουργία...</string>
+		<string>Διαγραφή</string>
+		<string>Μεταβολή...</string>
+		<string>   OK   </string>
+		<string>Ακύρωση</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Ιδιότητες</string>
+		<string>Ονομασία</string>
+		<string>Σύνδεση διαχειριστή</string>
+		<string>Κωδικός πρόσβασης</string>
+		<string>META Title</string>
+		<string>Email διαχειριστή</string>
+		<string>URL</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Επιλογή εμφάνισης</string>
+		<string>Γλώσσα</string>
+		<string>Αρχική σελίδα</string>
+		<string>Διαδρομή Logo</string>
+		<string>Εμφάνιση toolbar</string>
+		<string>Πνευματικά δικαιώματα</string>
+		<string>Διαμόρφωση</string>
+		<string>Εμφάνιση menu</string>
+		<string>Εμφάνιση μπάρας άρθρων</string>
+		<string>Εμφάνιση φόρμας αναζήτησης</string>
+		<string>Λίστα πρόσθετων</string>
+		<string>Δημοσκοπήσεις</string>
+		<string>Παραπομπές</string>
+		<string>Εκθεση</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Συζητήσεις</string>
+		<string>Εμφάνιση ημερομηνίας άρθρου και όνομα συντάκτη</string>
+		<string>Register default status</string>
+		<string>Forums's message default status</string>
+		<string>Guestbook's message default status</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Διαχειριση σελίδων </string>
+		<string>Τίτλος σελίδας</string>
+		<string>Γονική σελίδα</string>
+		<string>Τύπος πρόσβασης</string>
+		<string>HTML Editor</string>
+		<string>Advertisement tag</string>
+		<string>Eμφάνιση</string>
+		<string>Αυτή η σελίδα δεν μπορεί να διαγραφεί!</string>
+		<string>Επιβεβαίωση σύμπτηξης σελίδας? </string>
+		<string>Εκδοση</string>
+		<!-- 60 -->
+		<string>ΝΑΙ</string>
+		<string>ΟΧΙ</string>
+		<!--  end-->
+		<string>Scheduled</string>
+		<string>Ημερομηνία έκδοσης</string>
+		<string>Ημερομηνία λήξης</string>
+		<string>Εξωτερικό link</string>
+		<string>Κατηγορία</string>
+		<string>Top σελίδες</string>
+		<string>Count</string>
+		<string>Αριθμός άρθρων</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Διαχείριση περιεχομένων</string>
+		<string>Τίτλος</string>
+		<string>Θέση</string>
+		<string>Σελίδα</string>
+		<string>Συντάκτης</string>
+		<string>Ημερομηνία</string>
+		<string>XML Source</string>
+		<string>XSL template</string>
+		<string>Επικεφαλίδες</string>
+		<string>Κορμός</string>
+		<string>Μορφοποίηση σε περιβάλλον σχεδίασης</string>
+		<string>Εμφάνιση</string>
+		<string>Αυτό το άρθρο δεν μπορεί να τροποποιηθεί .</string>
+		<string>Θέλετε να διαγράψετε το περιεχόμενο?</string>
+		<string>Εκτύπωση</string>
+		<string>Αποστολή με email</string>
+		<string>H άποψη σας</string>
+		<string>Αρχείο</string>
+		<string>Ολες οι σελίδες</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Διαχείριση δημοσκοπήσεων</string>
+		<string>Ονομασία</string>
+		<string>Ερώτηση</string>
+		<string>Απάντηση n°1</string>
+		<string>Απάντηση n°2</string>
+		<string>Answer n°3</string>
+		<string>Απάντηση n°4</string>
+		<string>Απάντηση n°5</string>
+		<string>Αριθμός ψήφων</string>
+		<string>Σχετική σελίδα</string>
+		<string>Κανένα</string>
+		<string>Θέλετε να διαγράψετε την δημοσκόπηση?</string>
+		<string>ΨΗΦΙΣΤΕ!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Διαχείριση Παραπομπών</string>
+		<string>Περιεχόμενο</string>
+		<string>Θέλετε να διαγράψετε την παραπομπή?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Διαχείριση Εκθεσης</string>
+		<string>Ονομα Φωτογραφίας</string>
+		<string>Διαδρομή</string>
+		<string>Comment</string>
+		<string>Θέλετε να διαγράψετε την φωτογραφία?</string>
+		<string>Επιλέξτε</string>
+		<string>Διαδρομή Thumbnail</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Διαχείριση Μελών</string>
+		<string>Ονομα χρήστη</string>
+		<string>Κωδικός πρόσβασης</string>
+		<string>Email</string>
+		<string>Πόλη</string>
+		<string>Ημερομηνία</string>
+		<string>Copy/paste this line into your email software to send an email to ever member: </string>
+		<string>Θέλετε να διαγράψετε αυτό το μέλος?</string>
+		<string>Type</string>
+		<string>State</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Διαχείριση Βιβλίου Επισκεπτών</string>
+		<string>Ονομα</string>
+		<string>Τίτλος</string>
+		<string>Μήνυμα</string>
+		<string>Ημερομηνία</string>
+		<string>Email</string>
+		<string>Εμφάνιση</string>
+		<string>Θέλετε να διαγράψετε αυτό το μήνυμα?</string>
+		<string>Υπογράψτε στο βιβλίο</string>
+		<string><![CDATA[<b>Ευχαριστούμε!</b><br/>Τα σχόλια και οι παρατηρήσεις σας θα εμφανιστούν αμέσως μετά την έγκριση απο τον webmaster.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Διαχείριση Feedback</string>
+		<string>Ονομα</string>
+		<string>Τίτλος</string>
+		<string>Αρθρο</string>
+		<string>Mήνυμα</string>
+		<string>Ημερομηνία</string>
+		<string>Εμφάνιση</string>
+		<string>Do you really want to delete this reaction?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Ressources</string>
+		<string>Ressources manager</string>
+		<string>Title</string>
+		<string>Type</string>
+		<string>Path</string>
+		<string>Comment</string>
+		<string>Width</string>
+		<string>Height</string>
+		<string>Picture</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Others</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>File upload</string>
+		<string>Send</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Forums manager</string>
+		<string>Title</string>
+		<string>Description</string>
+		<string>Visibility</string>
+		<string>Visible</string>
+		<string>Hidden</string>
+		<string>Do you really want to delete this forum? </string>
+		<string>Post</string>
+		<string>Reply</string>
+		<string>Enter</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Aνάλυση Κίνησης</string>
+		<string>Επισκεψιμότητα σελίδας</string>
+		<string>Επισκέπτες</string>
+		<string>Ημερολόγιο</string>
+		<string>Λεπτομέρεις για</string>
+		<string> Επισκεψιμότητα σελίδας</string>
+		<string> Μοναδικοί επισκέπτες</string>
+		<string>Χρόνος</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<string>IP address</string>
+		<string>Date</string>
+		<string>Visits</string>
+		<string>Πλέγμα</string>
+		<string>Γράφημα</string>
+		<string>Ctry</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Βασικό Μενού</string>
+		<string>Πρόσθετα</string>
+		<string>Διαμόρφωση</string>
+		<string>Στατιστικά</string>
+		<string>Βοήθεια</string>
+		<string>Γρήγορη Ματιά</string>
+		<string>Ενεργός Επισκέπτης</string>
+		<string>Ενεργοί Επισκέπτες</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Αναζήτηση</string>
+		<string>Eγγραφή</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Εκθεση</string>
+		<string>Συζητήσεις</string>
+		<string>Διαχείριση</string>
+		<string>Αποσύνδεση</string>
+		<string>Μενού</string>
+		<string>Για μέλη</string>
+		<string>Δημοσκόπηση</string>
+		<string>Παραπομπές</string>
+		<string>Προηγούμενο</string>
+		<string>Επόμενο</string>
+		<string>Περισσότερα..</string>
+		<string>Νέα σελίδα...</string>
+		<string>Νέο άρθρο...</string>
+		<string>Νέα δημοσκόπηση...</string>
+		<string>Είσοδος</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Forums messages manager</string>
+		<string>Title</string>
+		<string>Pseudo</string>
+		<string>Visibility</string>
+		<string>Visible</string>
+		<string>Hidden</string>
+		<string>Do you really want to delete this message</string>
+		<string>Post</string>
+		<string>Απάντηση σε </string>
+		<string>Post an article</string>
+		<string>Write an article</string>
+		<string>This area is reserved to site members. Login or &lt;a href="default.asp?id=0&amp;ACT=9"&gt;create&lt;/a&gt; a free account to continue.</string>
+		<string>Forums messages</string>
+		<string>Body</string>
+		<string>In reply of: </string>
+		<string>Next: </string>
+		<string>Back to </string>
+		<string>Linear view</string>
+		<string>Tree view</string>
+		<string>back to the message list</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Επιφάνεια Εργασίας</string>
+		<string>Αριθμός μελών</string>
+		<string>Αριθμός Μηνυμάτων Βιβλίου Επισκεπτών για Επικύρωση</string>
+		<string>Αριθμός Μηνυμάτων Feedback για Επικύρωση </string>
+		<string>Αριθμός Μηνυμάτων Βιβλίου Forum Συζητήσεων</string>
+		<string>Αριθμός επισκέψεων</string>
+		<string>Καλως Ηρθατε</string>
+		<string>Εγκατεστημένη Εκδοση: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Εργασίες</string>
+		<string>Κάντε click εδώ για να προσθέσετε νέα εργασία</string>
+		<string>Δημιουργία</string>
+		<string>Τέλος</string>
+		<string>Περιγραφή</string>
+		<string>Προτεραιότητα</string>
+		<string>Προσθέστε</string>
+		<string>Ημερομηνία</string>
+		<string>Ολοκληρώθηκε</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Εγγραφή</string>
+		<string>Η εγγραφή είναι ελεύθερη και σας παρέχει το προνόμιο να έχετε πρόσβαση σε όλες τις υπηρεσίες του site.</string>
+		<string>Ονομα χρήστη</string>
+		<string>Κωδικός πρόσβασης</string>
+		<string>Email</string>
+		<string>Πόλη/Χώρα</string>
+		<string>Εγγραφή</string>
+		<string>(*) υποχρεωτικά πεδία</string>
+		<string>Ευχαριστούμε!Η εγγραφή σας έγινε!Τώρα μπορείτε να συνδεθείτε δίνοντας το Ονομα χρήστη και τον Κωδικό πρόσβασης στην φόρμα αριστερά της οθόνης σας.</string>
+		<string>Thank you for registering, your registration must now be validated by the webmaster to be active.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>React to </string>
+		<string>Name</string>
+		<string>Title</string>
+		<string>Message</string>
+		<string>Submit</string>
+		<string>Reactions </string>
+		<string>By </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margins</string>
+		<string>Only left margin</string>
+		<string>Only right margin</string>
+		<string>Both margin</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Category</string>
+		<string>Categories manager</string>
+		<string>Name</string>
+		<string>Access type</string>
+		<string>Visibility</string>
+		<string>This category cannot be deleted</string>
+		<string>Do you really want to delete this category?</string>
+		<string>View the page list of this category</string>
+		<string>All the categories</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banners</string>
+		<string>Name</string>
+		<string>Click count</string>
+		<string>Target URL</string>
+		<string>Gif source</string>
+		<string>Banners manager</string>
+		<string>Do you really want to delete this banner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+		<string>Name</string>
+		<string>Path</string>
+		<string>Editor's website</string>
+		<string>Description</string>
+		<string>License</string>
+		<string>Price</string>
+		<string>Operating system</string>
+		<string>Downloads manager</string>
+		<string>Do you really want to delete this download?</string>
+		<string>Downloaded </string>
+		<string>Download now </string>
+		<string>Top downloads</string>
+		<string>Size</string>
+		<string>Version</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Xάρτης του site</string>
+		<string>Aποτελέσματα αναζήτησης</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Email functionnalities</string>
+		<string>Smtp server</string>
+		<string>Alert on Guestbook</string>
+		<string>Alert on Forums</string>
+		<string>Alert on Reactions</string>
+		<string>Alert on Register</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Incorrect password or not already a validated subscription. \nCorrect or retry later.</string>
+		<string>You could just vote once per survey!</string>
+		<string>Welcome, your registration has been validated.</string>
+		<string>Some mandatory fields are missing. Please complete the form and try again.</string>
+		<string>The username is taken already, please choose another one.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Article sorting field</string>
+		<string>Page sorting order</string>
+		<string>Title</string>
+		<string>Publication date</string>
+		<string>ID</string>
+		<string>Ascending</string>
+		<string>Descending</string>
+		<string>Show title</string>
+		<string>View the content list of this page</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>new</string>
+		<string>new messages</string>
+		<string>Confirmation by Email</string>
+		<string>Register confirmation</string>
+		<string>You applied for registration on the site: </string>
+		<string>In order to complete this registration, browse to the following link: </string>
+		<string>Here is the information to keep about your account: </string>
+		<string>Thanks for registering. You will receive an email in some minutes to validate this registration. </string>
+		<string>administrator</string>
+		<string>editor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>member</string>
+		<string>Subscribe to our newsletter (low traffic)</string>
+		<string>Newsletter</string>
+		<string>Position</string>
+		<string>Top</string>
+		<string>Bottom</string>
+		<string>Left</string>
+		<string>Right</string>
+		<string>Tip: Double click or CTRL-T to enter the WYSIWYG mode</string>
+		<string>Show advanced fields</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Hide advanced fields</string>
+		<string>Group</string>
+		<!-- Browsers stats -->
+		<string>Browser group</string>
+		<string>Αναλυτικότερα</string>
+		<string>Browser</string>
+		<string>Εκδοση</string>
+		<string>Ποσοστό</string>
+		<string>Αλλοι</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encoding</string>
+		<string>Headline</string>
+		<string>Margins</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>Αποστολή</string>
+		<string>Ακύρωση</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Thanks for the participation  to the growth of our website!</b><br/>Your participation will be noted and published on-line after validation by the webmaster.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>New article default publication state</string>
+		<string>Ενεργοποίηση λειτουργιών Email ? (jMail απαιτείται)</string>
+		<string>Indicates the installed email COM component</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Forgot password?</string>
+		<string>So You Forgot Your Password?</string>
+		<string>Enter your member name and email address below, click send, and you will be sent an email containing your password.</string>
+		<string>Ονομα μέλους</string>
+		<string>Email διέθυνση</string>
+		<string>Αποστολή</string>
+		<string>Πληροφορίες χρήστη</string>
+		<string>A request has been made to email the following information to you:</string>
+		<string>Password</string>
+		<string>Please visit soon!</string>
+		<!-- 470 -->
+		<string>Incorrect User Name or Email Address.</string>
+		<string>Your reminder email has been sent.</string>
+		<string>Reenter information</string>
+		<string>Sign up now !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Ο λογαριασμός μου</string>
+		<string>Ολα τα πεδία είναι υποχρεωτικά.</string>
+		<string>Ο λογαριασμός σας ανανεώθηκε με επιτυχία!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Αρχική σελίδα</string>
+		<string>Επιστροφή στην αρχική σελίδα</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Website</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Downloads</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string/>
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

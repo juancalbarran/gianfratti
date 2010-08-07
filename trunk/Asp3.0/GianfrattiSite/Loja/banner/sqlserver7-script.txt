@@ -1,0 +1,92 @@
+if exists (select * from sysobjects where id = object_id(N'[dbo].[banner]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[banner]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[users]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[users]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[zone]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[zone]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[traceclicks]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[traceclicks]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[banzone]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[banzone]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[bannerfarm]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[bannerfarm]
+GO
+
+CREATE TABLE [dbo].[banner] (
+	[bannerid] [int] IDENTITY (1, 1) NOT NULL ,
+	[name] [nvarchar] (50) NULL ,
+	[redirurl] [nvarchar] (255) NULL ,
+	[gifurl] [nvarchar] (255) NULL ,
+	[weight] [int] NULL ,
+	[alttext] [nvarchar] (255) NULL ,
+	[showcount] [int] NULL ,
+	[clickcount] [int] NULL ,
+	[farmid] [int] NULL ,
+	[undertext] [nvarchar] (100) NULL ,
+	[underurl] [nvarchar] (255) NULL ,
+	[underclickcount] [int] NULL ,
+	[xsize] [int] NULL ,
+	[ysize] [int] NULL ,
+	[validtodate] [datetime] NULL ,
+	[maxclicks] [int] NULL ,
+	[maximpressions] [int] NULL ,
+	[validfromdate] [datetime] NULL ,
+	[ishtml] [bit] NULL ,
+	[htmlcode] [ntext] NULL ,
+	[advid] [int] NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[users] (
+	[fldAuto] [int] IDENTITY (1, 1) NOT NULL ,
+	[name] [nvarchar] (50) NULL ,
+	[pwd] [nvarchar] (50) NULL ,
+	[admin] [bit] NULL ,
+	[emailaddress] [nvarchar] (50) NULL ,
+	[fullname] [nvarchar] (50) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[zone] (
+	[zoneid] [int] IDENTITY (1, 1) NOT NULL ,
+	[zonename] [nvarchar] (50) NULL ,
+	[descr] [nvarchar] (100) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[traceclicks] (
+	[fldAuto] [int] IDENTITY (1, 1) NOT NULL ,
+	[bannerid] [int] NULL ,
+	[page] [nvarchar] (255) NULL ,
+	[dt] [datetime] NULL ,
+	[ip] [nvarchar] (20) NULL ,
+	[undertext] [bit] NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[banzone] (
+	[zoneid] [int] NULL ,
+	[bannerid] [int] NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[bannerfarm] (
+	[farmid] [int] IDENTITY (1, 1) NOT NULL ,
+	[name] [nvarchar] (50) NULL ,
+	[description] [nvarchar] (50) NULL 
+) ON [PRIMARY]
+GO
+
+
+insert into users ( name, pwd, admin, emailaddress, fullname )
+values ( 'test', 'stefan', 1, 'webmaster@aspcode.net', 'Admin' )

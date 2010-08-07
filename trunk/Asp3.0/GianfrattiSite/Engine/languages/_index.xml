@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+	<language>
+		<id>1</id>
+		<name>English</name>
+		<filename>english.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>John Roland</name>
+			<email>john_roland@email.com</email>
+		</translator>
+		<encoding>utf-8</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>2</id>
+		<name>Portuguese</name>
+		<filename>portuguese.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Miguel Figueira</name>
+			<email>miguelfigueira@msn.com</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>3</id>
+		<name>German</name>
+		<filename>german.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Jens Schreiber</name>
+			<email>JeS@fxmods.com</email>
+		</translator>
+		<encoding>UTF-8</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>4</id>
+		<name>Brazilian Portuguese</name>
+		<filename>br-portuguese.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Eduardo Azambuja</name>
+			<email>eduardo.azambuja@uol.com.br</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>5</id>
+		<name>Dansk</name>
+		<filename>danish.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Poul Goldschadt</name>
+			<email>info@goldschadt.com</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>6</id>
+		<name>Greek</name>
+		<filename>Greek.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Chris Delivorias</name>
+			<email>info@ploegos.net</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>7</id>
+		<name>Swedish</name>
+		<filename>Swedish.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Anders Landenstad</name>
+			<email>anders.landenstad@telia.com</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>8</id>
+		<name>Turkish</name>
+		<filename>turkce.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Emin CAKI</name>
+			<email>eminantalya@hotmail.com</email>
+		</translator>
+		<encoding>iso-8859-9</encoding>
+	</language>
+	<language>
+		<id>9</id>
+		<name>Norsk</name>
+		<filename>norwegian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Erik Wikran</name>
+			<email>ewikran@online.no</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>10</id>
+		<name>Italian</name>
+		<filename>italian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Luca Panella</name>
+			<email>lucapan@libero.it</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>11</id>
+		<name>Dutch</name>
+		<filename>dutch.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Arie den Ouden</name>
+			<email>ajw.den.ouden@den-ouden.nl</email>
+		</translator>
+		<encoding>UTF-8</encoding>
+	</language>
+	<language>
+		<id>12</id>
+		<name>Spanish</name>
+		<filename>spanish.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Erik Rojas</name>
+			<email>rojaserik@iespana.es</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>13</id>
+		<name>Japanese</name>
+		<filename>japanese.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>JPstream</name>
+			<email>info@jpstream.net</email>
+		</translator>
+		<encoding>iso-2022-jp</encoding>
+	</language>
+	<language>
+		<id>14</id>
+		<name>Croatian 2</name>
+		<filename>croatian2.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Zlatko Efremov</name>
+			<email>zefremov@mt.net.mk</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>15</id>
+		<name>Indonesia</name>
+		<filename>indonesia.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Ph03y3nk</name>
+			<email>ph03y3nk@host.sk</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>16</id>
+		<name>Czech</name>
+		<filename>czech.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Tomas Kliegr</name>
+			<email>kliegr@email.cz</email>
+		</translator>
+		<encoding>windows-1250</encoding>
+	</language>
+	<language>
+		<id>17</id>
+		<name>French</name>
+		<filename>french.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>John Roland</name>
+			<email>john_roland@email.com</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+		<dir>ltr</dir>
+	</language>
+	<language>
+		<id>18</id>
+		<name>Turkic</name>
+		<filename>turkic.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Murat KASABOGLU</name>
+			<email>cnguru@olympos.org</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>19</id>
+		<name>Polish</name>
+		<filename>polish.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Maciej Dabrowski</name>
+			<email>mdabrow6@elka.pw.edu.pl</email>
+		</translator>
+		<encoding>ISO-8859-2</encoding>
+	</language>
+	<language>
+		<id>20</id>
+		<name>Spanish 2</name>
+		<filename>spanish2.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Jean François Quéralt</name>
+			<email>JFQueralt@hotmail.com</email>
+		</translator>
+		<encoding>iso8859-1</encoding>
+	</language>
+	<language>
+		<id>21</id>
+		<name>Islenska [Icelandic]</name>
+		<filename>islandis.xml</filename>
+		<translator>
+			<name>Sigurður</name>
+			<email>ssalomon@simnet.is</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>22</id>
+		<name>Macedonian</name>
+		<filename>macedonian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Slobodan Mumovic</name>
+			<email>mumo@elfasko.org.mk</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>23</id>
+		<name>Malay</name>
+		<filename>malay.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Fuad Sawari</name>
+			<email>fuadsawari@hotmail.com</email>
+		</translator>
+		<encoding>windows-1256</encoding>
+	</language>
+	<language>
+		<id>24</id>
+		<name>Spanish-Mexican</name>
+		<filename>mexican.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Jorge Moises Bustamante</name>
+			<email>jmoises@hotmail.com</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>25</id>
+		<name>Italian 2</name>
+		<filename>Italian2.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Fabio Crudele</name>
+			<email>digitalfalcon@digitalfreedom.it</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>26</id>
+		<name>Russian</name>
+		<filename>russian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Eugene Letenkov</name>
+			<email>letenkov@hotmail.com</email>
+		</translator>
+		<encoding>windows-1251</encoding>
+	</language>
+	<language>
+		<id>27</id>
+		<name>Chinese-Traditional</name>
+		<filename>chinese.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Jospeh Hsieh</name>
+			<email>joseph@langem.com</email>
+		</translator>
+		<encoding>big5</encoding>
+	</language>
+	<language>
+		<id>28</id>
+		<name>Catalan</name>
+		<filename>Catalan.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Carles Del Collado</name>
+			<email>cdelcollado@hotmail.com</email>
+		</translator>
+		<encoding>ISO-8859-1</encoding>
+	</language>
+	<language>
+		<id>29</id>
+		<name>Greek</name>
+		<filename>Greek2.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>George Kanel</name>
+			<email>gkanell@yahoo.com</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>30</id>
+		<name>Greek - Ελληνικά</name>
+		<filename>greek.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>George Simos</name>
+			<email>gsimos@netfiles.gr</email>
+		</translator>
+		<encoding>windows-1253</encoding>
+	</language>
+	<language>
+		<id>31</id>
+		<name>Vietnamese</name>
+		<filename>Vietnamese.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>HoangLan</name>
+			<email>hoanglan@dongnai.edu.vn</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>32</id>
+		<name>Lithuanian</name>
+		<filename>lithuanian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Mindaugas Benediktavicius</name>
+			<email>mindesb@hotmail.com</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>33</id>
+		<name>Portuguese - 2</name>
+		<filename>portuguese2.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Carapaunalinha</name>
+			<email>pedrosilva@anje.pt</email>
+		</translator>
+		<encoding>iso-8859-1</encoding>
+	</language>
+	<language>
+		<id>34</id>
+		<name>Hebrew</name>
+		<filename>hebrew.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<dir>rtl</dir>
+		<translator>
+			<name>Yohanan Ouaknine</name>
+			<email>frenchworks@yahoo.com</email>
+		</translator>
+		<encoding>windows-1255</encoding>
+	</language>
+	<language>
+		<id>35</id>
+		<name>Bulgarian</name>
+		<filename>Bulgarian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<dir>ltr</dir>
+		<translator>
+			<name>Orlin Chankov</name>
+			<email>chankov@chasite.com</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>36</id>
+		<name>Romanian</name>
+		<filename>romanian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<dir>ltr</dir>
+		<translator>
+			<name>Catalin Gales</name>
+			<email>cgales@gmx.net</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+	<language>
+		<id>37</id>
+		<name>Croatian - Bosnian - Yugoslavian</name>
+		<filename>croatian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Christian Ljubicic</name>
+			<email>cljubicic@crosco.hr</email>
+		</translator>
+		<encoding>windows-1250</encoding>
+	</language>
+	<language>
+		<id>38</id>
+		<name>Albanian</name>
+		<filename>albanian.xml</filename>
+		<helpfile>FULLXMLDocumentation.htm</helpfile>
+		<translator>
+			<name>Mirsad Hoxha</name>
+			<email>oxamirsad@yahoo.it</email>
+		</translator>
+		<encoding>utf-8</encoding>
+	</language>
+</languages>

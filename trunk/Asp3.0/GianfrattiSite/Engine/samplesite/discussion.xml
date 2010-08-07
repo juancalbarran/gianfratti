@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<discussions>
+	<discussion>
+		<id><![CDATA[1]]></id>
+		<title><![CDATA[Sample thread]]></title>
+		<description><![CDATA[description of the thread...]]></description>
+		<visible><![CDATA[on]]></visible>
+		<date><![CDATA[200202202242]]></date>
+		<owner><![CDATA[full]]></owner>
+	</discussion>
+</discussions>

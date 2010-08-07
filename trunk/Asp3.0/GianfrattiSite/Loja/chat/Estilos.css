@@ -1,0 +1,19 @@
+.texto {
+FONT-FAMILY: tahoma, verdana, arial;
+FONT-SIZE: 11px;
+COLOR: dimgray;
+}
+.form {
+FONT-FAMILY: tahoma, verdana, arial;
+FONT-SIZE: 11px;
+COLOR: #000000;
+BACKGROUND-COLOR: #ffffff;
+}
+.msg {
+BACKGROUND-COLOR: #EAEAEA;
+BORDER-top: 1px solid silver;
+}
+.msg_topo {
+BACKGROUND-COLOR: #EAEAEA;
+BORDER-bottom: 1px solid silver;
+}

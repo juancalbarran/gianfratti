@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siteinfo>
+	<data>
+		<xslskin><![CDATA[default]]></xslskin>
+		<name><![CDATA[My Fullxml website]]></name>
+		<title><![CDATA[My Fullxml website]]></title>
+		<language><![CDATA[1]]></language>
+		<showtoolbar><![CDATA[on]]></showtoolbar>
+		<showmenu><![CDATA[on]]></showmenu>
+		<gateway><![CDATA[]]></gateway>
+		<showsearch><![CDATA[on]]></showsearch>
+		<footer><![CDATA[Fullxml/FxMods powered website &copy; fullxml.com - All right reserved 2001-2004]]></footer>
+		<email><![CDATA[yourname @ yoursite.com]]></email>
+		<url><![CDATA[http://www.yoursite.com]]></url>
+		<photo><![CDATA[off]]></photo>
+		<keywords><![CDATA[]]></keywords>
+		<description><![CDATA[]]></description>
+		<tip><![CDATA[off]]></tip>
+		<biglogo><![CDATA[media/logo.gif]]></biglogo>
+		<showguestbook><![CDATA[on]]></showguestbook>
+		<showdateauthor><![CDATA[off]]></showdateauthor>
+		<discussion><![CDATA[on]]></discussion>
+		<inscriptionstate><![CDATA[on]]></inscriptionstate>
+		<newsgroupstate><![CDATA[on]]></newsgroupstate>
+		<guestbookstate><![CDATA[off]]></guestbookstate>
+		<encoding><![CDATA[utf-8]]></encoding>
+		<signup><![CDATA[on]]></signup>
+		<sitemap><![CDATA[on]]></sitemap>
+		<slogan><![CDATA[Powered by fullxml 2.4.2]]></slogan>
+		<download><![CDATA[off]]></download>
+		<wnewsgroup><![CDATA[off]]></wnewsgroup>
+		<banner><![CDATA[on]]></banner>
+		<wguestbook><![CDATA[off]]></wguestbook>
+		<smtpserver><![CDATA[smtp . server . com]]></smtpserver>
+		<wreaction><![CDATA[off]]></wreaction>
+		<wsignup><![CDATA[off]]></wsignup>
+		<emailCOM><![CDATA[off]]></emailCOM>
+		<oldeditor><![CDATA[off]]></oldeditor>
+		<textdirection><![CDATA[LTR]]></textdirection>
+		<articlestate><![CDATA[off]]></articlestate>
+		<reactionstate><![CDATA[off]]></reactionstate>
+		<menubar><![CDATA[off]]></menubar>
+		<auth><![CDATA[STANDARD]]></auth>
+		<pseudouppercase><![CDATA[off]]></pseudouppercase>
+		<knowbase><![CDATA[off]]></knowbase>
+		<classified><![CDATA[off]]></classified>
+		<chat><![CDATA[off]]></chat>
+		<chatcleanup><![CDATA[]]></chatcleanup>
+		<maxchatusers><![CDATA[5]]></maxchatusers>
+		<eventcalendar><![CDATA[off]]></eventcalendar>
+		<calendarstate><![CDATA[off]]></calendarstate>
+		<membermanager><![CDATA[off]]></membermanager>
+		<useinternalmessages><![CDATA[off]]></useinternalmessages>
+		<maxmessages><![CDATA[5]]></maxmessages>
+		<guestbooktoolbar><![CDATA[on]]></guestbooktoolbar>
+		<discussiontoolbar><![CDATA[on]]></discussiontoolbar>
+		<sitemaptoolbar><![CDATA[on]]></sitemaptoolbar>
+	</data>
+	<editorsettings>
+		<setting>
+			<id><![CDATA[1]]></id>
+			<name><![CDATA[Anonymous editor Access]]></name>
+			<config><![CDATA[['bold','italic','underline','forecolor','separator'],
+			['justifyleft','justifycenter','justifyright','separator'],
+			['OrderedList','UnOrderedList','Outdent','Indent','separator','createlink','separator'],
+			['fontname','fontsize','separator'],
+			['about']]]></config>
+			<group><![CDATA[anonymous]]></group>
+			<active><![CDATA[on]]></active>
+			<xform><![CDATA[]]></xform>
+			<date><![CDATA[200309052055]]></date>
+			<owner><![CDATA[full]]></owner>
+		</setting>
+		<setting>
+			<id><![CDATA[2]]></id>
+			<name><![CDATA[Member editor access]]></name>
+			<config><![CDATA[['refresh','cleancode','separator'],
+['cut','copy','paste','delete','remove','undo','redo','separator'],
+['bold','italic','underline','strikethrough','subscript','superscript','forecolor','backcolor','separator'],
+['justifyleft','justifycenter','justifyright','separator'],['OrderedList','UnOrderedList','Outdent','Indent','separator'],
+['line','createlink','InsertImage','separator'],['popupeditor','about'],['linebreak'],['fontname'],['fontsize'],
+['InsertTable','showborder','TableProperties','separator','RowProperties','InsertRowBefore','InsertRowAfter','DeleteRow','SplitRow','MergeRows','separator','InsertColumnBefore','InsertColumnAfter','DeleteColumn','CellProperties','InsertCellBefore','InsertCellAfter','DeleteCell','SplitCell','MergeCells','separator']]]></config>
+			<group><![CDATA[member]]></group>
+			<active><![CDATA[on]]></active>
+			<xform><![CDATA[]]></xform>
+			<date><![CDATA[200309052055]]></date>
+			<owner><![CDATA[full]]></owner>
+		</setting>
+		<setting>
+			<id><![CDATA[3]]></id>
+			<name><![CDATA[Editor editor access]]></name>
+			<config><![CDATA[['refresh','cleancode','separator'],
+['cut','copy','paste','delete','remove','undo','redo','separator'],
+['bold','italic','underline','strikethrough','subscript','superscript','forecolor','backcolor','separator'],
+['justifyleft','justifycenter','justifyright','separator'],['OrderedList','UnOrderedList','Outdent','Indent','separator'],
+['line','createlink','InsertImage','separator'],['popupeditor','about'],['linebreak'],['fontname'],['fontsize'],
+['InsertTable','showborder','TableProperties','separator','RowProperties','InsertRowBefore','InsertRowAfter','DeleteRow','SplitRow','MergeRows','separator','InsertColumnBefore','InsertColumnAfter','DeleteColumn','CellProperties','InsertCellBefore','InsertCellAfter','DeleteCell','SplitCell','MergeCells','separator']]]></config>
+			<group><![CDATA[editor]]></group>
+			<active><![CDATA[on]]></active>
+			<xform><![CDATA[]]></xform>
+			<date><![CDATA[200309052056]]></date>
+			<owner><![CDATA[full]]></owner>
+		</setting>
+	</editorsettings>
+	<pages>
+		<page readonly="readonly">
+			<id><![CDATA[1]]></id>
+			<category><![CDATA[1]]></category>
+			<name><![CDATA[home]]></name>
+			<visible><![CDATA[on]]></visible>
+			<member><![CDATA[off]]></member>
+			<body><![CDATA[This is a sample site, you can start to customize it immediatly by login with this account: <BR><LI><STRONG>Login</STRONG>: full<LI><STRONG>Password</STRONG>: xml <BR>After you log in, just click on the "ADMINISTRATION" link in the top menu. The first thing to do&nbsp;will be&nbsp;to change this login information with more secure one.&nbsp;</LI>]]></body>
+			<idparentpage><![CDATA[]]></idparentpage>
+			<advertisement><![CDATA[]]></advertisement>
+			<count><![CDATA[5]]></count>
+			<sortorder><![CDATA[descending]]></sortorder>
+			<showtoolbar><![CDATA[on]]></showtoolbar>
+			<margintype><![CDATA[0]]></margintype>
+			<externallink><![CDATA[]]></externallink>
+			<sortfield><![CDATA[publicationdate]]></sortfield>
+			<showmenu><![CDATA[on]]></showmenu>
+			<articlenumber><![CDATA[6]]></articlenumber>
+			<showsearch><![CDATA[off]]></showsearch>
+			<toppages><![CDATA[off]]></toppages>
+			<topdownloads><![CDATA[off]]></topdownloads>
+			<publicationdate><![CDATA[20020304]]></publicationdate>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<showtitle><![CDATA[on]]></showtitle>
+		</page>
+	</pages>
+	<contents>
+		<content>
+			<id><![CDATA[1]]></id>
+			<author><![CDATA[FULL]]></author>
+			<xmlsource><![CDATA[]]></xmlsource>
+			<title><![CDATA[Congratulation !]]></title>
+			<body><![CDATA[]]></body>
+			<publicationdate><![CDATA[20020301]]></publicationdate>
+			<headlines><![CDATA[If you can read this, then you have successfully install Fullxml 2, congratulation !!!<br>We hope that you will enjoy building your website with our product.]]></headlines>
+			<idpage><![CDATA[1]]></idpage>
+			<xslsource><![CDATA[]]></xslsource>
+			<type><![CDATA[headline]]></type>
+			<visible><![CDATA[on]]></visible>
+			<date><![CDATA[20020301]]></date>
+			<count><![CDATA[0]]></count>
+			<showtoolbar><![CDATA[off]]></showtoolbar>
+			<showdateauthor><![CDATA[off]]></showdateauthor>
+			<owner><![CDATA[full]]></owner>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<showtitle><![CDATA[on]]></showtitle>
+		</content>
+		<content>
+			<id><![CDATA[2]]></id>
+			<count><![CDATA[0]]></count>
+			<author><![CDATA[FULL]]></author>
+			<xmlsource><![CDATA[]]></xmlsource>
+			<title><![CDATA[news]]></title>
+			<body><![CDATA[<marquee Class="Scroller" behavior="scroll" direction="up" width="140" height="160" scrollamount="1" scrolldelay="60" onmouseover="this.stop()" onmouseout="this.start()"><marquee Class="Scroller" behavior="scroll" direction="up" width="140" height="160" scrollamount="1" scrolldelay="60" onmouseover="this.stop()" onmouseout="this.start()"><li>To get latest informations and updates, visit <a href="http://www.fullxml.com">Fullxml.com</a><br clear=all></marquee></marquee>]]></body>
+			<publicationdate><![CDATA[20020304]]></publicationdate>
+			<headlines><![CDATA[]]></headlines>
+			<idpage><![CDATA[1]]></idpage>
+			<xslsource><![CDATA[]]></xslsource>
+			<type><![CDATA[margin]]></type>
+			<visible><![CDATA[on]]></visible>
+			<date><![CDATA[20020217]]></date>
+			<showtoolbar><![CDATA[off]]></showtoolbar>
+			<showdateauthor><![CDATA[off]]></showdateauthor>
+			<owner><![CDATA[full]]></owner>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<showtitle><![CDATA[on]]></showtitle>
+		</content>
+		<content>
+			<id><![CDATA[3]]></id>
+			<count><![CDATA[0]]></count>
+			<showtoolbar><![CDATA[off]]></showtoolbar>
+			<author><![CDATA[FULL]]></author>
+			<xmlsource><![CDATA[]]></xmlsource>
+			<title><![CDATA[What is fullxml ?]]></title>
+			<body><![CDATA[]]></body>
+			<publicationdate><![CDATA[20020304]]></publicationdate>
+			<headlines><![CDATA[Fullxml is a free instant portal and content manager system based on XML/XSL. <br>For more informations or feedback, go to our website: <a href="http://www.fullxml.com">fullxml.com</a>]]></headlines>
+			<idpage><![CDATA[1]]></idpage>
+			<xslsource><![CDATA[]]></xslsource>
+			<type><![CDATA[headline]]></type>
+			<showdateauthor><![CDATA[off]]></showdateauthor>
+			<visible><![CDATA[on]]></visible>
+			<date><![CDATA[200202202257]]></date>
+			<owner><![CDATA[full]]></owner>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<showtitle><![CDATA[on]]></showtitle>
+		</content>
+		<content>
+			<id><![CDATA[4]]></id>
+			<count><![CDATA[0]]></count>
+			<showtoolbar><![CDATA[off]]></showtoolbar>
+			<author><![CDATA[FULL]]></author>
+			<xmlsource><![CDATA[]]></xmlsource>
+			<title><![CDATA[Main article: ]]></title>
+			<body><![CDATA[]]></body>
+			<publicationdate><![CDATA[20020304]]></publicationdate>
+			<headlines><![CDATA[As you can see, you can create different kind of article: headline(just above), margin(on the right) and body (this one).<br>Articles can contain text/html or external feed provide by XML or RSS.<br/>You can also export a RSS channel from your website, the url is: /rss.asp<br/>You can find more help in the admin console.]]></headlines>
+			<idpage><![CDATA[1]]></idpage>
+			<xslsource><![CDATA[]]></xslsource>
+			<type><![CDATA[body]]></type>
+			<showdateauthor><![CDATA[off]]></showdateauthor>
+			<visible><![CDATA[on]]></visible>
+			<date><![CDATA[200202202301]]></date>
+			<owner><![CDATA[full]]></owner>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<showtitle><![CDATA[on]]></showtitle>
+		</content>
+		<content>
+			<id><![CDATA[5]]></id>
+			<count><![CDATA[0]]></count>
+			<idpage><![CDATA[1]]></idpage>
+			<type><![CDATA[margin]]></type>
+			<title><![CDATA[Powered by fullxml]]></title>
+			<headlines><![CDATA[<b>Powered by fullxml</b><br><br><center><a href="http://www.fullxml.com" align=center><img src=media/fullxml.gif align=left border=0 hspace=2></a></center>]]></headlines>
+			<body><![CDATA[]]></body>
+			<author><![CDATA[FULL]]></author>
+			<position><![CDATA[right]]></position>
+			<xmlsource><![CDATA[]]></xmlsource>
+			<xslsource><![CDATA[]]></xslsource>
+			<showtitle><![CDATA[off]]></showtitle>
+			<showtoolbar><![CDATA[off]]></showtoolbar>
+			<showdateauthor><![CDATA[off]]></showdateauthor>
+			<visible><![CDATA[on]]></visible>
+			<publicationdate><![CDATA[20020604]]></publicationdate>
+			<expirationdate><![CDATA[]]></expirationdate>
+			<xform><![CDATA[]]></xform>
+			<date><![CDATA[200306060830]]></date>
+			<owner><![CDATA[FULL]]></owner>
+		</content>
+	</contents>
+	<tips/>
+	<photocategories/>
+	<photos/>
+</siteinfo>

@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<language>
+	<name>Turkish</name>
+	<translator>
+		<name>Emin CAKI</name>
+		<email>eminantalya@hotmail.com</email>
+	</translator>
+	<encoding>iso-8859-9</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Website Yöneticisi</string>
+		<string>Siteyi İzle</string>
+		<string>Ayarlar</string>
+		<string>Sayfalar</string>
+		<string>İçerikler</string>
+		<string>Anketler</string>
+		<string>Alıntılar</string>
+		<string>Resimler</string>
+		<string>Üyeler</string>
+		<string>Ziyaretçi Defteri</string>
+		<string>İstatistikler</string>
+		<string>Tepkiler</string>
+		<string>Forumlar</string>
+		<string>Yükle</string>
+		<string>Yeni...</string>
+		<string>Sil</string>
+		<string>Düzenle...</string>
+		<string>   OK   </string>
+		<string>İptal</string>
+		<!-- Genel Ayarlar, strat @ position 20 -->
+		<string>Website Ayarları</string>
+		<string>Site adı</string>
+		<string>Yönetici Girişi</string>
+		<string>Şifre</string>
+		<string>META Başlık</string>
+		<string>Yönetici E-Posta</string>
+		<string>Website Linki</string>
+		<string>META Anahtar Kelimeler</string>
+		<string>META Açıklama</string>
+		<string>Arayüz</string>
+		<string>Dil</string>
+		<string>Ana Sayfa</string>
+		<string>Logo dizini</string>
+		<string>Araç Çubuğu</string>
+		<string>Copyright</string>
+		<string>Editör Statüsü</string>
+		<string>Menüyü Göster</string>
+		<string>Makale Ataç Çubuğunu Göster</string>
+		<string>Arama Formunu Göster</string>
+		<string>İlaveler Listesi</string>
+		<string>Anketler</string>
+		<string>Alıntılar</string>
+		<string>Resim Galerisi</string>
+		<string>Ziyaretçi Defteri</string>
+		<string>Forumlar</string>
+		<string>Makaleleri yazar ve tarihe göre göster</string>
+		<string>Üyelik Hemen Onaylansın mı?</string>
+		<string>Forum mesajları anında yayınlansın mı?</string>
+		<string>Ziyaretçi Defteri mesajları anında yayınlansın mı?</string>
+		<string>Slogan</string>
+		<!-- Sayfa Ayarları, strat @ position 50 -->
+		<string>Websayfa Yönetimi</string>
+		<string>Sayfa Başlığı</string>
+		<string>Ana Sayfa</string>
+		<string>Seviye Tipi</string>
+		<string>Editör</string>
+		<string>Reklam Tagı</string>
+		<string>Görünürlük</string>
+		<string>Bu sayfa silinemez!</string>
+		<string>Bu sayfanın silinmesini onaylıyormusunuz? </string>
+		<string>Yayınlama Durumu</string>
+		<!-- 60 -->
+		<string>Evet</string>
+		<string>Hayır</string>
+		<!--  end-->
+		<string>Listelenmiş</string>
+		<string>Yayım tarihi</string>
+		<string>Bitiş Tarihi</string>
+		<string>Harici Link</string>
+		<string>Kategori</string>
+		<string>Top Sayfalar</string>
+		<string>Hesap</string>
+		<string>Makale Sayısı</string>
+		<!-- Content Ayarları, start @ position 70 -->
+		<string>İçerik Yöneticisi</string>
+		<string>İçerik Başlığı</string>
+		<string>Pozisyonu</string>
+		<string>Websayfası</string>
+		<string>Yazar</string>
+		<string>Tarih</string>
+		<string>XML Kaynağı</string>
+		<string>XSL temp</string>
+		<string>Başlıklar</string>
+		<string>Gövde</string>
+		<string>Bu dataları düzenleme modunda değiştir</string>
+		<string>Görünürlük</string>
+		<string>Bu makaleye yorum gönderemezsiniz.</string>
+		<string>Bu içeriği silmek istiyormusunuz? </string>
+		<string>Yazdır</string>
+		<string>Bir arkadaşına gönder</string>
+		<string>Fikrinizi Belirtmek İstermisiniz?</string>
+		<string>Arşiv</string>
+		<string>Tüm Sayfalar</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Anket Yönetimi</string>
+		<string>Anket Adı</string>
+		<string>Soru</string>
+		<string>Cevap 1</string>
+		<string>Cevap 2</string>
+		<string>Cevap 3</string>
+		<string>Cevap 4</string>
+		<string>Cevap 5</string>
+		<string>Oy Sayısı</string>
+		<string>Yayınlandığı Sayfa</string>
+		<string>Hiçbiri</string>
+		<string>Bu anketi silmek istiyormusunuz? </string>
+		<string>OY VER!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Alıntı Yönetimi</string>
+		<string>Alıntı İçeriği</string>
+		<string>Bu alıntıyı silmek istiyormusunuz?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Resim Galerisi Yönetimi</string>
+		<string>Resim Adı</string>
+		<string>Resim adresi </string>
+		<string>Yorum</string>
+		<string>Bu resmi galeriden silmek istiyormusunuz?</string>
+		<string>Seç</string>
+		<string>Küçük resim adresi </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Üye Yönetimi</string>
+		<string>Kullanıcı Adı</string>
+		<string>Şifre</string>
+		<string>E-Posta</string>
+		<string>Şehir</string>
+		<string>Tarih</string>
+		<string>E-Posta programına adresleri kopyalayıp yapıştırmanız halinde tümüne E-Posta gönderebilirsiniz: </string>
+		<string>Bu Üyeyi silmek istiyormusunuz?</string>
+		<string>Tip</string>
+		<string>Durum</string>
+		<!-- Ziyaretçi Defteri strings, start @ position 140 -->
+		<string>Ziyaretçi Defteri Yönetimi</string>
+		<string>Adı</string>
+		<string>Konu</string>
+		<string>Mesaj</string>
+		<string>Tarih</string>
+		<string>E-Posta</string>
+		<string>Görünürlük</string>
+		<string>Ziyaretçi Defterinden bu mesajı silmek istiyormusunuz?</string>
+		<string>Görüşlerinizi Eklermisiniz?</string>
+		<string><![CDATA[<b>Sitemizin büyümesindeki katkılarınızdan dolayı teşekkür ederiz!</b><br/>Değerlendirme ve görüşünüz en kısa sürede yayımlanacaktır.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Tepki Yönetimi</string>
+		<string>Ad</string>
+		<string>Konu</string>
+		<string>Makale</string>
+		<string>Mesaj</string>
+		<string>Tarih</string>
+		<string>Görünürlük</string>
+		<string>Bu tepkiyi Silmek istiyormusunuz?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Kaynaklar</string>
+		<string>Kaynak Yönetimi</string>
+		<string>Başlık</string>
+		<string>Tip</string>
+		<string>Dizin</string>
+		<string>Yorum</string>
+		<string>Genişlik</string>
+		<string>Yükseklik</string>
+		<string>Resim</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Diğerleri</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Yükleme strings, start @ position 180 -->
+		<string>Dosya Yükleme</string>
+		<string>Gönder</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Forum Yönetimi</string>
+		<string>Başlık</string>
+		<string>Açıklama</string>
+		<string>Görünürlük</string>
+		<string>Görünsün</string>
+		<string>Görünmesin</string>
+		<string>Bu forumu silmek istiyormusunuz? </string>
+		<string>Gönder</string>
+		<string>Cevapla</string>
+		<string>Giriş</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Ziyaretçi Analizi</string>
+		<string>İzlenen Sayfalar</string>
+		<string>Ziyaretçiler</string>
+		<string>Takvim</string>
+		<string>Detaylar </string>
+		<string>En Çok Ziyaret Edilen Sayfalar</string>
+		<string>Ziyaretçi Sayısı</string>
+		<string>Zaman</string>
+		<string>URL</string>
+		<string>Tavsiye Eden</string>
+		<string>IP adresi</string>
+		<string>Tarih</string>
+		<string>Ziyaretler</string>
+		<string>Grid görünüm</string>
+		<string>Grafik Görünüm</string>
+		<string>Ülke</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Ana Menü</string>
+		<string>İlaveler</string>
+		<string>Denetim</string>
+		<string>İstatistikler</string>
+		<string>Yardım</string>
+		<string>Hızlı Başlangıç</string>
+		<string>Bağlı Ziyaretçi </string>
+		<string>Bağlı Ziyaretçi</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Sitede Ara</string>
+		<string>Kayıt Ol</string>
+		<string>Ziyaretçi Defteri</string>
+		<string>Resimler</string>
+		<string>Forumlar</string>
+		<string>Yönetim</string>
+		<string>Çıkış</string>
+		<string>Menü</string>
+		<string>Giriş</string>
+		<string>Anket</string>
+		<string>Alıntılar</string>
+		<string>Geri</string>
+		<string>Sonraki</string>
+		<string>Devamı</string>
+		<string>Sayfa Ekle...</string>
+		<string>Makale Ekle...</string>
+		<string>Üye Anketi Ekle...</string>
+		<string>Giriş</string>
+		<string/>
+		<string/>
+	<!-- Forum Message template strings, start @ position 260 -->
+		<string>Forum Mesaj Yönetimi</string>
+		<string>Başlık</string>
+		<string>Kullanıcı Adı</string>
+		<string>Görünürlük</string>
+		<string>Görünür</string>
+		<string>Gizli</string>
+		<string>Bu mesajı silmek istiyormusunuz</string>
+		<string>Gönder</string>
+		<string>Cevapla </string>
+		<string>Makale Gönder</string>
+		<string>Makale Yaz</string>
+		<string> Görmek için üyemiz olunuz.</string>
+		<string>Forum Mesajları</string>
+		<string>Gövde</string>
+		<string>Cevaplanma Durumu: </string>
+		<string>Sonraki: </string>
+		<string>Geri </string>
+		<string>Yakın Görüşler</string>
+		<string>Ağaç Görünümü</string>
+		<string>Mesaj Listesine Geri Dön</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Masaüstü</string>
+		<string>Üye Sayısı </string>
+		<string>Geçerli ziyaretçi mesajları </string>
+		<string>Geçerli tepki sayısı</string>
+		<string>Geçerli forum mesajı sayısı</string>
+		<string>Alınan Hit</string>
+		<string>Hoşgeldiniz</string>
+		<string>Kullandığınız Sürüm: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Görev Listesi</string>
+		<string>Yeni görev ekle</string>
+		<string>Oluştur</string>
+		<string>Son</string>
+		<string>Açıklama</string>
+		<string>Önemli</string>
+		<string>Ekle</string>
+		<string>Tarih</string>
+		<string>Bitti</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Kayıt Ol</string>
+		<string>Kayıt olarak üyelerimiz için ayrılmış bölümlere ulaşabilirsiniz.</string>
+		<string>Kullanıcı Adı</string>
+		<string>Şifre</string>
+		<string>E-Posta</string>
+		<string>Şehir</string>
+		<string>Tamam</string>
+		<string>(*) doldurulması gerekli alanlar</string>
+		<string>Teşekkürler kaydınız tamamlanmıştır!Şimdi sol tarafta bulunan giriş bölümünden sitemize üyelerimizin arasına katılabilirsiniz.</string>
+		<string>Kayıt yaptırdığınız için teşekkür ederiz. En kısa sürede kaydınız kontrol edilerek aktive edilecektir.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Konu</string>
+		<string>Adı</string>
+		<string>Başlık</string>
+		<string>Mesaj</string>
+		<string>Tamam</string>
+		<string>Reaksiyonlar</string>
+		<string>Gönderen: </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Marjlar</string>
+		<string>Sadece Sol Sütun</string>
+		<string>Sadece Sağ Sütun</string>
+		<string>Ortada</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Kategori  template strings, start @ position 330 -->
+		<string>Kategori</string>
+		<string>Kategori Yönetimi</string>
+		<string>Adı</string>
+		<string>Görebilecekler</string>
+		<string>Görünürlük</string>
+		<string>Bu Kategori Silinemez</string>
+		<string>Bu kategoriyi silmek istiyormusunuz?</string>
+		<string>Bu kategorinin listesini göster</string>
+		<string>Tüm kategoriler</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Reklamlar</string>
+		<string>Adı</string>
+		<string>İzlenme Sayısı</string>
+		<string>Hedef Link</string>
+		<string>Gif kaynağı</string>
+		<string>Reklam Yönetimi</string>
+		<string>Bu reklamı silmek istiyormusunuz?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>İndirilecekler</string>
+		<string>Adı</string>
+		<string>Adresi</string>
+		<string>Yöneticisinin Sitesi</string>
+		<string>Açıklama</string>
+		<string>Lisans</string>
+		<string>Ücret</string>
+		<string>İşletim Sistemi</string>
+		<string>İndirilecekler Yönetimi</string>
+		<string>Bu dosyayı silmek istiyormusunuz?</string>
+		<string>İndirilme Sayısı </string>
+		<string>İndir </string>
+		<string>En Fazla İndirilenler</string>
+		<string>Ebatı</string>
+		<string>Versiyon</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Site Haritası</string>
+		<string>Arama Sonuçları</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- E-Posta  template strings, start @ position 380 -->
+		<string>E-Posta fonksiyonları</string>
+		<string>Exchange server</string>
+		<string>Uyarı Ziyaretçi Defteri Kaydında</string>
+		<string>Uyarı Forum Kaydında</string>
+		<string>Uyarı Reaksiyon Verilince</string>
+		<string>Uyarı Kayıt Olununca</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Yanlış Şifre veya aktive edilmemiş hesap. Daha sonra tekrar deneyiniz.</string>
+		<string>Her anket için yalnız bir oy verebilirsiniz!</string>
+		<string>Hoşgeldiniz.Kaydınız Aktive edilmiştir.</string>
+		<string>Bazı alanlar boş bırakılmış. Formu doldurarak tekrar deneyiniz.</string>
+		<string>Bu kullanıcı adı alınmıştır, Başka seçiniz.</string>
+		<string>Yönetici Hesabına Sahipsiniz!\Unutmayınız işiniz bittikten sonra çıkış yapmamanız halinde başkaları site üzerinde istenmeyen değişiklikler yapabilirler.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Makale/Yazı Türlerine Göre Ayırım </string>
+		<string>Sayfa Tür Ayrımı</string>
+		<string>Başlık</string>
+		<string>Yayınlanma Tarihi</string>
+		<string>NO</string>
+		<string>Sıralı</string>
+		<string>Sıralı(Tersten)</string>
+		<string>Başlık Görünsün</string>
+		<string>Bu sayfanın içerik listesini gör</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>Yeni</string>
+		<string>Yeni Mesaj</string>
+		<string>E-Posta yoluyla konfirmasyon</string>
+		<string>E-Posta Onayı</string>
+		<string>Kayıt İşleminiz Onaylandı: </string>
+		<string>Kayıt işleminizin tamamlanması için, aşağıdaki linke tıklayınız: </string>
+		<string>Kayıt İşlemi Bilgileriniz: </string>
+		<string>Kayıt olduğunuz için TEŞEKKÜRLER. Birkaç dakika içerisinde belirttiğiniz e-posta adresinize konfirmasyon için gelen mesajı okuyunuz.. </string>
+		<string>Yönetici</string>
+		<string>Editör</string>
+		<!-- Misc , start @ position 430 -->
+		<string>Üye</string>
+		<string>Haberlerin EPosta ile gelmesini istermisiniz (Haftada bir)</string>
+		<string>Mektup</string>
+		<string>Pozisyonu</string>
+		<string>Tepe</string>
+		<string>Alt</string>
+		<string>Sol</string>
+		<string>Sağ</string>
+		<string>Not: Çift tıklayınız yada CTRL-T tuşlarına basarak WYSIWYG (sayfa_yapma) moduna geçiniz</string>
+		<string>İleri seviye bölümleri göster</string>
+		<!-- Misc , start @ position 440 -->
+		<string>İleri Seviye Bölümleri Gizle</string>
+		<string>Grup</string>
+		<!-- Browsers stats -->
+		<string>Browser grup</string>
+		<string>Sürüm Detayları</string>
+		<string>Browser</string>
+		<string>Sürüm</string>
+		<string>Yüzde</string>
+		<string>Diğerleri</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Dil Kodu</string>
+		<string>Başlık</string>
+		<string>Marjlar</string>
+		<string>Gövde</string>
+		<!-- Ziyaretçi Defteri's buttons -->
+		<string>Tamam</string>
+		<string>Temizle</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Sayfamızın gelişimine katkılarınızdan dolayı teşekkürler!</b><br/>Webmaster tarafından en kısa sürede değerlendirilecektir.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Yeni makale geçerli yayım durumu</string>
+		<string>E-Posta fonksiyonları aktive edilsin mi? (jMail gerekir)</string>
+		<string>Yüklenmiş E-Posta bağlantı eklentisi</string>
+		<!-- 460 -->
+		<!-- forgot Şifre -->
+		<string>Şifremi Unuttum?</string>
+		<string>Şifrenizimi Unuttunuz?</string>
+		<string>Kullanıcı Adınızı ve e-posta adresinizi giriniz, gönder tuşuna basınız, en kısa sürede şifrenizi içeren bir e-posta alacaksınız.</string>
+		<string>Kullanıcı Adınız</string>
+		<string>E-posta Adresiniz</string>
+		<string>Tamam</string>
+		<string>Üyelik Bilgileri</string>
+		<string>Aşağıdaki bilgiler isteğiniz üzerine gönderilmiştir:</string>
+		<string>Şifre</string>
+		<string>Ziyaretinizi Bekliyoruz!</string>
+		<!-- 470 -->
+		<string>Yanlış Kullanıcı Adı veya Şifre.</string>
+		<string>Hatırlama e-postanız gönderildi.</string>
+		<string>Bilgileri tekrar giriniz</string>
+		<string>Şimdi Kayıt Olunuz !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Bilgilerim</string>
+		<string>Form Tamamen Doldurulmamış, Bütün alanları doldurmanız gerekir.</string>
+		<string>Bilgileriniz Güncellenmiştir!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>Hiçbiri</string>
+		<string>Oto-Tara</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menü Çubuğu</string>
+		<string>Ana Sayfa</string>
+		<string>Ana Sayfaya Geri Dön</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Rehberler</string>
+		<string>Rehber Yönetimi</string>
+		<string>Yeni Rehber</string>
+		<string>Adı</string>
+		<string>Yayınlandı</string>
+		<string>Yeni Rehber</string>
+		<string>Yeni Kategori</string>
+		<string>Kategoriler</string>
+		<!-- 490 -->
+		<string>Yeni madde</string>
+		<string>Yeni rehber</string>
+		<string>Rehber Düzenleme</string>
+		<string>Yeni Kategori</string>
+		<string>Kategori Düzenleme </string>
+		<string>Yeni Alt-Kategori</string>
+		<string>Düzenleme Alt-Kategori</string>
+		<string>Yeni madde</string>
+		<string>Madde Düzenle</string>
+		<string>Özet</string>
+		<!-- 500 -->
+		<string>Açıklama</string>
+		<string>Website</string>
+		<string>İndirme Linki</string>
+		<string>Resim yolu</string>
+		<string>Genel Yayımlama</string>
+		<string>Maddelerin </string>
+		<string>Üye</string>
+		<string>İndir</string>
+		<string>Website</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Kitap</string>
+		<string>MP3</string>
+		<string>Çalışan</string>
+		<string>Ürün</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Üyeler</string>
+		<string>İndirilecekler</string>
+		<string>Web Sayfaları</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Kitap</string>
+		<string>MP3</string>
+		<string>Çalışan</string>
+		<string>Ürün</string>
+		<string/>
+		<!-- 530 -->
+		<string>Rehber</string>
+		<string>Ana Sayfa</string>
+		<string>Kayıtlı site sayısı: </string>
+		<string>Yeni Ekle</string>
+		<string>Toplam Hit</string>
+		<string>Eklemeniz kaydedildi. Site editörü tarafından yayınlanmak üzere incelenecektir. Desteğiniz için teşekkürler.</string>
+		<string>En Popüler</string>
+		<string>Defa</string>
+		<string>En son Eklenen</string>
+		<string>Yeni ekleme</string>
+		<!-- 540 -->
+		<string>Yeni dizin eklenmesi</string>
+		<string>Kısa Açıklama</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Dosya Sayısı: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Sayfa</string>
+		<string>GERİ</string>
+		<string>İLERİ</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Online Üye</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Özgeçmiş</string>
+		<string>Ad</string>
+		<string>E-Postanız</string>
+		<string>Konu</string>
+		<string>Mesaj</string>
+		<string>Site Yöneticisine Gönder</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Zengin media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Mesaj gönderilecek kişi</string>
+		<string>E-Posta Adresi:</string>
+		<string>Adı:</string>
+		<string>Konu:</string>
+		<string>Mesaj:</string>
+		<string>Mesaj Gönderiniz</string>
+		<string>Eğer giriş yaparsanız mesajınız gönderilecektir.</string>
+		<string>Mesajınız Gönderildi.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Bulunan Makaleler</string>
+		<string>Bulunan Forumlar</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Bu listeyi CSV dosyasına aktarınız</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Pozisyonu</string>
+		<string>KAPAT</string>
+		<string>Yukarı</string>
+		<string>Aşağı</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forumlar</string>
+		<string>Konular</string>
+		<string>Görüş</string>
+		<string>Son Gönderilenler</string>
+		<string>Yazan</string>
+		<string>Başlatan</string>
+		<string>Cevaplar</string>
+		<string>Konu</string>
+		<string>Tarih</string>
+		<string>Görüş Ekle</string>
+		<!-- 580 -->
+		<string>Forumlar</string>
+		<string>Forum</string>
+		<string>Forumlarda Ara</string>
+		<string>Daha önceki bir mesaja yorum yaz</string>
+		<string>Cevapladığınız mesajı</string>
+		<string>Gönderen</string>
+		<string>Tarih</string>
+		<string>Konu</string>
+		<string>Mesaj</string>
+		<string>Yeni Konu</string>
+		<!-- 590 -->
+		<string>Bu bir otomatik hatırlatmadır.
+		Forumlarda yazdığınız bir konuya bir üye tarafından mesaj gönderilmiştir. Görmek için:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Editör</string>
+		<string>Düzenleyen Editör </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Reaksiyonlar hemen yayınlansın mı?</string>
+		<string>Makaleler hemen yayınlansın mı?</string>
+		<string>Makale Sayfalama</string>
+		<string>Üyelik tarihi</string>
+		<string>Şehir</string>
+		<!-- 601 -->
+		<string>Arayüz Düzenleme</string>
+		<string>Değiştirilebilir</string>
+		<string>İsim</string>
+		<string>Arayüz</string>
+		<string>Düzenleyen</string>
+		<!-- 606 -->
+		<string>Beni Hatırla</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>Bilgi Bankası</string>
+		<string>Yakın</string>
+		<string>Bağlı</string>
+		<string>Bölüm:</string>
+		<string>[Üst]</string>
+		<string>Bağlantılı Yazılar</string>
+		<string>Ara</string>
+		<string>Yeni Gönder</string>
+		<string>Tümü</string>
+		<string>Bölüm:</string>
+		<!-- 630 is the one up-->
+		<string>Ana</string>
+		<string>Bölüm:</string>
+		<string>Yeni bağlantı kur</string>
+		<string>Ayar</string>
+		<string>Bölüm</string>
+		<string>Gönder</string>
+		<string>Başlık</string>
+		<string>Sürüm</string>
+		<string>Bilgi</string>
+		<string>Gösterim</string>
+		<!-- 640 is the one up -->
+		<string>No</string>
+		<string>Adı</string>
+		<string>İşaret</string>
+		<string>Görünür</string>
+		<string>Bölüm</string>
+		<string>İçeriği</string>
+		<string>ekle..</string>
+		<string>Bağlantılı Yazılar</string>
+		<string>bağlantıları</string>
+		<string>Bilinen Bağlantılar</string>
+		<!-- 650 is the one up -->
+		<string>BB-dÜZENLEME</string>
+		<string>Kapalı</string>
+		<string>Herkese Açık</string>
+		<string>Üyeler İçin</string>
+		<string>Bu bölüm için gönderim yok.</string>
+		<string>Sonraki Bağlantıyı Kaldır</string>
+		<string>Git</string>
+		<string>Lütfen bilgi bankasından uygun olan birini seçiniz.</string>
+		<string>Bilgi Bankası Yönetici Seviyesi:</string>
+		<string>Bilgi Bankası EditörSeviyesi:</string>
+		<!-- 660 is the one up -->
+		<string>Bilgi Bankası Üye Seviyesi:</string>
+		<string>Herkese Açık Seviye:</string>
+		<string>Hata</string>
+		<string>Ulaymaya çalıştığınız bilgi bankası ya girilmemiş yada şu an kapalı. Eğer bunun hata olduğunu düşünüyorsanız lütfen bizi ikaz ediniz.</string>
+		<string>Bilgi Bankası Kapalı!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Liste Yönetimi</string>
+		<string>Listeler</string>
+		<string>Liste</string>
+		<string>Girişler</string>
+		<string>Giriş</string>
+		<string>Bu dosyayı silmek istediğinizden emin misiniz? Bu listeye bağlı özelliklerin pasifleştirildiğinden emin olunuz.</string>
+		<string>Bu bir sistem listesidiri. Silinemez yada yeniden adlandırılamaz!</string>
+		<string>Görünen Adı</string>
+		<string>Değeri</string>
+		<string>Bu kaydı silmek istediğinizden eminmisiniz?</string>
+		<!-- 680 is the one up -->
+		<string>Bu kayıt bir sistem listesine ait. Silinemez yada değeri değiştirilemez!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>P</string>
+		<string>Pt</string>
+		<string>S</string>
+		<string>Ç</string>
+		<string>Pr</string>
+		<string>C</string>
+		<string>Ct</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Ocak</string>
+		<string>Şubat</string>
+		<string>Mart</string>
+		<string>Nisan</string>
+		<string>Mayıs</string>
+		<string>Haziran</string>
+		<string>Temmuz</string>
+		<string>Ağustos</string>
+		<string>Eylül</string>
+		<string>Ekim</string>
+		<!-- 720 is the one up -->
+		<string>Kasım</string>
+		<string>Aralık</string>
+		<string>Etkinlikler</string>
+		<string>Daha fazla bilgi:</string>
+		<string>No</string>
+		<string>Tarih</string>
+		<string>Açıklama</string>
+		<string>Kısa Bilgi</string>
+		<string>Açıklama</string>
+		<string>Link</string>
+		<!-- 730 is the one up -->
+		<string>Görünür</string>
+		<string>Tarih</string>
+		<string>Etkinlik Takvimi</string>
+		<string>Takvim</string>
+		<string>Etkinlik Takvimi</string>
+		<string>geri</string>
+		<string>sonraki</string>
+		<string>başlangıca gözat</string>
+		<string>gözat</string>
+		<string>yeni etkinlik</string>
+		<!-- 740 is the one up -->
+		<string>takvim bölgesi</string>
+		<string>etkinlik  ekle</string>
+		<string>Takvim Seç</string>
+		<string>Takvim</string>
+		<string>Git</string>
+		<string>görünürlük</string>
+		<string>Bu takvimi kullanma hakkınız yok</string>
+		<string>önizleme</string>
+		<string>her sayfadaki etkinlikler</string>
+		<string>sayfalardaki önizlemeler</string>
+		<!-- 750 is the one up -->
+		<string>Etkinlik buluşması</string>
+		<string>Etkinlik ara</string>
+		<string>Git</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Sohbet</string>
+		<string>Oda</string>
+		<string>Yeni Oda Oluştur</string>
+		<string>Browserinizin frame desteği yok.</string>
+		<string>ziyaretci</string>
+		<string>Mesaj</string>
+		<string>İsim</string>
+		<string>Açıklama</string>
+		<string>Oda</string>
+		<string>Açıklama</string>
+		<!-- 770 is the one up -->
+		<string>Op</string>
+		<string>Kullanıcı Adı</string>
+		<string>Yeni kullanıcı</string>
+		<string>Geçerli Kullanıcı</string>
+		<string>odadan çık</string>
+		<string>Sohbet</string>
+		<string>Sahibi</string>
+		<string>Eski mesajları sil</string>
+		<string>Sohbet-Editör</string>
+		<string>no</string>
+		<!-- 780 is the one up -->
+		<string>Özel Mesaj</string>
+		<string>geri</string>
+		<string>sil</string>
+		<string>Operatör tarafından etkinliğiniz iptal edildi. Lütfen odayı terkediniz.</string>
+		<string>Action, to perform on</string>
+		<string>operatör</string>
+		<string>üye</string>
+		<string>Katıl</string>
+		<string>Bu pencereyi kapatabilirsiniz.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Üye Yönetimi</string>
+		<string>Arama Formu</string>
+		<string>Üye</string>
+		<string>Cinsiyet</string>
+		<string>Yaş</string>
+		<string>Pozisyonu</string>
+		<string>Şehir</string>
+		<string>Bölge</string>
+		<string>Ülke</string>
+		<string>Üyelik Tarihi</string>
+		<!-- 810 is the one up -->
+		<string>Tüm Üyelere Gözat</string>
+		<string>Profilim</string>
+		<string>no</string>
+		<string>Adı</string>
+		<string>Soyadı</string>
+		<string>Websitesi</string>
+		<string>Fotoğraf (dizini)</string>
+		<string>Seçiniz</string>
+		<string>Adres</string>
+		<string>Posta Kodu</string>
+		<!-- 820 is the one up -->
+		<string>Telefon</string>
+		<string>Profilimi Herkes Görebilsin</string>
+		<string>Profilinize gözatılırken vermek istediğiniz mesaj:</string>
+		<string>Yönetici Notları</string>
+		<string>Üye Profili</string>
+		<string>Hoşgeldiniz</string>
+		<string>Halen belirttiğiniz kullanıcı adını kullanan bir üyemiz bulunmamaktadır.</string>
+		<string>Giriş yapmanız halinde bu üyeye ait bilgileri görebilirsiniz.</string>
+		<string>Görmeye çalıştığınız üye ad ya sistemimizde kayıtlı değil yada herkesin görmesi için açılmış değil.</string>
+		<string>İsim</string>
+		<!-- 830 is the one up -->
+		<string>Arkadaş Listene Ekle</string>
+		<string> arkadaş listenize ekendi.</string>
+		<string> arkadaş listenizden çıkartıldı.</string>
+		<string>Üyeler</string>
+		<string>Arkadaş Yönetimi</string>
+		<string>Arkdaşlarım</string>
+		<string>Eylem</string>
+		<string>Sil</string>
+		<string>Mesaj Gönder</string>
+		<string>Üyeye mail at</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Site İçi Mesajlaşma</string>
+		<string>Her üyenin kullanabileceği mesajsayısı</string>
+		<string>Mesajınız gönderildi.</string>
+		<string>Yeni mesajınız yok</string>
+		<string>Yeni mesajınız var</string>
+		<string>Altta listelenen tüm mesajlar size geldi.</string>
+		<string>Tarih</string>
+		<string>Gönderen</string>
+		<string>Konu</string>
+		<string>Site içi mesaj gönder</string>
+		<!-- 860 is the one up -->
+		<string>Mesaj</string>
+		<string>Özür dileriz, bu kullanıcımızın emaili dolu. Daha sonra tekrar deneyiniz.</string>
+		<string>Bu özellik sadece üyelerimize aittir!</string>
+		<string>Siz sadece size gelen mesajlara ulaşabilirsiniz!!!</string>
+		<string>Her üyenin en fazla depolayacağı mesaj sayısı:</string>
+		<string>Aldığınız mesaj  sayısı:</string>
+		<string>yazan:</string>
+		<string>Present message answer this previous message of yours.</string>
+		<string>Cevap</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Konu</string>
+		<string>Mesaj</string>
+		<string>HTML olarak gönder</string>
+		<string>Ekle</string>
+		<string>Haber</string>
+		<string>no</string>
+		<string>konu</string>
+		<string>eylem</string>
+		<string>gönder</string>
+		<string>tekrar gönder</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>büyük harf duyarlı giriş</string>
+		<string>Teslimli kontrol</string>
+		<string>Standard</string>
+		<string>HTTP</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Modül bilgisi</string>
+		<string>açıklama</string>
+		<string>sürüm</string>
+		<string>son güncelleme</string>
+		<string>düzenleyen</string>
+		<string>anasayfa</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>hedef dizin seç</string>
+		<string>dosya ekle</string>
+		<string>Yükle</string>
+		<string>adı</string>
+		<string>büyüklüğü</string>
+		<string>tipi</string>
+		<string>son güncelleme</string>
+		<string>eylem</string>
+		<string>Sil</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Editör Yönetimi</string>
+		<string>no</string>
+		<string>adı</string>
+		<string>Konfigürasyon ayarları</string>
+		<string>aktif</string>
+		<string>grup</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

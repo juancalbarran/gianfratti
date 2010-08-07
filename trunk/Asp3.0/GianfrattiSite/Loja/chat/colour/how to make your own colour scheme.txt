@@ -1,0 +1,52 @@
+How to make your own colour:
+
+Create a new folder, for this example we will use black so create a new folder called 'black'
+
+Create a new file call 'black.asp' where in the 'colour' folder
+
+In black.asp you will put this code:
+
+<%
+'Black colour sheet
+
+strFolderName = "black"
+
+img_bg = "colour/"&strFolderName&"/bg.gif"
+img_top_right_curve =  "colour/"&strFolderName&"/top_right_curve.gif"
+img_bottom_right_curve = "colour/"&strFolderName&"/bottom_right_curve.gif"
+img_bottom_left_curve = "colour/"&strFolderName&"/bottom_left_curve.gif"
+img_top_left_curve	 = "colour/"&strFolderName&"/top_left_curve.gif"
+img_bg_colour = "#0033FF"
+%>
+
+Now open up one of the other colour folders and copy all the images into your 'black' folder.  Edit these images as you wish.
+
+Now to make the new colour scheme add to your page open common.asp up.  Add these lines to the very bottom of common.asp:
+
+<%IF strColourScheme = "Black" THEN%>
+<!--#include file="colour/black.asp" -->
+<%ELSE%>
+<%END IF%>
+
+Now open up the page admin_control.asp.  Scroll down to the lines:
+
+<select name="colour">
+<option <%IF strColourScheme = "Red" THEN Response.write ("selected")%>>Red
+<option <%IF strColourScheme = "Green" THEN Response.write ("selected")%>>Green
+<option <%IF strColourScheme = "Blue" THEN Response.write ("selected")%>>Blue
+<option <%IF strColourScheme = "Yellow" THEN Response.write ("selected")%>>Yellow
+<option <%IF strColourScheme = "White" THEN Response.write ("selected")%>>White
+</select>
+
+To add your new colour to the selection list replace those lines with these lines:
+
+<select name="colour">
+<option <%IF strColourScheme = "Red" THEN Response.write ("selected")%>>Red
+<option <%IF strColourScheme = "Green" THEN Response.write ("selected")%>>Green
+<option <%IF strColourScheme = "Blue" THEN Response.write ("selected")%>>Blue
+<option <%IF strColourScheme = "Yellow" THEN Response.write ("selected")%>>Yellow
+<option <%IF strColourScheme = "White" THEN Response.write ("selected")%>>White
+<option <%IF strColourScheme = "Black" THEN Response.write ("selected")%>>Black
+</select>
+
+You can create as many colour schemes as you wish!

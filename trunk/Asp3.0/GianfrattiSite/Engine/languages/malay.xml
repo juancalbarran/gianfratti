@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Malay</name>
+	<translator>
+		<name>Fuad Sawari</name>
+		<email>fuadsawari@hotmail.com</email>
+	</translator>
+	<encoding>windows-1256</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Editor FullXML</string>
+		<string>Browse laman</string>
+		<string>Konfigurasi</string>
+		<string>Halaman</string>
+		<string>Isikandungan</string>
+		<string>Kajiselidik</string>
+		<string>Nukilan</string>
+		<string>Gambar</string>
+		<string>Ahli</string>
+		<string>Buku Tetamu</string>
+		<string>Statistik</string>
+		<string>Reaksi</string>
+		<string>Forum</string>
+		<string>Upload</string>
+		<string>Baru...</string>
+		<string>Padam</string>
+		<string>Ubahsuai...</string>
+		<string>OK</string>
+		<string>Batal</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Setting Laman Web</string>
+		<string>Nama laman</string>
+		<string>Login Administrator</string>
+		<string>Kata laluan</string>
+		<string>Tajuk META</string>
+		<string>Email Administrator</string>
+		<string>Alamat Laman Web</string>
+		<string>Katakunci META</string>
+		<string>Keterangan META</string>
+		<string>Skin</string>
+		<string>Bahasa</string>
+		<string>Mukadepan</string>
+		<string>Path logo </string>
+		<string>Papar toolbar</string>
+		<string>Hakcipta</string>
+		<string>Senarai pilihan</string>
+		<string>Papar Menu</string>
+		<string>Papar Bar Artikel</string>
+		<string>Papar Form Carian</string>
+		<string>Senarai add-on</string>
+		<string>Kajiselidik</string>
+		<string>Nukilan</string>
+		<string>Galeri Gambar</string>
+		<string>Buku Tetamu</string>
+		<string>Forum</string>
+		<string>Papar tarikh dan masa artikel</string>
+		<string>Status pendaftaran asal</string>
+		<string>Status mesej Forum asal</string>
+		<string>Status mesej Buku Tetamu asal</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Administrator Laman Web </string>
+		<string>Tajuk halaman</string>
+		<string>Halaman berkaitan</string>
+		<string>Jenis Akses</string>
+		<string>Editor</string>
+		<string>Tag Iklan</string>
+		<string>Visibiliti</string>
+		<string>Halaman ini tak boleh dipadam!</string>
+		<string>Adakah anda benar-benar ingin memadam? </string>
+		<string>Penerbitan</string>
+		<!-- 60 -->
+		<string>Ya</string>
+		<string>Tidak</string>
+		<!--  end-->
+		<string>Jadual</string>
+		<string>Tarikh penerbitan</string>
+		<string>Tarikh tamat tempoh</string>
+		<string>Link luar</string>
+		<string>Kategori</string>
+		<string>Laman Teratas</string>
+		<string>Bilangan</string>
+		<string>Bilangan artikel</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Pengurusan Isikandungan</string>
+		<string>Tajuk Isikandungan</string>
+		<string>Posisi</string>
+		<string>Laman</string>
+		<string>Pengarang</string>
+		<string>Tarikh</string>
+		<string>Sumber XML</string>
+		<string>Templet XSL </string>
+		<string>Tajuk Utama</string>
+		<string>Body</string>
+		<string>Edit dengan Editor</string>
+		<string>isibiliti</string>
+		<string>Artikel ini hanya untuk dibaca.</string>
+		<string>Adakah anda benar-benar ingin memadam? </string>
+		<string>Cetak</string>
+		<string>Hantar kepada kawan</string>
+		<string>Beri pandangan anda</string>
+		<string>Arkib</string>
+		<string>Semua halaman</string>
+		<string></string>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Pengurusan Kajiselidik</string>
+		<string>Nama Kajiselidik</string>
+		<string>Soalan</string>
+		<string>Jawapan n°1</string>
+		<string>Jawapan n°2</string>
+		<string>Jawapan n°3</string>
+		<string>Jawapan n°4</string>
+		<string>Jawapan n°5</string>
+		<string>Undian</string>
+		<string>Laman berkaitan</string>
+		<string>Kosong</string>
+		<string>Adakah anda benar-benar ingin memadam Kajiselidik ini? </string>
+		<string>Undi!</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Pengurusan Nukilan</string>
+		<string>Isikandungan nukilan</string>
+		<string>Adakah anda benar-benar ingin memadam nukilan ini?</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Pengurusan Galeri Gambar</string>
+		<string>Nama item</string>
+		<string>Path item</string>
+		<string>Komen</string>
+		<string>Adakah anda benar-benar ingin memadam item ini dariapad galeri?</string>
+		<string>Pilih</string>
+		<string>Path Thumbnail </string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Member strings, start @ position 130 -->
+		<string>Pengurusan Ahli</string>
+		<string>Alias</string>
+		<string>Kata Laluan</string>
+		<string>Email</string>
+		<string>Bandar</string>
+		<string>Tarikh</string>
+		<string>Salin baris ini ke dalam perisian email anda dan hantar kepada  : </string>
+		<string>Adakah anda benar-benar ingin memadam ahli ini?</string>
+		<string>Jenis</string>
+		<string>Status</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Buku Lawatan</string>
+		<string>Pengarang</string>
+		<string>Tajuk</string>
+		<string>Mesej</string>
+		<string>Tarikh</string>
+		<string>Email</string>
+		<string>isibiliti</string>
+		<string>Adakah anda ingin memadam mesej ini?</string>
+		<string>Tandatangan Buku Lawatan</string>
+		<string><![CDATA[<b>Terima kasih kerana menyumbang kepada perkembangan laman ini!</b><br/>Pandangan anda akan dilihat dan diterbitkan selepas diaktifkan oleh webmaster.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Pengurusan Reaksi</string>
+		<string>Pengarang</string>
+		<string>Tajuk</string>
+		<string>Artikel</string>
+		<string>Mesej</string>
+		<string>Tarikh</string>
+		<string>isibiliti</string>
+		<string>Adakah anda ingin memadam mesej ini?</string>
+		<string></string>
+		<string></string>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Sumber</string>
+		<string>Pengurusan Sumber</string>
+		<string>Tahuj</string>
+		<string>Jenis</string>
+		<string>Path</string>
+		<string>Komen</string>
+		<string>Luas</string>
+		<string>Tinggi</string>
+		<string>Gambar</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Lain-lain</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Upload strings, start @ position 180 -->
+		<string>File upload</string>
+		<string>Send</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Pengurusan Forum</string>
+		<string>Tajuk</string>
+		<string>Keterangan</string>
+		<string>Visibiliti</string>
+		<string>Kelihatan</string>
+		<string>Tersembunyi</string>
+		<string>Adakah anda ingin memadam forum ini? </string>
+		<string>Hantar</string>
+		<string>Balas</string>
+		<string>Masuk</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analisa Trafik </string>
+		<string>Halaman dikinjunji</string>
+		<string>Pengunjung</string>
+		<string>Kalendar</string>
+		<string>Perincian kepada </string>
+		<string>Halaman dikinjunji</string>
+		<string>Pengunjung unik</string>
+		<string>Masa</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<string>Alamat IP</string>
+		<string>Tarikh</string>
+		<string>Kunjungan</string>
+		<string>Petak</string>
+		<string>Graf</string>
+		<string>Negara</string>
+		<string>Browser</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Utama</string>
+		<string>Add-on</string>
+		<string>Pemantuan</string>
+		<string>Statistik</string>
+		<string>Bantuan</string>
+		<string>Quickstart</string>
+		<string>Pengunjung</string>
+		<string>Pengunjung</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>CARI</string>
+		<string>DAFTAR</string>
+		<string>BUKUTAMU</string>
+		<string>SLAID</string>
+		<string>FORUM</string>
+		<string>ADMIN</string>
+		<string>KELUAR</string>
+		<string>Menu</string>
+		<string>LOGIN</string>
+		<string>KAJISELIDIK</string>
+		<string>NUKILAN</string>
+		<string>Sebelum</string>
+		<string>Seterusnya</string>
+		<string>Baca seterusnya</string>
+		<string>Tambah halaman...</string>
+		<string>Tambah artikel...</string>
+		<string>Tambah kajiselidik...</string>
+		<string>Masuk</string>
+		<string></string>
+		<string></string>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Forums messages manager</string>
+		<string>Tajuk</string>
+		<string>Alias</string>
+		<string>Visibiliti</string>
+		<string>Kelihatan</string>
+		<string>Tersembunyi</string>
+		<string>Adakah anda benar-benar ingin memadam mesej ini</string>
+		<string>Hantar</string>
+		<string>Jawab kepada: </string>
+		<string>Hantar artikel</string>
+		<string>Tulis artikel</string>
+		<string><![CDATA[Ruangan ini dikhususkan untuk ahli berdaftar sahaja. Login atau <a href="default.asp?id=0&ACT=9">daftar</a> satu akaun yang percuma untuk masuk.]]></string>
+		<string>Mesej Forum</string>
+		<string>Body</string>
+		<string>Jawapan kepada: </string>
+		<string>Seterusnya: </string>
+		<string>Sebelum </string>
+		<string>Detail</string>
+		<string>Ringkas</string>
+		<string>Kembali ke senarai mesej</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Desktop</string>
+		<string>Bilangan ahli </string>
+		<string>Bilangan mesej pengunjung untuk disahkan </string>
+		<string>Bilangan reaksi untuk disahkan </string>
+		<string>Bilangan mesej forum </string>
+		<string>Bilangan hit</string>
+		<string>Selamat Datang</string>
+		<string>Versi: </string>
+		<string></string>
+		<string></string>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Senarai Tugasan</string>
+		<string>Tekan untuk tambah senarai tugasan</string>
+		<string>Edit</string>
+		<string>Tamat</string>
+		<string>Keterangan</string>
+		<string>Penting</string>
+		<string>Tambah</string>
+		<string>Tarikh</string>
+		<string>Selesai</string>
+		<string></string>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Daftar</string>
+		<string>Pendaftaran adalah percuma dan membolehkan anda memasuki lawan khas untuk ahli berdaftar.</string>
+		<string>Login</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Bandar/Negara</string>
+		<string>Hantar</string>
+		<string>(*) menunjukkan ruangan yang wajib diisi</string>
+		<string>Terima kasih, anda berdaftar sekarang! Anda boleh login melalui ruang yang disediakan.</string>
+		<string>Terima kasih, pendaftaran anda akan diaktifkan oleh webmaster.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Reaksi kepada </string>
+		<string>Nama</string>
+		<string>Tajuk</string>
+		<string>Mesej</string>
+		<string>Kirim</string>
+		<string>Reaksi </string>
+		<string>Oleh </string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margin</string>
+		<string>Margin kanan sahaja</string>
+		<string>Margin kiri sahaja</string>
+		<string>Kedua-dua margin</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategori</string>
+		<string>Pengurusan Kategori</string>
+		<string>Nama</string>
+		<string>Jenis akses</string>
+		<string>Kelihatan</string>
+		<string>Tidak boleh dipadam</string>
+		<string>Ingin memadam kategori ini?</string>
+		<string>Lihat senarai halaman dalam kategori ini</string>
+		<string>Semua kategori</string>
+		<string></string>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Baner</string>
+		<string>Nama</string>
+		<string>Bilangan ketikan</string>
+		<string>URL Sasaram</string>
+		<string>Sumber Gif</string>
+		<string>Pengurusan Baner</string>
+		<string>Adakah anda benar-benar ingin memadam baner ini?</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Download</string>
+		<string>Nama</string>
+		<string>Path</string>
+		<string>Laman Web</string>
+		<string>Keterangan</string>
+		<string>Lesen</string>
+		<string>Freeware/Shareware</string>
+		<string>Sistem Operasi</string>
+		<string>Pengurusan Download</string>
+		<string>Adakah anda benar-benar ingin memadam fail ini?</string>
+		<string>Download Siap</string>
+		<string>Download sekarang</string>
+		<string>Download Tertinggi</string>
+		<string>Sais</string>
+		<string>Versi</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Peta Laman</string>
+		<string>Hasil Carian</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Fungsi Email</string>
+		<string>Smtp server</string>
+		<string>Isyarat untuk Bukutamu</string>
+		<string>Isyarat untuk Forum</string>
+		<string>Isyarat untuk Reaksi</string>
+		<string>Isyarat untuk Pendaftaran</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Kata laluan salah atau belum diaktifkan oleh webmaster. \nBetulkan atau cuba kemudian.</string>
+		<string>Anda hanya boleh mengundi sekali!</string>
+		<string>Selamat datang, pendaftaran anda telah diaktifkan.</string>
+		<string>Salah satu ruang yang wajib diisi tidak lengkap. Isikan semula.</string>
+		<string>Nama ini telah digunakan. Sila gunakan nama lain.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Page options, start @ position 410 -->
+		<string>Susunan artikel</string>
+		<string>Susunan mengikut halaman</string>
+		<string>Tajuk</string>
+		<string>Tarikh penerbitan</string>
+		<string>ID</string>
+		<string>Menaik</string>
+		<string>Menurun</string>
+		<string>Papar Tajuk</string>
+		<string>Papar isikandungan halaman ini</string>
+		<string></string>
+		<!-- Misc , start @ position 420 -->
+		<string>Baru</string>
+		<string>Mesej baru</string>
+		<string>Pengesahan melalui Email</string>
+		<string>Pengesahan Pendaftaran </string>
+		<string>Permohonan pendaftaran  anda di halaman: </string>
+		<string>Untuk menyempurnakan pendaftaran, ikut tautan berikut: </string>
+		<string>Maklumat tentang akaun anda:</string>
+		<string>Terima kasih kerana mendaftar. Anda akan menerima email untuk pengesahan pendaftaran. </string>
+		<string>Administrator</string>
+		<string>Editor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>Ahli</string>
+		<string>Anda ingin melanggan Newsletter laman ini?)</string>
+		<string>Newsletter</string>
+		<string>Posisi</string>
+		<string>Atas</string>
+		<string>Bawah</string>
+		<string>Kiri</string>
+		<string>Kanan</string>
+		<string>Tip: Tekan klik dua kali or CTRL-T to masuk ke mode WYSIWYG</string>
+		<string>Paparkan paparan lanjut</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Sembunyikan paparan lanjut</string>
+		<string>Kumpulan</string>
+		<!-- Browsers stats -->
+		<string>Kumpulan Pelayar</string>
+		<string>Maklumat lengkap tentang versi</string>
+		<string>Pelayar</string>
+		<string>Versi</string>
+		<string>Peratus</string>
+		<string>lain-lain</string>
+		<string></string>
+		<string></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encoding</string>
+		<string>Headline</string>
+		<string>Margins</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>Hantar</string>
+		<string>Set semula</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Terima kasih kerana menyumbang kepada perkembangan laman ini!</b><br/>Reaksi anda akan diterbitkan selepas disemak oleh pengurusan laman.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Artikel baru asal</string>
+		<string>Aktidkan fungsi Email ? (jMail diperlukan)</string>
+		<string>Penunjuk komponen email COM terpasang</string>
+		<!-- forgot password -->
+		<string>Lupa katalaluan?</string>
+		<string>Anda benar-benar lupa kata laluan?</string>
+		<string>Masukkan nama ahli dan alamat email, dan klik hantar. Anda akan menerima email mengandungi kata laluan anda.</string>
+		<string>Nama Ahli</string>
+		<string>Alamat Email</string>
+		<string>Kirim</string>
+		<string>Maklumat Peribadi</string>
+		<string>Permohon telah dihantar ke alamat:</string>
+		<string>Kata laluan</string>
+		<string>Sila kunjungi laman ini semual!</string>
+		<!-- 470 -->
+		<string>Nama atau alamat email salah.</string>
+		<string>Kata laluan anda telah dihantar ke email anda.</string>
+		<string>Masukkan semula maklumat</string>
+		<string>Daftar sekarang!</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>AkaunKu</string>
+		<string>Boran tidak lengkap, semua bahagian diperlukan.</string>
+		<string>Akaun anda telah dikemaskini!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Pilihan menu bar </string>
+		<string>Home</string>
+		<string>Back to the home page</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Website</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Downloads</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

@@ -1,0 +1,18 @@
+<skin>
+	<tab name="general">
+		<param name="general_font" type="font" description="Font" default="arial"/>
+	</tab>
+	<tab name="body">
+		<param name="body_background" type="color" description="Background color" default="#CCCCFF"/>
+		<param name="body_color" type="color" description="Text color" default="#000000"/>
+	</tab>
+	<tab name="toolbar">
+		<param name="toolbar_color" type="color" description="Text color" default="#FFFFFF"/>
+		<param name="toolbar_background" type="color" description="Background color" default="#663399"/>
+		<param name="toolbar_border" type="color" description="Ttoolbar's border color" default="#CC99FF"/>
+	</tab>
+	<tab name="margin">
+		<param name="margin_background" type="color" description="Background color" default="#CCCCCC"/>
+		<param name="margin_color" type="color" description="Text color" default="#330066"/>
+	</tab>
+</skin>

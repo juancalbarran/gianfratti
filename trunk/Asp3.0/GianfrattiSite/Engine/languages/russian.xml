@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
+<language>
+	<name>Russian</name>
+	<translator>
+		<name>Swinger</name>
+		<email>swinger_sun@hotmail.com</email>
+	</translator>
+	<encoding>windows-1251</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Администрирование  сайта</string>
+		<string>По сайту</string>
+		<string>Настройки</string>
+		<string>Страницы</string>
+		<string>Содержание</string>
+		<string>Опросы</string>
+		<string>Цитаты</string>
+		<string>Картинки</string>
+		<string>Пользователи</string>
+		<string>Гостевая книга</string>
+		<string>Статистика</string>
+		<string>Мнения</string>
+		<string>Форум</string>
+		<string>Загрузить файлы</string>
+		<string>Создать...</string>
+		<string>Удалить</string>
+		<string>Изменить...</string>
+		<string>   ОК   </string>
+		<string>Отмена</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Настройки сайта</string>
+		<string>Название сайта</string>
+		<string>Логин администратора</string>
+		<string>Пароль</string>
+		<string>МЕТА имя</string>
+		<string>Пароль администратора</string>
+		<string>URL-адрес администратора </string>
+		<string>META Слова</string>
+		<string>META Описание</string>
+		<string>Вид сайта</string>
+		<string>Язык</string>
+		<string>Главная страница</string>
+		<string>Путь к логотипу</string>
+		<string>Показать панель</string>
+		<string>Копирайт</string>
+		<string>Статус модерации</string>
+		<string>Показать меню</string>
+		<string>Показать панель статей</string>
+		<string>Показать форму поиска</string>
+		<string>Список добавлений</string>
+		<string>Опросы</string>
+		<string>Опросы</string>
+		<string>Галерея картинок</string>
+		<string>Гостевая книга</string>
+		<string>Форум</string>
+		<string>Показать дату создания и автора статьи</string>
+		<string>Зарегистрировать статус по-умолчанию</string>
+		<string>Статус по-умолчанию в форуме</string>
+		<string>Статус по-умолчанию в гостевой книге</string>
+		<string>Слоган</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Администрирование</string>
+		<string>Название страницы</string>
+		<string>Страница-родитель</string>
+		<string>Тип доступа</string>
+		<string>Тело страницы</string>
+		<string>Рекламный тег</string>
+		<string>Видимость</string>
+		<string>Эту страницу нельзя удалить!</string>
+		<string>Подтвердить supression страницы? </string>
+		<string>Публикация</string>
+		<!-- 60 -->
+		<string>Да</string>
+		<string>Нет</string>
+		<!--  end-->
+		<string>Запланированно</string>
+		<string>Дата публикации</string>
+		<string>Дата окончания</string>
+		<string>Внешняя ссылка</string>
+		<string>Категории</string>
+		<string>Самые посещаемые страницы</string>
+		<string>Количество</string>
+		<string>Количество статей</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Управление содержанием</string>
+		<string>Название</string>
+		<string>Расположение</string>
+		<string>Страница</string>
+		<string>Автор</string>
+		<string>Дата</string>
+		<string>XML исходник</string>
+		<string>XSL шаблон</string>
+		<string>Заголовки</string>
+		<string>Текст</string>
+		<string>Измените эту информацию в процессе разработки</string>
+		<string>Видимость</string>
+		<string>Эта статье только для чтения.</string>
+		<string>Вы правда хотите удалить эту информацию? </string>
+		<string>Распечатать</string>
+		<string>Послать другу</string>
+		<string>Ваше мнение</string>
+		<string>Архив</string>
+		<string>Все страницы</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Управление опросами</string>
+		<string>Название иследования</string>
+		<string>Вопрос</string>
+		<string>Ответ №1</string>
+		<string>Ответ №2</string>
+		<string>Ответ №3</string>
+		<string>Ответ №4</string>
+		<string>Ответ №5</string>
+		<string>Номер проголосовавшего</string>
+		<string>Связанная страница</string>
+		<string>Отуствует</string>
+		<string>Вы правда хотите удалить это опрос? </string>
+		<string>Вперед!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Управление цитатами</string>
+		<string>Содержание цитаты</string>
+		<string>Вы уверены, что хотите удалить эту цитату?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Управление галереей картинок</string>
+		<string>Название картинки</string>
+		<string>Главный путь к картинке </string>
+		<string>Комментарий</string>
+		<string>Вы правда хотите удалить эту галерею картинок??</string>
+		<string>Выбрать</string>
+		<string>Путь к маленькой картинке </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Управление пользователями</string>
+		<string>Псевдоним</string>
+		<string>Пароль</string>
+		<string>E-mail</string>
+		<string>Город</string>
+		<string>Дата</string>
+		<string>Скопируйте/Вставьте эту линию в Вашу почтовую программу, чтобы послать письмо всем пользователям: </string>
+		<string>Вы правда хотите удалить этого пользователя?</string>
+		<string>Тип</string>
+		<string>Видимость</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Управление гостевой книгой</string>
+		<string>Автор</string>
+		<string>Название</string>
+		<string>Сообщение</string>
+		<string>Дата</string>
+		<string>E-mail</string>
+		<string>Видимость</string>
+		<string>Вы правда хотите удалить это сообщение из Гостевой книги?</string>
+		<string>Написать сообщение</string>
+		<string><![CDATA[<b>Спасибо за участие в развитии нашего сайта!</b<br/>Ваше участие будет зарегистрированно и помещено на сайте после проверки модератором.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Управление мнениями</string>
+		<string>Автор</string>
+		<string>Название</string>
+		<string>Статья</string>
+		<string>Сообщение</string>
+		<string>Дата</string>
+		<string>Видимость</string>
+		<string>Вы правда хотите удалить это мнение?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Ресурсы</string>
+		<string>Управление ресурсами</string>
+		<string>Название</string>
+		<string>Тип</string>
+		<string>Путь</string>
+		<string>Комментарий</string>
+		<string>Ширина</string>
+		<string>Высота</string>
+		<string>Картинка</string>
+		<string>Видео</string>
+		<string>Флеш</string>
+		<string>Wav-файл</string>
+		<string>Midi-файл</string>
+		<string>Шрифт-файл</string>
+		<string>Zip-файл</string>
+		<string>Exe-фйал</string>
+		<string>Другие</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Загрузка файлов</string>
+		<string>Послать</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Управление форумом</string>
+		<string>Название</string>
+		<string>Описание</string>
+		<string>Видимость</string>
+		<string>Видимый</string>
+		<string>Скрытый</string>
+		<string>Вы правда хотите удалить этот форум? </string>
+		<string>Написать</string>
+		<string>Ответить</string>
+		<string>Добавить</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Анализ посещений</string>
+		<string>Просмотренные страницы</string>
+		<string>Посетители</string>
+		<string>Календарь</string>
+		<string>Подробности о </string>
+		<string> Просмотренная страница</string>
+		<string> Уникальных посетителей</string>
+		<string>Время</string>
+		<string>URL-адрес</string>
+		<string>Ссылающийся сайт</string>
+		<string>IP адрес</string>
+		<string>Дата</string>
+		<string>Псоещений</string>
+		<string>Таблица</string>
+		<string>График</string>
+		<string>Страна</string>
+		<string>Браузер</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Главная</string>
+		<string>Модули</string>
+		<string>Модерация</string>
+		<string>Статистика</string>
+		<string>Помощь</string>
+		<string>Первые шаги</string>
+		<string>активный пользователь</string>
+		<string>активных пользователей</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Поиск по сайту</string>
+		<string>Регистрация</string>
+		<string>Гостевая книга</string>
+		<string>Галерея</string>
+		<string>Форум</string>
+		<string>Модерация</string>
+		<string>Выйти</string>
+		<string>Меню</string>
+		<string>Вход для пользователей</string>
+		<string>Голосование</string>
+		<string>Цитата</string>
+		<string>Назад</string>
+		<string>Вперед</string>
+		<string>Далее...</string>
+		<string>Добавить страницу...</string>
+		<string>Добавить статью...</string>
+		<string>Добавить опрос...</string>
+		<string>ОК</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Модератор форума</string>
+		<string>Название</string>
+		<string>Псевдоним</string>
+		<string>Видимость</string>
+		<string>Видимый</string>
+		<string>Скрытый</string>
+		<string>Вы правда хотите удалить это сообщение</string>
+		<string>Напистаь</string>
+		<string>Ответить пользователю </string>
+		<string>Добавить сообщение</string>
+		<string>Написать статью</string>
+		<string>Этот раздел только для зарегистрированных пользователей. Войдите под своим логином или &lt;a href="default.asp?id=0&amp;ACT=9"&gt;зарегистрируйтесь&lt;/a&gt; бесплатно</string>
+		<string>Сообщения в форуме</string>
+		<string>Текст</string>
+		<string>В ответ на: </string>
+		<string>Следующее: </string>
+		<string>Назад к </string>
+		<string>Линейный вид</string>
+		<string>Древовидный вид</string>
+		<string>Назад к списку сообщений</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Рабочий стол</string>
+		<string>Количество пользователей </string>
+		<string>Количество сообщений в гостевой книге для проверки</string>
+		<string>Количество мнений для проверки</string>
+		<string>Количество сообщений в форуме </string>
+		<string>Количество хитов (hits)</string>
+		<string>Добро пожаловать</string>
+		<string>Ваша версия: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Список заданий</string>
+		<string>Нажмите сюда, чтобы добавить новое задание</string>
+		<string>Создать</string>
+		<string>Конец</string>
+		<string>Описание</string>
+		<string>Важность</string>
+		<string>Добавить</string>
+		<string>Дата</string>
+		<string>Закончен</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Зарегистрировать</string>
+		<string>Регистрация бесплатна и позволяет пользоваться всеми ресурсами сайта.</string>
+		<string>Логин</string>
+		<string>Пароль</string>
+		<string>E-mail</string>
+		<string>Город/Страна</string>
+		<string>Подтвердить</string>
+		<string>(*) Требуемые поля</string>
+		<string>Спасибо, Вы зарегистрированны! Теперь Вы можете войти.</string>
+		<string>Спасибо за регистрацию, модератор в скором времени подтвердит Вашу регистрацию и Вы сможете фойти под своим логином.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Ответить на </string>
+		<string>Имя</string>
+		<string>Название</string>
+		<string>Сообщение</string>
+		<string>Подтвердить</string>
+		<string>Мнения </string>
+		<string>От </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Отступы</string>
+		<string>Только левый отступ</string>
+		<string>Только правый отступ</string>
+		<string>Оба отступа</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Категории</string>
+		<string>Управление категориями</string>
+		<string>Имя</string>
+		<string>Тип доступа</string>
+		<string>Видимость</string>
+		<string>Эта категория не может быть удалена</string>
+		<string>Вы правда хотите удалить эту категорию?</string>
+		<string>Просмотреть список страниц, входящих в эту категорию</string>
+		<string>Все категории</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Баннеры</string>
+		<string>Имя</string>
+		<string>Количество загрузок</string>
+		<string>Ссылка</string>
+		<string>Gif-файл</string>
+		<string>Управление баннерами</string>
+		<string>Вы правда хотите удалить этот баннер?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Скачать</string>
+		<string>Имя</string>
+		<string>Путь</string>
+		<string>Сайт редактора</string>
+		<string>Описание</string>
+		<string>Лицензия</string>
+		<string>Цена</string>
+		<string>Операционная система</string>
+		<string>Управление скачиваниями</string>
+		<string>Вы правда хотите удалить это скачивание?</string>
+		<string>Скачено </string>
+		<string>Скачать сейчас </string>
+		<string>Самые популярные скачивания</string>
+		<string>Размер</string>
+		<string>Версия</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Карта сайта</string>
+		<string>Результаты поиска</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Настройки E-mail</string>
+		<string>Smtp сервер</string>
+		<string>Сообщать об изменениях в Гостевой книге</string>
+		<string>Сообщать об изменениях в Форуме</string>
+		<string>Сообщать об изменениях в Мнениях</string>
+		<string>Сообщать об изменениях в Регистрации</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Неправильный пароль, либо Ваша регистрация не была ещё подтверждена администратором. \nИсправьте или попробуйте позже.</string>
+		<string>Голосовать можно только один раз!</string>
+		<string>Добро пожаловть, Ваша регистрация подтверждена.</string>
+		<string>Некоторые требуемые поля не заполнены. Попробуйте ещё раз.</string>
+		<string>Это имя уже испольуется. Попробуйте выбрать другое.</string>
+		<string>Вы используете администраторский аккаунт, назначенный по-умолчанию!\nИзмените логин и пароль, чтобы никто нелегально не воспользовался Вашими правами администратора.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Поле сортировки статей</string>
+		<string>Порядок сотировки страниц</string>
+		<string>Название</string>
+		<string>Дата публикации</string>
+		<string>ИН</string>
+		<string>Возрастающий</string>
+		<string>Убывающий</string>
+		<string>Показать название</string>
+		<string>Просмотреть содержание страницы</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>новое</string>
+		<string>новые сообщения</string>
+		<string>Подтверждение по E-mail</string>
+		<string>Подтверждение регистрации</string>
+		<string>Вы запрашивали регистраци на этом сайте: </string>
+		<string>Чтобы подтвердить регистрацию, Вам надо посетить эту страницу: </string>
+		<string>Информация о Вашей регистрации: </string>
+		<string>Спасибо за регистрацию. Вы в близжайшие минуты получите E-mail для подтверждения регистрации. </string>
+		<string>администратор</string>
+		<string>редактор</string>
+		<!-- Misc , start @ position 430 -->
+		<string>пользователь</string>
+		<string>Подпишитесь на нашу рассылку (маленький объём писем)</string>
+		<string>Письмо</string>
+		<string>Расположение</string>
+		<string>Сверху</string>
+		<string>Снизу</string>
+		<string>Слева</string>
+		<string>Справа</string>
+		<string>Подсказка: Кликните два раза или нажмите CTRL-T для перехода в режим WYSIWYG</string>
+		<string>Показать дополнительные поля</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Убрать дополнительные поля</string>
+		<string>Группа</string>
+		<!-- Browsers stats -->
+		<string>Просмотреть группу</string>
+		<string>Информация о версиях</string>
+		<string>Браузер</string>
+		<string>Версия</string>
+		<string>Процент</string>
+		<string>Другие</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Кодировка</string>
+		<string>Заголовок</string>
+		<string>Оступы</string>
+		<string>Текст</string>
+		<!-- Guestbook's buttons -->
+		<string>Подтвердить</string>
+		<string>Очистить</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Спасибо за участие в развитии нашего сайта!</b><br/>Ваше участие будет зарегистрированно и помещено на сайте после проверки модератором.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Статус по-умолчанию новых статей</string>
+		<string>Включить использование E-mail ? (требуется jMail)</string>
+		<string>Показывает используемый СОМ компонент для работы с E-mail</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Забыли пароль?</string>
+		<string>Так Вы забыли пароль?</string>
+		<string>Введите Ваше имя пользователя и E-mail, нажмите кнопку "Подтвердить", и Вы получите E-mail с Вашим паролем.</string>
+		<string>Имя пользователя</string>
+		<string>E-mail адрес</string>
+		<string>Подтвердить</string>
+		<string>Информация о пользователе</string>
+		<string>Был получен запрос на получение следующей информации:</string>
+		<string>Пароль</string>
+		<string>Ждём Вас!</string>
+		<!-- 470 -->
+		<string>Неправильное имя пользователя или E-mail.</string>
+		<string>Письмо Вам послано.</string>
+		<string>Введите информацию ещё раз</string>
+		<string>Подписаться !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Мои данные</string>
+		<string>Не все поля введены.</string>
+		<string>Ваша информация обновлена!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>нет</string>
+		<string>Авто-определение</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Панель меню</string>
+		<string>Главная страница</string>
+		<string>К главное странице</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Каталог</string>
+		<string>Управление каталогом</string>
+		<string>Новый каталог</string>
+		<string>Имя</string>
+		<string>Опубликовано</string>
+		<string>Новый каталог</string>
+		<string>Новая категория</string>
+		<string>Категории</string>
+		<!-- 490 -->
+		<string>Новая запись</string>
+		<string>Новый каталог</string>
+		<string>Изменить каталог</string>
+		<string>Новая категория</string>
+		<string>Изменить категорию</string>
+		<string>Новая под-категория</string>
+		<string>Изменить под-категорию</string>
+		<string>Новая запись</string>
+		<string>Изменить запись</string>
+		<string>Краткая версия</string>
+		<!-- 500 -->
+		<string>Описание</string>
+		<string>Сайт</string>
+		<string>Ссылка для скачивания</string>
+		<string>Путь к картинке</string>
+		<string>Закачка посетителями</string>
+		<string>Куда добавить</string>
+		<string>Пользователь</string>
+		<string>Скачать</string>
+		<string>Сайт</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Книга</string>
+		<string>MP3</string>
+		<string>Наёмный рабочий</string>
+		<string>Продукт</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Пользователи</string>
+		<string>Загрузка файлов</string>
+		<string>Страницы</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Книга</string>
+		<string>MP3</string>
+		<string>Наёмный рабочий</string>
+		<string>Продукт</string>
+		<string/>
+		<!-- 530 -->
+		<string>Каталог</string>
+		<string>Главная Страница</string>
+		<string>Количество сайтов в каталоге</string>
+		<string>Добавить сайт</string>
+		<string>Всего хитов (hits)</string>
+		<string>Ваше предложене записано и будет рассмотренно администратором.</string>
+		<string>Самые поплярные</string>
+		<string>Хиты (Hits)</string>
+		<string>Новое</string>
+		<string>Новое добавление</string>
+		<!-- 540 -->
+		<string>Добавлен новый каталог</string>
+		<string>Краткое описание</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Оффлайн для редактирования</string>
+		<string>Количество файлов</string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Страница</string>
+		<string>Назад</string>
+		<string>Вперед</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>посетителей в Онлайне</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>
+

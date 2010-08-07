@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<language>
+	<name>Swedish</name>
+	<translator>
+		<name>Anders Landenstad</name>
+		<email>anders.landenstad@telia.com</email>
+	</translator>
+	<encoding>iso-8859-1</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Administration av webbsidan</string>
+		<string>Browse site</string>
+		<string>Inställningar</string>
+		<string>Sidor</string>
+		<string>Artiklar</string>
+		<string>Omröstningar</string>
+		<string>Citat</string>
+		<string>Bilder</string>
+		<string>Medlemmar</string>
+		<string>Gästbok</string>
+		<string>Statistik</string>
+		<string>Åsikter</string>
+		<string>Forum</string>
+		<string>Ladda upp</string>
+		<string>Skapa...</string>
+		<string>Ta bort</string>
+		<string>Ändra...</string>
+		<string>   OK   </string>
+		<string>Avbryt</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Webbsidans inställningar</string>
+		<string>Webbsidans namn</string>
+		<string>Administratörslogin</string>
+		<string>Lösenord</string>
+		<string>META Title</string>
+		<string>Administratörens e-post</string>
+		<string>Webbsidans URL</string>
+		<string>META Nyckelord</string>
+		<string>META Beskrivning</string>
+		<string>Skal</string>
+		<string>Språk</string>
+		<string>Ingångssida</string>
+		<string>Logo sökväg</string>
+		<string>Visa verktygsfält (meny)</string>
+		<string>Copyright</string>
+		<string>Moderator status</string>
+		<string>Visa meny</string>
+		<string>Visa artiklars verktygsfält</string>
+		<string>Visa sökformulär</string>
+		<string>Add-ons list</string>
+		<string>Omröstningar</string>
+		<string>Citat</string>
+		<string>Bildgalleri</string>
+		<string>Gästbok</string>
+		<string>Forum</string>
+		<string>Visa artiklars datum och skribent</string>
+		<string>Register default status</string>
+		<string>Forums's message default status</string>
+		<string>Guestbook's message default status</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Webbside administratör</string>
+		<string>Sidans titel</string>
+		<string>Föregående sida</string>
+		<string>Access typ</string>
+		<string>Editor</string>
+		<string>Annonsankare</string>
+		<string>Synlighet</string>
+		<string>Denna sida kan inte tas bort!</string>
+		<string>Vill du verkligen ta bort denna sida? </string>
+		<string>Publikation</string>
+		<!-- 60 -->
+		<string>Ja</string>
+		<string>Nej</string>
+		<!--  end-->
+		<string>Plannerad</string>
+		<string>Publiceringsdatum</string>
+		<string>Utgångsdatum</string>
+		<string>Extern länk</string>
+		<string>Kategori</string>
+		<string>Mest besökta sidor</string>
+		<string>Räkna</string>
+		<string>Antal artiklar</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Innehållshantering</string>
+		<string>Rubrik</string>
+		<string>Position</string>
+		<string>Webbsida</string>
+		<string>Skribent</string>
+		<string>Datum</string>
+		<string>XML källa</string>
+		<string>XSL mall</string>
+		<string>Headlines</string>
+		<string>Body</string>
+		<string>Ändra data i "design mode"</string>
+		<string>Synlighet</string>
+		<string>Denna artikel kan bara läsas.</string>
+		<string>Vill du verkligen ta bort detta innehåll? </string>
+		<string>Skriv ut</string>
+		<string>Skicka till en kompis</string>
+		<string>Reagera</string>
+		<string>Arkiv</string>
+		<string>Alla sidor</string>
+		<string />
+		<!-- Polls strings, start @ position 90 -->
+		<string>Omröstningshantering</string>
+		<string>Omröstningens namn</string>
+		<string>Fråga</string>
+		<string>Svar 1</string>
+		<string>Svar 2</string>
+		<string>Svar 3</string>
+		<string>Svar 4</string>
+		<string>Svar 5</string>
+		<string>Omröstning nummer</string>
+		<string>Tillhörande webbsida</string>
+		<string>Ingen</string>
+		<string>Vill du ta bort denna fråga? </string>
+		<string>RÖSTA!</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Tips strings, start @ position 110 -->
+		<string>Citathantering</string>
+		<string>Citatinnehåll</string>
+		<string>Vill du verkligen ta bort detta citat?</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Bildgallerihantering</string>
+		<string>Namn</string>
+		<string>Sökväg till bild </string>
+		<string>Kommentar</string>
+		<string>Vill du verkligen ta bort denna bild från galleriet??</string>
+		<string>Välj</string>
+		<string>Tumnagelsökväg</string>
+		<string>ID</string>
+		<string>Kategori</string>
+		<string />
+		<!-- Member strings, start @ position 130 -->
+		<string>Medlemshantering</string>
+		<string>Användarnamn</string>
+		<string>Lösenord</string>
+		<string>E-post</string>
+		<string>Stad</string>
+		<string>Datum</string>
+		<string>Kopiera/klistra in detta i ett e-postmeddelande för att skicka detta: </string>
+		<string>Vill du verkligen ta bort denna medlem?</string>
+		<string>Typ</string>
+		<string>Status</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Gästbokshantering</string>
+		<string>Skribent</string>
+		<string>Titel</string>
+		<string>Meddelande</string>
+		<string>Datum</string>
+		<string>E-post</string>
+		<string>Synlighet</string>
+		<string>Vill du verkligen ta bort detta meddelande från gästboken?</string>
+		<string>Skriv i gästboken</string>
+		<string><![CDATA[<b>Tack för ditt deltagande!</b><br />]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Åsiktshantering</string>
+		<string>Skribent</string>
+		<string>Rubrik</string>
+		<string>Artikel</string>
+		<string>Meddelande</string>
+		<string>Datum</string>
+		<string>Synlighet</string>
+		<string>Vill du verkligen ta bort denna åsikt?</string>
+		<string />
+		<string />
+		<!-- Medias strings, start @ position 160 -->
+		<string>Resurser</string>
+		<string>Resurshantering</string>
+		<string>Titel</string>
+		<string>Typ</string>
+		<string>Sökväg</string>
+		<string>Kommentar</string>
+		<string>Vidd</string>
+		<string>Höjd</string>
+		<string>Bild</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Andra</string>
+		<string />
+		<string />
+		<string />
+		<!-- Upload strings, start @ position 180 -->
+		<string>Fil uppladdning</string>
+		<string>Skicka</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Forumhantering</string>
+		<string>Titel</string>
+		<string>Beskrivning</string>
+		<string>Synlighet</string>
+		<string>Synlig</string>
+		<string>Gömd</string>
+		<string>Vill du verkligen ta bort detta forum? </string>
+		<string>Skicka</string>
+		<string>Svar</string>
+		<string>Enter</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Trafikanalys</string>
+		<string>Besökta sidor</string>
+		<string>Besökare</string>
+		<string>Kalender</string>
+		<string>Detailjer för den </string>
+		<string> Besökta sidor</string>
+		<string> Unika besökare</string>
+		<string>Tid</string>
+		<string>URL</string>
+		<string>Refererar</string>
+		<string>IP adress</string>
+		<string>Datum</string>
+		<string>Besök</string>
+		<string>Text</string>
+		<string>Grafisk</string>
+		<string>Land</string>
+		<string>Webbläsare</string>
+		<string />
+		<string />
+		<string />
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Huvudmenyn</string>
+		<string>Tillägg</string>
+		<string>Moderering</string>
+		<string>Statistik</string>
+		<string>Hjälp</string>
+		<string>Snabbstart</string>
+		<string>aktiv besökare</string>
+		<string>aktiva besökare</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Sök på webbsidan</string>
+		<string>Registrera</string>
+		<string>Gästbok</string>
+		<string>Bildgalleri</string>
+		<string>Forum</string>
+		<string>Administration</string>
+		<string>Logga ut</string>
+		<string>Menu</string>
+		<string>Logga in</string>
+		<string>Omröstning</string>
+		<string>Citat</string>
+		<string>Tillbaka</string>
+		<string>Nästa</string>
+		<string>Läs mer</string>
+		<string>Lägg till en sida...</string>
+		<string>Lägg till en artikel...</string>
+		<string>Lägg till en användaromröstning...</string>
+		<string>Enter</string>
+		<string />
+		<string />
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Forumens meddelandehantering</string>
+		<string>Titel</string>
+		<string>Användarid</string>
+		<string>Synlighet</string>
+		<string>Synlig</string>
+		<string>Gömd</string>
+		<string>Vill du verkligen ta bor detta meddelande?</string>
+		<string>Post</string>
+		<string>Svara </string>
+		<string>Anslå ett inlägg</string>
+		<string>Skriv ett inlägg</string>
+		<string>Detta är reserverad för våra medlemmar. Logga in eller &lt;a href="default.asp?id=0&amp;ACT=9"&gt;skapa&lt;/a&gt; ett fritt medlemskap för att fortsätta.</string>
+		<string>Forumsmeddelanden</string>
+		<string>Body</string>
+		<string>In reply of: </string>
+		<string>Nästa: </string>
+		<string>Tillbaka till </string>
+		<string>Linjär vy</string>
+		<string>Trädstruktur</string>
+		<string>tillbaka till meddelandelistan</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Skrivbordet</string>
+		<string>Antal medlemmar </string>
+		<string>Antal meddelanden i gästboken att behandla </string>
+		<string>Antal åsikter att behandla </string>
+		<string>Antal meddelanden i forumen </string>
+		<string>Antal träffar</string>
+		<string>Välkommen</string>
+		<string>Du använder version: </string>
+		<string />
+		<string />
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Uppgifter</string>
+		<string>Klicka här om du vill lägga till en ny Uppgift</string>
+		<string>Skapa</string>
+		<string>Slut</string>
+		<string>Ämne</string>
+		<string>Prioritet</string>
+		<string>Add</string>
+		<string>Datum</string>
+		<string>Avslutad</string>
+		<string />
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Registrera</string>
+		<string>Denna registrering är fri och tillåter dig att använda alla funktioner på webbplatsen.</string>
+		<string>Inloggningsnamn</string>
+		<string>Lösenord</string>
+		<string>E-post</string>
+		<string>Stad</string>
+		<string>Skicka</string>
+		<string>(*) måste ifyllas </string>
+		<string>Tack, du är nu registrerad! Nu kan du logga in i formuläret till vänster. Efter det kan du kontrollera och förändra din information.</string>
+		<string>Tack för att du registrerat dig, din registrering ska bara bekräftas av webbmastern för att bli aktiverad.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Reagera på </string>
+		<string>Namn</string>
+		<string>Titel</string>
+		<string>Meddelande</string>
+		<string>Skicka</string>
+		<string>Åsikter </string>
+		<string>Av </string>
+		<string />
+		<string />
+		<string />
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Marginaler</string>
+		<string>Endast i marginalen till vänster</string>
+		<string>Endast i marginalen till höger</string>
+		<string>Båda marginalerna</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategorier</string>
+		<string>Kategorihantering</string>
+		<string>Namn</string>
+		<string>Åtkomsttyp</string>
+		<string>Synlighet</string>
+		<string>Denna kategori kan inte tas bort</string>
+		<string>Vill du verkligen ta bort denna kategori?</string>
+		<string>Visa lista i denna kategori</string>
+		<string>Alla kategorier</string>
+		<string />
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banners</string>
+		<string>Namn</string>
+		<string>Klickräknare</string>
+		<string>Mål URL</string>
+		<string>Gif källa</string>
+		<string>Bannerhanterare</string>
+		<string>Vill du verkligen ta bort denna banner?</string>
+		<string />
+		<string />
+		<string />
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Nerladdningar</string>
+		<string>Namn</string>
+		<string>Sökväg</string>
+		<string>Webbsida</string>
+		<string>Beskrivning</string>
+		<string>Licens</string>
+		<string>Pris</string>
+		<string>Operativsystem</string>
+		<string>Nerladdningshantering</string>
+		<string>Vill du verkligen ta bort denna nerladdning?</string>
+		<string>Nerladdad </string>
+		<string>Ladda ner nu </string>
+		<string>Flest nerladdningar</string>
+		<string>Storlek</string>
+		<string>Version</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Sidkarta</string>
+		<string>Sökresultat</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Email functionnalities</string>
+		<string>Smtp server</string>
+		<string>Påminnelse gästbok</string>
+		<string>Påminnelse forum</string>
+		<string>Påminnelse åsikter</string>
+		<string>Påminnelse registrering</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Fel lösenord, eller så är du inte godkänd medlem ännu. \nSkriv in rätt lösenord eller försök senare.</string>
+		<string>Du kan endast rösta en gång per omröstning!</string>
+		<string>Välkommen, din registrering är godkänd.</string>
+		<string>Vissa obligatoriska fält är inte ifyllda. Fyll i och försök igen.</string>
+		<string>Denna preudonym är redan upptagen, välj ett annat.</string>
+		<string>Du använder dig av originalkontot för administratör! - Ändra kontot!!!\nKom ihåg att vem som helst kan utnyttja denna möjlighet och förändra innehållet.</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- Page options, start @ position 410 -->
+		<string>Sorteringsfält för artiklar</string>
+		<string>Sidans sorteringsordning</string>
+		<string>Titel</string>
+		<string>Publiceringsdatum</string>
+		<string>ID</string>
+		<string>Stigande</string>
+		<string>Fallande</string>
+		<string>Visa rubrik</string>
+		<string>Visa en lista på innehållet för denna sidan</string>
+		<string />
+		<!-- Misc , start @ position 420 -->
+		<string>Skapa...</string>
+		<string>Nytt meddelande</string>
+		<string>Bekräfta via e-post</string>
+		<string>Medlemsbekräftelse</string>
+		<string>Du har ansökt om medlemskap för webbplatsen: </string>
+		<string>För att kunna slutföra din ansökan, klicka på följande länk: </string>
+		<string>Här är din information om vilka uppgifter du lämnat för ditt medlemskap: </string>
+		<string>Tack för att du vill vara med. Du kommer att få ett e-postmeddelande inom några minuter för bekräftelse. </string>
+		<string>Administratör</string>
+		<string>rRdaktör</string>
+		<!-- Misc , start @ position 430 -->
+		<string>Medlem</string>
+		<string>Prenummerera på vårt nyhetsbrev</string>
+		<string>Nyhetsbrev</string>
+		<string>Position</string>
+		<string>Topp</string>
+		<string>Botten</string>
+		<string>Vänster</string>
+		<string>Höger</string>
+		<string>Tips: Dubbelklicka eller tryck CTRL-T för att få upp WYSIWYG editorn</string>
+		<string>Visa avancerade fält</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Göm avancerade fält</string>
+		<string>Grupp</string>
+		<!-- Browsers stats -->
+		<string>Grupper av webbläsare</string>
+		<string>Detaljer över versioner</string>
+		<string>Webbläsare</string>
+		<string>Version</string>
+		<string>Procent</string>
+		<string>Andra</string>
+		<string />
+		<string />
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encoding</string>
+		<string>Headline</string>
+		<string>Margins</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>Skicka</string>
+		<string>Återställ</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Tack för ditt bidrag. Det utvecklar vår webbplats!</b><br />]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>New article default publication state</string>
+		<string>Activate Email functions ? (jMail required)</string>
+		<string>Indicates the installed email COM component</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Glömt lösenordet?</string>
+		<string>Så du har glömt lösenordet?</string>
+		<string>Skriv in ditt medlemsnamn och e-postadress nedan, klicka sedan på skicka och du kommer att få ett e-postmeddelande med ditt lösenord.</string>
+		<string>Medlemsnamn</string>
+		<string>E-postadress</string>
+		<string>Skicka</string>
+		<string>Användarinformation</string>
+		<string>Du har begärt ett e-postmeddelande sänt till dig med följande information:</string>
+		<string>Lösenord</string>
+		<string>Titta snart tillbaka igen!</string>
+		<!-- 470 -->
+		<string>Fel användarnamn eller e-postadress.</string>
+		<string>Ditt meddelande är skickat.</string>
+		<string>Skriv in information igen</string>
+		<string> Registrera dig som ny medlem!</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Min profil</string>
+		<string>Formuläret är inte rätt ifyllt. Fält märkta med (*) är obligatoriska.</string>
+		<string>Din profil har uppdaterats!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>ingen</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menyfält</string>
+		<string>Hem</string>
+		<string>Tillbaka till webbsidans startsida</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Länkar</string>
+		<string>Länkhantering</string>
+		<string>Ny länk</string>
+		<string>Namn</string>
+		<string>Publiserad</string>
+		<string>Ny grupp</string>
+		<string>Ny kategori</string>
+		<string>Kategorier</string>
+		<!-- 490 -->
+		<string>Ny artikel</string>
+		<string>Nytt länkbibliotek</string>
+		<string>Ändra länkbibliotek</string>
+		<string>Ny kategori</string>
+		<string>Ändra kategori</string>
+		<string>Ny underkategori</string>
+		<string>Ändra underkategori</string>
+		<string>Ny artikel</string>
+		<string>Ändra artikel</string>
+		<string>Sammanfattning</string>
+		<!-- 500 -->
+		<string>Beskrivning</string>
+		<string>Webbsida</string>
+		<string>Nedladdnings URL</string>
+		<string>Bildsökväg</string>
+		<string>Allmänt förslag</string>
+		<string>Lagrade artiklar</string>
+		<string>Medlem</string>
+		<string>Ladda ner</string>
+		<string>Webbsida</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Bok</string>
+		<string>MP3</string>
+		<string>Anställd</string>
+		<string>Produkt</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 520 -->
+		<string>Medlemr</string>
+		<string>Ladda ner</string>
+		<string>Webbsida</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Bok</string>
+		<string>MP3</string>
+		<string>Anställd</string>
+		<string>Produkt</string>
+		<string />
+		<!-- 530 -->
+		<string>Länkar</string>
+		<string>Hem</string>
+		<string>Antal webbplatser bland länkarna: </string>
+		<string>Föreslå en webbplats</string>
+		<string>Totalt antal träffar</string>
+		<string>Ditt länkförslag har skickats till webbmastern för godkännande. Tack för ditt bidrag.</string>
+		<string>Mest populära</string>
+		<string>Träffar</string>
+		<string>Nyss inkommit...</string>
+		<string>Nytt förslag</string>
+		<!-- 540 -->
+		<string>Nytt länkförslag</string>
+		<string>Kort beskrivning</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline för underhåll</string>
+		<string>Antal filer: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Sida</string>
+		<string>Bakåt</string>
+		<string>Nästa</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Inloggade medlemmar</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Ge kommentarer</string>
+		<string>Ditt namn</string>
+		<string>Din e-postadress</string>
+		<string>Rubrik</string>
+		<string>Meddelande</string>
+		<string>Skicka till webbmastern</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Skicka ditt meddelande till</string>
+		<string>Din e-postadress:</string>
+		<string>Ditt namn:</string>
+		<string>Ämne:</string>
+		<string>Meddelande:</string>
+		<string>Skicka</string>
+		<string>Du kan skicka meddelanden om du loggar in.</string>
+		<string>Ditt e-postmeddelande har skickats.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Funna artiklar</string>
+		<string>Funna forum</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Exportera denna lista till en CSV fil</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Position</string>
+		<string>Stäng</string>
+		<string>Upp</string>
+		<string>Ner</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forum</string>
+		<string>Trådar</string>
+		<string>Inlägg</string>
+		<string>Senaste inlägg</string>
+		<string>Skrivet av</string>
+		<string>Startad av</string>
+		<string>Svar</string>
+		<string>Ämne</string>
+		<string>Inlagd</string>
+		<string>Gör ett inlägg</string>
+		<!-- 580 -->
+		<string>Diskussioner</string>
+		<string>Diskussion</string>
+		<string>Sök i forum</string>
+		<string>Svara på ett meddelande</string>
+		<string>Meddelandet du svarar på</string>
+		<string>Insänd av</string>
+		<string>den</string>
+		<string>Ämne</string>
+		<string>Meddelande</string>
+		<string>Ny tråd</string>
+		<!-- 590 -->
+		<string>Det här är en automatisk påminnelse.
+		Någon har anslagit ett svar på ditt inlägg i vårt forum. Du kan se svaret på:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderator</string>
+		<string>Modererad av </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Åsikters grundinställning</string>
+		<string>Artiklars grundinställning</string>
+		<string>Artiklar på flera sidor</string>
+		<string>Sedan</string>
+		<string>Från</string>
+		<!-- 601 -->
+		<string>Förändringsbart skal</string>
+		<string>Förändringsbart</string>
+		<string>Namn</string>
+		<string>Skal</string>
+		<string>Skapat av</string>
+		<!-- 606 -->
+		<string>Kom ihåg mig !</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 610 is the one up-->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>Kunskapsdatabas</string>
+		<string>Linjär</string>
+		<string>Strukturerad</string>
+		<string>Sektion:</string>
+		<string>[Topp]</string>
+		<string>Relaterade artiklar</string>
+		<string>Sök</string>
+		<string>Lägg till post</string>
+		<string>Alla</string>
+		<string>i sektion:</string>
+		<!-- 630 is the one up-->
+		<string>Hem</string>
+		<string>Gå till sektion:</string>
+		<string>Lägg till ny relation</string>
+		<string>Kunskapsdatabas</string>
+		<string>Sektion</string>
+		<string>Post</string>
+		<string>Titel</string>
+		<string>Version</string>
+		<string>Introduktion</string>
+		<string>Visa</string>
+		<!-- 640 is the one up -->
+		<string>ID</string>
+		<string>Namn</string>
+		<string>Anmärkning</string>
+		<string>Synlig</string>
+		<string>Sektion</string>
+		<string>Body</string>
+		<string>lägg till..</string>
+		<string>Relaterad artikel</string>
+		<string>Har relation till</string>
+		<string>Kända relationer</string>
+		<!-- 650 is the one up -->
+		<string>KB-Editor</string>
+		<string>Av</string>
+		<string>Anonym</string>
+		<string>Medlem</string>
+		<string>Det är inga bidrag i denna sektion.</string>
+		<string>Ta bort efterföljande relation</string>
+		<string>Gå</string>
+		<string>Välj en av dom tillgängliga kunskapsdatabaserna.</string>
+		<string>Administratörs nivå KB:</string>
+		<string>Editörs nivå KB:</string>
+		<!-- 660 is the one up -->
+		<string>Medlems nivå KB:</string>
+		<string>Offentlig nivå KB:</string>
+		<string>Fel</string>
+		<string>Kunskapsdatabasen som du försöker att öppna finns inte eller är inte tillgänglig för dig. Om du tror att det är fel, kontakta webbmastern.</string>
+		<string>Det finns inga tillgängliga kunskapsdatabaser!</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Listhantering</string>
+		<string>Listor</string>
+		<string>Lista</string>
+		<string>Variabler</string>
+		<string>Variabel</string>
+		<string>Är du riktigt säker att du vill ta bort denna lista?</string>
+		<string>Det här är en lista som ingår i systemet och kan inte ändras eller döpas om!</string>
+		<string>Caption</string>
+		<string>Value</string>
+		<string>Are you sure you want to delete this entry?</string>
+		<!-- 680 is the one up -->
+		<string>This entry belongs to a sytem list and it can't be deleted or have his value changed!</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 690 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>Söndag</string>
+		<string>Måndag</string>
+		<string>Tisdag</string>
+		<string>Onsdag</string>
+		<string>Torsdag</string>
+		<string>Fredag</string>
+		<string>Lördag</string>
+		<string />
+		<string />
+		<string />
+		<!-- 710 is the one up -->
+		<string>Januari</string>
+		<string>Februari</string>
+		<string>Mars</string>
+		<string>April</string>
+		<string>Maj</string>
+		<string>Juni</string>
+		<string>Juli</string>
+		<string>Augusti</string>
+		<string>September</string>
+		<string>Oktober</string>
+		<!-- 720 is the one up -->
+		<string>November</string>
+		<string>December</string>
+		<string>Denna månad</string>
+		<string>Mer info under:</string>
+		<string>ID</string>
+		<string>datum</string>
+		<string>Beskrivning</string>
+		<string>Kort beskrivning</string>
+		<string>Beskrivning</string>
+		<string>Länk</string>
+		<!-- 730 is the one up -->
+		<string>Synlig</string>
+		<string>Datum</string>
+		<string>Kalender</string>
+		<string>Kalender</string>
+		<string>Kalender</string>
+		<string>föregående</string>
+		<string>nästa</string>
+		<string>Visas från</string>
+		<string>Kommande händelser</string>
+		<string>Ny händelse</string>
+		<!-- 740 is the one up -->
+		<string>calendars state</string>
+		<string>lägg in en ny händelse</string>
+		<string>Välj kalender</string>
+		<string>Kalender</string>
+		<string>OK</string>
+		<string>Synlig för</string>
+		<string>Du har inte rättighet att använda denna kalender</string>
+		<string>förhandstitt</string>
+		<string>Antal händelser per sida</string>
+		<string>Antal förhandstitt per sida</string>
+		<!-- 750 is the one up -->
+		<string>Funna händelser</string>
+		<string>Sök händelse</string>
+		<string>OK</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>Kanal</string>
+		<string>Skapa en ny kanal</string>
+		<string>Din webbläsare stöder inte ramar.</string>
+		<string>gäst</string>
+		<string>Meddelande</string>
+		<string>Namn</string>
+		<string>Beskrivning</string>
+		<string>Kanal</string>
+		<string>Beskrivning</string>
+		<!-- 770 is the one up -->
+		<string>Skapad av / Moderator</string>
+		<string>Användare</string>
+		<string>Ny användare</string>
+		<string>Aktuella användare</string>
+		<string>Lämna kanalen</string>
+		<string>Chat</string>
+		<string>Moderator</string>
+		<string>Ta bort alla gamla meddelanden</string>
+		<string>Chat-Editor</string>
+		<string>ID</string>
+		<!-- 780 is the one up -->
+		<string>Privat meddelande till</string>
+		<string>tillbaka</string>
+		<string>drop</string>
+		<string>Du har blivit stoppad av moderatorn. Var vänlig lämna kanalen.</string>
+		<string>Åtgärd, att ge</string>
+		<string>operatör</string>
+		<string>medlem</string>
+		<string>Gå med</string>
+		<string>Du kan stänga detta fönster.</string>
+		<string />
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Medlemshanterare</string>
+		<string>Sökformulär</string>
+		<string>Användare</string>
+		<string>Kön</string>
+		<string>Ålder</string>
+		<string>Yrke</string>
+		<string>Stad</string>
+		<string>Län</string>
+		<string>Land</string>
+		<string>Sedan</string>
+		<!-- 810 is the one up -->
+		<string>Visa alla medlemmar</string>
+		<string>Min profil</string>
+		<string>ID</string>
+		<string>Förnamn</string>
+		<string>Efternamn</string>
+		<string>Egen webbsida</string>
+		<string>Foto (sökväg)</string>
+		<string>Välj</string>
+		<string>Adress</string>
+		<string>Postnummer</string>
+		<!-- 820 is the one up -->
+		<string>Telefon</string>
+		<string>Offentlig visning</string>
+		<string>Välkomstmeddelande</string>
+		<string>Administratörsanmärkning</string>
+		<string>Medlemsprofil</string>
+		<string>Välkommen</string>
+		<string>Det finns ingen medlem med det inloggningsnamn.</string>
+		<string>Du kan bara se medlemmar om du är inloggad.</string>
+		<string>Den medlem du söker existerar inte eller är inte tillgänglig för offentlig visning.</string>
+		<string>Namn</string>
+		<!-- 830 is the one up -->
+		<string>Lägg till i min kompislista</string>
+		<string>blev tillagd på din kompislista.</string>
+		<string>har blivit borttagen från din kompislista.</string>
+		<string>Medlemmar</string>
+		<string>Kompishantering</string>
+		<string>Kompisar</string>
+		<string>Aktivitet</string>
+		<string>Ta bort</string>
+		<string>Skicka internt meddelande</string>
+		<string>Skicka e-post</string>
+		<!-- 840 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Interna meddelanden</string>
+		<string>Meddelanden per användare</string>
+		<string>Ditt meddelande blev sänt.</string>
+		<string>Du har inga nya meddelanden</string>
+		<string>Du har nya meddelanden</string>
+		<string>Här hittar du en lista på alla meddelanden som är adresserade till dig.</string>
+		<string>Datum</string>
+		<string>Från</string>
+		<string>Ämne</string>
+		<string>Skicka ett internt meddelande till</string>
+		<!-- 860 is the one up -->
+		<string>Meddelande</string>
+		<string>Tyvärr, denna användares brevlåda är full. Försök senare.</string>
+		<string>Denna funktion är endast till för medlemmar!</string>
+		<string>Du har endast tillgång till meddelanden som är adresserade till dig!!!</string>
+		<string>Max antal meddelanden som varje användare kan spara:</string>
+		<string>Antal meddelanden som du fortfarande kan få:</string>
+		<string>Skrev:</string>
+		<string>Detta meddelande är ett svar på föregående meddelande som är ditt.</string>
+		<string>Svara</string>
+		<string />
+		<!-- 870 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 880 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 890 is the one up -->
+		<string>Ämne</string>
+		<string>Meddelande</string>
+		<string>sänd som HTML</string>
+		<string>Bifogad fil</string>
+		<string>Nyhetsbrev</string>
+		<string>ID</string>
+		<string>ämne</string>
+		<string>åtgärd</string>
+		<string>Sänd</string>
+		<string>Sänd igen</string>
+		<!-- 900 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 910 is the one up -->
+		<string>uppercased login</string>
+		<string>Authentification</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 920 is the one up -->
+		<string>Modulinformation</string>
+		<string>Beskrivning</string>
+		<string>Version</string>
+		<string>Senast ändrad</string>
+		<string>Av</string>
+		<string>Webbsida</string>
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 930 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 940 is the one up -->
+		<string>välg målmapp</string>
+		<string>lägg till en fil</string>
+		<string>Ladda upp</string>
+		<string>namn</string>
+		<string>storlek</string>
+		<string>typ</string>
+		<string>senast ändrad</string>
+		<string>åtgärd</string>
+		<string>Ta bort</string>
+		<string />
+		<!-- 950 is the one up -->
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<string />
+		<!-- 960 is the one up -->
+		<string>Editorhanterare</string>
+		<string>ID</string>
+		<string>namn</string>
+		<string>konfigurera sträng</string>
+		<string>aktive</string>
+		<string>gruppp</string>
+		<string />
+		<string />
+		<string />
+		<string />
+	</strings>
+</language>

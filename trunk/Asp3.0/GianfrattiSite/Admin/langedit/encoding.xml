@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<encodings>
+	<encoding>
+		<charset>UTF-8</charset>
+		<description>Unicode: Generic charset</description>
+	</encoding>
+	<encoding>
+		<charset>UTF-16</charset>
+		<description>Unicode: Generic charset</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-1</charset>
+		<description>Latin01: Western European</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-2</charset>
+		<description>Latin02: Central, East European</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-3</charset>
+		<description>Latin03: South European</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-4</charset>
+		<description>Latin04: North European and Baltic</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-5</charset>
+		<description>Cyrillic: East European</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-6</charset>
+		<description>Arabic</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-6-E</charset>
+		<description>Arabic (visual text-direction)</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-6-I</charset>
+		<description>Arabic (logic text-direction)</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-7</charset>
+		<description>Greek</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-8</charset>
+		<description>Hebrew</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-8-E</charset>
+		<description>Hebrew (visual text-direction)</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-8-I</charset>
+		<description>Hebrew (logic text-direction)</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-9</charset>
+		<description>Latin5: Turkish</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-10</charset>
+		<description>Latin06: Nordic or Scandinavian</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-11</charset>
+		<description>Thai</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-13</charset>
+		<description>Latin07: Baltic Rim</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-14</charset>
+		<description>Latin08: Celtic</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-15</charset>
+		<description>Latin09: revision of ISO-8859-1</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-8859-16</charset>
+		<description>Latin10: South-Eastern European</description>
+	</encoding>
+	<encoding>
+		<charset>GB2312</charset>
+		<description>Chinese: Simplified</description>
+	</encoding>
+	<encoding>
+		<charset>Big5</charset>
+		<description>Chinese: Traditional</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-2022-JP</charset>
+		<description>Japanese</description>
+	</encoding>
+	<encoding>
+		<charset>EUC-JP</charset>
+		<description>Japanese - (Unix)</description>
+	</encoding>
+	<encoding>
+		<charset>Shift_JIS</charset>
+		<description>Japanese - (Microsoft)</description>
+	</encoding>
+	<encoding>
+		<charset>ISO-2022-KR</charset>
+		<description>Korean</description>
+	</encoding>
+	<encoding>
+		<charset>EUC-KR</charset>
+		<description>Korean - (Unix)</description>
+	</encoding>
+	<encoding>
+		<charset>KOI8-R</charset>
+		<description>Warning: (use ISO-8859-5)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1258</charset>
+		<description>Vietnamese - (Microsoft)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1250</charset>
+		<description>Warning: (use ISO-8859-2)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1257</charset>
+		<description>Warning: (use ISO-8859-4)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1251</charset>
+		<description>Warning: (use ISO-8859-5)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1256</charset>
+		<description>Warning: (use ISO-8859-6-I)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1253</charset>
+		<description>Warning: (use ISO-8859-7)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1255</charset>
+		<description>Warning: (use ISO-8859-8-I)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1254</charset>
+		<description>Warning: (use ISO-8859-9)</description>
+	</encoding>
+	<encoding>
+		<charset>windows-1252</charset>
+		<description>Warning: (use ISO-8859-1)</description>
+	</encoding>
+</encodings>

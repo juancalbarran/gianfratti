@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+    <name><![CDATA[Vietnamese]]></name>
+    <translator>
+        <name><![CDATA[HoangLan]]></name>
+        <email><![CDATA[hoanglan@dongnai.edu.vn]]></email>
+    </translator>
+    <encoding><![CDATA[utf-8]]></encoding>
+    <strings>
+        <!-- main menu, start @ position 1 -->
+        <string><![CDATA[Quáº£n trá»‹ Website]]></string>
+        <string><![CDATA[Duyá»‡t site]]></string>
+        <string><![CDATA[Website]]></string>
+        <string><![CDATA[Trang]]></string>
+        <string><![CDATA[Ná»™i dung]]></string>
+        <string><![CDATA[Äiá»u tra]]></string>
+        <string><![CDATA[TrÃ­ch dáº«n]]></string>
+        <string><![CDATA[áº¢nh]]></string>
+        <string><![CDATA[ThÃ nh viÃªn]]></string>
+        <string><![CDATA[Sá»• gÃ³p Ã½]]></string>
+        <string><![CDATA[Thá»‘ng kÃª]]></string>
+        <string><![CDATA[Reactions]]></string>
+        <string><![CDATA[Diá»…n Ä‘Ã n]]></string>
+        <string><![CDATA[Upload]]></string>
+        <string><![CDATA[Táº¡o má»›i...]]></string>
+        <string><![CDATA[XoÃ¡]]></string>
+        <string><![CDATA[Sá»­a...]]></string>
+        <string><![CDATA[OK]]></string>
+        <string><![CDATA[Cancel]]></string>
+        <!-- General settings, strat @ position 20 -->
+        <string><![CDATA[ThÃ´ng sá»‘ Website]]></string>
+        <string><![CDATA[TÃªn Site]]></string>
+        <string><![CDATA[ID quáº£n trá»‹]]></string>
+        <string><![CDATA[Máº«t kháº©u]]></string>
+        <string><![CDATA[META Title]]></string>
+        <string><![CDATA[Email ]]></string>
+        <string><![CDATA[Äá»‹a chá»‰ Website - URL]]></string>
+        <string><![CDATA[META Keywords]]></string>
+        <string><![CDATA[META Description]]></string>
+        <string><![CDATA[Kiá»ƒu trÃ¬nh bÃ y]]></string>
+        <string><![CDATA[NgÃ´n ngÆ°]]></string>
+        <string><![CDATA[Trang Ä‘áº§u]]></string>
+        <string><![CDATA[Logo]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ thanh cÃ´ng cá»¥?]]></string>
+        <string><![CDATA[Báº£n quyá»n]]></string>
+        <string><![CDATA[Danh sÃ¡ch tuá»³ chá»n]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ menu]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ thanh cÃ´ng cá»¥ article]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ form tÃ¬m kiáº¿m]]></string>
+        <string><![CDATA[Danh sÃ¡ch Add-ons]]></string>
+        <string><![CDATA[Điá»u tra]]></string>
+        <string><![CDATA[Lá»i hay Ã½ Ä‘áº¹p]]></string>
+        <string><![CDATA[ThÆ° viá»‡n áº£nh]]></string>
+        <string><![CDATA[Sá»• gÃ³p Ã½]]></string>
+        <string><![CDATA[Diá»…n Ä‘Ã n]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ ngÃ y vÃ  tÃªn tÃ¡c giáº£ má»¥c tin]]></string>
+        <string><![CDATA[ÄÄƒng kÃ½ tráº¡ng thÃ¡i máº·c Ä‘á»‹nh]]></string>
+        <string><![CDATA[Tráº¡ng thÃ¡i máº·c Ä‘á»‹nh cho cÃ¡c bÃ i viáº¿t cá»§a diá»…n Ä‘Ã n]]></string>
+        <string><![CDATA[Tráº¡ng thÃ¡i máº·c Ä‘á»‹nh cho gÃ³p Ã½ cá»§a khÃ¡ch ]]></string>
+        <string><![CDATA[Kháº©u hiá»‡u]]></string>
+        <!-- Pages settings, strat @ position 50 -->
+        <string><![CDATA[Quáº£n trá»‹ trang Web]]></string>
+        <string><![CDATA[TiÃªu Ä‘á» trang]]></string>
+        <string><![CDATA[Trang máº¹]]></string>
+        <string><![CDATA[Kiá»ƒu truy cáº­p]]></string>
+        <string><![CDATA[Ná»™i dung dung]]></string>
+        <string><![CDATA[Tag quảng cáo]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[Trang nÃ y khÃ´ng xoÃ¡ Ä‘Æ°á»£c!]]></string>
+        <string><![CDATA[Kháº³ng Ä‘á»‹nh xoÃ¡? ]]></string>
+        <string><![CDATA[Xuáº¥t báº£n]]></string>
+        <string><![CDATA[Yes]]></string>
+        <string><![CDATA[No]]></string>
+        <string><![CDATA[Lá»‹ch biá»ƒu]]></string>
+        <string><![CDATA[NgÃ y xuáº¥t báº£n]]></string>
+        <string><![CDATA[NgÃ y háº¿t háº¡n]]></string>
+        <string><![CDATA[LiÃªn káº¿t ngoÃ i]]></string>
+        <string><![CDATA[Chá»§ Ä‘á»]]></string>
+        <string><![CDATA[CÃ¡c trang thÆ°á»ng Ä‘á»c]]></string>
+        <string><![CDATA[Äáº¿m]]></string>
+        <string><![CDATA[Sá»‘ má»¥c tin]]></string>
+        <!-- Content settings, start @ position 70 -->
+        <string><![CDATA[Quáº£n lÃ½ ná»™i dung]]></string>
+        <string><![CDATA[TiÃªu Ä‘á»]]></string>
+        <string><![CDATA[Vá»‹ trÃ­]]></string>
+        <string><![CDATA[Thuá»™c trang]]></string>
+        <string><![CDATA[TÃ¡c giáº£]]></string>
+        <string><![CDATA[NgÃ y]]></string>
+        <string><![CDATA[XML Source]]></string>
+        <string><![CDATA[XSL template]]></string>
+        <string><![CDATA[Headlines]]></string>
+        <string><![CDATA[Body]]></string>
+        <string><![CDATA[Sá»­a dá»¯ liá»‡u trong cháº¿ Ä‘á»™ design]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ ?]]></string>
+        <string><![CDATA[Má»¥c tin nÃ y lÃ  read only.]]></string>
+        <string><![CDATA[Báº¡n cÃ³ cháº¯c muá»‘n xoÃ¡ ná»™i dung nÃ y ?]]></string>
+        <string><![CDATA[In]]></string>
+        <string><![CDATA[Gá»­i cho báº¡n há»¯u]]></string>
+        <string><![CDATA[Cho biáº¿t Ã½ kiáº¿n]]></string>
+        <string><![CDATA[LÆ°u trá»¯]]></string>
+        <string><![CDATA[Táº¥t cáº£ cÃ¡c trang]]></string>
+        <string/>
+        <!-- Polls strings, start @ position 90 -->
+        <string><![CDATA[Quáº£n lÃ½ Ä‘iá»u tra]]></string>
+        <string><![CDATA[TÃªn Ä‘Ã¬eu tra]]></string>
+        <string><![CDATA[CÃ¢u há»i]]></string>
+        <string><![CDATA[Tráº£ lá»i n°1]]></string>
+        <string><![CDATA[Tráº£ lá»i n°2]]></string>
+        <string><![CDATA[Tráº£ lá»i n°3]]></string>
+        <string><![CDATA[Tráº£ lá»i n°4]]></string>
+        <string><![CDATA[Tráº£ lá»i n°5]]></string>
+        <string><![CDATA[Sá»‘ phiáº¿u báº§u]]></string>
+        <string><![CDATA[Trang liÃªn káº¿t]]></string>
+        <string><![CDATA[None]]></string>
+        <string><![CDATA[Báº¡n cÃ³ cháº¯c muá»‘n xoÃ¡ ?]]></string>
+        <string><![CDATA[Báº§u chá»n !]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Tips strings, start @ position 110 -->
+        <string><![CDATA[Quotation manager]]></string>
+        <string><![CDATA[Quotation content]]></string>
+        <string><![CDATA[Do you really want to delete this quotation?]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Gallery strings, start @ position 120 -->
+        <string><![CDATA[Pictures gallery manager]]></string>
+        <string><![CDATA[Item's name]]></string>
+        <string><![CDATA[Item's path ]]></string>
+        <string><![CDATA[Comment]]></string>
+        <string><![CDATA[Do you really want to remove this item from the gallery??]]></string>
+        <string><![CDATA[Select]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Member strings, start @ position 130 -->
+        <string><![CDATA[Quáº£n trá»‹ thÃ nh viÃªn ]]></string>
+        <string><![CDATA[TÃªn Ä‘Äƒng nháº­p]]></string>
+        <string><![CDATA[Password]]></string>
+        <string><![CDATA[Email]]></string>
+        <string><![CDATA[Äá»‹a chá»‰]]></string>
+        <string><![CDATA[NgÃ y]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[XoÃ¡ thÃ nh viÃªn nÃ y ?]]></string>
+        <string><![CDATA[Type]]></string>
+        <string><![CDATA[Tráº¡ng thÃ¡i]]></string>
+        <!-- Guestbook strings, start @ position 140 -->
+        <string><![CDATA[Quáº£n trá»‹ sá»• gÃ³p Ã½]]></string>
+        <string><![CDATA[TÃ¡c giáº£]]></string>
+        <string><![CDATA[TiÃªu Ä‘á» ]]></string>
+        <string><![CDATA[Ná»™i dung]]></string>
+        <string><![CDATA[NgÃ y]]></string>
+        <string><![CDATA[Email]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[XoÃ¡ ?]]></string>
+        <string><![CDATA[GÃ³p Ã½ vÃ o sá»•]]></string>
+        <string><![CDATA[<b>CÃ¡m Æ¡n báº¡n Ä‘Ã£ quan tÃ¢m gÃ³p Ã½!</b><br/>CÃ¡c gÃ³p Ã½ cá»§a báº¡n sáº½ Ä‘7á»£c xem xÃ©t trong thá»i gian ngáº¯n nháº­t.]]></string>
+        <!-- Reactions strings, start @ position 150 -->
+        <string><![CDATA[Reaction manager]]></string>
+        <string><![CDATA[Author]]></string>
+        <string><![CDATA[Title]]></string>
+        <string><![CDATA[Article]]></string>
+        <string><![CDATA[Message]]></string>
+        <string><![CDATA[Date]]></string>
+        <string><![CDATA[Visibility]]></string>
+        <string><![CDATA[Do you really want to delete this reaction?]]></string>
+        <string/>
+        <string/>
+        <!-- Medias strings, start @ position 160 -->
+        <string><![CDATA[Ressources]]></string>
+        <string><![CDATA[Ressources manager]]></string>
+        <string><![CDATA[Title]]></string>
+        <string><![CDATA[Type]]></string>
+        <string><![CDATA[Path]]></string>
+        <string><![CDATA[Comment]]></string>
+        <string><![CDATA[Width]]></string>
+        <string><![CDATA[Height]]></string>
+        <string><![CDATA[Picture]]></string>
+        <string><![CDATA[Video]]></string>
+        <string><![CDATA[Flash]]></string>
+        <string><![CDATA[Wav]]></string>
+        <string><![CDATA[Midi]]></string>
+        <string><![CDATA[Font]]></string>
+        <string><![CDATA[Zip]]></string>
+        <string><![CDATA[Exe]]></string>
+        <string><![CDATA[Others]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Upload strings, start @ position 180 -->
+        <string><![CDATA[File upload]]></string>
+        <string><![CDATA[Send]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Discussion strings, start @ position 190 -->
+        <string><![CDATA[Quáº£n trá»‹ diá»…n Ä‘Ã n]]></string>
+        <string><![CDATA[TiÃªu Ä‘á»]]></string>
+        <string><![CDATA[Diá»…n giáº£i]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[KhÃ´ng hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[XoÃ¡ diá»…n Ä‘Ã n ?]]></string>
+        <string><![CDATA[Gá»­i bÃ i]]></string>
+        <string><![CDATA[Tráº£ lá»i]]></string>
+        <string><![CDATA[Tham gia]]></string>
+        <!-- Stats strings, start @ position 200 -->
+        <string><![CDATA[Traffic analysis]]></string>
+        <string><![CDATA[Viewed webpage]]></string>
+        <string><![CDATA[Visitors]]></string>
+        <string><![CDATA[Calendar]]></string>
+        <string><![CDATA[Detail for ]]></string>
+        <string><![CDATA[ Viewed webpage]]></string>
+        <string><![CDATA[ Unique visitors]]></string>
+        <string><![CDATA[Time]]></string>
+        <string><![CDATA[URL]]></string>
+        <string><![CDATA[Referer]]></string>
+        <string><![CDATA[IP address]]></string>
+        <string><![CDATA[Date]]></string>
+        <string><![CDATA[Visits]]></string>
+        <string><![CDATA[Grid view]]></string>
+        <string><![CDATA[Graph view]]></string>
+        <string><![CDATA[Ctry]]></string>
+        <string><![CDATA[Browser]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <!-- toolbar strings, start @ position 220 -->
+        <string><![CDATA[Main]]></string>
+        <string><![CDATA[Add-ons]]></string>
+        <string><![CDATA[Moderation]]></string>
+        <string><![CDATA[Stats]]></string>
+        <string><![CDATA[Help]]></string>
+        <string><![CDATA[Quickstart]]></string>
+        <string><![CDATA[khÃ¡ch Ä‘ang thÄƒm]]></string>
+        <string><![CDATA[khÃ¡ch Ä‘ang thÄƒm]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Menu template strings, start @ position 240 -->
+        <string><![CDATA[TÃ¬m kiáº¿m site]]></string>
+        <string><![CDATA[ÄÄƒng kÃ½]]></string>
+        <string><![CDATA[Sá»• gÃ³p Ã½]]></string>
+        <string><![CDATA[Slide show]]></string>
+        <string><![CDATA[Diá»…n Ä‘Ã n]]></string>
+        <string><![CDATA[Quáº£n trá»‹]]></string>
+        <string><![CDATA[Logout]]></string>
+        <string><![CDATA[Menu]]></string>
+        <string><![CDATA[Login]]></string>
+        <string><![CDATA[TrÆ°ng cáº§u Ã½ kiáº¿n]]></string>
+        <string><![CDATA[Quotation]]></string>
+        <string><![CDATA[Quay láº¡i]]></string>
+        <string><![CDATA[Tiáº¿p]]></string>
+        <string><![CDATA[Xem ti&#7871;p]]></string>
+        <string><![CDATA[Táº¡o trang má»›i...]]></string>
+        <string><![CDATA[Táº¡o má»¥c tin...]]></string>
+        <string><![CDATA[Táº¡o má»¥c Ä‘iá»u tra cá»§a ngÆ°á»i dÃ¹ng...]]></string>
+        <string><![CDATA[Enter]]></string>
+        <string/>
+        <string/>
+        <!-- Forum Message template strings, start @ position 260 -->
+        <string><![CDATA[Quáº£n lÃ½ bÃ i viáº¿t diá»ƒn Ä‘Ã n ]]></string>
+        <string><![CDATA[TiÃªu Ä‘á»]]></string>
+        <string><![CDATA[TÃªn Ä‘Äƒng nháº­p]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[KhÃ´ng Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[XoÃ¡ bÃ i viáº¿t ?]]></string>
+        <string><![CDATA[Gá»­i bÃ i]]></string>
+        <string><![CDATA[Tráº£ lá»›i cho ]]></string>
+        <string><![CDATA[Gá»­i bÃ i]]></string>
+        <string><![CDATA[Viáº¿t bÃ i]]></string>
+        <string><![CDATA[Báº¡n pháº£i lÃ  thÃ nh viÃªn má»›i tham gia vÃ o diá»…n Ä‘Ã n Ä‘Æ°á»£c. HÃ£y Ä‘Äƒng nháº­p (Login) hoáº·c <a href="default.asp?id=0&ACT=9">Ä‘Äƒng kÃ½ má»›i</a> táº¡i Ä‘Ã¢y Ä‘á»ƒ tiáº¿p tá»¥c .]]></string>
+        <string><![CDATA[CÃ¡c bÃ i viáº¿t]]></string>
+        <string><![CDATA[Ná»™i dung]]></string>
+        <string><![CDATA[Tráº£ lá»i cho: ]]></string>
+        <string><![CDATA[Next: ]]></string>
+        <string><![CDATA[Back to ]]></string>
+        <string><![CDATA[Linear view]]></string>
+        <string><![CDATA[Tree view]]></string>
+        <string><![CDATA[Quay vá» má»¥c lá»¥c bÃ i]]></string>
+        <!-- DeskTop template strings, start @ position 280 -->
+        <string><![CDATA[Quáº£n trá»‹]]></string>
+        <string><![CDATA[Sá»‘ thÃ nh viÃªn ]]></string>
+        <string><![CDATA[Sá»‘ Ã½ kiáº¿n báº¡n Ä‘á»c ]]></string>
+        <string><![CDATA[Sá»‘ pháº£n há»“i ]]></string>
+        <string><![CDATA[Sá»‘ bÃ i viáº¿t cho diá»…n Ä‘Ã n ]]></string>
+        <string><![CDATA[Sá»‘ lÆ°á»£t truy cáº­p]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[PhiÃªn báº£n hiá»‡n nay: ]]></string>
+        <string/>
+        <string/>
+        <!-- Todo template strings, start @ position 290 -->
+        <string><![CDATA[Danh sÃ¡ch cÃ´ng viá»‡c]]></string>
+        <string><![CDATA[Báº¥m táº¡i Ä‘Ã¢y Ä‘á»ƒ ghi láº¡i cÃ´ng viá»‡c]]></string>
+        <string><![CDATA[Táº¡o má»›i]]></string>
+        <string><![CDATA[Káº¿t thÃºc]]></string>
+        <string><![CDATA[Diá»…n giáº£i]]></string>
+        <string><![CDATA[Má»©c Ä‘á»™ quan trá»ng]]></string>
+        <string><![CDATA[ThÃªm]]></string>
+        <string><![CDATA[NgÃ y]]></string>
+        <string><![CDATA[ÄÃ£ káº¿t thÃºc]]></string>
+        <string/>
+        <!-- Inscription template strings, start @ position 300 -->
+        <string><![CDATA[ÄÄƒng kÃ½]]></string>
+        <string><![CDATA[..]]></string>
+        <string><![CDATA[Login]]></string>
+        <string><![CDATA[Password]]></string>
+        <string><![CDATA[Email]]></string>
+        <string><![CDATA[Äá»‹a chá»‰]]></string>
+        <string><![CDATA[Cháº¥p nháº­n]]></string>
+        <string><![CDATA[(*) lÃ  nhá»¯ng cá»™t báº¯t buá»™c ]]></string>
+        <string><![CDATA[CÃ¡m Æ¡n báº¡n Ä‘Ã£ tham gia. BÃ¢y giá» báº¡n cÃ³ thá»ƒ Ä‘Äƒng nháº­p táº¡i khung bÃªn trÃ¡i.]]></string>
+        <string><![CDATA[Báº£n Ä‘Äƒng kÃ½ cá»§a báº¡n cáº§n sá»± cháº¥p thuáº­n cá»§a ngÆ°á»i quáº£n trá»‹. Xin báº¡n vui lÃ²ng chá».]]></string>
+        <!-- Reactions  template strings, start @ position 310 -->
+        <string><![CDATA[React to ]]></string>
+        <string><![CDATA[Name]]></string>
+        <string><![CDATA[Title]]></string>
+        <string><![CDATA[Message]]></string>
+        <string><![CDATA[Submit]]></string>
+        <string><![CDATA[Reactions ]]></string>
+        <string><![CDATA[By ]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Skin engine v2  template strings, start @ position 320 -->
+        <string><![CDATA[Margins]]></string>
+        <string><![CDATA[Only left margin]]></string>
+        <string><![CDATA[Only right margin]]></string>
+        <string><![CDATA[Both margin]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Category  template strings, start @ position 330 -->
+        <string><![CDATA[Chá»§ Ä‘á»]]></string>
+        <string><![CDATA[Quáº£n trá»‹ chá»§ Ä‘á» ]]></string>
+        <string><![CDATA[TÃªn]]></string>
+        <string><![CDATA[Quyá»n truy cáº­p]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹]]></string>
+        <string><![CDATA[Chá»§ Ä‘á» nÃ y khÃ´ng xoÃ¡ Ä‘Æ°á»£c]]></string>
+        <string><![CDATA[XoÃ¡ chá»§ Ä‘á» nÃ y?]]></string>
+        <string><![CDATA[Xem liá»‡t kÃª cÃ¡c trang cá»§a chá»§ Ä‘á» nÃ y]]></string>
+        <string><![CDATA[Táº¥t cáº£ cÃ¡c chá»§ Ä‘á»]]></string>
+        <string/>
+        <!-- Banners  template strings, start @ position 340 -->
+        <string><![CDATA[Quáº£ng cÃ¡o]]></string>
+        <string><![CDATA[TÃªn]]></string>
+        <string><![CDATA[Sá»‘ láº§n báº¥m chuá»™t vÃ o biá»ƒu tÆ°á»£ng]]></string>
+        <string><![CDATA[URL gá»‘c]]></string>
+        <string><![CDATA[Nguá»“n áº£nh Gif]]></string>
+        <string><![CDATA[Quáº£n trá»‹ quáº£ng cÃ¡o ]]></string>
+        <string><![CDATA[XoÃ¡ quáº£ng cÃ¡o nÃ y ?]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Downloads  template strings, start @ position 350 -->
+        <string><![CDATA[Downloads]]></string>
+        <string><![CDATA[TÃªn]]></string>
+        <string><![CDATA[ÄÆ°á»ng dáº«n]]></string>
+        <string><![CDATA[Editor's website]]></string>
+        <string><![CDATA[Description]]></string>
+        <string><![CDATA[License]]></string>
+        <string><![CDATA[Price]]></string>
+        <string><![CDATA[Operating system]]></string>
+        <string><![CDATA[Downloads manager]]></string>
+        <string><![CDATA[Do you really want to delete this download?]]></string>
+        <string><![CDATA[Downloaded ]]></string>
+        <string><![CDATA[Download now ]]></string>
+        <string><![CDATA[Top downloads]]></string>
+        <string><![CDATA[Size]]></string>
+        <string><![CDATA[Version]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Site map  template strings, start @ position 370 -->
+        <string><![CDATA[Site map]]></string>
+        <string><![CDATA[Káº¿t quáº£ tÃ¬m kiáº¿m]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Email  template strings, start @ position 380 -->
+        <string><![CDATA[ThÃ´ng bÃ¡o cho ngÆ°á»i quáº£n trá»‹]]></string>
+        <string><![CDATA[Smtp server]]></string>
+        <string><![CDATA[BÃ¡o khi cÃ³ gÃ³p Ã½ má»›i]]></string>
+        <string><![CDATA[BÃ¡o khi cÃ³ bÃ i viáº¿t má»›i trÃªn diá»…n Ä‘Ã n ]]></string>
+        <string><![CDATA[BÃ¡o khi cÃ³ pháº£n há»“i ]]></string>
+        <string><![CDATA[BÃ¡o khi cÃ³ thÃ nh viÃªn má»›i Ä‘Äƒng kÃ½ ]]></string>
+        <string/>
+        <string/>
+        <string/>
+        <string/>
+        <!-- Error messages strings, start @ position 390 -->
+        <string><![CDATA[Incorrect password or not already a validated subscription. \nCorrect or retry later.]]></string>
+        <string><![CDATA[Chá»‰ cÃ³ thá»ƒ báº§u chá»n 1 láº§n cho má»™t cuá»™c Ä‘iá»u tra!]]></string>
+        <string><![CDATA[Xin chÃ o, Ä‘Äƒng kÃ½ cá»§a báº¡n Ä‘Ã£ Ä‘Æ°á»£c cháº¥p tháº­n.]]></string>
+        <string><![CDATA[Má»™t sá»‘ má»¥c chÆ°a cÃ³. Xin báº¡n Ä‘iá»n vÃ o Ä‘áº§y Ä‘á»§ cÃ¡c má»¥c cÃ³ dáº¥u *.]]></string>
+        <string><![CDATA[TÃªn nÃ y Ä‘Ã£ cÃ³ ngÆ°á»i chá»n. báº¡n cáº§n Ä‘Äƒng kÃ½ tÃªn khÃ¡c.]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <string><![CDATA[]]></string>
+        <!-- Page options, start @ position 410 -->
+        <string><![CDATA[Sáº¯p xáº¿p cÃ¡c má»¥c tin ]]></string>
+        <string><![CDATA[Thá»© tá»± sáº¯p xáº¿p trÃªn trang]]></string>
+        <string><![CDATA[Theo tiÃªu Ä‘á»]]></string>
+        <string><![CDATA[Theo ngÃ y cáº­p nháº­t]]></string>
+        <string><![CDATA[Theo ID]]></string>
+        <string><![CDATA[TÄƒng]]></string>
+        <string><![CDATA[Giáº£m]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ tiÃªu Ä‘á»]]></string>
+        <string><![CDATA[Xem ná»™i dung cá»§a trang]]></string>
+        <string><![CDATA[]]></string>
+        <!-- Misc , start @ position 420 -->
+        <string><![CDATA[new]]></string>
+        <string><![CDATA[new messages]]></string>
+        <string><![CDATA[Confirmation by Email]]></string>
+        <string><![CDATA[Register confirmation]]></string>
+        <string><![CDATA[You applied for registration on the site: ]]></string>
+        <string><![CDATA[In order to complete this registration, browse to the following link: ]]></string>
+        <string><![CDATA[Here is the information to keep about your account: ]]></string>
+        <string><![CDATA[Thanks for registering. You will receive an email in some minutes to validate this registration. ]]></string>
+        <string><![CDATA[administrator]]></string>
+        <string><![CDATA[editor]]></string>
+        <!-- Misc , start @ position 430 -->
+        <string><![CDATA[thÃ nh viÃªn]]></string>
+        <string><![CDATA[ÄÄƒng kÃ½ newsletter]]></string>
+        <string><![CDATA[Newsletter]]></string>
+        <string><![CDATA[Vá»‹ trÃ­]]></string>
+        <string><![CDATA[Top]]></string>
+        <string><![CDATA[Bottom]]></string>
+        <string><![CDATA[Left]]></string>
+        <string><![CDATA[Right]]></string>
+        <string><![CDATA[Tip: Double click or CTRL-T to enter the WYSIWYG mode]]></string>
+        <string><![CDATA[Hiá»ƒn thá»‹ cÃ¡c tÃ¹y chá»n khÃ¡c]]></string>
+        <!-- Misc , start @ position 440 -->
+        <string><![CDATA[Che cÃ¡c tÃ¹y chá»n khÃ¡c]]></string>
+        <string><![CDATA[NhÃ³m]]></string>
+        <!-- Browsers stats -->
+        <string><![CDATA[Browser group]]></string>
+        <string><![CDATA[Detail of the versions]]></string>
+        <string><![CDATA[Browser]]></string>
+        <string><![CDATA[Version]]></string>
+        <string><![CDATA[Percentage]]></string>
+        <string><![CDATA[Others]]></string>
+    </strings>
+</language>

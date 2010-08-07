@@ -1,0 +1,124 @@
+<html>
+<head>
+<title> Utilização de Abas - Javascript </title>
+<style>
+
+body, table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000033;
+	background-color: #FFFFFF;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 5px;
+	cursor: hand;
+}
+
+.menu-sel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000033;
+	background-color: #CCCCCC;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	padding: 5px;
+	cursor: hand;
+}
+
+.tb-conteudo {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.conteudo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000033;
+	background-color: #CCCCCC;
+	padding: 5px;
+	width: 760px;
+	height: 460px;
+}
+
+</style>
+<script language="JavaScript">
+
+	function stAba(menu,conteudo)
+	{
+		this.menu = menu;
+		this.conteudo = conteudo;
+	}
+
+	var arAbas = new Array();
+	arAbas[0] = new stAba('td_cadastro','div_cadastro');
+	arAbas[1] = new stAba('td_consulta','div_consulta');
+	arAbas[2] = new stAba('td_manutencao','div_manutencao');
+
+	function AlternarAbas(menu,conteudo)
+	{
+		for (i=0;i<arAbas.length;i++)
+		{
+			m = document.getElementById(arAbas[i].menu);
+			m.className = 'menu';
+			c = document.getElementById(arAbas[i].conteudo)
+			c.style.display = 'none';
+		}
+		m = document.getElementById(menu)
+		m.className = 'menu-sel';
+		c = document.getElementById(conteudo)
+		c.style.display = '';
+	}
+
+</script>
+
+</head>
+
+<body onLoad="AlternarAbas('td_cadastro','div_cadastro')">
+
+<h2 align="center">Utilização de Abas - Javascript</h2>
+
+<table width="760" height="480" cellspacing="0" cellpadding="0"
+border="0" style="border-left: 1px solid #000000;">
+	<tr>
+		<td height="20" width="100" class="menu" id="td_cadastro"
+		onClick="AlternarAbas('td_cadastro','div_cadastro')">
+			Cadastro
+		</td>
+		<td height="20" width="100" class="menu" id="td_consulta"
+		onClick="AlternarAbas('td_consulta','div_consulta')">
+			Consulta
+		</td>
+		<td height="20" width="100" class="menu" id="td_manutencao"
+		onClick="AlternarAbas('td_manutencao','div_manutencao')">
+			Manutenção
+		</td>
+		<td width="460" style="border-bottom: 1px solid #000000">&nbsp;
+			
+		<td>
+	</tr>
+	<tr>
+		<td height="460" class="tb-conteudo" colspan="4">
+			<div id="div_cadastro" class="conteudo" style="display: none">
+				CADASTRO
+			</div>
+			<div id="div_consulta" class="conteudo" style="display: none">
+				CONSULTA
+			</div>
+			<div id="div_manutencao" class="conteudo" style="display: none">
+				MANUTENÇÃO
+			</div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

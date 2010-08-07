@@ -1,0 +1,35 @@
+<PUBLIC:COMPONENT>
+	<PUBLIC:ATTACH event="onclick" handler="ExpandCollapse" />
+	<PUBLIC:ATTACH EVENT="onload" ONEVENT="Init()" FOR="window" />
+	<SCRIPT>
+function Init()
+{
+   //runtimeStyle.listStyleImage = "url('admin/media/folder_close.gif')";
+   element.document.all(child).runtimeStyle.display = "none";
+}
+
+function ExpandCollapse()
+{
+   var sDisplay;
+	
+   // Determine current state of the list (ie expanded or collapsed)
+   // based on the current display property of the child.
+   bCollapsed = (element.document.all(child).runtimeStyle.display == "none");
+  
+   
+   if (bCollapsed)
+   {
+      runtimeStyle.listStyleImage = "url('admin/media/folder_open.gif')";
+      element.document.all(child).runtimeStyle.display = "";
+   }
+   else
+   {
+      runtimeStyle.listStyleImage = "url('admin/media/folder_close.gif')";
+      element.document.all(child).runtimeStyle.display = "none";
+   }
+   
+  window.event.cancelBubble = true;
+}
+	
+</SCRIPT>
+</PUBLIC:COMPONENT>

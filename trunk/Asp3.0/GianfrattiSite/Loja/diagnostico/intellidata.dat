@@ -1,0 +1,4 @@
+//Esta é a tabela de definição para componentes adicionais. O formato é URL;NOME;ObjectString; (Não se esqueça de colocar " ; " como delimitadores).
+http://microsoft.com;ADODB.Connection;ADODB.Connection;
+http://microsoft.com;CDONTS.NewMail;CDONTS.NewMail;
+http://microsoft.com;CDO.Message;CDO.Message;

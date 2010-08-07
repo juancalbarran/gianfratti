@@ -1,0 +1,486 @@
+<%
+'#########################################################################################
+'#----------------------------------------------------------------------------------------
+'#########################################################################################
+'#
+'#  CÓDIGO: VirtuaStore Versão OPEN - Copyright 2001-2004 VirtuaStore
+'#  URL: http://comunidade.virtuastore.com.br
+'#  E-MAIL: comunidade@virtuastore.com.br
+'#  AUTORES: Otávio Dias(Desenvolvedor)
+'# 
+'#     Este programa é um software livre; você pode redistribuí-lo e/ou 
+'#     modificá-lo sob os termos do GNU General Public License como 
+'#     publicado pela Free Software Foundation.
+'#     É importante lembrar que qualquer alteração feita no programa 
+'#     deve ser informada e enviada para os criadores, através de e-mail 
+'#     ou da página de onde foi baixado o código.
+'#
+'#  //-------------------------------------------------------------------------------------
+'#  // LEIA COM ATENÇÃO: O software VirtuaStore OPEN deve conter as frases
+'#  // "Powered by VirtuaStore OPEN" ou "Software derivado de VirtuaStore 1.2" e 
+'#  // o link para o site http://comunidade.virtuastore.com.br no créditos da 
+'#  // sua loja virtual para ser utilizado gratuitamente. Se o link e/ou uma das 
+'#  // frases não estiver presentes ou visiveis este software deixará de ser
+'#  // considerado Open-source(gratuito) e o uso sem autorização terá 
+'#  // penalidades judiciais de acordo com as leis de pirataria de software.
+'#  //--------------------------------------------------------------------------------------
+'#      
+'#     Este programa é distribuído com a esperança de que lhe seja útil,
+'#     porém SEM NENHUMA GARANTIA. Veja a GNU General Public License
+'#     abaixo (GNU Licença Pública Geral) para mais detalhes.
+'# 
+'#     Você deve receber a cópia da Licença GNU com este programa, 
+'#     caso contrário escreva para
+'#     Free Software Foundation, Inc., 59 Temple Place, Suite 330, 
+'#     Boston, MA  02111-1307  USA
+'# 
+'#     Para enviar suas dúvidas, sugestões e/ou contratar a VirtuaWorks 
+'#     Internet Design entre em contato através do e-mail 
+'#     contato@virtuaworks.com.br ou pelo endereço abaixo: 
+'#     Rua Venâncio Aires, 1001 - Niterói - Canoas - RS - Brasil. Cep 92110-000.
+'#
+'#     Para ajuda e suporte acesse um dos sites abaixo:
+'#     http://comunidade.virtuastore.com.br
+'#     http://br.groups.yahoo.com/group/virtuastore
+'#
+'#     BOM PROVEITO!          
+'#     Equipe VirtuaStore
+'#     []'s
+'#
+'#########################################################################################
+'#----------------------------------------------------------------------------------------
+'#########################################################################################
+
+'INÍCIO DO CÓDIGO---------------------
+'Este código está otimizado e roda tanto em Windows 2000/NT/XP/ME/98 quanto em servidores UNIX-LINUX com chilli!ASP
+
+'======================================
+' ARQUIVO COM AS STRINGS PARA DEFINIÇÃO DA LINGUAGEM
+' Português (PT) - LCID 2070
+' Pais : Portugal/Brasil
+' HTML Content-Type : ISO-8859-1 
+' Traduzido por : Pedro Magalhães 27/12/2003 
+' Acréscimos/Correções por : Elizeu Alcantara (elizeu@cristaosite.com.br / elizeu@onda.com.br ) 15/03/2004 
+'======================================
+
+
+nomeloja = application("nomeloja")
+
+strLgDataS1 = "Jan"            													'Nome dos meses abreviados
+strLgDataS2 = "Fev"
+strLgDataS3 = "Mar"
+strLgDataS4 = "Abr"
+strLgDataS5 = "Mai"
+strLgDataS6 = "Jun"
+strLgDataS7 = "Jul"
+strLgDataS8 = "Ago"
+strLgDataS9 = "Set"
+strLgDataS10 = "Out"
+strLgDataS11 = "Nov"
+strLgDataS12 = "Dez"
+
+strLgData1 = "Janeiro"														 'Nome dos meses completos
+strLgData2 = "Fevereiro"
+strLgData3 = "Março"
+strLgData4 = "Abril"
+strLgData5 = "Maio"
+strLgData6 = "Junho"
+strLgData7 = "Julho"
+strLgData8 = "Agosto"
+strLgData9 = "Setembro"
+strLgData10 = "Outubro"
+strLgData11 = "Novembro"
+strLgData12 = "Dezembro"
+
+
+'======================================
+'	VALOR DAS STRINGS DA LOJA          
+'======================================
+
+strLg1 = "Finalizar Compras"
+strLg2 = "Quantidade de itens:"
+strLg3 = "Sub-total:"
+strLg4 = "Home"
+strLg5 = "Registo de Clientes"
+strLg6 = "Login"
+strLg7 = "Carrinho de Compras de"
+strLg8 = "Fechar Pedido"
+strLg9 = "Os meus Dados"
+strLg10 = "Histórico de Compras"
+strLg11 = "Logout"
+strLg12 = "Departamentos"
+strLg13 = "Pesquisa"
+strLg14 = "Atendimento"
+strLg15 = "Todas as categorias"
+strLg16 = "Como Comprar?"
+strLg17 = "Por e-mail"
+strLg18 = "Sobre Segurança"
+strLg19 = "Segurança e Privacidade"
+strLg20 = "Quem somos"
+strLg21 = "Pesquisar"
+strLg22 = "Sobre Segurança"
+strLg23 = "Por e-mail"
+strLg24 = "Atendimento por e-mail"
+strLg25 = "para entrega"
+strLg26 = "Pronta Entrega" ' ou "Disponível para entrega"
+strLg27 = "Esgotado" 'ou "Não disponível para entrega"
+strLg28 = "Stock:"
+strLg29 = "Preço:"
+strLg30 = "+ Detalhes"
+strLg31 = "Fabricante:"
+strLg32 = "Adicionar"
+strLg33 = "produto(s) no meu carrinho de compras."
+strLg34 = "Comprando o"
+strLg35 = "na"
+strLg36 = "você economiza até " 
+strLg37 = "A pronto por:"
+strLg38 = "por:"
+strLg39 = "de:"
+strLg40 = "ou ainda:"
+strLg41 = "Voltar"
+strLg42 = "Pesquisar por" 
+strLg43 = "Foram encontrado(s)"
+strLg44 = "produto(s) :"
+strLg45 = "Página"
+strLg46 = "de"
+strLg47 = "Próxima Página"
+strLg48 = "Produtos neste departamento:"
+strLg49 = "Não há nenhum item em seu carrinho de compras."
+strLg50 = "Se você comprou algum produto anteriormente a sua sessão de compras está expirada!"
+strLg51 = "Ver o meu carrinho de compras"
+strLg52 = "Mais Ofertas:"
+strLg53 = "O item foi adicionado ao seu carrinho de compras."
+strLg54 = "Compra"
+strLg55 = "A sua compra"
+strLg56 = "Por favor, verifique se sua compra está correta antes de prosseguir."
+strLg57 = "Para modificar a quantidade de algum item digite o novo valor e clique no botão actualizar."
+strLg58 = "Quantidade"
+strLg59 = "Produto"
+strLg60 = "Preço Unitário"
+strLg61 = "Preço Total"
+strLg62 = "Remover"
+strLg63 = "Total da compra"
+strLg64 = "Valor da entrega em"
+strLg65 = "A sua compra"
+strLg66 = "actualizar"
+strLg67 = "Prosseguir"
+strLg68 = "Continuar as Compras"
+strLg69 = "Escolha a região de entrega para o calculo do frete!"
+strLg70 = "Clique aqui"
+strLg71 = "Clique aqui!"
+strLg72 = "Dados para entrega do pedido"
+strLg73 = "Para modificar a sua compra"
+strLg74 = "Por favor, verifique se o endereço para entrega está correto antes de prosseguir."
+strLg75 = "se endereço para a entrega e o mesmo que o seu!"
+strLg76 = "Opções para entrega"
+strLg77 = "Endereço para entrega"
+strLg78 = "Endereço:"
+strLg79 = "Bairro:"
+strLg80 = "Cidade:"
+strLg81 = "Estado:"
+strLg82 = "CEP:"
+strLg83 = "País:"
+strLg84 = "Telefone:"
+strLg85 = "Você deseja que os itens comprados sejam empacotados e enviados como presente?"
+strLg86 = "Sim"
+strLg87 = "Não"
+strLg88 = "Mensagem escrita no cartão-presente:"
+strLg89 = "Limpar"
+strLg90 = "Por favor, preencha todos os dados corretamente antes de prosseguir."
+strLg91 = "Forma de Pagamento"
+strLg92 = "Por favor, preencha todos os dados corretamente antes de prosseguir."
+strLg93 = "Para modificar o endereço de entrega das compras e/ou outros dados"
+strLg94 = "Selecione a forma de pagamento escolhida:"
+strLg95 = "Outras formas de pagamento"
+strLg96 = "Pagamento via Cartão de Crédito" 
+strLg97 = "Selecione seu cartão:"
+strLg98 = "Número do cartão: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Código de Segurança:"
+strLg99 = "Expiração do cartão:" 
+strLg100 = "Cancelar"
+strLg101 = "Ano"
+strLg102 = "Titular do cartão (Como aparece no Cartão):" 
+strLg103 = "Os Meus Dados"
+strLg104 = "Para modificar os seus dados, selecione o campo desejado e escreva os dados actualizados sobre o antigo."
+strLg105 = "Para manter clique em 'Cancelar'. "
+strLg106 = "Dados do registo"
+strLg107 = "Dados Pessoais"
+strLg108 = "O seu e-mail:"
+strLg109 = "O seu telefone:"
+strLg110 = "O seu país:"
+strLg111 = "O seu estado:"
+strLg112 = "A sua cidade:"
+strLg113 = "O seu bairro:"
+strLg114 = "O seu endereço:"
+strLg115 = "O seu RG ou IE"
+strLg116 = "O CPF ou CNPJ"
+strLg117 = "Data nascimento:"
+strLg118 = "O seu Nome ou Razão Social:"
+strLg119 = "Compras efetuadas por"
+strLg120 = "Para visualizar os dados da sua compra digite o número do pedido abaixo:"
+strLg121 = "Pedido n.:"
+strLg122 = "Para sua comodidade e segurança verifique todos os seus dados antes de prosseguir." 
+strLg123 = "A sua Senha:"
+strLg124 = "O seu e-mail foi enviado com sucesso!"
+strLg125 = "Obrigado"
+strLg126 = "em breve você receberá resposta à sua dúvida!"
+strLg127 = "Agora desfrute da comodidade e segurança de comprar em nossa loja virtual."
+strLg128 = "Como Comprar na "
+strLg129 = "O seu Nome:"
+strLg130 = "Digite o seu e-mail corretamente para que esta mensagem possa ser respondida."
+strLg131 = "Dúvida sobre:"
+strLg132 = "Assunto:"
+strLg133 = "Mensagem:"
+strLg134 = "Como utilizar o Carrinho de Compras?"
+strLg135 = "Como pesquisar produtos na loja?"
+strLg136 = "Como é o registo de clientes?"
+strLg137 = "Como efetuar o login na loja?"
+strLg138 = "Como modifico meus dados?"
+strLg139 = "Dúvidas diversas"
+strLg140 = "Enviar"
+strLg141 = "Preencha este campo!"
+strLg142 = "O NIF deve ter 9 dígitos!"
+strLg143 = "NIF Inválido!"
+strLg144 = "Preencha este campo corretamente!"
+strLg145 = "E-mail já existente em nossos registos!"
+strLg146 = "Modificar o meu e-mail ou senha"
+strLg147 = "Dia"
+strLg148 = "Mês" 
+strLg149 = "registo Alterado"
+strLg150 = "O seu registo foi alterado com sucesso!"
+strLg151 = "Todos os seus dados foram modificados e actualizados com sucesso em nossa base de dados."
+strLg152 = "Digite seu e-mail corretamente!"
+strLg153 = "Fechar esta Janela"
+strLg154 = "O seu e-mail foi registrado com sucesso!"
+strLg155 = "Obrigado, agora você receberá ofertas exclusivas da "
+strLg156 = "Este item já existe no seu carrinho de compras."
+strLg157 = "O item foi adicionado ao seu carrinho de compras."
+strLg158 = "Esta é a sua primeira vez aqui?"
+strLg159 = "Registe-se e receba ofertas exclusivas"
+strLg160 = "Digite o seu e-mail"
+strLg161 = "Registe-se Já!"
+strLg162 = "Este e-mail já pertence a outro cliente registado!"
+strLg163 = "A senha digitada não confere!"
+strLg164 = "Para modificar os dados clique em 'actualizar', para manter clique em 'Cancelar'."
+strLg165 = "Só é permitida a alteração de um item de cada vez."
+strLg166 = "Dados do seu e-mail"
+strLg167 = "se você quiser modificar o seu e-mail!"
+strLg168 = "O seu e-mail actual:"
+strLg169 = "Digite o seu novo e-mail:"
+strLg170 = "Dados da sua senha"
+strLg171 = "se você quer modificar a sua senha!"
+strLg172 = "Digite a sua senha actual:"
+strLg173 = "Digite sua nova senha:"
+strLg174 = "O campo Endereço não pode estar vazio!"
+strLg175 = "O campo Bairro não pode estar vazio!"
+strLg176 = "O campo Cidade não pode estar vazio!"
+strLg177 = "O campo CEP não pode estar vazio!"
+strLg178 = "O campo Telefone não pode estar vazio!"
+strLg179 = "Login na Loja"
+strLg180 = "Se é a sua primeira visita a esta loja"
+strLg181 = "Se já é nosso cliente registado então introduza os dados."
+strLg182 = "Você esqueceu a sua senha?"
+strLg183 = "E-mail de utilizador não encontrado!"
+strLg184 = "A Senha está incorreta!"
+strLg185 = "Selecione a sua região"
+strLg186 = "Informações sobre o pedido "
+strLg187 = "Esta compra não está presente na base de dados da loja"
+strLg188 = "ou não é referente a este cliente!"
+strLg189 = "Compra efetuada por"
+strLg190 = "CTT à cobrança"
+strLg191 = "Depósito Identificado"
+strLg192 = "Depósito Simples"
+strLg193 = "Aguardando confirmação de pagamento"
+strLg194 = "Pagamento confirmado e Compra em processamento"
+strLg195 = "Compra já enviada ao cliente"
+strLg196 = "Compra Já Entregue"
+strLg197 = "Compra Cancelada"
+strLg198 = "Compra Negada"
+strLg199 = "Outras - Contate o Atendimento"
+strLg200 = "Frete"
+strLg201 = "Status da Compra"
+strLg202 = "Data da Compra"
+strLg203 = "Estimativa para entrega"
+strLg204 = "Você ainda não efetuou nenhuma compra na"
+strLg205 = "Ver informações deste pedido!"
+strLg206 = "Departamento Inexistente"
+strLg207 = "Departamento inexistente na"
+strLg208 = "Nenhum produto presente neste departamento!"
+strLg209 = "Página Anterior"
+strLg210 = " - Cartão Inválido."
+strLg211 = " - Número Inválido."
+strLg212 = " - Número e Cartão Inválidos."
+strLg213 = " - Soma de Controle Inválida."
+strLg214 = " - Soma de Controle e Cartão Inválidos."
+strLg215 = " - Soma de Controle e Número Inválidos."
+strLg216 = " - Soma de Controle, Número e Cartão Inválidos"
+strLg217 = " - Digite o número do cartão de crédito"
+strLg218 = " - Selecione uma data válida!"
+strLg219 = " - Data do cartão inválida."
+strLg220 = " - Digite o nome do titular (como aparece no cartão)"
+strLg221 = "Cartão de Crédito MASTERCARD"
+strLg222 = "Cartão de Crédito VISA"
+strLg223 = "Cartão de Crédito AMERICAN EXPRESS"
+strLg224 = "Cartão de Crédito DINNERS"
+strLg225 = "CTT à cobrança"
+strLg226 = "Depósito Identificado"
+strLg227 = "Depósito Bancário"
+strLg228 = "Nenhum produto foi encontrado na nossa base de dados. Refaça a sua pesquisa!"
+strLg229 = "Produto Inexistente ou Fora de Catálogo"
+strLg230 = "Produto inexistente ou Fora de Catálogo na"
+strLg231 = "Digite o seu e-mail:"
+strLg232 = "Senha:"
+strLg233 = "Incorreto"
+strLg234 = "A sua senha deve ter no máximo 10 caracteres!"
+strLg235 = "A sua senha deve ter no mínimo 5 caracteres!"
+strLg236 = "Seu registo foi feito com sucesso!"
+strLg237 = "Obrigado"
+strLg238 = "agora desfrute da comodidade e segurança de comprar na "
+strLg239 = "Compra Segura"
+strLg240 = "Criptografia"
+strLg241 = "Compras com Cartão de Crédito"
+strLg242 = "Utilização de Informações"
+strLg243 = "Dúvidas e Sugestões"
+strLg244 = "E-mail não encontrado nos nossos registos!"
+strLg245 = "Preencha o seu e-mail corretamente!"
+strLg246 = "A sua Senha"
+strLg247 = "A sua senha foi enviada com sucesso para"
+strLg248 = "Digite o seu e-mail abaixo para que a sua senha possa ser enviada."
+strLg249 = "E-mail:"
+strLg250 = "Enviar Senha!"
+strLg251 = "- Preencha os Campos ao lado."
+strLg252 = "Em breve você receberá resposta para a sua solicitação."
+strLg253 = "Equipa Médica"
+strLg254 = "Resultados Reais"
+strLg255 = "Sobre"
+strLg256  = "Boleto Bancário"
+strLg257 = "Compre o produto "
+strLg258 = "Atendimento On-Line "
+strLg259 = "Atendimento Off-Line "
+strLg260 = "Versions in "
+strLg261 = "Esta página foi carregada em "
+strLg262 = " segundo(s)"
+strLg263 = "Visitantes até "
+strLg264 = "Visitante "
+strLg265 = "Seja Bem Vindo "
+strLg266 = "Remover meu email "
+strLg267 = "Incluir meu email "
+strLg268 = "Seu e-mail foi removido com sucesso!"
+strLg269 = "Obrigado, apartir de hoje você não receberá ofertas exclusivas da "
+strLg270 = " Máximo de "
+strLg271 = " produto(s) por compra. "
+strLg272 = " unidade(s) "
+strLg273 = " Você está em "
+strLg274 = " Campeões de Venda "
+strLg275 = " Enviar essa oferta a um amigo "
+strLg276 = " Comprar Produto "
+strLg277 = "Temos somente"
+strLg278 = " produto(s) em nosso estoque"
+strLg279 = "Deseja comprar os "
+strLg280 = "produtos restantes?"
+strLg281 = "O 'CEP' informado está diferente do seu cadastro. Clique em Atualizar para recalcular"
+strLg282 = " Calcular o valor da Entrega"
+strLg283 = "Dados para entrega da compra"
+strLg284 = "Forma de Pagamento"
+strLg285 = "Compra concluída!"
+strLg286 = "Fechando Pedido..."
+strLg287 = "Como Pagar?"
+strLg288 = "Como Reimprimir Boleto?"
+strLg289 = "Dados para Login na loja"
+strLg290 = "Dados Cadastrais"
+strLg291 = "Nome do Contato"
+strLg292 = " dias"
+strLg293 = " após a Confirmação de pagamento"
+strLg294 = "Escolha uma Forma de Pagamento"
+strLg295 = "Digite seu CEP para o calculo do Frete e clique em Atualizar"
+strLg296 = "Política de Troca"
+strLg297 = "Referencia" 
+strLg298 = "Tamanho"
+strLg299 = "Cor"
+strLg300 = "Pagamento via BRpay" 
+
+'#############################
+'## STRINGS DO TERMO DE USO ##
+'#############################
+'strLg360 = "1. Aceitação dos Termos do Contrato"
+'strLg361 = "2. Restrições de Uso"
+'strLg362 = "3. Marcas Comerciais"
+'strLg363 = "4. Desconhecimento de Garantia"
+'strLg364 = "5. Nossas Transmissões"
+'strLg365 = "6. Revisões dos Termos de Uso"
+'strLg366 = "7. Lei Aplicável"
+'strLg367 = "Termo de Uso Site"
+
+
+'###########################################
+'	Textos da loja							
+'###########################################
+
+'Este texto é referente a área "Compra Segura"
+'This text is used in the "Safety" area
+strLgcomprasegura = "&nbsp;&nbsp;&nbsp;&nbsp;A " & nomeloja & " tem um especial compromisso com você, nosso cliente, quanto à segurança e privacidade dos seus dados. O respeito pelo cliente e o sigilo das suas informações é muito importante para nós. Por isso, você, cliente da " & nomeloja & ", tem a garantia que sua compra é segura.<br>&nbsp;&nbsp;&nbsp;&nbsp;A " & nomeloja & " em parceria com a VirtuaWoks elaborou um conjunto de acções para garantir a segurança de todas as compras feitas na nossa loja, independentemente da forma de pagamento escolhida. Todas as informações que você fornecer no processo de compra são totalmente criptografadas."
+
+'Este texto é referente a área "Criptografia"
+'This text is used in the "Criptography" area
+strLgcriptografia = "&nbsp;&nbsp;&nbsp;&nbsp;Todas as informações que passam pelo nosso processo de compra são automaticamente codificadas por um sistema de criptografia próprio. Assim, os seus dados pessoais, a forma de pagamento escolhida e toda e qualquer outra informação fornecida à " & nomeloja & " será mantida em sigilo. O ícone 'cadeado fechado' - na parte inferior do seu monitor - durante o pedido é um símbolo da criptografia das informações."
+
+'Este texto é referente a área "Compras com Cartão de Crédito"
+'This text is used in the "Credit Card Sales" area
+strLgcomprascc = "&nbsp;&nbsp;&nbsp;&nbsp;Além da criptografia, outro factor de segurança é a automática destruição dos dados relativos ao número do cartão de crédito. A " & nomeloja & " utiliza o número do cartão somente no processamento da compra e, tão logo que ocorra a confirmação pela Concessionaria do cartão, o número é automaticamente destruído, não sendo, de nenhuma forma, guardado na base de dados da " & nomeloja & "."
+
+'Este texto é referente a área "Utilização de Informações"
+'This text is used in the "Your Information" area
+strLginformacoes = "&nbsp;&nbsp;&nbsp;&nbsp;A " & nomeloja & " não comercializará as suas informações pessoais. Tais informações poderão, entretanto, ser agrupadas conforme determinados critérios e utilizadas como estatísticas genéricas objetivando um melhor entendimento do perfil do consumidor."
+
+'Este texto é referente a área "Dúvidas e sugestões"
+'This text is used in the "faq and sugestions" area
+strLgduvsug = "&nbsp;&nbsp;&nbsp;&nbsp;Caso tenha qualquer dúvida ou sugestão sobre segurança e privacidade ou sobre qualquer outro aspecto do nosso processo de compra, não deixe de nos contatar."
+
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLgquemsomos = "&nbsp;&nbsp;&nbsp;&nbsp;Nós somos uma loja virtual que vende produtos de qualidade!"
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa = "&nbsp;&nbsp;&nbsp;&nbsp;Os seguintes são os termos de um contrato estabelecido entre você (cliente) e o " & nomeloja & ". Ao acessar, navegar e/ou usar este site (Site), você admite ter lido e entendido estes termos e cumprirá com todas as leis e regras aplicáveis."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa1 = "&nbsp;&nbsp;&nbsp;&nbsp;O " & nomeloja & " não se responsabiliza se o material deste Site for apropriado, ou esteja disponível para uso em outros lugares, estando proibido o seu acesso em territórios onde seu conteúdo seja ilegal. Aqueles que decidam acessar este site em outros lugares o farão por iniciativa própria e é sua responsabilidade se sujeitar as leis locais aplicáveis."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa2 = "&nbsp;&nbsp;&nbsp;&nbsp;Os direitos de autor de todo o material apresentado neste Site são propriedade do " & nomeloja & ", ou do criador original do material. Com excessão do expressamente estipulado neste documento, este material ou nenhuma parte do mesmo pode ser copiado, reproduzido, distribuido, re-publicado, apresentado, anunciado ou transmitido de nenhuma maneira ou por nenhum meio, incluindo, mas não limitado a, meios eletrônicos, mecânicos, de fotocópia, de gravacão ou de qualquer outra índole, sem a permissão previa por escrito do " & nomeloja & " ou do titular dos direitos de autor."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa3 = "&nbsp;&nbsp;&nbsp;&nbsp;Concede-se a autorização a permissão para apresentar no ecran, copiar e distribuir o material neste site unicamente para uso pessoal, não comercial, com a condição de que não se modifique o material e que se conserve todas as legendas de direitos de autor e de outros tipos de propriedade incluídos neste material. Esta permissão termina automaticamente se você violar qualquer destes termos e condições. Ao seu término, se deverá destruir qualquer material reproduzido ou impresso. Tampouco é permitido, sem a permissão do " & nomeloja & ", replicar em outro servidor qualquer material incluído neste Site."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa4 = "&nbsp;&nbsp;&nbsp;&nbsp;Qualquer uso não autorizado de qualquer material incluído neste site pode constituir uma violação das leis de direitos de autor, das leis de marcas comerciais, das leis de privacidade e publicidade e das leis e regras de comunicações."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa5 = "&nbsp;&nbsp;&nbsp;&nbsp;As marcas comerciais, as marcas de serviço e os logotipos (as Marcas Comerciais) usados e apresentados neste Site são Marcas Comerciais registradas ou não registradas do " & nomeloja & " e outros. Nada neste Site deverá ser interpretado como concessão, por implicitude, por exclusão ou de nenhuma outra maneira, de nenhuma licença ou de direito de uso de qualquer Marca Comercial apresentada neste Site, sem a permissão por escrito do titular dos direitos da Marca Comercial."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa6 = "&nbsp;&nbsp;&nbsp;&nbsp;O " & nomeloja & " faz cumprir de maneira ativa os seus direitos de propriedade intelectual em toda a extensão da lei. O nome " & nomeloja & " e/ou o logotipo do " & nomeloja & " não pode ser usado de maneira alguma, incluindo anúncios ou publicidade relacionados a distribuição do material neste Site, sem permissão previa por escrito."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa7 = "&nbsp;&nbsp;&nbsp;&nbsp;O material neste site é apresentado ASSIM COMO ESTÁ,sem haver incluído garantias de qualquer tipo, explícitas ou implícitas. em cumprimento com a lei aplicável, na maior medida possível, o " & nomeloja & " desconhece todas as garantias explícitas ou implícitas, incluindo, mas não limitada a, garantias implícitas de comercialização, adequação para um propósito particular, não contravenção ou outra violação de direitos."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa8 = "&nbsp;&nbsp;&nbsp;&nbsp;O " & nomeloja & " não garante nem faz representação alguma em relação ao uso, validez, precisão ou confiabilidade de, ou dos resultados do uso de, ou qualquer outra situação relacionada ao material neste site ou qualquer site com um link com este site. responsabilidade limitada sobre nenhuma hipótese, incluindo, mas não limitada a, negligência, o " & nomeloja & " será responsável por qualquer dano directo, indirecto, especial, incidental, consequente, incluindo, mas não limitado a, perda de informação ou utilidades, resultado de uso ou a incapacidade de usar o material neste site, mesmo no caso de que o " & nomeloja & " ou um representante autorizado da " & nomeloja & " tenha consciência da possibilidade de tal dano."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa9 = "&nbsp;&nbsp;&nbsp;&nbsp;No caso de que o uso do material neste site por sua parte resulte em necessidade de serviço, reparo ou correção de equipamento ou informação, você assume qualquer custo derivado dele. alguns países não permitem a exclusão ou limitação de danos incidentais ou consequentes, assim que as limitações e exclusões mencionadas acima podem não ser aplicáveis em seu caso."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa10 = "&nbsp;&nbsp;&nbsp;&nbsp;Qualquer material, informacão ou idéia que você transmita ou coloque neste Site por qualquer meio será tratado como confidencial e somente pode ser disseminado ou usado pelo " & nomeloja & " ou seus parceiros."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa11 = "&nbsp;&nbsp;&nbsp;&nbsp;Você está proibido de colocar em, ou transmitir deste Site qualquer material ilegal, ameaçador, caluniador, difamatório, obsceno, escandaloso, provocante, pornográfico ou profano ou qualquer outro material que possa dar oportunidade a qualquer responsabilidade civil ou penal nos termos da lei."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa12 = "&nbsp;&nbsp;&nbsp;&nbsp;O Shopping VirtuaStore pode em qualquer momento revisar estes Termos de Uso por meio da actualização deste anúncio. Ao usar este Site, você concorda em cumprir quaisquer revisões, devendo então visitar periodicamente esta página para determinar os termos de uso vigentes nesse momento, com os quais você deve cumprir."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa13 = "&nbsp;&nbsp;&nbsp;&nbsp; Este Termo de Uso é regido pelas leis brasileiras."
+'Este texto é referente a área "Quem Somos"
+'This text is used in the "About Us" area
+strLglicensa14 = "&nbsp;&nbsp;&nbsp;&nbsp;© Copyright 2004 " & nomeloja & ".Proibida sua reprodução total ou parcial."
+%>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<categories>
+	<category readonly="readonly">
+		<id><![CDATA[1]]></id>
+		<name><![CDATA[MENU]]></name>
+		<member><![CDATA[off]]></member>
+		<visible><![CDATA[on]]></visible>
+		<position><![CDATA[left]]></position><order><![CDATA[1]]></order><sortfield><![CDATA[publicationdate]]></sortfield><sortorder><![CDATA[descending]]></sortorder><xform><![CDATA[]]></xform></category>
+	<category readonly="readonly">
+		<id><![CDATA[2]]></id>
+		<name><![CDATA[MEMBER AREA]]></name>
+		<member><![CDATA[on]]></member>
+		<visible><![CDATA[on]]></visible>
+		<position><![CDATA[left]]></position><order><![CDATA[2]]></order><sortfield><![CDATA[publicationdate]]></sortfield><sortorder><![CDATA[descending]]></sortorder><xform><![CDATA[]]></xform></category>
+</categories>

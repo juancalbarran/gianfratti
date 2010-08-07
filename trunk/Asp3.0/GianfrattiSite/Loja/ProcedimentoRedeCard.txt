@@ -1,0 +1,62 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$ Procedimento para Implantar o componente Komerci na VirtuaStore $
+$                                                                 $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+1)Colocar o componente Komerci e manual no seu site fora da Internet.
+  Arquivos:
+  Komerci.dll = Componente para chamar arquivo CodVer.exe
+  Komerci.pdf = Manual da RedeCard
+  CodVer.exe = Arquivo para criação de código de verificação.
+
+  exemplo de pasta: 
+  e:\home\seudominio\RedeCard\
+  
+  O Administrador de rede do seu provedor vai copiar para uma pasta 
+  no C:\> do servidor e irá registra-lo no IIS.
+
+  Registrar com o Aplicativo COM+
+  Painel Controle
+  .Ferramentas Administrativas
+  ..Serviços de Componentes
+  ...Serviços de Componente
+  ....Computadores
+  .....Meu Computador
+  ......Aplicativos COM+
+
+  Clicar com botão direito
+  Novo
+  .Aplicativo
+  ..Cria um aplicativo vazio
+  ...Digitar o nome (componentes SUAEMPRESA)
+
+  Clicar em Componentes SUAEMPRESA
+  .Componentes
+  Clicar com mouse direito
+  Novo
+  Instalar novos componentes
+  Selecionar a pasta da DLL (komerci.dll)
+
+
+
+2)Colocar uma loja teste no seu domínio ou na Loja principal.
+
+  - Cadastre 1 ou mais produtos com valor 1,00 e frete 0,00.
+
+  obs: no caso da RedeCard, não possue ambiente de teste.
+       a compra pode ser desfeita no site www.redecard.com.br 
+
+3)Coloque sua loja em produção
+  Entrar na config.asp
+  '## Configurações para pagamento com cartão RedeCard
+  URL_Codv_RedeCard    = "g:\inetpub\seudominio.com.br\RedeCard\" 'pasta com permissao de escrita para gravar Arq. com código de verificação
+  Filiacao_RedeCard    = "012345678"  'Coloque o número do estabelecimento
+  URL_Retorno_RedeCard = "https://www.seudominio.com.br/LojaTeste/pagamentokomerci.asp"
+   
+
+4)A loja esta configurada para pagamento à vista, caso necessite de parcelamento
+  entre no arquivo "Geraopcoes.inc" e configure a quantidade de parcelas.
+  O número de parcelas deverá esta previsto em contrato.  
+  
+
+ 

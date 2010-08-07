@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>French</name>
+	<translator>
+		<name>John Roland</name>
+		<email>john_roland@email.com</email>
+	</translator>
+	<encoding>iso-8859-1</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Console d'administration</string>
+		<string>Voir le site</string>
+		<string>Options</string>
+		<string>Pages</string>
+		<string>Articles</string>
+		<string>Sondages</string>
+		<string>Citations</string>
+		<string>Galerie</string>
+		<string>Membres</string>
+		<string>Livre d'or</string>
+		<string>Statistiques</string>
+		<string>Réactions</string>
+		<string>Discussions</string>
+		<string>Upload</string>
+		<string>Créer...</string>
+		<string>Supprimer</string>
+		<string>Modifier...</string>
+		<string>Valider</string>
+		<string>Annuler</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Configuration du site</string>
+		<string>Nom du site</string>
+		<string>Login administrateur</string>
+		<string>Mot de passe</string>
+		<string>META Title</string>
+		<string>Adresse email</string>
+		<string>URL du site</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Apparence</string>
+		<string>Langue</string>
+		<string>page d'introduction</string>
+		<string>Chemin du logo</string>
+		<string>Afficher la toolbar</string>
+		<string>Copyright</string>
+		<string>Liste des options</string>
+		<string>Afficher le menu</string>
+		<string>Afficher la barre d'outil article</string>
+		<string>Afficher la boite de recherche</string>
+		<string>Liste des suppléments</string>
+		<string>Sondages</string>
+		<string>Citations</string>
+		<string>Galerie d'images</string>
+		<string>Livre d'or</string>
+		<string>Groupe de discussion</string>
+		<string>Afficher la date et l'auteur des articles</string>
+		<string>Etat par défaut des inscriptions</string>
+		<string>Etat par défaut des messages sur les forums</string>
+		<string>Etat par défaut des messages sur le livre d'or</string>
+		<string>Slogan</string>
+		<!-- Pages settings, start @ position 50 -->
+		<string>Gestion des pages</string>
+		<string>Titre de la page</string>
+		<string>Page parent</string>
+		<string>Type d'acces</string>
+		<string>Edito</string>
+		<string>Pub</string>
+		<string>Visibilité</string>
+		<string>Cette page ne peut pas être supprimer</string>
+		<string>Voulez-vous vraiment supprimer cette page ?</string>
+		<string>Publication</string>
+		<string>Oui</string>
+		<string>Non</string>
+		<string>Programmé</string>
+		<string>Date de publication</string>
+		<string>Date d'expiration</string>
+		<string>Lien externe</string>
+		<string>Catégorie</string>
+		<string>Top pages</string>
+		<string>Compte</string>
+		<string>Nombre d'articles</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Gestion des articles</string>
+		<string>Titre de l'article</string>
+		<string>Position</string>
+		<string>Page web</string>
+		<string>Auteur</string>
+		<string>Date</string>
+		<string>Source XML</string>
+		<string>Modele XSL</string>
+		<string>Accroche</string>
+		<string>Contenu</string>
+		<string>Editer ces données en mode visuel</string>
+		<string>Visibilité</string>
+		<string>Cet article ne peut pas être supprimer.</string>
+		<string>Êtes vous sur de vouloir supprimer cet article ?</string>
+		<string>Imprimer</string>
+		<string>Envoyer à un ami</string>
+		<string>Donner votre avis</string>
+		<string>Archive</string>
+		<string>Toute les pages</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Gestion des sondages</string>
+		<string>Nom du sondage</string>
+		<string>Question</string>
+		<string>Reponse n°1</string>
+		<string>Reponse n°2</string>
+		<string>Reponse n°3</string>
+		<string>Reponse n°4</string>
+		<string>Reponse n°5</string>
+		<string>Nombre de vote</string>
+		<string>Page associée</string>
+		<string>Aucune</string>
+		<string>Voulez-vous vraiment supprimer ce sondage ?</string>
+		<string>VOTER !</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Gestion des citations</string>
+		<string>Contenu de la citation</string>
+		<string>Voulez vous vraiment supprimer cette citation ?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Gestion de la galerie d'image</string>
+		<string>Titre de l'image</string>
+		<string>Chemin de l'image</string>
+		<string>Commentaire</string>
+		<string>Voulez vous vraiment retirer cette element de la galerie ?</string>
+		<string>Selectionnez</string>
+		<string>Chemin de l'appercu</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Gestion des inscriptions</string>
+		<string>Pseudo</string>
+		<string>Mot de passe</string>
+		<string>Email</string>
+		<string>Ville</string>
+		<string>Date</string>
+		<string>Copier/coller cette ligne dans votre logiciel de messagerie pour envoyer un email a tous vos inscris :</string>
+		<string>Voulez vous vraiment supprimer cet inscription ?</string>
+		<string>Type</string>
+		<string>Etat</string>
+		
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Gestion du livre d'or</string>
+		<string>Auteur</string>
+		<string>Titre</string>
+		<string>Message</string>
+		<string>Date</string>
+		<string>Email</string>
+		<string>Visibilité</string>
+		<string>Voulez vous vraiment retirer ce message du livre d\'or ?</string>
+		<string>Signer le livre d'or</string>
+		<string><![CDATA[<b>Merci d'avoir participer à l'animation de notre site !</b><br/>Votre participation sera mise en ligne dès la validation par le webmaster.]]></string>
+	
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Gestion des réactions</string>
+		<string>Auteur</string>
+		<string>Titre</string>
+		<string>Article</string>
+		<string>Message</string>
+		<string>Date</string>
+		<string>Visibilité</string>
+		<string>Voulez vous vraiment suprimer cette réaction ?</string>
+		<string/>
+		<string/>
+
+		<!-- Medias strings, start @ position 160 -->
+		<string>Ressources</string>
+		<string>Gestion des ressources</string>
+		<string>Titre</string>
+		<string>Type</string>
+		<string>Chemin</string>
+		<string>Commentaire</string>
+		<string>Largeur</string>
+		<string>Hauteur</string>
+		<string>Image</string>
+		<string>Vidéo</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Autres</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Envoi de fichier</string>
+		<string>Envoyer</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Gestion des themes de discussions</string>
+		<string>Titre</string>
+		<string>Description</string>
+		<string>Visibilité</string>
+		<string>Visible</string>
+		<string>Caché</string>
+		<string>Voulez vous vraiment supprimer cette discussion ?</string>
+		<string>Poster</string>
+		<string>Répondre</string>
+		<string>Entrer</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analyse du traffic</string>
+		<string>Pages vues</string>
+		<string>Visiteurs</string>
+		<string>Calendrier</string>
+		<string>Detail du </string>
+		<string> Pages vues</string>
+		<string> Visiteurs uniques</string>
+		<string>Heure</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<string>Adresse IP</string>
+		<string>Date</string>
+		<string>Visites</string>
+		<string>Grille</string>
+		<string>Graphique</string>
+		<string>Pays</string>
+		<string>Navigateur</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Principal</string>
+		<string>Modules</string>
+		<string>Modération</string>
+		<string>Stats</string>
+		<string>Aide</string>
+		<string>Débuter</string>
+		<string>visiteur actif</string>
+		<string>visiteurs actifs</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Rechercher</string>
+		<string>Inscription</string>
+		<string>Livre d'or</string>
+		<string>Galerie</string>
+		<string>Discussions</string>
+		<string>Administration</string>
+		<string>Deconnecter</string>
+		<string>Menu</string>
+		<string>Login</string>
+		<string>Sondage</string>
+		<string>Citation</string>
+		<string>Précédente</string>
+		<string>Suivante</string>
+		<string>Lire la suite</string>
+		<string>Ajouter une page...</string>
+		<string>Ajouter un article...</string>
+		<string>Ajouter un sondage...</string>
+		<string>Entrez</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Gestion des messages de discussions</string>
+		<string>Titre</string>
+		<string>Pseudo</string>
+		<string>Visibilité</string>
+		<string>Visible</string>
+		<string>Caché</string>
+		<string>Voulez vous vraiment supprimer ce message</string>
+		<string>Poster</string>
+		<string>Répondre à </string>
+		<string>Nouveau message</string>
+		<string>Poster un message</string>
+		<string>Cet espace est reservé aux abonnés. Identifiez vous ou &lt;a href="default.asp?id=0&amp;ACT=9"&gt;abonnez-vous&lt;/a&gt; gratuitement pour continuer.</string>
+		<string>Messages discussions</string>
+		<string>Corps</string>
+		<string>En réponse à : </string>
+		<string>Suite :</string>
+		<string>Retour à la discussion</string>
+		<string>Vue plane</string>
+		<string>Vue en arbre</string>
+		<string>Retour à la liste des messages</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Accueil</string>
+		<string>Nombre de membres </string>
+		<string>Nombre de messages guestbook non validés </string>
+		<string>Nombre de réactions non validées </string>
+		<string>Nombre de messages total sur les forums </string>
+		<string>Nombre de pages vues totales</string>
+		<string>Bienvenue</string>
+		<string>Votre version de fullxml :</string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Liste des tâches</string>
+		<string>Cliquez ici pour ajouter une nouvelle tâche</string>
+		<string>Crée</string>
+		<string>Terminé</string>
+		<string>Description</string>
+		<string>Importance</string>
+		<string>Ajouter</string>
+		<string>Date</string>
+		<string>Terminé</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>M'inscrire</string>
+		<string>Cette inscription est gratuite et vous permet d'accéder à toutes les ressources du site.</string>
+		<string>Pseudo</string>
+		<string>Mot de passe</string>
+		<string>E-mail</string>
+		<string>Ville</string>
+		<string>Soumettre</string>
+		<string>(*) indique les champs obligatoires</string>
+		<string>Merci de vous être inscrit, vous pouvez maintenant vous identifier a l'aide du formulaire de la marge de gauche.</string>
+		<string>Merci de vous être inscrit, votre inscription doit maintenant être vaildée par le webmaster, merci.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Réagir à </string>
+		<string>Pseudo</string>
+		<string>Titre</string>
+		<string>Message</string>
+		<string>Soumettre</string>
+		<string>Les réactions </string>
+		<string>par</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Marges</string>
+		<string>Seulement à gauche</string>
+		<string>Seulement à droite</string>
+		<string>Les deux</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Catégories</string>
+		<string>Gestionnaire de catégories</string>
+		<string>Nom</string>
+		<string>Type d'acces</string>
+		<string>Visible</string>
+		<string>Cette catégorie ne peut pas être supprimée</string>
+		<string>Voulez-vous vraiment supprimer cette catégorie ?</string>
+		<string>Voir la liste des pages de cette catégorie</string>
+		<string>toute les catégories</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Bannières</string>
+		<string>Nom</string>
+		<string>Nombre de click</string>
+		<string>URL de lien</string>
+		<string>Source du Gif</string>
+		<string>Gestionnaire de bannières</string>
+		<string>Voulez vous vraiement supprimer cette bannière ?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Téléchargements</string>
+		<string>Nom</string>
+		<string>Chemin</string>
+		<string>Site web de l'editeur</string>
+		<string>Description</string>
+		<string>License</string>
+		<string>Prix</string>
+		<string>Operating system</string>
+		<string>Gestionnaire de téléchargement</string>
+		<string>Voulez vous vraiement supprimer ce téléchargement ?</string>
+		<string>Téléchargé</string>
+		<string>Téléchargez maintenant</string>
+		<string>Top téléchargés</string>
+		<string>Taille</string>
+		<string>Version</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Plan du site</string>
+		<string>Résultat de la recherche</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Surveillance / Alertes</string>
+		<string>Serveur smtp</string>
+		<string>Alerte sur Guestbook</string>
+		<string>Alerte sur Forums</string>
+		<string>Alerte sur Reactions</string>
+		<string>Alerte sur Inscriptions</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Mot de passe incorrect ou Inscription non validée.\nVerifiez votre saisie, sinon reéssayer plus tard.</string>
+		<string>Vous ne pouvez voter qu\'une seule fois par sondage !</string>
+		<string>Bienvenue, votre inscription a été validée.</string>
+		<string>Le formulaire n\'est pas complet, veuillez le completer avant de le valider à nouveau.</string>
+		<string>L\'identifiant d\'utilisateur n\'est pas disponible, veuillez en choisir un autre.</string>
+		<string>Vous utilisez actuellement le compte administrateur par défaut!\nRapellez vous que n'importe qui peut se logger comme administrateur et changer votre contenu tant ce compte sera actif.</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Page options, start @ position 410 -->
+		<string>Critère de tri des articles</string>
+		<string>Critère de tri des pages</string>
+		<string>Titre</string>
+		<string>Date de publication</string>
+		<string>Identifiant</string>
+		<string>Ascendant</string>
+		<string>Descendant</string>
+		<string>Afficher le titre</string>
+		<string>Voir la liste des articles de cette page</string>
+		<string></string>
+		<!-- Misc , start @ position 420 -->
+		<string>nouveau</string>
+		<string>nouveaux messages</string>
+		<string>Confirmation par email</string>
+		<string>Confirmation d'inscription</string>
+		<string>Vous avez demandez une inscription sur le site </string>
+		<string>Afin de terminer cette inscription, cliquez sur le lien suivant :</string>
+		<string>Voici les informations à conserver sur votre compte :</string>
+		<string>Merci de vous être inscrit, vous allez recevoir un email dans quelques minutes afin de valider cette inscription.</string>
+		<string>administrateur</string>
+		<string>rédacteur</string>
+		<string>membre</string>
+		<string>Recevoir notre lettre d'information (faible trafic)</string>
+		<string>Newsletter</string>
+		<string>Position</string>
+		<string>Top</string>
+		<string>Bottom</string>
+		<string>Left</string>
+		<string>Right</string>
+		<string>Astuce: Double-click ou CTRL-T permet d'accéder au mode WYSIWYG</string>
+		<string>Afficher les champs avancés</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Cacher les champs avancés</string>
+		<string>Groupe</string>
+		<!-- Browsers stats -->
+		<string>Famille de navigateur</string>
+		<string>Détail des version</string>
+		<string>Navigateur</string>
+		<string>Version</string>
+		<string>Pourcentage</string>
+		<string>Autres</string>
+		<string></string>
+		<string></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encodage</string>
+		<string>Headline</string>
+		<string>Marges</string>
+		<string>Corps de page</string>	
+		<!-- Guestbook's buttons -->
+		<string>Soumettre</string>
+		<string>Annuler</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Merci d'avoir participer à l'animation de notre site !</b><br/>Votre participation sera mise en ligne dès la validation par le webmaster.]]></string>
+		
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>New article default publication state</string>
+		<string>Activate Email functions ? (jMail required)</string>
+		<string></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Mot de passe oublié?</string>
+		<string>Mot de passe oublié ?</string>
+		<string>Entrer votre pseudo et votre adresse email ci-dessous, cliquez sur envoyer, et vous receverez un courrier éléctronique contenant votre mot de passe.</string>
+		<string>Pseudo</string>
+		<string>Adresse email</string>
+		<string>Envoyer</string>
+		<string>Information utilisateur</string>
+		<string>A request has been made to email the following information to you:</string>
+		<string>Mot de passe</string>
+		<string>Please visit soon!</string>
+		<!-- 470 -->
+		<string>Incorrect User Name or Email Address.</string>
+		<string>Your reminder email has been sent.</string>
+		<string>Reenter information</string>
+		<string>Sign up now !</string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>My Account</string>
+		<string>Incomplete form, all the fields are requiered.</string>
+		<string>Your account has successfully been updated!</string>
+	
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detect</string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Home</string>
+		<string>Back to the home page</string>
+		
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Link</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Download</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>		
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

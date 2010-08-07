@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<language>
+	<name>Italian</name>
+	<translator>
+		<name>Luca Panella</name>
+		<email>lucapan@libero.it</email>
+	</translator>
+	<encoding>utf-16</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Pannello di Controllo</string>
+		<string>Browse</string>
+		<string>Settaggi</string>
+		<string>Pagine</string>
+		<string>Articoli</string>
+		<string>Sondaggi</string>
+		<string>Suggerimenti</string>
+		<string>Immagini</string>
+		<string>Utenti registrati</string>
+		<string>Guestbook</string>
+		<string>Statistiche</string>
+		<string>FeedBack</string>
+		<string>Forums</string>
+		<string>Upload</string>
+		<string>Crea..</string>
+		<string>Elimina</string>
+		<string>Modifica...</string>
+		<string>   OK  </string>
+		<string>Annulla</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Settaggi del Portale</string>
+		<string>Nome Sito Web</string>
+		<string>Login amministratore</string>
+		<string>Password</string>
+		<string>META Title</string>
+		<string>Email del Webmaster</string>
+		<string>URL del Sito Web</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Aspetto esterno</string>
+		<string>Linguaggio</string>
+		<string>Pagina d'ingresso</string>
+		<string>Percorso del Logo</string>
+		<string>Mostra la toolbar</string>
+		<string>Copyright</string>
+		<string>Opzioni di moderazione</string>
+		<string>Mostra menu</string>
+		<string>Mostra barra articoli</string>
+		<string>Mostra form ricerca</string>
+		<string>Lista Plug-In</string>
+		<string>Sondaggi</string>
+		<string>Suggerimenti</string>
+		<string>Galleria Immagini</string>
+		<string>Guestbook</string>
+		<string>Forums</string>
+		<string>Mostra la data degli articoli e l'autore</string>
+		<string>Stato iniziale delle registrazioni</string>
+		<string>Stato iniziale dei messaggi del Forum</string>
+		<string>Stato iniziale dei messaggi del Guestbook</string>
+		<string>Sottotitolo</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Manager delle Pagine</string>
+		<string>Titolo della pagina</string>
+		<string>Pagina dipendente</string>
+		<string>Tipo di accesso</string>
+		<string>Corpo della pagina</string>
+		<string>Posizione Annuncio</string>
+		<string>Visibilita'</string>
+		<string>Pagina non eliminabile</string>
+		<string>Confermi di eliminare questa pagina?</string>
+		<string>Pubblicata?</string>
+		<!-- 60 -->
+		<string>Si</string>
+		<string>No</string>
+		<!--  end-->
+		<string>Elencata</string>
+		<string>Data di pubblicazione</string>
+		<string>Data di eliminazione</string>
+		<string>Link esterno</string>
+		<string>Categoria</string>
+		<string>Pagine piu' visitate</string>
+		<string>Contatore</string>
+		<string>Numero max di articoli</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Manager degli Articoli</string>
+		<string>Titolo dell'Articolo</string>
+		<string>Posizione</string>
+		<string>Pagina web</string>
+		<string>Autore</string>
+		<string>Data</string>
+		<string>Sorgente XML </string>
+		<string>Template XSL </string>
+		<string>Testata</string>
+		<string>Corpo</string>
+		<string>Edita in modalita' disegno</string>
+		<string>Visibilita'</string>
+		<string>Questo articolo e' di sola lettura</string>
+		<string>Vuoi veramente eliminare questo Articolo?</string>
+		<string>Stampa</string>
+		<string>Invia ad un amico</string>
+		<string>Dai la tua opinione</string>
+		<string>Archivio</string>
+		<string>Tutte le pagine</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Manager dei Sondaggi</string>
+		<string>Nome del sondaggio</string>
+		<string>Domanda</string>
+		<string>Risposta n°1</string>
+		<string>Risposta n°2</string>
+		<string>Risposta n°3</string>
+		<string>Risposta n°4</string>
+		<string>Risposta n°5</string>
+		<string>Vota</string>
+		<string>Pagina web associata</string>
+		<string>Nessuna</string>
+		<string>Vuoi veramente eliminare questo sondaggio?</string>
+		<string>VOTA !</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Manager dei Suggerimenti</string>
+		<string>Contenuto suggerimenti</string>
+		<string>Vuoi veramente eliminare questo suggerimento?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Manager delle Immagini</string>
+		<string>Nome dell'immagine</string>
+		<string>Percorso dell'immagine</string>
+		<string>Commento</string>
+		<string>Vuoi veramente eliminare questa immagine?</string>
+		<string>Seleziona</string>
+		<string>Percorso della icona </string>
+		<string/>
+		<string>Categoria</string>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Manager degli Utenti Registrati</string>
+		<string>Username</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Citta</string>
+		<string>Data</string>
+		<string>Copia/Incolla questa linea nella tua email per inviare una email ad ogni iscritto:</string>
+		<string>Vuoi veramente eliminare questo iscritto?</string>
+		<string>Tipologia</string>
+		<string>Visibile</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Manager del Guestbook </string>
+		<string>Autore</string>
+		<string>Titolo</string>
+		<string>Messaggio</string>
+		<string>Data</string>
+		<string>Email</string>
+		<string>Visibilita'</string>
+		<string>Vuoi veramente eliminare questo messaggio dal Guestbook?</string>
+		<string>Firma il  guestbook</string>
+		<string><![CDATA[<b>Grazie per la partecipazione.!</b><br/>Il tuo messaggio sara' pubblicato on-line dopo la validazione del webmaster.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Manager del Feedback</string>
+		<string>Autore</string>
+		<string>Titolo</string>
+		<string>Articolo</string>
+		<string>Messaggio</string>
+		<string>Data</string>
+		<string>Visibilita'</string>
+		<string>Vuoi veramente eliminare questo feedback?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Risorse</string>
+		<string>Manager delle Risorse</string>
+		<string>Titolo</string>
+		<string>Tipo</string>
+		<string>Path</string>
+		<string>Commento</string>
+		<string>Lunghezza</string>
+		<string>Altezza </string>
+		<string>Immagine</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Altro</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Manager degli Upload</string>
+		<string>Invia</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Manager del Forum</string>
+		<string>Titolo</string>
+		<string>Descrizione</string>
+		<string>Visibilita'</string>
+		<string>Visibile</string>
+		<string>Nascosto</string>
+		<string>Vuoi veramente eliminare questo forum?</string>
+		<string>Posta</string>
+		<string>Rispondi</string>
+		<string>Avanti</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analisi del Traffico</string>
+		<string>Pagine Web visitate</string>
+		<string>Visitatori</string>
+		<string>Calendario</string>
+		<string>Dettagli del :</string>
+		<string>Pagine Web visitate</string>
+		<string>Visitatori univoci</string>
+		<string>Ora</string>
+		<string>Pagina Visitata</string>
+		<string>Referimento</string>
+		<string>Indirizzo IP </string>
+		<string>Data</string>
+		<string>Visite</string>
+		<string>Griglia</string>
+		<string>Grafico</string>
+		<string>Paese</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Principale</string>
+		<string>Plug-In</string>
+		<string>Moderatore</string>
+		<string>Statistiche</string>
+		<string>Aiuto</string>
+		<string>Informazioni</string>
+		<string>utente on line</string>
+		<string>utenti on line</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Ricerca</string>
+		<string>Iscriviti</string>
+		<string>Guestbook</string>
+		<string>Immagini</string>
+		<string>Forums</string>
+		<string>Amministrazione</string>
+		<string>Logout</string>
+		<string>Menu</string>
+		<string>Login</string>
+		<string>Sondaggio</string>
+		<string>Suggerimenti</string>
+		<string>Indietro</string>
+		<string>Avanti</string>
+		<string>Leggi.....</string>
+		<string>Aggiungi una pagina</string>
+		<string>Aggiungi un articolo</string>
+		<string>Aggiungi un sondaggio</string>
+		<string>Entra</string>
+		<string/>
+		<string/>
+		<!-- Newsgroup Message template strings, start @ position 260 -->
+		<string>Manager dei Messaggi dei Forums</string>
+		<string>Titolo</string>
+		<string>Username</string>
+		<string>Visibilita'</string>
+		<string>Visibile</string>
+		<string>Nascosto</string>
+		<string>Vuoi veramente eliminare questo messaggio?</string>
+		<string>Posta</string>
+		<string>Rispondi a </string>
+		<string>Posta un articolo</string>
+		<string>Scrivi un articolo</string>
+		<string>Area riservata ai membri. Effettua il Login oppure  &lt;a href="default.asp?id=0&amp;ACT=9"&gt; iscriviti.&lt;/a&gt;</string>
+		<string>Messaggi dei forums</string>
+		<string>Corpo del messaggio</string>
+		<string>Risposta a:</string>
+		<string>Prossimo: </string>
+		<string>Indietro a</string>
+		<string>Vista lineare</string>
+		<string>Vista ad albero</string>
+		<string>ritorna alla lista dei messaggi</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Scrivania</string>
+		<string>Numero degli Utenti registrati</string>
+		<string>Numero dei guestbook da validare</string>
+		<string>Numero dei feedback da validare</string>
+		<string>Numero dei forums da validare</string>
+		<string>Numbero di hits</string>
+		<string>Benvenuto</string>
+		<string>Versione n:</string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Lista dei lavori</string>
+		<string>Clicca qui per aggiungere un nuovo lavoro</string>
+		<string>Creare</string>
+		<string>Fine</string>
+		<string>Descrizione</string>
+		<string>Importanza</string>
+		<string>Aggiungere</string>
+		<string>Data</string>
+		<string>Finito</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Iscrizione</string>
+		<string>La registrazione e' gratuita e ti permette di usufruire di tutte le risorse di questo portale. Se cliccando su INVIA i campi si svuotano e' segno che qualcuno ha gia' usato la login che hai immesso. Scegline un'altra e riprova!</string>
+		<string>Username</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Citta/Paese</string>
+		<string>Invia</string>
+		<string>(*) campi obbligatori </string>
+		<string>Grazie, adesso sei iscritto. Puoi effettuare il login con il form situato sul lato sinistro.</string>
+		<string>Grazie per la tua registrazione; l'iscrizione deve essere validata dal webmaster per divenire attiva.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Rispondi a </string>
+		<string>Nome</string>
+		<string>Titolo</string>
+		<string>Messaggio</string>
+		<string>Invia</string>
+		<string>Rispondere</string>
+		<string>Da </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margini</string>
+		<string>Solo margine sinistro</string>
+		<string>Solo margine destro</string>
+		<string>Entrambi i margini</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Categorie</string>
+		<string>Manager delle Categorie</string>
+		<string>Nome</string>
+		<string>Tipo di accesso</string>
+		<string>Visibilita'</string>
+		<string>Questa categoria non puo' essere eliminata</string>
+		<string>Vuoi veramente eliminare questa categoria?</string>
+		<string>Lista della categoria</string>
+		<string>Tutte le categorie</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banners</string>
+		<string>Nome</string>
+		<string>Contatore di Click</string>
+		<string>Onclick vai all'URL</string>
+		<string>Percorso dell'immagine</string>
+		<string>Manager dei Banners</string>
+		<string>Vuoi veramente eliminare questo banner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+		<string>Nome</string>
+		<string>Path</string>
+		<string>Website dell'autore</string>
+		<string>Descrizione</string>
+		<string>Licenza</string>
+		<string>Prezzo</string>
+		<string>Sistema operativo</string>
+		<string>Manager del Download</string>
+		<string>Vuoi veramente eliminare questo download?</string>
+		<string>Download terminato</string>
+		<string>Scarica ora</string>
+		<string>I piu' scaricati</string>
+		<string>Dimensione</string>
+		<string>Versione</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Mappa</string>
+		<string>Risultati della ricerca</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Funzioni Email</string>
+		<string>Server Smtp</string>
+		<string>Avvisa per nuovi Guestbook</string>
+		<string>Avvisa per nuovi Forums</string>
+		<string>Avvisa per nuovi Feedback</string>
+		<string>Avvisa per nuove Iscrizioni</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Password non corretta oppure non ancora validata dal webmaster. \nCorreggi oppure prova in un altro momento.</string>
+		<string>Puoi votare una sola volta per sondaggio!</string>
+		<string>Benvenuto, la tua registrazione risulta validata.</string>
+		<string>Alcuni campi obbligatori non sono stati forniti. Completa il form e prova di nuovo.</string>
+		<string>Username esistente, scegline un altro.</string>
+		<string>Attenzione, stai utilizzando l\'account di default come amministratore!\nRicorda che chiunque potra\' effettuare il login come amministratore e cambiarne il contenuto fino a quando userai questo account.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Visualizza gli articoli per</string>
+		<string>Visualizza gli articoli ordinati per</string>
+		<string>Titolo</string>
+		<string>Data pubblicazione</string>
+		<string>ID</string>
+		<string>Ascendente</string>
+		<string>Discendente</string>
+		<string>Mostra il titolo</string>
+		<string>Visualizza gli articoli di questa pagina</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>nuovo</string>
+		<string>nuovo messaggio</string>
+		<string>Confermare per Email</string>
+		<string>Conferma iscrizione</string>
+		<string>Hai chiesto la registrazione al sito:</string>
+		<string>Per completare la registrazione segui il link seguente :</string>
+		<string>Le informazioni del tuo account :</string>
+		<string>Grazie per l'iscrizione. Riceverai una email per validare la tua registrazione. </string>
+		<string>amministratore</string>
+		<string>editore</string>
+		<!-- Misc , start @ position 430 -->
+		<string>membro</string>
+		<string>Iscriviti alla nostra newsletter (basso traffico)</string>
+		<string>Newsletter</string>
+		<string>Posizione</string>
+		<string>Sopra</string>
+		<string>Basso</string>
+		<string>Sinistra</string>
+		<string>Destra</string>
+		<string>Doppio click o CTRL-T per entrare in modalita' WYSIWYG</string>
+		<string>Mostra i settaggi avanzati</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Nascondi campi avanzati</string>
+		<string>Gruppo</string>
+		<!-- Browsers stats -->
+		<string>Tipi di Browser che hanno visitato il sito</string>
+		<string>Dettagli delle versioni</string>
+		<string>Browser</string>
+		<string>Versione</string>
+		<string>Percentuale</string>
+		<string>Altri tipi</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Codifica</string>
+		<string>Testata</string>
+		<string>Margini</string>
+		<string>Corpo</string>
+		<!-- Guestbook's buttons -->
+		<string>Invia</string>
+		<string>Annulla</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Grazie per la partecipazione.!</b><br/>Il tuo messaggio sara'  pubblicato on-line dopo la validazione del webmaster.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Stato di pubblicazione del nuovo articolo di default</string>
+		<string>Attivare le funzioni Email? (richiede jMail)</string>
+		<string>Indicate i componenti email COM installati</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Password dimenticata?</string>
+		<string>Hai dimenticato la tua Password?</string>
+		<string>Non preoccuparti, questa utility e' stata pensata proprio in casi del genere. Inserisci il tuo username e la e-mail che hai usato quando ti sei registrato in questo sito ed il sistema ti inviera' la password per posta elettronica.</string>
+		<string>Username</string>
+		<string>E-mail</string>
+		<string>Invia</string>
+		<string>Risposta alla tua richiesta</string>
+		<string>E' stata fatta una richiesta di password per te, eccoti i dati:</string>
+		<string>Password</string>
+		<string>Torna a visitarci!</string>
+		<!-- 470 -->
+		<string>Username e/o la  E-mail sono errate! Controlla.</string>
+		<string>la password ti e' stata inviata, la riceverai fra qualche minuto.</string>
+		<string>Riscrivi le informazioni</string>
+		<string>Iscriviti adesso !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Il tuo profilo</string>
+		<string>Il form e\' incompleto, tutti i campi sono obbligatori.</string>
+		<string>Il tuo profilo e' stato aggiornato!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>nessuno</string>
+		<string>Ricerca Automatica</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Barra Menu</string>
+		<string>Home</string>
+		<string>Ritorna alla home page</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directory</string>
+		<string>Manager delle Directory</string>
+		<string>Nuova directory</string>
+		<string>Nome</string>
+		<string>Pubblicata?</string>
+		<string>Nuova directory</string>
+		<string>Nuova categoria</string>
+		<string>Categorie</string>
+		<!-- 490 -->
+		<string>Nuovo articolo</string>
+		<string>Nuova directory</string>
+		<string>Modifica directory</string>
+		<string>Nuova categoria</string>
+		<string>Modifica categoria</string>
+		<string>Nuova sub-categoria</string>
+		<string>Modifica sub-categoria</string>
+		<string>Nuovo articolo</string>
+		<string>Modifica articolo</string>
+		<string>Sommario</string>
+		<!-- 500 -->
+		<string>Descrizione</string>
+		<string>Sito Web</string>
+		<string>URL del download</string>
+		<string>Percorso dell'immagine</string>
+		<string>Inserimento pubblico?</string>
+		<string>Oggetti da visualizzare</string>
+		<string>Utente</string>
+		<string>Files</string>
+		<string>Siti Web</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Libro</string>
+		<string>MP3</string>
+		<string>Impiegato</string>
+		<string>Prodotto</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Utenti</string>
+		<string>Files</string>
+		<string>Pagine Web</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Libri</string>
+		<string>MP3</string>
+		<string>Dipendente</string>
+		<string>Prodotto</string>
+		<string/>
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Numero di siti web nella  directory : </string>
+		<string>Segnala un sito web</string>
+		<string>Totale hits</string>
+		<string>La tua segnalazione e' stata inserita e sara' sottoposta al Webmaster. Grazie per il tuo contributo.</string>
+		<string>I piu' visitati</string>
+		<string>Hits</string>
+		<string>Appena entrati...</string>
+		<string>Nuova segnalazione</string>
+		<!-- 540 -->
+		<string>Nuova segnalazione di directory</string>
+		<string>Descrizione breve</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline per intervento</string>
+		<string>Numero di files:</string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Pagina</string>
+		<string>Indietro</string>
+		<string>Prossima</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Iscritti Online</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Il tuo nome/</string>
+		<string>Email</string>
+		<string>Oggetto</string>
+		<string>Messaggio</string>
+		<string>Invia al webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Testo alternativo all'immagine</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Invia un messaggio a</string>
+		<string>La tua email:</string>
+		<string>Il tuo nome:</string>
+		<string>Oggetto:</string>
+		<string>Messaggio:</string>
+		<string>Invia messaggio</string>
+		<string>Puoi inviare un messaggio se hai effettuato il login.</string>
+		<string>Il tuo messaggio e' stato inviato.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Ricerca negli Articoli</string>
+		<string>Ricerca nei Forums</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Posizione</string>
+		<string>CHIUDI</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Ultimi Posts</string>
+		<string>Autore</string>
+		<string>Iniziato da</string>
+		<string>Risposte</string>
+		<string>Topic</string>
+		<string>Postato</string>
+		<string>Rispondi al post</string>
+		<!-- 580 -->
+		<string>Discussioni</string>
+		<string>Discussione</string>
+		<string>Ricerca nei forums</string>
+		<string>Rispondi a un Messaggio</string>
+		<string>Stai rispondendo a:</string>
+		<string>Inviato da</string>
+		<string>il</string>
+		<string>Oggetto</string>
+		<string>Messaggio</string>
+		<string>Nuovo thread</string>
+		<!-- 590 -->
+		<string>Questo e' un allarme automatico.
+		Qualcuno ha postato una risposta al tuo post nel nostro forum. Puoi vedere il messaggio a:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderatore</string>
+		<string>Moderato da </string>
+		<string>Formato</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Stato iniziale dei Feedback</string>
+		<string>Stato iniziale degli Articoli</string>
+		<string>Articoli su piu' pagine</string>
+		<string>A far data da</string>
+		<string>Da</string>
+		<!-- 601 -->
+		<string>Skin Modificabile</string>
+		<string>Modificabile</string>
+		<string>Nome</string>
+		<string>Skin</string>
+		<string>Autore</string>
+		<!-- 606 -->
+		<string>Ricordati di me</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>KnowBase</string>
+		<string>Lineare</string>
+		<string>Strutturato</string>
+		<string>Settore:</string>
+		<string>[Top]</string>
+		<string>Articoli correlati</string>
+		<string>Cerca</string>
+		<string>Aggiungi Post</string>
+		<string>Tutti</string>
+		<string>nel Settore:</string>
+		<!-- 630 is the one up-->
+		<string>Home</string>
+		<string>Vai al Settore:</string>
+		<string>Aggiungi nuova relazione</string>
+		<string>Knowbase</string>
+		<string>Settore</string>
+		<string>Post</string>
+		<string>Titolo</string>
+		<string>Versione</string>
+		<string>Intro</string>
+		<string>Display</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>Nome</string>
+		<string>Remark</string>
+		<string>Visibile</string>
+		<string>Settore</string>
+		<string>Corpo</string>
+		<string>aggiungi..</string>
+		<string>Articolo correlato</string>
+		<string>Relazioni di</string>
+		<string>Relazioni conosciute</string>
+		<!-- 650 is the one up -->
+		<string>KB-Editor</string>
+		<string>Off</string>
+		<string>Anonimo</string>
+		<string>Membro</string>
+		<string>Non ci sono post in questa sezione.</string>
+		<string>Rimuovi la relazione successiva</string>
+		<string>Vai</string>
+		<string>Scegli una delle knowledge bases disponibili.</string>
+		<string>Knowledge bases a livello Amministratore:</string>
+		<string>Knowledge bases a livello Editore:</string>
+		<!-- 660 is the one up -->
+		<string>Knowledge bases a livello Membro:</string>
+		<string>Knowledge bases a livello Anonimo:</string>
+		<string>Errore</string>
+		<string>La Knowledge base che cerchi di aprire non esiste o non e' visualizzabile da te. Se credi che sia un errore avvisa il webmaster.</string>
+		<string>Non ci sono Knowledge bases disponibili!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Manager delle Liste</string>
+		<string>Liste</string>
+		<string>Lista</string>
+		<string>Entries</string>
+		<string>Entry</string>
+		<string>Sei sicuro di voler cancellare questa Lista? Tutte le features che usano questa lista saranno disabilitate.</string>
+		<string>Questa e' una lista di sistema e non puo' essere cancellata o rinominata!</string>
+		<string>Titolo</string>
+		<string>Valore</string>
+		<string>Sei sicuro di voler cancellare questa entry?</string>
+		<!-- 680 is the one up -->
+		<string>Questa entry appartiene ad una lista di sistema ed il suo valore non puo' essere cancellato o modificato!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>Do</string>
+		<string>Lu</string>
+		<string>Ma</string>
+		<string>Me</string>
+		<string>Gi</string>
+		<string>Ve</string>
+		<string>Sa</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Gennaio</string>
+		<string>Febbraio</string>
+		<string>Marzo</string>
+		<string>Aprile</string>
+		<string>Maggio</string>
+		<string>Giugno</string>
+		<string>Luglio</string>
+		<string>Agosto</string>
+		<string>Settembre</string>
+		<string>Ottobre</string>
+		<!-- 720 is the one up -->
+		<string>Novembre</string>
+		<string>Dicembre</string>
+		<string>Eventi</string>
+		<string>Maggiori informazioni sotto:</string>
+		<string>Id</string>
+		<string>Data</string>
+		<string>Descrizione</string>
+		<string>Breve descrizione</string>
+		<string>Descrizione</string>
+		<string>Link</string>
+		<!-- 730 is the one up -->
+		<string>Visibile</string>
+		<string>Data</string>
+		<string>Calendario eventi</string>
+		<string>Calendario</string>
+		<string>Calendario eventi</string>
+		<string>Indietro</string>
+		<string>Avanti</string>
+		<string>Anteprima inizia a</string>
+		<string>Anteprima</string>
+		<string>Nuovo evento</string>
+		<!-- 740 is the one up -->
+		<string>Stato dei calendari</string>
+		<string>Invia events</string>
+		<string>Scegli il calendario</string>
+		<string>Calendario</string>
+		<string>Vai</string>
+		<string>Visibile a</string>
+		<string>Non hai il permesso per usare questo calendario</string>
+		<string>Anteprima</string>
+		<string>Eventi per pagina</string>
+		<string>Anteprime per pagina</string>
+		<!-- 750 is the one up -->
+		<string>Evento corrisponde</string>
+		<string>Cerca evento</string>
+		<string>Vai</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>Canale</string>
+		<string>Crea un nuovo canale</string>
+		<string>Il tuo browser NON supporta i frames.</string>
+		<string>guest</string>
+		<string>Messaggio</string>
+		<string>Nome</string>
+		<string>Descrizione</string>
+		<string>Canale</string>
+		<string>Descrizione</string>
+		<!-- 770 is the one up -->
+		<string>Op</string>
+		<string>Utente</string>
+		<string>Nuovi utenti</string>
+		<string>Utenti correnti</string>
+		<string>lascia il canale</string>
+		<string>Chat</string>
+		<string>Owner</string>
+		<string>Elimina tutti i vecchi messaggi</string>
+		<string>Chat-Editor</string>
+		<string>id</string>
+		<!-- 780 is the one up -->
+		<string>Messaggio privato a</string>
+		<string>indietro</string>
+		<string>elimina</string>
+		<string>Se stato mandato via dall'operatore. Ti preghiamo di lasciare il canale.</string>
+		<string>Azione, da compiere su</string>
+		<string>operatore</string>
+		<string>membro</string>
+		<string>Join</string>
+		<string>Puoi chiudere questa finestra.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Manager dei membri</string>
+		<string>Form di ricerca</string>
+		<string>Utente</string>
+		<string>Sesso</string>
+		<string>Eta</string>
+		<string>Occupazione</string>
+		<string>Citta</string>
+		<string>Provincia</string>
+		<string>Stato</string>
+		<string>Dal</string>
+		<!-- 810 is the one up -->
+		<string>Mostra tutti i membri</string>
+		<string>Il mio profilo</string>
+		<string>id</string>
+		<string>Nome</string>
+		<string>Cognome</string>
+		<string>Sito web</string>
+		<string>Foto (percorso)</string>
+		<string>Scegli</string>
+		<string>Indirizzo</string>
+		<string>CAP</string>
+		<!-- 820 is the one up -->
+		<string>Telefono</string>
+		<string>Visibile pubblicamente</string>
+		<string>Messaggio di benvenuto</string>
+		<string>Note amministrative</string>
+		<string>Profilo dell'utente</string>
+		<string>Benvenuto</string>
+		<string>Non ci sono membri con quello pseudonimo nella community attuale.</string>
+		<string>Puoi vedere il profilo di questo utente solo dopo aver effettuato il login.</string>
+		<string>Il profilo che cerchi di vedere non esiste o non e' disponibile al pubblico.</string>
+		<string>Nome</string>
+		<!-- 830 is the one up -->
+		<string>Aggiungi alla lista di amici</string>
+		<string>e' stato aggiunto correttamente alla tua lista di amici.</string>
+		<string>e' stato rimosso correttamente dalla tua lista di amici.</string>
+		<string>Membri</string>
+		<string>Manager degli Amici</string>
+		<string>Amici</string>
+		<string>Azioni</string>
+		<string>Rimuovi</string>
+		<string>Invia un messaggio</string>
+		<string>Invia email</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Messaggi interni</string>
+		<string>Messaggi per utente</string>
+		<string>Il tuo messaggio e' stato inviato correttamente.</string>
+		<string>Non hai nuovi messaggi</string>
+		<string>Hai dei nuovi messaggi</string>
+		<string>Sotto troverai la lista di tutti i messaggi indirizzati a te.</string>
+		<string>Data</string>
+		<string>Da</string>
+		<string>Oggetto</string>
+		<string>Invia messaggio interno a</string>
+		<!-- 860 is the one up -->
+		<string>Messaggio</string>
+		<string>Siamo spiacenti, ma questo utente ha la mailbox piena. Riprova piu' tardi.</string>
+		<string>Questa caratteristica e' settata per i SOLI MEMBRI!</string>
+		<string>Puoi accedere esclusivamente ai messaggi indirizzati a te!!!</string>
+		<string>Numero massimo di messaggi che ogni utente puo' memorizzare:</string>
+		<string>Numero di messaggi che puoi ancora ricevere:</string>
+		<string>scritto:</string>
+		<string>Il messaggio corrente risponde a questo tuo messaggio precedente.</string>
+		<string>Risposta</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Oggetto</string>
+		<string>Messaggio</string>
+		<string>Invia come HTML</string>
+		<string>Allegato</string>
+		<string>Newsletter</string>
+		<string>Id</string>
+		<string>Oggetto</string>
+		<string>Azione</string>
+		<string>Invia</string>
+		<string>Invia ancora</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>uppercased login</string>
+		<string>Authentification</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Informazioni sul Modulo</string>
+		<string>Descrizione</string>
+		<string>Versione</string>
+		<string>Ultima modifica</string>
+		<string>Da</string>
+		<string>Homepage</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>Scegli la directory di destinazione</string>
+		<string>Aggiungi un file</string>
+		<string>Upload</string>
+		<string>Nome</string>
+		<string>Dimensione</string>
+		<string>Tipo</string>
+		<string>Ultima modifica</string>
+		<string>Azione</string>
+		<string>Elimina</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Editor Manager</string>
+		<string>Id</string>
+		<string>Nome</string>
+		<string>Stringa di configurazione</string>
+		<string>Attivo</string>
+		<string>Gruppo</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>
+

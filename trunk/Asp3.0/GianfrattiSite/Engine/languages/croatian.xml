@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<language>
+	<name>Croatian (Hrvatski)</name>
+	<translator>
+		<version>2.0.0.4</version>
+		<name>Christian Ljubicic</name>
+		<email>cljubicic@crosco.hr</email>
+	</translator>
+	<encoding>windows-1250</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>ADMINISTRACIJA WEB STRANICA</string>
+		<string>Pregled weba</string>
+		<string>Postavke</string>
+		<string>Stranice</string>
+		<string>Sadržaj</string>
+		<string>Ankete</string>
+		<string>Tipovi</string>
+		<string>Galerija</string>
+		<string>Članovi</string>
+		<string>Knjiga gostiju</string>
+		<string>Statistika</string>
+		<string>Reakcije</string>
+		<string>Konferencije</string>
+		<string>Upload</string>
+		<string>Kreiraj...</string>
+		<string>Izbriši</string>
+		<string>Modificiraj...</string>
+		<string>   OK   </string>
+		<string>Cancel</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Website postavke</string>
+		<string>Ime weba</string>
+		<string>Administratorski login</string>
+		<string>Admin Šifra</string>
+		<string>META Title</string>
+		<string>Webmasterov Email</string>
+		<string>URL Websajta</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Izgled (skin)</string>
+		<string>Jezik</string>
+		<string>Uvodna Strana</string>
+		<string>Path do loga</string>
+		<string>Pokaži toolbar</string>
+		<string>Copyright</string>
+		<string>Lista opcija</string>
+		<string>Pokaži Izbornik</string>
+		<string>Pokaži toolbar s člancima</string>
+		<string>Pokaži search form</string>
+		<string>Add-ons lista</string>
+		<string>Ankete</string>
+		<string>Tipovi</string>
+		<string>Galerija</string>
+		<string>Knjiga Gostiju</string>
+		<string>Konferencija</string>
+		<string>Pokaži datum i autora clanka</string>
+		<string>Status za signup</string>
+		<string>Status poruke na konferencijama</string>
+		<string>Status poruka u knjigi gostiju</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Manager stranica</string>
+		<string>Naslov stranice</string>
+		<string>Parent stranica</string>
+		<string>Tip pristupa</string>
+		<string>Editor</string>
+		<string>Tag reklame</string>
+		<string>Vidljivo</string>
+		<string>Ova stranica se NEMOŽE izbrisat</string>
+		<string>Potvrdite brisanje ?</string>
+		<string>Objavi ?</string>
+		<string>DA</string>
+		<string>NE</string>
+		<string>Sheduled</string>
+		<string>Datum publiciranja</string>
+		<string>Datum nevaženja</string>
+		<string>Externi link</string>
+		<string>Kategorije</string>
+		<string>Top stranice</string>
+		<string>Zbroj</string>
+		<string>Broj clanaka</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Manager Sadržaja</string>
+		<string>Naslov Sadržaja</string>
+		<string>Pozicija</string>
+		<string>Stranica</string>
+		<string>Autor</string>
+		<string>Datum</string>
+		<string>XML Source</string>
+		<string>XSL template</string>
+		<string>Naslovi</string>
+		<string>Body</string>
+		<string>Editiranje u grafičkom HTML editoru</string>
+		<string>Vidljivost</string>
+		<string>Ovaj clanak je Read-only.</string>
+		<string>Izbrisati ovaj sadržaj?</string>
+		<string>Printanje selekcije</string>
+		<string>Pošalji prijatelju</string>
+		<string>Dajte svoje mišljenje</string>
+		<string>Arhiva</string>
+		<string>Sve stranice</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Manager Anketa</string>
+		<string>Naziv ankete</string>
+		<string>Pitanje</string>
+		<string>Odgovor n°1</string>
+		<string>Odgovor n°2</string>
+		<string>Odgovor n°3</string>
+		<string>Odgovor n°4</string>
+		<string>Odgovor n°5</string>
+		<string>Broj glasova</string>
+		<string>Asocirana strana</string>
+		<string>Ništa</string>
+		<string>Izbrisati selektiranu anketu ?</string>
+		<string>GLASUJ!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Manager citata</string>
+		<string>Sadržaj citata</string>
+		<string>Izbrisati selektirani citat ?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Manager Galerije</string>
+		<string>Naziv slike</string>
+		<string>Path slike </string>
+		<string>Komentar</string>
+		<string>Izbrisati selekciju iz galerije ? ?</string>
+		<string>Odabir</string>
+		<string>Thumbnail path </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Manager članova</string>
+		<string>login</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Grad</string>
+		<string>Datum</string>
+		<string>Copy/paste ovaj kod u vas e-mail program za slanje poruka svima :</string>
+		<string>Izbrisati odabranog clana ?</string>
+		<string>Vrsta</string>
+		<string>Status</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Manager Knjige gostiju</string>
+		<string>Autor</string>
+		<string>Naslov</string>
+		<string>Poruka</string>
+		<string>Datum</string>
+		<string>Email</string>
+		<string>Vidljivost</string>
+		<string>Izbrisati selektiranu poruku iz knjige gostiju ?</string>
+		<string>Ispunite Knjigu gostiju</string>
+		<string><b>Hvala na ispunjavanju knjige gostiju!</b><br/>Vaš unos biti ce ON-LINE nakon verifikacije webmaster-a.</string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Manager reakcija</string>
+		<string>Autor</string>
+		<string>Naslov</string>
+		<string>Clanak</string>
+		<string>Poruka</string>
+		<string>Datum</string>
+		<string>Vidljivost</string>
+		<string>Izbrisati selektiranu reakciju ?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Resursi</string>
+		<string>Manager Resursa</string>
+		<string>Naziv</string>
+		<string>Tip</string>
+		<string>Path</string>
+		<string>Komentar</string>
+		<string>Širina (image)</string>
+		<string>Visina (image)</string>
+		<string>Slika</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Ostalo</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Upload datoteke</string>
+		<string>Pošalji</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Manager Konferencija</string>
+		<string>Naslov</string>
+		<string>Opis</string>
+		<string>Vidljivost</string>
+		<string>Vidljivo</string>
+		<string>Skriveno</string>
+		<string>Izbrisati odabranu konferenciju ?</string>
+		<string>Pošalji</string>
+		<string>Odgovori</string>
+		<string>Ulaz</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Statistika posječenosti</string>
+		<string>Broj pristupa</string>
+		<string>Broj posjetioca</string>
+		<string>Kalendar</string>
+		<string>Detalji za : </string>
+		<string>Pregledano stranica</string>
+		<string>Unique posjetioca</string>
+		<string>Vrijeme</string>
+		<string>URL</string>
+		<string>Došao s adrese</string>
+		<string>IP adresa</string>
+		<string>Datum</string>
+		<string>Posjeta</string>
+		<string>Grid pogled</string>
+		<string>Graf pogled</string>
+		<string>Zemlja</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Glavni izbornik</string>
+		<string>Dodatci</string>
+		<string>Modifikacija</string>
+		<string>Statistika</string>
+		<string>Dokumentacija</string>
+		<string>Uputstva</string>
+		<string>aktivni posjetitelj</string>
+		<string>aktivnih posjetitelja</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Traženje</string>
+		<string>Registracija</string>
+		<string>Knjiga Gostiju</string>
+		<string>Galerija</string>
+		<string>Konferencije</string>
+		<string>Administracija</string>
+		<string>Logout</string>
+		<string>Izbornik</string>
+		<string>Autorizacija</string>
+		<string>Anketa</string>
+		<string>Citati</string>
+		<string>Natrag</string>
+		<string>Dalje</string>
+		<string>Opširnije...</string>
+		<string>Dodaj stranu...</string>
+		<string>Dodaj članak...</string>
+		<string>Dodaj novu anketu...</string>
+		<string>Ulaz</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Manager konferencija</string>
+		<string>Naslov</string>
+		<string>Login</string>
+		<string>Vidljivost</string>
+		<string>Vidljivo</string>
+		<string>skriveno</string>
+		<string>Izbrisati selektiranu poruku</string>
+		<string>Upis</string>
+		<string>Odgovorite korisniku: </string>
+		<string>Upisivanje novog</string>
+		<string>Upisivanje u konferenciju</string>
+		<string>Da bi pristupili ovom dijelu Intraneta trebate se utorizirati. Nakon registracije predstavite se u Okviru "AUTORIZACIJA" i pristum dijelovima koji trebaju autorizaciju vam je dostupan (Konferencije). </string>
+		<string>Konferencijske poruke</string>
+		<string>Body</string>
+		<string>Odgovor na : </string>
+		<string>Naprijed: </string>
+		<string>Natrag </string>
+		<string>Linearni prikaz</string>
+		<string>Horiznontalni prikaz</string>
+		<string/>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Glavna konzola</string>
+		<string>Broj članova </string>
+		<string>Broj poruka u knjigi gostiju za odobravanje </string>
+		<string>Broj reakcija za odobravanje </string>
+		<string>Broj poruka u konferencijama </string>
+		<string>Broj posjeta</string>
+		<string>Dobrodošli</string>
+		<string>Verzija glavne konzole :</string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Administratorska Lista poslova za napraviti</string>
+		<string>Klikni ovdje za dodavanje novog posla</string>
+		<string>Kreiraj</string>
+		<string>Kraj</string>
+		<string>Opis</string>
+		<string>Važnost</string>
+		<string>Dodaj</string>
+		<string>Datum</string>
+		<string>Završeno</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Registracija Korisnika</string>
+		<string>Molimo ispunite navedene podatke potrebne za registraciju korisnika.</string>
+		<string>Korisnik</string>
+		<string>password</string>
+		<string>Email</string>
+		<string>Grad</string>
+		<string>U redu</string>
+		<string>(*) Obavezna polja </string>
+		<string>Hvala na registraciji,registracija je uspjela. Autorizirajte se u ovom okviru upisujuci u prvo polje vrijednost koju ste upisali za KORISNIK a u drugo polje vrijednost koju ste upisali za PASSWORD :</string>
+		<string>Hvala na registraciji. Vaše podatke mora verificirati webmaster da bi postali aktivni član.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Odgovori</string>
+		<string>Ime</string>
+		<string>Naslov</string>
+		<string>Poruka</string>
+		<string>Pošalji</string>
+		<string>Reakcije</string>
+		<string>od: </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margine</string>
+		<string>Samo lijeva margina</string>
+		<string>Samo desna margina</string>
+		<string>Obadvje margine</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategorije</string>
+		<string>Manager Kategorija </string>
+		<string>Naziv</string>
+		<string>Tip pristupa</string>
+		<string>Vidljivost</string>
+		<string>Ova kategorija se nemože izbrisati</string>
+		<string>Izbrisati selektiranu kategoriju ?</string>
+		<string>Popis stranica po kategorijama</string>
+		<string>SVE Kategorije</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banneri</string>
+		<string>Naziv</string>
+		<string>Zbroj klikova</string>
+		<string>na klik URL</string>
+		<string>path prema gifu</string>
+		<string>Manager Bannera</string>
+		<string>Izbrisati selektirani banner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Download</string>
+		<string>Naziv</string>
+		<string>Path</string>
+		<string>Website autora</string>
+		<string>Opis</string>
+		<string>Licenca</string>
+		<string>Cijena</string>
+		<string>OS</string>
+		<string>Manager Downloada</string>
+		<string>Izbrisati selektirani download ?</string>
+		<string>Downloadirano puta</string>
+		<string>Download</string>
+		<string>TOP downloadi</string>
+		<string>Veličina</string>
+		<string>Verzija</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Mapa</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Obavijesti preko emaila</string>
+		<string>Smtp server</string>
+		<string>Obavijest o Knjigi gostiju</string>
+		<string>Obavijest o Konferencijama</string>
+		<string>Obavijest o reakcijama</string>
+		<string>Obavijest o registraciji</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Netočan password ili se niste registrirali.</string>
+		<string>Glasanje je dopušteno samo jednom!</string>
+		<string>Dobrodošli, vaša registracije je uspješno završena</string>
+		<string>Sva potrebna polja nisu ispunjena. Molimo ispunite sva polja.</string>
+		<string>Korisničko ime je zauzeto. Izaberite neko drugo.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- Page options, start @ position 410 -->
+		<string>Sortiranje polja članaka</string>
+		<string>Sortiranje polja stranica</string>
+		<string>Naslov</string>
+		<string>Datum publiciranja</string>
+		<string>ID</string>
+		<string>A-Z</string>
+		<string>Z-A</string>
+		<string>Pokaži naslov</string>
+		<string>Pregled sadržaja po stranici</string>
+		<string></string>
+		<!-- Misc , start @ position 420 -->
+		<string>novo</string>
+		<string>Konferencija ima novih poruka</string>
+		<string>Konfirmacija preko Email-a</string>
+		<string>Registracijska konfirmacija</string>
+		<string>Traženje registracije na webu : </string>
+		<string>Da bi završili vašu registraciju krenite na ovaj link :</string>
+		<string>Informacije o vašem korisničkom računu :</string>
+		<string>Hvala na registraciji . Primit ćete email vrlo uskoro kako bi potvrdili vašu registraciju.</string>
+		<string>Administrator</string>
+		<string>Editor</string>
+		<string>Član</string>
+		<string>Predbilježite se za newsletter</string>
+		<string>Newsletter</string>
+		<string>Pozicija</string>
+		<string>Gore</string>
+		<string>Dolje</string>
+		<string>LIjevo</string>
+		<string>Desno</string>
+		<string>Tip: DVOKLIK ili CTRL+T da bi ušli u editor </string>
+		<string>Pokaži naporedna polja</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Sakrij napredne opcije</string>
+		<string>Grupa</string>
+		<!-- Browsers stats -->
+		<string>Grupa browsera</string>
+		<string>Detalji o verziji</string>
+		<string>Browser</string>
+		<string>Verzija</string>
+		<string>Postotak</string>
+		<string>Ostali</string>
+		<string></string>
+		<string></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Kodna strana</string>
+		<string>Headline</string>
+		<string>Margine</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>Pošalji</string>
+		<string>Resetiraj</string>
+		<!-- message after reaction posting -->
+		<string><b>Hvala na ispunjavanju knjige gostiju!</b><br/>Vaš unos dodan je u knjigu gostiju...</string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Status publiciranja novog članka</string>
+		<string>Aktiviraj e-mail funkcije? </string>
+		<string></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Zaboravili ste šifru ?</string>
+		<string>Ako ste zaboravili vašu šifru?</string>
+		<string>Upišite korisničko ime pod kojim ste se registrirali i email adresu i poslat ćemo vam šifru...</string>
+		<string>Korisničko ime</string>
+		<string>Email Adresa</string>
+		<string>Pošalji</string>
+		<string>Informacije o korisniku</string>
+		<string>Zatraženo je da vam se pošalju slijedeći podatci :</string>
+		<string>Šifra :</string>
+		<string>:)</string>
+		<!-- 470 -->
+		<string>Netočno korisničko ime ili email adresa.</string>
+		<string>Podatci su poslani na vaš e-mail. Provjerite e-mail za par minuta.</string>
+		<string>Ponovno upišite podatke.</string>
+		<string>Registrirajte se</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Vaše postavke</string>
+		<string>Nekompletni podatci.</string>
+		<string>Vaši podaci su uspješno osvježeni</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto Detektiranje</string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Home</string>
+		<string>Back to the home page</string>
+		
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Link</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Download</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>		
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Íslenska</name>
+	<translator>
+		<name>Sigurður</name>
+		<email>ssalomon@simnet.is</email>
+	</translator>
+	<encoding>iso-8859-1</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Website Administrator</string>
+		<string>Browse site</string>
+		<string>Settings</string>
+		<string>Pages</string>
+		<string>Contents</string>
+		<string>Surveys</string>
+		<string>Quotations</string>
+		<string>Myndir</string>
+		<string>Notendur</string>
+		<string>Gestabók</string>
+		<string>Statistics</string>
+		<string>Reactions</string>
+		<string>Umræðan</string>
+		<string>Upload</string>
+		<string>Create...</string>
+		<string>Eiða</string>
+		<string>Breyta...</string>
+		<string>Í lagi</string>
+		<string>Hætta við</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Website settings</string>
+		<string>Site name</string>
+		<string>Aðgangsorð</string>
+		<string>Lykilorð</string>
+		<string>META Title</string>
+		<string>Administrator Email</string>
+		<string>Website URL</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Skin</string>
+		<string>Tungumál</string>
+		<string>Frontpage</string>
+		<string>Logo path</string>
+		<string>Show toolbar</string>
+		<string>Copyright</string>
+		<string>Options list</string>
+		<string>Show menu</string>
+		<string>Show article tool bar</string>
+		<string>Show search form</string>
+		<string>Add-ons list</string>
+		<string>Surveys</string>
+		<string>Quotations</string>
+		<string>Ljósmynda Gallery</string>
+		<string>Gestabók</string>
+		<string>Umræðan</string>
+		<string>Show article's date and author</string>
+		<string>Register default status</string>
+		<string>Forums's message default status</string>
+		<string>Guestbook's message default status</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Webpage Administrator</string>
+		<string>Page title</string>
+		<string>Parent page</string>
+		<string>Access type</string>
+		<string>Edito</string>
+		<string>Advertisement tag</string>
+		<string>Visibility</string>
+		<string>This page can't be deleted!</string>
+		<string>Confirm the supression of this page? </string>
+		<string>Publication</string>
+		<string>Já</string>
+		<string>Nei</string>
+		<string>Scheduled</string>
+		<string>Publication date</string>
+		<string>Expiration date</string>
+		<string>External link</string>
+		<string>Category</string>
+		<string>Mest Skoðað</string>
+		<string>Count</string>
+		<string>Number of article</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Contents manager</string>
+		<string>Content title</string>
+		<string>Position</string>
+		<string>Webpage</string>
+		<string>Nafn</string>
+		<string>Date</string>
+		<string>XML Source</string>
+		<string>XSL template</string>
+		<string>Headlines</string>
+		<string>Body</string>
+		<string>Edit these datas in design mode</string>
+		<string>Visibility</string>
+		<string>This article is read only.</string>
+		<string>Do you really want to delete this content? </string>
+		<string>Print this</string>
+		<string>Senda vini</string>
+		<string>Give your opinion</string>
+		<string>Archive</string>
+		<string>All the pages</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Surveys manager</string>
+		<string>Survey name</string>
+		<string>Question</string>
+		<string>Answer n°1</string>
+		<string>Answer n°2</string>
+		<string>Answer n°3</string>
+		<string>Answer n°4</string>
+		<string>Answer n°5</string>
+		<string>Vote number</string>
+		<string>Associated webpage</string>
+		<string>None</string>
+		<string>Do you really want to delete this survey? </string>
+		<string>Kjósa!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Quotation manager</string>
+		<string>Quotation content</string>
+		<string>Do you really want to delete this quotation?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Pictures gallery manager</string>
+		<string>Item's name</string>
+		<string>Item's path </string>
+		<string>Comment</string>
+		<string>Do you really want to remove this item from the gallery??</string>
+		<string>Select</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Member manager</string>
+		<string>Pseudo</string>
+		<string>Lykilorð</string>
+		<string>Netfang</string>
+		<string>Bær</string>
+		<string>Dags</string>
+		<string>Copy/paste this line into your email software to send an email to ever member: </string>
+		<string>Do you really want to remove this member?</string>
+		<string>Type</string>
+		<string>State</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Guestbook manager</string>
+		<string>Nafn</string>
+		<string>Titill</string>
+		<string>Skilaboð</string>
+		<string>Dags</string>
+		<string>Netfang</string>
+		<string>Visibility</string>
+		<string>Do you really want to remove this message from the Guestbook?</string>
+		<string>Skráðu þig í gestabókina</string>
+		<string>&lt;b&gt;Thanks for the participation  to the growth of our website!&lt;/b&gt;&lt;br/&gt;Your participation will be noted &amp; published on-line after validation by the webmaster.</string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Reaction manager</string>
+		<string>Nafn</string>
+		<string>Titill</string>
+		<string>Article</string>
+		<string>Skilaboð</string>
+		<string>Dags</string>
+		<string>Visibility</string>
+		<string>Do you really want to delete this reaction?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Ressources</string>
+		<string>Ressources manager</string>
+		<string>Title</string>
+		<string>Type</string>
+		<string>Path</string>
+		<string>Comment</string>
+		<string>Width</string>
+		<string>Height</string>
+		<string>Picture</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Others</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>File upload</string>
+		<string>Send</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Forums manager</string>
+		<string>Title</string>
+		<string>Description</string>
+		<string>Visibility</string>
+		<string>Visible</string>
+		<string>Hidden</string>
+		<string>Do you really want to delete this forum? </string>
+		<string>Post</string>
+		<string>Reply</string>
+		<string>Sjá og taka þátt í þessari umræðu</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Traffic analysis</string>
+		<string>Viewed webpage</string>
+		<string>Visitors</string>
+		<string>Calendar</string>
+		<string>Detail for </string>
+		<string> Viewed webpage</string>
+		<string> Unique visitors</string>
+		<string>Time</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<string>IP address</string>
+		<string>Date</string>
+		<string>Visits</string>
+		<string>Grid view</string>
+		<string>Graph view</string>
+		<string>Ctry</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Main</string>
+		<string>Add-ons</string>
+		<string>Moderation</string>
+		<string>Stats</string>
+		<string>Help</string>
+		<string>Quickstart</string>
+		<string>active visitor</string>
+		<string>active visitors</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Leita á síðuni</string>
+		<string>Skráðu þig</string>
+		<string>Gestabók</string>
+		<string>Myndir</string>
+		<string>Umræðan</string>
+		<string>Stjórnborð</string>
+		<string>Kveðja</string>
+		<string>Menu</string>
+		<string>Innskrá</string>
+		<string>Kostning</string>
+		<string>Ýmislegt</string>
+		<string>Baka</string>
+		<string>Næsta</string>
+		<string>Lestu meira</string>
+		<string>Skrá inn síðu...</string>
+		<string>Add an article...</string>
+		<string>Add a user poll...</string>
+		<string>Skoða</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Forums messages manager</string>
+		<string>Titill</string>
+		<string>Pseudo</string>
+		<string>Visibility</string>
+		<string>Sjáanlegt</string>
+		<string>Falið</string>
+		<string>Do you really want to delete this message</string>
+		<string>Post</string>
+		<string>Answer to </string>
+		<string>Post an article</string>
+		<string>Write an article</string>
+		<string>This area is reserved to site members. Login or &lt;a href="default.asp?id=0&amp;ACT=9"&gt;create&lt;/a&gt; a free account to continue.</string>
+		<string>Forums messages</string>
+		<string>Body</string>
+		<string>In reply of: </string>
+		<string>Next: </string>
+		<string>Back to </string>
+		<string>Linear view</string>
+		<string>Tree view</string>
+		<string>back to the message list</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Desktop</string>
+		<string>Number of member </string>
+		<string>Number of guestbook message to validate </string>
+		<string>Number of reaction to validate </string>
+		<string>Number of forums messages </string>
+		<string>Number of hits</string>
+		<string>Welcome</string>
+		<string>You are running version: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Task list</string>
+		<string>Click here to add a new task</string>
+		<string>Create</string>
+		<string>End</string>
+		<string>Description</string>
+		<string>Importance</string>
+		<string>Add</string>
+		<string>Date</string>
+		<string>Finished</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Register</string>
+		<string>Það er öllum frjálst að skrá sig hérna inn netföng eða aðrar upplisýngar verða ekki undir neinum kringustæðum notað nema það sé óskað eftir fréttabrefi, ef svo er þá verður að haka við fá sennt fréttabref..</string>
+		<string>Aðgangsorð</string>
+		<string>Lykilorð</string>
+		<string>Netfang</string>
+		<string>Bær</string>
+		<string>Skrá</string>
+		<string>(*) shows the compulsory fields </string>
+		<string>Þakka þér fyrir að skrá þig, núna getur þú farið í innskrá vinstramegin á skjánum og innskrá þig á síðuna og tekið þátt í umræðuni sem er í gangi á þessari síðu</string>
+		<string>Skráningin verður virk innan 2 daga</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>React to </string>
+		<string>Name</string>
+		<string>Title</string>
+		<string>Message</string>
+		<string>Submit</string>
+		<string>Reactions </string>
+		<string>By </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Margins</string>
+		<string>Only left margin</string>
+		<string>Only right margin</string>
+		<string>Both margin</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Category</string>
+		<string>Categories manager</string>
+		<string>Name</string>
+		<string>Access type</string>
+		<string>Visibility</string>
+		<string>This category cannot be deleted</string>
+		<string>Do you really want to delete this category?</string>
+		<string>View the page list of this category</string>
+		<string>All the categories</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banners</string>
+		<string>Name</string>
+		<string>Click count</string>
+		<string>Target URL</string>
+		<string>Gif source</string>
+		<string>Banners manager</string>
+		<string>Do you really want to delete this banner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+		<string>Name</string>
+		<string>Path</string>
+		<string>Editor's website</string>
+		<string>Description</string>
+		<string>License</string>
+		<string>Price</string>
+		<string>Operating system</string>
+		<string>Downloads manager</string>
+		<string>Do you really want to delete this download?</string>
+		<string>Downloaded </string>
+		<string>Download now </string>
+		<string>Top downloads</string>
+		<string>Size</string>
+		<string>Version</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Yfirlit</string>
+		<string>Leitar niðurstaða</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Surveillance / Alerts</string>
+		<string>Smtp server</string>
+		<string>Alert on Guestbook</string>
+		<string>Alert on Forums</string>
+		<string>Alert on Reactions</string>
+		<string>Alert on Register</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Incorrect password or not already a validated subscription. \nCorrect or retry later.</string>
+		<string>You could just vote once per survey!</string>
+		<string>Welcome, your registration has been validated.</string>
+		<string>Some mandatory fields are missing. Please complete the form and try again.</string>
+		<string>The username is taken already, please choose another one.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Article sorting field</string>
+		<string>Page sorting order</string>
+		<string>Title</string>
+		<string>Publication date</string>
+		<string>ID</string>
+		<string>Ascending</string>
+		<string>Descending</string>
+		<string>Show title</string>
+		<string>View the content list of this page</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>new</string>
+		<string>new messages</string>
+		<string>Confirmation by Email</string>
+		<string>Register confirmation</string>
+		<string>You applied for registration on the site: </string>
+		<string>In order to complete this registration, browse to the following link: </string>
+		<string>Here is the information to keep about your account: </string>
+		<string>Thanks for registering. You will receive an email in some minutes to validate this registration. </string>
+		<string>administrator</string>
+		<string>editor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>member</string>
+		<string>Ef þú óskar eftir því að fá sennt fréttabref um það sem er að gerast í kringum þessa heimasíðu (Vinsamlegast hafðu þá hakið í herna til hægri)</string>
+		<string>Newsletter</string>
+		<string>Position</string>
+		<string>Top</string>
+		<string>Bottom</string>
+		<string>Left</string>
+		<string>Right</string>
+		<string>Tip: Double click or CTRL-T to enter the WYSIWYG mode</string>
+		<string>Show advanced fields</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Hide advanced fields</string>
+		<string>Group</string>
+		<!-- Browsers stats -->
+		<string>Browser group</string>
+		<string>Detail of the versions</string>
+		<string>Browser</string>
+		<string>Version</string>
+		<string>Percentage</string>
+		<string>Others</string>
+		<string></string>
+		<string></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encoding</string>
+		<string>Headline</string>
+		<string>Margins</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>Submit</string>
+		<string>Reset</string>
+		<!-- message after reaction posting -->
+		<string>&lt;b&gt;Thanks for the participation  to the growth of our website!&lt;/b&gt;&lt;br/&gt;Your participation will be noted and published on-line after validation by the webmaster.</string>
+		
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>New article default publication state</string>
+		<string>Activate Email functions ? (jMail required)</string>
+		<string></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Forgot password?</string>
+		<string>So You Forgot Your Password?</string>
+		<string>Enter your member name and email address below, click send, and you will be sent an email containing your password.</string>
+		<string>Member Name</string>
+		<string>Email Address</string>
+		<string>Submit</string>
+		<string>User information</string>
+		<string>A request has been made to email the following information to you:</string>
+		<string>Password</string>
+		<string>Please visit soon!</string>
+		<!-- 470 -->
+		<string>Incorrect User Name or Email Address.</string>
+		<string>Your reminder email has been sent.</string>
+		<string>Reenter information</string>
+		<string>Sign up now !</string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>My Account</string>
+		<string>Incomplete form, all the fields are requiered.</string>
+		<string>Your account has successfully been updated!</string>
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>none</string>
+		<string>Auto-detect</string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Home</string>
+		<string>Back to the home page</string>
+		
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Link</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Download</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>		
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>

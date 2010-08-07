@@ -1,0 +1,1 @@
+<iframe name="SOS_status" src="http://localhost/chat/status.asp" style="width:104;height:81" scrolling="no" frameborder="0"></iframe>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<polls>
+	<poll>
+		<id><![CDATA[1]]></id>
+		<choice2><![CDATA[No]]></choice2>
+		<name><![CDATA[sample survey]]></name>
+		<count1><![CDATA[1]]></count1>
+		<choice3><![CDATA[I don't care]]></choice3>
+		<count3><![CDATA[0]]></count3>
+		<idpage><![CDATA[1]]></idpage>
+		<question><![CDATA[Like the new design ?]]></question>
+		<choice1><![CDATA[Yes]]></choice1>
+		<count2><![CDATA[0]]></count2>
+		<choice5><![CDATA[]]></choice5>
+		<choice4><![CDATA[]]></choice4>
+		<count4><![CDATA[0]]></count4>
+		<count5><![CDATA[0]]></count5>
+		<date><![CDATA[200202202307]]></date>
+		<owner><![CDATA[full]]></owner>
+	</poll>
+</polls>

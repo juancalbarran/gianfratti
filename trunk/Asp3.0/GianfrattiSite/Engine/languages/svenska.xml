@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<language>
+	<name><![CDATA[Svenska]]></name>
+	<translator>
+		<name><![CDATA[Hans Hilmersson]]></name>
+		<email><![CDATA[hans@hilmersson.net]]></email>
+	</translator>
+	<encoding><![CDATA[iso-8859-1]]></encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string><![CDATA[Website Administrat&ouml;r]]></string>
+		<string><![CDATA[Bl&auml;dra webplatsen]]></string>
+		<string><![CDATA[Inst&auml;llningar]]></string>
+		<string><![CDATA[Sidor]]></string>
+		<string><![CDATA[Inneh&aring;ll]]></string>
+		<string><![CDATA[Unders&ouml;kningar]]></string>
+		<string><![CDATA[Citat]]></string>
+		<string><![CDATA[Bilder]]></string>
+		<string><![CDATA[Medlemmar]]></string>
+		<string><![CDATA[G&auml;stbok]]></string>
+		<string><![CDATA[Statistik]]></string>
+		<string><![CDATA[Reaktioner]]></string>
+		<string><![CDATA[Forum]]></string>
+		<string><![CDATA[Ladda upp]]></string>
+		<string><![CDATA[Skapa...]]></string>
+		<string><![CDATA[Radera]]></string>
+		<string><![CDATA[&Auml;ndra...]]></string>
+		<string><![CDATA[OK]]></string>
+		<string><![CDATA[Avbryt]]></string>
+		<!-- General settings, strat @ position 20 -->
+		<string><![CDATA[Webinst&auml;llningar]]></string>
+		<string><![CDATA[Platsnamn]]></string>
+		<string><![CDATA[Administrat&ouml;rinlogging]]></string>
+		<string><![CDATA[L&ouml;senord]]></string>
+		<string><![CDATA[META Title]]></string>
+		<string><![CDATA[Administrat&ouml;rens Epost]]></string>
+		<string><![CDATA[Websidans URL]]></string>
+		<string><![CDATA[META Nyckelord]]></string>
+		<string><![CDATA[META beskrivning]]></string>
+		<string><![CDATA[Skinn]]></string>
+		<string><![CDATA[Spr&aring;k]]></string>
+		<string><![CDATA[F&ouml;rstasida]]></string>
+		<string><![CDATA[Logotyps&ouml;kv&auml;g]]></string>
+		<string><![CDATA[Visa verktygslist]]></string>
+		<string><![CDATA[Copyright]]></string>
+		<string><![CDATA[Tillvalslista]]></string>
+		<string><![CDATA[Visa meny]]></string>
+		<string><![CDATA[Visa artikelns verktygslist]]></string>
+		<string><![CDATA[Visa s&ouml;kformul&auml;ret]]></string>
+		<string><![CDATA[Till&auml;ggslista]]></string>
+		<string><![CDATA[Unders&ouml;kningar]]></string>
+		<string><![CDATA[Citat]]></string>
+		<string><![CDATA[Bildgalleri]]></string>
+		<string><![CDATA[G&auml;stbok]]></string>
+		<string><![CDATA[Forum]]></string>
+		<string><![CDATA[Visa artikelns datum och f&ouml;rfattare]]></string>
+		<string><![CDATA[Standardinst&auml;llning f&ouml;r registreringar]]></string>
+		<string><![CDATA[Standardinst&auml;llning f&ouml;r inl&auml;gg i forumet]]></string>
+		<string><![CDATA[Standardinst&auml;llning f&ouml;r inl&auml;gg i g&auml;stboken]]></string>
+		<string><![CDATA[Slogan]]></string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string><![CDATA[Webadministrat&ouml;r]]></string>
+		<string><![CDATA[Sidan namn]]></string>
+		<string><![CDATA[F&ouml;r&auml;ldrasida]]></string>
+		<string><![CDATA[Typ av access]]></string>
+		<string><![CDATA[Br&ouml;dtext]]></string>
+		<string><![CDATA[Annonstext]]></string>
+		<string><![CDATA[Synlig]]></string>
+		<string><![CDATA[Denna sida kan inte raderas!]]></string>
+		<string><![CDATA[Bekr&auml;fta borttagning av denna sida? ]]></string>
+		<string><![CDATA[Publicering]]></string>
+		<string><![CDATA[Ja]]></string>
+		<string><![CDATA[Nej]]></string>
+		<string><![CDATA[Schema]]></string>
+		<string><![CDATA[Publiceringsdatum]]></string>
+		<string><![CDATA[Upph&ouml;randedatum]]></string>
+		<string><![CDATA[Extern l&auml;nk]]></string>
+		<string><![CDATA[Kategori]]></string>
+		<string><![CDATA[F&ouml;rstasida]]></string>
+		<string><![CDATA[Antal]]></string>
+		<string><![CDATA[Antal artiklar]]></string>
+		<!-- Content settings, start @ position 70 -->
+		<string><![CDATA[Inneh&aring;llshantering]]></string>
+		<string><![CDATA[Inneh&aring;llstitel]]></string>
+		<string><![CDATA[Plats]]></string>
+		<string><![CDATA[Webbsida]]></string>
+		<string><![CDATA[F&ouml;rfattare]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[XML k&auml;lla]]></string>
+		<string><![CDATA[XSL mall]]></string>
+		<string><![CDATA[Rubrik]]></string>
+		<string><![CDATA[Br&ouml;dtext]]></string>
+		<string><![CDATA[Redigera detta i designl&auml;ge]]></string>
+		<string><![CDATA[Synlig]]></string>
+		<string><![CDATA[Denna artikel &auml;r skrivskyddad.]]></string>
+		<string><![CDATA[Vill du verkligen radera inneh&aring;llet? ]]></string>
+		<string><![CDATA[Skriv ut detta]]></string>
+		<string><![CDATA[Skicka till en v&auml;n]]></string>
+		<string><![CDATA[Vad tycker du?]]></string>
+		<string><![CDATA[Arkiv]]></string>
+		<string><![CDATA[Alla sidor]]></string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string><![CDATA[Ansvarig f&ouml;r unders&ouml;kningen]]></string>
+		<string><![CDATA[unders&ouml;kningens namn]]></string>
+		<string><![CDATA[fr&aring;ga]]></string>
+		<string><![CDATA[Svar nr1]]></string>
+		<string><![CDATA[Svar nr2]]></string>
+		<string><![CDATA[Svar nr3]]></string>
+		<string><![CDATA[Svar nr4]]></string>
+		<string><![CDATA[Svar nr5]]></string>
+		<string><![CDATA[R&ouml;st nr]]></string>
+		<string><![CDATA[Associerad webbsida]]></string>
+		<string><![CDATA[Ingen]]></string>
+		<string><![CDATA[Vill du verkligen radera denna unders&ouml;kning? ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string><![CDATA[Citathantering]]></string>
+		<string><![CDATA[Citatinneh&aring;ll]]></string>
+		<string><![CDATA[Vill du verkligen radera detta citat?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string><![CDATA[Hantering av bildgalleriet]]></string>
+		<string><![CDATA[Bildens namn]]></string>
+		<string><![CDATA[Bildens s&ouml;kv&auml;g ]]></string>
+		<string><![CDATA[Kommentar]]></string>
+		<string><![CDATA[Vill du verkligen radera detta bildgalleriet??]]></string>
+		<string><![CDATA[V&auml;lj]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string><![CDATA[Hantering av medlemmar]]></string>
+		<string><![CDATA[Pseudonym]]></string>
+		<string><![CDATA[L&ouml;senord]]></string>
+		<string><![CDATA[E-post]]></string>
+		<string><![CDATA[Avdelning]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[Kopiera och klistra in denna rad i ditt e-postprogram f&ouml;r att meddelandet till samtliga medlemmar: ]]></string>
+		<string><![CDATA[Vill du verkligen radera denna medlem?]]></string>
+		<string><![CDATA[sort]]></string>
+		<string><![CDATA[Stat]]></string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string><![CDATA[Hantering av g&auml;stboken]]></string>
+		<string><![CDATA[F&ouml;rfattare]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Meddelande]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[E-post]]></string>
+		<string><![CDATA[Synlig]]></string>
+		<string><![CDATA[Vill du verkligen radera detta meddealnde fr&aring;n g&auml;stboken?]]></string>
+		<string><![CDATA[Skriv i g&auml;stboken]]></string>
+		<string><![CDATA[<b>Tack f&ouml;r ditt bidrag!</b><br/>Ditt deltagande kommer att noteras och publiceras efter godk&auml;nande av webbchefen.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string><![CDATA[hantering av reaktioner]]></string>
+		<string><![CDATA[F&ouml;rfattare]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Artikel]]></string>
+		<string><![CDATA[Meddelande]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[Synlig]]></string>
+		<string><![CDATA[Vill du verkligen radera denna reaktion?]]></string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string><![CDATA[Resurser]]></string>
+		<string><![CDATA[Resurshantering]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Typ]]></string>
+		<string><![CDATA[S&ouml;kv&auml;g]]></string>
+		<string><![CDATA[Kommentar]]></string>
+		<string><![CDATA[Bredd (bild)]]></string>
+		<string><![CDATA[H&ouml;jd (bild)]]></string>
+		<string><![CDATA[Bild]]></string>
+		<string><![CDATA[Video]]></string>
+		<string><![CDATA[Flash]]></string>
+		<string><![CDATA[Wav]]></string>
+		<string><![CDATA[Midi]]></string>
+		<string><![CDATA[Typsnitt]]></string>
+		<string><![CDATA[Zip]]></string>
+		<string><![CDATA[Exe]]></string>
+		<string><![CDATA[Annat]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string><![CDATA[Ladda upp fil]]></string>
+		<string><![CDATA[Skicka]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string><![CDATA[Forumshantering]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Beskrivning]]></string>
+		<string><![CDATA[Synlighet]]></string>
+		<string><![CDATA[Synligt]]></string>
+		<string><![CDATA[Dolt]]></string>
+		<string><![CDATA[Vill du verkligen radera detta forum? ]]></string>
+		<string><![CDATA[Posta]]></string>
+		<string><![CDATA[Svara]]></string>
+		<string><![CDATA[Kliv in]]></string>
+		<!-- Stats strings, start @ position 200 -->
+		<string><![CDATA[Trafikanalys]]></string>
+		<string><![CDATA[Visade webbsidor]]></string>
+		<string><![CDATA[Visitors]]></string>
+		<string><![CDATA[Bes&ouml;kare]]></string>
+		<string><![CDATA[Detaljer f&ouml;r ]]></string>
+		<string><![CDATA[ Visad webbsida]]></string>
+		<string><![CDATA[ Unika bes&ouml;kare]]></string>
+		<string><![CDATA[Tid]]></string>
+		<string><![CDATA[URL]]></string>
+		<string><![CDATA[Referens]]></string>
+		<string><![CDATA[IP adress]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[Bes&ouml;k]]></string>
+		<string><![CDATA[Tabellvisning]]></string>
+		<string><![CDATA[Grafisk visning]]></string>
+		<string><![CDATA[Ctry]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string><![CDATA[Start]]></string>
+		<string><![CDATA[Till&auml;gg]]></string>
+		<string><![CDATA[Moderationer]]></string>
+		<string><![CDATA[Statistik]]></string>
+		<string><![CDATA[Hj&auml;lp]]></string>
+		<string><![CDATA[Quickstart]]></string>
+		<string><![CDATA[aktiva bes&ouml;kare]]></string>
+		<string><![CDATA[aktiva bes&ouml;kare]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string><![CDATA[S&ouml;k sajten]]></string>
+		<string><![CDATA[Registera]]></string>
+		<string><![CDATA[G&auml;stbook]]></string>
+		<string><![CDATA[Bildgalleri]]></string>
+		<string><![CDATA[Forum]]></string>
+		<string><![CDATA[Administration]]></string>
+		<string><![CDATA[Logga ut]]></string>
+		<string><![CDATA[Meny]]></string>
+		<string><![CDATA[Logga in]]></string>
+		<string><![CDATA[Unders&ouml;kning]]></string>
+		<string><![CDATA[Tips]]></string>
+		<string><![CDATA[Tillbaka]]></string>
+		<string><![CDATA[N&auml;sta]]></string>
+		<string><![CDATA[L&auml;s vidare]]></string>
+		<string><![CDATA[L&auml;gg till en sida...]]></string>
+		<string><![CDATA[L&auml;gg till en artikel...]]></string>
+		<string><![CDATA[L&auml;gg till en unders&ouml;kning...]]></string>
+		<string><![CDATA[Kliv in]]></string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string><![CDATA[Hantering av forumsmeddelanden]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Pseudonym]]></string>
+		<string><![CDATA[Synlighet]]></string>
+		<string><![CDATA[Synlig]]></string>
+		<string><![CDATA[Dold]]></string>
+		<string><![CDATA[Vill du verkligen radera detta meddelande?]]></string>
+		<string><![CDATA[Posta]]></string>
+		<string><![CDATA[Svara till ]]></string>
+		<string><![CDATA[Posta en artikel]]></string>
+		<string><![CDATA[Skriv en artikel]]></string>
+		<string><![CDATA[Detta omr&aring;de &auml;r reserverat f&ouml;r medlemmar. Logga in eller <a href="default.asp?id=0&ACT=9">skapa</a> ett konto f&ouml;r att forts&auml;tta.]]></string>
+		<string><![CDATA[Forumsmeddelanden]]></string>
+		<string><![CDATA[Meddelandetext]]></string>
+		<string><![CDATA[Replik till: ]]></string>
+		<string><![CDATA[N&auml;sta: ]]></string>
+		<string><![CDATA[Tillbaka till ]]></string>
+		<string><![CDATA[Linj&auml;r vy]]></string>
+		<string><![CDATA[Tr&auml;dvy]]></string>
+		<string><![CDATA[tillbaka till meddelandelistan]]></string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string><![CDATA[Skrivbord]]></string>
+		<string><![CDATA[Amntal medlemmar ]]></string>
+		<string><![CDATA[Antal g&auml;stboksinl&auml;gg att validera ]]></string>
+		<string><![CDATA[Antal reaktioner att validera ]]></string>
+		<string><![CDATA[Antal meddelanden i forumet ]]></string>
+		<string><![CDATA[Antal tr&auml;ffar]]></string>
+		<string><![CDATA[V&auml;lkommen]]></string>
+		<string><![CDATA[Du anv&auml;nder version: ]]></string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string><![CDATA[Att g&ouml;ra lista]]></string>
+		<string><![CDATA[Klicka h&auml;r f&ouml;r att l&auml;gga till en uppgift]]></string>
+		<string><![CDATA[Skapa]]></string>
+		<string><![CDATA[Avsluta]]></string>
+		<string><![CDATA[Beskrivning]]></string>
+		<string><![CDATA[Prioritet]]></string>
+		<string><![CDATA[L&auml;gg till]]></string>
+		<string><![CDATA[Datum]]></string>
+		<string><![CDATA[Klar]]></string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string><![CDATA[Registera]]></string>
+		<string><![CDATA[Denna registrerng &auml;r gratis och ger dig tillg&aring;ng till samtliga resurser p&aring; sajten.]]></string>
+		<string><![CDATA[Logga in]]></string>
+		<string><![CDATA[L&ouml;senord]]></string>
+		<string><![CDATA[E-post]]></string>
+		<string><![CDATA[Avdelning]]></string>
+		<string><![CDATA[Skicka]]></string>
+		<string><![CDATA[(*) visar obligatoriska f&auml;lt ]]></string>
+		<string><![CDATA[Tack! Du &auml;r nu registrerad! Logga in via formul&auml;ret till v&auml;nster p&aring; sidan.]]></string>
+		<string><![CDATA[Tack! Din registrering har skickats till webbchefen f&ouml;r aktivering.]]></string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string><![CDATA[Respons till ]]></string>
+		<string><![CDATA[Namn]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Meddelande]]></string>
+		<string><![CDATA[Skicka]]></string>
+		<string><![CDATA[Respons ]]></string>
+		<string><![CDATA[Av ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string><![CDATA[Marginaler]]></string>
+		<string><![CDATA[Endast v&auml;nster marginal]]></string>
+		<string><![CDATA[Endast h&ouml;ger marginal]]></string>
+		<string><![CDATA[B&aring;da marginaler]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string><![CDATA[Kategori]]></string>
+		<string><![CDATA[Kategorihantering]]></string>
+		<string><![CDATA[Namn]]></string>
+		<string><![CDATA[Accesstyp]]></string>
+		<string><![CDATA[Synlighet]]></string>
+		<string><![CDATA[Denna kategori kan inte raderas]]></string>
+		<string><![CDATA[Vill du verkligen radera denna kategori?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string><![CDATA[Banner]]></string>
+		<string><![CDATA[Namn]]></string>
+		<string><![CDATA[Antal klick]]></string>
+		<string><![CDATA[Klick-URL]]></string>
+		<string><![CDATA[Gif-k&auml;lla]]></string>
+		<string><![CDATA[Bannerhantering]]></string>
+		<string><![CDATA[Vill du verkligen radera denna banner?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string><![CDATA[Filbibliotek]]></string>
+		<string><![CDATA[Namn]]></string>
+		<string><![CDATA[S&ouml;kv&auml;g]]></string>
+		<string><![CDATA[Originalets webbsida]]></string>
+		<string><![CDATA[Beskrivning]]></string>
+		<string><![CDATA[Licens]]></string>
+		<string><![CDATA[Pris]]></string>
+		<string><![CDATA[Operativsystem]]></string>
+		<string><![CDATA[Filh&auml;mtningshantering]]></string>
+		<string><![CDATA[Vill du verkligen radera denna filh&auml;mtning?]]></string>
+		<string><![CDATA[H&auml;mtad ]]></string>
+		<string><![CDATA[H&auml;mta nu ]]></string>
+		<string><![CDATA[Mesta h&auml;mtningar]]></string>
+		<string><![CDATA[Storlek]]></string>
+		<string><![CDATA[Version]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string><![CDATA[Sajtkarta]]></string>
+		<string><![CDATA[S&ouml;kresultat]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string><![CDATA[Bevakning / Larm]]></string>
+		<string><![CDATA[Smtp server]]></string>
+		<string><![CDATA[Larm fr&aring;n GG&auml;stboken]]></string>
+		<string><![CDATA[Larm fr&aring;n Forum]]></string>
+		<string><![CDATA[Larm fr&aring;n Respons]]></string>
+		<string><![CDATA[Larm fr&aring;n Registrering]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string><![CDATA[Felaktigt l&ouml;snord, eller ej validerad registrering. \nF&ouml;r&ouml;k igen eller &aring;terkomsenare.]]></string>
+		<string><![CDATA[Du kan bara r&ouml;sta en g&aring;ng per unders&ouml;kning!]]></string>
+		<string><![CDATA[V&auml;lkommen, din registrering &auml;r godk&auml;nd.]]></string>
+		<string><![CDATA[Du m&aring;ste fylla i alla obligatoriska f&auml;lt. F&ouml;rs&ouml;k igen.]]></string>
+		<string><![CDATA[Anv&auml;ndarnamnet &auml;r upptaget. var sn&auml;ll och v&auml;lj ett annat.]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Page options, start @ position 410 -->
+		<string><![CDATA[Sorteringsordning f&ouml;r artiklar]]></string>
+		<string><![CDATA[Sorteringsordning f&ouml;r sidor]]></string>
+		<string><![CDATA[Titel]]></string>
+		<string><![CDATA[Publiceringsdatum]]></string>
+		<string><![CDATA[ID]]></string>
+		<string><![CDATA[Stigande]]></string>
+		<string><![CDATA[fallande]]></string>
+		<string><![CDATA[Visa titel]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Misc , start @ position 420 -->
+		<string><![CDATA[ny]]></string>
+		<string><![CDATA[nytt meddelande]]></string>
+		<string><![CDATA[Bekr&auml;fta med E-post]]></string>
+		<string><![CDATA[Registeringsbekr&auml;ftelse]]></string>
+		<string><![CDATA[Du har ans&ouml;kt om att f&aring; registrera dig p&aring; denna webbsajetn: ]]></string>
+		<string><![CDATA[F&ouml;r att fullf&ouml;lja registreringen beh&ouml;ver du klicka p&aring; f&ouml;ljande l&auml;nk: ]]></string>
+		<string><![CDATA[Spara f&ouml;ljande information om ditt konto: ]]></string>
+		<string><![CDATA[Tack f&ouml;r din registrering! Du kommer att f&aring; ett mail som bekr&auml;ftar din registrering. ]]></string>
+		<string><![CDATA[administrat&ouml;r]]></string>
+		<string><![CDATA[redakt&ouml;r]]></string>
+		<string><![CDATA[medlem]]></string>
+		<string><![CDATA[Prenumerera p&aring; v&aring;rt nyhetsbrev (l&aring;g frekvens)]]></string>
+		<string><![CDATA[Nyhetsbrev]]></string>
+		<string><![CDATA[Position]]></string>
+		<string><![CDATA[Top]]></string>
+		<string><![CDATA[Bottom]]></string>
+		<string><![CDATA[Left]]></string>
+		<string><![CDATA[Right]]></string>
+		<string><![CDATA[Tip: Double click or CTRL-T to enter the WYSIWYG mode]]></string>
+		<string><![CDATA[Show advanced fields]]></string>
+		<!-- Misc , start @ position 440 -->
+		<string><![CDATA[Hide advanced fields]]></string>
+		<string><![CDATA[Group]]></string>
+		<!-- Browsers stats -->
+		<string><![CDATA[Browser group]]></string>
+		<string><![CDATA[Detail of the versions]]></string>
+		<string><![CDATA[Browser]]></string>
+		<string><![CDATA[Version]]></string>
+		<string><![CDATA[Percentage]]></string>
+		<string><![CDATA[Others]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string><![CDATA[Encoding]]></string>
+		<string><![CDATA[Headline]]></string>
+		<string><![CDATA[Margins]]></string>
+		<string><![CDATA[Body]]></string>
+		<!-- Guestbook's buttons -->
+		<string><![CDATA[Submit]]></string>
+		<string><![CDATA[Reset]]></string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Thanks for the participation  to the growth of our website!</b><br/>Your participation will be noted & published on-line after validation by the webmaster.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string><![CDATA[New article default publication state]]></string>
+		<string><![CDATA[Activate Email functions ? (jMail required)]]></string>
+		<string><![CDATA[]]></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string><![CDATA[Forgot password?]]></string>
+		<string><![CDATA[So You Forgot Your Password?]]></string>
+		<string><![CDATA[Enter your member name and email address below, click send, and you will be sent an email containing your password.]]></string>
+		<string><![CDATA[Member Name]]></string>
+		<string><![CDATA[Email Address]]></string>
+		<string><![CDATA[Submit]]></string>
+		<string><![CDATA[User information]]></string>
+		<string><![CDATA[A request has been made to email the following information to you:]]></string>
+		<string><![CDATA[Password]]></string>
+		<string><![CDATA[Please visit soon!]]></string>
+		<!-- 470 -->
+		<string><![CDATA[Incorrect User Name or Email Address.]]></string>
+		<string><![CDATA[Your reminder email has been sent.]]></string>
+		<string><![CDATA[Reenter information]]></string>
+		<string><![CDATA[Sign up now !]]></string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string><![CDATA[My Account]]></string>
+		<string><![CDATA[Incomplete form, all the fields are requiered.]]></string>
+		<string><![CDATA[Your account has successfully been updated!]]></string>
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string><![CDATA[none]]></string>
+		<string><![CDATA[Auto-detect]]></string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string><![CDATA[Menu bar]]></string>
+		<string><![CDATA[Home]]></string>
+		<string><![CDATA[Back to the home page]]></string>
+		
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string><![CDATA[Directories]]></string>
+		<string><![CDATA[Directories manager]]></string>
+		<string><![CDATA[New directory]]></string>
+		<string><![CDATA[Name]]></string>
+		<string><![CDATA[Published]]></string>
+		<string><![CDATA[New directory]]></string>
+		<string><![CDATA[New category]]></string>
+		<string><![CDATA[Categories]]></string>
+		<!-- 490 -->
+		<string><![CDATA[New item]]></string>
+		<string><![CDATA[New directory]]></string>
+		<string><![CDATA[Modify directory]]></string>
+		<string><![CDATA[New category]]></string>
+		<string><![CDATA[Modify category]]></string>
+		<string><![CDATA[New sub-category]]></string>
+		<string><![CDATA[Modify sub-category]]></string>
+		<string><![CDATA[New item]]></string>
+		<string><![CDATA[Modify item]]></string>
+		<string><![CDATA[Summary]]></string>
+		<!-- 500 -->
+		<string><![CDATA[Description]]></string>
+		<string><![CDATA[Website]]></string>
+		<string><![CDATA[Download URL]]></string>
+		<string><![CDATA[Picture path]]></string>
+		<string><![CDATA[Public submission]]></string>
+		<string><![CDATA[Items stored]]></string>
+		<string><![CDATA[User]]></string>
+		<string><![CDATA[Download]]></string>
+		<string><![CDATA[Link]]></string>
+		<string><![CDATA[CD]]></string>
+		<!-- 510 -->
+		<string><![CDATA[DVD]]></string>
+		<string><![CDATA[Book]]></string>
+		<string><![CDATA[MP3]]></string>
+		<string><![CDATA[Employee]]></string>
+		<string><![CDATA[Product]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- 520 -->
+		<string><![CDATA[Users]]></string>
+		<string><![CDATA[Download]]></string>
+		<string><![CDATA[Web Pages]]></string>
+		<string><![CDATA[CD]]></string>
+		<string><![CDATA[DVD]]></string>
+		<string><![CDATA[Book]]></string>
+		<string><![CDATA[MP3]]></string>
+		<string><![CDATA[Employee]]></string>
+		<string><![CDATA[Product]]></string>
+		<string><![CDATA[]]></string>
+		
+		<!-- 530 -->
+		<string><![CDATA[Directory]]></string>
+		<string><![CDATA[Home]]></string>
+		<string><![CDATA[Number of websites in the directory: ]]></string>
+		<string><![CDATA[Submit a web site]]></string>
+		<string><![CDATA[Total hits]]></string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>		
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Online members</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Your name</string>
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export this list to CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Order</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+	</strings>
+</language>
