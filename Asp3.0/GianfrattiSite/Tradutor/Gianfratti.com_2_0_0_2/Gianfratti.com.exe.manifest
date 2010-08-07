@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Gianfratti.com.exe" version="2.0.0.2" publicKeyToken="97056cf5225e75c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ico01.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gianfratti.com" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gianfratti.com.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gianfratti.com.exe" size="61440">
+      <assemblyIdentity name="Gianfratti.com" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>G+Ecmbz0JHpiZ8Uzr5wzWRjTGTY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gianfratti.com.exe.config" size="74">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XshrqJbLMwJ7FM1jR7BQZyNqypc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ico01.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gUhnvP5RxHG2GDfC9y+R8tYJjtM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GIANFRATTI\Fabrizio" issuerKeyHash="ec06c02504011ec3585c66ea0cbcabef93c4b9db" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sNw9IbFLq7Xt3zR27ypfv6oUp6k=</DigestValue></Reference></SignedInfo><SignatureValue>OV1ZW1K03gX6mNBg8frNFAumWSdXM3i6aGvYdrV4DxMU1UX76mef4Z9qxuatt2nV3TZCIKRUf8loE2GiPRXPkT/FMY9QkcDuvCP/gRoPjdrfyV2DvpZYfZqKYGoUNM4x1JJ7eRWtGu3ps69Nhbx6l73kQggLLtU91OKWlbUe4JE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oSihw7+v8CSmCUqsxgfSk0p1iGPtgrBIQvjaZ9ZA7Yrzw2eyk0MxjBCkCoAi5miD6vGSRTZuraIA3sCyoBlRTb6QpI8eyOc+16ySB/YRjYIYVUtmFEaym3PL1Iiz1HdrJ+BFajcRo+ueA9qjOeO5dhS7X3TDD8tleOXIE7cH3XM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a9a714aabf5f2aef7634dfedb5ab4bb1213ddcb0" Description="" Url=""><as:assemblyIdentity name="Gianfratti.com.exe" version="2.0.0.2" publicKeyToken="97056cf5225e75c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GIANFRATTI\Fabrizio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FusxoDaro1wRFnm1Ga7Y7vsoxlc=</DigestValue></Reference></SignedInfo><SignatureValue>kNygVzCpDtTPB+XEreGnO+hwda5r8JIKrt9PF/y1xvGLIaa7bzkl1fFz0+1P84e94l7HZBRR/NCRVaukrNA0boiJIeaGx/4sPzxSHhqV1uUo86IhbQfGzGX4uIWbqyGj36wUEqiAdWjAso88oyDEIOuhrL/z0gqwD7/DYdTkAAU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oSihw7+v8CSmCUqsxgfSk0p1iGPtgrBIQvjaZ9ZA7Yrzw2eyk0MxjBCkCoAi5miD6vGSRTZuraIA3sCyoBlRTb6QpI8eyOc+16ySB/YRjYIYVUtmFEaym3PL1Iiz1HdrJ+BFajcRo+ueA9qjOeO5dhS7X3TDD8tleOXIE7cH3XM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQel856la6AI1A0SYE/MpzwzAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBHAEkAQQBOAEYAUgBBAFQAVABJAFwARgBhAGIAcgBpAHoAaQBvMB4XDTA3MTExMDE3MjAyMloXDTA4MTEwOTIzMjAyMlowMTEvMC0GA1UEAx4mAEcASQBBAE4ARgBSAEEAVABUAEkAXABGAGEAYgByAGkAegBpAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKEoocO/r/AkpglKrMYH0pNKdYhj7YKwSEL42mfWQO2K88NnspNDMYwQpAqAIuZog+rxkkU2bq2iAN7AsqAZUU2+kKSPHsjnPteskgf2EY2CGFVLZhRGsptzy9SIs9R3ayfgRWo3EaPrngPaoznjuXYUu190ww/LZXjlyBO3B91zAgMBAAEwCQYFKw4DAh0FAAOBgQBKGq8SUU9QC2l3cNzrvtwoVtYhkD2vDRbEExGKMTOezsp+VkZ0IeRmKQLNqzDMmgS1gf+TD3JClgTpHSc3J5uxmVbZcNvkI8Kv69PRypCcfCFSnM6IVwgl7+PIbCGb3/OvxSzRSp/x8S+fLCIMq3WBtV8ypFd7Z3lng18rspmhJg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

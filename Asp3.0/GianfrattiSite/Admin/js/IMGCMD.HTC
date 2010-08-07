@@ -1,0 +1,26 @@
+<PUBLIC:COMPONENT>
+	<PUBLIC:ATTACH event="onclick" handler="ExpandCollapse" />
+	<PUBLIC:ATTACH EVENT="onload" ONEVENT="Init()" FOR="window" />
+	<SCRIPT>
+function Init()
+{
+   //element.document.all(child).runtimeStyle.display = "none";
+}
+
+function ExpandCollapse()
+{
+	if (this.mode == 'plus'){
+		this.src = 'admin/media/minus.gif';
+		this.mode = 'minus';
+		element.document.all(child).runtimeStyle.display = "block";
+	}
+	else{
+		this.src = 'admin/media/plus.gif'
+		this.mode = 'plus';
+		element.document.all(child).runtimeStyle.display = "none";
+	}	  
+  	//window.event.cancelBubble = true;
+}
+	
+</SCRIPT>
+</PUBLIC:COMPONENT>

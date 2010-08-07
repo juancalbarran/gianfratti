@@ -1,0 +1,37 @@
+//////////////////////////////////////////////////////////////////////////
+//									//
+//                           ___            ___				//
+//                          /\__\          /\__\			//
+//                         /:/ _/_        /:/ _/_			//
+//                        /:/ /\  \      /:/ /\  \			//
+//                       /:/ /::\  \    /:/ /::\  \			//
+//                      /:/_/:/\:\__\  /:/_/:/\:\__\			//
+//                      \:\/:/ /:/  /  \:\/:/ /:/  /			//
+//                       \::/ /:/  /    \::/ /:/  / 			//
+//                        \/_/:/  /      \/_/:/  /			//
+//                          /:/  /         /:/  / 			//
+//                          \/__/ Oct,2003 \/__/			//
+//									//
+//                           -Salims Softhouse-				//
+//									//
+//	Created by Ph03y3nk Graphics and Webdesign  October, 2003.	//
+//									//
+//		-----------------------------------------		//
+//		- Author: 	Salim "Ph03y3nk"	-		//
+//		- original:	www.fullxml.com Skins	-		//
+//		- Modification:	25.10.2003		-		//
+//		- Website:	http://www.salim.co.nr	-		//
+//		- E-mail:	ph03y3nk@yahoo.com	-		//
+//		- Version:	FullXML 2.4.1		-		//
+//		-----------------------------------------		//
+//									//
+//	Where Design meet seemless to help people take their pride..	//
+//	...............Here I am.					//
+//////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------
+New Skins for FullXML 2.4.1
+--------------------------------------------------------------------------
+it was originaly from FullXML website Skins, I have modified a litle (Coloring). 
+plus adding skin studio for that.
+Regards "Co-oL"

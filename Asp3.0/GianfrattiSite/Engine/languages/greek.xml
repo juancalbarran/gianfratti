@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="ISO-8859-7"?>
+<language>
+   <name>Greek</name>
+	<translator>
+		<name>Chris Delivorias</name>
+		<email>info@ploegos.net</email>
+	</translator>
+	<encoding>ISO-8859-7</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Διαχειριστής ιστοσελίδας</string>
+		<string>Περιήγηση στις σελίδες</string>
+		<string>Ρυθμίσεις</string>
+		<string>Σελίδες</string>
+		<string>Περιεχόμενα</string>
+      		<string>Ψηφοφορίες</string>
+      		<string>Διάφορα</string>
+		<string>Εικόνες</string>
+		<string>Μέλη</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Στατιστικά</string>
+		<string>Αντιδράσεις</string>
+		<string>Διάλογοι</string>
+		<string>Ανέβασμα</string>
+		<string>Δημιουργία...</string>
+		<string>Διαγραφή</string>
+		<string>Επεξεργασία...</string>
+		<string>   OK   </string>
+		<string>’κυρο</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Ρυθμίσεις ιστοσελίδας</string>
+		<string>Όνομα ιστοσελίδας</string>
+		<string>Παρωνύμιο διαχειριστή</string>
+		<string>Συνθηματικό</string>
+		<string>Τίτλος META</string>
+		<string>Email διαχειριστή</string>
+		<string>Διεύθυνση ιστοσελίδας</string>
+		<string>Λέξεις κλειδιά META</string>
+		<string>Περιγραφή META</string>
+		<string>Κέλυφος</string>
+		<string>Γλώσσα</string>
+		<string>Πρώτη σελίδα</string>
+		<string>Διαδρομή λογοτύπου</string>
+		<string>Εμφάνιση μπάρας αργαλείων</string>
+		<string>Πνευματικά δικαιώματα</string>
+		<string>Κατάσταση μετριασμού</string>
+		<string>Εμφάνιση μενού</string>
+		<string>Εμφάνιση μπάρας εργαλείων άρθρων</string>
+		<string>Νέα φόρμα έρευνας</string>
+		<string>Λίστα πρόσθετων</string>
+		<string>Έρευνες</string>
+		<string>Παραπομπές</string>
+		<string>Συλλογή φωτογραφιών</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Διάλογοι</string>
+		<string>Εμφάνιση ημερομηνίας και συγγραφέα του άρθρου</string>
+		<string>Καταχώρηση αρχικής κατάστασης</string>
+		<string>Αρχική κατάσταση μηνύματος διαλόγων</string>
+		<string>Αρχική κατάσταση μηνύματος βιβλίου επισκεπτών</string>
+		<string>Σύνθημα</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Διαχειριστής ιστοσελίδας</string>
+		<string>Τίτλος σελίδας</string>
+		<string>Σελίδα αρχικής καταγωγής</string>
+		<string>Τύπος πρόσβασης</string>
+		<string>Edito</string>
+		<string>Διαφημιστική ετικέτα</string>
+		<string>Ορατότητα</string>
+		<string>Αυτή η σελίδα δεν μπορεί να διαγραφεί!</string>
+		<string>Επιβεβαιώνετε την αποσιώπηση αυτής της σελίδας; </string>
+		<string>Δημοσίευση</string>
+		<!-- 60 -->
+		<string>Ναι</string>
+		<string>Όχι</string>
+		<!--  end-->
+		<string>Προγραμματισμένο</string>
+		<string>Ημερομηνία δημοσίευσης</string>
+		<string>Ημερομηνία λήξης</string>
+		<string>Εξωτερικός σύνδεσμος</string>
+		<string>Κατηγορία</string>
+		<string>Δημοφιλείς σελίδες</string>
+		<string>Μέτρηση</string>
+		<string>Αριθμός άρθρου</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Διαχειριστής περιεχομένου</string>
+		<string>Τίτλος περιεχομένου</string>
+		<string>Θέση</string>
+		<string>Ιστοσελίδα</string>
+		<string>Συγγραφέας</string>
+		<string>Ημερομηνία</string>
+		<string>Πηγή XML</string>
+		<string>Πρότυπο XSL</string>
+		<string>Επικεφαλίδες</string>
+		<string>Σώμα</string>
+		<string>Διαμορφώστε αυτά τα δεδομένα σε σχεδιαστική μέθοδο</string>
+		<string>Ορατότητα</string>
+		<string>Το άρθρο είναι μόνο για ανάγνωση.</string>
+		<string>Θέλετε πραγματικά να σβήσετε αυτό το περιεχόμενο; </string>
+		<string>Εκτύπωσέ το</string>
+		<string>Στείλ'το σε ένα φίλο</string>
+		<string>Δώσε την άποψή σου</string>
+		<string>Αρχείο</string>
+		<string>Όλες οι σελίδες</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Διαχειριστής δημοσκοπήσεων</string>
+		<string>Όνομα δημπσκόπησης</string>
+		<string>Ερώτηση</string>
+		<string>Απάντηση 1</string>
+		<string>Απάντηση 2</string>
+		<string>Απάντηση 3</string>
+		<string>Απάντηση 4</string>
+		<string>Απάντηση 5</string>
+		<string>Αριθμός ψήφου</string>
+		<string>Σχετική ιστοσελίδα</string>
+		<string>Κανένα</string>
+		<string>Θέλτε σίγουρα να διαγράψετε αυτή τη δημοσκόπηση; </string>
+		<string>ΨΗΦΙΣΤΕ!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Διαχειριστής παραπομπών</string>
+		<string>Περιεχόμενο παραπομπής</string>
+		<string>Θέλετε σίγουρα να σβήσετε αυτή την παραπομπή;</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Διαχειριστής συλλογής φωτογραφιών</string>
+		<string>Όνομα φωτογραφίας</string>
+		<string>Διαδρομή αρχικής φωτογραφίας </string>
+		<string>Σχόλιο</string>
+		<string>Θέλετε σίγουρα να σβήσετε την φωτογραφία από τη συλλογή;;</string>
+		<string>Επιλογή</string>
+		<string>Διαδρομή μικρογραφίας</string>
+		<string>Αρ.</string>
+		<string>Κατηγορία</string>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Διαχειριστής μελών</string>
+		<string>Ψευδώνυμο</string>
+		<string>Συνθηματικό</string>
+		<string>Email</string>
+		<string>Πόλη</string>
+		<string>Ημερομηνία</string>
+		<string>Κάντε Αντιγραφή/Επικόλληση[Copy/paste] αυτή τη γραμμή στο πρόγραμμα για email που έχετε, για να στείλετε μήνυμα σε όλους τους χρήστες: </string>
+		<string>Θέλετε σίγουρα να διαγράψετε αυτό το μέλος;;</string>
+		<string>Τύπος</string>
+		<string>Κατάσταση</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Διαχειριστής βιβλίου επισκεπτών</string>
+		<string>Συγγραφέας</string>
+		<string>Τίτλος</string>
+		<string>Μήνυμα</string>
+		<string>Ημερομηνία</string>
+		<string>Email</string>
+		<string>Ορατότητα</string>
+		<string>Θέλετε σίγουρα να διαγράψετε αυτό το μήνυμα από το βιβλίο επισκεπτων;</string>
+		<string>Κάντε μια καταχώρηση</string>
+		<string><![CDATA[<b>Σας ευχαριστούμε για την συμμετοχή σας στην ανάπτυξη αυτής της ιστοσελίδας</b><br/>Η συμμετοχή σας σημειώθηκε και θα δημοσιευθεί μετά από επικύρωση από το διαχειριστή.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Διαχειριστής αντιδράσεων</string>
+		<string>Συγγραφέας</string>
+		<string>Τίτλος</string>
+		<string>’ρθρο</string>
+		<string>Μήνυμα</string>
+		<string>Ημερομηνία</string>
+		<string>Ορατότητα</string>
+		<string>Θέλετε σίγουρα να διαγράψετε αυτή την αντίδραση;</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Πόροι</string>
+		<string>Διαχειριστής πόρων</string>
+		<string>Τίτλος</string>
+		<string>Τύπος</string>
+		<string>Διαδρομή</string>
+		<string>Σχόλιο</string>
+		<string>Πλάτος</string>
+		<string>Ύψος</string>
+		<string>Εικόνα</string>
+		<string>Βίντεο</string>
+		<string>Flash</string>
+		<string>Ήχος Wav</string>
+		<string>Ήχος Midi</string>
+		<string>Γραμματοσειρά</string>
+		<string>Αρχείο Zip</string>
+		<string>Αρχείο Exe</string>
+		<string>’λλα</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>Ανέβασμα αρχείου</string>
+		<string>Αποστολή</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Διαχειριστής Forums</string>
+		<string>Τίτλος</string>
+		<string>Περιγραφή</string>
+		<string>Ορατότητα</string>
+		<string>Ορατό</string>
+		<string>Κρυφό</string>
+		<string>Θέλετε σίγουρα να διαγράψετε αυτό το forum? </string>
+		<string>Αποστολή</string>
+		<string>Απάντηση</string>
+		<string>Είσοδος</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Ανάλυση κίνησης</string>
+		<string>Εμφανίσεις σελίδων</string>
+		<string>Επισκέπτες</string>
+		<string>Ημερομηνία</string>
+		<string>Λεπτομέρειες για </string>
+		<string>Εμφανίσεις σελίδων</string>
+		<string>Μοναδικοί επισκέπτες</string>
+		<string>Ώρα</string>
+		<string>URL</string>
+		<string>Παραπέμπων</string>
+		<string>Διεύθυνση IP</string>
+		<string>Ημαρομηνία</string>
+		<string>Επισκέψεις</string>
+		<string>Αριθμοί</string>
+		<string>Γράφημα</string>
+		<string>Χώρα</string>
+		<string>Φυλλομετρητής</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Βασικά</string>
+		<string>Πρόσθετα</string>
+		<string>Αλληλεπίδραση</string>
+		<string>Στατιστικά</string>
+		<string>Βοήθεια</string>
+		<string>Οδηγίες χρήσης</string>
+		<string>ενεργός επισκέπτης</string>
+		<string>ενεργοί επισκέπτες</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Έρευνα στον ιστοτόπο</string>
+		<string>Εγγραφή</string>
+		<string>Βιβλίο επισκεπτών</string>
+		<string>Φωτογραφίες</string>
+		<string>Διάλογοι</string>
+		<string>Διαχείριση</string>
+		<string>Έξοδος</string>
+		<string>Επιλογές</string>
+		<string>Είσοδος</string>
+		<string>Δημοσκόπηση</string>
+		<string>Παραπομπή</string>
+		<string>Προηγούμενο</string>
+		<string>Επόμενο</string>
+		<string>Περισσότερα...</string>
+		<string>Προσθήκη σελίδας...</string>
+		<string>Προσθήκη άρθρου...</string>
+		<string>Προσθήκη δημοσκόπησης...</string>
+		<string>Είσοδος</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Διαχειριστής μηνυμάτων Forums</string>
+		<string>Τίτλος</string>
+		<string>Ψευδώνυμο</string>
+		<string>Ορατότητα</string>
+		<string>Ορατό</string>
+		<string>Κρυφό</string>
+		<string>Θέλετε σίγουρα να διαγράψετε αυτό το μήνυμα;</string>
+		<string>Αποστολή</string>
+		<string>Απάντηση σε </string>
+		<string>Αποστολή άρθρου</string>
+		<string>γράψτε ένα άρθρο</string>
+		<string>Αυτή η περιοχή προορίζεται μόνο για μέλη. Κάντε εισαγωγή ή &lt;a href="default.asp?id=0&amp;ACT=9"&gt;δημιουργήστε&lt;/a&gt; ένα δωρεάν λογαριασμό για να συνεχίσετε.</string>
+		<string>Μηνύματα διαλόφων</string>
+		<string>Θέμα</string>
+		<string>Σε απάντηση του: </string>
+		<string>Επόμενο: </string>
+		<string>Πίσω σε </string>
+		<string>Γραμμική μορφή</string>
+		<string>Μορφή δέντρου</string>
+		<string>πίσω στη λίστα των μηνυμάτων</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Είσοδς</string>
+		<string>Αριθμός μελών </string>
+		<string>Βιβλίο επισκεπτών: Μηνύματα προς επιβεβαίωση: </string>
+		<string>Αντιδράσεις: Μηνύματα προς επιβεβαίωση: </string>
+		<string>Διάλογοι: Μηνύματα προς επιβεβαίωση: </string>
+		<string>Επισκέψεις σήμερα</string>
+		<string>Καλωσόρισες</string>
+		<string>Έκδοση: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Εκκρεμότητες</string>
+		<string>Προσθήκη εκκρεμότητας</string>
+		<string>Δημιουργία</string>
+		<string>Τέλος</string>
+		<string>Περιγραφή</string>
+		<string>Σημασία</string>
+		<string>Προσθήκη</string>
+		<string>Ημερομηνία</string>
+      		<string>Τέλειωσε</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Εγγραφή</string>
+		<string>Αυτή η εγγραφή είναι δωρεάν και σας επιτρέπει να έχετε πρόσβαση σε όλες τις υπηρεσίες του ιστοτόπου.</string>
+		<string>Ψευδώνυμο</string>
+		<string>Συνθηματικό</string>
+		<string>Email</string>
+		<string>Πόλη</string>
+		<string>Αποστολή</string>
+      		<string>(*) Υποχρεωτικά Πεδία</string>
+      		<string>Η εγγραφή ολοκληρώθηκε με επιτυχία. Βάλτε τα στοιχεία σας στη φόρμα εισόδου για να συνεχίσετε.</string>
+      		<string>Η εγγραφή θα ολοκληρωθεί έπειτα από την επιβεβαίωση του διαχειριστή. Ευχαριστούμε.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+      		<string>Απάντηση</string>
+      		<string>Όνομα</string>
+      		<string>Τίτλος</string>
+      		<string>Μήνυμα</string>
+      		<string>Αποστολή</string>
+      		<string>Απαντήσεις</string>
+      		<string>Από</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+      		<string>Περιθώρια</string>
+      		<string>Αριστερό</string>
+      		<string>Δεξί</string>
+      		<string>Και τα δύο</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+      		<string>Κατηγορίες</string>
+      		<string>Κατηγορίες</string>
+      		<string>Όνομα</string>
+      		<string>Πρόσβαση</string>
+      		<string>Εμφάνιση</string>
+      		<string>Αυτή η κατηγορία δεν μπορεί να διαγραφεί.</string>
+      		<string>Επιβεβαίωση Διαγραφής</string>
+      		<string>Σελίδες σε αυτή την κατηγορία</string>
+      		<string>Όλες οι κατηγορίες</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+      		<string>Διαφημιστικά</string>
+      		<string>Όνομα</string>
+      		<string>Επισκέψεις</string>
+      		<string>URL</string>
+      		<string>Εικόνα</string>
+      		<string>Διαφημιστικά</string>
+      		<string>Επιβεβαίωση Διαγραφής;</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+      		<string>Όνομα</string>
+      		<string>Αρχείο</string>
+      		<string>Σελίδα</string>
+      		<string>Περιγραφή</string>
+      		<string>Αδεια</string>
+      		<string>Τιμή</string>
+      		<string>Λειτουργικό Σύστημα</string>
+      		<string>Downloads</string>
+      		<string>Επιβεβαίωση Διαγραφής;</string>
+      		<string>Downloaded</string>
+      		<string>Download now</string>
+		<string>Δημοφιλή downloads</string>
+      		<string>Μέγεθος</string>
+      		<string>Έκδοση</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+      		<string>Περιεχόμενα</string>
+      		<string>Αποτελέσματα</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+      		<string>Ρυθμίσεις Email</string>
+		<string>Smtp server</string>
+      		<string>Ειδοποίηση για το Βιβλίο Επισκεπτών</string>
+      		<string>Ειδοποίηση για τους Διαλόγους</string>
+      		<string>Ειδοποίηση για τις Απαντήσεις</string>
+      		<string>Ειδοποίηση για τις Εγγραφές</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+      		<string>Λανθασμένα στοιχεία. Προσπαθήστε ξανά.</string>
+      		<string>Έχετε δικαίωμα ενός ψήφου σε κΑθε ψηφοφορία.</string>
+      		<string>Η Εγγραφή ολοκληρώθηκε με επιτυχία.</string>
+      		<string>Λείπουν στοιχεία. Προσπαθήστε ξανά.</string>
+      		<string>Το όνομα αυτό το έχει ένα υπάρχων μέλος. Διαλέξτε κάποιο άλλο. </string>
+		<string>Χρησιμοποιείτε τον τυπικό λογαριασμό διαχειριστή!\nΣυνίστατε να φτιάξετε νέο λογαριασμό διαχειριστή και να απενεργοποιήσετε αυτόν.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+      		<string>Ταξινόμηση Αρθρων</string>
+      		<string>Ταξινόμηση Σελίδων</string>
+     		<string>Τίτλος</string>
+      		<string>Ημερομηνία Έκδοσης</string>
+		<string>ID</string>
+      		<string>Αύξουσα</string>
+      		<string>Φθίνουσα</string>
+      		<string>Εμφάνιση Τίτλου</string>
+      		<string>Τα περιεχόμενα αυτής της σελίδας</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+      		<string>νέο</string>
+      		<string>νέα μηνύματα</string>
+      		<string>Επιβεβαίωση με email</string>
+      		<string>Επιβεβαίωση εγγραφής</string>
+		<string>Κάνατε αίτηση εγγραφής στην σελίδα: </string>
+		<string>Για να ολοκληρώσετε την εγγραφή σας χτυπήστε την ακόλουθη σύνδεση: </string>
+		<string>Αυτά είναι τα στοιχεία του λογαριασμού σας: </string>
+		<string>Σας ευχαριστούμε για την εγγραφή σας. Θα λάβετε σε λίγα λέπτά ένα email στο λογαριασμό που μας δώσατε για να επικυρώσετε την εγγραφή σας. </string>
+      		<string>Διαχειριστής</string>
+      		<string>Αρθρογράφος</string>
+		<!-- Misc , start @ position 430 -->
+      		<string>Μέλος</string>
+      		<string>Λίστα Αλληλογραφίας</string>
+      		<string>Λίστα Αλληλογραφίας</string>
+      		<string>Θέση</string>
+      		<string>Κορυφή</string>
+      		<string>Βάση</string>
+      		<string>Αριστερά</string>
+      		<string>Δεξιά</string>
+		<string>Συμβουλή: Κάντε διπλό κλίκ ή CTRL-T για να ανοίξετε τον editor</string>
+      		<string>Εμφάνιση πρόσθετων πεδίων</string>
+		<!-- Misc , start @ position 440 -->
+      		<string>Απόκρυψη πρόσθετων πεδίων</string>
+		<string>Ομάδα</string>
+		<!-- Browsers stats -->
+		<string>Ομάδα Browser</string>
+		<string>Λεπτομέριες έκδοσης</string>
+		<string>Browser</string>
+		<string>Έκδοση</string>
+		<string>Ποσοστό</string>
+		<string>’λλα</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+      		<string>Κωδικοσελίδα</string>
+      		<string>Επιλογή</string>
+      		<string>Περιθώριο</string>
+      		<string>Κείμενο</string>
+      		<!--Βιβλίο επισκεπτών (κουμπιά)-->
+      		<string>Αποστολή</string>
+      		<string>Διαγραφή</string>
+		<!-- message after reaction posting -->
+      		<string>&lt;b&gt;Η αποστολή ολοκληρώθηκε με επιτυχία!&lt;/b&gt;</string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Αρχική κατάσταση δημοσίευσης νέου άρθρου</string>
+		<string>Ενεργοποίηση υπηρεσιών Email ? (απαιτείται το jMail)</string>
+		<string>Επιδεικνύει τα εγκατεστημένα email COM εξαρτήματα</string>
+		<!-- 460 -->
+      		<!--Υπενθύμιση Κωδικού-->
+      		<string>Υπενθύμιση Κωδικού</string>
+      		<string>Υπενθύμιση Κωδικού</string>
+      		<string>Συμπληρώστε τα πεδία με το όνομα και το email σας και σε λίγα λεπτά θα λάβετε τον κωδικό.</string>
+      		<string>Όνομα</string>
+      		<string>Email</string>
+      		<string>Αποστολή</string>
+		<string>Πληροφορίες χρήστη</string>
+		<string>Έγινε μια αίτηση να σας αποσταλούν τα κάτωθι στοιχεία:</string>
+		<string>Συνθηματικό</string>
+		<string>Να επιστρέψετε σύντομα!</string>
+		<!-- 470 -->
+      		<string>Λανθασμένα στοιχεία</string>
+      		<string>Το email στάλθηκε με επιτυχία</string>
+      		<string>Συμπληρώστε πάλι με τα στοιχεία σας</string>
+      		<string>Εγγραφή</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+      		<string>Στοιχεία Μέλους</string>
+      		<string>Πρέπει να συμπληρώσετε όλα τα πεδία</string>
+      		<string>Οι αλλαγές ολοκληρώθηκαν με επιτυχία</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+      		<string>κανένα</string>
+      		<string>αναγνώριση</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+  		<string>Μενού</string>
+      		<string>Αρχική Σελίδα</string>
+      		<string>Αρχική Σελίδα</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+      		<string>Κατάλογοι</string>
+      		<string>Κατάλογοι</string>
+      		<string>Νέος Κατάλογος</string>
+      		<string>Όνομα</string>
+      		<string>Δημοσίευση</string>
+      		<string>Νέος Κατάλογος</string>
+      		<string>Νέα Κατηγορία</string>
+      		<string>Κατηγορίες</string>
+		<!-- 490 -->
+      		<string>Νέο Στοιχείο</string>
+      		<string>Νέος Κατάλογος</string>
+      		<string>Επεξεργασία</string>
+      		<string>Νέα Κατηγορία</string>
+      		<string>Επεξεργασία</string>
+      		<string>Νέα Υποκατηγορία</string>
+      		<string>Επεξεργασία</string>
+      		<string>Νέο Στοιχείο</string>
+      		<string>Επεξεργασία</string>
+      		<string>Σύνολο</string>
+		<!-- 500 -->
+      		<string>Περιγραφή</string>
+		<string>Ιστοσελίδα</string>
+		<string>Διεύθυνση αρχείου</string>
+      		<string>Εικόνα</string>
+      		<string>Αποστολές από τους επισκέπτες</string>
+      		<string>Σύνολο Στοιχείων</string>
+		<string>Χρήστης</string>
+		<string>Αρχεία</string>
+		<string>Ιστοσελίδα</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Βιβλίο</string>
+		<string>MP3</string>
+		<string>Υπάλληλος</string>
+		<string>Προϊόν</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Χρήστες</string>
+		<string>Downloads</string>
+		<string>Ιστοσελίδες</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Βιβλίο</string>
+		<string>MP3</string>
+		<string>Υπάλληλος</string>
+		<string>Προϊόν</string>
+		<string/>
+		<!-- 530 -->
+      		<string>Κατάλογος</string>
+      		<string>Αρχική Σελίδα</string>
+      		<string>Αριθμός ιστοσελίδων στον κατάλογο: </string>
+      		<string>Νέα καταχώρηση</string>
+      		<string>Επισκέψεις</string>
+      		<string>Η αποστολή ολοκληρώθηκε με επιτυχία.</string>
+      		<string>Δημοφιλή</string>
+      		<string>Επισκέψεις</string>
+      		<string>Οι πιο πρόσφατες</string>
+      		<string>Νέα καταχώρηση</string>
+		<!-- 540 -->
+      		<string>Νέες καταχωρήσεις</string>
+      		<string>Περιγραφή</string>
+		<!-- 542 = 15/05/2002  -->
+      		<string>Offline</string>
+      		<string>Αριθμός αρχείων: </string>
+		<!-- 544 = 16/12/2002 -->
+      		<string>Σελίδα</string>
+      		<string>Προηγούμενη</string>
+      		<string>Επόμενη</string>
+		<!-- 547 = 21/05/2002 -->
+      		<string>Ενεργά Μέλη</string>
+		<!-- 548 = 23/05/2002 -->
+      		<string>Συμμετοχή</string>
+      		<string>Όνομα</string>
+      		<string>Εmail</string>
+      		<string>Θέμα</string>
+      		<string>Μήνυμα</string>
+      		<string>Αποστολή στον διαχειριστή</string>
+		<!-- 554 = 5/06/2002 -->
+      		<string>Πολυμέσα</string>
+		<!-- 555 = 7/06/2002 -->
+      		<string>Στείλε μήνυμα στον</string>
+      		<string>Το email σου:</string>
+      		<string>Το όνομά σου:</string>
+      		<string>Θέμα:</string>
+      		<string>Μήνυμα:</string>
+      		<string>Αποστολή</string>
+      		<string>Μόνο τα μέλη μπορούν να ανταλλάσουν μηνύματα.</string>
+      		<string>Η αποστολή ολοκληρώθηκε με επιτυχία.</string>
+		<!-- 563 :: 8/06/2002 -->
+      		<string>Στα περιεχόμενα βρέθηκαν</string>
+      		<string>Στους διαλόγους βρέθηκαν</string>
+		<!-- 565 :: 10/06/2002 -->
+      		<string>Αποθήκευση σε αρχείο CSV (αναγνωρίσιμο από το Excel)</string>
+		<!-- 566 :: 11/06/2002 -->
+      		<string>Θέση</string>
+      		<string>ΚΛΕΙΣΤΟ</string>
+      		<string>ΠΑΝΩ</string>
+      		<string>ΚΑΤΩ</string>
+		<!-- 570 :: 9/07/2002 -->
+      		<string>Διάλογοι</string>
+     		<string>Θέματα</string>
+      		<string>Αποστολές</string>
+      		<string>Τελευταίες</string>
+      		<string>Όνομα</string>
+      		<string>Ξεκίνησε ο</string>
+      		<string>Απαντήσεις</string>
+      		<string>Μήνυμα</string>
+      		<string>Στάλθηκε</string>
+      		<string>Απαντηση</string>
+		<!-- 580 -->
+      		<string>Συζητήσεις</string>
+      		<string>Συζήτηση</string>
+      		<string>Αναζήτηση στους διαλόγους</string>
+      		<string>Νέο μήνυμα</string>
+      		<string>Απάντηση σε</string>
+      		<string>Έστειλε ο</string>
+      		<string>Ημερομηνία</string>
+      		<string>Θέμα</string>
+      		<string>Κείμενο</string>
+      		<string>ΝΕΟ ΘΕΜΑ</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+		<!-- 591 :: 11/09/2002 -->
+      		<string>Διαχειριστής</string>
+      		<string>Διαχειριστής</string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+      		<string>Αυτόματες Απαντήσεις</string>
+      		<string>Αυτόματα Αρθρα</string>
+      		<string>Ταξινόμηση Αρθρων</string>
+      		<string>Μέχρι</string>
+      		<string>Από</string>
+		<!-- 601 -->
+		<string>Εμφάνιση</string>
+      		<string>Επεξεργάσιμο</string>
+      		<string>Τίτλος</string>
+      		<string>Εμφάνιση</string>
+      		<string>Όνομα δημιουργού</string>
+
+		<!-- 606 -->
+		<string>Remember me</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>Βάση δεδομένων</string>
+		<string>Γραμμικός</string>
+		<string>Δομημένος</string>
+		<string>Τομέας:</string>
+		<string>[Κορυφή]</string>
+		<string>Σχετικά άρθρα</string>
+		<string>Έρευνα</string>
+		<string>Προσθήκη καταχώρησης</string>
+		<string>Όλα</string>
+		<string>στον τομέα:</string>
+		<!-- 630 is the one up-->
+		<string>Αρχή</string>
+		<string>Πηγαινε στον τομέα:</string>
+		<string>Πρόσθεσε καινούργια συσχέτιση</string>
+		<string>Βάση δεδομένων</string>
+		<string>Τομέας</string>
+		<string>Εγγραφή</string>
+		<string>Τίτλος</string>
+		<string>Έκδοση</string>
+		<string>Εισαγωγή</string>
+		<string>Επίδειξη</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>Όνομα</string>
+		<string>Σχόλιο</string>
+		<string>Ορατό</string>
+		<string>Τομέας</string>
+		<string>Κείμενο</string>
+		<string>προσθήκη..</string>
+		<string>Σχετικό άρθρο</string>
+		<string>Σχετικό με</string>
+		<string>Γνωστές συσχέσεις</string>
+		<!-- 650 is the one up -->
+		<string>KB-Editor</string>
+		<string>Ανενεργό</string>
+		<string>Ανώνυμος</string>
+		<string>Μέλος</string>
+		<string>Δεν υπάρχουν εγγραφές σε αυτό τον τομέα.</string>
+		<string>Διαγραφή επόμενης συσχέτισης</string>
+		<string>Πάμε</string>
+		<string>Παρακαλώ επιλέξτε μία από τις διαθέσιμες βάσεις δεδομένων.</string>
+		<string>Βάσεις δεδομενων επιπέδου διαχειριστή:</string>
+		<string>Βάσεις δεδομενων επιπέδου συντάκτη:</string>
+		<!-- 660 is the one up -->
+		<string>Βάσεις δεδομενων επιπέδου μέλους:</string>
+		<string>Βάσεις δεδομενων επιπέδου ανώνυμου:</string>
+		<string>Σφάλμα</string>
+		<string>Η βάση δεδομένων που προσπαθείτε να προσπελάσετε δεν υπάρχει ή δεν είναι διαθέσιμη για εσάς. Αν νομίζετε πως αυτή η ειδοποίηση εμφανίζετε κατα λάθος, παρακαλώ ειδοποιείστε το διαχειριστή.</string>
+		<string>Δεν υπάρχουν διαθέσιμες βάσεις δεδομένων!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Διαχειριστής λιστών αλληλογραφίας</string>
+		<string>Λίστες αλληλογραφίας</string>
+		<string>Λίστα</string>
+		<string>Καταχωρήσεις</string>
+		<string>Καταχώρηση</string>
+		<string>Θέλετε σίγουρα να σβήσετε αυτή τη λίστα; Σιγουρέψτε πως όλες οι υπηρεσίες που χρησιμοποιεί αυτή η λίστα είναι απενεργοποιημένες.</string>
+		<string>Αυτή η λίστα δεν μπορεί να διαγραφεί ή να μετονομαστεί!</string>
+		<string>Επικεφαλίδα</string>
+		<string>Τιμή</string>
+		<string>Θέλετε σίγουρα να σβήσετε αυτή την καταχώρηση;</string>
+		<!-- 680 is the one up -->
+		<string>Αυτή η καταχώρηση δεν μπορεί να διαγραφεί ή να αλλάξει!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>Κυρ</string>
+		<string>Δευ</string>
+		<string>Τρ</string>
+		<string>Τε</string>
+		<string>Πε</string>
+		<string>Παρ</string>
+		<string>Σαβ</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Ιανουάριος</string>
+		<string>Φεβρουάριος</string>
+		<string>Μάρτιος</string>
+		<string>Απρίλιος</string>
+		<string>Μάιος</string>
+		<string>Ιούνιος</string>
+		<string>Ιούλιος</string>
+		<string>Αύγουστος</string>
+		<string>Σπτέμβριος</string>
+		<string>Οκτώβριος</string>
+		<!-- 720 is the one up -->
+		<string>Νοέμβριος</string>
+		<string>Δεκέμβριος</string>
+		<string>Γεγονότα</string>
+		<string>Περισσότερες πληροφορίες:</string>
+		<string>αρ.</string>
+		<string>Ημερομηνία</string>
+		<string>περιγραφή</string>
+		<string>Μικρή περιγραφή</string>
+		<string>Περιγραφή</string>
+		<string>Σύνδεση</string>
+		<!-- 730 is the one up -->
+		<string>Ορατό</string>
+		<string>Ημερομηνία</string>
+		<string>Ημερολόγιο γεγονότων</string>
+		<string>Ημερολόγιο</string>
+		<string>μερολόγιο γεγονότων</string>
+		<string>προηγούμενο</string>
+		<string>επόμενο</string>
+		<string>η προεπισκόπηση ξεκινά</string>
+		<string>προεπισκόπηση</string>
+		<string>κανένα γεγονός</string>
+		<!-- 740 is the one up -->
+		<string>κατάσταση ημερολογίων</string>
+		<string>κατάθεση γεγονότων</string>
+		<string>Επιλογή ημερολογίου</string>
+		<string>Ημερολόγιο</string>
+		<string>Πάμε</string>
+		<string>ορατό σε</string>
+		<string>δεν έχετε δικαιώματα για να δείτε αυτό το ημερολόγιο</string>
+		<string>προεπισκόπηση</string>
+		<string>γεγονότα ανα σελίδα</string>
+		<string>προεπισκοπήσεις ανα σελίδα</string>
+		<!-- 750 is the one up -->
+		<string>Γεγονότα που ταυτίζονται</string>
+		<string>Εϋρεση γεγονότος</string>
+		<string>Πάμε</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Ζωντανές συνομιλίες</string>
+		<string>Κανάλι</string>
+		<string>Δημιουργία νέου καναλιού</string>
+		<string>Ο browser σας ΔΕΝ υποστηρίζει frames.</string>
+		<string>επισκέπτης</string>
+		<string>Μήνυμα</string>
+		<string>Όνομα</string>
+		<string>Περιγραφή</string>
+		<string>Κανάλι</string>
+		<string>Περιγραφή</string>
+		<!-- 770 is the one up -->
+		<string>Χειριστής</string>
+		<string>Χρήστες</string>
+		<string>Νέοι χρήστες</string>
+		<string>Ενεργοί χρήστες</string>
+		<string>αφήστε το κανάλι</string>
+		<string>Συνομιλία</string>
+		<string>Ιδιοκτήτης</string>
+		<string>Σβήστε όλα τα παλιά μηνύματα</string>
+		<string>Συντάκτης-συνομιλίας</string>
+		<string>αρ.</string>
+		<!-- 780 is the one up -->
+		<string>Ιδιωτικό μήνυμα στον/στην</string>
+		<string>επιστροφή</string>
+		<string>διώξιμο</string>
+		<string>Έχετε εκδιωχθεί από τον χειριστή. Παρακαλώ αφήστε το κανάλι.</string>
+		<string>Ενέργεια, να κάνετε σε</string>
+		<string>διαχειριστής</string>
+		<string>μέλος</string>
+		<string>Πάρε μέρος</string>
+		<string>Μπορείς να κλείσεις αυτό το παράθυρο.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Διαχειριστής Μελών</string>
+		<string>Φόρμα έρευνας</string>
+		<string>Χρήστης</string>
+		<string>Φύλο</string>
+		<string>Ηλικία</string>
+		<string>Επάγγελμα</string>
+		<string>Πόλη</string>
+		<string>Νομός</string>
+		<string>Χώρα</string>
+		<string>Από</string>
+		<!-- 810 is the one up -->
+		<string>Εμφάνιση όλων των μελών</string>
+		<string>Το προφίλ μου</string>
+		<string>αρ.</string>
+		<string>Όνομα</string>
+		<string>Επίθετο</string>
+		<string>Ιστοσελίδα</string>
+		<string>Διαδρομη φωτογραφίας</string>
+		<string>Επιλογή</string>
+		<string>Διευθυνση</string>
+		<string>Τ.Κ.</string>
+		<!-- 820 is the one up -->
+		<string>Τηλέφωνο</string>
+		<string>Κοινοποίηση στοιχείων</string>
+		<string>Αρχικό μήνυμα</string>
+		<string>Σημειώσεις διαχείρησης</string>
+		<string>Προφίλ μέλους</string>
+		<string>Καλωσήρθατε</string>
+		<string>Δεν υπάρχουν μέλη με αυτό το ψευδόνυμο σε αυτή την κοινώτητα.</string>
+		<string>Μπορείτε να δείτε μόνο αυτό το προφίλ μέλους όσο είστε συνδεδεμένος.</string>
+		<string>Το προφίλ που προσπαθείτε να προσπελάσετε δεν υπάρχει ή δεν είναι κοινοποιήσιμο.</string>
+		<string>Όνομα</string>
+		<!-- 830 is the one up -->
+		<string>Προσθήλη στη λίστα φίλων</string>
+		<string>έχει προστεθεί στη λίστα των φίλων σας.</string>
+		<string>έχει αφαιρεθεί από τη λίστα των φίλων σας.</string>
+		<string>Μέλη</string>
+		<string>Διαχειριστής λίστας φίλων</string>
+		<string>Φίλοι</string>
+		<string>Ενέργειες</string>
+		<string>Αφαίρεση</string>
+		<string>Αποστολή μηνύματος</string>
+		<string>Στείλτε email στο χρήστη</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Εσωτερικά μηνύματα</string>
+		<string>Μηνύματα ανα χρήστη</string>
+		<string>Το μήνυμά σας εστάλει.</string>
+		<string>Δεν έχετε νέα μηνύματα</string>
+		<string>Έχετε νέα μηνύματα</string>
+		<string>Παρακάτω θα βρείτε μια λίστα με τα απεσταλμένα σε εσάς μηνύματα.</string>
+		<string>Ημερομηνία</string>
+		<string>Αποστολές</string>
+		<string>Θέμα</string>
+		<string>Στείλε μήνυμα στον/στην</string>
+		<!-- 860 is the one up -->
+		<string>Μήνυμα</string>
+		<string>Δυστυχώς το γραμματοκιβώτιο του χρήστη είναι γεμάτο. Δοκιμάστε ξανά αργότερα.</string>
+		<string>Αυτή η υπηρεσία είναι ΜΟΝΟ για μέλη!</string>
+		<string>Μπορείτε να δείτε μόνο τα δικά σας μηνύματα!!!</string>
+		<string>Μέγιστος αριθμός αποθηκευμένων μηνυμάτων ανα χρήστη:</string>
+		<string>Αριθμός μηνυμάτων που μπορείτε ακόμα να λάβετε:</string>
+		<string>έγραψε:</string>
+		<string>Το μήνυμα αυτό απάντησε το προηγούμενο δικό σας μήνυμα.</string>
+		<string>Απάντηση</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Θέμα</string>
+		<string>Μήνυμα</string>
+		<string>στείλε ώς ιστοσελίδα</string>
+		<string>Επισύναψη</string>
+		<string>Λίστα αλληλογραφίας</string>
+		<string>αρ.</string>
+		<string>θέμα</string>
+		<string>ενέργεια</string>
+		<string>αποστολή</string>
+		<string>επαναποστολή</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>login με κεφαλαίους χαρακτήρες</string>
+		<string>Εξακρίβωση</string>
+		<string>Τυπική</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Πληροφορίες εξαρτημάτων</string>
+		<string>περιγραφή</string>
+		<string>έκδοση</string>
+		<string>τελευταία αλλαγή</string>
+		<string>κατασκευή</string>
+		<string>ιστοσελίδα κατασκευαστή</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>επιλέξτε επιθυμητό κατάλογο</string>
+		<string>προσθήκη αρχείου</string>
+		<string>Ανέβασμα</string>
+		<string>όνομα</string>
+		<string>μέγεθος</string>
+		<string>τύπος</string>
+		<string>τελευταία αλλαγή</string>
+		<string>ενέργεια</string>
+		<string>Δαιγραφή</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Διαχειριστής συντακτών</string>
+		<string>αρ.</string>
+		<string>όνομα</string>
+		<string>config string</string>
+		<string>ενεργό</string>
+		<string>ομάδα</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

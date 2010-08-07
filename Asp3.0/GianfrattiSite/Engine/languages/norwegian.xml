@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<language>
+   <name>Norsk</name>
+   <translator>
+      <name>Erik Wikran</name>
+      <email>ewikran@online.no</email>
+   </translator>
+   <encoding>iso-8859-1</encoding>
+   <strings>
+      <!-- main menu, start @ position 1 -->
+      <string>Administration av siden</string>
+      <string>Se på nettsted</string>
+      <string>Innstillinger</string>
+      <string>Sider</string>
+      <string>Innhold</string>
+      <string>Meningsmåling</string>
+      <string>Sitat</string>
+      <string>Bilder</string>
+      <string>Medlemmer</string>
+      <string>Gjestebok</string>
+      <string>Statistikk</string>
+      <string>Meninger</string>
+      <string>Forum</string>
+      <string>Last opp fil</string>
+      <string>Ny...</string>
+      <string>Slett</string>
+      <string>Endre...</string>
+      <string>   OK   </string>
+      <string>Avbryt</string>
+      <!-- General settings, strat @ position 20 -->
+      <string>Hjemmeside innstillinger</string>
+      <string>Hjemmesidenavn</string>
+      <string>Administrator login</string>
+      <string>Passord</string>
+      <string>META Titel</string>
+      <string>Administrator E-post</string>
+      <string>Hjemmesidens URL</string>
+      <string>META Søkeord</string>
+      <string>META Beskrivelse</string>
+      <string>Skall</string>
+      <string>Språk</string>
+      <string>Forside</string>
+      <string>Logo sti</string>
+      <string>Vis verktøyfelt</string>
+      <string>Copyright</string>
+      <string>Endringsstatus</string>
+      <string>Vis meny</string>
+      <string>Vis artikkelverktøysfelt</string>
+      <string>Vis søkeformular</string>
+      <string>Tilleggsliste</string>
+      <string>Meningsmåling</string>
+      <string>Sitat</string>
+      <string>Galleri</string>
+      <string>Gjestebok</string>
+      <string>Forum</string>
+      <string>Vis artikkelens dato og forfatter</string>
+      <string>Registrer original status</string>
+      <string>Forum melding original status</string>
+      <string>Gjestebokens beskjed original status</string>
+      <string>Slagord</string>
+      <!-- Pages settings, strat @ position 50 -->
+      <string>Administrator til hjemmeside</string>
+      <string>Side titel</string>
+      <string>Overordnet side</string>
+      <string>Tilgangstype</string>
+      <string>Editor</string>
+      <string>Reklame tag</string>
+      <string>Synlighet</string>
+      <string>Denne siden kan ikke fjernes!</string>
+      <string>Bekreft at denne side skal skjules? </string>
+      <string>Publiseres</string>
+      <!--60-->
+      <string>Ja</string>
+      <string>Nei</string>
+      <!--end-->
+      <string>Programmsatt</string>
+      <string>Visnings dato</string>
+      <string>Slutt dato</string>
+      <string>Ekstern link</string>
+      <string>Kategori</string>
+      <string>Topp sider</string>
+      <string>Teller</string>
+      <string>Nummer på artikkel</string>
+      <!-- Content settings, start @ position 70 -->
+      <string>Rediger innhold</string>
+      <string>Innholds tittel</string>
+      <string>Posisjon</string>
+      <string>Hjemmeside</string>
+      <string>Forfatter</string>
+      <string>Dato</string>
+      <string>XML Kilde</string>
+      <string>XSL Mal</string>
+      <string>Overskrift</string>
+      <string>Kjerne</string>
+      <string>Endre disse data i design modus</string>
+      <string>Synlighet</string>
+      <string>Denne artikel kan kun leses!</string>
+      <string>Vil du virkelig fjerne innholdet? </string>
+      <string>Skriv ut</string>
+      <string>Send til en venn</string>
+      <string>Si din mening</string>
+      <string>Arkiv</string>
+      <string>Alle sider</string>
+      <string/>
+      <!-- Polls strings, start @ position 90 -->
+      <string>Meningsmåling administrasjon</string>
+      <string>Meningsmåling navn</string>
+      <string>Spørsmål</string>
+      <string>Svar nr 1</string>
+      <string>Svar nr 2</string>
+      <string>Svar nr 3</string>
+      <string>Svar nr 4</string>
+      <string>Svar nr 5</string>
+      <string>Stem på nr</string>
+      <string>Assosiert hjemmeside</string>
+      <string>Ingen</string>
+      <string>Vil du virkelig slette denne meningsmålingen?</string>
+      <string>STEM!</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Tips strings, start @ position 110 -->
+      <string>Sitat administrasjon</string>
+      <string>Sitat innhold</string>
+      <string>Vil du virkelig slette dette sitatet?</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Gallery strings, start @ position 120 -->
+      <string>Galleri administrasjon</string>
+      <string>Bilde navn</string>
+      <string>Bilde sti</string>
+      <string>Kommentar</string>
+      <string>Vil du virkelig slette dette bildet?</string>
+      <string>Velg</string>
+      <string>Thumbnail sti</string>
+      <string>Id</string>
+      <string>Kategori</string>
+      <string/>
+      <!-- Member strings, start @ position 130 -->
+      <string>Medlemmer</string>
+      <string>Brukernavn</string>
+      <string>Passord</string>
+      <string>E-post</string>
+      <string>By</string>
+      <string>Dato</string>
+      <string>Kopier og sett denne linjen inn i ditt E-post program for å sende til alle medlemmer: </string>
+      <string>Vil du virkelig slette dette medlemet?</string>
+      <string>Type</string>
+      <string>Status</string>
+      <!-- Guestbook strings, start @ position 140 -->
+      <string>Gjestebok administrasjon</string>
+      <string>Forfatter</string>
+      <string>Tittel</string>
+      <string>Melding</string>
+      <string>Dato</string>
+      <string>E-post</string>
+      <string>Synlighet</string>
+      <string>Vil du virkelig slette denne meldingen fra gjesteboken?</string>
+      <string>Skriv i gjesteboken</string>
+      <string><![CDATA[<b>Takk for din medvirkning!</b><br/>Din deltagelse vil bli noteret og publisert etter Web-Masterens godkjennelse.]]></string>
+      <!-- Reactions strings, start @ position 150 -->
+      <string>Menings administrasjon</string>
+      <string>Forfatter</string>
+      <string>Tittel</string>
+      <string>Artikkel</string>
+      <string>Beskjed</string>
+      <string>Dato</string>
+      <string>Synlighet</string>
+      <string>Vil du virkelig fjerne denne meningen?</string>
+      <string/>
+      <string/>
+      <!-- Medias strings, start @ position 160 -->
+      <string>Ressurser</string>
+      <string>Ressurs administrasjon</string>
+      <string>Tittel</string>
+      <string>Type</string>
+      <string>Bane/sti</string>
+      <string>Kommentar</string>
+      <string>Bredde</string>
+      <string>Høyde</string>
+      <string>Bilde</string>
+      <string>Video</string>
+      <string>Flash</string>
+      <string>Wav</string>
+      <string>Midi</string>
+      <string>Font</string>
+      <string>Zip</string>
+      <string>Exe</string>
+      <string>Annet</string>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Upload strings, start @ position 180 -->
+      <string>Last opp fil</string>
+      <string>Send</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Discussion strings, start @ position 190 -->
+      <string>Forum administrasjon</string>
+      <string>Tittel</string>
+      <string>Beskrivelse</string>
+      <string>Synlighet</string>
+      <string>Synlig</string>
+      <string>Skjult</string>
+      <string>Vil du virkelig fjerne dette forum? </string>
+      <string>Send</string>
+      <string>Svar</string>
+      <string>Enter</string>
+      <!-- Stats strings, start @ position 200 -->
+      <string>Trafikk analyse</string>
+      <string>Besøkte sider</string>
+      <string>Unike besøkende</string>
+      <string>Kalender</string>
+      <string>Detaljer for </string>
+      <string> Besøkt web side</string>
+      <string> Unike besøkende</string>
+      <string>Tid</string>
+      <string>URL</string>
+      <string>Referant</string>
+      <string>IP adresse</string>
+      <string>Dato</string>
+      <string>Besøk</string>
+      <string>Tabell visning</string>
+      <string>Graf visning</string>
+      <string>Noe annet</string>
+      <string>Webleser</string>
+      <string/>
+      <string/>
+      <string/>
+      <!-- toolbar strings, start @ position 220 -->
+      <string>Startside</string>
+      <string>Tillegg</string>
+      <string>Admin</string>
+      <string>Statistikk</string>
+      <string>Hjelp</string>
+      <string>Kvikkstart</string>
+      <string>aktiv besøkende</string>
+      <string>aktive besøkende</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Menu template strings, start @ position 240 -->
+      <string>Søk på siden</string>
+      <string>Registrere</string>
+      <string>Gjestebok</string>
+      <string>Fotoalbum</string>
+      <string>Forum</string>
+      <string>Administrasjon</string>
+      <string>Logg ut</string>
+      <string>Meny</string>
+      <string>Logg inn</string>
+      <string>Meningsmåling</string>
+      <string>Sitat</string>
+      <string>Tilbake</string>
+      <string>Neste</string>
+      <string>Les mer</string>
+      <string>Legg til side...</string>
+      <string>Legg til artikkel...</string>
+      <string>Legg til avstemming...</string>
+      <string>Enter</string>
+      <string/>
+      <string/>
+      <!-- Forum Message template strings, start @ position 260 -->
+      <string>Forum administrasjon</string>
+      <string>Tittel</string>
+      <string>Brukernavn</string>
+      <string>Synlighet</string>
+      <string>Synlig</string>
+      <string>Skjult</string>
+      <string>Vil du virklig fjerne denne meldingen?</string>
+      <string>Send</string>
+      <string>Svar til </string>
+      <string>Send artikkel</string>
+      <string>Skriv en artikkel</string>
+      <string>Denne siden er kun for medlemmer. Logg inn eller &lt;a href="default.asp?id=0&amp;ACT=9"&gt;opprett&lt;/a&gt; en gratis konto for å fortsette.</string>
+      <string>Forum meldinger</string>
+      <string>Kjerne</string>
+      <string>Svar til: </string>
+      <string>Neste: </string>
+      <string>Tilbake til </string>
+      <string>Linje visning</string>
+      <string>Tre visning</string>
+      <string>Tilbake til meldingslisten</string>
+      <!-- DeskTop template strings, start @ position 280 -->
+      <string>Skrivebord</string>
+      <string>Antall medlemmer </string>
+      <string>Antall gjestebokbeskjeder til godkjennelse </string>
+      <string>Antall meninger til godkjennelse </string>
+      <string>Antall forum meldinger </string>
+      <string>Antall treff</string>
+      <string>Velkommen</string>
+      <string>Du bruker version: </string>
+      <string/>
+      <string/>
+      <!-- Todo template strings, start @ position 290 -->
+      <string>Oppgave liste</string>
+      <string>Trykk her for å opprette en ny oppgave</string>
+      <string>Opprett</string>
+      <string>Slutt</string>
+      <string>Forklaring</string>
+      <string>Prioritet</string>
+      <string>Legg til</string>
+      <string>Dato</string>
+      <string>Ferdig</string>
+      <string/>
+      <!-- Inscription template strings, start @ position 300 -->
+      <string>Registrere</string>
+      <string>Registreringen er gratis og gir deg adgang til alle ressurser på siden.</string>
+      <string>Brukernavn</string>
+      <string>Passord</string>
+      <string>E-post</string>
+      <string>By</string>
+      <string>Send</string>
+      <string>(*) betyder at det må fylles ut</string>
+      <string>Takk for at du registrerte deg! Nå kan du logge deg på.</string>
+      <string>Takk for din registrering, din registrering må godkjennes av administrator før den blir aktiv.</string>
+      <!-- Reactions  template strings, start @ position 310 -->
+      <string>Reager på </string>
+      <string>Navn</string>
+      <string>Titel</string>
+      <string>Beskjed</string>
+      <string>Send</string>
+      <string>Mening </string>
+      <string>Av </string>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Skin engine v2  template strings, start @ position 320 -->
+      <string>Marger</string>
+      <string>Kun venstre marg</string>
+      <string>Kun høyre marg</string>
+      <string>Begge marger</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Category  template strings, start @ position 330 -->
+      <string>Kategori</string>
+      <string>Kategori administrasjon</string>
+      <string>Navn</string>
+      <string>Tilgangs type</string>
+      <string>Synlighet</string>
+      <string>Denne kategorien kan ikke fjernes</string>
+      <string>Vil du virkelig fjerne denne kategorien?</string>
+      <string>Se sidelisten for denne kategorien</string>
+      <string>Alle kategorier</string>
+      <string/>
+      <!-- Banners  template strings, start @ position 340 -->
+      <string>Banners</string>
+      <string>Navn</string>
+      <string>Antal klikk</string>
+      <string>Mål URL</string>
+      <string>Bilde kilde</string>
+      <string>Banner administrasjon</string>
+      <string>Vil du virkelig fjerne denne banner?</string>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Downloads  template strings, start @ position 350 -->
+      <string>Nedlastninger</string>
+      <string>Navn</string>
+      <string>Sti/Bane</string>
+      <string>Forfatterens hjemmeside</string>
+      <string>Beskrivelse</string>
+      <string>Lisens</string>
+      <string>Pris</string>
+      <string>Operativsystem</string>
+      <string>Nedlastnings administrasjon</string>
+      <string>Vil du virkelig fjerne denne nedlastningen?</string>
+      <string>Nedlastninger </string>
+      <string>Last ned nå</string>
+      <string>Top nedlastninger</string>
+      <string>Størrelse</string>
+      <string>Versjon</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Site map  template strings, start @ position 370 -->
+      <string>Side oversikt</string>
+      <string>Søke resultat</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Email  template strings, start @ position 380 -->
+      <string>E-post funksjonalitet</string>
+      <string>Smtp server</string>
+      <string>Alarm på Gjestebok</string>
+      <string>Alarm på Forum</string>
+      <string>Alarm på Meninger</string>
+      <string>Alarm på Registrering</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Error messages strings, start @ position 390 -->
+      <string>Feil passord!\nRett passordet og forsøk en gang til.</string>
+      <string>Du kan kun stemme en gang i hver meningsmåling!</string>
+      <string>Velkommen, din registrering er godkjent.</string>
+      <string>Påkrevet felt er ikke fyllt ut... vennligst fyll inn alle påkrevde felt.</string>
+      <string>Dette brukernavnet er allerede i bruk. Vennlingst velg et annet.</string>
+      <string>Du bruker nå standard Administrator passord!\nHusk å forandre din administrator innlogging.\nDenne kontoen er tilgjengelig for alle FULLXML brukere til du endrer den.</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- Page options, start @ position 410 -->
+      <string>Artikkel sorterings felt</string>
+      <string>Sidesortering</string>
+      <string>Tittel</string>
+      <string>Visnings dato</string>
+      <string>ID</string>
+      <string>Stigende</string>
+      <string>Synkende</string>
+      <string>Vis tittel</string>
+      <string>Vis innholdsliste for denne siden</string>
+      <string/>
+      <!-- Misc , start @ position 420 -->
+      <string>ny</string>
+      <string>nye beskjeder</string>
+      <string>Bekreftelse via E-post</string>
+      <string>Registrerings bekreftelse</string>
+      <string>Du er registreret på siden: </string>
+      <string>For å avslutte registreringen, gå til følgende link: </string>
+      <string>Her finnes opplysninger om din konto: </string>
+      <string>Takk for din registrering. Du vil få en E-post om et par minutter som bekrefter registreringen. </string>
+      <string>administrator</string>
+      <string>editor</string>
+      <!-- Misc , start @ position 430 -->
+      <string>medlem</string>
+      <string>Aboner på nyhetsbrevet</string>
+      <string>Nyhetsbrev</string>
+      <string>Posisjon</string>
+      <string>Topp</string>
+      <string>Bunn</string>
+      <string>Venstre</string>
+      <string>Høyre</string>
+      <string>Tips: Dobbelklikk eller trykk på CTRL-T for å vise WYSIWYG editoren</string>
+      <string>Vis avanserte felt</string>
+      <!-- Misc , start @ position 440 -->
+      <string>Skjul avanserte felt</string>
+      <string>Gruppe</string>
+      <!--Browsers stats -->
+      <string>Nettleser gruppe</string>
+      <string>Versjons detaljer</string>
+      <string>Nettleser</string>
+      <string>Versjon</string>
+      <string>Prosent</string>
+      <string>Andre</string>
+      <string/>
+      <string/>
+      <!-- Forgotten strings, thx to mentat @ position 450 -->
+      <string>Encoding</string>
+      <string>Overskrift</string>
+      <string>Marger</string>
+      <string>Kjerne</string>
+      <!-- Guestbook's buttons -->
+      <string>Send</string>
+      <string>Tilbakestille</string>
+      <!-- message after reaction posting -->
+      <string><![CDATA[<b>Takk for din deltagelse!</b><br/>Dine meninger vil bli notert og publisert etter godkjennelse av webmaster.]]></string>
+      <!-- 24/07/2002 -->
+      <!-- 457-->
+      <string>Ny artikkels standard publikation status</string>
+      <string>Aktiver E-post funksjoner ? (jMail påkrevd)</string>
+      <string>Viser installerte E-post COM komponenter</string>
+      <!-- 460 -->
+      <!-- forgot password -->
+      <string>Glemt passord?</string>
+      <string>Så du har glemt ditt passord?</string>
+      <string>Skriv medlemmsnavn og din E-post nedenfor, trykk send, og du vil om kort tid få tilsendt en E-post med ditt passord.</string>
+      <string>Medlemsnavn</string>
+      <string>E-post adresse</string>
+      <string>Send</string>
+      <string>Brukerinnformasjon</string>
+      <string>Vi er bedt om å sende deg følgende informasjon:</string>
+      <string>Passord</string>
+      <string>Håper at du snart besøker vår side igjen!</string>
+      <!-- 470 -->
+      <string>Feil brukernavn eller E-post adresse.</string>
+      <string>E-post med informasjon er sendt :)</string>
+      <string>Skriv informasjonen på nytt</string>
+      <string>Meld deg på nå !</string>
+      <!-- 24/07/2002 -->
+      <!-- selfcare @ 474 -->
+      <string>Min konto</string>
+      <string>Ufuldstendig skjema, alle felter med (*) må fylles ut.</string>
+      <string>Din konto er oppdatert!</string>
+      <!-- 24/07/2002 -->
+      <!-- 477 -->
+      <string>Ingen</string>
+      <string>Auto-detekt</string>
+      <!-- 24/07/2002 -->
+      <!-- 479 -->
+      <string>Menu linje</string>
+      <string>Forside</string>
+      <string>Tilbake til hjemmeside</string>
+      <!-- 29/04/2002 -->
+      <!-- 482 -->
+      <string>Katalog</string>
+      <string>Katalog administrator</string>
+      <string>Ny katalog</string>
+      <string>Navn</string>
+      <string>Publisert</string>
+      <string>Ny katalog</string>
+      <string>Ny kategori</string>
+      <string>Kategorier</string>
+      <!-- 490 -->
+      <string>Nytt punkt</string>
+      <string>Ny katalog</string>
+      <string>Endre katalog</string>
+      <string>Ny kategori</string>
+      <string>Endre kategori</string>
+      <string>Ny under-kategori</string>
+      <string>Endre under-kategori</string>
+      <string>Nytt punkt</string>
+      <string>Endre punkt</string>
+      <string>Resymê</string>
+      <!-- 500 -->
+      <string>Beskrivelse</string>
+      <string>Hjemmeside</string>
+      <string>Nedlastnings URL</string>
+      <string>Billdesti</string>
+      <string>Offentlig tilgang</string>
+      <string>Punkt lagret</string>
+      <string>Bruker</string>
+      <string>Nedlastning</string>
+      <string>Hjemmeside</string>
+      <string>CD</string>
+      <!-- 510 -->
+      <string>DVD</string>
+      <string>Book</string>
+      <string>MP3</string>
+      <string>Medarbeider</string>
+      <string>Produkt</string>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <string/>
+      <!-- 520 -->
+      <string>Brukere</string>
+      <string>Nedlastninger</string>
+      <string>Hjemmsider</string>
+      <string>CD</string>
+      <string>DVD</string>
+      <string>Book</string>
+      <string>MP3</string>
+      <string>Medarbeider</string>
+      <string>Produkt</string>
+      <string/>
+      <!-- 530 -->
+      <string>Katalog</string>
+      <string>Hjem</string>
+      <string>Antall websider i katalog: </string>
+      <string>Tilføy en webside</string>
+      <string>Totale treff</string>
+      <string>Ditt bidrag er motatt og vil bli lest gjennom av vår moderator. Takk for ditt bidrag.</string>
+      <string>Mest populære</string>
+      <string>Treff</string>
+      <string>Siste...</string>
+      <string>Nye innsendinger</string>
+      <!-- 540 -->
+      <string>Nye katalog innsendinger</string>
+      <string>Kort beskrivelse</string>
+      <!-- 542 = 15/05/2002  -->
+      <string>Nede for vedlikehold</string>
+      <string>Antall filer: </string>
+      <!-- 544 = 16/12/2002 -->
+      <string>Side</string>
+      <string>Tilbake</string>
+      <string>Neste</string>
+      <!-- 547 = 24/07/2001 -->
+      <string>Online medlemmer</string>
+      <!-- 548 = 24/07/2002 -->
+      <string>Tilbakemelding</string>
+      <string>Ditt navn</string>
+      <string>Din e-post</string>
+      <string>Emne</string>
+      <string>Melding</string>
+      <string>Send til webmaster</string>
+      <!-- 554 = 24/07/2002 -->
+      <string>Rich media</string>
+      <!-- 555 = 24/07/2002 -->
+      <string>Send en melding til</string>
+      <string>Din e-post adresse:</string>
+      <string>Ditt navn:</string>
+      <string>Emne:</string>
+      <string>Melding:</string>
+      <string>Send melding</string>
+      <string>Du kan sende en melding, hvis du er logget på.</string>
+      <string>Din melding er sendt.</string>
+      <!-- 563 :: 8/06/2002 -->
+      <string>Artikkel treff</string>
+      <string>Forum treff</string>
+      <!-- 565 :: 24/07/2002 -->
+      <string>Eksporter denne listen til CSV fil</string>
+      <!-- 566 :: 24/07/2002 -->
+      <string>Rekkelfølge</string>
+      <string>Lukk</string>
+      <string>Opp</string>
+      <string>Ned</string>
+      <!-- 570 :: 24/07/2002 -->
+      <string>Forum</string>
+      <string>Tråd</string>
+      <string>Post</string>
+      <string>Siste Post</string>
+      <string>Forfatter</string>
+      <string>Startet av</string>
+      <string>Svar</string>
+      <string>Emner</string>
+      <string>Posted</string>
+      <string>Send svar</string>
+      <!-- 580 -->
+      <string>Diskusjoner</string>
+      <string>Diskusjon</string>
+      <string>Søk i forum</string>
+      <string>Svar til en eksisterende melding</string>
+      <string>Meldingen du svarer på</string>
+      <string>Sendt av</string>
+      <string>på</string>
+      <string>Emne</string>
+      <string>Beskjed</string>
+      <string>Ny tråd</string>
+      <!-- 590 -->
+      <string>Dette er en automatisk beskjed.
+		Det er svart på din post i vårt forum. Du kan se det på:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderator</string>
+		<string>Moderert av</string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Meninger default status</string>
+		<string>Artikkler default status</string>
+		<string>Artikkel sideveksling</string>
+		<string>Siden</string>
+		<string>Fra</string>
+		<!-- 601 -->
+		<string>Skreddersy Skall</string>
+		<string>Skreddersybar</string>
+		<string>Navn</string>
+		<string>Skall</string>
+		<string>Designet av</string>
+		<!-- 606 -->
+		<string>Husk passord</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>KnowBase</string>
+		<string>Lineær</string>
+		<string>Strukturert</string>
+		<string>Sektor:</string>
+		<string>[Top]</string>
+		<string>Relaterte artikkler</string>
+		<string>Søk</string>
+		<string>Tilføy post</string>
+		<string>Alle</string>
+		<string>i sektor:</string>
+		<!-- 630 is the one up-->
+		<string>Hjem</string>
+		<string>Gå til sektor:</string>
+		<string>Tilføy ny forbindelse</string>
+		<string>Knowbase</string>
+		<string>Sektor</string>
+		<string>Post</string>
+		<string>Tittel</string>
+		<string>Versjon</string>
+		<string>Innledning</string>
+		<string>Vis</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>Navn</string>
+		<string>Bemerkning</string>
+		<string>Synlig</string>
+		<string>Sektor</string>
+		<string>Kjerne</string>
+		<string>legg til..</string>
+		<string>Relateret artikkel</string>
+		<string>Relasjoner av</string>
+		<string>Kjente forbindelser</string>
+		<!-- 650 is the one up -->
+		<string>KB-Editor</string>
+		<string>Av</string>
+		<string>Anonym</string>
+		<string>Medlem</string>
+		<string>Det er ingen artikler i denne sektoren.</string>
+		<string>Fjern neste forbindelse</string>
+		<string>Hent</string>
+		<string>Velg vennligst en av de tilgjengelige kunnskapsbaser.</string>
+		<string>Kunnskapsbaser på administrasjons nivå:</string>
+		<string>Kunnskapsbaser på editor nivå:</string>
+		<!-- 660 is the one up -->
+		<string>Kunskapsbaser på medlemsnivå:</string>
+		<string>Kunskapsbaser på offentlig nivå:</string>
+		<string>Feil</string>
+		<string>Den kunnskap du søker eksisterer ikke eller er ikke tilgjengelig for deg. Hvis du mener det er en feil så kontakt webmaster/administrator.</string>
+		<string>Det er ingen tilgjengelige kunnskapsbaser.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Liste administrasjon</string>
+		<string>Lister</string>
+		<string>Liste</string>
+		<string>Innlegg</string>
+		<string>Innlegg</string>
+		<string>Er du sikker på at du vil slette denne Listen? Vær sikker på at alle innslag som bruker denne listen er koblet ut.</string>
+		<string>Denne listen er en systemliste og den kan ikke slettes eller omdøpes!</string>
+		<string>Tekst</string>
+		<string>Verdi</string>
+		<string>Er du sikker på at du vil slette dette innlegget?</string>
+		<!-- 680 is the one up -->
+		<string>Dette innlegget tilhører en sytem liste og det kan ikke slettes eller ha verdien endret!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- Kalendar strings -->
+		<string>Sø</string>
+		<string>Ma</string>
+		<string>Ti</string>
+		<string>On</string>
+		<string>To</string>
+		<string>Fr</string>
+		<string>Lø</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Januar</string>
+		<string>Februar</string>
+		<string>Mars</string>
+		<string>April</string>
+		<string>Mai</string>
+		<string>Juni</string>
+		<string>Juli</string>
+		<string>August</string>
+		<string>September</string>
+		<string>Oktober</string>
+		<!-- 720 is the one up -->
+		<string>November</string>
+		<string>Desember</string>
+		<string>Aktiviteter</string>
+		<string>Ytterligere informasjon under:</string>
+		<string>id</string>
+		<string>dato</string>
+		<string>beskrivelse</string>
+		<string>Kort beskrivelse</string>
+		<string>Deskrivelse</string>
+		<string>Link</string>
+		<!-- 730 is the one up -->
+		<string>Synlig</string>
+		<string>Dato</string>
+		<string>Aktivitets kalender</string>
+		<string>Kalender</string>
+		<string>Aktivitets kalender</string>
+		<string>tilbake</string>
+		<string>neste</string>
+		<string>forhåndsvisning begynner</string>
+		<string>forhåndsvisning</string>
+		<string>ny aktivitet</string>
+		<!-- 740 is the one up -->
+		<string>Kalender status</string>
+		<string>send inn en aktivitet</string>
+		<string>Velg kalender</string>
+		<string>Kalender</string>
+		<string>Hent</string>
+		<string>Synlig for</string>
+		<string>Du har ikke adgang til denne kalenderen</string>
+		<string>forhåndsvisning</string>
+		<string>aktiviteter per side</string>
+		<string>forhåndsvisninger per side</string>
+		<!-- 750 is the one up -->
+		<string>Søkeresultat i kalender</string>
+		<string>Søk etter aktivitet</string>
+		<string>Hent</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>Kanal</string>
+		<string>Opprett ny kanal</string>
+		<string>Din nettleser støtter ikke rammer (frames).</string>
+		<string>gjest</string>
+		<string>Beskjed</string>
+		<string>Navn</string>
+		<string>Beskrivelse</string>
+		<string>Kanal</string>
+		<string>Beskrivelse</string>
+		<!-- 770 is the one up -->
+		<string>Opp</string>
+		<string>Bruker</string>
+		<string>Nye brukere</string>
+		<string>Aktuelle brukere</string>
+		<string>Forlat chat kanalen</string>
+		<string>Chat</string>
+		<string>Moderator</string>
+		<string>Slett alle gamle beskjeder</string>
+		<string>Chat-Editor</string>
+		<string>id</string>
+		<!-- 780 is the one up -->
+		<string>Privat melding til</string>
+		<string>tilbake</string>
+		<string>slett</string>
+		<string>Du er blitt slettet av moderator. Vennligst forlat kanalen.</string>
+		<string>Aksjon, utføres på</string>
+		<string>operatør</string>
+		<string>medlem</string>
+		<string>Legg til</string>
+		<string>Du kan lukke dette vindueet.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Søk etter medlemmer</string>
+		<string>Søke formular</string>
+		<string>Bruker</string>
+		<string>Kjønn</string>
+		<string>Alder</string>
+		<string>Yrke</string>
+		<string>By</string>
+		<string>Fylke</string>
+		<string>Land</string>
+		<string>Siden</string>
+		<!-- 810 is the one up -->
+		<string>Se alle medlemmer</string>
+		<string>Min profil</string>
+		<string>id</string>
+		<string>Fornavn</string>
+		<string>Etternavn</string>
+		<string>Webside</string>
+		<string>Bildesti</string>
+		<string>Velg</string>
+		<string>Adresse</string>
+		<string>Postnummer</string>
+		<!-- 820 is the one up -->
+		<string>Telefon</string>
+		<string>Offentlig visning</string>
+		<string>Velkomsthilsen</string>
+		<string>Administrator notater</string>
+		<string>Medlemsprofil</string>
+		<string>Velkommen</string>
+		<string>Det finnes ingen med dette brukernavnet.</string>
+		<string>Du kan kun se medlemmer hvis du er logget på</string>
+		<string>Den profil du søker eksisterer ikke eller er ikke tilgjengelig for offentlig visning.</string>
+		<string>Navn</string>
+		<!-- 830 is the one up -->
+		<string>Legg til venneliste</string>
+		<string>er lagt til din venneliste.</string>
+		<string>er fjernet fra din venneliste.</string>
+		<string>Medlemmer</string>
+		<string>Administrasjon av venner</string>
+		<string>Venner</string>
+		<string>Aksjon</string>
+		<string>Slett</string>
+		<string>Send melding</string>
+		<string>Send e-post til bruker</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Interne meldinger</string>
+		<string>Meldinger per bruker</string>
+		<string>Din melding er sendt.</string>
+		<string>Det er ingen nye meldinger</string>
+		<string>Du har mottatt ny melding</string>
+		<string>Nedenfor finner du liste over alle meldinger sendt til deg.</string>
+		<string>Dato</string>
+		<string>Fra</string>
+		<string>Emne</string>
+		<string>Send intern melding til</string>
+		<!-- 860 is the one up -->
+		<string>Melding</string>
+		<string>Desverre, denne brukers postkasse er full. Prøv igjen senere.</string>
+		<string>Denne funksjon er kun for medlemmer!</string>
+		<string>Du har kun adgang til post som er adressert til deg!!!</string>
+		<string>Antall meldinger hvert medlemm kan motta:</string>
+		<string>Antall meldinger du kan motta:</string>
+		<string>skrev:</string>
+		<string>Denne beskeden er svar på din forgående post.</string>
+		<string>Svar</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Emne</string>
+		<string>Melding</string>
+		<string>send som HTML</string>
+		<string>Vedlegg</string>
+		<string>Nyhetsbrev</string>
+		<string>id</string>
+		<string>emne</string>
+		<string>aksjon</string>
+		<string>send</string>
+		<string>send igjen</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>uppercased login</string>
+		<string>Authentifikation</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Modul information</string>
+		<string>beskrivelse</string>
+		<string>versjon</string>
+		<string>sist modifisert</string>
+		<string>av</string>
+		<string>hjemmeside</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>velg mål katalog</string>
+		<string>legg til fil</string>
+		<string>Last opp</string>
+		<string>Navn</string>
+		<string>Størrelse</string>
+		<string>Type</string>
+		<string>Sist modifisert</string>
+		<string>Aksjon</string>
+		<string>Slett</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Editor Administrasjon</string>
+		<string>id</string>
+		<string>Navn</string>
+		<string>Konfigurasjon</string>
+		<string>aktiv</string>
+		<string>Gruppe</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

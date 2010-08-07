@@ -1,0 +1,376 @@
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+#
+#  CÓDIGO: VirtuaStore Versão OPEN - Copyright 2001-2004 VirtuaStore
+#  URL: http://comunidade.virtuastore.com.br
+#  E-MAIL: comunidade@virtuastore.com.br
+#  AUTORES: Otávio Dias(Desenvolvedor)
+# 
+#     Este programa é um software livre; você pode redistribuí-lo e/ou 
+#     modificá-lo sob os termos do GNU General Public License como 
+#     publicado pela Free Software Foundation.
+#     É importante lembrar que qualquer alteração feita no programa 
+#     deve ser informada e enviada para os criadores, através de e-mail 
+#     ou da página de onde foi baixado o código.
+#
+#  //-------------------------------------------------------------------------------------
+#  // LEIA COM ATENÇÃO: O software VirtuaStore OPEN deve conter as frases
+#  // "Powered by VirtuaStore OPEN" ou "Software derivado de VirtuaStore 1.2" e 
+#  // o link para o site http://comunidade.virtuastore.com.br no créditos da 
+#  // sua loja virtual para ser utilizado gratuitamente. Se o link e/ou uma das 
+#  // frases não estiver presentes ou visiveis este software deixará de ser
+#  // considerado Open-source(gratuito) e o uso sem autorização terá 
+#  // penalidades judiciais de acordo com as leis de pirataria de software.
+#  //--------------------------------------------------------------------------------------
+#      
+#     Este programa é distribuído com a esperança de que lhe seja útil,
+#     porém SEM NENHUMA GARANTIA. Veja a GNU General Public License
+#     abaixo (GNU Licença Pública Geral) para mais detalhes.
+# 
+#     Você deve receber a cópia da Licença GNU com este programa, 
+#     caso contrário escreva para
+#     Free Software Foundation, Inc., 59 Temple Place, Suite 330, 
+#     Boston, MA  02111-1307  USA
+# 
+#     Para enviar suas dúvidas, sugestões e/ou contratar a VirtuaWorks 
+#     Internet Design entre em contato através do e-mail 
+#     contato@virtuaworks.com.br ou pelo endereço abaixo: 
+#     Rua Venâncio Aires, 1001 - Niterói - Canoas - RS - Brasil. Cep 92110-000.
+#
+#     Para ajuda e suporte acesse: http://comunidade.virtuastore.com.br
+#
+#     BOM PROVEITO!          
+#     Equipe VirtuaStore
+#     []'s
+#
+#########################################################################################
+#----------------------------------------------------------------------------------------
+#########################################################################################
+
+
+
+
+ Olá pessoALL,
+
+ Essa versão VS Open 3.0 foi  baseada na VS Open 2.3 e tem todas as últimas alterações / criações / melhorias que foram colocadas até o momento no Fórum da VirtuaStore  (http://br.groups.yahoo.com/group/virtuastore) e em cima disso foi feita várias correçoes e melhorias , tanto na loja como na área administrativa. 
+
+
+
+
+#############################################
+	ATENÇÃO!
+#############################################
+
+Para a VirtuaStore OPEN rodar corretamente em seu servidor você precisará de:
+
+   - Conexão com internet (Para o calculo de SEDEX a partir dos Correios Online)
+   - Componente FSO (File System Object) rodando com permissões de escrita no diretório
+   - Componente XML 3.0 (MSXML3) instalado
+   - IIS (Internet Information Services), PWS (Personal Web Server) ou Sun ONE como servidor WEB
+   - Permissao de Escrita nas pastas onde tem Banco de Dados e Imagens de Produtos  (Pastas: Database , Chat , Banners , Produtos) 								
+
+  Obs: Não atendendo estes requisitos a VirtuaStore Open não rodará corretamente!
+
+
+
+#############################################
+	Ao Administrador
+#############################################
+
+   - 1. Se você baixou este arquivo do grupo VirtuaStore do Yahoo (http://br.groups.yahoo.com/group/virtuastore),
+    vc terá acesso a área administrativa (administrador.asp) usando como Usuario padrao: admin , e Senha padrao: 123456
+    portanto é IMPORTANTE mudar a Senha quando a sua loja entrar em operação na Internet.
+
+    - 2. Para usar a área administrativa, é recomendado que se use o browser Internet Explorer 5.5 ou superior,
+    para poder usufruir da Ferramenta HTML, para escrever a Descrição de Produtos com recursos HTML , nas áreas de
+    Inserir e Editar Produtos, como também para escrever emails em HTML na área de Escrever nova Newsletter.
+
+    - 3. Questão Segurança:  Procure usar uma Pasta protegida do Provedor para o seu Banco de Dados, após testar a loja usando
+    a Pasta /Database criada originalmente.
+
+    - 4. Atualizacoes:  Durante as proximas semanas, pode haver atualizacoes de algum arquivo .asp pela Comunidade VirtuaStore,
+    portanto acompanhe o Painel de Notificações de Atualizações (administrador.asp) , e como dica para aprendizagem ;-) 
+    use o programa Compare It! do site http://www.grigsoft.com (ou similar) , para analisar melhor as diferencas entre os 
+    arquivos .asp de sua loja e dos que foram modificados nas atualizacoes.
+
+    - 5. Problemas de Travamento ocasionados por Programas de Anti-Virus: Alguns programas de Anti-Virus como o Norton impede a execução de scripts como o FSO (FileSystemObjects) , quando se testa a loja de modo Offline (na sua máquina), portanto verifique e libere no seu programa de Anti-Virus para permitir que o script FSO possa executar livremente para não travar as sua páginas da sua loja.
+
+
+
+#############################################
+	Sobre a VirtuaStore OPEN:
+#############################################
+
+  A VirtuaStore OPEN é um sistema de e-commerce open-source que tem o objetivo de 
+  criar uma alternativa gratuita aos aplicativos de comércio eletrônico que existem
+  atualmente pela Internet. Ele é escrito inteiramente em ASP.
+
+  Uma das muitas metas do sistema é criar um aplicativo que seja fácil de
+  usar e instalar. Tentamos ao máximo facilitar o processo de instalação
+  da VirtuaStore.
+
+  A loja VirtuaStore OPEN é considerado Open-source(gratuito)  desde que
+  se mantenha as frases "Powered by VirtuaStore OPEN" ou "Software
+  derivado de VirtuaStore 1.2" e o link para o site da VirtuaStore ou para a 
+  da Comundade , nos créditos da sua loja virtual para ser utilizado gratuitamente.
+  Se o link e/ou uma das frases não estiver presentes ou visiveis esta loja
+  deixará de ser considerado Open-source(gratuito) e o uso sem autorização terá 
+  penalidades judiciais de acordo com as leis de pirataria de software.
+
+
+
+
+#############################################
+	Requerimentos Mínimos
+#############################################
+
+Os requerimentos para o uso da VirtuaStore OPEN 3.0 são as seguintes:
+
+- PWS(Personal Web Server) para Windows 95/98/ME ou ISS(Internet Information Services) 4.0 ou superior para Windows 2000/XP/NT *RECOMENDADO*
+- Apache Webserver 1.3 ou superior com Sun ONE ou superior para Linux e/ou outros OSs
+
+
+
+#############################################
+	Processo de Instalação
+#############################################
+
+1 - Descompacte os arquivos
+  
+2 - Leia ATENTAMENTE e edite o arquivo CONFIG.ASP de acordo com os dados e configurações da sua loja.
+     A maioria dos erros que acontecem na loja é por falta de observação e leitura do arquivo Config.asp, portanto gaste alguns minutos revendo detalhadamente a configuracao dos dados contidos no arquivo Config.asp. 
+
+3 - Dê upload usando o programa de FTP de sua escolha do arquivos da loja
+     Também é necessário a cópia das imagens da pasta \linguagens\portuguesbr\imagens para as outras respectivas pastas Espanhol , Ingles e PortuguesPT
+
+4 - Dê a permissao de Escrita nas pastas onde tem Banco de Dados e Imagens de Produtos  (Pastas: Database , Chat , Banners , Produtos) 	
+
+5 - A partir deste ponto, você pode acessar a Área Administrativa acessando o arquivo administrador.asp ou a pasta /Admin do seu site, usando como Usuario padrao: admin , e Senha padrao: 123456  (É IMPORTANTE mudar esta Senha quando a sua loja entrar em operação na Internet). 
+
+6 - Pronto, sua Loja VirtuaStore OPEN está pronta para uso!
+
+
+
+#############################################
+	Novidades do VirtuaStore Open 3.0
+#############################################
+
+  1. Novo Layout
+ 
+  2. Boleto do HSBC
+  
+  3. Opcao de Mostrar 4,6 ou 8 produtos na Página Inicial (no config.asp)
+ 
+  4. Link administrativo para Tabela de Cores (para uso no config.asp)
+ 
+  5. No SQL Manager foi implantado a Área de Transferencia (para guardar em cookie as rotinas mais usada) , com opção de abrir uma tela  chamado adm_sql.asp , para poder executar rotinas de Select (com Área de Transferencia tb) , essencial para fazer verificacoes ou até testes de select no BD
+ 
+  6. Consertado o bug do "acento", q dava erro qdo fazia pesquisa por produtos, pois gravava no BD com codigo ASCII
+ 
+  7. Consertado o bug de javascript, avisando qdo o cliente compra acima do limite permitido ou qdo a quant q ele escolheu esta acima do que tem no estoque ...
+ 
+  8. Foi colocado no Admin, a Posicao Estoque / Vendas, ou seja, aparecerá além da posicao do estoque e quantas vendas já foram feitas e opçõa de zerar a contagem.
+ 
+  9. 'Baixa' do estoque no momento do encerramento da compra , em pagamento.asp
+ 
+  10. Validador de Ceps, que detecta se o cliente calculou o frete com cep diferente do cadastrado na ficha dele, evitando clientes "fraudarem" o valor do frete com cep diferentes , pois a loja aceitava qualquer cep informado p/ calculo
+ 
+  11. Criacao da rotina de Envio de emails de aviso p/ os clientes qdo muda de status da compra, mas consideramos q nem todos os status precisam de avisos, mas podem ser acrescentados a medida da necessidade
+ 
+  12. Traducao p/ o portugues do sistema de chat,
+ 
+  13. Novas variaveis no arquivo linguagens.asp
+ 
+  14. Correções com a rotina de Troca de linguagens no site
+ 
+  15. Correções na área administrativa e linguagens.asp
+ 
+  16. A img de atendimento online (na pág inicial) aparecerá somente se houver alguem "Online" no Sist. de Atendimento Online (Chat), mas pode ser descomentado no codigo qdo alguem quiser q apareça a img de "Offline" ...
+ 
+  17. Inclusao do Diagnóstico de Servidores
+ 
+  18. Reformulação do arquivo Config.asp , com mais recursos de configuração da loja
+
+  19. Menu de Etapas, no momento do Fechamento do pedido, para o cliente saber o que será pedido até a ultima etapa da compra (4. Compra concluída!)
+
+  20. Opção de Colocar Destaque de Produto na página inicial  (aleatório)
+
+  21. Novas paginas de Instrucoes (Como Pagar, Como Reimprimir Boleto)
+
+  22. Opcao de usar ou não Cartão de crédito como Forma de pagamento
+
+  23. Consertado Bug na Edicao de Visivel ou nao de SubDepartamentos
+
+  24. Feito uma padronizacao c/ relacao a mensagens de Status de Compras.
+
+  25. Foi feito uma melhoria em Compras por Data: agora é visualizado o Status da Compra sem a necessidade de clicar na compra p/ ver os detalhes
+
+  26. Agora Produtos Não Visíveis (ou Não Disponiveis como era antes) não aparecem na loja, qdo alguem quiser deixar Invisível o produto para o público usando o Config.asp (veja baixo) , os produtos Zerados poderam ter um aviso de estoque "Esgotado" ou ficarem automaticamente Invisíveis para o público
+
+  27. Opcao de Mostrar Produto com estoque "Esgotado" ou deixar automaticamente "Nao Visivel" ao público , ambos após a compra do ultimo estoque de um produto
+
+  28. Bugs consertados ref. a adaptacao feita para o uso de SubCategorias, no momento de ver novos produtos cadastrados em novas subcategorias ou categorias, como a palavra "visitante" que aparecia no lugar da Categoria
+
+  29. Corrigido o bug no cadastro de produtos com o sinal   '   sendo substituido pelo sistema por ´ (no nome ou na descricao ou no nome do fabricante)
+
+  30. Consertado bug de falha de pesquisa de produtos com nomes acentuados e Sistema de Pesquisa aprimorado , para pesquisar produtos com acento , mesmo que voce nao digite com acento, ou vice-versa (produtos sem acento e voce procura com acento)
+
+  31. Retirado Link do Categoria em Voce está em , e deixado somente do Home e da SubCategoria, pois link da categoria só funciona no menu ;-)
+
+  32. Criado o Email de Aviso de Produto com Estoque Zerado!
+ 
+  33. Sorteio de Produto-Destaque do grupo de produtos que foram setados como DESTAQUE na área Administrativa
+
+  34. Opcao de Mostrar Pagamento com ou sem a opcão de Cartoes de Credito
+
+  35. Opcao de Cobrar ou nao o Seguro no envio dos produtos, observando que se o cliente optar por Sedex a Cobrar, este valor é cobrado de qualquer forma pelo sistema , por exigencia dos Correios ( O seguro é 1% do valor da compra)
+
+  36. Opcao de Mostrar Pagamento com ou sem a opcão Sedex a Cobrar
+
+  37. Opcao de Ativar Formas de Entregas: 1. via Sedex e / ou  2. via Download/Pessoalmente (Sem Custo de Entrega) e / ou 3. via MotoBoy/Tele-Entregas  (Com Tarifa Fixa de Entrega)
+
+  38.  Link na Descricao do Produto , dos produtos no Carrinho de Compras e em Histórico de Compras , para ver novamente os Detalhes
+
+  39. Formulário de Registro de Clientes adaptado para aceitar Registro de Empresas (Pessoas Jurídicas)
+
+  40. Opção de informar um ou dois Bancos para Depósitos/Transferências
+
+  41. Opção de usar ou não o Boleto Bancário na loja
+
+  42. Visualização do tamanho do Banco de Dados na tela inicial da Área Administrativa
+
+  43.  Total de vendas já realizadas na loja , na área de Posição de Estoque / Vendas da Área Administrativa
+
+  44.  Adaptação da Ferramenta HTMLarea para escrever a Descrição de Produtos com recursos HTML , nas áreas de Inserir e Editar Produtos, como também para escrever emails em HTML na área de Escrever nova Newsletter.
+
+  45. Visualização da imagem "Imagem Nao Disponivel" quando não houver imagens pequenas ou grandes do produto
+
+  46. Consertado bug dos "carrinhos-fantasmas" que já aparecia produtos dentro do Carrinho de Compras. Isto acontecia após exclusões de compras de clientes da loja
+
+  47. Consertado bug de exclusão de Categorias e SubCategorias, que não deletavam os seus respectivos produtos e/ou subcategorias
+
+  48. No email de Confirmação de Compra que vai para o cliente,  aparece as Contas bancárias para Depósito/Transferencias e tambem o link para reimpressão do Boleto (qdo o cliente fez esta opcao)
+
+  49. Adaptado a Opção de cadastrar Produtos direto em uma Categoria (caso não se queira trabalhar ou criar SubCategorias , ou quando não existe)
+        Para criar apenas um Departamento e inserir Produtos nele (sem ter Sub-Departamentos), criar um Sub-Departamento chamado "Todos" e cadastre os produtos neste Sub-Departamento.
+  
+  50. Inclusao de textos sobre Política de trocas , podendo ser ativado ou nao o aparecimento do link no quadro Atendimento (lateral esquerda) através do Config.asp
+
+  51. Consertado bugs de paginação de produtos
+
+  52. Consertado bug de cadastro de imagens do produto
+
+  53. Consertado bugs com relação a pesquisa de produtos
+
+  54. Consertado bug de Estatisticas que mostranva os primeiros registros em vez dos mais recentes
+
+  55. Consertado falha dos links dos Departamentos do rodape , pois nao existe link direto para Departamentos (qdos existe SubDepartamentos): qdo se clica , o cliente é redirecionado direto para o primeiro SubDepartamento cadastrado no site
+
+  56. Consertado falha de envio de Newsletter para os emails dos clientes da loja 
+
+  57. Consertado bug sobre a falta de analise se tinha no minimo (em estoque) o valor indicado como Qtidade Maxima de Compra por produto (evitando assim estoque negativo ou compra de "estoque falso")
+
+  58. Criado a opção de Limitar ou Nao a compra de um produto conforme a qtidade Máxima fixada por produto na área administrativa
+
+  59. Criado a opção de Mostrar ou não o Formulário para o Cliente solicitar por email produtos que estão como "Esgotados"
+
+  60. Quando o cliente encerra a sua compra, encerra o login do cliente na loja, mas mantem o login do Administrador (na Área Administrativa) caso esteja sendo usada ao mesmo tempo
+
+  61. Criado a área "Politica de Trocas"
+
+  62. Criado a opcao de Link para comunicar a loja sobre um Produto nao encontrado na tela de Pequisa
+
+  63. Criado a área "Como confirmar Pagamentos"
+
+  64. Consertado bugs com relação a Compras Nao gravadas
+
+  65.  Implantado o Boleto do Banco do Brasil
+
+  66.  Implantado o Sistema de frete via Encomenda Normal
+
+
+############################################
+	Erros e Correções e Sugestões: 
+############################################
+
+ Se você quer colaborar de alguma forma com a nossa comunidade,  ou reportar algum erro, acesse o nosso fórum no link abaixo:
+ http://br.groups.yahoo.com/group/virtuastore
+
+Em certos servidores Linux com Chilli!ASP, ocorre erros com ","(Virgula) e "."(Ponto) no valores. Para arrumar use o camando : replace(variavel_com_problema, ", ou .", "") na variavel com o problema.
+
+
+
+############################################
+	Desenvolvedores e Beta-Testers: 
+############################################
+
+  Elizeu Alcantara (elizeu@cristaosite.com.br)
+  Antonio Mouallem (mouallem@ig.com.br)
+  Rogério Silva (rogerio@e-class.com.br)
+  Henrique (henrique@metasupri.com.br)
+  Genulpho  (genulpho@uai.com.br)
+  Fábio (fabio@midwest.com.br)
+  Marinho (neocrumb@terra.com.br)
+  Renê (rwsc@bol.com.br)
+  Baruch (baruch@apcel.com.br)
+  Rodrigo Monzoni (rodrigo@radical.com.br)
+  Josielias (josielias@yahoo.com.br)
+  João (joao@timevideo.com.br)
+  Clayton (clayton@shima-net.com.br)
+  Alexandre Sperandio (alexandre_sperandio@yahoo.com.br)
+  Coelho (coelhomau@terra.com.br)
+  Cirilo Veloso (cjveloso@ig.com.br)
+  Marcos Beltrami (marcosbeltrami@yahoo.com.br)
+  Jorge Mendes (jorge_mendes@major.com.br)
+  Anderson Luiz (alrf_product@hotmail.com)
+  Mateus Moraes (mateusmoraes@bol.com.br)
+  Lucas Diniz (lucas@nossanoite.com.br)
+  Bruno Oliva (bruno.oliva@superig.com.br)
+
+
+############################################
+	Para usuários da VS Open 2.3 
+############################################
+
+
+Pode ser usado o mesmo Banco de Dados para esta versao 3.0 , o que garante desta forma uma atualização tranquila de sites que já usam a versão VS Open 2.3 sem perder dados ou informações ou a necessidade de manutenções e transferências de dados entre Banco de dados. A exceção fica por conta da melhoria feita com relação a Tabela Compras , que agora possui o campo codigo_seguranca , pois as Operadoras de Cartão solicitam este dado do Cartão de Crédito (veja abaixo).
+
+Para deixar a estrutura do seu Banco de Dados da VS Open 2.3 em conformidade com o da VS Open 3.0, é NECESSÁRIO duas tarefas:
+
+   1. Por seguranca, façam BACKUP da sua Base de dados e da sua Loja, pois são muitas mudanças boas e para isso será feito atualização na estrutura de dados.
+
+   2. Executar os Comandos SQL abaixo no seu Banco de Dados, na Área Administrativa / Utilitários / SQL Manager, para a atualização na estrutura de dados.
+
+
+ALTER TABLE compras ADD codigo_seguranca VARCHAR(10) 
+
+ALTER TABLE clientes ADD contato VARCHAR(50) 
+
+UPDATE produtos SET destaque='n' WHERE destaque='s'
+(Após este comando SQL , voce poderá setar um produto para ser Destaque , através da Área Administrativa / Editar Produto / Produto , com a variável do Config.asp mostrar_produto_destaque_fachada="Sim")
+
+ALTER TABLE compras ALTER endentrega VARCHAR(255)
+
+ALTER TABLE compras ALTER msgpresente VARCHAR(255)
+
+
+############################################
+	Ajuda e Suporte?
+############################################
+
+Para qualquer tipo de informação, para suporte, sugestões, comentários acesse um dos sites abaixo:
+
+http://br.groups.yahoo.com/group/virtuastore
+http://comunidade.virtuastore.com.br
+
+Lá você encontrará fóruns de discussão, ferramentas e diversas informações sobre a VirtuaStore e comércio eletrônico.
+
+BOM PROVEITO!          
+Comundade VirtuaStore
+
+
+############################################
+
+
+

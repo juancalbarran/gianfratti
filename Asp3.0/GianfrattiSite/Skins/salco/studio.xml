@@ -1,0 +1,82 @@
+<skin>
+	<tab name="General">
+		<param name="general_font" type="font" description="Font" default="Verdana"/>
+	</tab>
+	<tab name="Header">
+		<param name="header_background" type="color" description="Header's background color" default="#EEEEE2"/>
+		<param name="headertext_color" type="color" description="Header's title color" default="#6a7c52"/>
+		<param name="headerslogan_color" type="color" description="Header's slogan color" default="#666633"/>
+	</tab>
+	<tab name="Header highlighted">
+		<param name="highlight_background" type="color" description="Highlighted background color" default="#EEEEE2"/>
+		<param name="highlight_border" type="color" description="Highlighted border color" default="#b2bfa0"/>
+	</tab>
+	<tab name="Page">
+		<param name="page_background" type="color" description="Page background color" default="#e2e2d4"/>
+		<param name="pagetitle_color" type="color" description="Pagetitle color" default="#6a7c52"/>
+	</tab>
+	<tab name="Title">
+		<param name="title_background" type="color" description=" Title background color" default="#6a7c52"/>
+		<param name="title_color" type="color" description="Title color" default="#EEEEE2"/>
+	</tab>
+	<tab name="Body">
+		<param name="body_background" type="color" description="Background color" default="#EEEEE2"/>
+		<param name="body_color" type="color" description="Normal text color" default="#000000"/>
+		<param name="bodytext_color" type="color" description="Body text color" default="#000000"/>
+		<param name="main_background" type="color" description="Main table background color" default="#e2e2d4"/>
+		<param name="main_border" type="font" description="Main table border size" default="0"/>
+	</tab>
+	<tab name="Toolbar">
+		<param name="toolbar_color" type="color" description="Text color" default="#b2bfa0"/>
+		<param name="toolbar_background" type="color" description="Background color" default="#6a7c52"/>
+		<param name="toolbar_border" type="color" description="Toolbar's border color" default="#666633"/>
+		<param name="toolbar_highlight" type="color" description="Toolbar's highlight color" default="#e2e2d4"/>
+	</tab>
+	<tab name="Margin">
+		<param name="margin_background" type="color" description="Background color" default="#EEEEE2"/>
+		<param name="margin_color" type="color" description="Text color" default="#666633"/>
+	</tab>
+	<tab name="Menu">
+		<param name="menutext_color" type="color" description="Text color in menu" default="#6a7c52"/>
+		<param name="menutext_highlight" type="color" description="Text color in menu when highlighted" default="#6a7c52"/>
+	</tab>
+	<tab name="Left menu">
+		<param name="menuheadleft_background" type="color" description="Menu header left background" default="#6a7c52"/>
+		<param name="menuheadleft_color" type="color" description="Menu header left text color" default="#b2bfa0"/>
+		<param name="menuleft_background" type="color" description="Menu left background" default="#EEEEE2"/>
+	</tab>
+	<tab name="Right menu">
+		<param name="menuheadright_background" type="color" description="Menu header right background" default="#6a7c52"/>
+		<param name="menuheadright_color" type="color" description="Menu header right text color" default="#b2bfa0"/>
+		<param name="menuright_background" type="color" description="Menu right background" default="#EEEEE2"/>
+	</tab>
+	<tab name="Link">
+		<param name="link_color" type="color" description="Link color" default="#6a7c52"/>
+		<param name="link_highlight" type="color" description="Link color highlighted" default="#999900"/>
+	</tab>
+	<tab name="Footer">
+		<param name="footer_background" type="color" description="Footer background color" default="#6a7c52"/>	
+		<param name="footer_color" type="color" description="Footer text color" default="#b2bfa0"/>
+	</tab>
+	<tab name="Margin size">
+		<param name="leftmargin_size" type="font" description="Left margin size" default="140"/>	
+		<param name="rightmargin_size" type="font" description="Right margin size" default="140"/>	
+		<param name="lrmargin_size" type="font" description="Blank margin size" default="15"/>	
+		<param name="blockmargin_size" type="font" description="Block margin size" default="140"/>	
+	</tab>
+	<tab name="Forum">
+		<param name="forum.header.bgcolor" type="color" description="Header background color" default="#6a7c52"/>	
+		<param name="forum.header.color" type="color" description="Header title color" default="#FFFFFF"/>	
+		<param name="forum.normal.row.bgcolor" type="color" description="Row background color" default="#f0f0f0"/>	
+		<param name="forum.highlight.row.bgcolor" type="color" description="Row highlight color" default="#CCCCCC"/>	
+		<param name="forum.new.thread.bgcolor" type="color" description="New thread background color" default="#EEEEE2"/>	
+		<param name="forum.new.thread.color" type="color" description="New thread text color" default="#6a7c52"/>	
+		<param name="forum.new.thread.bordercolor" type="color" description="New thread border color" default="#6a7c52"/>	
+	</tab>
+	<tab name="Calendar">
+		<param name="calendar_tableborder" type="color" description="Border color" default="#6a7c52"/>	
+		<param name="calendar_background" type="color" description="Background color" default="#EEEEE2"/>	
+		<param name="calendar_weekdaybg" type="color" description="Weekday background color" default="#b2bfa0"/>	
+		<param name="calendar_currentdaybg" type="color" description="Current day background color" default="#b2bfa0"/>	
+	</tab>
+</skin>

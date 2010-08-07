@@ -1,0 +1,77 @@
+[29/11/2002 - John Roland]
+ - Langedit published on CVS. 
+
+[05/12/2002 - John Roland]
+ - Last Fixes / Corrections published on CVS
+
+[15/02/2004 - Eduardo Azambuja]
+ - Fixes / Corrections:
+
+  - err: blank page displayed when langedit is called from local install.
+  - rev: default.asp > correction for incomplete mappath strings.
+
+  - err: file is overwritten if an existing language name was accidentally typed by the user.
+  - rev: default.asp > if language exists in _index,xml, file is loaded. Otherwise is created.
+
+ - Modifications:
+
+  - prb: language names listing is un-sorted.
+  - rev: selector.xlst > sort expression for language name.
+
+  - prb: large string is not displayed when editing.
+  - rev: langedit.xlst > input text replacement by textarea (auto-resizable).
+
+  - prb: display of empty native strings, Editor GUI read/write is difficult.
+  - rev: langedit.xlst > ignore the display of empty strings.
+
+  - prb: file saved in continuous text stream, Notepad read/write is difficult.
+  - rev: save.asp > apply identation and block start separator (each 10 strings).
+
+[03/04/2004 - Eduardo Azambuja]
+ - Modifications:
+
+  - prb: language editor integrates 2.4.2, also accessible through Console Admin.
+  - rev: default.asp, selector.xlst, langedit.xsl, save.asp > general GUI re-designed.
+
+  - prb: accidental edition into english.xml can cause problems.
+  - rev: selector.xlst > english language is disabled for edition (provisory implementation). 
+
+ - New features / Improvements:
+
+  - new: added graphic elements (.gif)
+  - rev: langedit2/media > created folder to language editor images.
+
+  - new: added filtering capabilities for traslated, new and similar strings.
+  - rev: langedit.xsl > general GUI re-designed.
+
+[09/04/2004 - Eduardo Azambuja]
+ - Fixes / Corrections:
+
+  - prb: empty/blank language name can be saved, it is an inconsistency.
+  - rev: langedit.xlst > on form submission language name is validated. 
+
+ - Modifications:
+
+  - prb: invalid or mistakenly encode input makes language file unloadable.
+  - rev: selector.xlst, langedit.xsl, encoding.xml > encoding field replaced by listboxes.
+
+  - prb: edit restriction into english denies language revisions.
+  - rev: selector.xlst > removed restriction for english loading. 
+
+ - New features / Improvements:
+
+  - new: language file and languages registry (_index.xml) sincronization on saving.
+  - rev: save.asp > changes made in language details reflects into _index.xml, also.
+
+  - new: text-direction <dir> attribute added for both, language file and _index.xml.
+  - rev: save.asp > algorithm to include <dir> node case necessary, into files.
+
+  - new: duplicated language names receives an identifier.
+  - rev: save.asp > algoritm to rename duplicated names into language and _index.xml.
+
+[15/04/2004 - Eduardo Azambuja]
+ - Improvements: special thanks to Yan (Yohanan Ouaknine)
+
+  - prb: lack of RTL support.
+  - rev: default.asp > handles text-direction exactly as defined into data.xml. 
+[eof]

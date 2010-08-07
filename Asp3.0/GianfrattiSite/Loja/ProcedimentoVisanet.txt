@@ -1,0 +1,87 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$ Procedimento para Implantar os Componentes VBV no VirtuaStore $
+$                                                               $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+1)Colocar os componentes e manual no seu site fora da Internet.
+  exemplo: 
+  e:\home\seudominio\componentes_vbv\
+  
+  O Administrador de rede do seu provedor vai copiar para uma pasta 
+  no C:\> do servidor e irá registra-lo no IIS.
+
+2)Colocar uma loja teste no seu domínio, nunca faça teste na sua loja.
+
+  - Cadastre 1 ou mais produtos com valor 1,00 e frete 0,00.
+
+3)Arquivo de configuração VISA
+  Crie um arquivo de configuração dos componentes a partir do cfglojavisa.ini
+  altere as seguintes variáveis:
+
+  (ambiente de teste)
+  ;URL´s de comunicação com o Servidores da Visanet
+  CBP_URL = https://qascbp.3dsolution.com.br/cbp/cbp.visanet
+  
+  (url de retorno para sua loja, sempre será a página PAGAMENTOVISA.ASP
+  ;- URL de Retorno da Transação
+  MPG_RETURN_URL = https://www.seudomino.com.br/lojateste/pagamentovisa.asp
+  
+  (verifique se a pasta do KEY_FILE esta exatamento como abaixo.)
+  ;- Chave de criptografia da loja
+  KEY_FILE = c:\Certvisa\Keys\1001734898.keydata
+
+  (verifique se a pasta do SSL_ROOT_FILE esta exatamento como abaixo.) 
+  ;- Chave publica da loja no Servidor de POS VISANET
+  SSL_ROOT_FILE = c:\Certvisa\visanet.der
+
+  Após alterar as configurações acima salve o arquivo com outro nome:
+  exemplo:LojaTeste.ini
+ 
+  
+4)Colocar arquivos na pasta criada na internet (item 1)
+  LojaTeste.ini
+  1001734898.keydata(esta na pasta componentes_vbv\certvisa\keys\).
+  VisaNet.der (esta na pasta componentes_vbv\certvisa\)        
+
+  Enviar um e-mail para o administrador gravar os arquivos na pasta dos
+  certificados visa no servidor. ( C:\Certvisa\ )    
+
+5)Testar uma compra na Loja
+  Entrar na config.asp
+  '## Configurações para pagamento com cartão Visanet
+  URL_Componentes_Visa = server.mapPath("/")&"\Componentes_vbv" 'pasta onde foram registrados os componentes visa
+  Numero_Registro_Visa = "1001734898"  'Coloque o número do estabelecimento
+  Nome_Arquivo_Visa    = "LojaTeste"   'coloque o nome do arquivo com as configurações da visa (sem extensão .ini).
+  Valor_Autenticacao   = 10.00         'A partir deste valor o cliente deve digitar a Conta e Senha do Banco emissor do cartão.
+
+
+6)Após a homologação a Visanet enviará os seguintes arquivos:
+  suaempresa.ini
+  1001734898.keydata.
+  VisaNet.der 
+  
+  Este arquivos deverão ser gravados no servidor, na pasta
+  C:\CertVisa\, copie na pasta criada no item 1.
+  Envie um e-mail para o provedor pedindo para o administrador de rede
+  copiar o arquivo na pasta C:\Certvisa, conforme item 4.
+
+7)Coloque sua loja em produção
+   
+  Verifique o arquivo suaempresa.ini
+   (url de retorno para sua loja, sempre será a página PAGAMENTOVISA.ASP
+   ;- URL de Retorno da Transação
+   MPG_RETURN_URL = https://www.seudomino.com.br/loja/pagamentovisa.asp
+  
+  Entrar na config.asp
+  '## Configurações para pagamento com cartão Visanet
+  URL_Componentes_Visa = server.mapPath("/")&"\Componentes_vbv" 'pasta onde foram registrados os componentes visa
+  Numero_Registro_Visa = "1001734898"  'Coloque o número do estabelecimento
+  Nome_Arquivo_Visa    = "suaempresa"  'coloque o nome do arquivo com as configurações da visa (sem extensão .ini).
+  
+8)A loja esta configurada para pagamento à vista, caso necessite de parcelamento
+  entre no arquivo "Geraopcoes.inc" e configure a quantidade de parcelas.
+  O número de parcelas deverá esta previsto em contrato.  
+
+
+
+ 

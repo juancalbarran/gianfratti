@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<language>
+	<name><![CDATA[mexico]]></name>
+	<translator>
+		<version><![CDATA[1.0.0.0]]></version>
+		<name><![CDATA[Carlos Esquivel]]></name>
+		<email><![CDATA[arturo@scriptingcode.com]]></email>
+	</translator>
+	<encoding><![CDATA[windows-1250]]></encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string><![CDATA[Administrador del sitio]]></string>
+		<string><![CDATA[Explorar el sitio]]></string>
+		<string><![CDATA[Parametros]]></string>
+		<string><![CDATA[Paginas]]></string>
+		<string><![CDATA[Contenido]]></string>
+		<string><![CDATA[Encuestas]]></string>
+		<string><![CDATA[Citas]]></string>
+		<string><![CDATA[Fotografias]]></string>
+		<string><![CDATA[Miembros]]></string>
+		<string><![CDATA[Libro de visitas]]></string>
+		<string><![CDATA[Estadisticas]]></string>
+		<string><![CDATA[Reacciones]]></string>
+		<string><![CDATA[Foros]]></string>
+		<string><![CDATA[Subir]]></string>
+		<string><![CDATA[Crear...]]></string>
+		<string><![CDATA[Borrar]]></string>
+		<string><![CDATA[Modificar...]]></string>
+		<string><![CDATA[Ok]]></string>
+		<string><![CDATA[Cancelar]]></string>
+		<!-- Parametros generales, strat @ position 20 -->
+		<string><![CDATA[Parametros del sitio]]></string>
+		<string><![CDATA[Nombre del sitio]]></string>
+		<string><![CDATA[Acceso de administrador]]></string>
+		<string><![CDATA[Contraseńa]]></string>
+		<string><![CDATA[Titulo META]]></string>
+		<string><![CDATA[E-mail del administrador]]></string>
+		<string><![CDATA[URL del sitio Web]]></string>
+		<string><![CDATA[Palabras clave META]]></string>
+		<string><![CDATA[Descripcion META]]></string>
+		<string><![CDATA[Skins]]></string>
+		<string><![CDATA[Idioma]]></string>
+		<string><![CDATA[Pagina inicial]]></string>
+		<string><![CDATA[Ruta del logotipo]]></string>
+		<string><![CDATA[Mostrar barra de herramientas]]></string>
+		<string><![CDATA[Copyright]]></string>
+		<string><![CDATA[Lista de opciones]]></string>
+		<string><![CDATA[Mostrar menu]]></string>
+		<string><![CDATA[Mostrar barra de herramientas del articulo]]></string>
+		<string><![CDATA[Mostrar forma de busqueda]]></string>
+		<string><![CDATA[Lista de modulos adicionales]]></string>
+		<string><![CDATA[Sondeos]]></string>
+		<string><![CDATA[Citas]]></string>
+		<string><![CDATA[Galeria de fotos]]></string>
+		<string><![CDATA[Libro de visitas]]></string>
+		<string><![CDATA[Foros]]></string>
+		<string><![CDATA[Mostrar fecha y autor del articulo]]></string>
+		<string><![CDATA[Registrar estado default]]></string>
+		<string><![CDATA[Estado default del mensaje en foros]]></string>
+		<string><![CDATA[Mensaje default del libro de visitas]]></string>
+		<string><![CDATA[Lema]]></string>
+		<!-- Parametros de paginas, strat @ position 50 -->
+		<string><![CDATA[Administrador de pagina Web]]></string>
+		<string><![CDATA[Nombre de la pagina]]></string>
+		<string><![CDATA[Pagina padre]]></string>
+		<string><![CDATA[Tipo de acceso]]></string>
+		<string><![CDATA[Editorial]]></string>
+		<string><![CDATA[Etiqueta de anuncio]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[ˇEsta pagina no puede ser borrada!]]></string>
+		<string><![CDATA[żConfirmas que quieres borrar esta pagina? ]]></string>
+		<string><![CDATA[Publicacion]]></string>
+		<string><![CDATA[Si]]></string>
+		<string><![CDATA[No]]></string>
+		<string><![CDATA[Programada]]></string>
+		<string><![CDATA[Fecha de publicacion]]></string>
+		<string><![CDATA[Fecha de expiracion]]></string>
+		<string><![CDATA[Liga externa]]></string>
+		<string><![CDATA[Categoria]]></string>
+		<string><![CDATA[Paginas superiores]]></string>
+		<string><![CDATA[Conteo]]></string>
+		<string><![CDATA[Numero de articulo]]></string>
+		<!-- Parametros de contenido, start @ position 70 -->
+		<string><![CDATA[Administrador de contenido]]></string>
+		<string><![CDATA[Nombre del contenido]]></string>
+		<string><![CDATA[Posicion]]></string>
+		<string><![CDATA[Pagina Web]]></string>
+		<string><![CDATA[Autor]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[Fuente XML]]></string>
+		<string><![CDATA[Plantilla XSL]]></string>
+		<string><![CDATA[Titular]]></string>
+		<string><![CDATA[Cuerpo de texto]]></string>
+		<string><![CDATA[Editar estos datos en modo de diseńo]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[Este articulo solo puede leerse.]]></string>
+		<string><![CDATA[żRealmente quieres borrar este contenido? ]]></string>
+		<string><![CDATA[Imprimir esto]]></string>
+		<string><![CDATA[Enviar a un amigo]]></string>
+		<string><![CDATA[Escribe tu opinion]]></string>
+		<string><![CDATA[Archivo]]></string>
+		<string><![CDATA[Todas las paginas]]></string>
+		<string/>
+		<!-- Cadenas de encuestas, start @ position 90 -->
+		<string><![CDATA[Administrador de encuestas]]></string>
+		<string><![CDATA[Nombre de la encuesta]]></string>
+		<string><![CDATA[Pregunta]]></string>
+		<string><![CDATA[Respuesta N° 1]]></string>
+		<string><![CDATA[Respuesta N° 2]]></string>
+		<string><![CDATA[Respuesta N° 3]]></string>
+		<string><![CDATA[Respuesta N° 4]]></string>
+		<string><![CDATA[Respuesta N° 5]]></string>
+		<string><![CDATA[Numero de votos]]></string>
+		<string><![CDATA[Pagina Web asociada]]></string>
+		<string><![CDATA[Ninguna]]></string>
+		<string><![CDATA[żRealmente quieres borrar esta encuesta? ]]></string>
+		<string><![CDATA[VOTE!]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de tips, start @ position 110 -->
+		<string><![CDATA[Administrador de citas]]></string>
+		<string><![CDATA[Contenido de la cita]]></string>
+		<string><![CDATA[żRealmente quieres borrar esta cita?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de las galerias, start @ position 120 -->
+		<string><![CDATA[Administrador de la galeria de fotos]]></string>
+		<string><![CDATA[Nombre del elemento]]></string>
+		<string><![CDATA[Ruta del elemento]]></string>
+		<string><![CDATA[Comentario]]></string>
+		<string><![CDATA[żRealmente queires borrar este elemento de la galeria?]]></string>
+		<string><![CDATA[Seleccionar]]></string>
+		<string><![CDATA[Thumbnail path ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de miembros, start @ position 130 -->
+		<string><![CDATA[Administrador de miembros]]></string>
+		<string><![CDATA[Alias]]></string>
+		<string><![CDATA[Contraseńa]]></string>
+		<string><![CDATA[E-mail]]></string>
+		<string><![CDATA[Ciudad]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[Copie/pegue esta linea en su software de E-mail para enviar mensaje a todos los miembros: ]]></string>
+		<string><![CDATA[żRealmente quieres borrar a este miembro?]]></string>
+		<string><![CDATA[Tipo]]></string>
+		<string><![CDATA[Estado]]></string>
+		<!-- Cadenas del libro de visitas, start @ position 140 -->
+		<string><![CDATA[Administrador del libro de visitas]]></string>
+		<string><![CDATA[Autor]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Mensaje]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[E-mail]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[żRealmente quieres borrar este mensaje del libro de visitas?]]></string>
+		<string><![CDATA[Firma el libro de visitas]]></string>
+		<string><![CDATA[<b>Gracias por participar en el crecimiento de nuestro sitio.</b><br/>Tu participacion sera anotada y puesta en linea una vez que el Webmaster la haya autorizado.]]></string>
+		<!-- Cadenas de reaccion, start @ position 150 -->
+		<string><![CDATA[Administrador de comentarios]]></string>
+		<string><![CDATA[Autor]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Articulo]]></string>
+		<string><![CDATA[Mensaje]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[żRealmetne quieres borrar este comentario?]]></string>
+		<string/>
+		<string/>
+		<!-- Cadenas de medios, start @ position 160 -->
+		<string><![CDATA[Recursos]]></string>
+		<string><![CDATA[Administrador de recursos]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Tipo]]></string>
+		<string><![CDATA[Ruta]]></string>
+		<string><![CDATA[Comentario]]></string>
+		<string><![CDATA[Anchura (imagen)]]></string>
+		<string><![CDATA[Altura (imagen)]]></string>
+		<string><![CDATA[Imagen]]></string>
+		<string><![CDATA[Video]]></string>
+		<string><![CDATA[Flash]]></string>
+		<string><![CDATA[WAV]]></string>
+		<string><![CDATA[MIDI]]></string>
+		<string><![CDATA[Font]]></string>
+		<string><![CDATA[Zip]]></string>
+		<string><![CDATA[Exe]]></string>
+		<string><![CDATA[Otros]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de subida, start @ position 180 -->
+		<string><![CDATA[Subir archivo]]></string>
+		<string><![CDATA[Enviar]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de discusion, start @ position 190 -->
+		<string><![CDATA[Administrador de foros]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Descripcion]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[Visible]]></string>
+		<string><![CDATA[Oculto]]></string>
+		<string><![CDATA[żRealmente quieres borrar este foro? ]]></string>
+		<string><![CDATA[Publicar]]></string>
+		<string><![CDATA[Responder]]></string>
+		<string><![CDATA[Entrar]]></string>
+		<!-- Cadenas de estadisticas, start @ position 200 -->
+		<string><![CDATA[Analisis del trafico]]></string>
+		<string><![CDATA[Paginas Web vistas]]></string>
+		<string><![CDATA[Visitantes]]></string>
+		<string><![CDATA[Calendario]]></string>
+		<string><![CDATA[Detalle para ]]></string>
+		<string><![CDATA[ Paginas Web vistas]]></string>
+		<string><![CDATA[ Visitantes unicos]]></string>
+		<string><![CDATA[Hora]]></string>
+		<string><![CDATA[URL]]></string>
+		<string><![CDATA[Referente]]></string>
+		<string><![CDATA[Direccion IP]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[Visitas]]></string>
+		<string><![CDATA[Vista de reticula]]></string>
+		<string><![CDATA[Vista grafica]]></string>
+		<string><![CDATA[Pais]]></string>
+		<string><![CDATA[Browser]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de barra de herramientas, start @ position 220 -->
+		<string><![CDATA[Principal]]></string>
+		<string><![CDATA[Modulos]]></string>
+		<string><![CDATA[Moderacion]]></string>
+		<string><![CDATA[Estadisticas]]></string>
+		<string><![CDATA[Ayuda]]></string>
+		<string><![CDATA[Arranque rapido]]></string>
+		<string><![CDATA[visitante activo]]></string>
+		<string><![CDATA[visitantes activos]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de plantillas del menu, start @ position 240 -->
+		<string><![CDATA[Buscar en el sitio]]></string>
+		<string><![CDATA[Registrarme]]></string>
+		<string><![CDATA[Libro de visitas]]></string>
+		<string><![CDATA[Diapositivas]]></string>
+		<string><![CDATA[Foros]]></string>
+		<string><![CDATA[Administracion]]></string>
+		<string><![CDATA[Salir]]></string>
+		<string><![CDATA[Menu]]></string>
+		<string><![CDATA[Entrar]]></string>
+		<string><![CDATA[Sondeo]]></string>
+		<string><![CDATA[Cita]]></string>
+		<string><![CDATA[Regresar]]></string>
+		<string><![CDATA[Siguiente]]></string>
+		<string><![CDATA[Leer mas]]></string>
+		<string><![CDATA[Agregar pagina...]]></string>
+		<string><![CDATA[Agregar articulo...]]></string>
+		<string><![CDATA[Agregar encuesta...]]></string>
+		<string><![CDATA[Aceptar]]></string>
+		<string/>
+		<string/>
+		<!-- Cadenas de plantillas de foro de mensajes, start @ position 260 -->
+		<string><![CDATA[Administrador de mensajes de foros]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Alias]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[Visible]]></string>
+		<string><![CDATA[Oculto]]></string>
+		<string><![CDATA[żRealmente uieres borrar este mensaje?]]></string>
+		<string><![CDATA[Publicar]]></string>
+		<string><![CDATA[Responder a ]]></string>
+		<string><![CDATA[Publicar un articulo]]></string>
+		<string><![CDATA[Escribir un articulo]]></string>
+		<string><![CDATA[Esta es una zona reservada para miembros registrados del sitio. Conectate o <a href="default.asp?id=0&ACT=9">crea</a> una cuenta gratuita para continuar.]]></string>
+		<string><![CDATA[Mensajes en foros]]></string>
+		<string><![CDATA[Cuerpo de texto]]></string>
+		<string><![CDATA[Respondiendo a: ]]></string>
+		<string><![CDATA[Siguiente: ]]></string>
+		<string><![CDATA[Volver a ]]></string>
+		<string><![CDATA[Estructura lineal]]></string>
+		<string><![CDATA[Estructura de arbol]]></string>
+		<string><![CDATA[volver a lista de mensajes]]></string>
+		<!-- Cadenas de plantillas de escritorio, start @ position 280 -->
+		<string><![CDATA[Escritorio]]></string>
+		<string><![CDATA[Numero de miembros ]]></string>
+		<string><![CDATA[Numero de mensaje de libro de visitas a validar ]]></string>
+		<string><![CDATA[Numero de comentario a validar ]]></string>
+		<string><![CDATA[Numero de mensajes en foros ]]></string>
+		<string><![CDATA[Numero de hits]]></string>
+		<string><![CDATA[Bienvenido, ]]></string>
+		<string><![CDATA[Estas corriendo la version: ]]></string>
+		<string/>
+		<string/>
+		<!-- Cadenas de plantillas de por hacer, start @ position 290 -->
+		<string><![CDATA[Lista de tareas]]></string>
+		<string><![CDATA[Haz clic aqui para agregar una nueva tarea]]></string>
+		<string><![CDATA[Crear]]></string>
+		<string><![CDATA[Terminar]]></string>
+		<string><![CDATA[Descripcion]]></string>
+		<string><![CDATA[Importancia]]></string>
+		<string><![CDATA[Agregar]]></string>
+		<string><![CDATA[Fecha]]></string>
+		<string><![CDATA[Terminado]]></string>
+		<string/>
+		<!-- Cadenas de plantillas de inscripcion, start @ position 300 -->
+		<string><![CDATA[Registrarme]]></string>
+		<string><![CDATA[Este registro es gratuito y te permite ver todos los recursos del sitio.]]></string>
+		<string><![CDATA[Usuario]]></string>
+		<string><![CDATA[Contraseńa]]></string>
+		<string><![CDATA[E-mail]]></string>
+		<string><![CDATA[Ciudad/Pais]]></string>
+		<string><![CDATA[Enviar]]></string>
+		<string><![CDATA[(*) muestra los campos obligatorios ]]></string>
+		<string><![CDATA[ˇGracias, ya estas registrado! Ahora puedes conectarte a partir de la forma del lado izquierdo.]]></string>
+		<string><![CDATA[Gracias por registrate. Solo falta que el Webmaster lo autorice para que tu registro sea activado.]]></string>
+		<!-- Cadenas de plantilla de comentarios, start @ position 310 -->
+		<string><![CDATA[En respuesta a ]]></string>
+		<string><![CDATA[Nombre]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Mensaje]]></string>
+		<string><![CDATA[Enviar]]></string>
+		<string><![CDATA[Comentarios ]]></string>
+		<string><![CDATA[Por ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de la plantilla para el motor de skins, start @ position 320 -->
+		<string><![CDATA[Margenes]]></string>
+		<string><![CDATA[Solo margen izquierdo]]></string>
+		<string><![CDATA[Solo margen derecho]]></string>
+		<string><![CDATA[Ambos margenes]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de plantilla de categoria, start @ position 330 -->
+		<string><![CDATA[Categoria]]></string>
+		<string><![CDATA[Administrador de categorias]]></string>
+		<string><![CDATA[Nombre]]></string>
+		<string><![CDATA[Tipo de acceso]]></string>
+		<string><![CDATA[Visibilidad]]></string>
+		<string><![CDATA[Esta categoria no puede ser borrada]]></string>
+		<string><![CDATA[żRealmente quieres borrar esta categoria?]]></string>
+		<string><![CDATA[Ver paginas listadas en esta categoria]]></string>
+		<string><![CDATA[Todas las categorias]]></string>
+		<string/>
+		<!-- CAdenas de plantilla de banners, start @ position 340 -->
+		<string><![CDATA[Banners]]></string>
+		<string><![CDATA[Nombre]]></string>
+		<string><![CDATA[Conteo de clicks]]></string>
+		<string><![CDATA[URL destino]]></string>
+		<string><![CDATA[Fuente del GIF]]></string>
+		<string><![CDATA[Administrador de banners]]></string>
+		<string><![CDATA[żRealmente quieres borrar este banner?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de plantilla de descargas, start @ position 350 -->
+		<string><![CDATA[Descargas]]></string>
+		<string><![CDATA[Nombre]]></string>
+		<string><![CDATA[Ruta]]></string>
+		<string><![CDATA[Sitio Web del editor]]></string>
+		<string><![CDATA[Descripcion]]></string>
+		<string><![CDATA[Licencia]]></string>
+		<string><![CDATA[Precio]]></string>
+		<string><![CDATA[Sistema operativo]]></string>
+		<string><![CDATA[Administrador de descargas]]></string>
+		<string><![CDATA[żRealmente quieres borrar esta descarga?]]></string>
+		<string><![CDATA[Descargado ]]></string>
+		<string><![CDATA[Descargar ahora ]]></string>
+		<string><![CDATA[Descargas mas activas]]></string>
+		<string><![CDATA[Tamańo]]></string>
+		<string><![CDATA[Version]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de la plantilla mapa de sitio, start @ position 370 -->
+		<string><![CDATA[Mapa de sitio]]></string>
+		<string><![CDATA[Resultado de busqueda]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas de la plantilla de E-mail, start @ position 380 -->
+		<string><![CDATA[Vigilancia / Alertas]]></string>
+		<string><![CDATA[Servidor SMTP]]></string>
+		<string><![CDATA[Alertar si hay firma en libro de visitas]]></string>
+		<string><![CDATA[Alertar si hay actividad en Foros]]></string>
+		<string><![CDATA[Alertar si hay actividad en Comentarios]]></string>
+		<string><![CDATA[Alertar si hay actividad en Registros]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Cadenas para mensajes de error, start @ position 390 -->
+		<string><![CDATA[La contraseńa es incorrecta o no pertenece a una suscripcion autorizada. \nCorrigela o vuelve a intentarlo mas tarde.]]></string>
+		<string><![CDATA[ˇSolo puedes votar una vez en cada encuesta!]]></string>
+		<string><![CDATA[Bienvenido, tu registro ha sido autorizado.]]></string>
+		<string><![CDATA[Falta llenar algunos campos obligatorios. Por favor completa el formulario e intentalo de nuevo.]]></string>
+		<string><![CDATA[Ese nombre de usuario ya fue seleccionado; por favor elige otro.]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Opciones de pagina, start @ position 410 -->
+		<string><![CDATA[Campo para ordenar articulos]]></string>
+		<string><![CDATA[Tipo de orden para las paginas]]></string>
+		<string><![CDATA[Titulo]]></string>
+		<string><![CDATA[Fecha de publicacion]]></string>
+		<string><![CDATA[ID]]></string>
+		<string><![CDATA[Ascendente]]></string>
+		<string><![CDATA[Descendente]]></string>
+		<string><![CDATA[Mostrar titulo]]></string>
+		<string><![CDATA[Ver lista de contenido de esta pagina]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Miscelaneos , start @ position 420 -->
+		<string><![CDATA[nuevo]]></string>
+		<string><![CDATA[nuevos mensajes]]></string>
+		<string><![CDATA[Confirmacion por E-mail]]></string>
+		<string><![CDATA[Confirmacion de registro]]></string>
+		<string><![CDATA[Pediste ser registrado en el sitio: ]]></string>
+		<string><![CDATA[Para terminar el proceso de registro, navega hasta la siguiente liga: ]]></string>
+		<string><![CDATA[Esta es la informacion a conservar sobre tu cuenta: ]]></string>
+		<string><![CDATA[Gracias por registrarte. En unos minutos recibiras un mensaje autorizando este registro. ]]></string>
+		<string><![CDATA[administrador]]></string>
+		<string><![CDATA[editor]]></string>
+		<string><![CDATA[miembro]]></string>
+		<string><![CDATA[Suscribete a nuestra carta noticiosa (de baja frecuencia)]]></string>
+		<string><![CDATA[Newsletter]]></string>
+		<string><![CDATA[Posicion]]></string>
+		<string><![CDATA[Arriba]]></string>
+		<string><![CDATA[Abajo]]></string>
+		<string><![CDATA[Izquierda]]></string>
+		<string><![CDATA[Derecha]]></string>
+		<string><![CDATA[Tip: Doble click o CTRL-T para entrar al modo WYSIWYG]]></string>
+		<string><![CDATA[Mostrar campos avanzados]]></string>
+		<!-- Misc , start @ position 440 -->
+		<string><![CDATA[Ocultar campos avanzados]]></string>
+		<string><![CDATA[Group]]></string>
+		<!-- Browsers stats -->
+		<string><![CDATA[Grupo de Browser]]></string>
+		<string><![CDATA[Detalles de la version]]></string>
+		<string><![CDATA[Browser]]></string>
+		<string><![CDATA[Version]]></string>
+		<string><![CDATA[Porcentaje]]></string>
+		<string><![CDATA[Otros]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string><![CDATA[Encoding]]></string>
+		<string><![CDATA[Headline]]></string>
+		<string><![CDATA[Margins]]></string>
+		<string><![CDATA[Body]]></string>
+		<!-- Guestbook's buttons -->
+		<string><![CDATA[Submit]]></string>
+		<string><![CDATA[Reset]]></string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Gracias por participar en el crecimiento de nuestro sitio.</b><br/>Tu participacion sera anotada y puesta en linea una vez que el Webmaster la haya autorizado.]]></string>
+				
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string><![CDATA[New article default publication state]]></string>
+		<string><![CDATA[Activar funciones de email? (jMail requerido)]]></string>
+		<string><![CDATA[]]></string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string><![CDATA[Olvido su password?]]></string>
+		<string><![CDATA[De nuevo olvido su password?]]></string>
+		<string><![CDATA[Escriba su nombre de usuario y su email, click enviar, y recibiras tu password en tu email.]]></string>
+		<string><![CDATA[Usuario]]></string>
+		<string><![CDATA[Email]]></string>
+		<string><![CDATA[Enviar]]></string>
+		<string><![CDATA[Inforacion de usuario]]></string>
+		<string><![CDATA[A request has been made to email the following information to you:]]></string>
+		<string><![CDATA[Password]]></string>
+		<string><![CDATA[Visitanos pronto!]]></string>
+		<!-- 470 -->
+		<string><![CDATA[Incorrecto tu Usuario o Email.]]></string>
+		<string><![CDATA[Your reminder email has been sent.]]></string>
+		<string><![CDATA[Reenter information]]></string>
+		<string><![CDATA[Sign up now !]]></string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string><![CDATA[Mi cuenta]]></string>
+		<string><![CDATA[Forma incompleta, todos los campos son requeridos.]]></string>
+		<string><![CDATA[Tu cuenta ha sido actualizada!]]></string>
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string><![CDATA[none]]></string>
+		<string><![CDATA[Auto-detect]]></string>
+
+	</strings>
+</language>

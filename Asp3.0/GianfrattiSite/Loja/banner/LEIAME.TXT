@@ -1,0 +1,35 @@
+------------------------------------------------------------------------------------
+Alterem o arquivo 
+
+banner/include/admentorconfig.asp
+
+com o caminho de sua loja, localizem o comentario no arquivo
+
+Usuario: ADMIN
+Senha: 123456
+
+
+Abraços.:
+
+Rogerio Silva
+WebDeveloper
+Http://www.libihost.net/wbsolutions
+http://worldbily.cjb.net
+------------------------------------------------------------------------------------
+AdMentor is developed by Stefan Holmberg, webmaster@aspcode.net
+
+
+For questions or bug reports, please contact me through the forum at the website
+http://www.aspcode.net
+
+The site for AdMentor is http://www.aspcode.net/products/admentor
+
+
+Current version is 2.20
+
+The code is written by Stefan Holmberg
+Contributors:
+Shawn Willmon ( shawn@vicad.com ) - traceclicks code in admentordb.asp for version 1.11
+Jeroen Roeper ( http://www.free4u2.com ) - some graphics and also security aspects 
+
+Documentation is available ( online version only ) at: http://www.aspcode.net/products/admentor

@@ -1,0 +1,82 @@
+<html>
+<style type="text/css">
+.xT    {	font-family: Verdana;	
+					font-size: 11px;	
+					font-style: normal;	
+					color: #000000;	
+					background-color: #FFFFFF;	
+					border: 1px solid #666666; 
+			  }
+.btns   {	font-family: Verdana;	
+					font-size: 11px;	
+					font-style: normal;	
+					color: #000000;	
+					background-color: #CCCCCC;	
+					border: 1.8px solid #000000; 
+				}
+.xTB    {
+          font-family: Verdana;
+          font-size: 11px;
+          font-style: normal;
+          color: #000000;
+          background-color: #FFFFFF;
+          border: 1px solid #666666;
+        }
+</style>
+<form name="formT">
+ <tr> 
+   <td valign="top" width="20%">
+   <table width="10%" border="0" cellpadding="4" cellspacing="0" class="xTB">
+	 <tr>
+	 <td width="10%">
+		 <table width="10%" align="center" cellpadding="5" cellspacing="0">
+      <td rowspan="2" style="WIDTH:150px; HEIGHT:30px;">
+      		<select name="num_disp" size=4 class="xT" multiple> 
+      				<option value=12312>12312</option>
+      		</select>
+      </td>
+      <td><input name="vem" type="button" class="btns" 
+								 						onClick="adicionaItem(formT.nums,formT.num_disp);" value="<="></td>
+      <td><input name="vai" type="button" class="btns" 
+								 						onClick="adicionaItem(formT.num_disp,formT.nums);" value="=>"></td>
+        	<td rowspan="2" style="WIDTH: 150px; HEIGHT: 30px;">
+          	<select name="nums" size=4 class="xT" multiple> 
+              	<option value=11111>11111</option>
+            	  <option value=22222>22222</option>
+            	  <option value=33333>33333</option>
+            	  <option value=44444>44444</option>
+              	<option value=55555>55555</option>
+            	  <option value=66666>66666</option>
+            	  <option value=77777>77777</option>
+            	  <option value=88888>88888</option>
+          	</select>
+        	</td>
+<script language="javascript">
+function adicionaItem(campoOrig,campoDest) 
+{
+	x = campoOrig.value;
+	
+	if (x == "")
+	{
+		alert('Selecione um item!');
+	}
+	
+	ListaDisponiveis = campoOrig; 
+	ListaAcordo = campoDest;
+	
+	var len = ListaAcordo.length;
+	
+	for(var i = 0; i < ListaDisponiveis.length; i++) 
+	{
+		if ((ListaDisponiveis.options[i] != null) && 
+			  (ListaDisponiveis.options[i].selected)) 
+		{
+			
+			ListaAcordo.options[len] = new Option(ListaDisponiveis.options[i].text, ListaDisponiveis.options[i].value); 
+			len++;
+			ListaDisponiveis.options[i] = null;  
+			i--;
+		}
+	}
+}
+</script>

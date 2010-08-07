@@ -1,0 +1,19 @@
+Pedidos pendentes da Comunidade VirtuaStore
+http://br.groups.yahoo.com/group/virtuastore
+---------------------------------------------------------
+
+Caixa com opção de escolha de mais de um email para envio de newsletter!  
+
+Cliente ao logar na loja, ler mensagem enviada pelo administrador, pois o cliente pode cadastrar e-mail inválido e o mesmo não terá como receber e-mail ao finalizar uma compra.  
+
+Inserir opção de frete, encomenda normal ou sedex, se encomenda normal desabilita a opção desedex a cobrar  
+
+Montar um controle de banners - Produtos em oferta acima do painel de produtos.  
+
+No link (historico de compras) dar opção no admin para alterar dados como DATA PREVISTA para a entrega, pois nunca é a data que é gerada... :)  
+
+Tela listando compras por posição  
+
+Tela com listagem das compras não pagas nos últimos 15 dias  
+
+Sugestão de logistica e paginação  

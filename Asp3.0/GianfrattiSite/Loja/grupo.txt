@@ -1,0 +1,24 @@
+Gostaria de ajudar a inclusão de cartões na Pack 6, porém não sei como começar. Fiz esta customização a muito tempo, sei que é necessário alteração do BD.
+Inclusão dos campos:
+Parcelas - char 3 ( gravar qtde de parcelas )
+TID	 - char - 50 ( gravar o número da transação Visa)
+Datacaptura - char 20 ( gravar a data da captura Visa )
+NumAutor - char 30 ( gravar número da autorização Redecard)
+NumCV - char - 30 (gravar Número do comprovante Redecard )
+NumSQN - char - 30 ( gravo o número do SQN RedeCard )
+
+config.asp
+DF.asp
+formaspagamento.asp
+fechapedido.asp
+
+Importante:
+Teremos novas opção de pagamento, a ordem destas opções são importantes.
+Cartão Visa
+cartão MasterCard
+Cartão Diners
+Cartão American Express
+Cartão VisaElectron ( não tem na loja )
+
+Esta implementação deve ser realizadas na nova virtuastore, 
+

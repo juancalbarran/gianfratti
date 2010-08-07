@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name><![CDATA[ALBANIAN]]></name>
+	<translator>
+		<name><![CDATA[Mirsad Hoxha]]></name>
+		<email><![CDATA[oxamirsad@yahoo.it]]></email>
+	</translator>
+	<encoding><![CDATA[utf-8]]></encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string><![CDATA[Administratori i sitit]]></string>
+		<string><![CDATA[Shfleto]]></string>
+		<string><![CDATA[Settings]]></string>
+		<string><![CDATA[Faqet]]></string>
+		<string><![CDATA[Te dhenat]]></string>
+		<string><![CDATA[Rubrika]]></string>
+		<string><![CDATA[Sygjerimet]]></string>
+		<string><![CDATA[Fotografite]]></string>
+		<string><![CDATA[Aneteret]]></string>
+		<string><![CDATA[Guestbook]]></string>
+		<string><![CDATA[Statistikat]]></string>
+		<string><![CDATA[Feedback]]></string>
+		<string><![CDATA[Forumi]]></string>
+		<string><![CDATA[Upload]]></string>
+		<string><![CDATA[Krijo...]]></string>
+		<string><![CDATA[Elimino]]></string>
+		<string><![CDATA[Modifiko...]]></string>
+		<string><![CDATA[   OK   ]]></string>
+		<string><![CDATA[Fshij]]></string>
+		<!-- General settings, strat @ position 20 -->
+		<string><![CDATA[Website settings]]></string>
+		<string><![CDATA[Emri i sitit]]></string>
+		<string><![CDATA[login i Administratorit]]></string>
+		<string><![CDATA[Fjalekalimi]]></string>
+		<string><![CDATA[META Titull]]></string>
+		<string><![CDATA[Emaili i Administratorit]]></string>
+		<string><![CDATA[URL e sitit]]></string>
+		<string><![CDATA[META Keywords]]></string>
+		<string><![CDATA[META e pershkrimit]]></string>
+		<string><![CDATA[Paraqitja e sitit]]></string>
+		<string><![CDATA[Gjuha]]></string>
+		<string><![CDATA[Frontpage]]></string>
+		<string><![CDATA[path i Logos]]></string>
+		<string><![CDATA[Visualizo toolbar]]></string>
+		<string><![CDATA[Copyright]]></string>
+		<string><![CDATA[Lista e opzioneve]]></string>
+		<string><![CDATA[Trego menun]]></string>
+		<string><![CDATA[Trego Toolbar]]></string>
+		<string><![CDATA[Trego form per kerkim]]></string>
+		<string><![CDATA[Lista Add-Ons]]></string>
+		<string><![CDATA[Sondazhi]]></string>
+		<string><![CDATA[Sygjerimet]]></string>
+		<string><![CDATA[Galeria e fotografive]]></string>
+		<string><![CDATA[Guestbook]]></string>
+		<string><![CDATA[Forumi]]></string>
+		<string><![CDATA[Trego daten e artikullit dhe autorin]]></string>
+		<string><![CDATA[Regjistro default]]></string>
+		<string><![CDATA[Mesazhi i forumit ne fillim]]></string>
+		<string><![CDATA[Mesazhi fillestar i Guestbook]]></string>
+		<string><![CDATA[Slogan]]></string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string><![CDATA[Webmanaxheri i sitit]]></string>
+		<string><![CDATA[Titulli i faqes]]></string>
+		<string><![CDATA[Faqe dytesore]]></string>
+		<string><![CDATA[Tipi i hyrjes]]></string>
+		<string><![CDATA[Edito]]></string>
+		<string><![CDATA[Posicioni i lajmerimit]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Kjo faqe nuk mund te eliminohet!]]></string>
+		<string><![CDATA[Confirmo eliminimin e kesaj faqe? ]]></string>
+		<string><![CDATA[Publikimi]]></string>
+		<!-- 60 -->
+		<string><![CDATA[Po]]></string>
+		<string><![CDATA[Jo]]></string>
+		<!--  end-->
+		<string><![CDATA[Vendosja]]></string>
+		<string><![CDATA[Data e publikimit]]></string>
+		<string><![CDATA[Data e eliminimit]]></string>
+		<string><![CDATA[Link i jashtem]]></string>
+		<string><![CDATA[Kategoria]]></string>
+		<string><![CDATA[Faqet me te shikuara]]></string>
+		<string><![CDATA[numerimi]]></string>
+		<string><![CDATA[Numeri i artikujve]]></string>
+		<!-- Content settings, start @ position 70 -->
+		<string><![CDATA[Manager i permbajtjes]]></string>
+		<string><![CDATA[Pembajtja e titullit]]></string>
+		<string><![CDATA[Posicioni]]></string>
+		<string><![CDATA[Webpage]]></string>
+		<string><![CDATA[Autori]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[XML Source]]></string>
+		<string><![CDATA[XSL template]]></string>
+		<string><![CDATA[Headlines]]></string>
+		<string><![CDATA[Body]]></string>
+		<string><![CDATA[Edito keto te dhena ne design mode]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Ky artikull eshte vetm per lexim.]]></string>
+		<string><![CDATA[Je i sigurte qe do ti eliminosh keto te dhena? ]]></string>
+		<string><![CDATA[Printo kete]]></string>
+		<string><![CDATA[Dergoja nje shoku]]></string>
+		<string><![CDATA[Jep opinionin tend]]></string>
+		<string><![CDATA[Arkivi]]></string>
+		<string><![CDATA[Te gjitha faqet]]></string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string><![CDATA[Manageri i sondazhit]]></string>
+		<string><![CDATA[Emri i sondazhit]]></string>
+		<string><![CDATA[Pyetje]]></string>
+		<string><![CDATA[Pergjigje n°1]]></string>
+		<string><![CDATA[Pergjigje n°2]]></string>
+		<string><![CDATA[Pergjigje n°3]]></string>
+		<string><![CDATA[Pergjigje n°4]]></string>
+		<string><![CDATA[Pergjigje n°5]]></string>
+		<string><![CDATA[Numeri i votimeve]]></string>
+		<string><![CDATA[Associated webpage]]></string>
+		<string><![CDATA[Asnje]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete sondazh? ]]></string>
+		<string><![CDATA[VOTO!]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string><![CDATA[Manager i sygjerimeve]]></string>
+		<string><![CDATA[Manager i permbajtejes]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete sygjerim?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string><![CDATA[Manager i fitografive]]></string>
+		<string><![CDATA[Emri i fotografive]]></string>
+		<string><![CDATA[Path i fotografise]]></string>
+		<string><![CDATA[Koment]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete foto nga galeria??]]></string>
+		<string><![CDATA[seleksiono]]></string>
+		<string><![CDATA[Thumbnail path ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string><![CDATA[Manager i pjestareve]]></string>
+		<string><![CDATA[Pseudonimi]]></string>
+		<string><![CDATA[Fjalekalimi]]></string>
+		<string><![CDATA[Email]]></string>
+		<string><![CDATA[Qyeti]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[Kopjo kete rresht ne emailin tend qe ti dergosh nje emailte gjith pjestareve: ]]></string>
+		<string><![CDATA[Do te eliminosh me te vertet kete pjestar?]]></string>
+		<string><![CDATA[Tipologjia]]></string>
+		<string><![CDATA[Gjendja]]></string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string><![CDATA[Guestbook manager]]></string>
+		<string><![CDATA[Autori]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Mesazhi]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[Email]]></string>
+		<string><![CDATA[Pamja]]></string>
+		<string><![CDATA[Je i sigurte qe do ta eliminosh nga Guestbook?]]></string>
+		<string><![CDATA[Rregjistro ne guestbook]]></string>
+		<string><![CDATA[<b>faleminderit per pjesmarrjen!</b><br/>Mesazhi yt do te publikohet on-line pas aprovimit te webmasterit.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string><![CDATA[Manager Feedback]]></string>
+		<string><![CDATA[Autori]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Artikulli]]></string>
+		<string><![CDATA[Mesazhi]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete feedback?]]></string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string><![CDATA[Ressources]]></string>
+		<string><![CDATA[Ressources manager]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Tipi]]></string>
+		<string><![CDATA[Path]]></string>
+		<string><![CDATA[Koment]]></string>
+		<string><![CDATA[Gjeresi]]></string>
+		<string><![CDATA[lartesi]]></string>
+		<string><![CDATA[Foto]]></string>
+		<string><![CDATA[Video]]></string>
+		<string><![CDATA[Flash]]></string>
+		<string><![CDATA[Wav]]></string>
+		<string><![CDATA[Midi]]></string>
+		<string><![CDATA[Font]]></string>
+		<string><![CDATA[Zip]]></string>
+		<string><![CDATA[Exe]]></string>
+		<string><![CDATA[Te tjera]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string><![CDATA[File upload]]></string>
+		<string><![CDATA[Dergo]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string><![CDATA[Manager i forumit]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Pershkrimi]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Ne dukje]]></string>
+		<string><![CDATA[I fshehur]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete forum? ]]></string>
+		<string><![CDATA[Posto]]></string>
+		<string><![CDATA[Pergjigju]]></string>
+		<string><![CDATA[Enter]]></string>
+		<!-- Stats strings, start @ position 200 -->
+		<string><![CDATA[Analizat e trafikut]]></string>
+		<string><![CDATA[Webpage e vizituara]]></string>
+		<string><![CDATA[Shikuesit]]></string>
+		<string><![CDATA[Kalendari]]></string>
+		<string><![CDATA[Detajet]]></string>
+		<string><![CDATA[Webpage e vizituara]]></string>
+		<string><![CDATA[Te njejtet vizitor]]></string>
+		<string><![CDATA[Ora]]></string>
+		<string><![CDATA[URL]]></string>
+		<string><![CDATA[Referimi]]></string>
+		<string><![CDATA[Adresa IP]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[Vizitat]]></string>
+		<string><![CDATA[Grid view]]></string>
+		<string><![CDATA[Grafiku]]></string>
+		<string><![CDATA[Ctry]]></string>
+		<string><![CDATA[Browser]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string><![CDATA[Main]]></string>
+		<string><![CDATA[Add-ons]]></string>
+		<string><![CDATA[Moderatori]]></string>
+		<string><![CDATA[Statistikat]]></string>
+		<string><![CDATA[Ndihme]]></string>
+		<string><![CDATA[Quickstart]]></string>
+		<string><![CDATA[Shikuesi on-line]]></string>
+		<string><![CDATA[Skikuesit on-line]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string><![CDATA[Kerko]]></string>
+		<string><![CDATA[Regjistrohu]]></string>
+		<string><![CDATA[Guestbook]]></string>
+		<string><![CDATA[Slide show]]></string>
+		<string><![CDATA[Forum]]></string>
+		<string><![CDATA[Administrimi]]></string>
+		<string><![CDATA[Logout]]></string>
+		<string><![CDATA[Menu]]></string>
+		<string><![CDATA[Login]]></string>
+		<string><![CDATA[Sondazhi]]></string>
+		<string><![CDATA[Quotation]]></string>
+		<string><![CDATA[Back]]></string>
+		<string><![CDATA[Next]]></string>
+		<string><![CDATA[lexo me teper]]></string>
+		<string><![CDATA[Shto nje faqe...]]></string>
+		<string><![CDATA[Shto nje artikull...]]></string>
+		<string><![CDATA[Shto nje sondazh...]]></string>
+		<string><![CDATA[Enter]]></string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string><![CDATA[Manager i sondazheve te forumit]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Pseudonmi]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Ne dukje]]></string>
+		<string><![CDATA[i Fshehur]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete mesazh]]></string>
+		<string><![CDATA[Posto]]></string>
+		<string><![CDATA[Ktheji pergjigje ]]></string>
+		<string><![CDATA[Posto nje artikull]]></string>
+		<string><![CDATA[Shkruaj nje artikull]]></string>
+		<string><![CDATA[Kjo zone eshte erezervuar anetereve. Login ose <a href="default.asp?id=0&ACT=9">Krijo</a> nje account te ri qe te vazhdosh.]]></string>
+		<string><![CDATA[Mesazhet e forumit]]></string>
+		<string><![CDATA[Permbatja]]></string>
+		<string><![CDATA[Kthim i pergjigjes se: ]]></string>
+		<string><![CDATA[Tjetra: ]]></string>
+		<string><![CDATA[Prapa ne ]]></string>
+		<string><![CDATA[Pamje lineare]]></string>
+		<string><![CDATA[Pamje peme]]></string>
+		<string><![CDATA[Prapa ne listene e mesazheve]]></string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string><![CDATA[Desktop]]></string>
+		<string><![CDATA[Numri i anetareve ]]></string>
+		<string><![CDATA[Numri i mesazheve te guestbook per tu aprovuar]]></string>
+		<string><![CDATA[Numri i mesazheve te feedback per tu aprovuar ]]></string>
+		<string><![CDATA[Numri i mesazheve te forumit ]]></string>
+		<string><![CDATA[Numri i hits]]></string>
+		<string><![CDATA[Miresevini]]></string>
+		<string><![CDATA[Ju jeni duke perdorur versionin: ]]></string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string><![CDATA[lista puneve]]></string>
+		<string><![CDATA[Kliko per te shtuar nje pune]]></string>
+		<string><![CDATA[Krijo]]></string>
+		<string><![CDATA[Fund]]></string>
+		<string><![CDATA[Pershkrimi]]></string>
+		<string><![CDATA[Rendesia]]></string>
+		<string><![CDATA[Shto]]></string>
+		<string><![CDATA[Data]]></string>
+		<string><![CDATA[Mbarimi]]></string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string><![CDATA[Regjistrohu]]></string>
+		<string><![CDATA[Ky regjistrim eshte i lire dhe te lejon te perdoresh te gjith sitin.]]></string>
+		<string><![CDATA[Login]]></string>
+		<string><![CDATA[Fjalekalimi]]></string>
+		<string><![CDATA[Email]]></string>
+		<string><![CDATA[Qyteti/Shteti]]></string>
+		<string><![CDATA[dergo]]></string>
+		<string><![CDATA[(*) Te dhena te detyruara]]></string>
+		<string><![CDATA[Faleminderit,tani jeni te rregjistruar!Tani mund te beni login ne form ne te majte.]]></string>
+		<string><![CDATA[Faleminderit per rregjistrimin,rregjistrimi juaj duhet te konfirmohet nga webmasteri qe te aktivizohet.]]></string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string><![CDATA[Kthe pergjigje ]]></string>
+		<string><![CDATA[Emri]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Mesazhi]]></string>
+		<string><![CDATA[Dergo]]></string>
+		<string><![CDATA[Pergjigju ]]></string>
+		<string><![CDATA[Nga ]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string><![CDATA[Anesoret]]></string>
+		<string><![CDATA[Vetem anesorja e majte]]></string>
+		<string><![CDATA[Vetem anesorja e djathte]]></string>
+		<string><![CDATA[Te dy anesoret]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string><![CDATA[Kategoria]]></string>
+		<string><![CDATA[Manager i Kategorive]]></string>
+		<string><![CDATA[Emri]]></string>
+		<string><![CDATA[Tipi]]></string>
+		<string><![CDATA[Shikimi]]></string>
+		<string><![CDATA[Kjo kategori nuk mund te eliminohet]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete kategori?]]></string>
+		<string><![CDATA[Lista e kategorise]]></string>
+		<string><![CDATA[Te gjitha kategorite]]></string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string><![CDATA[Banners]]></string>
+		<string><![CDATA[Emri]]></string>
+		<string><![CDATA[Kontatori i Click]]></string>
+		<string><![CDATA[Click e shko ne URL]]></string>
+		<string><![CDATA[Gif path]]></string>
+		<string><![CDATA[Manager i Barnner]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete banner?]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string><![CDATA[Downloads]]></string>
+		<string><![CDATA[Emri]]></string>
+		<string><![CDATA[Path]]></string>
+		<string><![CDATA[Website i autorit]]></string>
+		<string><![CDATA[Pershkrimi]]></string>
+		<string><![CDATA[Licensa]]></string>
+		<string><![CDATA[Cmimi]]></string>
+		<string><![CDATA[Sistemi Operativ]]></string>
+		<string><![CDATA[Manager i Download]]></string>
+		<string><![CDATA[Je i sigurte qe do te eliminosh kete download?]]></string>
+		<string><![CDATA[Downloaded ]]></string>
+		<string><![CDATA[Download tani ]]></string>
+		<string><![CDATA[Top downloads]]></string>
+		<string><![CDATA[Madhesia]]></string>
+		<string><![CDATA[Versioni]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string><![CDATA[Harta e Sitit]]></string>
+		<string><![CDATA[Kerko resultatet]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string><![CDATA[Funksionet e Emailit]]></string>
+		<string><![CDATA[serveri Smtp]]></string>
+		<string><![CDATA[lajmero Guestbook te ri]]></string>
+		<string><![CDATA[lajmero Forums te ri]]></string>
+		<string><![CDATA[lajmero Reactions te ri]]></string>
+		<string><![CDATA[lajmero Register te ri]]></string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string><![CDATA[Fjakalim i gabuar ose nuk eshte akoma aprovuar rregjistrimmi . Provo me vone.]]></string>
+		<string><![CDATA[Mund te votosh vetem nje here per sondazh!]]></string>
+		<string><![CDATA[Miresevini, rregjistrimi juaj eshte aprovuar.]]></string>
+		<string><![CDATA[Disa te dhena mungoine. Te lutem provo ta plotesosh edhe nje here.]]></string>
+		<string><![CDATA[Ky username eshte i zene nga nje tjeter, Te litem zgjidh nje tjeter.]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Page options, start @ position 410 -->
+		<string><![CDATA[Vizualizo artikujt per ]]></string>
+		<string><![CDATA[Vizualizo artikujt te renditur per]]></string>
+		<string><![CDATA[Titulli]]></string>
+		<string><![CDATA[Data e publikimit]]></string>
+		<string><![CDATA[ID]]></string>
+		<string><![CDATA[Rendit nga lart]]></string>
+		<string><![CDATA[rendit nga posht]]></string>
+		<string><![CDATA[Trego titullin]]></string>
+		<string><![CDATA[Trego te dhenat e kesaj faqe]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Misc , start @ position 420 -->
+		<string><![CDATA[I ri]]></string>
+		<string><![CDATA[Messages i ri]]></string>
+		<string><![CDATA[Konfirmo me Email]]></string>
+		<string><![CDATA[Regjistro konfirmimin]]></string>
+		<string><![CDATA[Ti aplikove per regjistrimin ne kete site: ]]></string>
+		<string><![CDATA[Qe te plotesosh kete regjistrim,ndiq kete link: ]]></string>
+		<string><![CDATA[Keto jane informazionet qe duhet te mbash ne lidhje me rregjistrimin e ri: ]]></string>
+		<string><![CDATA[Faleminderit per rregjistrimin. Do te te dergojme nje Email pas pak minutash per te konfirmuar kete rregjistrim ]]></string>
+		<string><![CDATA[Administratori]]></string>
+		<string><![CDATA[editor]]></string>
+		<!-- Misc , start @ position 430 -->
+		<string><![CDATA[Anetar]]></string>
+		<string><![CDATA[Rregjistrohu ne News letter]]></string>
+		<string><![CDATA[Newsletter]]></string>
+		<string><![CDATA[Posicioni]]></string>
+		<string><![CDATA[Siper]]></string>
+		<string><![CDATA[Posht]]></string>
+		<string><![CDATA[Majtas]]></string>
+		<string><![CDATA[Djathtas]]></string>
+		<string><![CDATA[Tip:clicko dy here ose CTRL-T per te hyre ne WYSIWYG form ]]></string>
+		<string><![CDATA[Show advanced fields]]></string>
+		<!-- Misc , start @ position 440 -->
+		<string><![CDATA[Bej te pa dukshme direktorite]]></string>
+		<string><![CDATA[Grup]]></string>
+		<!-- Browsers stats -->
+		<string><![CDATA[Shfleto grupin]]></string>
+		<string><![CDATA[Detaje per versionin]]></string>
+		<string><![CDATA[Browser]]></string>
+		<string><![CDATA[Versioni]]></string>
+		<string><![CDATA[Perqindja]]></string>
+		<string><![CDATA[Te tjera]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[]]></string>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string><![CDATA[Encoding]]></string>
+		<string><![CDATA[Headline]]></string>
+		<string><![CDATA[Margins]]></string>
+		<string><![CDATA[Body]]></string>
+		<!-- Guestbook's buttons -->
+		<string><![CDATA[Dergo]]></string>
+		<string><![CDATA[Rishkruaj]]></string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Faleminderit per pjesmarrjen tuaj  ne zhvillimin e ketij siti!</b><br/>pjsmarrja juaj do te publikohet on-line pas konfirmimit te webmasterit.]]></string>
+		
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string><![CDATA[Artikulli i ri ne posizionin fillestar]]></string>
+		<string><![CDATA[Activizo Emailin ?]]></string>
+		<string><![CDATA[trego email COM componente]]></string>		
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string><![CDATA[Me kujto passwordin?]]></string>
+		<string><![CDATA[Nuk te kujtohet passwordi?]]></string>
+		<string><![CDATA[Shkruaj emrin e rregjistruar dhe adresen email, click, do te dergojme Email me passwordin e harruar.]]></string>
+		<string><![CDATA[Emrin e rregjistruar si antar]]></string>
+		<string><![CDATA[Adresen Email ]]></string>
+		<string><![CDATA[Dergo]]></string>
+		<string><![CDATA[Informacion mbi perdoruesin]]></string>
+		<string><![CDATA[Eshte bere nje kerkese per te derguar keto informacione:]]></string>
+		<string><![CDATA[Password]]></string>
+		<string><![CDATA[Ju lutem na visitoni se shpejti!]]></string>
+		<!-- 470 -->
+		<string><![CDATA[Adresa Email ose emri i gabuar .]]></string>
+		<string><![CDATA[]]></string>
+		<string><![CDATA[Reenter information]]></string>
+		<string><![CDATA[Hyj tani !]]></string>
+		
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string><![CDATA[Accounti im]]></string>
+		<string><![CDATA[Nuk i ke plotesuar te gjtha,provo edhe nje here.]]></string>
+		<string><![CDATA[Account yt agiiornua me sukses!]]></string>
+		
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string><![CDATA[none]]></string>
+		<string><![CDATA[Auto-detect]]></string>
+		
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string><![CDATA[Opcione per strumentet]]></string>
+
+	</strings>
+</language>

@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<name>English</name>
+	<encoding>utf-8</encoding>
+	<dir>ltr</dir>
+	<translator>
+		<name>John Roland</name>
+		<email>john_roland@email.com</email>
+	</translator>
+	<strings>
+		<!-- 1 -->
+		<string>Website Administrator</string>
+		<string>Browse site</string>
+		<string>Settings</string>
+		<string>Pages</string>
+		<string>Contents</string>
+		<string>Surveys</string>
+		<string>Quotations</string>
+		<string>Pictures</string>
+		<string>Members</string>
+		<!-- 10 -->
+		<string>Guestbook</string>
+		<string>Statistics</string>
+		<string>Reactions</string>
+		<string>Forums</string>
+		<string>Upload</string>
+		<string>Create...</string>
+		<string>Delete</string>
+		<string>Modify...</string>
+		<string>   OK   </string>
+		<string>Cancel</string>
+		<!-- 20 -->
+		<string>Website settings</string>
+		<string>Site name</string>
+		<string>Administrator login</string>
+		<string>Password</string>
+		<string>META Title</string>
+		<string>Administrator Email</string>
+		<string>Website URL</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Skin</string>
+		<!-- 30 -->
+		<string>Language</string>
+		<string>Frontpage</string>
+		<string>Logo path</string>
+		<string>Show toolbar</string>
+		<string>Copyright</string>
+		<string>Moderation status</string>
+		<string>Show menu</string>
+		<string>Show article tool bar</string>
+		<string>Show search form</string>
+		<string>Add-ons list</string>
+		<!-- 40 -->
+		<string>Surveys</string>
+		<string>Quotations</string>
+		<string>Picture gallery</string>
+		<string>Guestbook</string>
+		<string>Forums</string>
+		<string>Show article's date and author</string>
+		<string>Register default status</string>
+		<string>Forums's message default status</string>
+		<string>Guestbook's message default status</string>
+		<string>Slogan</string>
+		<!-- 50 -->
+		<string>Webpage Administrator</string>
+		<string>Page title</string>
+		<string>Parent page</string>
+		<string>Access type</string>
+		<string>Edito</string>
+		<string>Advertisement tag</string>
+		<string>Visibility</string>
+		<string>This page can't be deleted!</string>
+		<string>Confirm the supression of this page? </string>
+		<string>Publication</string>
+		<!-- 60 -->
+		<string>Yes</string>
+		<string>No</string>
+		<string>Scheduled</string>
+		<string>Publication date</string>
+		<string>Expiration date</string>
+		<string>External link</string>
+		<string>Category</string>
+		<string>Top pages</string>
+		<string>Count</string>
+		<string>Number of article</string>
+		<!-- 70 -->
+		<string>Contents manager</string>
+		<string>Content title</string>
+		<string>Position</string>
+		<string>Webpage</string>
+		<string>Author</string>
+		<string>Date</string>
+		<string>XML Source</string>
+		<string>XSL template</string>
+		<string>Headlines</string>
+		<string>Body</string>
+		<!-- 80 -->
+		<string>Edit these datas in design mode</string>
+		<string>Visibility</string>
+		<string>This article is read only.</string>
+		<string>Do you really want to delete this content? </string>
+		<string>Print this</string>
+		<string>Send to friend</string>
+		<string>Give your opinion</string>
+		<string>Archive</string>
+		<string>All the pages</string>
+		<string></string>
+		<!-- 90 -->
+		<string>Surveys manager</string>
+		<string>Survey name</string>
+		<string>Question</string>
+		<string>Answer 1</string>
+		<string>Answer 2</string>
+		<string>Answer 3</string>
+		<string>Answer 4</string>
+		<string>Answer 5</string>
+		<string>Vote number</string>
+		<string>Associated webpage</string>
+		<!-- 100 -->
+		<string>None</string>
+		<string>Do you really want to delete this survey? </string>
+		<string>VOTE!</string>
+		<string>Answer 6</string>
+		<string>Answer 7</string>
+		<string>Answer 8</string>
+		<string>Answer 9</string>
+		<string>Answer 10</string>
+		<string></string>
+		<string></string>
+		<!-- 110 -->
+		<string>Quotation manager</string>
+		<string>Quotation content</string>
+		<string>Do you really want to delete this quotation?</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 120 -->
+		<string>Pictures gallery manager</string>
+		<string>Picture name</string>
+		<string>Main picture path </string>
+		<string>Comment</string>
+		<string>Do you really want to remove this picture from the gallery??</string>
+		<string>Select</string>
+		<string>Thumbnail path</string>
+		<string>Id</string>
+		<string>Category</string>
+		<string></string>
+		<!-- 130 -->
+		<string>Member manager</string>
+		<string>Pseudo</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>City</string>
+		<string>Date</string>
+		<string>Copy/paste this line into your email software to send an email to ever member: </string>
+		<string>Do you really want to remove this member?</string>
+		<string>Type</string>
+		<string>State</string>
+		<!-- 140 -->
+		<string>Guestbook manager</string>
+		<string>Author</string>
+		<string>Title</string>
+		<string>Message</string>
+		<string>Date</string>
+		<string>Email</string>
+		<string>Visibility</string>
+		<string>Do you really want to remove this message from the Guestbook?</string>
+		<string>Sign the guestbook</string>
+		<string><![CDATA[<b>Thanks for the participation  to the growth of our website!</b><br/>Your participation will be noted and published on-line after validation by the webmaster.]]></string>
+		<!-- 150 -->
+		<string>Reaction manager</string>
+		<string>Author</string>
+		<string>Title</string>
+		<string>Article</string>
+		<string>Message</string>
+		<string>Date</string>
+		<string>Visibility</string>
+		<string>Do you really want to delete this reaction?</string>
+		<string></string>
+		<string></string>
+		<!-- 160 -->
+		<string>Ressources</string>
+		<string>Ressources manager</string>
+		<string>Title</string>
+		<string>Type</string>
+		<string>Path</string>
+		<string>Comment</string>
+		<string>Width</string>
+		<string>Height</string>
+		<string>Picture</string>
+		<string>Video</string>
+		<!-- 170 -->
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Others</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 180 -->
+		<string>File upload</string>
+		<string>Send</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 190 -->
+		<string>Forums manager</string>
+		<string>Title</string>
+		<string>Description</string>
+		<string>Visibility</string>
+		<string>Visible</string>
+		<string>Hidden</string>
+		<string>Do you really want to delete this forum? </string>
+		<string>Post</string>
+		<string>Reply</string>
+		<string>Enter</string>
+		<!-- 200 -->
+		<string>Traffic analysis</string>
+		<string>Viewed webpage</string>
+		<string>Visitors</string>
+		<string>Calendar</string>
+		<string>Detail for </string>
+		<string> Viewed webpage</string>
+		<string> Unique visitors</string>
+		<string>Time</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<!-- 210 -->
+		<string>IP address</string>
+		<string>Date</string>
+		<string>Visits</string>
+		<string>Grid view</string>
+		<string>Graph view</string>
+		<string>Ctry</string>
+		<string>Browser</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 220 -->
+		<string>Main</string>
+		<string>Add-ons</string>
+		<string>Moderation</string>
+		<string>Stats</string>
+		<string>Help</string>
+		<string>Quickstart</string>
+		<string>active visitor</string>
+		<string>active visitors</string>
+		<string></string>
+		<string></string>
+		<!-- 230 -->
+		<string>Date Format</string>
+		<string>Date Separator</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 240 -->
+		<string>Search site</string>
+		<string>Register</string>
+		<string>Guestbook</string>
+		<string>Slide show</string>
+		<string>Forums</string>
+		<string>Administration</string>
+		<string>Logout</string>
+		<string>Menu</string>
+		<string>Login</string>
+		<string>Survey</string>
+		<!-- 250 -->
+		<string>Quotation</string>
+		<string>Back</string>
+		<string>Next</string>
+		<string>Read more</string>
+		<string>Add a page...</string>
+		<string>Add an article...</string>
+		<string>Add a user poll...</string>
+		<string>Enter</string>
+		<string></string>
+		<string></string>
+		<!-- 260 -->
+		<string>Forums messages manager</string>
+		<string>Title</string>
+		<string>Pseudo</string>
+		<string>Visibility</string>
+		<string>Visible</string>
+		<string>Hidden</string>
+		<string>Do you really want to delete this message</string>
+		<string>Post</string>
+		<string>Answer to </string>
+		<string>Post an article</string>
+		<!-- 270 -->
+		<string>Write an article</string>
+		<string><![CDATA[This area is reserved to site members. Login or <a href="default.asp?id=0&ACT=9">create</a> a free account to continue.]]></string>
+		<string>Forums messages</string>
+		<string>Body</string>
+		<string>In reply of: </string>
+		<string>Next: </string>
+		<string>Back to </string>
+		<string>Linear view</string>
+		<string>Tree view</string>
+		<string>back to the message list</string>
+		<!-- 280 -->
+		<string>Desktop</string>
+		<string>Number of member</string>
+		<string>Number of guestbook message to validate</string>
+		<string>Number of reaction to validate</string>
+		<string>Number of forums messages</string>
+		<string>Number of hits</string>
+		<string>Welcome</string>
+		<string>You are running version</string>
+		<string></string>
+		<string></string>
+		<!-- 290 -->
+		<string>Task list</string>
+		<string>Click here to add a new task</string>
+		<string>Create</string>
+		<string>End</string>
+		<string>Description</string>
+		<string>Importance</string>
+		<string>Add</string>
+		<string>Date</string>
+		<string>Finished</string>
+		<string></string>
+		<!-- 300 -->
+		<string>Register</string>
+		<string>This registration is free and allows you to reach all the resources of the site.</string>
+		<string>Login</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>City</string>
+		<string>Submit</string>
+		<string>(*) shows the compulsory fields </string>
+		<string>Thank you, you are now registrated! Now you can login with the form on the left hand side. After that you can check and costumize your own info.</string>
+		<string>Thank you for registering, your registration must now be validated by the webmaster to be active.</string>
+		<!-- 310 -->
+		<string>React to </string>
+		<string>Name</string>
+		<string>Title</string>
+		<string>Message</string>
+		<string>Submit</string>
+		<string>Reactions </string>
+		<string>By </string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 320 -->
+		<string>Margins</string>
+		<string>Only left margin</string>
+		<string>Only right margin</string>
+		<string>Both margin</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 330 -->
+		<string>Category</string>
+		<string>Categories manager</string>
+		<string>Name</string>
+		<string>Access type</string>
+		<string>Visibility</string>
+		<string>This category cannot be deleted</string>
+		<string>Do you really want to delete this category?</string>
+		<string>View the page list of this category</string>
+		<string>All the categories</string>
+		<string></string>
+		<!-- 340 -->
+		<string>Banners</string>
+		<string>Name</string>
+		<string>Click count</string>
+		<string>Target URL</string>
+		<string>Gif source</string>
+		<string>Banners manager</string>
+		<string>Do you really want to delete this banner?</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 350 -->
+		<string>Downloads</string>
+		<string>Name</string>
+		<string>Path</string>
+		<string>Editor's website</string>
+		<string>Description</string>
+		<string>License</string>
+		<string>Price</string>
+		<string>Operating system</string>
+		<string>Downloads manager</string>
+		<string>Do you really want to delete this download?</string>
+		<!-- 360 -->
+		<string>Downloaded </string>
+		<string>Download now </string>
+		<string>Top downloads</string>
+		<string>Size</string>
+		<string>Version</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 370 -->
+		<string>Site map</string>
+		<string>Search result</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 380 -->
+		<string>Email functionnalities</string>
+		<string>Smtp server</string>
+		<string>Alert on Guestbook</string>
+		<string>Alert on Forums</string>
+		<string>Alert on Reactions</string>
+		<string>Alert on Register</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 390 -->
+		<string>Incorrect password or not already a validated subscription. \nCorrect or retry later.</string>
+		<string>You could just vote once per survey!</string>
+		<string>Welcome, your registration has been validated.</string>
+		<string>Some mandatory fields are missing. Please complete the form and try again.</string>
+		<string>The username is taken already, please choose another one.</string>
+		<string>You are currently using the default administrator account!\nRemember that anyone can login as administrator and change your content until you use this default account.</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 400 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 410 -->
+		<string>Article sorting field</string>
+		<string>Page sorting order</string>
+		<string>Title</string>
+		<string>Publication date</string>
+		<string>ID</string>
+		<string>Ascending</string>
+		<string>Descending</string>
+		<string>Show title</string>
+		<string>View the content list of this page</string>
+		<string></string>
+		<!-- 420 -->
+		<string>new</string>
+		<string>new messages</string>
+		<string>Confirmation by Email</string>
+		<string>Register confirmation</string>
+		<string>You applied for registration on the site: </string>
+		<string>In order to complete this registration, browse to the following link: </string>
+		<string>Here is the information to keep about your account: </string>
+		<string>Thanks for registering. You will receive an email in some minutes to validate this registration. </string>
+		<string>administrator</string>
+		<string>editor</string>
+		<!-- 430 -->
+		<string>member</string>
+		<string>Subscribe to our newsletter (low traffic)</string>
+		<string>Newsletter</string>
+		<string>Position</string>
+		<string>Top</string>
+		<string>Bottom</string>
+		<string>Left</string>
+		<string>Right</string>
+		<string>Tip: Double click or CTRL-T to enter the WYSIWYG mode</string>
+		<string>Show advanced fields</string>
+		<!-- 440 -->
+		<string>Hide advanced fields</string>
+		<string>Group</string>
+		<string>Browser group</string>
+		<string>Detail of the versions</string>
+		<string>Browser</string>
+		<string>Version</string>
+		<string>Percentage</string>
+		<string>Others</string>
+		<string></string>
+		<string></string>
+		<!-- 450 -->
+		<string>Encoding</string>
+		<string>Headline</string>
+		<string>Margins</string>
+		<string>Body</string>
+		<string>Submit</string>
+		<string>Reset</string>
+		<string><![CDATA[<b>Thanks for the participation  to the growth of our website!</b><br/>Your participation will be noted and published on-line after validation by the webmaster.]]></string>
+		<string>New article default publication state</string>
+		<string>Activate Email functions ? (jMail required)</string>
+		<string>Indicates the installed email COM component</string>
+		<!-- 460 -->
+		<string>Forgot password?</string>
+		<string>So You Forgot Your Password?</string>
+		<string>Enter your member name and email address below, click send, and you will be sent an email containing your password.</string>
+		<string>Member Name</string>
+		<string>Email Address</string>
+		<string>Submit</string>
+		<string>User information</string>
+		<string>A request has been made to email the following information to you:</string>
+		<string>Password</string>
+		<string>Please visit soon!</string>
+		<!-- 470 -->
+		<string>Incorrect User Name or Email Address.</string>
+		<string>Your reminder email has been sent.</string>
+		<string>Reenter information</string>
+		<string>Sign up now !</string>
+		<string>My Account</string>
+		<string>Incomplete form, all the fields with a (*) signal are requiered.</string>
+		<string>Your account has successfully been updated!</string>
+		<string>none</string>
+		<string>Auto-detect</string>
+		<string>Menu bar</string>
+		<!-- 480 -->
+		<string>Home</string>
+		<string>Back to the home page</string>
+		<string>Directories</string>
+		<string>Directories manager</string>
+		<string>New directory</string>
+		<string>Name</string>
+		<string>Published</string>
+		<string>New directory</string>
+		<string>New category</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>New item</string>
+		<string>New directory</string>
+		<string>Modify directory</string>
+		<string>New category</string>
+		<string>Modify category</string>
+		<string>New sub-category</string>
+		<string>Modify sub-category</string>
+		<string>New item</string>
+		<string>Modify item</string>
+		<string>Summary</string>
+		<!-- 500 -->
+		<string>Description</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Picture path</string>
+		<string>Public submission</string>
+		<string>Items stored</string>
+		<string>User</string>
+		<string>Download</string>
+		<string>Website</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 520 -->
+		<string>Users</string>
+		<string>Downloads</string>
+		<string>Web Pages</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>Employee</string>
+		<string>Product</string>
+		<string></string>
+		<!-- 530 -->
+		<string>Directory</string>
+		<string>Home</string>
+		<string>Number of websites in the directory: </string>
+		<string>Submit a web site</string>
+		<string>Total hits</string>
+		<string>Your submission has been recorded and will now be moderated by the Webmaster. Thank you for your contribution.</string>
+		<string>Most popular</string>
+		<string>Hits</string>
+		<string>Just in...</string>
+		<string>New submission</string>
+		<!-- 540 -->
+		<string>New directory submissions</string>
+		<string>Short description</string>
+		<string>Offline for maintenance</string>
+		<string>Number of files: </string>
+		<string>Page</string>
+		<string>BACK</string>
+		<string>NEXT</string>
+		<string>Online members</string>
+		<string>Feedback</string>
+		<string>Your name</string>
+		<!-- 550 -->
+		<string>Your email</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>Send to the webmaster</string>
+		<string>Rich media</string>
+		<string>Send a message to</string>
+		<string>Your email address:</string>
+		<string>Your name:</string>
+		<string>Subject:</string>
+		<string>Message:</string>
+		<!-- 560 -->
+		<string>Send message</string>
+		<string>You could send a message if you were logged in.</string>
+		<string>Your message has been sent.</string>
+		<string>Articles matches</string>
+		<string>Forums matches</string>
+		<string>Export this list to CSV file</string>
+		<string>Position</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Posts</string>
+		<string>Last Posts</string>
+		<string>Author</string>
+		<string>Started by</string>
+		<string>Replies</string>
+		<string>Topic</string>
+		<string>Posted</string>
+		<string>Post reply</string>
+		<!-- 580 -->
+		<string>Discussions</string>
+		<string>Discussion</string>
+		<string>Search forums</string>
+		<string>Reply to an Existing Message</string>
+		<string>The message you are replying to</string>
+		<string>Posted by</string>
+		<string>on</string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>New thread</string>
+		<!-- 590 -->
+		<string>This is an automatic alert.
+		Someone has posted an answer to your post on our forums. You can view it at:</string>
+		<string>Moderator</string>
+		<string>Moderated by </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<string>Reactions default status</string>
+		<string>Articles default status</string>
+		<string>Article paging</string>
+		<string>Since</string>
+		<!-- 600 -->
+		<string>From</string>
+		<string>Customize Skin</string>
+		<string>Customizable</string>
+		<string>Name</string>
+		<string>Skin</string>
+		<string>Author</string>
+		<string>Remember me</string>
+		<string>Last posts from forums</string>
+		<string>Last articles</string>
+		<string>Language Editor</string>
+		<!-- 610 -->
+		<string>Tools</string>
+		<string>Content Management Settings</string>
+		<string>Add-ons Manager</string>
+		<string>Show on Toolbar</string>
+		<string>Don't Show</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 620 -->
+		<string></string>
+		<string>KnowBase</string>
+		<string>Linear</string>
+		<string>Structured</string>
+		<string>Sector:</string>
+		<string>[Top]</string>
+		<string>Related articles</string>
+		<string>Search</string>
+		<string>Add Post</string>
+		<string>All</string>
+		<!-- 630 -->
+		<string>in Sector:</string>
+		<string>Home</string>
+		<string>Go to Sector:</string>
+		<string>Add new relationships</string>
+		<string>Knowbase</string>
+		<string>Sector</string>
+		<string>Post</string>
+		<string>Title</string>
+		<string>Version</string>
+		<string>Intro</string>
+		<!-- 640 -->
+		<string>Display</string>
+		<string>Id</string>
+		<string>Name</string>
+		<string>Remark</string>
+		<string>Visible</string>
+		<string>Sector</string>
+		<string>Body</string>
+		<string>add..</string>
+		<string>Related article</string>
+		<string>Relations of</string>
+		<!-- 650 -->
+		<string>Known relations</string>
+		<string>KB-Editor</string>
+		<string>Off</string>
+		<string>Anonymous</string>
+		<string>Member</string>
+		<string>There are no posts in this section.</string>
+		<string>Remove next relation</string>
+		<string>Go</string>
+		<string>Please choose one of the availables knowledge bases.</string>
+		<string>Administrator level knowledge bases:</string>
+		<!-- 660 -->
+		<string>Editor level knowledge bases:</string>
+		<string>Member level knowledge bases:</string>
+		<string>Anonymous level knowledge bases:</string>
+		<string>Error</string>
+		<string>The Knowledge base you are trying to open doesn't exist or is not available to you. If you think that this is un error please alert webmaster.</string>
+		<string>There are no available Knowledge bases!</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 670 -->
+		<string></string>
+		<string>List Manager</string>
+		<string>Lists</string>
+		<string>List</string>
+		<string>Entries</string>
+		<string>Entry</string>
+		<string>Are you sure you want to delete this List? Be sure that all features that uses this list are disabled.</string>
+		<string>This list is a system list and it can't be deleted or renamed!</string>
+		<string>Caption</string>
+		<string>Value</string>
+		<!-- 680 -->
+		<string>Are you sure you want to delete this entry?</string>
+		<string>This entry belongs to a sytem list and it can't be deleted or have his value changed!</string>
+		<string>Initial Caption</string>
+		<string>Initial Value</string>
+		<string>List Sorting Order</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 690 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 700 -->
+		<string></string>
+		<string>So</string>
+		<string>Mo</string>
+		<string>Tu</string>
+		<string>We</string>
+		<string>Th</string>
+		<string>Fr</string>
+		<string>Sa</string>
+		<string></string>
+		<string></string>
+		<!-- 710 -->
+		<string></string>
+		<string>January</string>
+		<string>February</string>
+		<string>March</string>
+		<string>April</string>
+		<string>May</string>
+		<string>June</string>
+		<string>July</string>
+		<string>August</string>
+		<string>September</string>
+		<!-- 720 -->
+		<string>October</string>
+		<string>November</string>
+		<string>December</string>
+		<string>Events</string>
+		<string>More info under:</string>
+		<string>id</string>
+		<string>date</string>
+		<string>description</string>
+		<string>Short description</string>
+		<string>Description</string>
+		<!-- 730 -->
+		<string>Link</string>
+		<string>Visible</string>
+		<string>Date</string>
+		<string>Event calendar</string>
+		<string>Calendar</string>
+		<string>Event calendar</string>
+		<string>back</string>
+		<string>next</string>
+		<string>preview start at</string>
+		<string>preview</string>
+		<!-- 740 -->
+		<string>new event</string>
+		<string>calendars state</string>
+		<string>submit events</string>
+		<string>Choose calendar</string>
+		<string>Calendar</string>
+		<string>Go</string>
+		<string>visible to</string>
+		<string>You don't have the permission to use this calendar</string>
+		<string>preview</string>
+		<string>events per page</string>
+		<!-- 750 -->
+		<string>previews per page</string>
+		<string>Event matches</string>
+		<string>Look for event</string>
+		<string>Go</string>
+		<string>Number of events to validate</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 760 -->
+		<string></string>
+		<string>Chat</string>
+		<string>Channel</string>
+		<string>Create new channel</string>
+		<string>Your browser does NOT support frames.</string>
+		<string>guest</string>
+		<string>Message</string>
+		<string>Name</string>
+		<string>Description</string>
+		<string>Channel</string>
+		<!-- 770 -->
+		<string>Description</string>
+		<string>Op</string>
+		<string>User</string>
+		<string>New users</string>
+		<string>Current users</string>
+		<string>leave channel</string>
+		<string>Chat</string>
+		<string>Owner</string>
+		<string>Drop all old messages</string>
+		<string>Chat-Editor</string>
+		<!-- 780 -->
+		<string>id</string>
+		<string>Private message to</string>
+		<string>back</string>
+		<string>drop</string>
+		<string>You've been droped by operator. Please leave channel.</string>
+		<string>Action, to perform on</string>
+		<string>operator</string>
+		<string>member</string>
+		<string>Join</string>
+		<string>You can close this window.</string>
+		<!-- 790 -->
+		<string>joins channel</string>
+		<string>leaves channel</string>
+		<string>users per channel</string>
+		<string>Drop me from all channels</string>
+		<string>min. between clean up processes</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 800 -->
+		<string></string>
+		<string>Member Manager</string>
+		<string>Search form</string>
+		<string>User</string>
+		<string>Sex</string>
+		<string>Age</string>
+		<string>Ocupation</string>
+		<string>City</string>
+		<string>State</string>
+		<string>Country</string>
+		<!-- 810 -->
+		<string>Since</string>
+		<string>View all members</string>
+		<string>My Profile</string>
+		<string>id</string>
+		<string>First name</string>
+		<string>Last name</string>
+		<string>Website</string>
+		<string>Photo (path)</string>
+		<string>Choose</string>
+		<string>Address</string>
+		<!-- 820 -->
+		<string>Zip</string>
+		<string>Phone</string>
+		<string>Public display</string>
+		<string>Welcome message</string>
+		<string>Admin notes</string>
+		<string>Member Profile</string>
+		<string>Welcome</string>
+		<string>There are no members with that pseudo in present community.</string>
+		<string>You can only see this member profile once you're logged.</string>
+		<string>The profile you're trying to view does not exist or it's unavailable for public display.</string>
+		<!-- 830 -->
+		<string>Name</string>
+		<string>Add to friends list</string>
+		<string>have successfully been added to your friends list.</string>
+		<string>have successfully been removed to your friends list.</string>
+		<string>Members</string>
+		<string>Friends manager</string>
+		<string>Friends</string>
+		<string>Actions</string>
+		<string>Remove</string>
+		<string>Send Message</string>
+		<!-- 840 -->
+		<string>Mail User</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 850 -->
+		<string></string>
+		<string>Internal messages</string>
+		<string>Messages per user</string>
+		<string>Your message was sent successfully.</string>
+		<string>You have no new messages</string>
+		<string>You have new messages</string>
+		<string>Below you'll find the list of all messages adressed to you.</string>
+		<string>Date</string>
+		<string>From</string>
+		<string>Subject</string>
+		<!-- 860 -->
+		<string>Send Internal message to</string>
+		<string>Message</string>
+		<string>Sorry, but this user has his mailbox full. Please again back later.</string>
+		<string>This feature is Set to MEMBERS ONLY!</string>
+		<string>You can only acess messages that are adressed to you!!!</string>
+		<string>Max number of messages each users can store:</string>
+		<string>Number of messages you can still recieve:</string>
+		<string>wrote:</string>
+		<string>Present message answer this previous message of yours.</string>
+		<string>Answer</string>
+		<!-- 870 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 880 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 890 -->
+		<string></string>
+		<string>Subject</string>
+		<string>Message</string>
+		<string>send as HTML</string>
+		<string>Attachment</string>
+		<string>Newsletter</string>
+		<string>id</string>
+		<string>subject</string>
+		<string>action</string>
+		<string>send</string>
+		<!-- 900 -->
+		<string>send again</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 910 -->
+		<string></string>
+		<string>uppercased login</string>
+		<string>Authentification</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string>text direction</string>
+		<string>left-to-right</string>
+		<string>right-to-left</string>
+		<string></string>
+		<string></string>
+		<!-- 920 -->
+		<string></string>
+		<string>Module info</string>
+		<string>description</string>
+		<string>version</string>
+		<string>last modified</string>
+		<string>by</string>
+		<string>homepage</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 930 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 940 -->
+		<string></string>
+		<string>choose target dir</string>
+		<string>add a file</string>
+		<string>Upload</string>
+		<string>name</string>
+		<string>size</string>
+		<string>type</string>
+		<string>last modified</string>
+		<string>action</string>
+		<string>Delete</string>
+		<!-- 950 -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<!-- 960 -->
+		<string></string>
+		<string>Editor Manager</string>
+		<string>id</string>
+		<string>name</string>
+		<string>config string</string>
+		<string>active</string>
+		<string>group</string>
+		<string>use old editor</string>
+		<string>HTML Editor</string>
+		<string></string>
+		<!-- 970 -->
+		<string></string>
+		<string>Classified</string>
+		<string>Classified Manager</string>
+		<string>Classified adds</string>
+		<string>Agreement Terms</string>
+		<string>Edit Add</string>
+		<string>Edit category</string>
+		<string>Entrance</string>
+		<string>Get back to Entrance screen</string>
+		<string>Publishers Settings</string>
+		<!-- 980 -->
+		<string>New Add</string>
+		<string>Next links will allow you to create and costumize Classified Module.</string>
+		<string>Adds</string>
+		<string>Categories</string>
+		<string>Classified Status</string>
+		<string>Existing adds</string>
+		<string>Pending adds</string>
+		<string>Expired adds</string>
+		<string>New Publisher</string>
+		<string>Edit publisher</string>
+		<!-- 990 -->
+		<string>Publisher Details</string>
+		<string>Publishers List</string>
+		<string>Publisher Adds</string>
+		<string>New Category</string>
+		<string>Welcome display</string>
+		<string>View Access</string>
+		<string>Post Access</string>
+		<string>Members explicit posting authorization</string>
+		<string>Enable Adds</string>
+		<string>Immediately</string>
+		<!-- 1000 -->
+		<string>After Administrator check</string>
+		<string>There are no categories defined</string>
+		<string>Back to</string>
+		<string>Pending Adds to validate</string>
+		<string>Pending Classified Publishers to validate</string>
+		<string>Category Description</string>
+		<string>Category Status</string>
+		<string>Included Categories</string>
+		<string>Included Adds</string>
+		<string>Pending</string>
+		<!-- 1010 -->
+		<string>Expired</string>
+		<string>Do you really want to delete this category?</string>
+		<string>Category</string>
+		<string>Add Status</string>
+		<string>Publisher</string>
+		<string>Disabled</string>
+		<string>Actually Shown</string>
+		<string>Price</string>
+		<string>Available Units</string>
+		<string>More info at site</string>
+		<!-- 1020 -->
+		<string>Starting date</string>
+		<string>Ending date</string>
+		<string>Do you realy want to remove this announcement?</string>
+		<string>Publishers Agreement Terms</string>
+		<string>Mandatory fields at member profile</string>
+		<string>Autorization initial date</string>
+		<string>Autorization ending date</string>
+		<string>Enabled</string>
+		<string>Do you realy want to remove this publisher?</string>
+		<string>Below you'll find all available categories. You can also create new categories and subcategories or modify settings for already existing ones.</string>
+		<!-- 1030 -->
+		<string>Below you'll find all available categories. Each category can have included sub-categories or adds. You can also look for adds by using the search feature present at the margin box.</string>
+		<string>Classified Module is not available at present time</string>
+		<string>Create new add</string>
+		<string>Enter</string>
+		<string>Photo</string>
+		<string>Comments</string>
+		<string>views</string>
+		<string>Just In</string>
+		<string>Search</string>
+		<string>Candidate</string>
+		<!-- 1040 -->
+		<string>Candidate for publisher</string>
+		<string>My Adds</string>
+		<string>Accept</string>
+		<string>Decline</string>
+		<string>Next fields must be correctly set at your Account profile</string>
+		<string>Your Classified publisher candidate request was successfully submited for Administation evaluation.</string>
+		<string>required data</string>
+		<string>access membership form</string>
+		<string>You don't have Edit access for this Add. If you feel that you should, please contact Website Administrators</string>
+		<string>You don't have Posting New Adds access. If you feel that you should, please contact Website Administrators</string>
+		<!-- 1050 -->
+		<string>Jan</string>
+		<string>Feb</string>
+		<string>Mar</string>
+		<string>Apr</string>
+		<string>May</string>
+		<string>Jun</string>
+		<string>Jul</string>
+		<string>Aug</string>
+		<string>sep</string>
+		<string>Oct</string>
+		<string>Nov</string>
+		<string>Dec</string>
+	</strings>
+</language>

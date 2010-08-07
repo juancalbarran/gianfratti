@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<language>
+	<name>Catalan</name>
+	<translator>
+		<name>Carles Del Collado</name>
+		<email>cdelcollado@hotmail.com</email>
+	</translator>
+	<encoding>ISO-8859-1</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Menú d'administració</string>
+		<string>Exploració de la web</string>
+		<string>Configuració</string>
+		<string>Pàgines</string>
+		<string>Continguts</string>
+		<string>Enquestes</string>
+		<string>Cites</string>
+		<string>Imatges</string>
+		<string>Membres</string>
+		<string>Llibre de visites</string>
+		<string>Estadístiques</string>
+		<string>Opinions</string>
+		<string>Fórums</string>
+		<string>Pujar arxius</string>
+		<string>Crear...</string>
+		<string>Esborrar</string>
+		<string>Modificar...</string>
+		<string>Aceptar</string>
+		<string>Cancelar</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Configuració de la web</string>
+		<string>Nom de la web</string>
+		<string>Administrador login</string>
+		<string>Contrasenya</string>
+		<string>Títol META</string>
+		<string>Email de l'Administrador</string>
+		<string>URL de la web</string>
+		<string>Paraules clau META</string>
+		<string>Descripció META</string>
+		<string>Pell</string>
+		<string>Idioma</string>
+		<string>Pàgina inicial</string>
+		<string>Path del Logo</string>
+		<string>Mostrar barra d'utils</string>
+		<string>Copyright</string>
+		<string>Estatus de Moderació</string>
+		<string>Mostrar menú</string>
+		<string>Mostrar barra d'utils als articles</string>
+		<string>Mostrar cercador</string>
+		<string>Llista de móduls</string>
+		<string>Enquestes</string>
+		<string>Cites</string>
+		<string>Galería fotogràfica</string>
+		<string>Llibre de visites</string>
+		<string>Fórums</string>
+		<string>Mostrar data i autor als articles</string>
+		<string>Estat d'un nou registre d'usuari</string>
+		<string>Estat d'un nou missatge als Fórums</string>
+		<string>Estat d'un nou missatge al Llibre de Visites</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Gestor de pàgines</string>
+		<string>Títol de la pàgina</string>
+		<string>Pàgina pare</string>
+		<string>Tipus d'accés</string>
+		<string>Editorial</string>
+		<string>Etiqueta d'anunci</string>
+		<string>Visibilitat</string>
+		<string>Aquesta pàgina no pot ser esborrada!</string>
+		<string>De veritat vols esborrar aquesta pàgina? </string>
+		<string>Publicació</string>
+		<!-- 60 -->
+		<string>Si</string>
+		<string>No</string>
+		<!--  end-->
+		<string>Planificació</string>
+		<string>Data de publicació</string>
+		<string>Data d'expiració</string>
+		<string>Link extern</string>
+		<string>Categoría</string>
+		<string>Pàgines més visitades</string>
+		<string>Accesos</string>
+		<string>Número d'article</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Gestor de continguts</string>
+		<string>Títol del contingut</string>
+		<string>Posició</string>
+		<string>Pàgina web</string>
+		<string>Autor</string>
+		<string>Data</string>
+		<string>Font XML</string>
+		<string>Plantilla XSL</string>
+		<string>Titular</string>
+		<string>Text</string>
+		<string>Editar en mode de disseny</string>
+		<string>Visibilitat</string>
+		<string>Aquest article només pot ser llegit.</string>
+		<string>De veritat vols esborrar aquest contingut? </string>
+		<string>Imprimir</string>
+		<string>Enviar a un amic</string>
+		<string>Dona la teva opinió</string>
+		<string>Arxiu</string>
+		<string>Totes les pàgines</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Gestor d'enquestes</string>
+		<string>Nom de l'enquesta</string>
+		<string>Pregunta</string>
+		<string>Resposta n°1</string>
+		<string>Resposta n°2</string>
+		<string>Resposta n°3</string>
+		<string>Resposta n°4</string>
+		<string>Resposta n°5</string>
+		<string>Nombre de vots emesos</string>
+		<string>Pàgina web associada</string>
+		<string>Cap</string>
+		<string>De veritat vols esborrar aquesta enquesta? </string>
+		<string>Vota!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Gestor de cites</string>
+		<string>Contingut de la cita</string>
+		<string>De veritat vols esborrar aquesta cita?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Gestor de Imatges</string>
+		<string>Nom de la Imatge</string>
+		<string>Path de la Imatge</string>
+		<string>Comentari</string>
+		<string>De veritat vols esborrar aquesta Imatge de la galería?</string>
+		<string>Selecciona</string>
+		<string>Path de la previsualització</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Gestor de membres</string>
+		<string>Alies</string>
+		<string>Contrasenya</string>
+		<string>Email</string>
+		<string>Ciutaty</string>
+		<string>Data</string>
+		<string>Copía/enganxa aquesta línia al teu programa de correu per enviar un missatge a tothom: </string>
+		<string>De veritat vols esborrar a aquest mebre?</string>
+		<string>Tipus</string>
+		<string>Estat</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Gestor del llibre de visites</string>
+		<string>Autor</string>
+		<string>Títol</string>
+		<string>Missatge</string>
+		<string>Data</string>
+		<string>Email</string>
+		<string>Visibilitat</string>
+		<string>De veritat vols esborrar aquest missatge del llibre de visites?</string>
+		<string>Signar al llibre de visites</string>
+		<string><![CDATA[<b>Gràcies per la teva participació!</b><br/>La teva col-laboració serà visible tan bon punt sigui autoritzada per l'administrador.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Gestor d'opinions</string>
+		<string>Autor</string>
+		<string>Títol</string>
+		<string>Article</string>
+		<string>Missatge</string>
+		<string>Data</string>
+		<string>Visibilitat</string>
+		<string>De veritat vols esborrar aquesta opinió?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Recursos</string>
+		<string>Gestor de recursos</string>
+		<string>Títol</string>
+		<string>Tipus</string>
+		<string>Path</string>
+		<string>Comentari</string>
+		<string>Amplada</string>
+		<string>Alçada</string>
+		<string>Imatge</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Altres tipus</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 XXX-->
+		<string>Pujar arxiu</string>
+		<string>Enviar</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Gestor de Fórums</string>
+		<string>Títol</string>
+		<string>Descripció</string>
+		<string>Visibilitat</string>
+		<string>Visible</string>
+		<string>Ocult</string>
+		<string>De veritat vols esborrar aquest fórum? </string>
+		<string>Publicar</string>
+		<string>Contestar</string>
+		<string>Entrar</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Anàlisi de trafic</string>
+		<string>Pàgines vistes</string>
+		<string>Visitants</string>
+		<string>Calendari</string>
+		<string>Detall de </string>
+		<string> Pàgines visitades</string>
+		<string> Vistants únics</string>
+		<string>Hora</string>
+		<string>URL</string>
+		<string>Referent</string>
+		<string>Adreça IP</string>
+		<string>Data</string>
+		<string>Visites</string>
+		<string>Vista en taula</string>
+		<string>Vista en gràfic</string>
+		<string>País</string>
+		<string>Navegador</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Principal</string>
+		<string>Móduls</string>
+		<string>Moderació</string>
+		<string>Estadístiques</string>
+		<string>Ajuda</string>
+		<string>Guía ràpida</string>
+		<string>visitant actiu</string>
+		<string>visitants actius</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Cercar</string>
+		<string>Registre</string>
+		<string>Llibre de visites</string>
+		<string>Galería d'imatges</string>
+		<string>Fórums</string>
+		<string>Administració</string>
+		<string>Sortir</string>
+		<string>Menu</string>
+		<string>Entrar</string>
+		<string>Enquesta</string>
+		<string>Cita</string>
+		<string>Tornar</string>
+		<string>Següent</string>
+		<string>Llegir més</string>
+		<string>Afegir pàgina</string>
+		<string>Afegir article...</string>
+		<string>Afegir enquesta...</string>
+		<string>Aceptar</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Gestor de missatges als Fórums</string>
+		<string>Títol</string>
+		<string>Pseudónim</string>
+		<string>Visibilitat</string>
+		<string>Visible</string>
+		<string>Ocult</string>
+		<string>De veritat vols esborrar aquest missatge</string>
+		<string>Publicar</string>
+		<string>Respondre a </string>
+		<string>Publicar un article</string>
+		<string>Escriure un article</string>
+		<string>Area reservada als membres registrats. Inicía una sessió o &lt;a href="default.asp?id=0&amp;ACT=9"&gt;crea&lt;/a&gt; un compte per continuar.</string>
+		<string>Missatges dels Fórums</string>
+		<string>Cos</string>
+		<string>Responent a: </string>
+		<string>Següent: </string>
+		<string>Tornar a </string>
+		<string>Vista linial</string>
+		<string>Vista arborescent</string>
+		<string>tornar a la llista de missatges</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Escriptori</string>
+		<string>Nombre de membres</string>
+		<string>Nombre de missatges al llibre de visites per validar </string>
+		<string>Nombre d'opinions per validar </string>
+		<string>Nombre de missatges als Fórums </string>
+		<string>Nombre de visites</string>
+		<string>Benvingut</string>
+		<string>Estàs executant la versió: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Tasques pendents</string>
+		<string>Fes clic ací per afegir una nova tasca a fer</string>
+		<string>Crear</string>
+		<string>Acabar</string>
+		<string>Descripció</string>
+		<string>Importancia</string>
+		<string>Afegir</string>
+		<string>Data</string>
+		<string>Acabat</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Registrar-se</string>
+		<string>Registrar-se es de franc i permet accedir a tots els recursos d'aquesta web.</string>
+		<string>Identificador</string>
+		<string>Contrasenya</string>
+		<string>Email</string>
+		<string>Ciutat/Pais</string>
+		<string>Enviar</string>
+		<string>(*) camps obligatoris</string>
+		<string>Registre completat. Ja et pots conectar fent servir el formulari que hi ha a l'esquerra.</string>
+		<string>Gràcies per donar-te d'alta. L'Administrador t'activarà en breu.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Responent a </string>
+		<string>Nom</string>
+		<string>Títol</string>
+		<string>Missatge</string>
+		<string>Enviar</string>
+		<string>Opinions </string>
+		<string>per </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Marge</string>
+		<string>Només marge esquerra</string>
+		<string>Només marge dret</string>
+		<string>Ambdos marges</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Categoríes</string>
+		<string>Gestor de Categoríes</string>
+		<string>Nom</string>
+		<string>Tipus d'accés</string>
+		<string>Visibilitat</string>
+		<string>Aquesta categoría no pot ser esborrada</string>
+		<string>De veritat vols esborrar aquesta categoría?</string>
+		<string>Veure les pàgines per categoríes</string>
+		<string>Totes les categoríes</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Banners</string>
+		<string>Nom</string>
+		<string>Accesos</string>
+		<string>URL destí</string>
+		<string>Origen de l'imatge</string>
+		<string>Gestor de Banners</string>
+		<string>De veritat vols esborrar aquest banner?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Descàrregues</string>
+		<string>Nom</string>
+		<string>Path</string>
+		<string>Seu web de l'autor</string>
+		<string>Descripció</string>
+		<string>Llicència</string>
+		<string>Preu</string>
+		<string>Sistema Operatiu</string>
+		<string>Gestor de descàrregues</string>
+		<string>De veritat vols esborrar aquest arxiu?</string>
+		<string>Descarregat </string>
+		<string>Dedscarregar ara</string>
+		<string>Més descarregats</string>
+		<string>Tamany</string>
+		<string>Versió</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Mapa de la web</string>
+		<string>Resultat de la cerca</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Funcionalitats de l'Email </string>
+		<string>servidor Smtp</string>
+		<string>Avisar si hi han signatures al llibre de visites</string>
+		<string>Avisar si hi han nous missatges als Fórums</string>
+		<string>Avisar si hi han noves opinions</string>
+		<string>Avisar de nous registres</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Contrasenya incorrecta o subcripció no validada. \nCPot intentar-ho més tard.</string>
+		<string>Només es pot votar una vegada per enquesta!</string>
+		<string>Benvingut, ha estat validat el seu registre.</string>
+		<string>T'has deixat d'omplenar algún camp obligatoriS. Si et plau, completa el formulari i torna a intentar-ho.</string>
+		<string>Aquest nom d'usuari ja existeix. Si et plau, escull-ne un altre.</string>
+		<string>Estàs emprant el perfil de l'administrador.\nRecorda que qualsevol pot entrar com a administrador i canviar el contingut de la web mentre utilitzin aquest perfil..</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Ordenació dels articles</string>
+		<string>Ordenar les pàgines per</string>
+		<string>Títol</string>
+		<string>Data de publicació</string>
+		<string>ID</string>
+		<string>Ascendent</string>
+		<string>Descendent</string>
+		<string>Mostrar títol</string>
+		<string>Veure els continguts de la pàgina</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>nou</string>
+		<string>nou missatge</string>
+		<string>Confirmació per Email</string>
+		<string>Registre confirmat</string>
+		<string>Has demanat ser registrat en aquesta web: </string>
+		<string>Per a completar el teu registre, ves a: </string>
+		<string>Aquestes son les teves dades: </string>
+		<string>Gràcies per registrar-te. En pocs minuts rebràs un missatge. </string>
+		<string>administrador</string>
+		<string>editor</string>
+		<!-- Misc , start @ position 430 -->
+		<string>membre</string>
+		<string>Subscriu-te a la nostra llista de distribució (de baixa intensitat)</string>
+		<string>Newsletter</string>
+		<string>Posició</string>
+		<string>Amunt</string>
+		<string>Avall</string>
+		<string>Esquerra</string>
+		<string>Dreta</string>
+		<string>Consell: Fes doble clic o prem CTRL-T per mode WYSIWYG</string>
+		<string>Mostrar camps avançats</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Amaga camps avançats</string>
+		<string>Grup</string>
+		<!-- Browsers stats -->
+		<string>Grup al que pertany el navegador</string>
+		<string>Detall de les versions</string>
+		<string>navegador</string>
+		<string>Versió</string>
+		<string>Percentatge</string>
+		<string>Altres</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Codificació</string>
+		<string>Capçalera</string>
+		<string>Margens</string>
+		<string>Cos</string>
+		<!-- Guestbook's buttons -->
+		<string>Enviar</string>
+		<string>Esborrar</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Gràcies per participar-hi.</b><br/>La teva participació serà tinguda en consideració i posada online per l'administrador.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Estat del nou article publicat</string>
+		<string>Activar funcions d'Email? (és necessari jMail)</string>
+		<string>Indica quin component d'Email està instal.lat</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Has perdut la contrasenya?</string>
+		<string>Així que has perdut la contrasenya?</string>
+		<string>Posa el teu identificador i el teu email. Prem Enviar i rebràs un Email amb la teva contrasenya.</string>
+		<string>Nom del membre</string>
+		<string>Adreça d'Email</string>
+		<string>Enviar</string>
+		<string>Informació de l'usuari</string>
+		<string>Hem rebut la petició d'enviar-te les següents dades per email:</string>
+		<string>Contrasenya</string>
+		<string>Si us plau, torna aviat!</string>
+		<!-- 470 -->
+		<string>Nom d'usuari o email incorrecte</string>
+		<string>L'email de recordatori ha estat enviat.</string>
+		<string>Reintrodueix la informació</string>
+		<string>Dna't d'alta ara! !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>El meu perfil</string>
+		<string>Formulari incomplert. Tots els camps son obligatoris.</string>
+		<string>El teu perfil ha estat modificat amb éxit</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>cap</string>
+		<string>Autodetecció</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>barra de Menú</string>
+		<string>Pàgina principal</string>
+		<string>Tornar a la pàgina principal</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Directoris</string>
+		<string>Gestor de Directoris</string>
+		<string>Nou directori</string>
+		<string>Nom</string>
+		<string>Publicat</string>
+		<string>Nou directori</string>
+		<string>Nova categoría</string>
+		<string>Categories</string>
+		<!-- 490 -->
+		<string>Nou item</string>
+		<string>Nou directori</string>
+		<string>Modificar directori</string>
+		<string>Nova categoría</string>
+		<string>Modificar categoría</string>
+		<string>Nova sub-categoría</string>
+		<string>Modificar sub-categoría</string>
+		<string>Nou item</string>
+		<string>Modificar item</string>
+		<string>Sumari</string>
+		<!-- 500 -->
+		<string>Descripció</string>
+		<string>Seu web</string>
+		<string>URL de descàrrega</string>
+		<string>Path de l'imatge</string>
+		<string>Enviat públicament</string>
+		<string>Items enmagatzemats</string>
+		<string>Usuari</string>
+		<string>Descàrregues</string>
+		<string>Seu web</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Llibre</string>
+		<string>MP3</string>
+		<string>Treballador</string>
+		<string>Producte</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Usuaris</string>
+		<string>Deswcàrregues</string>
+		<string>Planes Web</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Llibre</string>
+		<string>MP3</string>
+		<string>Treballador</string>
+		<string>Producte</string>
+		<string/>
+		<!-- 530 -->
+		<string>Directori</string>
+		<string>Pàgina principal</string>
+		<string>Nombre de seus web al directori: </string>
+		<string>Enviar una nova seu web</string>
+		<string>Visites</string>
+		<string>la teva proposta ha estat enregistrada. Gràcies per la teva col.laboració.</string>
+		<string>Els més populars</string>
+		<string>Accesos</string>
+		<string>Més recents...</string>
+		<string>Recomenar</string>
+		<!-- 540 -->
+		<string>Novetats</string>
+		<string>Descripció breu</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Fora de servei per manteniment</string>
+		<string>Nombre total d'arxius: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Pàgina</string>
+		<string>ANTERIOR</string>
+		<string>SEGÜENT</string>
+		<!-- 547 = 21/05/2001 -->
+		<string>Membres Online</string>
+		<!-- 548 = 23/05/2001 -->
+		<string>Feedback</string>
+		<string>El teu nom</string>
+		<string>El teu Email</string>
+		<string>Tema</string>
+		<string>Missatge</string>
+		<string>Enviar a l'administrador</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Arxius enriquits</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Enviar un missatge a</string>
+		<string>La teva adreça de email és:</string>
+		<string>El teu nom:</string>
+		<string>Tema:</string>
+		<string>Missatge:</string>
+		<string>Enviar missatge</string>
+		<string>Per enviar un missatge, has d'estar registrat.</string>
+		<string>El teu missatga ha estat enviat.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Articles amb coindidències</string>
+		<string>Missatges als forums amb coincidències</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Exportar a arxiu CSV</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Ordre</string>
+		<string>TANCAR</string>
+		<string>AMUNT</string>
+		<string>AVALL</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forums</string>
+		<string>Threads</string>
+		<string>Missatges</string>
+		<string>Ultims missatges enviats als Fórums</string>
+		<string>Autor</string>
+		<string>Inciat per</string>
+		<string>Respostes</string>
+		<string>Assumpte</string>
+		<string>Enviat</string>
+		<string>Contestar</string>
+		<!-- 580 -->
+		<string>Forums</string>
+		<string>Discusions</string>
+		<string>Cercar als Fórums</string>
+		<string>Contestar a un missatge existent</string>
+		<string>El missatge que has contestat a</string>
+		<string>Enviat per</string>
+		<string>a</string>
+		<string>Assumpte</string>
+		<string>Missatge</string>
+		<string>Nou thread</string>
+		<!-- 590 -->
+		<string>Aquesta és una alerta automàtica. Algú ha contestat un missatge teu als Fórums. Ho pots veure a:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderador</string>
+		<string>Moderat per </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Estat per defecte de les respostes</string>
+		<string>Estat per defecte dels Articles</string>
+		<string>Paginació dels Articles</string>
+		<string>Desde</string>
+		<string>De</string>
+		<!-- 601 -->
+		<string>Pell personalitzable</string>
+		<string>Personalitzable</string>
+		<string>Nom</string>
+		<string>Pell</string>
+		<string>Autor</string>
+
+	</strings>
+</language>

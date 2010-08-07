@@ -1,0 +1,158 @@
+1/ What is the hierarchy of Fullxml ?
+The hierarchy is pretty simple :
+
+CATEGORIES: the menu blocks 
+    |
+    |
+  PAGES: the webpages
+	|
+	|
+ARTICLES: Every content of the site (left/right, margin/headline/ story, ...)
+
+
+2/ How can I activate and use the Reaction add-on ?
+The reaction module allow user to react to an article by writing/posting a comment.
+This reaction module can only be activate on article that have a headline and a body. 
+To activate the module on an article: in the advanced option of this article, set the "Show article tool bar" option to "on"
+
+The posted reactions have to be moderate and moderate in order to appear online. To acced to it in the admin, go under "Moderation/Reaction".
+
+3/ Language/Encoding
+The encoding is NOT auto-selected.
+I will try to explain why: changing to different encoding than then one used for your language can screw up your new article or article you modify with this bad encoding.
+So when choosing "language", you have to select manually then good encoding (as indicated near the language).
+ 
+ 
+Admin Menu -----
+-----
+----
+---
+
+<<PAGES>>
+---------
+
+The blue 'globe' represents whether or not the page is visible or not
+
+Where does the ID of the page come into play and what is the importance of it?
+
+*How do 'pages' relate to Categories and how can I use that to my advantage in designing my web site?
+
+
+<<CONTENTS>>
+------------
+
+(same as above with the globe and ID of the 'content')
+
+How does my Webpage in my contents relate to each other?
+
+Is there any way to change the ID # of already defined Contents?
+
+
+<<CATEGORIES>>
+--------------
+
+When I define a Category what can I 'link' it to?  What can I put underneath them?
+
+Are there only two access types, Anonymous & Members Only?
+
+
+<<SETTINGS>>
+------------
+
+Are my Meta Keywords able to be seen by search engine robots?
+
+By accident I changed my encoding field to Windows-1250 but I don't remember what it was originally; how can I find out what it was and what should it be?  Does it matter?
+
+If I can add content to my homepage as a headline or such why is there a Frontpage section here?  How is it different from other ways I put content on my homepage?
+
+Is the media/logo.gif path the one under fullXML or admin?  Where should I store images?
+
+Register default status on/off - what does this affect?  Registered users?  What is on or off about them?
+
+
+<<SURVEYS>>
+-----------
+
+Is there a limit to how many I can have at once?  Can both anonymous AND registered members see them and vote?  Is it possible to vote more than once?
+
+
+<<QUOTATIONS>>
+--------------
+
+(Same as Surveys)
+
+
+<<FORUMS>>
+
+Is the Visibility option just an easy way to turn a forum on or off basically?
+
+Why can't I use the built-in HTML editor for the description here?
+
+
+<<BANNERS>>
+-----------
+
+All of my ID #'s are out of order.  Will that affect anything?  
+
+Does the click count just count total times someone has clicked on a banner or unique clicks?
+
+(Good place to mention, if not done somewhere else already, about the mandatory http:// absolute URL with Banner links)
+
+
+<<DOWNLOADS>>
+-------------
+
+Is it all right to leave fields blank if I don't need them?  (for instance, you have a concert schedule that is changing every few days but it doesn't have a version #, Editors website (because you are already on the site), the size changes, and has no price)
+
+What does the publication date have to do with anything?  Do I need it there? 
+
+
+<<MEMBER MANAGER>>
+------------------
+
+Does any email validity checking go on when a member registers?  
+
+Is it possible to have too many Administrators if I happen to be running a collabrative website and many others need access to the admin functions?  
+
+Is it possible to limit the admin functions of certain individuals?
+
+Newsletter?  What newsletter?
+
+
+<<REACTION MANAGER>>
+--------------------
+
+How does the Reaction Manager relate to anything else on fullXML?  
+
+How can I use the information here to my advantage in any way?
+
+
+<<TRAFFIC ANALYSIS>>
+--------------------
+
+I like the information contained in the traffic analysis but is there a place where I can see the IP Address resolved?
+
+The URL looks like just a page from my site or something - what is the purpose?
+
+Is it possible for me to change the colors of the bar chart within Traffic Analysis?  I'm epeleptic and RED can make me go into a seizure.
+
+
+<<DESKTOP>>
+-----------
+
+I understand what the 'stats' are for (how many things to validate and such) but what is the task list for?  
+
+
+
+
+
+
+
+
+
+
+<!--
+The webmaster can also decide if the reactions are directly online of if it's must be validate before.
+The option is available on the admin/settings under "Moderation status".
+-->
+

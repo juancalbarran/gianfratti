@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="iso-2022-jp"?>
+<language>
+	<name>Japanese</name>
+	<translator>
+		<name>JPstream</name>
+		<email>info@jpstream.net</email>
+	</translator>
+	<encoding>iso-2022-jp</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>ウェブサイト管理者</string>
+		<string>サイトを拾い読みします</string>
+		<string>セッティング</string>
+		<string>ページ</string>
+		<string>内容</string>
+		<string>調査</string>
+		<string>引用</string>
+		<string>絵</string>
+		<string>メンバー</string>
+		<string>ゲストブック</string>
+		<string>統計</string>
+		<string>反応</string>
+		<string>フォーラム</string>
+		<string>アップロード</string>
+		<string>作成します...</string>
+		<string>削除します</string>
+		<string>修正します...</string>
+		<string>   OK   </string>
+		<string>取り消します</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>ウェブサイトセッティング</string>
+		<string>サイト名</string>
+		<string>管理者ログイン</string>
+		<string>パスワード</string>
+		<string>META タイトル</string>
+		<string>管理者電子メール</string>
+		<string>サイトURL</string>
+		<string>META キーワード</string>
+		<string>META 記述</string>
+		<string>Skin</string>
+		<string>言語</string>
+		<string>Frontpage</string>
+		<string>Logo path</string>
+		<string>ツールバーを示します</string>
+		<string>Copyright</string>
+		<string>適度ステータス</string>
+		<string>メニューを示します</string>
+		<string>記事ツール・バーを示します</string>
+		<string>探索形式を示します</string>
+		<string>付属品リスト</string>
+		<string>調査</string>
+		<string>引用</string>
+		<string>画廊</string>
+		<string>ゲストブック</string>
+		<string>フォーラム</string>
+		<string>記事の日付および著者を示します</string>
+		<string>登録デフォルトステータス</string>
+		<string>フォーラムのメッセージデフォルトステータス</string>
+		<string>ゲストブックのメッセージデフォルトステータス</string>
+		<string>スローガン</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>ウェブページ管理者</string>
+		<string>ページタイトル</string>
+		<string>Parent ページ</string>
+		<string>アクセスタイプ</string>
+		<string>Edito</string>
+		<string>広告タグ</string>
+		<string>視界</string>
+		<string>このページは削除することができません!</string>
+		<string>このページの削除を確認します? </string>
+		<string>出版</string>
+		<!-- 60 -->
+		<string>はい</string>
+		<string>いいえ</string>
+		<!--  end-->
+		<string>予定されました</string>
+		<string>出版期日</string>
+		<string>有効期限</string>
+		<string>外部リンク</string>
+		<string>カテゴリー</string>
+		<string>トップページ</string>
+		<string>計算</string>
+		<string>記事の数</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>内容マネージャー</string>
+		<string>内容タイトル</string>
+		<string>位置</string>
+		<string>ウェブページ</string>
+		<string>著者</string>
+		<string>日付</string>
+		<string>XML 出所</string>
+		<string>XSL テンプレート</string>
+		<string>ヘッドライン</string>
+		<string>ボヂ</string>
+		<string>設計モードにおけるこれらのデータを編集します</string>
+		<string>視界</string>
+		<string>この記事は読み出し専用です.</string>
+		<string>あなたを行う、本当にこの内容を削除したい? </string>
+		<string>これを印刷します</string>
+		<string>友達に送ります</string>
+		<string>あなたの見解を与えます</string>
+		<string>アーカイブ</string>
+		<string>すべてのページ</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>調査マネージャー</string>
+		<string>調査名</string>
+		<string>質問</string>
+		<string>答え 1</string>
+		<string>答え 2</string>
+		<string>答え 3</string>
+		<string>答え 4</string>
+		<string>答え 5</string>
+		<string>投票番号</string>
+		<string>関連するウェブページ</string>
+		<string>無</string>
+		<string>あなたを行う、本当にこの調査を削除したい? </string>
+		<string>投票!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>引用マネージャー</string>
+		<string>引用内容</string>
+		<string>あなたを行う、本当にこの引用を削除したい?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>絵ギャラリーマネージャー</string>
+		<string>絵名</string>
+		<string>主要な絵 path </string>
+		<string>コメント</string>
+		<string>あなたを行う、ギャラリーから本当にこの絵を取り除きたい?</string>
+		<string>選択します</string>
+		<string>Thumbnail path</string>
+		<string>Id</string>
+		<string>カテゴリー</string>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>メンバーマネージャー</string>
+		<string>偽り</string>
+		<string>パスワード</string>
+		<string>電子メール</string>
+		<string>都市</string>
+		<string>日付</string>
+		<string>コピー/ペ-スト、電子メールを送るあなたの電子メールソフトウェアの中へのこのライン、常にメンバー: </string>
+		<string>あなたを行う、本当にこのメンバーを削除したい?</string>
+		<string>タイプ</string>
+		<string>州</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>ゲストブックマネージャー</string>
+		<string>著者</string>
+		<string>タイトル</string>
+		<string>メッセージ</string>
+		<string>日付</string>
+		<string>電子メール</string>
+		<string>視界</string>
+		<string>あなたを行う、ゲストブックから本当にこのメッセージを取り除きたい?</string>
+		<string>ゲストブックに署名します</string>
+		<string><![CDATA[<b>私たちのウェブサイトの成長への参加に感謝!</b><br/>あなたの参加は、ウェブマスターによって確認の後にオン・ラインで注意され公表されるでしょう.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>反応マネージャー</string>
+		<string>著者</string>
+		<string>タイトル</string>
+		<string>記事</string>
+		<string>メッセージ</string>
+		<string>日付</string>
+		<string>視界</string>
+		<string>あなたを行う、本当にこの反応を削除したい?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Ressources</string>
+		<string>Ressources マネージャー</string>
+		<string>タイトル</string>
+		<string>タイプ</string>
+		<string>Path</string>
+		<string>コメント</string>
+		<string>Width/幅</string>
+		<string>Height/高さ</string>
+		<string>絵</string>
+		<string>ビデオ</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>他のもの</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>ファイルアップロード</string>
+		<string>送ります</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>フォーラムマネージャー</string>
+		<string>タイトル</string>
+		<string>記述</string>
+		<string>視界</string>
+		<string>可視</string>
+		<string>隠されました</string>
+		<string>あなたを行う、本当にこのフォーラムを削除したい? </string>
+		<string>ポスト</string>
+		<string>返答</string>
+		<string>Enter</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>交通分析</string>
+		<string>見られたウェブページ</string>
+		<string>ビジター</string>
+		<string>カレンダー</string>
+		<string>詳細、のために </string>
+		<string>見られたウェブページ</string>
+		<string>ユニークなビジター</string>
+		<string>タイム</string>
+		<string>URL</string>
+		<string>Referer</string>
+		<string>IP アドレス</string>
+		<string>日付</string>
+		<string>訪問</string>
+		<string>グリッド視界</string>
+		<string>グラフ視界</string>
+		<string>国</string>
+		<string>ブラウザー</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>メイン</string>
+		<string>Add-ons</string>
+		<string>適度</string>
+		<string>統計</string>
+		<string>ヘルプ</string>
+		<string>Quickstart</string>
+		<string>活動的なビジター</string>
+		<string>活動的なビジター</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>検索サイト</string>
+		<string>登録</string>
+		<string>ゲストブック</string>
+		<string>スライドショー</string>
+		<string>フォーラム</string>
+		<string>Administration</string>
+		<string>ログアウト</string>
+		<string>メニュー</string>
+		<string>ログイン</string>
+		<string>調査</string>
+		<string>引用</string>
+		<string>後ろに</string>
+		<string>次</string>
+		<string>もっと読みます</string>
+		<string>ページを加えます...</string>
+		<string>記事を加えます...</string>
+		<string>ユーザ投票を加えます...</string>
+		<string>Enter</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>フォーラムメッセージマネージャー</string>
+		<string>タイトル</string>
+		<string>Pseudo</string>
+		<string>視界</string>
+		<string>可視</string>
+		<string>隠されました</string>
+		<string>あなたを行う、本当にこのメッセージを削除したい</string>
+		<string>ポスト</string>
+		<string>答え、に </string>
+		<string>記事を記入します</string>
+		<string>記事を書きます</string>
+		<string>このエリアはメンバーを置くために保存されます. ログインするか &lt;a href="default.asp?id=0&amp;ACT=9"&gt;作成します&lt;/a&gt; 継続するべき自由なアカウント.</string>
+		<string>フォーラムメッセージ</string>
+		<string>Body</string>
+		<string>返答で、の: </string>
+		<string>次: </string>
+		<string>後ろに </string>
+		<string>線形の視界</string>
+		<string>トリーの視界</string>
+		<string>メッセージリストへ戻る</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>デスクトップ</string>
+		<string>メンバーの数 </string>
+		<string>有効にするゲストブック・メッセージの数 </string>
+		<string>有効にする反応の数 </string>
+		<string>フォーラム・メッセージの数 </string>
+		<string>打撃の数</string>
+		<string>よこそう</string>
+		<string>バージョンを実行しています: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>タスクリスト</string>
+		<string>新しいタスクを加えるためにここをクリックしてください</string>
+		<string>作成します</string>
+		<string>End</string>
+		<string>記述</string>
+		<string>重要</string>
+		<string>加えます</string>
+		<string>日付</string>
+		<string>終了されました</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>登録</string>
+		<string>この登録は自由で、あなたがサイトの資源すべてに達することを可能にします.</string>
+		<string>ログイン</string>
+		<string>パスワード</string>
+		<string>電子メール</string>
+		<string>都市</string>
+		<string>Submit</string>
+		<string>(*) 強制的フィールドを示します </string>
+<string>ありがとう、あなたは今います、レジストレーションする!今、左手側の形式でログインすることができます。その後に、自分の情報をチェックし服装にできます.</string>
+		<string>登録してくれてありがとう、あなたの登録は活発なために今ウェブマスターによって有効にならなければなりません.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>反応する、に </string>
+		<string>名前</string>
+		<string>タイトル</string>
+		<string>メッセージ</string>
+		<string>Submit</string>
+		<string>反応 </string>
+		<string>By </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>マージン</string>
+		<string>単に残されたマージン</string>
+		<string>単に右のマージン</string>
+		<string>両方のマージン</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>カテゴリー</string>
+		<string>カテゴリー・マネージャー</string>
+		<string>名前</string>
+		<string>アクセスタイプ</string>
+		<string>視界</string>
+		<string>このカテゴリーは削除することができません</string>
+		<string>あなたを行う、本当にこのカテゴリーを削除したい?</string>
+		<string>このカテゴリーのページ・リストを見ます</string>
+		<string>すべてのカテゴリー</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>バナー</string>
+		<string>名前</string>
+		<string>計算をクリックしてください</string>
+		<string>目標 URL</string>
+		<string>Gif出所</string>
+		<string>バナーマネージャー</string>
+		<string>あなたを行う、本当にこの旗を削除したい?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>ダウンロード</string>
+		<string>名前</string>
+		<string>Path</string>
+		<string>エディターのウェブサイト</string>
+		<string>記述</string>
+		<string>ライセンス</string>
+		<string>価格</string>
+		<string>オペレーティングシステム</string>
+		<string>ダウンロードマネージャー</string>
+		<string>あなたを行う、本当にこのダウンロードを削除したい?</string>
+		<string>ダウンロードされました </string>
+		<string>ダウンロード今 </string>
+		<string>トップのダウンロード</string>
+		<string>サイズ</string>
+		<string>バージョン</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>サイト地図</string>
+		<string>結果を探索します</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>電子メール機能</string>
+		<string>Smtp サーバー</string>
+		<string>ゲストブック上の警戒</string>
+		<string>フォーラム上の警戒</string>
+		<string>反応中の警戒</string>
+		<string>登録上の警戒</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>正しくないパスワード、既に有効になった予約. \n正確、あるいは再び試みる、その後.</string>
+		<string>1つの調査当たりかつてちょうど投票することができました!</string>
+		<string>歓迎する、あなたの登録は有効になりました.</string>
+		<string>いくつかの義務的なフィールドは見当たりません。形式を完成して、再び試みてください.</string>
+		<string>ユーザー名は既に得られます、別の1つを選んでください.</string>
+<string>現在デフォルト管理者アカウントを使用しています!\n誰でも管理者としてログインすることができあなたがこのデフォルト・アカウントを使用するまであなたの内容を変更することができることを思い出します.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>記事はフィールドをソートしています</string>
+		<string>ページはオーダーをソートしています</string>
+		<string>タイトル</string>
+		<string>出版期日</string>
+		<string>ID</string>
+		<string>昇順</string>
+		<string>下ること</string>
+		<string>タイトルを示します</string>
+		<string>このページの満足しているリストを見ます</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>新しい</string>
+		<string>新しいメッセージ</string>
+		<string>電子メールによる確認</string>
+		<string>登録確認</string>
+		<string>サイト上の登録を申し込みました: </string>
+		<string>この登録を終えるためには、次のリンクに拾い読みしてください: </string>
+		<string>ここに、あなたのアカウントに関して維持するべき情報があります: </string>
+		<string>登録に感謝。この登録を有効にするために数分で電子メールを受け取るでしょう. </string>
+		<string>管理者</string>
+		<string>エディター</string>
+		<!-- Misc , start @ position 430 -->
+		<string>メンバー</string>
+		<string>私たちのニュースレター(低い交通)を予約します</string>
+		<string>ニュースレター</string>
+		<string>位置</string>
+		<string>トップ</string>
+		<string>底</string>
+		<string>左</string>
+		<string>右</string>
+		<string>先端:WYSIWYGモードを入力するダブルクリックあるいはCTRL-T</string>
+		<string>ショーはフィールドを進めました</string>
+		<!-- Misc , start @ position 440 -->
+		<string>皮はフィールドを進めました</string>
+		<string>グループ</string>
+		<!-- Browsers stats -->
+		<string>ブラウザーグループ</string>
+		<string>バージョンの詳細</string>
+		<string>ブラウザー</string>
+		<string>バージョン</string>
+		<string>パーセンテージ</string>
+		<string>他のもの</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>符号づけ</string>
+		<string>ヘッドライン</string>
+		<string>マージン</string>
+		<string>Body</string>
+		<!-- Guestbook's buttons -->
+		<string>従います</string>
+		<string>リセット</string>
+		<!-- message after reaction posting -->
+<string><![CDATA[<b>私たちのウェブサイトの成長への参加に感謝!</b><br/>あなたの参加は、ウェブマスターによって確認の後にオン・ラインで注意され公表されるでしょう.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>新しい 記事デフォルト出版状態</string>
+		<string>電子メール機能を活性化します ? (jMail 要求されました)</string>
+		<string>インストールされた電子メールCOMコンポーネントを示します</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>忘れられたパスワード?</string>
+		<string>したがって、パスワードを忘れました?</string>
+<string>あなたのメンバー名および電子メールを入力する、下にアドレスする、クリック、送る、また、あなたのパスワードを含んでいる電子メールを送られるでしょう.</string>
+		<string>メンバー名</string>
+		<string>電子メールアドレス</string>
+		<string>従います</string>
+		<string>ユーザ情報</string>
+		<string>リクエストはあなたへの次の情報をemailするためになされました:</string>
+		<string>パスワード</string>
+		<string>すぐに訪れてください!</string>
+		<!-- 470 -->
+		<string>正しくないユーザー名あるいは電子メールアドレス.</string>
+		<string>あなたの注意電子メールが送られました.</string>
+		<string>情報を再び入れます</string>
+		<string>今に署名します !</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>私のアカウント</string>
+		<string>不完全な形式、(*)信号を備えたフィールドがすべて要求されます.</string>
+		<string>あなたのアカウントは成功裡に更新されました!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>無</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>メニューバー</string>
+		<string>Home</string>
+		<string>ホームページへ戻る</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>ディレクトリー</string>
+		<string>ディレクトリーマネージャー</string>
+		<string>新しいディレクトリー</string>
+		<string>名前</string>
+		<string>公表されました</string>
+		<string>新しいディレクトリー</string>
+		<string>新しいカテゴリー</string>
+		<string>カテゴリー</string>
+		<!-- 490 -->
+		<string>新しいアイテム</string>
+		<string>新しいディレクトリー</string>
+		<string>ディレクトリーを修正します</string>
+		<string>新しいカテゴリー</string>
+		<string>カテゴリーを修正します</string>
+		<string>新しいサブカテゴリー</string>
+		<string>サブカテゴリーを修正します</string>
+		<string>新しいアイテム</string>
+		<string>アイテムを修正します</string>
+		<string>要約</string>
+		<!-- 500 -->
+		<string>記述</string>
+		<string>ウェブサイト</string>
+		<string>ダウンロード URL</string>
+		<string>絵 path</string>
+		<string>公のサブミッション</string>
+		<string>アイテムが格納されました</string>
+		<string>ユーザ</string>
+		<string>ダウンロード</string>
+		<string>ウェブサイト</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>従業員</string>
+		<string>製品</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>ユーザ</string>
+		<string>ダウンロード</string>
+		<string>ウェブページ</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Book</string>
+		<string>MP3</string>
+		<string>従業員</string>
+		<string>製品</string>
+		<string/>
+		<!-- 530 -->
+		<string>ディレクトリー</string>
+		<string>Home</string>
+		<string>ディレクトリー中のウェブサイトの数: </string>
+		<string>ウェブサイトを提出します</string>
+		<string>トータル hits</string>
+		<string>あなたのサブミッションは記録されており、今ウェブマスターによって緩和されるでしょう。あなたの貢献に感謝します.</string>
+		<string>最もポピュラーです</string>
+		<string>Hits</string>
+		<string>の中で(ちょうど)...</string>
+		<string>新しいサブミッション</string>
+		<!-- 540 -->
+		<string>新しいディレクトリーサブミッション</string>
+		<string>短い記述</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>メンテナンスにはオフラインです</string>
+		<string>ファイルの数: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>ページ</string>
+		<string>後ろに</string>
+		<string>次</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>オンラインメンバー</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>フィードバック</string>
+		<string>あなたの名前</string>
+		<string>あなたの電子メール</string>
+		<string>主題</string>
+		<string>メッセージ</string>
+		<string>ウェブマスターに送ります</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich メディア</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>メッセージを送る、に</string>
+		<string>あなたの電子メールアドレス:</string>
+		<string>あなたの名前:</string>
+		<string>主題:</string>
+		<string>メッセージ:</string>
+		<string>メッセージを送ります</string>
+		<string>もしログインされれば、メッセージを送ることができるでしょう.</string>
+		<string>あなたのメッセージが送られました.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>記事は一致します</string>
+		<string>フォーラムは一致します</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>CSVファイルにこのリストを輸出します</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>位置</string>
+		<string>CLOSE</string>
+		<string>UP</string>
+		<string>DOWN</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>フォーラム</string>
+		<string>糸</string>
+		<string>ポスト</string>
+		<string>最後のポスト</string>
+		<string>著者</string>
+		<string>スタートされました</string>
+		<string>返答</string>
+		<string>トピック</string>
+		<string>記入されました</string>
+		<string>ポストの返答</string>
+		<!-- 580 -->
+		<string>議論</string>
+		<string>議論</string>
+		<string>フォーラムを探索します</string>
+		<string>既存のメッセージへの返答</string>
+		<string>答えているメッセージ</string>
+		<string>記入されました</string>
+		<string>オン</string>
+		<string>主題</string>
+		<string>メッセージ</string>
+		<string>新しい糸</string>
+		<!-- 590 -->
+<string>これは自動警戒体制です。誰かが、私たちのフォーラムにあなたのポストへの答えをポストしました。それを見ることができます、で:</string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderator</string>
+		<string>Moderated by </string>
+		<string>Format</string>
+		<string>Text</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>反応はステータスを怠ります</string>
+		<string>記事はステータスを怠ります</string>
+		<string>記事ページング</string>
+		<string>以来</string>
+		<string>から</string>
+		<!-- 601 -->
+		<string>Skinをカスタマイズします</string>
+		<string>カスタマイズ可能</string>
+		<string>名前</string>
+		<string>Skin</string>
+		<string>著者</string>
+		<!-- 606 -->
+		<string>私を思い出します</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>知識ベース</string>
+		<string>線形</string>
+		<string>組み立てられました</string>
+		<string>セクター:</string>
+		<string>[トップ]</string>
+		<string>関連する記事</string>
+		<string>探索</string>
+		<string>ポストを加えます</string>
+		<string>すべて</string>
+		<string>セクターで:</string>
+		<!-- 630 is the one up-->
+		<string>Home</string>
+		<string>セクターへ行きます:</string>
+		<string>新しい関係を加えます</string>
+		<string>知識ベース</string>
+		<string>セクター</string>
+		<string>ポスト</string>
+		<string>タイトル</string>
+		<string>バージョン</string>
+		<string>イントロ</string>
+		<string>ディスプレイ</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>名前</string>
+		<string>発言</string>
+		<string>可視</string>
+		<string>セクター</string>
+		<string>Body</string>
+		<string>add..</string>
+		<string>関連する記事</string>
+		<string>関係、の</string>
+		<string>既知の関係</string>
+		<!-- 650 is the one up -->
+		<string>KB-Editor</string>
+		<string>オフ</string>
+		<string>アノニマス</string>
+		<string>メンバー</string>
+		<string>このセクションにポストはありません.</string>
+		<string>次の関係を削除します</string>
+		<string>Go</string>
+		<string>利用可能な知識基礎のうちの1つを選んでください.</string>
+		<string>管理者レベル知識基礎:</string>
+		<string>エディター・レベル知識基礎:</string>
+		<!-- 660 is the one up -->
+		<string>メンバーレベル知識基礎:</string>
+		<string>アノニマス のレベル知識基礎:</string>
+		<string>Error</string>
+		<string>開こうとしている知識ベースは存在せず、あなたに利用可能ではありません。これがunエラーであると思う場合、ウェブマスターに警報してください.</string>
+		<string>利用可能な知識基礎はありません!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>リストマネージャー</string>
+		<string>リスト</string>
+		<string>リスト</string>
+		<string>エントリー</string>
+		<string>エントリー</string>
+		<string>このリストを削除したいと確信しますか。確かである、それ、すべての特徴、それはこのリストを使用する、無効になる.</string>
+		<string>このリストはシステム・リストで、それを削除し、改名することができません!</string>
+		<string>キャプション</string>
+		<string>値</string>
+		<string>あなたである、あなたはこのエントリーを削除したくて確か?</string>
+		<!-- 680 is the one up -->
+		<string>このエントリーはシステム・リストに属し、それを削除することができないか、彼の値を変更することができません!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>日曜日</string>
+		<string>月曜日</string>
+		<string>火曜日</string>
+		<string>水曜日</string>
+		<string>木曜日</string>
+		<string>金曜日</string>
+		<string>土曜日</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>一月</string>
+		<string>二月</string>
+		<string>三月</string>
+		<string>四月</string>
+		<string>五月</string>
+		<string>六月</string>
+		<string>七月</string>
+		<string>八月</string>
+		<string>九月</string>
+		<string>十月</string>
+		<!-- 720 is the one up -->
+		<string>十一月</string>
+		<string>十二月</string>
+		<string>出来事</string>
+		<string>より多くの情報、の下で:</string>
+		<string>id</string>
+		<string>日付</string>
+		<string>記述</string>
+		<string>短い記述</string>
+		<string>記述</string>
+		<string>リンク</string>
+		<!-- 730 is the one up -->
+		<string>可視</string>
+		<string>日付</string>
+		<string>出来事カレンダー</string>
+		<string>カレンダー</string>
+		<string>出来事カレンダー</string>
+		<string>後ろに</string>
+		<string>次</string>
+		<string>試写スタート、で</string>
+		<string>試写</string>
+		<string>新しい出来事</string>
+		<!-- 740 is the one up -->
+		<string>カレンダー状態</string>
+		<string>出来事を提出します</string>
+		<string>カレンダーを選びます</string>
+		<string>カレンダー</string>
+		<string>Go</string>
+		<string>可視、に</string>
+		<string>このカレンダーを使用する許可を行っていません</string>
+		<string>試写</string>
+		<string>1ページ当たり出来事</string>
+		<string>1ページ当たり試写</string>
+		<!-- 750 is the one up -->
+		<string>出来事は一致します</string>
+		<string>出来事を捜します</string>
+		<string>Go</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>チャンネル</string>
+		<string>新しいチャンネルを作ります</string>
+		<string>あなたのブラウザーはNOT支援フレームを行います.</string>
+		<string>ゲスト</string>
+		<string>メッセージ</string>
+		<string>名前</string>
+		<string>記述</string>
+		<string>チャンネル</string>
+		<string>記述</string>
+		<!-- 770 is the one up -->
+		<string>Op</string>
+		<string>ユーザ</string>
+		<string>新規ユーザ</string>
+		<string>現在のユーザ</string>
+		<string>チャンネルを去ります</string>
+		<string>Chat</string>
+		<string>所有者</string>
+		<string>古いメッセージをすべて落とします</string>
+		<string>Chat-Editor</string>
+		<string>id</string>
+		<!-- 780 is the one up -->
+		<string>個人のメッセージ、に</string>
+		<string>後ろに</string>
+		<string>低下</string>
+		<string>あなたはオペレーターによる低下でした。チャンネルを去ってください.</string>
+		<string>アクション、実行し続けるために</string>
+		<string>オペレーター</string>
+		<string>メンバー</string>
+		<string>連結します</string>
+		<string>このウィンドウを閉じることができます.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>メンバーマネージャー</string>
+		<string>形式を探索します</string>
+		<string>ユーザ</string>
+		<string>性別</string>
+		<string>年齢</string>
+		<string>占有</string>
+		<string>都市</string>
+		<string>州</string>
+		<string>国</string>
+		<string>以来</string>
+		<!-- 810 is the one up -->
+		<string>全メンバーを見ます</string>
+		<string>私のプロフィール</string>
+		<string>id</string>
+		<string>名</string>
+		<string>姓</string>
+		<string>ウェブサイト</string>
+		<string>写真 (path)</string>
+		<string>選びます</string>
+		<string>アドレス</string>
+		<string>Zip</string>
+		<!-- 820 is the one up -->
+		<string>電話</string>
+		<string>公のディスプレイ</string>
+		<string>歓迎されるメッセージ</string>
+		<string>Admin ノート</string>
+		<string>メンバープロフィール</string>
+		<string>ようこそ</string>
+		<string>それを備えたメンバーはありません、現在のコミュニティーにおいて偽り.</string>
+		<string>一旦記録されれば、このメンバープロフィールを単に見ることができます.</string>
+		<string>見ようとしているプロフィールは存在しません。あるいは、それは公のディスプレイには利用不可能です.</string>
+		<string>名前</string>
+		<!-- 830 is the one up -->
+		<string>友達リストを増します</string>
+		<string>成功裡にあなたの友達リストに加えられました.</string>
+		<string>成功裡にあなたの友達リストへ移されました.</string>
+		<string>メンバー</string>
+		<string>友達マネージャー</string>
+		<string>友達</string>
+		<string>アクション</string>
+		<string>削除</string>
+		<string>メッセージを送ります</string>
+		<string>メイルユーザ</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>内部メッセージ</string>
+		<string>1人のユーザ当たりメッセージ</string>
+		<string>あなたのメッセージは成功裡に送られました.</string>
+		<string>新しいメッセージを持っていません</string>
+		<string>新しいメッセージを持っています</string>
+		<string>以下に、すべてのメッセージのリストがあなたにアドレスしたことを知るでしょう.</string>
+		<string>日付</string>
+		<string>から</string>
+		<string>主題</string>
+		<string>内部メッセージを送る、に</string>
+		<!-- 860 is the one up -->
+		<string>メッセージ</string>
+		<string>残念、しかし、このユーザは彼の郵便箱を十分に持っています。再び後ろにその後喜ばせます.</string>
+		<string>この特徴はメンバーだけにセットされます!</string>
+		<string>あなたに出されるメッセージに単にアクセスすることができます!!!</string>
+		<string>各ユーザが格納することができるメッセージのマックスの番号:</string>
+		<string>今までどおり受け取ることができるメッセージの数:</string>
+		<string>書きました:</string>
+		<string>メッセージ答えにあなたの前のメッセージを贈ります.</string>
+		<string>答え</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>主題</string>
+		<string>メッセージ</string>
+		<string>HTMLとして送ります</string>
+		<string>付属</string>
+		<string>ニュースレター</string>
+		<string>id</string>
+		<string>主題</string>
+		<string>アクション</string>
+		<string>送ります</string>
+		<string>再び送ります</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>大文字のログイン</string>
+		<string>批准</string>
+		<string>スタンダード</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>モジュール情報</string>
+		<string>記述</string>
+		<string>バージョン</string>
+		<string>最終修正</string>
+		<string>によって</string>
+		<string>ホームページ</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>目標ディレクトリーを選びます</string>
+		<string>ファイルを加えます</string>
+		<string>アップロード</string>
+		<string>名前</string>
+		<string>サイズ</string>
+		<string>タイプ</string>
+		<string>最終修正</string>
+		<string>アクション</string>
+		<string>削除します</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>エディターマネージャー</string>
+		<string>id</string>
+		<string>名前</string>
+		<string>配置ストリング</string>
+		<string>活発</string>
+		<string>グループ</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

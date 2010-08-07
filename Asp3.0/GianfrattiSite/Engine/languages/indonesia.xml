@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Indonesia</name>
+	<!-- ================================================================== -->
+	<!-- ================================================================== -->
+	<!-- === This translation languages has been translated by Ph03y3nk === -->
+	<!-- ===                       on October 2003                      === -->
+	<!-- ===                          ========                          === -->
+	<!-- ===                 mail : ph03y3nk@yahoo.com                  === -->
+	<!-- ================================================================== -->
+	<!-- ================================================================== -->
+	<translator>
+		<name>Ph03y3nk</name>
+		<email>ph03y3nk@yahoo.com</email>
+	</translator>
+	<encoding>utf-8</encoding>
+	<strings>
+		<!-- main menu, start @ position 1 -->
+		<string>Admin Situs</string>
+		<string>Telusuri Situs</string>
+		<string>Setting</string>
+		<string>Halaman</string>
+		<string>Isi</string>
+		<string>Jajak Pendapat</string>
+		<string>Kutipan</string>
+		<string>Photo</string>
+		<string>Anggota</string>
+		<string>Buku Tamu</string>
+		<string>Statistik</string>
+		<string>Tanggapan</string>
+		<string>Forum Diskusi</string>
+		<string>Upload</string>
+		<string>Buat...</string>
+		<string>Hapus</string>
+		<string>Modifikasi...</string>
+		<string>   OK   </string>
+		<string>Batal</string>
+		<!-- General settings, strat @ position 20 -->
+		<string>Setting Situs</string>
+		<string>Nama Situs</string>
+		<string>Login Admin</string>
+		<string>Password</string>
+		<string>META Title</string>
+		<string>Administrator Email</string>
+		<string>Website URL</string>
+		<string>META Keywords</string>
+		<string>META Description</string>
+		<string>Skin</string>
+		<string>Bahasa</string>
+		<string>Halaman Utama</string>
+		<string>Folder Logo</string>
+		<string>Toolbar Tampak</string>
+		<string>Hak Cipta</string>
+		<string>Status Moderator</string>
+		<string>Menu Tampak</string>
+		<string>Toolbar Article Tampak</string>
+		<string>Form Pencarian Tampak</string>
+		<string>Daftar Add-ons</string>
+		<string>Jajak Pendapat</string>
+		<string>Kutipan</string>
+		<string>Galleri Photo</string>
+		<string>Buku Tamu</string>
+		<string>Forum Diskusi</string>
+		<string>Tgl Artikel dan Penulis Tampak</string>
+		<string>Default status Registrasi</string>
+		<string>Default status pesan pada Forum Diskusi</string>
+		<string>Default status pesan pada Buku Tamu</string>
+		<string>Slogan</string>
+		<!-- Pages settings, strat @ position 50 -->
+		<string>Pengaturan Halaman</string>
+		<string>Judul Halaman</string>
+		<string>Halaman Induk</string>
+		<string>Tipe Akses</string>
+		<string>Pengantar Halaman</string>
+		<string>Kode Iklan</string>
+		<string>Tampilan</string>
+		<string>Halaman ini tidak bisa dihapus!</string>
+		<string>Yakinkah untuk membuang halaman ini ? </string>
+		<string>Publikasi</string>
+		<!-- 60 -->
+		<string>Ya</string>
+		<string>Tidak</string>
+		<!--  end-->
+		<string>Dijadwalkan</string>
+		<string>Tgl Publikasi</string>
+		<string>Tgl Kadaluarsa</string>
+		<string>Link Keluar</string>
+		<string>Kategori</string>
+		<string>Halaman Terbaik</string>
+		<string>Jumlah</string>
+		<string>Jumlah Artikel</string>
+		<!-- Content settings, start @ position 70 -->
+		<string>Pengaturan Isi</string>
+		<string>Judul Isi</string>
+		<string>Posisi</string>
+		<string>Situs</string>
+		<string>Penulis</string>
+		<string>Tanggal</string>
+		<string>Sumber XML</string>
+		<string>Template XSL</string>
+		<string>Kepala Berita</string>
+		<string>Isi</string>
+		<string>Edit data ini pada mode desain</string>
+		<string>Tampilan</string>
+		<string>Artikel ini tidak bisa diubah.</string>
+		<string>Apakah anda yakin ingin menghapus Berita ini ? </string>
+		<string>Cetak ke printer</string>
+		<string>Kirim ke teman</string>
+		<string>Berikan opini anda</string>
+		<string>Arsip</string>
+		<string>Seluruh Halaman</string>
+		<string/>
+		<!-- Polls strings, start @ position 90 -->
+		<string>Pengaturan Jajak Pendapat</string>
+		<string>Nama Jajak Pendapat</string>
+		<string>Pertanyaan</string>
+		<string>Jawaban 1</string>
+		<string>Jawaban 2</string>
+		<string>Jawaban 3</string>
+		<string>Jawaban 4</string>
+		<string>Jawaban 5</string>
+		<string>Jumlah Suara</string>
+		<string>Situs Terkait</string>
+		<string>Kosong</string>
+		<string>Apakah anda yakin ingin menghapus Jajak Pendapat ini? </string>
+		<string>Pilih!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Tips strings, start @ position 110 -->
+		<string>Pengaturan Kutipan</string>
+		<string>Isi Kutipan</string>
+		<string>Apakah anda yakin ingin menghapus ini?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Gallery strings, start @ position 120 -->
+		<string>Pengaturan Galeri Photo</string>
+		<string>Nama Photo</string>
+		<string>Folder Photo Utama </string>
+		<string>Komentar</string>
+		<string>Apakah anda yakin ingin menghapus Photo ini dari galeri??</string>
+		<string>Pilih</string>
+		<string>Folder Thumbnail</string>
+		<string>Id</string>
+		<string>Kategori</string>
+		<string/>
+		<!-- Member strings, start @ position 130 -->
+		<string>Pengaturan Anggota</string>
+		<string>Nama Login</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Kota</string>
+		<string>Tanggal</string>
+		<string>Copy/paste line dibawah ini ke email software anda untuk mengirim email ke anggota: </string>
+		<string>Apakah anda yakin ingin menghapus Anggota ini ?</string>
+		<string>Tipe</string>
+		<string>Status</string>
+		<!-- Guestbook strings, start @ position 140 -->
+		<string>Pengaturan Buku Tamu</string>
+		<string>Penulis</string>
+		<string>Judul</string>
+		<string>Pesan</string>
+		<string>Tanggal</string>
+		<string>Email</string>
+		<string>Tampilan</string>
+		<string>Apakah anda yakin ingin menghapus pesan ini dari Buku Tamu ?</string>
+		<string>Isi Buku Tamu</string>
+		<string><![CDATA[<b>Terima kasih atas kunjungan anda dan kami harapkan partisipasi anda dalam mengembangkan situs ini!</b><br/>Isian Anda akan kami catat dan terpublikasi secara otomatis pada buku tamu kami.]]></string>
+		<!-- Reactions strings, start @ position 150 -->
+		<string>Pengaturan Tanggapan</string>
+		<string>Penulis</string>
+		<string>Judul</string>
+		<string>Artikel</string>
+		<string>Pesan</string>
+		<string>Tanggal</string>
+		<string>Tampilan</string>
+		<string>Apakah anda yakin ingin menghapus tanggapan ini ?</string>
+		<string/>
+		<string/>
+		<!-- Medias strings, start @ position 160 -->
+		<string>Sumber-sumber</string>
+		<string>Pengaturan Sumber</string>
+		<string>Judul</string>
+		<string>Tipe</string>
+		<string>Folder</string>
+		<string>Komentar</string>
+		<string>Lebar</string>
+		<string>Tinggi</string>
+		<string>Gambar</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Lain-lain</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Upload strings, start @ position 180 -->
+		<string>File upload</string>
+		<string>Kirim</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Discussion strings, start @ position 190 -->
+		<string>Pengaturan Forum Diskusi</string>
+		<string>Judul</string>
+		<string>Deskripsi</string>
+		<string>Tampilan</string>
+		<string>Terlihat</string>
+		<string>Tersembunyi</string>
+		<string>Apakah anda yakin ingin menghapus forum ini ? </string>
+		<string>Kirim</string>
+		<string>Balas</string>
+		<string>Enter</string>
+		<!-- Stats strings, start @ position 200 -->
+		<string>Analisa Traffic</string>
+		<string>Halaman yang dibuka</string>
+		<string>Pengunjung</string>
+		<string>Kalender</string>
+		<string>Detail untuk </string>
+		<string> Halaman yang dibuka</string>
+		<string> Pengunjung yang Unik</string>
+		<string>Waktu</string>
+		<string>URL</string>
+		<string>Asal URL</string>
+		<string>Alamat IP</string>
+		<string>Tanggal</string>
+		<string>Kunjungan</string>
+		<string>Mode Linear</string>
+		<string>Mode Grafik</string>
+		<string>Negara</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- toolbar strings, start @ position 220 -->
+		<string>Utama</string>
+		<string>Add-ons</string>
+		<string>Pengaturan</string>
+		<string>Status</string>
+		<string>Bantuan</string>
+		<string>Quickstart</string>
+		<string>Pengunjung Aktif</string>
+		<string>Pengunjung Aktif</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Menu template strings, start @ position 240 -->
+		<string>Pencarian</string>
+		<string>Pendaftaran</string>
+		<string>Buku Tamu</string>
+		<string>Photo</string>
+		<string>Forum Diskusi</string>
+		<string>Admin Area</string>
+		<string>Logout</string>
+		<string>Menu</string>
+		<string>Login</string>
+		<string>Jajak Pendapat</string>
+		<string>Kutipan</string>
+		<string>Sebelumnya</string>
+		<string>Selanjutnya</string>
+		<string>Baca Selengkapnya</string>
+		<string>Tambahkan Halaman...</string>
+		<string>Tambahkan Artikel...</string>
+		<string>Tambahkan Jajak Pendapat...</string>
+		<string>Enter</string>
+		<string/>
+		<string/>
+		<!-- Forum Message template strings, start @ position 260 -->
+		<string>Pengaturan Pesan Forum</string>
+		<string>Judul</string>
+		<string>Nama Login</string>
+		<string>Tampilan</string>
+		<string>Terlihat</string>
+		<string>Tersembunyi</string>
+		<string>Apakah anda yakin akan menghapus pesan ini ?</string>
+		<string>Kirim</string>
+		<string>Jawab Kepada </string>
+		<string>Kirim Artikel</string>
+		<string>Tulis Artikel</string>
+		<string>Area ini hanya untuk anggota. Silahkan Login atau &lt;a href="default.asp?id=0&amp;ACT=9"&gt;daftarkan diri anda&lt;/a&gt; secara gratis untuk melanjutkan.</string>
+		<string>Pesan Forum Diskusi</string>
+		<string>Isi</string>
+		<string>Menanggapi: </string>
+		<string>Selanjutnya: </string>
+		<string>Kembali ke </string>
+		<string>Mode Linear</string>
+		<string>Mode Bercabang</string>
+		<string>kembali ke daftar pesan</string>
+		<!-- DeskTop template strings, start @ position 280 -->
+		<string>Desktop</string>
+		<string>Jumlah Anggota </string>
+		<string>Jumlah pesan pada buku tamu yang perlu di validasi </string>
+		<string>Jumlah tanggapan yang perlu di validasi </string>
+		<string>Jumlah pesan pada forum diskusi </string>
+		<string>Jumlah kunjungan</string>
+		<string>Selamat Datang</string>
+		<string>Anda menjalankan versi: </string>
+		<string/>
+		<string/>
+		<!-- Todo template strings, start @ position 290 -->
+		<string>Daftar Pekerjaan</string>
+		<string>Click disini untuk menambah pekerjaan</string>
+		<string>Buat</string>
+		<string>Selesai</string>
+		<string>Deskripsi</string>
+		<string>Penting</string>
+		<string>Tambahkan</string>
+		<string>Tanggal</string>
+		<string>Sudah dikerjakan</string>
+		<string/>
+		<!-- Inscription template strings, start @ position 300 -->
+		<string>Pendaftaran</string>
+		<string>Pendaftaran ini gratis, dan akan membuat Anda memiliki Akses untuk melihat seluruh isi situs ini, Aktif dalam forum diskusi, download file dan lain lain.</string>
+		<string>Login</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Kota</string>
+		<string>Submit</string>
+		<string>(*) Menunjukkan bagian yang wajib diisi </string>
+		<string>Terima kasih, sekarang Anda telah terdaftar. Lanjutkan dengan melakukan login pada form login di kolom kiri.</string>
+		<string>Terima kasih telah mendaftar, Pendaftaran diri anda harus divalidasi oleh Admin terlebih dahulu.</string>
+		<!-- Reactions  template strings, start @ position 310 -->
+		<string>Tanggapan untuk </string>
+		<string>Nama</string>
+		<string>Judul</string>
+		<string>Pesan</string>
+		<string>Submit</string>
+		<string>Tanggapan </string>
+		<string>Oleh </string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Skin engine v2  template strings, start @ position 320 -->
+		<string>Kolom Tepi</string>
+		<string>Hanya kolom tepi kiri</string>
+		<string>Hanya kolom tepi kanan</string>
+		<string>Kedua kolom tepi</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Category  template strings, start @ position 330 -->
+		<string>Kategori</string>
+		<string>Pengaturan kategori</string>
+		<string>Nama</string>
+		<string>Tipe akses</string>
+		<string>Tampilan</string>
+		<string>Kategori ini tidak bisa di hapus !!!</string>
+		<string>Apakah anda yakin ingin menghapus kategori ini?</string>
+		<string>Tampilkan daftar halaman pada kategori ini</string>
+		<string>Seluruh kategori</string>
+		<string/>
+		<!-- Banners  template strings, start @ position 340 -->
+		<string>Iklan</string>
+		<string>Nama</string>
+		<string>Jumlah Click</string>
+		<string>URL Target</string>
+		<string>Gif source</string>
+		<string>Pengaturan Iklan</string>
+		<string>Apakah anda yakin ingin menghapus iklan ini?</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Downloads  template strings, start @ position 350 -->
+		<string>Downloads</string>
+		<string>Nama</string>
+		<string>Folder</string>
+		<string>Situs</string>
+		<string>Deskripsi</string>
+		<string>Lisensi</string>
+		<string>Harga</string>
+		<string>Operating system</string>
+		<string>Pengaturan Downloads</string>
+		<string>Apakah anda yakin ingin menghapus item download ini?</string>
+		<string>Telah di download </string>
+		<string>Download Sekarang </string>
+		<string>Downloads Terbaik</string>
+		<string>Ukuran</string>
+		<string>Versi</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Site map  template strings, start @ position 370 -->
+		<string>Peta Situs</string>
+		<string>Hasil Pencarian</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Email  template strings, start @ position 380 -->
+		<string>Penggunaan Email</string>
+		<string>Smtp server</string>
+		<string>Peringatan pada Buku Tamu</string>
+		<string>Peringatan pada Forum Diskusi</string>
+		<string>Peringatan pada Tanggapan</string>
+		<string>Peringatan pada Pendaftaran</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Error messages strings, start @ position 390 -->
+		<string>Password salah atau belum divalidasi oleh Admin. \nBetulkan atau coba di lain waktu.</string>
+		<string>Anda hanya diijinkan memilih sekali!</string>
+		<string>Selamat Datang, pendaftaran anda sudah divalidasi.</string>
+		<string>Beberapa bagian penting belum terisi. Lengkapilah dan coba lagi.</string>
+		<string>Nama Login sudah terpakai, pilih yang lainnya.</string>
+		<string>Anda menggunakan account admin situs!\nIngat ingat untuk merubah password secara periodik.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- Page options, start @ position 410 -->
+		<string>Kolom pengurutan Artikel</string>
+		<string>Tata cara pengurutan halaman</string>
+		<string>Judul</string>
+		<string>Tanggal publikasi</string>
+		<string>ID</string>
+		<string>Ascending</string>
+		<string>Descending</string>
+		<string>Tampilkan Judul</string>
+		<string>Tampilkan isi halaman ini</string>
+		<string/>
+		<!-- Misc , start @ position 420 -->
+		<string>Baru</string>
+		<string>Pesan Baru</string>
+		<string>Konfirmasi dengan Email</string>
+		<string>Konfirmasi pendaftaran</string>
+		<string>Anda telah melakukan pendaftaran pada situs : </string>
+		<string>Dalam rangka menyelesaikan proses pendaftaran, bukalah link berikut ini: </string>
+		<string>Berikut ini adalah informasi account anda: </string>
+		<string>Terima Kasih telah mendaftarkan diri. Anda akan menerima Email dalam beberapa menit sebagai langkah validasi pendaftaran. </string>
+		<string>Admin Situs</string>
+		<string>Editorial</string>
+		<!-- Misc , start @ position 430 -->
+		<string>Anggota</string>
+		<string>Ikutilah berita berita dari kami (low traffic)</string>
+		<string>Berita</string>
+		<string>Posisi</string>
+		<string>Atas</string>
+		<string>Bawah</string>
+		<string>Kiri</string>
+		<string>Kanan</string>
+		<string>Tip: Click Ganda atau tekan CTRL-T untuk masuk modus WYSIWYG</string>
+		<string>Perlihatkan kolom tambahan</string>
+		<!-- Misc , start @ position 440 -->
+		<string>Sembunyikan kolom tambahan</string>
+		<string>Kelompok</string>
+		<!-- Browsers stats -->
+		<string>Browser group</string>
+		<string>Detail dari versi</string>
+		<string>Browser</string>
+		<string>Versi</string>
+		<string>Persentasi</string>
+		<string>Lain-lain</string>
+		<string/>
+		<string/>
+		<!-- Forgotten strings, thx to mentat @ position 450 -->
+		<string>Encoding</string>
+		<string>Kepala Berita</string>
+		<string>Kolom Tepi</string>
+		<string>Isi</string>
+		<!-- Guestbook's buttons -->
+		<string>Kirim</string>
+		<string>Kosongkan</string>
+		<!-- message after reaction posting -->
+		<string><![CDATA[<b>Terima kasih atas kunjungan anda dan kami harapkan partisipasi anda dalam mengembangkan situs ini!</b><br/>Isian Anda akan kami catat dan terpublikasi secara otomatis pada buku tamu kami.]]></string>
+		<!-- 18/04/2002 -->
+		<!-- 457-->
+		<string>Status default publikasi Artkel baru</string>
+		<string>Aktifkan penggunaan Email ? (jMail required)</string>
+		<string>Menunjukkan email COM component yang terinstall</string>
+		<!-- 460 -->
+		<!-- forgot password -->
+		<string>Lupa Password ?</string>
+		<string>Jadi anda lupa Password anda?</string>
+		<string>Masukkan Nama Login dan Email anda di sini, Kirim, dan akan kami kirimkan account anda lewat Email.</string>
+		<string>Nama Login</string>
+		<string>Alamat Email</string>
+		<string>Kirim</string>
+		<string>Informasi pengguna</string>
+		<string>Sebuah permintaan telah diajukan untuk mengirim informasi berikut ini pada anda:</string>
+		<string>Password</string>
+		<string>Kunjungilah segera !!!</string>
+		<!-- 470 -->
+		<string>Nama Login atau Alamat Email salah.</string>
+		<string>Email untuk mengingatkan anda telah dikirim.</string>
+		<string>Masukkan kembali informasi</string>
+		<string>Daftarkan Sekarang Juga !!!</string>
+		<!-- 19/04/2002 -->
+		<!-- selfcare @ 474 -->
+		<string>Account Saya</string>
+		<string>Form tidak lengkap, semua bagian dengan tanda (*) wajib diisi.</string>
+		<string>Account anda sudah diperbaharui!</string>
+		<!-- 23/04/2002 -->
+		<!-- 477 -->
+		<string>tidak ada</string>
+		<string>Auto-detect</string>
+		<!-- 25/04/2002 -->
+		<!-- 479 -->
+		<string>Menu bar</string>
+		<string>Home</string>
+		<string>Kembali ke halaman awal</string>
+		<!-- 29/04/2002 -->
+		<!-- 482 -->
+		<string>Direktori</string>
+		<string>Pengaturan Direktori</string>
+		<string>Direktori Baru</string>
+		<string>Nama</string>
+		<string>Terbuka</string>
+		<string>Direktori Baru</string>
+		<string>Kategori Baru</string>
+		<string>Kategori</string>
+		<!-- 490 -->
+		<string>Item Baru</string>
+		<string>Direktori Baru</string>
+		<string>Modifikasi direktori</string>
+		<string>Kategori Baru</string>
+		<string>Modifikasi Kategori</string>
+		<string>Sub-Kategori Baru</string>
+		<string>Modifikasi sub-kategori</string>
+		<string>Item Baru</string>
+		<string>Modifikasi Item</string>
+		<string>Catatan</string>
+		<!-- 500 -->
+		<string>Deskripsi</string>
+		<string>Situs</string>
+		<string>URL Download</string>
+		<string>Folder Gambar</string>
+		<string>Untuk Umum</string>
+		<string>Item tersimpan</string>
+		<string>Pengunjung Situs</string>
+		<string>Download</string>
+		<string>Situs</string>
+		<string>CD</string>
+		<!-- 510 -->
+		<string>DVD</string>
+		<string>Buku</string>
+		<string>MP3</string>
+		<string>Karyawan</string>
+		<string>Produk</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 520 -->
+		<string>Pengguna</string>
+		<string>Downloads</string>
+		<string>Halaman Situs</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Buku</string>
+		<string>MP3</string>
+		<string>Karyawan</string>
+		<string>Produk</string>
+		<string/>
+		<!-- 530 -->
+		<string>Direktori</string>
+		<string>Home</string>
+		<string>Jumlah situs dalam direktori: </string>
+		<string>Kirim situs</string>
+		<string>Total kunjungan</string>
+		<string>Kiriman anda telah disimpan dan akan diatur oleh Admin. Terima Kasih atas kontribusi anda.</string>
+		<string>Paling populer</string>
+		<string>Kunjungan</string>
+		<string>Hanya dalam...</string>
+		<string>Kiriman Baru</string>
+		<!-- 540 -->
+		<string>Kiriman Direktori Baru</string>
+		<string>Deskripsi singkat</string>
+		<!-- 542 = 15/05/2002  -->
+		<string>Offline untuk perbaikan</string>
+		<string>Jumlah file: </string>
+		<!-- 544 = 16/12/2002 -->
+		<string>Halaman</string>
+		<string>Kembali</string>
+		<string>Lanjut</string>
+		<!-- 547 = 21/05/2002 -->
+		<string>Anggota Online</string>
+		<!-- 548 = 23/05/2002 -->
+		<string>Feedback</string>
+		<string>Nama Anda</string>
+		<string>Email Anda</string>
+		<string>Judul</string>
+		<string>Pesan</string>
+		<string>Kirim ke Admin Situs</string>
+		<!-- 554 = 5/06/2002 -->
+		<string>Rich media</string>
+		<!-- 555 = 7/06/2002 -->
+		<string>Kirim pesan kepada</string>
+		<string>Alamat Email anda:</string>
+		<string>Nama anda:</string>
+		<string>Judul:</string>
+		<string>Pesan:</string>
+		<string>Kirim pesan</string>
+		<string>Anda hanya bisa mengirim pesan jika telah Login.</string>
+		<string>Pesan anda sudah terkirim.</string>
+		<!-- 563 :: 8/06/2002 -->
+		<string>Artikel yang dijumpai</string>
+		<string>Forum Diskusi yang dijumpai</string>
+		<!-- 565 :: 10/06/2002 -->
+		<string>Export daftar ini ke CSV file</string>
+		<!-- 566 :: 11/06/2002 -->
+		<string>Posisi</string>
+		<string>TUTUP</string>
+		<string>KE ATAS</string>
+		<string>KE BAWAH</string>
+		<!-- 570 :: 9/07/2002 -->
+		<string>Forum Diskusi</string>
+		<string>Topik</string>
+		<string>Kiriman</string>
+		<string>Kiriman terakhir</string>
+		<string>Penulis</string>
+		<string>Dimulai Oleh</string>
+		<string>Balasan</string>
+		<string>Topik</string>
+		<string>Dikirim</string>
+		<string>Kirim Balasan</string>
+		<!-- 580 -->
+		<string>Diskusi</string>
+		<string>Diskusi</string>
+		<string>Pencarian forum diskusi</string>
+		<string>Balas pesan ini</string>
+		<string>Pesan yang anda balas</string>
+		<string>Dikirim Oleh</string>
+		<string>pada</string>
+		<string>Judul</string>
+		<string>Pesan</string>
+		<string>Topik Baru</string>
+		<!-- 590 -->
+		<string>Ini adalah pemberitahuan otomatis. Seseorang telah mengirim jawaban atas tulisan anda pada forum diskusi kami. Anda bisa melihatnya di: </string>
+		<!-- 591 :: 11/09/2002 -->
+		<string>Moderator</string>
+		<string>Dimoderatori oleh </string>
+		<string>Format</string>
+		<string>Teks</string>
+		<string>HTML</string>
+		<!-- 596 :: 26/09/2002 -->
+		<string>Default Status Tanggapan</string>
+		<string>Default Status Artikel</string>
+		<string>Pengaturan Artikel</string>
+		<string>Sejak</string>
+		<string>Dari</string>
+		<!-- 601 -->
+		<string>Rubah Skin</string>
+		<string>Bisa diubah</string>
+		<string>Nama</string>
+		<string>Skin</string>
+		<string>Penulis</string>
+		<!-- 606 -->
+		<string>Simpan Password!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 610 is the one up-->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 620 is the one up-->
+		<!-- Knowledge Base Add-on Strings -->
+		<string>Tutorial</string>
+		<string>Sambung menyambung</string>
+		<string>Per Sub Tutorial</string>
+		<string>..:::</string>
+		<string>[Kembali ke atas]</string>
+		<string>Artikel yang berkaitan</string>
+		<string>Cari :</string>
+		<string>Tambahkan Tulisan</string>
+		<string>Semua</string>
+		<string>di :</string>
+		<!-- 630 is the one up-->
+		<string>Home</string>
+		<string>Sub Tutorial :</string>
+		<string>Tambahkan relationships baru</string>
+		<string>Tutorial</string>
+		<string>bagian</string>
+		<string>Tulisan</string>
+		<string>Judul</string>
+		<string>Versi</string>
+		<string>Pengantar</string>
+		<string>Display</string>
+		<!-- 640 is the one up -->
+		<string>Id</string>
+		<string>Nama</string>
+		<string>Catatan</string>
+		<string>Terlihat</string>
+		<string>bagian</string>
+		<string>Isi</string>
+		<string>Tambah..</string>
+		<string>Artikel yang berkaitan</string>
+		<string>Relations dari</string>
+		<string>Relations yang diketahui</string>
+		<!-- 650 is the one up -->
+		<string>Tutorial-Editor</string>
+		<string>Off</string>
+		<string>Anonymous</string>
+		<string>Anggota</string>
+		<string>Tidak ada tulisan pada bagian ini.</string>
+		<string>Hapus relasi selanjutnya</string>
+		<string>Go</string>
+		<string>Pilih salah satu tutorial yang tersedia.</string>
+		<string>Tutorial yang tersedia khusus untuk Admin:</string>
+		<string>Tutorial yang tersedia khusus untuk Editor:</string>
+		<!-- 660 is the one up -->
+		<string>Tutorial yang tersedia khusus untuk Anggota:</string>
+		<string>Tutorial yang tersedia untuk Non-Anggota:</string>
+		<string>Ada Kesalahan</string>
+		<string>Tutorial yang ingin anda buka tidak ada atau tidak tersedia untuk level anda. Jika menurut anda ini sebuah kesalahan silahkan hubungi Admin Situs.</string>
+		<string>Tidak ada Tutorial yang tersedia!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 670 is the one up -->
+		<!-- List manager strings -->
+		<string>Pengaturan Daftar</string>
+		<string>Daftar</string>
+		<string>Daftar</string>
+		<string>Masukan</string>
+		<string>Masukan</string>
+		<string>Apakah anda yakin ingin menghapus daftar ini ? Pastikan semua yang menggunakan daftar ini sudah di disabled.</string>
+		<string>Daftar ini adalah daftar system dan tidak bisa dihapus atau diganti nama!</string>
+		<string>Titel</string>
+		<string>Isi</string>
+		<string>Apakah anda yakin ingin menghapus masukan ini?</string>
+		<!-- 680 is the one up -->
+		<string>Masukan ini termasuk dalam daftar system dan tidak bisa dihapus atau diubah isi-nya!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 690 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 700 is the one up -->
+		<!-- event calendar strings -->
+		<string>Mg</string>
+		<string>Sn</string>
+		<string>Sl</string>
+		<string>Rb</string>
+		<string>Km</string>
+		<string>Jm</string>
+		<string>Sa</string>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 710 is the one up -->
+		<string>Januari</string>
+		<string>Februari</string>
+		<string>Maret</string>
+		<string>April</string>
+		<string>Mei</string>
+		<string>Juni</string>
+		<string>Juli</string>
+		<string>Agustus</string>
+		<string>September</string>
+		<string>October</string>
+		<!-- 720 is the one up -->
+		<string>November</string>
+		<string>Desember</string>
+		<string>Kegiatan</string>
+		<string>Info selebihnya mengenai:</string>
+		<string>id</string>
+		<string>tanggal</string>
+		<string>deskripsi</string>
+		<string>Deskripsi singkat</string>
+		<string>Description</string>
+		<string>Link</string>
+		<!-- 730 is the one up -->
+		<string>Terlihat</string>
+		<string>Tanggal</string>
+		<string>Kalender Kegiatan</string>
+		<string>Kalender</string>
+		<string>Kalender Kegiatan</string>
+		<string>Kembali</string>
+		<string>Lanjut</string>
+		<string>preview dimulai pada</string>
+		<string>preview</string>
+		<string>Kegiatan Baru</string>
+		<!-- 740 is the one up -->
+		<string>Default Status Kalender</string>
+		<string>Ajukan kegiatan</string>
+		<string>Pilih kalender</string>
+		<string>Kalender</string>
+		<string>Go</string>
+		<string>Terlihat untuk</string>
+		<string>Anda tidak memiliki ijin akses untuk melihat kalender kegiatan ini</string>
+		<string>preview</string>
+		<string>Kegiatan per halaman</string>
+		<string>preview per halaman</string>
+		<!-- 750 is the one up -->
+		<string>Kegiatan yang dijumpai</string>
+		<string>Temukan kegiatan tentang </string>
+		<string>Go</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 760 is the one up -->
+		<!-- Chat strings -->
+		<string>Chat</string>
+		<string>Channel</string>
+		<string>Buat channel baru</string>
+		<string>Browser anda tidak mendukung tampilan dengan frames.</string>
+		<string>Tamu</string>
+		<string>Pesan</string>
+		<string>Nama</string>
+		<string>Deskripsi</string>
+		<string>Channel</string>
+		<string>Deskripsi</string>
+		<!-- 770 is the one up -->
+		<string>Operator</string>
+		<string>Pengguna</string>
+		<string>Pengguna Baru</string>
+		<string>Pengguna saat ini</string>
+		<string>keluar dari channel</string>
+		<string>Chatting</string>
+		<string>Pemilik</string>
+		<string>Hapus semua pesan lama</string>
+		<string>Chat-Editor</string>
+		<string>id</string>
+		<!-- 780 is the one up -->
+		<string>Pesan pribadi kepada</string>
+		<string>back</string>
+		<string>drop</string>
+		<string>Anda telah dikeluarkan oleh operator. Silahkan keluar dari channel.</string>
+		<string>Action, to perform on</string>
+		<string>operator</string>
+		<string>anggota</string>
+		<string>Bergabung</string>
+		<string>Anda bisa menutup jendela ini.</string>
+		<string/>
+		<!-- 790 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 800 is the one up -->
+		<!-- Member manager strings -->
+		<string>Informasi Anggota Komunitas</string>
+		<string>Form Pencarian</string>
+		<string>Nama Login</string>
+		<string>Jenis Kelamin</string>
+		<string>Umur</string>
+		<string>Pekerjaan</string>
+		<string>Kota</string>
+		<string>Propinsi</string>
+		<string>Negara</string>
+		<string>Sejak</string>
+		<!-- 810 is the one up -->
+		<string>Tampilkan Semua </string>
+		<string>Profil Diri</string>
+		<string>id</string>
+		<string>Nama Depan</string>
+		<string>Nama Belakang</string>
+		<string>Website</string>
+		<string>Photo (path)</string>
+		<string>Pilih</string>
+		<string>Alamat</string>
+		<string>Kode Pos</string>
+		<!-- 820 is the one up -->
+		<string>Telephone</string>
+		<string>Tampilkan untuk umum</string>
+		<string>Pesan Selamat Datang</string>
+		<string>Admin notes</string>
+		<string>Profil Anggota</string>
+		<string>Hai..., </string>
+		<string>Tidak ada anggota dengan Nama Login tersebut di komunitas ini.</string>
+		<string>Anda bisa melihat profil anggota setelah login.</string>
+		<string>Profil anggota yang anda coba tampilkan tidak ada atau tidak tersedia untuk umum.</string>
+		<string>Nama</string>
+		<!-- 830 is the one up -->
+		<string>Tambahkan ke daftar teman</string>
+		<string>telah berhasil ditambahkan pada daftar teman anda.</string>
+		<string>telah berhasil dihapus dari daftar teman anda.</string>
+		<string>Anggota</string>
+		<string>Pengaturan Teman</string>
+		<string>Teman</string>
+		<string>Actions</string>
+		<string>Hapus</string>
+		<string>Kirim Pesan</string>
+		<string>Mail User</string>
+		<!-- 840 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 850 is the one up -->
+		<!-- Internal messages strings -->
+		<string>Pesan Internal</string>
+		<string>Pesan per orang</string>
+		<string>Pesan anda telah terkirim.</string>
+		<string>Tidak ada pesan baru untuk anda</string>
+		<string>Ada pesan baru untuk anda</string>
+		<string>Dibawah ini anda akan temukan daftar semua pesan yang ditujukan pada anda.</string>
+		<string>Tanggal</string>
+		<string>Dari</string>
+		<string>Judul</string>
+		<string>Kirim pesan internal kepada</string>
+		<!-- 860 is the one up -->
+		<string>Pesan</string>
+		<string>Maaf, tetapi pengguna ini mailbox-nya sudah penuh. Coba lagi nanti.</string>
+		<string>Feature ini di set hanya untuk ANGGOTA!</string>
+		<string>Anda hanya bisa melihat semua pesan yang ditujukan pada anda!!!</string>
+		<string>Jumlah Maksimal pesan yang bisa disimpan pengguna:</string>
+		<string>Jumlah pesan yang masih bisa diterima:</string>
+		<string>menuliskan:</string>
+		<string>Pesan ini merupakan jawaban dari pesan anda.</string>
+		<string>Jawaban</string>
+		<string/>
+		<!-- 870 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 880 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 890 is the one up -->
+		<string>Judul</string>
+		<string>Pesan</string>
+		<string>Kirim sebagai HTML</string>
+		<string>Lampiran</string>
+		<string>Berita</string>
+		<string>id</string>
+		<string>Judul</string>
+		<string>action</string>
+		<string>Kirim</string>
+		<string>Kirim lagi</string>
+		<!-- 900 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 910 is the one up -->
+		<string>Login Huruf Besar</string>
+		<string>Authentifikasi</string>
+		<string>Standard</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 920 is the one up -->
+		<string>Info Module</string>
+		<string>deskripsi</string>
+		<string>versi</string>
+		<string>Modifikasi terakhir</string>
+		<string>oleh</string>
+		<string>homepage</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 930 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 940 is the one up -->
+		<string>pilih target dir</string>
+		<string>Tambahkan file</string>
+		<string>Upload</string>
+		<string>nama</string>
+		<string>ukuran</string>
+		<string>tipe</string>
+		<string>Modifikasi terakhir</string>
+		<string>action</string>
+		<string>Hapus</string>
+		<string/>
+		<!-- 950 is the one up -->
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<!-- 960 is the one up -->
+		<string>Pengaturan Editor</string>
+		<string>id</string>
+		<string>nama</string>
+		<string>konfigurasi string</string>
+		<string>active</string>
+		<string>kelompok</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

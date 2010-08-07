@@ -1,0 +1,466 @@
+-----------------------------------------
+- Author: 		FxMods		-
+- Website:		www.fxmods.com	-
+- Creation:		01.06.2003	-
+- Last modification:	04.11.2003	-
+- Version:		2.4.2		-
+-----------------------------------------
+
+FullXML 2.4
+-----------------------------------------
+New version of FullXML based on FullXML 2.3b
+
+
+History
+-----------------------------------------
+
+20.06.2003	JeS
+ DB
+	- add newsletter.xml
+ Engine
+	- add lines for newsletter.xml
+ Admin-GUI
+	- implement admin gui for newsletter manager
+
+
+
+23.06.2003	Mig100
+ Engine/Admin
+	- Inserted new State field to users form
+ GUI
+	- Insert search for members feature
+ DB
+	- inserted some new entries to "Countries" list
+
+
+
+26.06.2003	Mig100
+ Languages
+	- Skin manager sentences already transposed to English language file
+ Db
+	- Finished inserted wanted "Countries" list entries
+ GUI
+	- Corrected some bugs
+ Admin
+	- List manager already stop anyone to erase system data (you can yet change caption but not values inside a list or list Name) Info for this featuire is in attribute "readonly", if this is set to "yes" list it's considered as system data.
+	- List manager is already available to all browsers.
+ Engine 
+	- Inserted Newsgroup.xml and list.xml sample site. Changed Functions.asp files so that when necessary it copies these files into db folder.
+
+
+
+17.07.2003	JeS
+ Engine
+	- add function dropnodes, which drops all nodes selected by given criteria
+	- add security patch
+
+
+
+18.07.2003	JeS
+ Engine
+	- add function ExportData (alpha version) for export data 
+	- implement event calendar
+ Language
+	- add strings for event calendar
+ Admin-GUI
+	- first version of admin gui for chat
+	- admin gui for event calendar
+ User-GUI
+	- user gui for chat module
+	- user gui for event calendar
+
+
+
+19.07.2003 	JeS
+ Language
+	- add strings for chat module
+ Admin-GUI
+	- use strings from language file
+ User-GUI
+	- use strings from language file
+
+
+
+20.07.2003 	JeS
+ Language
+	- add strings for member manager
+ Admin-GUI
+	- use strings from language file
+ User-GUI
+	- use strings from language file
+
+
+
+22.07.2003	Mig100
+ Engine
+	- add new action for managing friend list
+ Admin-GUI
+	- Insert some changes in lib_users so that you can update from present FX member datafile
+ User-Gui
+	- Insert some changes in lib_signuplogin so that you can update from present FX member datafile and add "userstate support" for Users add and update form
+	- Member manger also support "userstate" field
+	- add action "added friend confirmation" on macro.xsl
+	- add friends function on lib_signuplogin (not completed)
+
+
+
+14.08.2003 	JeS
+ Language
+	- add strings for event calendar
+ Admin-GUI
+	- supports multiple event calendars
+	- calendars can be used as links in pages
+	- option for turning off case sensitive login (parameter /siteinfo/data/pseudouppercase)
+	- change in member manager for case sensitivity
+ User-GUI
+	- supports multiple event calendars
+	- show name of month
+	- change in login form for case sensitivity
+
+
+
+15.08.2003 	JeS
+ Language
+	- add strings for event calendar
+	- add strings for newsletter manager
+ Admin-GUI
+	- event list displays preview date
+	- definition of number of event and preview event per page for every calendar
+	- link to calendar and events in user gui by clicking on globe image
+	- allow html body (CDONTS)
+	- allow one attachment (CDONTS)
+ User-GUI
+	- number of event and preview event per page for every calendar 
+
+
+
+16.08.2003 	JeS
+ Language
+	- add strings for search of events
+	- add strings for upload manager
+	- add strings for newsletter manager
+ Admin-GUI
+	- event calendar: format date in event list
+	- slide show: select directory by dialog
+	- upload manager: apply language strings
+	- version manager: new module
+	- newsletter manager: apply language strings
+	- newsletter manager: implement function "send again"
+	- directory picker: return relative path
+ User-GUI
+	- event calendar: add search of events
+	- slide show: index breaks line if more than 20, 40, ...;
+	- slide show: file name of pictures used as title
+	- chat: supports private messages
+
+
+
+17.08.2003 	JeS
+ Language
+	- add strings for chat
+ Admin-GUI
+	- allow html body (JMail, ASPEMail)
+	- allow one attachment (JMail, ASPEMail)
+ User-GUI
+	- chat: add commands to drop user and inheritate operator state
+	- chat: open chat in new window
+	- chat: apply language strings
+
+
+
+27.08.2003	JeS
+ Admin-GUI
+	- dirpicker.asp supports creating and deleting of folders
+ Engine
+	- Editor: integrate filepicker.asp
+	- New function GrantAccessEx used in filepicker.asp
+
+
+
+28.08.2003	JeS
+ Language:
+	- add strings for authentification
+ Engine
+	- Editor: implement EasyLink
+	- single sign on using HTTP_AUTH
+ User-GUI
+	- lib_search.xsl: search articles, newsgroup and event calendar by more than one word
+	- lib_search.xsl: add functions for EasyLink
+	- page.xsl: modified for EasyLink
+	- chat: toolbar item only for logged on users
+
+
+
+29.08.2003	JeS
+ Engine
+	- chat: no entry in logfile
+ User-GUI
+	- chat: before joining a channel a clean up process is performed (all messages older than 1h and 
+	  all users older than 10h are droped)
+
+
+30.08.2003	Mig100 (Forgot to update in previous days ;o). I'll try to summarise)
+ Engine 
+	- Imessage and friends xml file placed at sample site
+ Languages
+	- New entries for Internal messages and Member manager
+ GUI
+	- Replacement of actual Ediotr with HtmlArea. Diferent settings for regular users and Admins
+	- Internal messages 	- When aswering user can view message that is answering to
+				- When receiving one answering user can see his previous message
+				- Members can only keep specified number of messages in mailbox.
+	- Macros.xsl 		- Created new Call_user macro that allows you call user according to website settings
+				- Moved redirect functions from Knowbase.xsl to macro.xsl. It allows you to redirect to wanted path When some condition is verified
+				- Review of all links that call users in Online members, member managerand newsgroups.
+				- All Params refering Strings param were moved into macros.xsl
+	- New icons on User wellcome box
+ Skins
+	- Newsgroup, Event calendar and General params are now present in page.xsl
+	- Default and Default.new follows these rules
+ Admin
+	- Replacement of actual Ediotr with HtmlArea
+	- Website settings now includes Internal Message and Member Manager settings
+	- All Params refering Strings param were moved into Console.xsl
+
+
+01.09.2003	Mig100
+ Languages
+	- Updated of Portuguese and Brazilian langauge files
+ GUI
+	- Corrected missing String relationship to languags files in User Wellcome form
+
+
+02.09.2003	JeS
+ Chat
+	- Solved bug that prevent users to enter in chat rooms for site running in msxsml 3
+ Newsletter
+	- Correct display of HTMLMail, when open existing newsletter
+ Knowbase
+	- click on visible/not visible image in admin gui displays knowbase, sector or post in users gui
+	- correct syntax of table in structured view
+ Languages
+	- Updated of German language file
+
+04.09.2003	JeS
+ Calendar
+	- fix bugs in calendar
+
+05.09.2003	JeS
+ Editor
+	- fix bug in e@sylink
+	- new editor manager, so config string for every usergroup is possible
+ Languages
+	- Updated of english language file
+	- Updated of german language file
+
+09.09.2003	JeS
+ Forum
+	- display messages as HTML
+ Directory
+	- correct link of cancel button
+ Chat
+	- add cell displaying time
+ Gallery
+	- moved hard coded string to language file (id 127 and 128)
+	- auto update function
+ Languages
+	- Update of english language file
+	- Update of german language file
+ Website
+	- auto update function
+
+09.09.2003	Mig100
+ GUI
+	- Add friends buttons will only appear if that particular user is not yet on your list
+	- For more then 20 friends list will be split into several pages containing 20 friends for each page
+
+11.9.2003	Mig100
+ GUI
+	- Member Manager and Member singup
+		- "Choose" hardcode option inside select boxes as replaced with language string (note already existing)
+ Admin
+	- Lists
+		- System list will allow change/remove of entries
+		- String 681 of language file changed
+ XML files
+	- list.xml
+		- Removed list that were not in use at present time.
+		- List in use at Member signup and Member Manager become "System" classified
+		- Fixed bug that prevent the System copy from Engine\sampesite folder into db folder
+ Skins
+	- Fullxml, Costumize all and At skins now available for fx 2.4
+
+12.09.2003	JeS
+ Calendar
+	- add field thumbnail for calendar
+ Languages
+	- Updated of Danish and Brazilian langauge files
+
+14.09.2003	JeS
+ Chat
+	- admin can create channels
+ User-GUI
+	- fixed bug in "online members"
+
+17.09.2003	JeS
+ GUI
+	- disable chat if necessary
+
+----------------------
+starting Version 2.4.2
+----------------------
+
+26.09.2003	JeS
+ Engine
+	- create new class CSession for session handling
+
+28.09.2003	JeS
+ Engine
+	- enhance session handling
+	- modify CUser
+
+01.10.2003	JeS
+ Engine
+	- implement new chat functions
+ Chat
+	- modify user gui for chat
+
+02.10.2003	JeS
+ Engine
+	- fix bugs in new session handling
+ Chat
+	- finish modifications in user gui
+	- modify admin gui
+
+04.10.2003	Mig100
+ Engine
+	- "Remember me" Fix
+	- Samplesite - fix of errors in xml files
+	- Language pack included
+ Admin
+	- Website settings now include option to turn Member Manager Off
+ Skin
+	- Remove link to member manager in Toolbar if Console settings are turn to Off
+	- Search member bug fix
+	- Newsgroup extend behind screen limits bug fix
+
+05.10.2003	JeS
+ Language
+	- Insert 10 new lines for chat (before line 790)
+	- new strings for chat
+ Admin
+	- Website settings now include option of max. count of users for every channel
+ Chat
+	- new restrictions: only xx users to one channel (global setting) and each user can join only to one channel
+	- if user leaves channel not in correct way, he can drop his user entry from chat
+ Menubar
+	- bug in menubar is fixed
+ Calendar
+	- double click on empty entries fixed
+
+10.10.2003	JeS
+ Chat	
+	- fix refresh session info
+	- fix javascript error on chat list
+	- scrollbar in message frame
+	- fix access for admins only
+ Engine
+	- fix editors problem to select files from media folder
+
+
+11.10.2003	Mig100
+ Upload
+	- fix problems with language strings
+
+
+22.10.2003	JeS
+ Chat
+	- fix automatic log off every new hour
+
+
+23.10.2003	JeS
+ Chat
+	- fix set operator right to other user~
+
+04.11.2003	Mig100
+skins
+	- Add all available updated and authorized skins (thanks to Eduardo Azambuja and Salim)
+	- Add new version of Skin studio by F. Aunel
+	- Add Skins changes for each page by Kristijan
+Classified Add module
+	- First scratch insertion
+GUI
+	- Fix string bug in User Box
+
+07.11.2003	JeS
+Admin
+	- unvisible events are reported at desktop
+	- add option to use old editor to website settings
+	- enable old/new editor to all textareas
+User
+	- enable old/new editor to all textareas
+
+09.11.2003	JeS
+Admin
+	- add show/hide leafes in directory manager (made by Mig)
+User
+	- populates selecboxes sex, age, ocupation and country only with existing values from members accounts (Eduardo Azambuja)
+
+10.11.2003	JeS
+User
+	- changes on handling folder based diashow
+
+13.11.2003	JeS
+Admin
+	- newsletter supports simple placeholders
+
+14.11.2003	JeS
+Admin
+	- newsletter supports placeholders for website content
+	- new variable $textdirection for RTL/LTR support
+	- new setting textdirection in website settings
+User
+	- new variable $textdirection for RTL/LTR support
+
+19.01.2004	Mig100
+Admim/GUI
+	- "Last articles" and "Last posts from forums" inclusion as a margin option for each page (contribution from several users: Ewikram, Eazambu, etc ).
+
+16.03.2004	Mig100
+(FX 2.4.2 Beta 2)
+Admin/GUI
+	- Classified Add Module Insertion
+Admin
+	- Reformulation of icon display
+	- Langedit2 inclusion
+
+17.03.2004	Mig100
+(FX 2.4.2 Beta 2 - patch 1)
+Strings
+	- Fix for all (except macedoniam) available languages at fx 2.4.1 so they can be used/updated for fx 2.4.2
+Admin
+	- Fixed bug that would shown wrong strings at "Tools" separator
+	- Add-ons now have a specific field to indicate if they should be included in Toolbar
+	- Classified adds is now available at Advanced fields for a page
+GUI
+	- Toolbar only show links that were espressly indicated at Admin Console
+
+12.04.2004	Mig100
+(Fullxml 2.4.2 public release)
+Admin
+	- Page update tempale bug fix
+	- New enconding values at website settings
+	- New icons for new features (no more dupplicate icons)
+Strings
+	- Included all available translations at Engine/languages folder
+Skins
+	- Included all skins working for FX 2.4.2.
+
+13.04.2004	Mig100
+Admin/GUI
+	- Polls module now have 10 voting options
+	
+19.04.2004
+Admin/GUI
+	- Forums can now be set to Tree/Linear view at console
+	- CDOSYS is now supported (thanks to JFMatos and eazambu)

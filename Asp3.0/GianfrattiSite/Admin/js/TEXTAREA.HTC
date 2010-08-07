@@ -1,0 +1,46 @@
+<PUBLIC:COMPONENT>
+	<PUBLIC:ATTACH event="onmouseout" handler="ClearHelp" />
+	<PUBLIC:ATTACH event="onmouseover" handler="OpenHelp" />
+	<PUBLIC:ATTACH event="ondblclick" handler="OpenEditor" />
+	<PUBLIC:ATTACH event="onkeypress" handler="CheckShortcut" />
+	<SCRIPT>
+var classDefault = element.className
+function OpenEditor() {
+		var w = 640, h = 480;
+				
+		if (document.all || document.layers) {
+		   w = screen.availWidth;
+		   h = screen.availHeight;
+		}
+		
+		var popW = 750, popH = 450;		
+		var leftPos = (w-popW)/2, topPos = (h-popH)/2;
+				
+		window.open('edit.asp?input=window.opener.document.frmFullxml.' + this.name + '.value', 'editor', 'status=1, toolbars=0, scrollbars=0, width=' + popW + ',height=' + popH + ',top=' + topPos + ',left=' + leftPos);
+	}
+	
+function CheckShortcut()
+	{
+		var prefix = '';
+		if (window.event.shiftKey) prefix = 's';
+		if (window.event.ctrlKey) prefix += 'c'; 
+		if (window.event.altKey) prefix += 'a';
+		//alert(prefix + window.event.keyCode + ' ');
+		
+		if (prefix + window.event.keyCode == 'c20') 
+			OpenEditor();
+			
+		//alert('Ctrl and E pressed');
+	}
+function OpenHelp()
+{
+	window.status = 'CTRL-T to enter the HTML editor';
+}
+
+function ClearHelp()
+{
+	window.status = '                                 ';
+}
+	
+</SCRIPT>
+</PUBLIC:COMPONENT>

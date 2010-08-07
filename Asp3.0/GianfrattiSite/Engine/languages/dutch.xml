@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<name>Dutch-1</name>
+	<encoding>UTF-8</encoding>
+	<translator>
+		<name>Arie den Ouden</name>
+		<email>ajw.den.ouden@den-ouden.nl</email>
+	</translator>
+	<strings>
+		<string>Website beheerder</string>
+		<string>Doorzoek site</string>
+		<string>Instellingen</string>
+		<string>Paginas</string>
+		<string>Inhoud</string>
+		<string>Enquetes</string>
+		<string>Citaat</string>
+		<string>Afbeeldingen</string>
+		<string>Leden</string>
+		<string>Gastenboek</string>
+		<string>Statistieken</string>
+		<string>Reacties</string>
+		<string>Forums</string>
+		<string>Upload</string>
+		<string>Maak</string>
+		<string>Verwijder</string>
+		<string>Aanpassen...</string>
+		<string> OK </string>
+		<string>Cancel</string>
+		<string>Website instellingen</string>
+		<string>Site naam</string>
+		<string>Inloggen Beheerder</string>
+		<string>Password</string>
+		<string>META Titel</string>
+		<string>Email beheerder</string>
+		<string>Website URL</string>
+		<string>META sleutelwoorden</string>
+		<string>META Omschrijving</string>
+		<string>Uiterlijk</string>
+		<string>Taal</string>
+		<string>Startpagina</string>
+		<string>Logo pad</string>
+		<string>Toon toolbar</string>
+		<string>Copyright</string>
+		<string>Moderation status</string>
+		<string>Toon menu</string>
+		<string>Toon artikel tool bar</string>
+		<string>Toon zoek form</string>
+		<string>Add-ons lijst</string>
+		<string>Enquetes</string>
+		<string>Citaten</string>
+		<string>Foto gallerij</string>
+		<string>Gastenboek</string>
+		<string>Forums</string>
+		<string>Toon artikel datum en auteur</string>
+		<string>Registreer standaard status</string>
+		<string>Forums's bericht standaard status</string>
+		<string>Gastenboek bericht standaard status</string>
+		<string>Slogan</string>
+		<string>Webpagina Beheerder</string>
+		<string>Pagina titel</string>
+		<string>Hoofd pagina</string>
+		<string>Toegangstype</string>
+		<string>Edito</string>
+		<string>Reclame tag</string>
+		<string>Zichtbaarheid</string>
+		<string>Deze pagina kan niet worden verwijderd !</string>
+		<string>Bevestig de verwijdering van deze pagina ?</string>
+		<string>Publicatie</string>
+		<string>Ja</string>
+		<string>Nee</string>
+		<string>Gepland</string>
+		<string>Publicatie datum</string>
+		<string>Verloop datum</string>
+		<string>Externe link</string>
+		<string>Categorie</string>
+		<string>Top pagina's</string>
+		<string>Aantal</string>
+		<string>Aantal artikelen</string>
+		<string>Inhoud beheerder</string>
+		<string>Inhoud titel</string>
+		<string>Positie</string>
+		<string>Webpagina</string>
+		<string>Auteur</string>
+		<string>Datum</string>
+		<string>XML Bron</string>
+		<string>XSL voorbeeld</string>
+		<string>Kopregels</string>
+		<string>Body</string>
+		<string>Bewerk deze data in vormgevermodus</string>
+		<string>Zichtbaarheid</string>
+		<string>Dit artikel is alleen lezen.</string>
+		<string>Wil je werkelijk deze inhoud verwijderen ?</string>
+		<string>Print dit</string>
+		<string>Stuur naar vriend</string>
+		<string>Geef je mening</string>
+		<string>Archiveer</string>
+		<string>Alle pagina's</string>
+		<string/>
+		<string>Enquete beheerder</string>
+		<string>Enquete naam</string>
+		<string>Vraag</string>
+		<string>Antwoord 1</string>
+		<string>Antwoord 2</string>
+		<string>Antwoord 3</string>
+		<string>Antwoord 4</string>
+		<string>Antwoord 5</string>
+		<string>Aantal stemmen</string>
+		<string>Geassocieerde webpagina</string>
+		<string>Geen</string>
+		<string>Wil je werkelijk deze enquete verwijderen ?</string>
+		<string>STEM !</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Citaatbeheerder</string>
+		<string>Citaat inhoud</string>
+		<string>Wil je werkelijk dit citaat verwijderen ?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Afbeeldingen gallerij beheerder</string>
+		<string>Afbeeldingen naam</string>
+		<string>Oorspronkelijke pad afbeelding</string>
+		<string>Commentaar</string>
+		<string>Wil je werkelijk deze afbeelding uit de gallerij verwijderen ?</string>
+		<string>Selecteer</string>
+		<string>Miniatuur pad</string>
+		<string>Nr</string>
+		<string>Categorie</string>
+		<string/>
+		<string>Leden beheerder</string>
+		<string>Pseudoniem</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Plaats</string>
+		<string>Datum</string>
+		<string>Kopieer en plak deze regel in je email-programma om een mail naar ieder lid te sturen: </string>
+		<string>Wil je werkelijk dit lid verwijderen ?</string>
+		<string>Type</string>
+		<string>Status</string>
+		<string>Gastenboek beheerder</string>
+		<string>Auteur</string>
+		<string>Titel</string>
+		<string>Bericht</string>
+		<string>Datum</string>
+		<string>Email</string>
+		<string>Zichtbaarheid</string>
+		<string>Wil je werkelijk dit bericht verwijderen uit het gastenboek ?</string>
+		<string>Teken het gastenboek</string>
+		<string><![CDATA[<b>Dank voor je deelname aan deze website !</b><br/>Your participation will be noted and published on-line after validation by the webmaster.]]></string>
+		<string>Reactie beheerder</string>
+		<string>Auteur</string>
+		<string>Titel</string>
+		<string>Artikel</string>
+		<string>Bericht</string>
+		<string>Datum</string>
+		<string>Zichtbaarheid</string>
+		<string>Wil je werkelijk deze reactie verwijderen ?</string>
+		<string/>
+		<string/>
+		<string>Bronnen</string>
+		<string>Bron beheerder</string>
+		<string>Titel</string>
+		<string>Type</string>
+		<string>Pad</string>
+		<string>Commentaar</string>
+		<string>Breedte</string>
+		<string>Hoogte</string>
+		<string>Afbeelding</string>
+		<string>Video</string>
+		<string>Flash</string>
+		<string>Wav</string>
+		<string>Midi</string>
+		<string>Font</string>
+		<string>Zip</string>
+		<string>Exe</string>
+		<string>Anders</string>
+		<string/>
+		<string/>
+		<string/>
+		<string>Bestand upload</string>
+		<string>Verstuur</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Forums beheerder</string>
+		<string>Titel</string>
+		<string>Omschrijving</string>
+		<string>Zichtbaarheid</string>
+		<string>Zichtbaar</string>
+		<string>Verborgen</string>
+		<string>Wil je werkelijk deze forum verwijderen ?</string>
+		<string>Plaats</string>
+		<string>Beantwoord</string>
+		<string>Enter</string>
+		<string>Verkeer analyse</string>
+		<string>Bekeken webpagina's</string>
+		<string>Bezoekers</string>
+		<string>Kalender</string>
+		<string>Details voor</string>
+		<string>Bekeken webpagina's</string>
+		<string> Unieke bezoekers</string>
+		<string>Tijd</string>
+		<string>URL</string>
+		<string>Doorgestuurd door</string>
+		<string>IP adres</string>
+		<string>Datum</string>
+		<string>Bezoeken</string>
+		<string>Tabel overzicht</string>
+		<string>Grafieken overzicht</string>
+		<string>Land</string>
+		<string>Browser</string>
+		<string/>
+		<string/>
+		<string/>
+		<string>Hoofd</string>
+		<string>Toevoegingen</string>
+		<string>beheer</string>
+		<string>Statistieken</string>
+		<string>Help</string>
+		<string>Snelstart</string>
+		<string>Actieve bezoeker</string>
+		<string>Actieve bezoekers</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Doorzoek site</string>
+		<string>Registreer</string>
+		<string>Gastenboek</string>
+		<string>Slide show</string>
+		<string>Forums</string>
+		<string>Administratie</string>
+		<string>Log uit</string>
+		<string>Menu</string>
+		<string>Log in</string>
+		<string>Enquete</string>
+		<string>Citaat</string>
+		<string>Terug</string>
+		<string>Verder</string>
+		<string>Lees meer</string>
+		<string>Voeg een pagina toe...</string>
+		<string>Voeg een artikel toe</string>
+		<string>Voeg een gebruikersenquete toe ...</string>
+		<string>Enter</string>
+		<string/>
+		<string/>
+		<string>Forums berichten beheerder</string>
+		<string>Titel</string>
+		<string>Pseudoniem</string>
+		<string>Zichtbaarheid</string>
+		<string>Zichtbaar</string>
+		<string>Verborgen</string>
+		<string>Wil je werkelijk dit bericht verwijderen ?</string>
+		<string>Plaats`</string>
+		<string>Antwoord op</string>
+		<string>Plaats een artikel</string>
+		<string>Schrijf een artikel</string>
+		<string><![CDATA[Dit gedeelte is voorbehouden aan leden. Log in of <a href="default.asp?id=0&ACT=9">maak</a> gratis een account om verder te gaan.]]></string>
+		<string>Forums berichten</string>
+		<string>Body</string>
+		<string>Beantwoording op:</string>
+		<string>Volgende:</string>
+		<string>Terug naar</string>
+		<string>Lineair beeld</string>
+		<string>Boomstructuur</string>
+		<string>Terug naar berichtenlijst</string>
+		<string>Desktop</string>
+		<string>Aantal leden</string>
+		<string>Aantal gastenberichten ter validatie</string>
+		<string>Aantal reacties ter validatie</string>
+		<string>Aantal forumberichten ter validatie</string>
+		<string>Aantal hits</string>
+		<string>Welkom</string>
+		<string>Je gebruikt versie:</string>
+		<string/>
+		<string/>
+		<string>Takenlijst</string>
+		<string>Klik hier om een taak toe te voegen</string>
+		<string>Creeer</string>
+		<string>Einde</string>
+		<string>Omschrijving</string>
+		<string>Belangrijkheid</string>
+		<string>Voeg toe</string>
+		<string>Datum</string>
+		<string>Gereed op</string>
+		<string/>
+		<string>Registreer</string>
+		<string>Deze registratie is gratis en stelt je in staat alle bronnen van deze site te benaderen</string>
+		<string>Log in</string>
+		<string>Password</string>
+		<string>Email</string>
+		<string>Plaats</string>
+		<string>Voer uit</string>
+		<string>(*) Toont de verplichte velden</string>
+		<string>Dank, je bent nu geregistreerd! Je kunt nu inloggen in het veld aan de linkerzijde. Na inloggen kun je je account checken en bewerken.</string>
+		<string>Dank voor je registratie, je aanmelding zal nu gevalideerd worden door de beheerder om geactiveerd te worden.</string>
+		<string>Reageer op</string>
+		<string>Naam</string>
+		<string>Titel</string>
+		<string>Bericht</string>
+		<string>Voer uit</string>
+		<string>Reacties</string>
+		<string>door</string>
+		<string/>
+		<string/>
+		<string/>
+		<string>Marges</string>
+		<string>Alleen linker marge</string>
+		<string>Alleen rechter marge</string>
+		<string>Beide marges</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Categorie</string>
+		<string>Categorie beheerder</string>
+		<string>Naam</string>
+		<string>Toegangstype</string>
+		<string>Zichtbaarheid</string>
+		<string>Deze categorie kan niet verwijderd worden</string>
+		<string>Wil je werkelijk deze categorie verwijderen ?</string>
+		<string>Bekijk de paginalijst van deze categorie</string>
+		<string>Alle categorieen</string>
+		<string/>
+		<string>Banners</string>
+		<string>Naam</string>
+		<string>Klik teller</string>
+		<string>Doel URL</string>
+		<string>Gif bron</string>
+		<string>Banner beheerder</string>
+		<string>Wil je werkelijk deze banner verwijderen ?</string>
+		<string/>
+		<string/>
+		<string/>
+		<string>Downloads</string>
+		<string>Naam</string>
+		<string>Pad</string>
+		<string>Editor's website</string>
+		<string>Omschrijving</string>
+		<string>Licensie</string>
+		<string>Prijs</string>
+		<string>Operating system (OS)</string>
+		<string>Downloads beheerder</string>
+		<string>Wil je werkelijk deze download verwijderen ?</string>
+		<string>Gedownloaded</string>
+		<string>Download nu</string>
+		<string>Top downloads</string>
+		<string>Omvang</string>
+		<string>Versie</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Site map</string>
+		<string>Zoek resultaten</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Email functionaliteiten</string>
+		<string>Smtp server</string>
+		<string>Bericht op gastenboek</string>
+		<string>Bericht op forums</string>
+		<string>Bericht op reacties</string>
+		<string>Bericht op registraties</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Ongeldig password of geen gevalideerd account. Corrigeer de gegevens of kom later nogmaals</string>
+		<string>Je kunt maar eenmaal stemmen</string>
+		<string>Welkom, je registratie is gevalideerd.</string>
+		<string>Sommige verplichte velden zijn niet juist ingevuld. Voer svp de gewenste informatie in om registratie te voltooien.</string>
+		<string>Deze gebruikersnaam is reeds gekozen. Kies svp een andere.</string>
+		<string>Je gebruikt momenteel het default administrator account!\nVergeet niet dat iedereen in kan loggen als administrator en daarmee de inhoud van de pagina's kan verwijderen.</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Artikel sorteerveld</string>
+		<string>Pagina sorteervolgorde</string>
+		<string>Titel</string>
+		<string>Publicatiedatum</string>
+		<string>NR</string>
+		<string>Oplopend</string>
+		<string>Aflopend</string>
+		<string>Toon titel</string>
+		<string>Toon de inhoud van deze pagina</string>
+		<string/>
+		<string>Nieuw</string>
+		<string>nieuwe berichten</string>
+		<string>Bevestiging per mail</string>
+		<string>Registratie bevestiging</string>
+		<string>Je hebt een aanvraag gedaan voor toegang tot de site: </string>
+		<string>Om de registratie te voltooien, browse naar de volgende link: </string>
+		<string>Hier is de informatie betreffende je account</string>
+		<string>Dank voor registratie. Je ontvangt een email binnen een paar minuten om de registratie te valideren. </string>
+		<string>administrator</string>
+		<string>bewerker</string>
+		<string>lid</string>
+		<string>Meld je aan voor de nieuwsbrief (lage aantallen)</string>
+		<string>Nieuwsbrief</string>
+		<string>Positie</string>
+		<string>Bovenaan</string>
+		<string>Onderaan</string>
+		<string>Links</string>
+		<string>Rechts</string>
+		<string>Tip: Dubbel klik of toets CTRL-T voor de WYSIWYG modus</string>
+		<string>Toon geavanceerde velden</string>
+		<string>Verberg geavanceerde velden</string>
+		<string>Groep</string>
+		<string>Browser groep</string>
+		<string>Versie details</string>
+		<string>Browser</string>
+		<string>Versie</string>
+		<string>Percentage</string>
+		<string>Anders</string>
+		<string/>
+		<string/>
+		<string>Encodering</string>
+		<string>Koptitel</string>
+		<string>Marges</string>
+		<string>Body</string>
+		<string>Voer uit</string>
+		<string>Reset</string>
+		<string><![CDATA[<b>Dank voor je deelname aan deze site</b><br/>Je deelname wordt genoteerd en gepubliceerd on-line na validatie door de webmaster.]]></string>
+		<string>Nieuw artikel standaard publicatie status</string>
+		<string>Activeer mailfunctionaliteit ? (jMail benodigd)</string>
+		<string>Aangegeven geinstalleerde email COM component</string>
+		<string>Password vergeten?</string>
+		<string>Dus je bent je password vergeten?</string>
+		<string>Voer je gebruikersnaam en je email adres onderstaand in, Klik verstuur, en je zult een email ontvangen met je password.</string>
+		<string>Gebruikersnaam</string>
+		<string>Email Adress</string>
+		<string>Voer uit</string>
+		<string>Gebruikersinformatie</string>
+		<string>Een aanvraag is gedaan om de volgende informatie te mailen :</string>
+		<string>Password</string>
+		<string>Bezoek ons snel!</string>
+		<string>Onjuiste gebruikersnaam of email adres.</string>
+		<string>Je herinneringsmail is verstuurd.</string>
+		<string>Voer de informatie opnieuw in</string>
+		<string>Registreer Nu !</string>
+		<string>Mijn account</string>
+		<string>Onvolledig formulier, alle velden met een (*) teken zijn verplicht..</string>
+		<string>Je account is met succes verwerkt !</string>
+		<string>Geen</string>
+		<string>Auto-detectie</string>
+		<string>Menu balk</string>
+		<string>Home</string>
+		<string>Terug naar de home pagina</string>
+		<string>Directories</string>
+		<string>Directories beheerder</string>
+		<string>Nieuwe directorie</string>
+		<string>Naam</string>
+		<string>Gepubliceerd</string>
+		<string>Nieuwe directorie</string>
+		<string>Nieuwe categorie</string>
+		<string>Categorieen</string>
+		<string>Nieuw onderwerp</string>
+		<string>Nieuwe directorie</string>
+		<string>Bewerk directorie</string>
+		<string>Nieuwe categorie</string>
+		<string>Bewerk categorie</string>
+		<string>Nieuwe sub-categorie</string>
+		<string>Bewerk sub-categorie</string>
+		<string>Nieuw onderwerp</string>
+		<string>Bewerk onderwerp</string>
+		<string>Samenvatting</string>
+		<string>Omschrijving</string>
+		<string>Website</string>
+		<string>Download URL</string>
+		<string>Afbeeldingen pad</string>
+		<string>Publieke toevoeging</string>
+		<string>Onderwerpen bewaard</string>
+		<string>Gebruiker</string>
+		<string>Download</string>
+		<string>Website</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Boek</string>
+		<string>MP3</string>
+		<string>Medewerker</string>
+		<string>Product</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Gebruikers</string>
+		<string>Downloads</string>
+		<string>Web Pagina's</string>
+		<string>CD</string>
+		<string>DVD</string>
+		<string>Boek</string>
+		<string>MP3</string>
+		<string>Medewerker</string>
+		<string>Product</string>
+		<string/>
+		<string>Directorie</string>
+		<string>Home</string>
+		<string>Aantal websites in de directorie: </string>
+		<string>Voeg een website toe</string>
+		<string>Totaal aantal hits</string>
+		<string>Je toevoeging is opgenomen en zal nu bewerkt worden door de Webmaster. Dank voor je contributie.</string>
+		<string>Meest populair</string>
+		<string>Hits</string>
+		<string>Nieuw binnen...</string>
+		<string>Nieuwe toevoeging</string>
+		<string>Nieuwe directorie toevoeging</string>
+		<string>Korte omschrijving</string>
+		<string>Buiten gebruik voor onderhoud</string>
+		<string>Aantal bestanden:</string>
+		<string>Pagina</string>
+		<string>TERUG</string>
+		<string>VOORUIT</string>
+		<string>Actieve leden</string>
+		<string>Feedback</string>
+		<string>Je naam</string>
+		<string>Je email</string>
+		<string>Onderwerp</string>
+		<string>Bericht</string>
+		<string>Stuur naar de webmaster</string>
+		<string>Rich media</string>
+		<string>Stuur een bericht naar</string>
+		<string>Je email adres:</string>
+		<string>Je naam:</string>
+		<string>Onderwerp:</string>
+		<string>Bericht:</string>
+		<string>Verstuur bericht</string>
+		<string>Je kunt een bericht versturen als je ingelogd bent.</string>
+		<string>Je bericht is verstuurd</string>
+		<string>Overeenkomende artikelen</string>
+		<string>Overeenkomende forums</string>
+		<string>Exporteer deze lijst naar een CSV bestand</string>
+		<string>Positie</string>
+		<string>SLUIT</string>
+		<string>OMHOOG</string>
+		<string>NAAR BENEDEN</string>
+		<string>Forums</string>
+		<string>Onderwerpen</string>
+		<string>Plaatsingen</string>
+		<string>Laatste plaatsing</string>
+		<string>Auteur</string>
+		<string>Gestart door</string>
+		<string>Reacties</string>
+		<string>Topic</string>
+		<string>Geplaatst</string>
+		<string>Beantwoord</string>
+		<string>Discussies</string>
+		<string>Discussie</string>
+		<string>Zoek forums</string>
+		<string>Beantwoord een bestaand bericht</string>
+		<string>Het bericht waar je op reageert</string>
+		<string>Geplaatst door</string>
+		<string>op</string>
+		<string>Onderwerp</string>
+		<string>Bericht</string>
+		<string>Nieuw onderwerp</string>
+		<string>Dit is een automatische melding. Iemand heeft op jouw bericht gereageerd op onze site.Je kunt het hier teruglezen:</string>
+		<string>Moderator</string>
+		<string>Moderated door</string>
+		<string>Formaat</string>
+		<string>Tekst</string>
+		<string>HTML</string>
+		<string>Standaard status reacties</string>
+		<string>Standaard status artikels</string>
+		<string>Artikels paginering</string>
+		<string>Sinds</string>
+		<string>Van</string>
+		<string>Bewerk uiterlijk</string>
+		<string>Bewerkelijk</string>
+		<string>Naam</string>
+		<string>Uiterlijk</string>
+		<string>Auteur</string>
+		<string>Onthoud mij</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Kennisbank</string>
+		<string>Lineair</string>
+		<string>Gestructureerd</string>
+		<string>Sectie:</string>
+		<string>[Top]</string>
+		<string>Gerelateerde artikelen</string>
+		<string>Zoek</string>
+		<string>Voeg bericht toe</string>
+		<string>Alle</string>
+		<string>in Sectie:</string>
+		<string>Home</string>
+		<string>Ga naar sectie:</string>
+		<string>Voeg nieuwe relaties toe</string>
+		<string>Kennisbank</string>
+		<string>Sectie</string>
+		<string>Bericht</string>
+		<string>Titel</string>
+		<string>Versie</string>
+		<string>Intro</string>
+		<string>Toon</string>
+		<string>Nr</string>
+		<string>Naam</string>
+		<string>Markeer</string>
+		<string>Zichtbaar</string>
+		<string>Sectie</string>
+		<string>Body</string>
+		<string>voeg toe..</string>
+		<string>Gerelateerde artikelen</string>
+		<string>Gerelateerd aan</string>
+		<string>Bekende relaties</string>
+		<string>Kennisbank-bewerker</string>
+		<string>Uit</string>
+		<string>Anoniem</string>
+		<string>Lid</string>
+		<string>Er zijn geen berichten in deze sectie.</string>
+		<string>Verwijder volgende relatie</string>
+		<string>Ga</string>
+		<string>Kies een van de beschikbare kennisbanken.</string>
+		<string>Beheerders niveau kennisbanken:</string>
+		<string>Bewerkers niveau kennisbanken:</string>
+		<string>Leden niveau kennisbanken:</string>
+		<string>Anoniem niveau kennisbanken:</string>
+		<string>Fout</string>
+		<string>De kennisbank die je probeert te openen bestaat niet of is niet beschikbaar. Als je denkt dat dit onjuist is, meldt dit dan aan de webmaster.</string>
+		<string>Er is geen beschikbare kennisbank!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Lijst Beheerder</string>
+		<string>Lijsten</string>
+		<string>Lijst</string>
+		<string>Ingangen</string>
+		<string>Ingang</string>
+		<string>Ben je er zeker van dat je deze lijst wilt verwijderen? Wees er zeker van dat alle functionaliteiten die deze lijst gebruiken uitgeschakeld zijn.</string>
+		<string>Deze lijst is een systeemlijst en kan niet verwijderd of hernoemd worden!</string>
+		<string>Invoer</string>
+		<string>Waarde</string>
+		<string>Ben je er zeker van dat je deze ingang wilt verwijderen?</string>
+		<string>Deze ingang behoort tot een systeemlijst en kan niet verwijderd of herwaardeerd worden!</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Zo</string>
+		<string>Ma</string>
+		<string>Di</string>
+		<string>Wo</string>
+		<string>Do</string>
+		<string>Vr</string>
+		<string>Za</string>
+		<string/>
+		<string/>
+		<string/>
+		<string>Januari</string>
+		<string>Februari</string>
+		<string>Maart</string>
+		<string>April</string>
+		<string>Mei</string>
+		<string>Juni</string>
+		<string>Juli</string>
+		<string>Augustus</string>
+		<string>September</string>
+		<string>Oktober</string>
+		<string>November</string>
+		<string>December</string>
+		<string>Evenementen</string>
+		<string>Meer informatie op:</string>
+		<string>nr</string>
+		<string>datum</string>
+		<string>omschrijving</string>
+		<string>Korte omschrijving</string>
+		<string>Omschrijving</string>
+		<string>Link</string>
+		<string>Zichtbaar</string>
+		<string>Datum</string>
+		<string>Evenementen kalender</string>
+		<string>Kalender</string>
+		<string>Evenementen kalender</string>
+		<string>terug</string>
+		<string>vooruit</string>
+		<string>Kennismaking begint op</string>
+		<string>kennismaking</string>
+		<string>nieuw evenement</string>
+		<string>kalender status</string>
+		<string>voeg evenement toe</string>
+		<string>Kies kalender</string>
+		<string>Kalender</string>
+		<string>Ga </string>
+		<string>Zichtbaar voor</string>
+		<string>Je hebt geen rechten om deze kalender te gebruiken</string>
+		<string>kennismaking</string>
+		<string>evenementen per pagina</string>
+		<string>kennismakingen per pagina</string>
+		<string>Overeenkomende evenementen</string>
+		<string>Kijk voor evenement</string>
+		<string>Ga</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Chat</string>
+		<string>Kanaal</string>
+		<string>Creeer nieuw kanaal</string>
+		<string>Je browser ondersteunt GEEN frames</string>
+		<string>gast</string>
+		<string>Bericht</string>
+		<string>Naam</string>
+		<string>Omschrijving</string>
+		<string>Kanaal</string>
+		<string>Omschrijving</string>
+		<string>Operator</string>
+		<string>Gebruiker</string>
+		<string>Nieuwe gebruikers</string>
+		<string>Actieve gebruikers</string>
+		<string>verlaat kanaal</string>
+		<string>Chat</string>
+		<string>Eigenaar</string>
+		<string>Verwijder alle oude berichten</string>
+		<string>Chat-Bewerker</string>
+		<string>nr</string>
+		<string>Prive bericht aan</string>
+		<string>terug</string>
+		<string>verwijder</string>
+		<string>Je bent verwijderd door de operator. Verlaat svp het kanaal.</string>
+		<string>Actie, te verrichten op</string>
+		<string>operator</string>
+		<string>lid</string>
+		<string>Neem deel</string>
+		<string>Je kunt dit venster sluiten.</string>
+		<string/>
+		<string>Leden beheerder</string>
+		<string>Zoek formulier</string>
+		<string>Gebruiker</string>
+		<string>Geslacht</string>
+		<string>Leeftijd</string>
+		<string>Beroep</string>
+		<string>Woonplaats</string>
+		<string>Provincie</string>
+		<string>Land</string>
+		<string>Sinds</string>
+		<string>Toon alle leden</string>
+		<string>Mijn profiel</string>
+		<string>nr</string>
+		<string>Voornaam</string>
+		<string>Achternaam</string>
+		<string>Website</string>
+		<string>Foto (pad)</string>
+		<string>Kies</string>
+		<string>Adres</string>
+		<string>Postcode</string>
+		<string>Telefoonnr.</string>
+		<string>Publiekelijk zichtbaar</string>
+		<string>Welkomstbericht</string>
+		<string>Beheerders bericht</string>
+		<string>Leden profiel</string>
+		<string>Welkom</string>
+		<string>Er zijn geen leden met deze pseudoniem in de huidige omgeving.</string>
+		<string>Je kunt het ledenprofiel alleen inzien als je bent ingelogd.</string>
+		<string>Het profil dat je probeert te bezichtigen bestaat niet of het is niet publiekelijk toegankelijk.</string>
+		<string>Naam</string>
+		<string>Voeg toe aan vriendenlijst</string>
+		<string>is met succes toegevoegd aan vriendenlijst</string>
+		<string>is met succes verwijderd van vriendenlijst</string>
+		<string>Leden</string>
+		<string>Vrienden Beheerder</string>
+		<string>Vrienden</string>
+		<string>Acties</string>
+		<string>Verwijder</string>
+		<string>Verstuur bericht</string>
+		<string>Mail gebruiker</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Intern bericht</string>
+		<string>Aantal berichten per gebruiker</string>
+		<string>Je bericht is met succes verstuurd.</string>
+		<string>Je hebt geen nieuwe berichten.</string>
+		<string>Je hebt nieuwe berichten</string>
+		<string>Onderstaan vind je een lijst met alle aan jou verstuurde berichten</string>
+		<string>Datum</string>
+		<string>Van</string>
+		<string>Onderwerp</string>
+		<string>Verstuur intern bericht aan</string>
+		<string>Bericht</string>
+		<string>Sorry, deze gebruiker heeft een volle mailbox. Probeer het later nog eens.</string>
+		<string>Deze functionaliteit is voorbehouden aan LEDEN ALLEEN!</string>
+		<string>Je kunt alleen berichten inzien die aan jou geadresseerd zijn!!!</string>
+		<string>Maximum aantal berichten dat elke gebruiker kan bewaren:</string>
+		<string>Aantal berichten dat je nog kunt ontvangen:</string>
+		<string>Schreef:</string>
+		<string>Huidig bericht beantwoord jouw vorige .bericht.</string>
+		<string>Beantwoord</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Onderwerp</string>
+		<string>Bericht</string>
+		<string>Verstuur als HTML</string>
+		<string>Bijlage</string>
+		<string>Nieuwsbrief</string>
+		<string>nr</string>
+		<string>onderwerp</string>
+		<string>actie</string>
+		<string>verstuur</string>
+		<string>verstuur opnieuw</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>uppercased login</string>
+		<string>Authentificatie</string>
+		<string>Standaard</string>
+		<string>HTTP-Auth</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Module info</string>
+		<string>omschrijving</string>
+		<string>versie</string>
+		<string>laatst bewerkt</string>
+		<string>door</string>
+		<string>homepagina</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Kies doel dir</string>
+		<string>voeg een bestand toe</string>
+		<string>Upload</string>
+		<string>naam</string>
+		<string>omvang</string>
+		<string>type</string>
+		<string>laatst bijgewerkt</string>
+		<string>actie</string>
+		<string>Verwijder</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+		<string>Bewerkers beheerder</string>
+		<string>nr</string>
+		<string>naam</string>
+		<string>config string</string>
+		<string>actief</string>
+		<string>groep</string>
+		<string/>
+		<string/>
+		<string/>
+		<string/>
+	</strings>
+</language>

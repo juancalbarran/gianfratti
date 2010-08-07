@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>AUTO COMPLETAR</title>
+</head>
+<style>
+input {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+}
+
+</style>
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">
+	<h3 align="center">&nbsp;</h3>
+	<h3 align="center">&nbsp;</h3>
+	<h3 align="center"></h3>
+	<h4 align="center">AUTO COMPLETAR</h4>
+	<form method="post" name="" action="">
+	<table width="443" border="1" align="center" cellpadding="8" cellspacing="0" class="BordaTable">
+	  <tr> 
+		<td align="center" width="427">
+		  Criando um text AUTO COMPLETAR:<br><br><br>
+		  Digite a Letra A: 
+		  <input name="Tcodigos" onKeyUp="checkList(this,arvore)" id="textbox1">	
+		</td>
+	  </tr>
+	</table>
+	</body>
+<script>   	
+var arvore = new Array("abcdefghije",
+					   "aTestando!!!!",
+					   "ahahaha",
+					   "atesteee",
+					   "abc", "abt",
+					   "acd", "aaaaat",
+					   "agoogle.com",
+					   "aimasters.com.br",
+					   "A_vitor",
+					   "ateste",
+					   "ajavascript",
+					   "autocompletar",
+					   "asp",
+					   "aaaaaaaaaaaaaaaa",
+					   "a");
+			
+document.write('<style type="text/css">'+
+					  '#listHolder{position:absolute;border:0;}'+
+					  '.list{font-family:verdana;font-size:10;color:#000000;background:;}'+
+			 '<\/style>')
+
+function checkList(obj,nStr) {
+
+	var k = event.keyCode;
+	var T = findPosY(obj); //top
+	var L = findPosX(obj); //left
+	var list = document.getElementById('listHolder');
+
+	if(!list) {
+		var list = document.createElement('DIV');
+		list.id = 'listHolder';
+		document.body.appendChild(list);
+	}
+	
+	list.style.top=(T+obj.offsetHeight);
+	list.style.left=L;
+	list.style.display='none';
+	
+	var txt=obj.value;
+	
+	if (txt) {
+		var str='<select class="list"'+
+				'onclick="setOption(\''+obj.id+'\',this.options[this.selectedIndex].value)"'+
+				'onkeyup="if(event.keyCode==13){setOption(\''+obj.id+'\','+
+				'this.options[this.selectedIndex].value)};if(event.keyCode==27){'+
+				'document.getElementById(\'listHolder\').style.display=\'none\';'+
+				'document.getElementById(\''+obj.id+'\').focus()};" id="selector" size="6">'
+		var match=false
+		for(a=0;a<nStr.length;a++){
+		
+			if(txt.toLowerCase()==nStr[a].toLowerCase().substring(0,txt.length)){
+				match=true
+				str+=('<option value="'+nStr[a].replace(/\'/gi,'’')+'">'+nStr[a]+'</option>')
+			}
+		}
+	
+		str+='</select>'
+		if(match){
+			list.innerHTML=str
+			list.style.display='block'
+			var sel=document.getElementById('selector')
+			if(k=='40') {
+			   sel.focus()
+			}
+		
+			if(k=='13'){
+			   document.getElementById('listHolder').style.display='none'
+			}
+		}
+	}
+}
+
+function setOption(obj,val){
+
+	var obj=document.getElementById(obj)
+	
+	obj.value=val;
+	obj.focus()
+	document.getElementById('listHolder').style.display='none'
+}
+
+function findPosX(obj){
+	var curleft=0;
+	if(obj.offsetParent) {
+	
+		while(obj.offsetParent){
+			curleft+=obj.offsetLeft
+			obj=obj.offsetParent;
+		}
+	} else if(obj.x)
+		curleft+=obj.x;
+		return curleft;
+}
+
+function findPosY(obj){
+	var curtop=0;
+	if(obj.offsetParent){
+		while(obj.offsetParent){
+			curtop+=obj.offsetTop
+			obj=obj.offsetParent;
+		}
+	} else if(obj.y)
+		curtop+=obj.y;
+		return curtop;
+}
+</script>
