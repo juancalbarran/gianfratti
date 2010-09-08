@@ -328,6 +328,42 @@ namespace Gianfratti
         #region Metodos de Mascaras
 
         /// <summary>
+        /// Método para formatar strings
+        /// formatar valores,  Telefone, CPF, CNPJ, etc…
+        /// Exemplo: string cpf = Formatar("12345678900", "###.###.###-##");
+        /// </summary>
+        /// <param name="valor"></param>
+        /// <param name="mascara"></param>
+        /// <returns></returns>
+        public static string Formatar(string valor, string mascara)
+        {
+            StringBuilder dado = new StringBuilder();
+
+            // remove caracteres nao numericos  
+            foreach (char c in valor)
+            {
+                if (Char.IsNumber(c))
+                    dado.Append(c);
+            }
+
+            int indMascara = mascara.Length;
+            int indCampo = dado.Length;
+
+            for (; indCampo > 0 && indMascara > 0; )
+            {
+                if (mascara[--indMascara] == '#')
+                    indCampo--;
+            }
+
+            StringBuilder saida = new StringBuilder();
+
+            for (; indMascara < mascara.Length; indMascara++)
+                saida.Append((mascara[indMascara] == '#') ? dado[indCampo++] : mascara[indMascara]);
+
+            return saida.ToString();
+        }
+
+        /// <summary>
         /// Mascara para CNPJ
         /// </summary>
         /// <param name="cnpj"></param>
@@ -457,104 +493,104 @@ namespace Gianfratti
 
         #region Calculo de Digito Verificardo - Modulos
 
-		/// <summary>
-		/// Calcula o módulo 10 de uma string numérica
-		/// </summary>
-		/// <param name="sTxt">String contendo os dígitos para verificação</param>
-		/// <returns>O dígito verificador correspondente</returns>
-		public static char M10(string sTxt)
-		{
-			int   soma = 0, cont = 2, digito;
-			for (int i=sTxt.Length-1; i>=0; i--)
-			{
-				digito = sTxt[i] - '0';
+        /// <summary>
+        /// Calcula o módulo 10 de uma string numérica
+        /// </summary>
+        /// <param name="sTxt">String contendo os dígitos para verificação</param>
+        /// <returns>O dígito verificador correspondente</returns>
+        public static char M10(string sTxt)
+        {
+            int soma = 0, cont = 2, digito;
+            for (int i = sTxt.Length - 1; i >= 0; i--)
+            {
+                digito = sTxt[i] - '0';
 
-				if (cont == 2)
-				{
-					digito *= cont;
-					cont = 1;
-				}
-				else
-				{
-					cont = 2;
-				}
+                if (cont == 2)
+                {
+                    digito *= cont;
+                    cont = 1;
+                }
+                else
+                {
+                    cont = 2;
+                }
 
-				if (digito >= 10) digito -= 9;
-				soma += digito;
-			}
+                if (digito >= 10) digito -= 9;
+                soma += digito;
+            }
 
-			digito = (10 - soma % 10) % 10;
-			return Convert.ToChar(digito + '0');
-		}
+            digito = (10 - soma % 10) % 10;
+            return Convert.ToChar(digito + '0');
+        }
 
-		/// <summary>
-		/// Calcula o módulo 11 de uma string numérica
-		/// </summary>
-		/// <param name="sTxt">String contendo os dígitos para verificação</param>
-		/// <returns>O dígito verificador correspondente</returns>
-		public static char M11(string sTxt)
-		{
-			int	dv;
-			int	soma = 0, cont = 2, digito;
+        /// <summary>
+        /// Calcula o módulo 11 de uma string numérica
+        /// </summary>
+        /// <param name="sTxt">String contendo os dígitos para verificação</param>
+        /// <returns>O dígito verificador correspondente</returns>
+        public static char M11(string sTxt)
+        {
+            int dv;
+            int soma = 0, cont = 2, digito;
 
-			for (int i=sTxt.Length-1; i>=0; i--)
-			{
-				digito = sTxt[i] - '0';
+            for (int i = sTxt.Length - 1; i >= 0; i--)
+            {
+                digito = sTxt[i] - '0';
 
-				digito *= cont;
-				if (++cont > 9) cont = 2;
-				soma += digito;
-			}
-			digito = (11 - soma % 11) % 11;
-			dv = digito <= 9 ? digito : 0;
+                digito *= cont;
+                if (++cont > 9) cont = 2;
+                soma += digito;
+            }
+            digito = (11 - soma % 11) % 11;
+            dv = digito <= 9 ? digito : 0;
 
-			return Convert.ToChar(dv + '0');
-		}
-
-
-		public static char M11B(string sTxt)
-		{
-			int  dv;
-			int  soma = 0, cont = 2, digito;
- 
-			for (int i=sTxt.Length-1; i>=0; i--)
-			{
-				digito = sTxt[i] - '0';
-				digito *= cont;
-				cont++;
-				soma += digito;
-			}
-			digito = (11 - soma % 11) % 11;
-			dv = digito <= 9 ? digito : 0;
-			return Convert.ToChar(dv + '0');
-		}
+            return Convert.ToChar(dv + '0');
+        }
 
 
-		/// <summary>
-		/// Calcula o módulo 11 de uma string numérica.
-		/// Se o resto for 0,1,10, considera dv 1.
-		/// 
-		/// </summary>
-		/// <param name="sTxt">String contendo os dígitos para verificação</param>
-		/// <returns>O dígito verificador correspondente</returns>
-		public static char M11C(string sTxt)
-		{
-			int	dv;
-			int	soma = 0, cont = 2, digito;
+        public static char M11B(string sTxt)
+        {
+            int dv;
+            int soma = 0, cont = 2, digito;
 
-			for (int i=sTxt.Length-1; i>=0; i--)
-			{
-				digito = sTxt[i] - '0';
+            for (int i = sTxt.Length - 1; i >= 0; i--)
+            {
+                digito = sTxt[i] - '0';
+                digito *= cont;
+                cont++;
+                soma += digito;
+            }
+            digito = (11 - soma % 11) % 11;
+            dv = digito <= 9 ? digito : 0;
+            return Convert.ToChar(dv + '0');
+        }
 
-				digito *= cont;
-				if (++cont > 9) cont = 2;
-				soma += digito;
-			}
-			digito = (11 - soma % 11) % 11;
-			dv = ( (digito <= 9) && (digito >= 2)) ? digito : 1;
 
-			return Convert.ToChar(dv + '0');
-		}
+        /// <summary>
+        /// Calcula o módulo 11 de uma string numérica.
+        /// Se o resto for 0,1,10, considera dv 1.
+        /// 
+        /// </summary>
+        /// <param name="sTxt">String contendo os dígitos para verificação</param>
+        /// <returns>O dígito verificador correspondente</returns>
+        public static char M11C(string sTxt)
+        {
+            int dv;
+            int soma = 0, cont = 2, digito;
+
+            for (int i = sTxt.Length - 1; i >= 0; i--)
+            {
+                digito = sTxt[i] - '0';
+
+                digito *= cont;
+                if (++cont > 9) cont = 2;
+                soma += digito;
+            }
+            digito = (11 - soma % 11) % 11;
+            dv = ((digito <= 9) && (digito >= 2)) ? digito : 1;
+
+            return Convert.ToChar(dv + '0');
+        }
 
         #endregion
 
