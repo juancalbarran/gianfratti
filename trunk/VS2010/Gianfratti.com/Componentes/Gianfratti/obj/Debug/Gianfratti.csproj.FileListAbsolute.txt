@@ -8,3 +8,8 @@ C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.pd
 C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\ResolveAssemblyReference.cache
 C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.dll
 C:\Projetos\VS2008\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.pdb
+C:\Gianfratti\VS2010\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.dll
+C:\Gianfratti\VS2010\Gianfratti.com\Componentes\Gianfratti\bin\Debug\Gianfratti.pdb
+C:\Gianfratti\VS2010\Gianfratti.com\Componentes\Gianfratti\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2010\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.dll
+C:\Gianfratti\VS2010\Gianfratti.com\Componentes\Gianfratti\obj\Debug\Gianfratti.pdb
