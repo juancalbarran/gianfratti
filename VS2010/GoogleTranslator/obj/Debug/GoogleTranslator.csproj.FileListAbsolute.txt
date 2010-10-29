@@ -1,0 +1,10 @@
+C:\Gianfratti\VS2010\GoogleTranslator\bin\Debug\RavSoft.GoogleTranslator.exe
+C:\Gianfratti\VS2010\GoogleTranslator\bin\Debug\RavSoft.GoogleTranslator.pdb
+C:\Gianfratti\VS2010\GoogleTranslator\bin\Debug\StringParser.dll
+C:\Gianfratti\VS2010\GoogleTranslator\bin\Debug\WebResourceProvider.dll
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\RavSoft.GoogleTranslator.GoogleTranslatorFrm.resources
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\RavSoft.GoogleTranslator.exe
+C:\Gianfratti\VS2010\GoogleTranslator\obj\Debug\RavSoft.GoogleTranslator.pdb
