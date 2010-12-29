@@ -1,0 +1,10 @@
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Cloud.dll
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Cloud.pdb
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\obj\Debug\ResolveAssemblyReference.cache
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.dll
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.pdb
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.dll
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.Utilities.dll
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Newtonsoft.Json.dll
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.xml
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Newtonsoft.Json.xml
