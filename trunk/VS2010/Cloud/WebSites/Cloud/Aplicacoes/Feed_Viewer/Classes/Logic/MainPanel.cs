@@ -29,7 +29,7 @@ namespace Ext.Net.Examples.FeedViewer
 
             switch (place)
             {
-                case "Bottom":
+                case "Inferior":
                     right.Hide();
                     bottom.Call("add", this.Preview.ClientID);
                     bottom.Show();
@@ -37,7 +37,7 @@ namespace Ext.Net.Examples.FeedViewer
                     btn.IconCls = "preview-bottom";
                     break;
 
-                case "Right":
+                case "Direita":
                     bottom.Hide();
                     right.Call("add", this.Preview.ClientID);
                     right.Show();
@@ -45,7 +45,7 @@ namespace Ext.Net.Examples.FeedViewer
                     btn.IconCls = "preview-right";
                     break;
 
-                case "Hide":
+                case "Desativado":
                     bottom.Hide();
                     right.Hide();
                     ((Panel)this.Items[0]).DoLayout();

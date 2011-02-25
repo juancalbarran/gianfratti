@@ -139,6 +139,7 @@
     <Compile Include="Aplicacoes\Feed_Viewer\FeedProxy.ashx.cs">
       <DependentUpon>FeedProxy.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Aplicacoes\Feed_Viewer\WebProx.cs" />
     <Compile Include="DeskTop.aspx.cs">
       <DependentUpon>DeskTop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

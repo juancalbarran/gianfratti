@@ -44,7 +44,7 @@ namespace Ext.Net.Examples.FeedViewer
                       new TreeNode
                       {
                           NodeID = "MyFeeds",
-                          Text = "My Feeds",
+                          Text = "Minhas Feeds",
                           Cls = "feeds-node",
                           Expanded = true
                       }
@@ -58,13 +58,13 @@ namespace Ext.Net.Examples.FeedViewer
                     new Button
                     {
                         Icon = Icon.FeedAdd,
-                        Text = "Add Feed"
+                        Text = "Adicionar"
                     },
                     new Button
                     {
                         ID = "Delete",
                         Icon = Icon.FeedDelete,
-                        Text = "Remove"
+                        Text = "Remover"
                     }
                 }
             });
@@ -208,14 +208,14 @@ namespace Ext.Net.Examples.FeedViewer
                     {
                         ID = "Load",
                         Icon = Icon.FeedGo,
-                        Text = "Load Feed",
+                        Text = "Ler Feed",
                         Scope = FeedTree.SCOPE,
                         Handler = new JFunction("this.tree.ctxNode.select();").ToScript()
                     },
                     new MenuItem
                     {
                         Icon = Icon.FeedDelete,
-                        Text = "Remove",
+                        Text = "Remover",
                         DirectEvents =
                         {
                             Click =
@@ -231,7 +231,7 @@ namespace Ext.Net.Examples.FeedViewer
                     new MenuItem
                     {
                         Icon = Icon.FeedAdd,
-                        Text = "Add Feed",
+                        Text = "Adicionar Feed",
                         Scope = FeedTree.SCOPE,
                         Handler = FeedTree.SCOPE + ".showWindow"
                     }

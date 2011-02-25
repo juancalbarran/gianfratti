@@ -8,7 +8,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>Desktop - Ext.NET Examples</title>    
+    <title>Desktop - Gianfratti.com</title>    
     
     <style type="text/css">        
         .start-button {
@@ -18,22 +18,27 @@
         .shortcut-icon {
             width: 48px;
             height: 48px;
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="\Designer\Imagens\window.png", sizingMethod="scale");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=Designer/Imagens/window.png", sizingMethod="scale");
         }
         
         .icon-grid48 {
             background-image: url((Designer/Imagens/grid48x48.png) !important;
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Designer/Imagens/grid48x48.png", sizingMethod="scale");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/grid48x48.png", sizingMethod="scale");
         }
         
         .icon-user48 {
             background-image: url((Designer/Imagens/user48x48.png) !important;
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Designer/Imagens/user48x48.png", sizingMethod="scale");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/user48x48.png", sizingMethod="scale");
         }
         
         .icon-window48 {
             background-image: url((Designer/Imagens/window48x48.png) !important;
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Designer/Imagens/window48x48.png", sizingMethod="scale");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/window48x48.png", sizingMethod="scale");
+        }
+        
+        .icon-feed48 {
+            background-image: url((Designer/Imagens/fedd48x48.png) !important;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/fedd48x48.png", sizingMethod="scale");
         }
         
         .desktopEl {
@@ -42,9 +47,11 @@
     </style>
     
     <script type="text/javascript">
+        /*
         var alignPanels = function () {
             pnlSample.getEl().alignTo(Ext.getBody(), "tr", [-505, 5], false)
         };
+        */
 
         var template = '<span style="color:{0};">{1}</span>';
 
@@ -81,8 +88,8 @@
     <form id="Form1" runat="server">
         <ext:ResourceManager ID="ResourceManager1" runat="server">
             <Listeners>
-                <DocumentReady Handler="alignPanels();" />
-                <WindowResize Handler="alignPanels();" />
+<%--                <DocumentReady Handler="alignPanels();" />
+                <WindowResize Handler="alignPanels();" />--%>
             </Listeners>
         </ext:ResourceManager>
         
@@ -115,10 +122,10 @@
             runat="server" 
             BackgroundColor="Black" 
             ShortcutTextColor="White" 
-            Wallpaper="/Designer/Imagens/desktop.jpg">
+            Wallpaper="Designer/Imagens/desktop.jpg">
             <StartButton Text="Start" IconCls="start-button" />
             <%-- NOTE: Body Controls must be added to a container with position:absolute --%>
-            <Content>
+  <%--          <Content>
                 <ext:Panel 
                     ID="pnlSample" 
                     runat="server" 
@@ -205,7 +212,7 @@
                         </ext:BorderLayout>
                     </Items>
                 </ext:Panel>
-            </Content>
+            </Content>--%>
             <Modules>
                 <ext:DesktopModule ModuleID="DesktopModule1" WindowID="winCustomer" AutoRun="true">
                     <Launcher ID="Launcher1" runat="server" Text="Add Customer" Icon="Add" />
@@ -215,20 +222,21 @@
                     <Launcher ID="Launcher2" runat="server" Text="Company Info" Icon="Lorry" />
                 </ext:DesktopModule>
                 
-                <ext:DesktopModule ModuleID="DesktopModule3" WindowID="winBrowser">
-                    <Launcher ID="Launcher3" runat="server" Text="Web Browser" Icon="World" />
+                <ext:DesktopModule ModuleID="DesktopModule3" WindowID="FeedBrowser">
+                    <Launcher ID="Launcher3" runat="server" Text="Leitor de Feed" Icon="Rss" />
                 </ext:DesktopModule>
             </Modules>  
             
             <Shortcuts>
                 <ext:DesktopShortcut ModuleID="DesktopModule1" Text="Add Customer" IconCls="shortcut-icon icon-user48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule2" Text="Company Info" IconCls="shortcut-icon icon-grid48" />
-                <ext:DesktopShortcut ShortcutID="scTile" Text="Tile windows" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-90" />
-                <ext:DesktopShortcut ShortcutID="scCascade" Text="Cascade windows" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-170" />
+                <ext:DesktopShortcut ModuleID="DesktopModule3" Text="Leitor de Feed" IconCls="shortcut-icon icon-feed48" />
+                <ext:DesktopShortcut ShortcutID="scJanelasLadoLado" Text="Janelas Lado a Lado" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-90" />
+                <ext:DesktopShortcut ShortcutID="scJanelasCascata" Text="Janelas em Cascata" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-170" />
             </Shortcuts>
             
             <Listeners>
-                <ShortcutClick Handler="var d=#{MyDesktop}.getDesktop(); if(id == 'scTile'){d.tile();}else if(id == 'scCascade'){d.cascade();}" />
+                <ShortcutClick Handler="var d=#{MyDesktop}.getDesktop(); if(id == 'scJanelasLadoLado'){d.tile();}else if(id == 'scJanelasCascata'){d.cascade();}" />
             </Listeners>
             
             <StartMenu Width="400" Height="400" ToolsWidth="227" Title="Start Menu">
@@ -302,7 +310,7 @@
                                     </ext:MenuItem>
                                     <ext:MenuItem Text="Web Browser" Icon="World">
                                         <Listeners>
-                                            <Click Handler="#{winBrowser}.show();" />
+                                            <Click Handler="#{FeedBrowser}.show();" />
                                         </Listeners>
                                     </ext:MenuItem>
                                     <ext:MenuItem Text="Create dynamic" Icon="World">
@@ -451,11 +459,11 @@
         </ext:DesktopWindow>
         
         <ext:DesktopWindow 
-            ID="winBrowser" 
+            ID="FeedBrowser" 
             runat="server" 
-            Title="Web Browser" 
-            Icon="World"
-            InitCenter="false"             
+            Title="Leitor de Feed" 
+            Icon="Feed"
+            InitCenter="false"            
             Width="1000"
             Height="600"
             PageX="25" 

@@ -4,6 +4,7 @@ using System.Net;
 using System.Text;
 using System.Web;
 using System.Web.Services;
+using Cloud.Aplicacoes.Feed_Viewer;
 
 namespace Ext.Net.Examples.FeedViewer
 {
@@ -25,6 +26,12 @@ namespace Ext.Net.Examples.FeedViewer
             }
 
             Encoding enc = Encoding.GetEncoding("ISO-8859-1");
+
+            //Pega as configuracoes de proxy automaticas do IE
+            //WebProxy proxy = null;
+            //proxy = new WebProxy();
+            //proxy.BypassProxyOnLocal = true;
+
 
             WebRequest request = WebRequest.Create(url);
             WebResponse response = request.GetResponse();

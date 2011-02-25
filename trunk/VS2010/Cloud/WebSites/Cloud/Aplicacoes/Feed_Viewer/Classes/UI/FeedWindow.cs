@@ -33,20 +33,20 @@ namespace Ext.Net.Examples.FeedViewer
 
             Button btnAdd = new Button
                                 {
-                                    Text = "Add Feed",
+                                    Text = "Adicionar Feed",
                                     Scope = FeedWindow.SCOPE,
                                     Handler = FeedWindow.SCOPE + ".onAdd"
                                 };
             btnAdd.DirectEvents.Click.Event += AddClick_Event;
             btnAdd.DirectEvents.Click.EventMask.ShowMask = true;
-            btnAdd.DirectEvents.Click.EventMask.Msg = "Validating Feed...";
+            btnAdd.DirectEvents.Click.EventMask.Msg = "Validando Feed...";
             btnAdd.DirectEvents.Click.Failure = FeedWindow.SCOPE+".markInvalid();";
 
             this.Buttons.Add(btnAdd);
 
             this.Buttons.Add(new Button
             {
-                Text = "Cancel",
+                Text = "Calncelar",
                 Scope = FeedWindow.SCOPE,
                 Handler = FeedWindow.SCOPE + ".hide"
             });
@@ -122,8 +122,8 @@ namespace Ext.Net.Examples.FeedViewer
             this.feedUrl = new ComboBox
             {
                 ID = "FeedUrl",
-                FieldLabel = "Enter the URL of the feed to add",
-                EmptyText = "http://example.com/blog/feed",
+                FieldLabel = "Entre com a URL da Fedd para adicionar",
+                EmptyText = "http://colunistas.ig.com.br/gamerbr/feed/",
                 Width = 450,
                 ValidateOnEvent = false,
                 ValidateOnBlur = false,
