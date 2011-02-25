@@ -25,7 +25,7 @@ namespace Ext.Net.Examples.FeedViewer
             this.Region = Ext.Net.Region.Center;
             this.ID = "TopicGrid";
             this.LoadMask.ShowMask = true;
-            this.LoadMask.Msg = "Loading Feed...";
+            this.LoadMask.Msg = "Lendo Feed...";
             this.Listeners.Render.Handler = "this.grid = item;";
             this.Listeners.Render.Scope = FeedGrid.SCOPE;
 
@@ -48,7 +48,7 @@ namespace Ext.Net.Examples.FeedViewer
             this.ColumnModel.Columns.Add(new Column
             {
                  ColumnID = "title", 
-                 Header = "Title",
+                 Header = "Titulo",
                  DataIndex = "title",
                  Sortable = true,
                  Width = 420,
@@ -57,7 +57,7 @@ namespace Ext.Net.Examples.FeedViewer
 
             this.ColumnModel.Columns.Add(new Column
             {
-                Header = "Author",
+                Header = "Autor",
                 DataIndex = "author",
                 Sortable = true,
                 Width = 100,
@@ -67,7 +67,7 @@ namespace Ext.Net.Examples.FeedViewer
             this.ColumnModel.Columns.Add(new DateColumn
             {
                 ColumnID = "last",
-                Header = "Date",
+                Header = "Data",
                 DataIndex = "pubDate",
                 Sortable = true,
                 Width = 150,

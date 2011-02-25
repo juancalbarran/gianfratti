@@ -43,12 +43,12 @@ namespace Ext.Net.Examples.FeedViewer
             this.Listeners.AfterLayout.Single = true;
 
             this.Items.Add(new Panel
-               {
-                   ID = "MainView",
-                   Layout = "Border",
-                   Title = "Loading...",
-                   HideMode = HideMode.Offsets,
-                   Items =
+            {
+                ID = "MainView",
+                Layout = "Border",
+                Title = "Carregando...",
+                HideMode = HideMode.Offsets,
+                Items =
                    {
                        this.Grid,
                        new Panel
@@ -72,7 +72,7 @@ namespace Ext.Net.Examples.FeedViewer
                            Hidden = true
                        }
                    }
-               });
+            });
 
         }
 
@@ -165,7 +165,7 @@ namespace Ext.Net.Examples.FeedViewer
                            new Button
                            {
                                ID = "btnNewTab",
-                               Text = "View in New Tab",
+                               Text = "Visualizar em nova tab",
                                IconCls = "new-tab",
                                Disabled = true,
                                Scope = MainPanel.SCOPE,
@@ -175,7 +175,7 @@ namespace Ext.Net.Examples.FeedViewer
                            new Button
                            {
                                ID = "btnNewWin",
-                               Text = "Go To Post",
+                               Text = "Abrir o Post",
                                IconCls = "new-win",
                                Disabled = true,
                                Scope = MainPanel.SCOPE,
@@ -196,17 +196,17 @@ namespace Ext.Net.Examples.FeedViewer
                 <div class=""post-data"">
                     <span class=""post-date"">{pubDate:date(""M j, Y, g:i a"")}</span>
                     <h3 class=""post-title"">{title}</h3>
-                    <h4 class=""post-author"">by {author:defaultValue(""Unknown"")}</h4>
+                    <h4 class=""post-author"">Autor: {author:defaultValue(""Desconhecido"")}</h4>
                 </div>
                 <div class=""post-body"">{content:this.getBody}</div>
             </div>";
 
             this.template.Functions.Add(new JFunction
-              {
-                  Name = "getBody",
-                  Handler = "return Ext.util.Format.stripScripts(v || all.description);",
-                  Args = new string[]{"v", "all"}
-              });
+            {
+                Name = "getBody",
+                Handler = "return Ext.util.Format.stripScripts(v || all.description);",
+                Args = new string[] { "v", "all" }
+            });
 
             this.Controls.Add(this.template);
             this.LazyItems.Add(this.template);
@@ -226,11 +226,11 @@ namespace Ext.Net.Examples.FeedViewer
                         {
                             new Button
                             {
-                                Text = "Open All",
+                                Text = "Abrir Todas",
                                 QTipCfg =
                                 {
-                                    Title = "Open All", 
-                                    Text = "Opens all item in tabs"
+                                    Title = "Abrir Todas", 
+                                    Text = "Abrir todos os itens em tabs"
                                 },
                                 IconCls = "tabs",
                                 Scope = MainPanel.SCOPE,
@@ -240,11 +240,11 @@ namespace Ext.Net.Examples.FeedViewer
                             new SplitButton
                             {
                                 ID = "PreviewPlaceButton",
-                                Text = "Reading Pane",
+                                Text = "Painel de Leitura",
                                 QTipCfg =
                                     {
-                                        Title = "Reading Pane",
-                                        Text = "Show, move or hide the Reading Pane"
+                                        Title = "Painel de Leitura",
+                                        Text = "Mostrar, Esconder ou Mover o Painel de Leitura"
                                     },
                                 IconCls = "preview-bottom",
                                 Scope = MainPanel.SCOPE,
@@ -260,7 +260,7 @@ namespace Ext.Net.Examples.FeedViewer
                                         {
                                             new CheckMenuItem
                                             {
-                                                Text = "Bottom",
+                                                Text = "Inferior",
                                                 Checked = true,
                                                 Group = "rp-group",
                                                 IconCls = "preview-bottom",
@@ -269,7 +269,7 @@ namespace Ext.Net.Examples.FeedViewer
                                             },
                                             new CheckMenuItem
                                             {
-                                                Text = "Right",
+                                                Text = "Direita",
                                                 Checked = false,
                                                 Group = "rp-group",
                                                 IconCls = "preview-right",
@@ -278,7 +278,7 @@ namespace Ext.Net.Examples.FeedViewer
                                             },
                                             new CheckMenuItem
                                             {
-                                                Text = "Hide",
+                                                Text = "Desativado",
                                                 Checked = false,
                                                 Group = "rp-group",
                                                 IconCls = "preview-hide",
@@ -294,11 +294,11 @@ namespace Ext.Net.Examples.FeedViewer
                             {
                                 Pressed = true,
                                 EnableToggle = true,
-                                Text = "Summary",
+                                Text = "Sumario",
                                 QTipCfg =
                                 {
-                                    Title = "Post Summary",
-                                    Text = "View a short summary of each item in the list"
+                                    Title = "Post Sumario",
+                                    Text = "Veja um breve resumo de cada item da lista"
                                 },
                                 IconCls = "summary"
                             }
