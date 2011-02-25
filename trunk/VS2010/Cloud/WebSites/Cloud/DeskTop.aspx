@@ -460,7 +460,7 @@
             Height="600"
             PageX="25" 
             PageY="25">
-            <AutoLoad Url="http://ajaxian.com/archives/mad-cool-date-library/" Mode="IFrame" ShowMask="true" />
+            <AutoLoad Url="aplicacoes/Feed_Viewer/default.aspx" Mode="IFrame" ShowMask="true" />
         </ext:DesktopWindow>
     </form>
 </body>

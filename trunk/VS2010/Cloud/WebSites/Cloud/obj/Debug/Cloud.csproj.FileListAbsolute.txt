@@ -8,3 +8,5 @@ C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.Utilities.dll
 C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Newtonsoft.Json.dll
 C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.xml
 C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Newtonsoft.Json.xml
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.pdb
+C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.Utilities.pdb
