@@ -122,7 +122,8 @@
             runat="server" 
             BackgroundColor="Black" 
             ShortcutTextColor="White" 
-            Wallpaper="Designer/Imagens/desktop.jpg">
+            Wallpaper="Designer/Imagens/desktop.jpg"
+            >
             <StartButton Text="Start" IconCls="start-button" />
             <%-- NOTE: Body Controls must be added to a container with position:absolute --%>
   <%--          <Content>
