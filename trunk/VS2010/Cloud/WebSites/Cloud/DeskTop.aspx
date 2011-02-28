@@ -18,32 +18,33 @@
         .shortcut-icon {
             width: 48px;
             height: 48px;
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=Designer/Imagens/window.png", sizingMethod="scale");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/window.png", sizingMethod="scale");
         }
         
         .icon-grid48 {
-            background-image: url((Designer/Imagens/grid48x48.png) !important;
+            background-image: url(grid48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/grid48x48.png", sizingMethod="scale");
         }
         
         .icon-user48 {
-            background-image: url((Designer/Imagens/user48x48.png) !important;
+            background-image: url(user48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/user48x48.png", sizingMethod="scale");
         }
         
         .icon-window48 {
-            background-image: url((Designer/Imagens/window48x48.png) !important;
+            background-image: url(window48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/window48x48.png", sizingMethod="scale");
         }
         
         .icon-feed48 {
-            background-image: url((Designer/Imagens/fedd48x48.png) !important;
+            background-image: url(Designer/Imagens/fedd48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/fedd48x48.png", sizingMethod="scale");
         }
-        
+                
         .desktopEl {
             position: absolute !important;
         }
+
     </style>
     
     <script type="text/javascript">
