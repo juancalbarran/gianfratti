@@ -7,7 +7,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>Desktop - Ext.NET Examples</title>    
+    <title>Gianfratti.com</title>    
     
     <script runat="server">
         protected void Button1_Click(object sender, DirectEventArgs e)
@@ -43,7 +43,7 @@
                     ID="txtUsername" 
                     runat="server" 
                     ReadOnly="false"
-                    FieldLabel="Username" 
+                    FieldLabel="Usuário" 
                     AllowBlank="false"
                     BlankText="Digite o nome de usuário."
                     Text="Demo"
@@ -53,14 +53,14 @@
                     runat="server" 
                     ReadOnly="false"
                     InputType="Password" 
-                    FieldLabel="Password" 
+                    FieldLabel="Senha" 
                     AllowBlank="false" 
                     BlankText="Digite seua senha."
                     Text="Demo"
                     />
             </Items>
             <Buttons>
-                <ext:Button ID="Button1" runat="server" Text="Login" Icon="Accept">
+                <ext:Button ID="Button1" runat="server" Text="Acessar" Icon="Accept">
                     <DirectEvents>
                         <Click OnEvent="Button1_Click" Success="Window1.close();">
                             <EventMask ShowMask="true" Msg="Verificando..." MinDelay="1000" />
