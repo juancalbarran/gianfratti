@@ -217,11 +217,11 @@
             </Content>--%>
             <Modules>
                 <ext:DesktopModule ModuleID="DesktopModule1" WindowID="winCustomer" AutoRun="true">
-                    <Launcher ID="Launcher1" runat="server" Text="Add Customer" Icon="Add" />
+                    <Launcher ID="Launcher1" runat="server" Text="Adicionar Usuário" Icon="Add" />
                 </ext:DesktopModule>
                 
                 <ext:DesktopModule ModuleID="DesktopModule2" WindowID="winCompany" AutoRun="true">
-                    <Launcher ID="Launcher2" runat="server" Text="Company Info" Icon="Lorry" />
+                    <Launcher ID="Launcher2" runat="server" Text="Empresa" Icon="Lorry" />
                 </ext:DesktopModule>
                 
                 <ext:DesktopModule ModuleID="DesktopModule3" WindowID="FeedBrowser">
@@ -230,8 +230,8 @@
             </Modules>  
             
             <Shortcuts>
-                <ext:DesktopShortcut ModuleID="DesktopModule1" Text="Add Customer" IconCls="shortcut-icon icon-user48" />
-                <ext:DesktopShortcut ModuleID="DesktopModule2" Text="Company Info" IconCls="shortcut-icon icon-grid48" />
+                <ext:DesktopShortcut ModuleID="DesktopModule1" Text="Adicionar Usuário" IconCls="shortcut-icon icon-user48" />
+                <ext:DesktopShortcut ModuleID="DesktopModule2" Text="Empresa" IconCls="shortcut-icon icon-grid48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule3" Text="Leitor de Feed" IconCls="shortcut-icon icon-feed48" />
                 <ext:DesktopShortcut ShortcutID="scJanelasLadoLado" Text="Janelas Lado a Lado" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-90" />
                 <ext:DesktopShortcut ShortcutID="scJanelasCascata" Text="Janelas em Cascata" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-170" />
@@ -243,9 +243,9 @@
             
             <StartMenu Width="400" Height="400" ToolsWidth="227" Title="Start Menu">
                 <ToolItems>
-                    <ext:MenuItem Text="Settings" Icon="Wrench">
+                    <ext:MenuItem Text="Opções" Icon="Wrench">
                         <Listeners>
-                            <Click Handler="Ext.Msg.alert('Message', 'Settings Clicked');" />
+                            <Click Handler="Ext.Msg.alert('Message', 'Você clicou em opções');" />
                         </Listeners>
                     </ext:MenuItem>
                     <ext:MenuItem Text="Logout" Icon="Disconnect">
@@ -269,7 +269,7 @@
                                             </Commands>
                                         </ext:CommandColumn>
                                         
-                                        <ext:Column ColumnID="SearchItem" Header="SearchItem" DataIndex="SearchItem" />
+                                        <ext:Column ColumnID="SearchItem" Header="Procurar" DataIndex="SearchItem" />
                                     </Columns>
                                 </ColumnModel>
                                 <SelectionModel>
@@ -296,16 +296,16 @@
                 </ToolItems>
                 
                 <Items>
-                    <ext:MenuItem ID="MenuItem1" runat="server" Text="All" Icon="Folder" HideOnClick="false">
+                    <ext:MenuItem ID="MenuItem1" runat="server" Text="Programas" Icon="Folder" HideOnClick="false">
                         <Menu>
                             <ext:Menu ID="Menu1" runat="server">
                                 <Items>
-                                    <ext:MenuItem Text="Add Customer" Icon="Add">
+                                    <ext:MenuItem Text="Adicionar Usuário" Icon="Add">
                                         <Listeners>
                                             <Click Handler="#{winCustomer}.show();" />
                                         </Listeners>
                                     </ext:MenuItem>
-                                    <ext:MenuItem Text="Company Info" Icon="Lorry">
+                                    <ext:MenuItem Text="Empresa" Icon="Lorry">
                                         <Listeners>
                                             <Click Handler="#{winCompany}.show();" />
                                         </Listeners>
@@ -387,7 +387,7 @@
                                             customer.DateCreated,
                                             '&lt;br /&gt;&lt;br /&gt;');
                                 
-                                Ext.Msg.alert('Customer Saved', msg);
+                                Ext.Msg.alert('Usuário Salvo', msg);
                             }
                         });" />
                     </Listeners>
@@ -399,7 +399,7 @@
             ID="winCompany" 
             runat="server" 
             InitCenter="false"
-            Title="Company Info" 
+            Title="Empresa" 
             Icon="Lorry"             
             Width="550"
             Height="320"
@@ -409,12 +409,12 @@
             <TopBar>
                 <ext:Toolbar ID="ToolBar1" runat="server">
                     <Items>
-                        <ext:Button ID="btnSave" runat="server" Text="Save" Icon="Disk">
+                        <ext:Button ID="btnSave" runat="server" Text="Salvar" Icon="Disk">
                             <Listeners>
                                 <Click Handler="#{GridPanel1}.save();" />
                             </Listeners>
                         </ext:Button>
-                        <ext:Button ID="btnLoad" runat="server" Text="Reload" Icon="ArrowRefresh">
+                        <ext:Button ID="btnLoad" runat="server" Text="Atualizar" Icon="ArrowRefresh">
                             <Listeners>
                                 <Click Handler="#{GridPanel1}.load();" />
                             </Listeners>
