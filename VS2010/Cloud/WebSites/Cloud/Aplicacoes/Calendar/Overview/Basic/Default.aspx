@@ -35,7 +35,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Calendar - Ext.NET Examples</title>
+    <title>Calendario</title>
     
     <ext:ResourcePlaceHolder runat="server" Mode="Style" />
     <link rel="stylesheet" type="text/css" href="../Shared/resources/css/main.css" />
@@ -124,7 +124,7 @@
                                         <ext:Button 
                                             ID="Button1"
                                             runat="server" 
-                                            Text="Save All Events" 
+                                            Text="Salvar" 
                                             Icon="Disk" 
                                             OnClientClick="CompanyX.record.saveAll();" 
                                             />
@@ -141,10 +141,10 @@
                             Border="false">
                             <GroupStore ID="GroupStore1" runat="server">
                                 <Groups>
-                                    <ext:Group CalendarId="1" Title="Home" />
-                                    <ext:Group CalendarId="2" Title="Work" />
-                                    <ext:Group CalendarId="3" Title="School" />
-                                    <ext:Group CalendarId="4" Title="Other" />
+                                    <ext:Group CalendarId="1" Title="Casa" />
+                                    <ext:Group CalendarId="2" Title="Trabalho" />
+                                    <ext:Group CalendarId="3" Title="Escola" />
+                                    <ext:Group CalendarId="4" Title="Outro" />
                                 </Groups>
                             </GroupStore>
                             <MonthView 
