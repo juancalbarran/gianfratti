@@ -64,6 +64,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aplicacoes\Autenticar\Default.aspx" />
+    <Content Include="Aplicacoes\Calendar\config.xml" />
+    <Content Include="Aplicacoes\Calendar\Overview\Basic\config.xml" />
+    <Content Include="Aplicacoes\Calendar\Overview\Basic\Default.aspx" />
+    <Content Include="Aplicacoes\Calendar\Overview\Remote_Data\config.xml" />
+    <Content Include="Aplicacoes\Calendar\Overview\Remote_Data\Default.aspx" />
+    <Content Include="Aplicacoes\Calendar\Overview\Remote_Data\override.js" />
+    <Content Include="Aplicacoes\Calendar\Overview\Shared\Code\RemoteService.asmx" />
+    <Content Include="Aplicacoes\Calendar\Overview\Shared\Common\EventsViewer.ascx" />
+    <Content Include="Aplicacoes\Calendar\Overview\Shared\resources\css\main.css" />
+    <Content Include="Aplicacoes\Calendar\Overview\Shared\resources\js\common.js" />
     <Content Include="Aplicacoes\Desktop\Default.aspx" />
     <Content Include="Aplicacoes\Feed_Viewer\config.xml" />
     <Content Include="Aplicacoes\Feed_Viewer\Default.aspx" />
@@ -188,6 +198,18 @@
     <Compile Include="Aplicacoes\Autenticar\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Aplicacoes\Calendar\Overview\Shared\Code\Data.cs" />
+    <Compile Include="Aplicacoes\Calendar\Overview\Shared\Code\RemoteService.asmx.cs">
+      <DependentUpon>RemoteService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Aplicacoes\Calendar\Overview\Shared\Common\EventsViewer.ascx.cs">
+      <DependentUpon>EventsViewer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacoes\Calendar\Overview\Shared\Common\EventsViewer.ascx.designer.cs">
+      <DependentUpon>EventsViewer.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Aplicacoes\Desktop\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -237,6 +259,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Aplicacoes\Calendar\Overview\Shared\resources\images\" />
     <Folder Include="Designer\Templates\" />
   </ItemGroup>
   <ItemGroup>
