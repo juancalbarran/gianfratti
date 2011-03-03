@@ -84,7 +84,7 @@
                                         <ext:Button 
                                             ID="Button1"
                                             runat="server" 
-                                            Text="Save All Events" 
+                                            Text="Salvar" 
                                             Icon="Disk" 
                                             OnClientClick="CompanyX.record.saveAll();" 
                                             />
@@ -101,9 +101,9 @@
                             Border="false">
                             <GroupStore ID="GroupStore1" runat="server">
                                 <Groups>
-                                    <ext:Group CalendarId="1" Title="Home" />
-                                    <ext:Group CalendarId="2" Title="Work" />
-                                    <ext:Group CalendarId="3" Title="School" />
+                                    <ext:Group CalendarId="1" Title="Casa" />
+                                    <ext:Group CalendarId="2" Title="Trabalho" />
+                                    <ext:Group CalendarId="3" Title="Escola" />
                                 </Groups>
                             </GroupStore>
                             <EventStore ID="EventStore1" runat="server" DateFormat="M$">
