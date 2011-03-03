@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cloud.Aplicacoes.Autenticar.Default" %>
 
 <%@ Register assembly="Ext.Net" namespace="Ext.Net" tagprefix="ext" %>
 
@@ -16,7 +16,7 @@
 
             FormsAuthentication.RedirectFromLoginPage("Fabrizio", true);
             // Then user send to application
-            Response.Redirect("Desktop.aspx");
+            Response.Redirect("../Desktop.aspx");
         }
     </script>
 </head>

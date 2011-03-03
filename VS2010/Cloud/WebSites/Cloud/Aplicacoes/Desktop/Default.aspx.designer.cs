@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Cloud {
+namespace Cloud.Aplicacoes.Desktop {
     
     
-    public partial class DeskTop {
+    public partial class Default {
         
         /// <summary>
         /// Head1 control.
@@ -58,6 +58,15 @@ namespace Cloud {
         protected global::Ext.Net.Desktop MyDesktop;
         
         /// <summary>
+        /// ComponentMenuItem1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.ComponentMenuItem ComponentMenuItem1;
+        
+        /// <summary>
         /// QuickSearchGrid control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,24 @@ namespace Cloud {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Ext.Net.GridPanel QuickSearchGrid;
+        
+        /// <summary>
+        /// RowSelectionModel1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.RowSelectionModel RowSelectionModel1;
+        
+        /// <summary>
+        /// ComponentMenuItem2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.ComponentMenuItem ComponentMenuItem2;
         
         /// <summary>
         /// QuickSearchFilter control.
@@ -229,13 +256,13 @@ namespace Cloud {
         protected global::Ext.Net.GridPanel GridPanel1;
         
         /// <summary>
-        /// RowSelectionModel1 control.
+        /// RowSelectionModel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Ext.Net.RowSelectionModel RowSelectionModel1;
+        protected global::Ext.Net.RowSelectionModel RowSelectionModel2;
         
         /// <summary>
         /// PagingToolBar2 control.

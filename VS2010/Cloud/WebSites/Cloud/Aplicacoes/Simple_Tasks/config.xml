@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<example>
+	<description>		
+	</description>
+    <include>
+        <file url="Aplicacoes/Simple_Tasks/Classes/UI/TasksGrid.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/Logic/TasksGrid.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/UI/TasksTopBar.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/Logic/TasksTopBar.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/UI/TasksTree.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/Logic/TasksTree.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/UI/TaskWindow.cs" />
+        <file url="Aplicacoes/Simple_Tasks/Classes/Logic/TaskWindow.cs" />
+    </include>
+</example>

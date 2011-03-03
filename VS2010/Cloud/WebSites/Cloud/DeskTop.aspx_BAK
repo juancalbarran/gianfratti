@@ -40,6 +40,11 @@
             background-image: url(Designer/Imagens/fedd48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/fedd48x48.png", sizingMethod="scale");
         }
+        
+        .icon-Tasks {
+            background-image: url(Designer/Imagens/task48x48.png) !important;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Designer/Imagens/task48x48.png", sizingMethod="scale");
+        }
                 
         .desktopEl {
             position: absolute !important;
@@ -227,12 +232,18 @@
                 <ext:DesktopModule ModuleID="DesktopModule3" WindowID="FeedBrowser">
                     <Launcher ID="Launcher3" runat="server" Text="Leitor de Feed" Icon="Rss" />
                 </ext:DesktopModule>
+
+                <ext:DesktopModule ModuleID="DesktopModule4" WindowID="TasksBrowser">
+                    <Launcher ID="Launcher4" runat="server" Text="Tarefas" Icon="PastePlain" />
+                </ext:DesktopModule>
+
             </Modules>  
             
             <Shortcuts>
                 <ext:DesktopShortcut ModuleID="DesktopModule1" Text="Adicionar Usuário" IconCls="shortcut-icon icon-user48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule2" Text="Empresa" IconCls="shortcut-icon icon-grid48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule3" Text="Leitor de Feed" IconCls="shortcut-icon icon-feed48" />
+                <ext:DesktopShortcut ModuleID="DesktopModule4" Text="Tarefas" IconCls="shortcut-icon icon-Tasks" />
                 <ext:DesktopShortcut ShortcutID="scJanelasLadoLado" Text="Janelas Lado a Lado" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-90" />
                 <ext:DesktopShortcut ShortcutID="scJanelasCascata" Text="Janelas em Cascata" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-170" />
             </Shortcuts>
@@ -310,9 +321,14 @@
                                             <Click Handler="#{winCompany}.show();" />
                                         </Listeners>
                                     </ext:MenuItem>
-                                    <ext:MenuItem Text="Web Browser" Icon="World">
+                                    <ext:MenuItem Text="Web Browser" Icon="Feed">
                                         <Listeners>
                                             <Click Handler="#{FeedBrowser}.show();" />
+                                        </Listeners>
+                                    </ext:MenuItem>
+                                    <ext:MenuItem Text="Tarefas" Icon="PastePlain">
+                                        <Listeners>
+                                            <Click Handler="#{TasksBrowser}.show();" />
                                         </Listeners>
                                     </ext:MenuItem>
                                     <ext:MenuItem Text="Create dynamic" Icon="World">
@@ -472,6 +488,20 @@
             PageY="25">
             <AutoLoad Url="aplicacoes/Feed_Viewer/default.aspx" Mode="IFrame" ShowMask="true" />
         </ext:DesktopWindow>
+
+        <ext:DesktopWindow 
+            ID="TasksBrowser" 
+            runat="server" 
+            Title="Tarefas" 
+            Icon="PastePlain"
+            InitCenter="false"            
+            Width="1000"
+            Height="600"
+            PageX="25" 
+            PageY="25">
+            <AutoLoad Url="aplicacoes/Simple_Tasks/default.aspx" Mode="IFrame" ShowMask="true" />
+        </ext:DesktopWindow>
+
     </form>
 </body>
 </html>
