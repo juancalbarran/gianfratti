@@ -49,6 +49,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -62,6 +63,8 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aplicacoes\Autenticar\Default.aspx" />
+    <Content Include="Aplicacoes\Desktop\Default.aspx" />
     <Content Include="Aplicacoes\Feed_Viewer\config.xml" />
     <Content Include="Aplicacoes\Feed_Viewer\Default.aspx" />
     <Content Include="Aplicacoes\Feed_Viewer\resources\feed-viewer.css" />
@@ -105,6 +108,57 @@
     <Content Include="Aplicacoes\Feed_Viewer\resources\images\wait.gif" />
     <Content Include="Aplicacoes\Feed_Viewer\resources\images\warning.gif" />
     <Content Include="Aplicacoes\Feed_Viewer\resources\images\win-bg.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\config.xml" />
+    <Content Include="Aplicacoes\Simple_Tasks\Default.aspx" />
+    <Content Include="Aplicacoes\Simple_Tasks\Reset.aspx" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\bell.png" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\check.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\delete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\edit.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\hd-check.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\hrow.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-active.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-all.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-by-category.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-by-date.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-complete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-delete-task.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-filter.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-folder-delete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-folder-new.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-folder.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-list-delete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-list-new.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-list.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-mark-active.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-mark-complete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-multi-list.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-no-group.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-paste-new.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-show-active.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-show-all.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\icon-show-complete.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\loading.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\my-lists.png" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\panel-header.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\rbtn.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\reminder-hd.png" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\s.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\images\save.gif" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\main.css" />
+    <Content Include="Aplicacoes\Simple_Tasks\resources\main.js" />
+    <Content Include="App_Data\Northwind.mdf" />
+    <Content Include="App_Data\Northwind.sql" />
+    <Content Include="App_Data\Northwind_log.ldf">
+      <DependentUpon>Northwind.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Northwind_Reset.sql" />
+    <Content Include="App_Data\SimpleTasks.MDF" />
+    <Content Include="App_Data\SimpleTasks.sql" />
+    <Content Include="App_Data\SimpleTasks_log.ldf">
+      <DependentUpon>SimpleTasks.MDF</DependentUpon>
+    </Content>
+    <Content Include="App_Data\SimpleTasks_Reset.sql" />
     <Content Include="bin\Cloud.dll" />
     <Content Include="bin\Cloud.pdb" />
     <Content Include="Designer\Imagens\desktop.jpg" />
@@ -112,8 +166,7 @@
     <Content Include="Designer\Imagens\user48x48.png" />
     <Content Include="Designer\Imagens\vista_start_button.gif" />
     <Content Include="Designer\Imagens\window48x48.png" />
-    <Content Include="DeskTop.aspx" />
-    <Content Include="Login.aspx" />
+    <None Include="DeskTop.aspx_BAK" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -128,6 +181,20 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aplicacoes\Autenticar\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacoes\Autenticar\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacoes\Desktop\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacoes\Desktop\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Aplicacoes\Feed_Viewer\Classes\Logic\FeedGrid.cs" />
     <Compile Include="Aplicacoes\Feed_Viewer\Classes\Logic\FeedTree.cs" />
     <Compile Include="Aplicacoes\Feed_Viewer\Classes\Logic\FeedWindow.cs" />
@@ -141,31 +208,54 @@
       <DependentUpon>FeedProxy.ashx</DependentUpon>
     </Compile>
     <Compile Include="Aplicacoes\Feed_Viewer\WebProx.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\Logic\TasksGrid.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\Logic\TasksTopBar.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\Logic\TasksTree.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\Logic\TaskWindow.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\UI\TasksGrid.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\UI\TasksTopBar.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\UI\TasksTree.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Classes\UI\TaskWindow.cs" />
+    <Compile Include="Aplicacoes\Simple_Tasks\Code\SimpleTasks\SimpleTasks.cs">
+      <DependentUpon>SimpleTasks.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacoes\Simple_Tasks\Code\SimpleTasks\SimpleTasks.designer.cs">
+      <DependentUpon>SimpleTasks.dbml</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="DeskTop.aspx.cs">
-      <DependentUpon>DeskTop.aspx</DependentUpon>
+      <DependentUpon>DeskTop.aspx_BAK</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DeskTop.aspx.designer.cs">
-      <DependentUpon>DeskTop.aspx</DependentUpon>
+      <DependentUpon>DeskTop.aspx_BAK</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Designer\Templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aplicacoes\Feed_Viewer\FeedProxy.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aplicacoes\Simple_Tasks\Code\SimpleTasks\SimpleTasks.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SimpleTasks.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aplicacoes\Simple_Tasks\Code\SimpleTasks\SimpleTasks.dbml.layout">
+      <DependentUpon>SimpleTasks.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
