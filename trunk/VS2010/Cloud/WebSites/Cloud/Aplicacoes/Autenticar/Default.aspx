@@ -16,7 +16,7 @@
 
             FormsAuthentication.RedirectFromLoginPage("Fabrizio", true);
             // Then user send to application
-            Response.Redirect("../Desktop.aspx");
+            Response.Redirect("../Desktop/Default.aspx");
         }
     </script>
 </head>

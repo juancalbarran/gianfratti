@@ -290,5 +290,14 @@ namespace Cloud.Aplicacoes.Desktop {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Ext.Net.DesktopWindow TasksBrowser;
+        
+        /// <summary>
+        /// CalendarBrowser control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.DesktopWindow CalendarBrowser;
     }
 }

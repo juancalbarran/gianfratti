@@ -45,6 +45,11 @@
             background-image: url(Designer/Imagens/task48x48.png) !important;
             filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../Designer/Imagens/task48x48.png", sizingMethod="scale");
         }
+        
+        .icon-Calendar {
+            background-image: url(Designer/Imagens/calendar48x48.png) !important;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../Designer/Imagens/calendar48x48.png", sizingMethod="scale");
+        }
                 
         .desktopEl {
             position: absolute !important;
@@ -237,6 +242,10 @@
                     <Launcher ID="Launcher4" runat="server" Text="Tarefas" Icon="PastePlain" />
                 </ext:DesktopModule>
 
+                <ext:DesktopModule ModuleID="DesktopModule5" WindowID="CalendarBrowser">
+                    <Launcher ID="Launcher5" runat="server" Text="Calendario" Icon="Calendar" />
+                </ext:DesktopModule>
+
             </Modules>  
             
             <Shortcuts>
@@ -244,6 +253,7 @@
                 <ext:DesktopShortcut ModuleID="DesktopModule2" Text="Empresa" IconCls="shortcut-icon icon-grid48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule3" Text="Leitor de Feed" IconCls="shortcut-icon icon-feed48" />
                 <ext:DesktopShortcut ModuleID="DesktopModule4" Text="Tarefas" IconCls="shortcut-icon icon-Tasks" />
+                <ext:DesktopShortcut ModuleID="DesktopModule5" Text="Calendario" IconCls="shortcut-icon icon-Calendar" />
                 <ext:DesktopShortcut ShortcutID="scJanelasLadoLado" Text="Janelas Lado a Lado" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-90" />
                 <ext:DesktopShortcut ShortcutID="scJanelasCascata" Text="Janelas em Cascata" IconCls="shortcut-icon icon-window48" X="{DX}-90" Y="{DY}-170" />
             </Shortcuts>
@@ -329,6 +339,11 @@
                                     <ext:MenuItem Text="Tarefas" Icon="PastePlain">
                                         <Listeners>
                                             <Click Handler="#{TasksBrowser}.show();" />
+                                        </Listeners>
+                                    </ext:MenuItem>
+                                    <ext:MenuItem Text="Calendario" Icon="Calendar">
+                                        <Listeners>
+                                            <Click Handler="#{CalendarBrowser}.show();" />
                                         </Listeners>
                                     </ext:MenuItem>
                                     <ext:MenuItem Text="Create dynamic" Icon="World">
@@ -500,6 +515,19 @@
             PageX="25" 
             PageY="25">
             <AutoLoad Url="../Simple_Tasks/default.aspx" Mode="IFrame" ShowMask="true" />
+        </ext:DesktopWindow>
+
+        <ext:DesktopWindow 
+            ID="CalendarBrowser" 
+            runat="server" 
+            Title="Calendario" 
+            Icon="Calendar"
+            InitCenter="false"            
+            Width="1000"
+            Height="600"
+            PageX="25" 
+            PageY="25">
+            <AutoLoad Url="../Calendar/OverView/Basic/default.aspx" Mode="IFrame" ShowMask="true" />
         </ext:DesktopWindow>
 
     </form>
