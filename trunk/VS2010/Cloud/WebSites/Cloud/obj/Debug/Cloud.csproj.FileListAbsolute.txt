@@ -12,10 +12,10 @@ C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.pdb
 C:\Gianfratti\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.Utilities.pdb
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Cloud.dll
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Cloud.pdb
+D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\ResolveAssemblyReference.cache
+D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.dll
+D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.pdb
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.pdb
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.xml
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Ext.Net.Utilities.pdb
 D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\bin\Newtonsoft.Json.xml
-D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\ResolveAssemblyReference.cache
-D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.dll
-D:\Desenvolvimento\Projetos\VS2010\Cloud\WebSites\Cloud\obj\Debug\Cloud.pdb
