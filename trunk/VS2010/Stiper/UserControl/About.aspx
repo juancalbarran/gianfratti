@@ -1,13 +1,13 @@
-﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/MasterPage/Admin.master" AutoEventWireup="true"
+﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="About.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Nananana
+        About
     </h2>
     <p>
-       Conteudo....
+        Put content here.
     </p>
 </asp:Content>
