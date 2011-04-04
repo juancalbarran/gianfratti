@@ -12,7 +12,7 @@ public partial class _Default : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
-        var _context = new stiperEntities(); 
+        var _context = new Entidades();
         var result = from a in _context.evento select a;
 
         foreach (var item in result)
