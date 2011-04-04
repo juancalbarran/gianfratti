@@ -29,32 +29,32 @@ namespace stiperModel
     /// <summary>
     /// No Metadata Documentation available.
     /// </summary>
-    public partial class stiperEntities : ObjectContext
+    public partial class Entidades : ObjectContext
     {
         #region Constructors
     
         /// <summary>
-        /// Initializes a new stiperEntities object using the connection string found in the 'stiperEntities' section of the application configuration file.
+        /// Initializes a new Entidades object using the connection string found in the 'Entidades' section of the application configuration file.
         /// </summary>
-        public stiperEntities() : base("name=stiperEntities", "stiperEntities")
+        public Entidades() : base("name=Entidades", "Entidades")
         {
             this.ContextOptions.LazyLoadingEnabled = true;
             OnContextCreated();
         }
     
         /// <summary>
-        /// Initialize a new stiperEntities object.
+        /// Initialize a new Entidades object.
         /// </summary>
-        public stiperEntities(string connectionString) : base(connectionString, "stiperEntities")
+        public Entidades(string connectionString) : base(connectionString, "Entidades")
         {
             this.ContextOptions.LazyLoadingEnabled = true;
             OnContextCreated();
         }
     
         /// <summary>
-        /// Initialize a new stiperEntities object.
+        /// Initialize a new Entidades object.
         /// </summary>
-        public stiperEntities(EntityConnection connection) : base(connection, "stiperEntities")
+        public Entidades(EntityConnection connection) : base(connection, "Entidades")
         {
             this.ContextOptions.LazyLoadingEnabled = true;
             OnContextCreated();

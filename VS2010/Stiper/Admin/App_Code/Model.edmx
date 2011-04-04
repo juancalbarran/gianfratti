@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="stiperModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+      <Schema Namespace="stiperModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
         <EntityContainer Name="stiperModelStoreContainer">
           <EntitySet Name="evento" EntityType="stiperModel.Store.evento" store:Type="Tables" Schema="stiper" />
           <EntitySet Name="eventocadastro" EntityType="stiperModel.Store.eventocadastro" store:Type="Tables" Schema="stiper" />
@@ -139,11 +139,12 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="stiperModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
-        <EntityContainer Name="stiperEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Entidades" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="evento" EntityType="stiperModel.evento" />
           <EntitySet Name="eventocadastro" EntityType="stiperModel.eventocadastro" />
           <EntitySet Name="revendedorpf" EntityType="stiperModel.revendedorpf" />
@@ -157,119 +158,119 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Type="String" Name="Bairro" />
-          <Property Type="String" Name="CEP" />
-          <Property Type="String" Name="Cidade" />
-          <Property Type="DateTime" Name="Data" />
-          <Property Type="String" Name="Descricao" />
-          <Property Type="String" Name="Endereco" />
-          <Property Type="Int32" Name="Gratuito" />
-          <Property Type="String" Name="HoraInicio" />
-          <Property Type="String" Name="HoraTermino" />
-          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="Nome" />
-          <Property Type="String" Name="UF" />
-          <Property Type="String" Name="Valor" />
+          <Property Name="Bairro" Type="String" />
+          <Property Name="CEP" Type="String" />
+          <Property Name="Cidade" Type="String" />
+          <Property Name="Data" Type="DateTime" />
+          <Property Name="Descricao" Type="String" />
+          <Property Name="Endereco" Type="String" />
+          <Property Name="Gratuito" Type="Int32" />
+          <Property Name="HoraInicio" Type="String" />
+          <Property Name="HoraTermino" Type="String" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" />
+          <Property Name="UF" Type="String" />
+          <Property Name="Valor" Type="String" />
           <NavigationProperty Name="eventocadastro" Relationship="stiperModel.Id" FromRole="evento" ToRole="eventocadastro" />
         </EntityType>
         <EntityType Name="eventocadastro">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Type="String" Name="AreaAtuacao" />
-          <Property Type="String" Name="Bairro" />
-          <Property Type="String" Name="CEP" />
-          <Property Type="String" Name="Cidade" />
-          <Property Type="String" Name="CPF_CNPJ" />
-          <Property Type="String" Name="Email" />
-          <Property Type="String" Name="Endereco" />
-          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="Int32" Name="IdEvento" Nullable="false" />
-          <Property Type="String" Name="Nome" />
-          <Property Type="String" Name="Observacao" />
-          <Property Type="String" Name="Telefone01" />
-          <Property Type="String" Name="Telefone02" />
-          <Property Type="String" Name="UF" />
+          <Property Name="AreaAtuacao" Type="String" />
+          <Property Name="Bairro" Type="String" />
+          <Property Name="CEP" Type="String" />
+          <Property Name="Cidade" Type="String" />
+          <Property Name="CPF_CNPJ" Type="String" />
+          <Property Name="Email" Type="String" />
+          <Property Name="Endereco" Type="String" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdEvento" Type="Int32" Nullable="false" />
+          <Property Name="Nome" Type="String" />
+          <Property Name="Observacao" Type="String" />
+          <Property Name="Telefone01" Type="String" />
+          <Property Name="Telefone02" Type="String" />
+          <Property Name="UF" Type="String" />
           <NavigationProperty Name="evento" Relationship="stiperModel.Id" FromRole="eventocadastro" ToRole="evento" />
         </EntityType>
         <EntityType Name="revendedorpf">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Type="String" Name="AtividadesAtuais" />
-          <Property Type="String" Name="BairroComercial" />
-          <Property Type="String" Name="BairroResidencial" />
-          <Property Type="String" Name="CEPComercial" />
-          <Property Type="String" Name="CEPResidecial" />
-          <Property Type="String" Name="CidadeComercial" />
-          <Property Type="String" Name="CidadeResidencial" />
-          <Property Type="String" Name="CPF" />
-          <Property Type="String" Name="Curriculo" />
-          <Property Type="String" Name="Email01" />
-          <Property Type="String" Name="Email02" />
-          <Property Type="String" Name="EnderecoComercial" />
-          <Property Type="String" Name="EnderecoResidencial" />
-          <Property Type="String" Name="EstadoComercial" />
-          <Property Type="String" Name="EstadoResidencial" />
-          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="LocalAtuacao" />
-          <Property Type="String" Name="Mae" />
-          <Property Type="String" Name="Nome" />
-          <Property Type="String" Name="Observacao" />
-          <Property Type="String" Name="Pai" />
-          <Property Type="String" Name="RG" />
-          <Property Type="String" Name="RG_Expedicao" />
-          <Property Type="String" Name="Site" />
-          <Property Type="String" Name="Telefone01" />
-          <Property Type="String" Name="Telefone02" />
-          <Property Type="String" Name="Telefone03" />
+          <Property Name="AtividadesAtuais" Type="String" />
+          <Property Name="BairroComercial" Type="String" />
+          <Property Name="BairroResidencial" Type="String" />
+          <Property Name="CEPComercial" Type="String" />
+          <Property Name="CEPResidecial" Type="String" />
+          <Property Name="CidadeComercial" Type="String" />
+          <Property Name="CidadeResidencial" Type="String" />
+          <Property Name="CPF" Type="String" />
+          <Property Name="Curriculo" Type="String" />
+          <Property Name="Email01" Type="String" />
+          <Property Name="Email02" Type="String" />
+          <Property Name="EnderecoComercial" Type="String" />
+          <Property Name="EnderecoResidencial" Type="String" />
+          <Property Name="EstadoComercial" Type="String" />
+          <Property Name="EstadoResidencial" Type="String" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LocalAtuacao" Type="String" />
+          <Property Name="Mae" Type="String" />
+          <Property Name="Nome" Type="String" />
+          <Property Name="Observacao" Type="String" />
+          <Property Name="Pai" Type="String" />
+          <Property Name="RG" Type="String" />
+          <Property Name="RG_Expedicao" Type="String" />
+          <Property Name="Site" Type="String" />
+          <Property Name="Telefone01" Type="String" />
+          <Property Name="Telefone02" Type="String" />
+          <Property Name="Telefone03" Type="String" />
         </EntityType>
         <EntityType Name="revendedorpj">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Type="String" Name="Bairro" />
-          <Property Type="String" Name="CapitalSocial" />
-          <Property Type="String" Name="CEP" />
-          <Property Type="String" Name="Cidade" />
-          <Property Type="String" Name="CNPJ" />
-          <Property Type="String" Name="Curriculo" />
-          <Property Type="String" Name="Email01" />
-          <Property Type="String" Name="Email02" />
-          <Property Type="String" Name="Endereco" />
-          <Property Type="String" Name="Estado" />
-          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="String" Name="IE" />
-          <Property Type="String" Name="LocalAtuacao" />
-          <Property Type="String" Name="NomeFantasia" />
-          <Property Type="String" Name="Observacao" />
-          <Property Type="String" Name="QtdClientes" />
-          <Property Type="String" Name="QtdFuncionarios" />
-          <Property Type="String" Name="RazaoSocial" />
-          <Property Type="String" Name="RefBancaria01_Agencia" />
-          <Property Type="String" Name="RefBancaria01_Nome" />
-          <Property Type="String" Name="RefBancaria01_Telefone" />
-          <Property Type="String" Name="RefBancaria02_Agencia" />
-          <Property Type="String" Name="RefBancaria02_Nome" />
-          <Property Type="String" Name="RefBancaria02_Telefone" />
-          <Property Type="String" Name="RefComercial01_Nome" />
-          <Property Type="String" Name="RefComercial01_Telefone" />
-          <Property Type="String" Name="RefComercial02_Nome" />
-          <Property Type="String" Name="RefComercial02_Telefone" />
-          <Property Type="String" Name="Site" />
-          <Property Type="String" Name="Socio01_CPF" />
-          <Property Type="String" Name="Socio01_Endereco" />
-          <Property Type="String" Name="Socio01_Nome" />
-          <Property Type="String" Name="Socio02_CPF" />
-          <Property Type="String" Name="Socio02_Endereco" />
-          <Property Type="String" Name="Socio02_Nome" />
-          <Property Type="String" Name="Telefone01" />
-          <Property Type="String" Name="Telefone02" />
-          <Property Type="String" Name="Telefone03" />
+          <Property Name="Bairro" Type="String" />
+          <Property Name="CapitalSocial" Type="String" />
+          <Property Name="CEP" Type="String" />
+          <Property Name="Cidade" Type="String" />
+          <Property Name="CNPJ" Type="String" />
+          <Property Name="Curriculo" Type="String" />
+          <Property Name="Email01" Type="String" />
+          <Property Name="Email02" Type="String" />
+          <Property Name="Endereco" Type="String" />
+          <Property Name="Estado" Type="String" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IE" Type="String" />
+          <Property Name="LocalAtuacao" Type="String" />
+          <Property Name="NomeFantasia" Type="String" />
+          <Property Name="Observacao" Type="String" />
+          <Property Name="QtdClientes" Type="String" />
+          <Property Name="QtdFuncionarios" Type="String" />
+          <Property Name="RazaoSocial" Type="String" />
+          <Property Name="RefBancaria01_Agencia" Type="String" />
+          <Property Name="RefBancaria01_Nome" Type="String" />
+          <Property Name="RefBancaria01_Telefone" Type="String" />
+          <Property Name="RefBancaria02_Agencia" Type="String" />
+          <Property Name="RefBancaria02_Nome" Type="String" />
+          <Property Name="RefBancaria02_Telefone" Type="String" />
+          <Property Name="RefComercial01_Nome" Type="String" />
+          <Property Name="RefComercial01_Telefone" Type="String" />
+          <Property Name="RefComercial02_Nome" Type="String" />
+          <Property Name="RefComercial02_Telefone" Type="String" />
+          <Property Name="Site" Type="String" />
+          <Property Name="Socio01_CPF" Type="String" />
+          <Property Name="Socio01_Endereco" Type="String" />
+          <Property Name="Socio01_Nome" Type="String" />
+          <Property Name="Socio02_CPF" Type="String" />
+          <Property Name="Socio02_Endereco" Type="String" />
+          <Property Name="Socio02_Nome" Type="String" />
+          <Property Name="Telefone01" Type="String" />
+          <Property Name="Telefone02" Type="String" />
+          <Property Name="Telefone03" Type="String" />
         </EntityType>
         <Association Name="Id">
-          <End Type="stiperModel.evento" Role="evento" Multiplicity="1" />
-          <End Type="stiperModel.eventocadastro" Role="eventocadastro" Multiplicity="*" />
+          <End Role="evento" Type="stiperModel.evento" Multiplicity="1" />
+          <End Role="eventocadastro" Type="stiperModel.eventocadastro" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="evento">
               <PropertyRef Name="Id" />
@@ -284,123 +285,107 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="stiperModelStoreContainer" CdmEntityContainer="stiperEntities">
-          <EntitySetMapping Name="evento">
-            <EntityTypeMapping TypeName="stiperModel.evento">
-              <MappingFragment StoreEntitySet="evento">
-                <ScalarProperty Name="Valor" ColumnName="Valor" />
-                <ScalarProperty Name="UF" ColumnName="UF" />
-                <ScalarProperty Name="Nome" ColumnName="Nome" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="HoraTermino" ColumnName="HoraTermino" />
-                <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
-                <ScalarProperty Name="Gratuito" ColumnName="Gratuito" />
-                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
-                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
-                <ScalarProperty Name="Data" ColumnName="Data" />
-                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-                <ScalarProperty Name="CEP" ColumnName="CEP" />
-                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="eventocadastro">
-            <EntityTypeMapping TypeName="stiperModel.eventocadastro">
-              <MappingFragment StoreEntitySet="eventocadastro">
-                <ScalarProperty Name="UF" ColumnName="UF" />
-                <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
-                <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
-                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
-                <ScalarProperty Name="Nome" ColumnName="Nome" />
-                <ScalarProperty Name="IdEvento" ColumnName="IdEvento" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
-                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-                <ScalarProperty Name="CEP" ColumnName="CEP" />
-                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-                <ScalarProperty Name="AreaAtuacao" ColumnName="AreaAtuacao" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="revendedorpf">
-            <EntityTypeMapping TypeName="stiperModel.revendedorpf">
-              <MappingFragment StoreEntitySet="revendedorpf">
-                <ScalarProperty Name="Telefone03" ColumnName="Telefone03" />
-                <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
-                <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
-                <ScalarProperty Name="Site" ColumnName="Site" />
-                <ScalarProperty Name="RG_Expedicao" ColumnName="RG_Expedicao" />
-                <ScalarProperty Name="RG" ColumnName="RG" />
-                <ScalarProperty Name="Pai" ColumnName="Pai" />
-                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
-                <ScalarProperty Name="Nome" ColumnName="Nome" />
-                <ScalarProperty Name="Mae" ColumnName="Mae" />
-                <ScalarProperty Name="LocalAtuacao" ColumnName="LocalAtuacao" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="EstadoResidencial" ColumnName="EstadoResidencial" />
-                <ScalarProperty Name="EstadoComercial" ColumnName="EstadoComercial" />
-                <ScalarProperty Name="EnderecoResidencial" ColumnName="EnderecoResidencial" />
-                <ScalarProperty Name="EnderecoComercial" ColumnName="EnderecoComercial" />
-                <ScalarProperty Name="Email02" ColumnName="Email02" />
-                <ScalarProperty Name="Email01" ColumnName="Email01" />
-                <ScalarProperty Name="Curriculo" ColumnName="Curriculo" />
-                <ScalarProperty Name="CPF" ColumnName="CPF" />
-                <ScalarProperty Name="CidadeResidencial" ColumnName="CidadeResidencial" />
-                <ScalarProperty Name="CidadeComercial" ColumnName="CidadeComercial" />
-                <ScalarProperty Name="CEPResidecial" ColumnName="CEPResidecial" />
-                <ScalarProperty Name="CEPComercial" ColumnName="CEPComercial" />
-                <ScalarProperty Name="BairroResidencial" ColumnName="BairroResidencial" />
-                <ScalarProperty Name="BairroComercial" ColumnName="BairroComercial" />
-                <ScalarProperty Name="AtividadesAtuais" ColumnName="AtividadesAtuais" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="revendedorpj">
-            <EntityTypeMapping TypeName="stiperModel.revendedorpj">
-              <MappingFragment StoreEntitySet="revendedorpj">
-                <ScalarProperty Name="Telefone03" ColumnName="Telefone03" />
-                <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
-                <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
-                <ScalarProperty Name="Socio02_Nome" ColumnName="Socio02_Nome" />
-                <ScalarProperty Name="Socio02_Endereco" ColumnName="Socio02_Endereco" />
-                <ScalarProperty Name="Socio02_CPF" ColumnName="Socio02_CPF" />
-                <ScalarProperty Name="Socio01_Nome" ColumnName="Socio01_Nome" />
-                <ScalarProperty Name="Socio01_Endereco" ColumnName="Socio01_Endereco" />
-                <ScalarProperty Name="Socio01_CPF" ColumnName="Socio01_CPF" />
-                <ScalarProperty Name="Site" ColumnName="Site" />
-                <ScalarProperty Name="RefComercial02_Telefone" ColumnName="RefComercial02_Telefone" />
-                <ScalarProperty Name="RefComercial02_Nome" ColumnName="RefComercial02_Nome" />
-                <ScalarProperty Name="RefComercial01_Telefone" ColumnName="RefComercial01_Telefone" />
-                <ScalarProperty Name="RefComercial01_Nome" ColumnName="RefComercial01_Nome" />
-                <ScalarProperty Name="RefBancaria02_Telefone" ColumnName="RefBancaria02_Telefone" />
-                <ScalarProperty Name="RefBancaria02_Nome" ColumnName="RefBancaria02_Nome" />
-                <ScalarProperty Name="RefBancaria02_Agencia" ColumnName="RefBancaria02_Agencia" />
-                <ScalarProperty Name="RefBancaria01_Telefone" ColumnName="RefBancaria01_Telefone" />
-                <ScalarProperty Name="RefBancaria01_Nome" ColumnName="RefBancaria01_Nome" />
-                <ScalarProperty Name="RefBancaria01_Agencia" ColumnName="RefBancaria01_Agencia" />
-                <ScalarProperty Name="RazaoSocial" ColumnName="RazaoSocial" />
-                <ScalarProperty Name="QtdFuncionarios" ColumnName="QtdFuncionarios" />
-                <ScalarProperty Name="QtdClientes" ColumnName="QtdClientes" />
-                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
-                <ScalarProperty Name="NomeFantasia" ColumnName="NomeFantasia" />
-                <ScalarProperty Name="LocalAtuacao" ColumnName="LocalAtuacao" />
-                <ScalarProperty Name="IE" ColumnName="IE" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
-                <ScalarProperty Name="Email02" ColumnName="Email02" />
-                <ScalarProperty Name="Email01" ColumnName="Email01" />
-                <ScalarProperty Name="Curriculo" ColumnName="Curriculo" />
-                <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
-                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
-                <ScalarProperty Name="CEP" ColumnName="CEP" />
-                <ScalarProperty Name="CapitalSocial" ColumnName="CapitalSocial" />
-                <ScalarProperty Name="Bairro" ColumnName="Bairro" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
+        <EntityContainerMapping StorageEntityContainer="stiperModelStoreContainer" CdmEntityContainer="Entidades">
+          <EntitySetMapping Name="evento"><EntityTypeMapping TypeName="stiperModel.evento"><MappingFragment StoreEntitySet="evento">
+            <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+            <ScalarProperty Name="CEP" ColumnName="CEP" />
+            <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+            <ScalarProperty Name="Data" ColumnName="Data" />
+            <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+            <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+            <ScalarProperty Name="Gratuito" ColumnName="Gratuito" />
+            <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+            <ScalarProperty Name="HoraTermino" ColumnName="HoraTermino" />
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="Nome" ColumnName="Nome" />
+            <ScalarProperty Name="UF" ColumnName="UF" />
+            <ScalarProperty Name="Valor" ColumnName="Valor" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="eventocadastro"><EntityTypeMapping TypeName="stiperModel.eventocadastro"><MappingFragment StoreEntitySet="eventocadastro">
+            <ScalarProperty Name="AreaAtuacao" ColumnName="AreaAtuacao" />
+            <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+            <ScalarProperty Name="CEP" ColumnName="CEP" />
+            <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+            <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
+            <ScalarProperty Name="Email" ColumnName="Email" />
+            <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="IdEvento" ColumnName="IdEvento" />
+            <ScalarProperty Name="Nome" ColumnName="Nome" />
+            <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+            <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
+            <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
+            <ScalarProperty Name="UF" ColumnName="UF" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="revendedorpf"><EntityTypeMapping TypeName="stiperModel.revendedorpf"><MappingFragment StoreEntitySet="revendedorpf">
+            <ScalarProperty Name="AtividadesAtuais" ColumnName="AtividadesAtuais" />
+            <ScalarProperty Name="BairroComercial" ColumnName="BairroComercial" />
+            <ScalarProperty Name="BairroResidencial" ColumnName="BairroResidencial" />
+            <ScalarProperty Name="CEPComercial" ColumnName="CEPComercial" />
+            <ScalarProperty Name="CEPResidecial" ColumnName="CEPResidecial" />
+            <ScalarProperty Name="CidadeComercial" ColumnName="CidadeComercial" />
+            <ScalarProperty Name="CidadeResidencial" ColumnName="CidadeResidencial" />
+            <ScalarProperty Name="CPF" ColumnName="CPF" />
+            <ScalarProperty Name="Curriculo" ColumnName="Curriculo" />
+            <ScalarProperty Name="Email01" ColumnName="Email01" />
+            <ScalarProperty Name="Email02" ColumnName="Email02" />
+            <ScalarProperty Name="EnderecoComercial" ColumnName="EnderecoComercial" />
+            <ScalarProperty Name="EnderecoResidencial" ColumnName="EnderecoResidencial" />
+            <ScalarProperty Name="EstadoComercial" ColumnName="EstadoComercial" />
+            <ScalarProperty Name="EstadoResidencial" ColumnName="EstadoResidencial" />
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="LocalAtuacao" ColumnName="LocalAtuacao" />
+            <ScalarProperty Name="Mae" ColumnName="Mae" />
+            <ScalarProperty Name="Nome" ColumnName="Nome" />
+            <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+            <ScalarProperty Name="Pai" ColumnName="Pai" />
+            <ScalarProperty Name="RG" ColumnName="RG" />
+            <ScalarProperty Name="RG_Expedicao" ColumnName="RG_Expedicao" />
+            <ScalarProperty Name="Site" ColumnName="Site" />
+            <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
+            <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
+            <ScalarProperty Name="Telefone03" ColumnName="Telefone03" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="revendedorpj"><EntityTypeMapping TypeName="stiperModel.revendedorpj"><MappingFragment StoreEntitySet="revendedorpj">
+            <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+            <ScalarProperty Name="CapitalSocial" ColumnName="CapitalSocial" />
+            <ScalarProperty Name="CEP" ColumnName="CEP" />
+            <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+            <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+            <ScalarProperty Name="Curriculo" ColumnName="Curriculo" />
+            <ScalarProperty Name="Email01" ColumnName="Email01" />
+            <ScalarProperty Name="Email02" ColumnName="Email02" />
+            <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+            <ScalarProperty Name="Estado" ColumnName="Estado" />
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="IE" ColumnName="IE" />
+            <ScalarProperty Name="LocalAtuacao" ColumnName="LocalAtuacao" />
+            <ScalarProperty Name="NomeFantasia" ColumnName="NomeFantasia" />
+            <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+            <ScalarProperty Name="QtdClientes" ColumnName="QtdClientes" />
+            <ScalarProperty Name="QtdFuncionarios" ColumnName="QtdFuncionarios" />
+            <ScalarProperty Name="RazaoSocial" ColumnName="RazaoSocial" />
+            <ScalarProperty Name="RefBancaria01_Agencia" ColumnName="RefBancaria01_Agencia" />
+            <ScalarProperty Name="RefBancaria01_Nome" ColumnName="RefBancaria01_Nome" />
+            <ScalarProperty Name="RefBancaria01_Telefone" ColumnName="RefBancaria01_Telefone" />
+            <ScalarProperty Name="RefBancaria02_Agencia" ColumnName="RefBancaria02_Agencia" />
+            <ScalarProperty Name="RefBancaria02_Nome" ColumnName="RefBancaria02_Nome" />
+            <ScalarProperty Name="RefBancaria02_Telefone" ColumnName="RefBancaria02_Telefone" />
+            <ScalarProperty Name="RefComercial01_Nome" ColumnName="RefComercial01_Nome" />
+            <ScalarProperty Name="RefComercial01_Telefone" ColumnName="RefComercial01_Telefone" />
+            <ScalarProperty Name="RefComercial02_Nome" ColumnName="RefComercial02_Nome" />
+            <ScalarProperty Name="RefComercial02_Telefone" ColumnName="RefComercial02_Telefone" />
+            <ScalarProperty Name="Site" ColumnName="Site" />
+            <ScalarProperty Name="Socio01_CPF" ColumnName="Socio01_CPF" />
+            <ScalarProperty Name="Socio01_Endereco" ColumnName="Socio01_Endereco" />
+            <ScalarProperty Name="Socio01_Nome" ColumnName="Socio01_Nome" />
+            <ScalarProperty Name="Socio02_CPF" ColumnName="Socio02_CPF" />
+            <ScalarProperty Name="Socio02_Endereco" ColumnName="Socio02_Endereco" />
+            <ScalarProperty Name="Socio02_Nome" ColumnName="Socio02_Nome" />
+            <ScalarProperty Name="Telefone01" ColumnName="Telefone01" />
+            <ScalarProperty Name="Telefone02" ColumnName="Telefone02" />
+            <ScalarProperty Name="Telefone03" ColumnName="Telefone03" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -422,13 +407,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
       <Diagram Name="Model">
-        <EntityTypeShape EntityType="stiperModel.evento" Width="1.5" PointX="0.875" PointY="0.75" Height="3.7109993489583317" />
-        <EntityTypeShape EntityType="stiperModel.eventocadastro" Width="1.5" PointX="3" PointY="1" Height="3.9033007812499996" />
-        <EntityTypeShape EntityType="stiperModel.revendedorpf" Width="1.5" PointX="5.75" PointY="0.75" Height="6.21091796875" />
-        <EntityTypeShape EntityType="stiperModel.revendedorpj" Width="1.5" PointX="0.75" PointY="5.75" Height="8.3262337239583353" />
-        <AssociationConnector Association="stiperModel.Id" >
-          <ConnectorPoint PointX="2.375" PointY="2.7304996744791659" />
-          <ConnectorPoint PointX="3" PointY="2.7304996744791659" />
+        <EntityTypeShape EntityType="stiperModel.evento" Width="1.5" PointX="0.75" PointY="1.125" Height="3.7109993489583331" IsExpanded="true" />
+        <EntityTypeShape EntityType="stiperModel.eventocadastro" Width="1.5" PointX="3" PointY="1" Height="3.9033007812499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="stiperModel.revendedorpf" Width="1.5" PointX="5.75" PointY="0.75" Height="6.21091796875" IsExpanded="true" />
+        <EntityTypeShape EntityType="stiperModel.revendedorpj" Width="1.5" PointX="0.75" PointY="5.75" Height="8.3262337239583317" IsExpanded="true" />
+        <AssociationConnector Association="stiperModel.Id" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.9804996744791667" />
+          <ConnectorPoint PointX="3" PointY="2.9804996744791667" />
         </AssociationConnector>
       </Diagram>
     </Diagrams>
