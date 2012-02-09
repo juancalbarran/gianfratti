@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<belvedereSharp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" sleepTime="1">
+  <folder path="C:\Temp\Origem">
+    <rule enabled="true" confirmAction="false" recursive="false" description="TEste" allOrAny="ALL">
+      <condition element="Extension" condition="is" parameter="txt" />
+      <action action="Move file" destination="C:\Temp\Destino" />
+    </rule>
+  </folder>
+</belvedereSharp>
