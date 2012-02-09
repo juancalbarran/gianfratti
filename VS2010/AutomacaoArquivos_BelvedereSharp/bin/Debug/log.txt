@@ -1,0 +1,5 @@
+2012-01-31 09:49:44,551 [1] INFO  BelvedereSharp.Program - Detected OS: Win32NT
+2012-01-31 09:51:11,844 [1] INFO  BelvedereSharp.FormMain - File management initialized by user.
+2012-01-31 09:52:07,312 [1] INFO  BelvedereSharp.FormMain - Timer started
+2012-01-31 09:52:22,915 [1] INFO  BelvedereSharp.FormMain - Timer stopped
+2012-01-31 09:52:25,452 [1] INFO  BelvedereSharp.FormMain - Timer started

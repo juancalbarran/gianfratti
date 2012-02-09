@@ -1,0 +1,18 @@
+== 20091008 ==
+  * Initial release
+  * Implemented GUI
+  * Implemented extension is condition
+  * Implemented move file action
+
+== 20091009 ==
+  * Shamelessly modified original Belvedere artwork and included in the program
+  * Implemented name is condition
+  * Implemented copy file action
+  * Implemented send to recycle bin action
+  * Implemented custom command action
+  * Implemented timer
+  * Implemented about window
+  * Added log4net logger
+  * textBoxLog is implemented
+  * Fixed rule is being executed when it is disabled
+  * Attempted to implement tray icon, works well on Windows but not on MacOSX
